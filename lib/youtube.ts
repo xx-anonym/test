@@ -153,6 +153,12 @@ async function resolve(id: string): Promise<Entry> {
     };
   }
 
+  if (/not a bot/i.test(lastReason)) {
+    throw new UserError(
+      'YouTube blockiert gerade Anfragen von diesem Server (Bot-Schutz). Bitte später erneut versuchen.',
+      503,
+    );
+  }
   throw new UserError(`YouTube hat das Video nicht freigegeben: ${lastReason}`, 502);
 }
 

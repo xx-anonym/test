@@ -1,7 +1,7 @@
 # YT2MP3
 
 YouTube-Link einfügen, Tonspur als MP3 (128/192/320 kbit/s) oder im Originalformat speichern.
-Next.js-App für Vercel.
+Next.js-App für Vercel, live unter https://yt2mp3-lyart.vercel.app
 
 ## So funktioniert's
 
@@ -28,9 +28,9 @@ npm run build
 
 ## Bekannte Einschränkung
 
-YouTube blockiert Anfragen von Rechenzentrums-IPs (auch von Vercel) immer wieder mit
-„Sign in to confirm you're not a bot“. Dann liefert `/api/info` eine entsprechende
-Fehlermeldung. Lokal (Heim-IP) tritt das selten auf.
+YouTube blockiert Anfragen von Rechenzentrums-IPs (auch von Vercel) häufig mit
+„Sign in to confirm you're not a bot“. Die Seite zeigt dann „YouTube blockiert gerade Anfragen
+von diesem Server (Bot-Schutz)“. Lokal mit `npm run dev` (Heim-IP) tritt das selten auf.
 
 ## Rechtliches
 
