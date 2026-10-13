@@ -1,0 +1,758 @@
+{
+  "scenes": [
+    {
+      "id": "intro",
+      "title": "Was ist Erkenntnis?",
+      "segments": [
+        {
+          "text": "Athen, im Jahr 399 vor Christus. Gegen Sokrates ist Anklage erhoben worden. Bald wird er verurteilt und hingerichtet werden.",
+          "cite": "Tht. 210d"
+        },
+        {
+          "text": "An diesem Tag aber spricht er nicht über sich. Er stellt einem jungen Mathematiker eine Frage, die bis heute nicht abgeschlossen ist: Was ist Erkenntnis?",
+          "cite": "Tht. 145e–146a; 210a"
+        },
+        {
+          "text": "Platons Dialog Theaitetos gilt als die erste systematische Untersuchung des Wissensbegriffs in der europäischen Philosophie. Er prüft drei Antworten. Er widerlegt alle drei. Und er endet ohne Ergebnis.",
+          "cite": "Tht. 151e; 187b; 201c–d; 210a–b"
+        },
+        {
+          "text": "Gerade dadurch hat er die Erkenntnistheorie bis in die Gegenwart geprägt. Wir gehen den Dialog Schritt für Schritt durch: mit seinen Argumenten, mit Platons eigenen Bildern, und mit dem, was die Forschung daraus gemacht hat.",
+          "cite": ""
+        },
+        {
+          "text": "Die Angaben am unteren Bildrand belegen jede Aussage. Stellen aus Platon werden nach der üblichen Stephanus-Zählung angegeben, Zitate folgen der Übersetzung von Friedrich Schleiermacher.",
+          "cite": "Stephanus-Paginierung · Übers. F. Schleiermacher"
+        }
+      ]
+    },
+    {
+      "id": "rahmen",
+      "chapter": "I",
+      "title": "Ein Buch in Megara",
+      "steph": "142a–143c",
+      "segments": [
+        {
+          "text": "Der Dialog beginnt nicht in Athen, sondern in Megara. Eukleides, ein Freund des Sokrates, kommt vom Hafen. Dort hat er Theaitetos gesehen, der verwundet und an der Ruhr erkrankt aus dem Heerlager bei Korinth nach Athen gebracht wird.",
+          "cite": "Tht. 142a–c"
+        },
+        {
+          "text": "Eukleides erinnert sich: Sokrates hatte diesem Theaitetos, damals noch ein Junge, eine große Zukunft vorausgesagt. Er hat ihr Gespräch damals aufgeschrieben, Sokrates später mehrmals nach Einzelheiten gefragt und den Text verbessert. Nun lässt er ihn von einem Sklaven vorlesen.",
+          "cite": "Tht. 142c–143c"
+        },
+        {
+          "text": "Ein Detail ist bemerkenswert. Eukleides hat Einschübe wie „sagte ich“ oder „stimmte er zu“ gestrichen und das Gespräch als reinen Dialog niedergeschrieben. Platon lässt uns damit einen Blick in die eigene Werkstatt werfen.",
+          "cite": "Tht. 143b–c"
+        },
+        {
+          "text": "Das Hauptgespräch spielt im Jahr 399, kurz vor dem Prozess. Die Rahmenhandlung liegt viel später. Die meisten Forscher beziehen die Kämpfe bei Korinth, von denen Theaitetos zurückkehrt, auf das Jahr 369 vor Christus; erwogen wird auch 394. Gilt 369, dann ist der Dialog danach entstanden, in Platons späterer Schaffenszeit: nach der Politeia und vor Sophistes und Politikos.",
+          "cite": "Sachs 1914 nach Cornford 1935, 15; SEP (Chappell/Verde 2025); IEP; Campbell 1867"
+        },
+        {
+          "text": "Der Rahmen ist also auch ein Nachruf: auf einen Freund und bedeutenden Mathematiker, der jung gestorben ist. Wie die Geschichte ausgeht, wissen wir schon, bevor das Gespräch beginnt.",
+          "cite": "Tht. 142b–c"
+        }
+      ]
+    },
+    {
+      "id": "personen",
+      "chapter": "II",
+      "title": "Drei Personen",
+      "steph": "143d–145c",
+      "segments": [
+        {
+          "text": "Drei Personen tragen das Gespräch. Theodoros aus Kyrene ist ein älterer, berühmter Mathematiker und ein Freund des Protagoras. Er würde lieber zuhören als mitreden.",
+          "cite": "Tht. 143b; 161b; 162a"
+        },
+        {
+          "text": "Theaitetos ist sein begabtester Schüler. Theodoros lobt ihn: Er lerne schnell und sei dabei sanft und tapfer zugleich. Schön sei er allerdings nicht. Er habe eine stumpfe Nase und hervortretende Augen, ganz wie Sokrates.",
+          "cite": "Tht. 143e–144b"
+        },
+        {
+          "text": "Diese Ähnlichkeit ist kein Zufall. Ganz am Ende des Dialogs wird ausgerechnet eine stumpfe Nase darüber entscheiden, ob eine Definition der Erkenntnis taugt.",
+          "cite": "Tht. 209b–c"
+        }
+      ]
+    },
+    {
+      "id": "frage",
+      "chapter": "III",
+      "title": "Die Frage",
+      "steph": "145d–147c",
+      "segments": [
+        {
+          "text": "Sokrates gesteht, dass ihn eine kleine Frage ratlos macht: Was ist eigentlich Erkenntnis? Auf Griechisch heißt sie Epistéme.",
+          "cite": "Tht. 145e–146a"
+        },
+        {
+          "text": "Theaitetos antwortet mit Beispielen: Geometrie und die anderen Wissenschaften, die Theodoros lehrt, dazu die Schusterei und die übrigen Handwerke. Sokrates lehnt ab. Er hat nicht gefragt, wovon es Erkenntnis gibt oder wie viele Arten es gibt, sondern was Erkenntnis selbst ist.",
+          "cite": "Tht. 146c–e"
+        },
+        {
+          "text": "Er gibt ein Beispiel. Wer auf die Frage, was Lehm ist, antwortet: „Töpferlehm, Ofenlehm, Ziegellehm“, der hat nichts erklärt, denn er setzt das Wort voraus, das er erklären soll. Die einfache Antwort wäre: Lehm ist Erde, mit Flüssigkeit vermischt.",
+          "cite": "Tht. 147a–c"
+        },
+        {
+          "text": "Dahinter steht eine starke Voraussetzung: Man versteht etwas erst, wenn man das Gemeinsame aller Fälle angeben kann. Der Philosoph Peter Geach hat genau diese Voraussetzung 1966 als „sokratischen Fehlschluss“ kritisiert. Denn wir erkennen ja vieles zuverlässig, ohne es definieren zu können.",
+          "cite": "Geach 1966, The Monist 50; vgl. Burnyeat 1977, Philosophy 52"
+        }
+      ]
+    },
+    {
+      "id": "mathematik",
+      "chapter": "IV",
+      "title": "Die Wurzeln des Theodoros",
+      "steph": "147d–148d",
+      "segments": [
+        {
+          "text": "Theaitetos erinnert sich an eine Mathematikstunde. Theodoros hatte gezeigt, dass die Seite eines Quadrats mit drei oder mit fünf Quadratfuß Fläche nicht mit der Einheit von einem Fuß messbar ist. Heute würden wir sagen: Die Wurzeln aus drei und aus fünf sind irrational.",
+          "cite": "Tht. 147d"
+        },
+        {
+          "text": "So ging Theodoros jeden Fall einzeln durch, bis zur Wurzel aus siebzehn. Dort hielt er inne. Warum gerade bei siebzehn, sagt der Text nicht.",
+          "cite": "Tht. 147d"
+        },
+        {
+          "text": "Eine moderne Vermutung verbindet das mit dieser Figur, der sogenannten Spirale des Theodoros. Man setzt rechtwinklige Dreiecke aneinander, deren eine Kathete immer die Länge eins hat. Die Hypotenusen sind dann nacheinander die Wurzeln aus zwei, drei, vier und so weiter. Mit der Wurzel aus siebzehn ist die erste Umdrehung fast vollendet. Das nächste Dreieck würde das erste überdecken.",
+          "cite": "Anderhub 1941 (Joco-Seria); vgl. Bulmer-Thomas, DSB; Davis 1993"
+        },
+        {
+          "text": "Theaitetos und sein Freund, der jüngere Sokrates, wollten nicht unendlich viele Einzelfälle behandeln. Sie suchten einen Begriff für alle. Zahlen, die sich als Produkt zweier gleicher Faktoren bilden lassen, wie vier oder neun, legten sie als Quadrat und nannten sie Quadratzahlen. Alle anderen, wie drei, fünf oder sechs, lassen sich nur als Rechteck mit ungleichen Seiten legen. Diese nannten sie längliche Zahlen.",
+          "cite": "Tht. 147e–148a"
+        },
+        {
+          "text": "Die Seite eines Quadrats, dessen Fläche eine Quadratzahl ist, nannten sie Länge. Die Seite eines Quadrats, dessen Fläche eine längliche Zahl ist, nannten sie Dynamis, Potenz. Sie ist mit der Einheit nicht der Länge nach messbar, sondern nur über die Fläche, die sie erzeugt. Mit diesem einen Begriff waren unendlich viele Fälle auf einmal erfasst.",
+          "cite": "Tht. 148a–b"
+        },
+        {
+          "text": "Genau das, sagt Sokrates, soll Theaitetos nun auch mit der Erkenntnis tun: die vielen Erkenntnisse unter einen einzigen Begriff bringen.",
+          "cite": "Tht. 148d"
+        },
+        {
+          "text": "Der historische Theaitetos wurde ein bedeutender Mathematiker. Die antike Überlieferung schreibt ihm wesentliche Teile der Lehre von den irrationalen Größen zu, die in das zehnte Buch von Euklids Elementen einging. Nach der Suda schrieb er als Erster über die fünf regelmäßigen Körper; ein Scholion zu Euklids dreizehntem Buch nennt ihn für Oktaeder und Ikosaeder.",
+          "cite": "Suda θ 93; Schol. Eukl. X 9 und XIII; Pappos zu Eukl. X (nach Heath 1908)"
+        }
+      ]
+    },
+    {
+      "id": "hebamme",
+      "chapter": "V",
+      "title": "Die Hebammenkunst",
+      "steph": "148e–151d",
+      "segments": [
+        {
+          "text": "Theaitetos ist ratlos. Er findet keine Antwort und kommt doch von der Frage nicht los. Sokrates deutet das als Geburtswehen.",
+          "cite": "Tht. 148e"
+        },
+        {
+          "text": "Er sei der Sohn einer Hebamme namens Phainarete und übe selbst diese Kunst aus: an Männern statt an Frauen, an Seelen statt an Körpern. Und wie die Hebammen, die selbst keine Kinder mehr bekommen, sei er unfruchtbar an Weisheit. Darum frage er nur und behaupte selbst nichts.",
+          "cite": "Tht. 149a–150d"
+        },
+        {
+          "text": "Seine wichtigste Aufgabe sei es zu prüfen, ob das, was ein junger Geist hervorbringt, ein echtes Kind ist oder ein Trugbild, ein Windei, aus dem nie etwas schlüpft. Wer ihn zu früh verlässt, verliert, was er hervorgebracht hat.",
+          "cite": "Tht. 150b–151a"
+        },
+        {
+          "text": "Für die Forschung ist dieses Bild aufschlussreich. In den frühen Dialogen Platons kommt die Hebammenkunst nicht vor. Myles Burnyeat hat 1977 daraus geschlossen, dass sie eine Erfindung Platons ist. David Sedley nennt Sokrates darum die Hebamme des Platonismus: Er bringt Gedanken zur Welt, die erst Platon ausarbeiten wird.",
+          "cite": "Burnyeat 1977, BICS 24, 7–16; Sedley 2004"
+        },
+        {
+          "text": "Damit ist auch klar, wie der Dialog funktioniert. Jede Definition ist ein Neugeborenes, das geprüft wird. Drei werden zur Welt kommen.",
+          "cite": "Tht. 151e; 187b; 201c"
+        }
+      ]
+    },
+    {
+      "id": "def1",
+      "chapter": "VI",
+      "title": "Erkenntnis ist Wahrnehmung",
+      "steph": "151d–152c",
+      "segments": [
+        {
+          "text": "Die erste Antwort des Theaitetos lautet: Wer etwas weiß, nimmt wahr, was er weiß. Also ist Erkenntnis nichts anderes als Wahrnehmung, auf Griechisch Aisthesis.",
+          "cite": "Tht. 151e"
+        },
+        {
+          "text": "Sokrates verbindet diese Antwort sofort mit dem berühmtesten Satz des Sophisten Protagoras: Der Mensch ist das Maß aller Dinge, der seienden, wie sie sind, der nichtseienden, wie sie nicht sind.",
+          "cite": "Tht. 152a; Protagoras DK 80 B 1"
+        },
+        {
+          "text": "Gemeint ist: Wie mir jedes erscheint, so ist es für mich; und wie es dir erscheint, so ist es für dich. Sokrates nennt ein Beispiel. Derselbe Wind weht, und der eine friert, der andere nicht. Ist der Wind nun kalt?",
+          "cite": "Tht. 152a–b"
+        },
+        {
+          "text": "Nach Protagoras ist er kalt für den, der friert, und nicht kalt für den anderen. Wenn aber Erscheinen und Wahrnehmen dasselbe sind, folgt etwas Starkes: Wahrnehmung bezieht sich immer auf etwas, das ist, und sie kann sich nicht irren. Genau das erwarten wir von Erkenntnis.",
+          "cite": "Tht. 152b–c"
+        }
+      ]
+    },
+    {
+      "id": "fluss",
+      "chapter": "VII",
+      "title": "Nichts ist, alles wird",
+      "steph": "152d–155d",
+      "segments": [
+        {
+          "text": "Sokrates geht noch weiter. Hinter dem Satz des Protagoras vermutet er eine Geheimlehre. Nichts ist an und für sich eines. Nichts ist, alles wird, aus Bewegung und Vermischung. Wenn wir „ist“ sagen, reden wir ungenau, denn alles ist immer im Werden.",
+          "cite": "Tht. 152c–e"
+        },
+        {
+          "text": "Er nennt eine lange Reihe von Weisen, die so denken: Protagoras, Herakleitos und Empedokles, die Dichter Epicharmos und Homer, der den Okeanos und die Tethys als Ursprung von allem besungen hat. Nur einer stehe abseits: Parmenides.",
+          "cite": "Tht. 152e"
+        },
+        {
+          "text": "Ein Rätsel zeigt, was das bedeutet. Nimm sechs Spielsteine. Neben vier gelegt, sind sie mehr, nämlich anderthalbmal so viele. Neben zwölf gelegt, sind sie weniger, nämlich die Hälfte. Die sechs sind mehr und weniger geworden, ohne dass etwas hinzugekommen oder weggenommen worden wäre.",
+          "cite": "Tht. 154c–155c"
+        },
+        {
+          "text": "Theaitetos gesteht, ihm werde bei solchen Fragen schwindlig vor Staunen. Sokrates antwortet mit einem der berühmtesten Sätze der Philosophie: Gar sehr ist dies der Zustand eines Freundes der Weisheit, die Verwunderung. Es gibt keinen anderen Anfang der Philosophie als diesen.",
+          "cite": "Tht. 155c–d (Übers. Schleiermacher)"
+        },
+        {
+          "text": "Aristoteles nimmt diesen Gedanken zu Beginn seiner Metaphysik auf: Durch das Staunen haben die Menschen angefangen zu philosophieren, damals wie heute.",
+          "cite": "Aristoteles, Metaphysik I 2, 982b12–13"
+        }
+      ]
+    },
+    {
+      "id": "zwillinge",
+      "chapter": "VIII",
+      "title": "Die Zwillingsgeburt der Wahrnehmung",
+      "steph": "155e–157c",
+      "segments": [
+        {
+          "text": "Nun entfaltet Sokrates eine Theorie, die diese Rätsel auflösen soll. Alles ist Bewegung. Es gibt zwei Arten davon: eine, die wirken kann, und eine, die leiden kann. Wo beide zusammentreffen, entstehen Zwillinge: auf der einen Seite eine Wahrnehmung, auf der anderen das Wahrgenommene.",
+          "cite": "Tht. 156a–b"
+        },
+        {
+          "text": "Ein Auge begegnet einem Stein. Beide sind langsame Bewegungen. Zwischen ihnen entstehen zwei schnelle: Das Sehen strömt zum Auge, das Weiß zum Stein. Erst jetzt ist das Auge ein sehendes Auge und der Stein ein weißer Stein.",
+          "cite": "Tht. 156c–e"
+        },
+        {
+          "text": "Weder das Weiß noch das Sehen gibt es unabhängig von dieser Begegnung. Darum, sagt Sokrates, sollte man eigentlich nicht „ist“ sagen, sondern nur „wird“: für jemanden, von etwas, im Verhältnis zu etwas.",
+          "cite": "Tht. 157a–b"
+        },
+        {
+          "text": "Das ist eine erstaunlich moderne Idee: Farben und andere Sinnesqualitäten entstehen erst im Zusammenspiel von Wahrnehmendem und Wahrgenommenem. Ob Platon diese Theorie selbst vertritt oder sie nur als Folge der Definition durchspielt, ist in der Forschung umstritten.",
+          "cite": "Cornford 1935; Burnyeat 1990 (Einleitung); SEP"
+        }
+      ]
+    },
+    {
+      "id": "traum",
+      "chapter": "IX",
+      "title": "Wachen, Träumen, Kranksein",
+      "steph": "157e–160e",
+      "segments": [
+        {
+          "text": "Ein naheliegender Einwand: Träumende und Kranke nehmen Falsches wahr. Sokrates dreht den Einwand um. Wie willst du beweisen, ob wir in diesem Augenblick schlafen oder wach sind? Beide Zustände dauern gleich lang, und in beiden halten wir unsere Eindrücke für wahr.",
+          "cite": "Tht. 157e–158d"
+        },
+        {
+          "text": "Die Theorie hat eine elegante Antwort. Der gesunde Sokrates und der kranke Sokrates sind, streng genommen, zwei verschiedene Wahrnehmende. Derselbe Wein schmeckt dem einen süß und dem anderen bitter. Beide Wahrnehmungen sind wahr, jede für ihren Wahrnehmenden in diesem Augenblick.",
+          "cite": "Tht. 159b–e"
+        },
+        {
+          "text": "So fallen drei Thesen in eins: die Lehre von Homer und Herakleitos, dass alles fließt, der Satz des Protagoras, dass der Mensch das Maß aller Dinge ist, und die Definition des Theaitetos, dass Wahrnehmung Erkenntnis ist.",
+          "cite": "Tht. 160d–e"
+        },
+        {
+          "text": "Sokrates feiert die Geburt. Wie beim athenischen Fest der Amphidromien, bei dem man das Neugeborene um den Herd trägt, will er das Kind nun im Kreis herumtragen, um zu prüfen, ob es ein Windei ist.",
+          "cite": "Tht. 160e–161a"
+        }
+      ]
+    },
+    {
+      "id": "kritik1",
+      "chapter": "X",
+      "title": "Erste Prüfungen",
+      "steph": "161b–165e",
+      "segments": [
+        {
+          "text": "Die Prüfung beginnt mit Spott. Warum hat Protagoras nicht gleich gesagt, das Maß aller Dinge sei das Schwein oder der hundsköpfige Pavian? Und wenn jeder für sich selbst das Maß ist, warum sollte man Protagoras dann bezahlen, um von ihm zu lernen?",
+          "cite": "Tht. 161c–e"
+        },
+        {
+          "text": "Dann wird es ernst. Wer eine fremde Sprache hört oder Schriftzeichen sieht, die er nicht lesen kann, nimmt wahr, ohne zu verstehen. Und wer die Augen schließt und sich an etwas erinnert, das er gesehen hat, weiß es, obwohl er es nicht wahrnimmt.",
+          "cite": "Tht. 163b–164b"
+        },
+        {
+          "text": "Ein Streitkünstler könnte sogar fragen: Wenn ich dir ein Auge zuhalte, siehst du meinen Mantel dann mit dem anderen und siehst ihn zugleich nicht? Dann wüsstest du dasselbe und wüsstest es zugleich nicht.",
+          "cite": "Tht. 165b–d"
+        },
+        {
+          "text": "Aber Sokrates ist mit diesen Einwänden selbst nicht zufrieden. Er wirft sich vor, wie ein Wortverdreher zu argumentieren, und lässt Protagoras sich verteidigen.",
+          "cite": "Tht. 164c–d; 166a"
+        }
+      ]
+    },
+    {
+      "id": "apologie",
+      "chapter": "XI",
+      "title": "Die Verteidigung des Protagoras",
+      "steph": "166a–168c",
+      "segments": [
+        {
+          "text": "In einer langen Rede lässt Sokrates den verstorbenen Protagoras antworten. Niemand, sagt dieser, hat je falsch geurteilt. Aber manche Vorstellungen sind besser als andere.",
+          "cite": "Tht. 166a–167b"
+        },
+        {
+          "text": "Dem Kranken erscheint die Speise bitter, und für ihn ist sie es. Der Arzt macht ihn nicht klüger. Er verändert seinen Zustand, sodass ihm Besseres erscheint. So wirkt auch der Weise mit Worten auf Menschen und Städte. Was einer Stadt gerecht erscheint, ist für sie gerecht, solange sie es dafür hält. Der Weise sorgt dafür, dass ihr Nützliches statt Schädlichem gerecht erscheint.",
+          "cite": "Tht. 166e–167c"
+        },
+        {
+          "text": "Das ist eine raffinierte Position: Relativismus in Fragen der Wahrheit, aber echtes Expertentum in Fragen des Nutzens. Genau hier wird Sokrates ansetzen.",
+          "cite": "vgl. Burnyeat 1990; McDowell 1973"
+        }
+      ]
+    },
+    {
+      "id": "peritrope",
+      "chapter": "XII",
+      "title": "Die Selbstwiderlegung",
+      "steph": "169d–171d",
+      "segments": [
+        {
+          "text": "Nun folgt das berühmteste Argument des Dialogs. Protagoras sagt: Was jemandem wahr erscheint, ist für ihn wahr. Aber die meisten Menschen glauben, dass Protagoras sich irrt.",
+          "cite": "Tht. 170a–c"
+        },
+        {
+          "text": "Wenn Protagoras jede Meinung als wahr gelten lässt, muss er auch die Meinung seiner Gegner als wahr anerkennen, nämlich dass seine eigene Lehre falsch ist. Seine Lehre widerlegt sich selbst. Spätere Autoren nennen dieses Argumentmuster Peritropé, die Umwendung.",
+          "cite": "Tht. 171a–c; Sextus Empiricus, Adv. Math. VII 389–390"
+        },
+        {
+          "text": "Sokrates malt dazu ein komisches Bild: Könnte Protagoras jetzt bis zum Hals aus der Erde auftauchen, würde er uns beide hart tadeln, wieder untertauchen und davonlaufen.",
+          "cite": "Tht. 171d"
+        },
+        {
+          "text": "Trifft das Argument? Protagoras könnte sagen: Meine Lehre ist nur für mich wahr. Myles Burnyeat hat 1976 dafür argumentiert, dass ihn das nicht rettet. Wer seine Lehre anderen als wahr vorträgt und in Büchern verbreitet, beansprucht mehr als „wahr für mich“.",
+          "cite": "Burnyeat 1976, Philosophical Review 85; vgl. McDowell 1973"
+        }
+      ]
+    },
+    {
+      "id": "exkurs",
+      "chapter": "XIII",
+      "title": "Der Philosoph und die Magd",
+      "steph": "172c–177c",
+      "segments": [
+        {
+          "text": "Mitten in der Prüfung hält Sokrates inne und zeichnet zwei Lebensformen. Die Redner vor Gericht sprechen unter Zeitdruck. Die Wasseruhr läuft, der Gegner steht daneben. Sie werden scharfsinnig, aber ihre Seelen werden klein und krumm. Der Philosoph dagegen hat Muße.",
+          "cite": "Tht. 172c–173b"
+        },
+        {
+          "text": "Der Philosoph kennt nicht einmal den Weg zum Markt. Er gleicht Thales, der beim Betrachten der Sterne in einen Brunnen fiel. Eine witzige thrakische Magd soll ihn verspottet haben: Er wolle wissen, was am Himmel ist, und übersehe, was vor seinen Füßen liegt.",
+          "cite": "Tht. 173c–174a"
+        },
+        {
+          "text": "Dann folgt ein Satz von enormer Nachwirkung. Das Schlechte kann nie verschwinden. Darum muss man von hier dorthin fliehen, so schnell wie möglich. Der Weg dazu ist Verähnlichung mit Gott, soweit als möglich. Und diese Verähnlichung besteht darin, dass man gerecht und fromm sei mit Einsicht.",
+          "cite": "Tht. 176a–b (Übers. Schleiermacher)"
+        },
+        {
+          "text": "Im Mittelplatonismus wurde diese Angleichung an Gott zur Formel für das Ziel des menschlichen Lebens. Und das Bild von Thales und der Magd hat Hans Blumenberg 1987 zum Ausgangspunkt einer ganzen Geschichte der Theorie gemacht: „Das Lachen der Thrakerin“.",
+          "cite": "Alkinoos, Didaskalikos 28; Blumenberg 1987"
+        },
+        {
+          "text": "Warum steht dieser Exkurs gerade hier? Eine verbreitete Deutung: Er zeigt, was auf dem Spiel steht. Wenn der Mensch das Maß aller Dinge ist, gibt es kein Maß jenseits des Menschen, an dem man sich ausrichten könnte.",
+          "cite": "vgl. Sedley 2004; SEP"
+        }
+      ]
+    },
+    {
+      "id": "zukunft",
+      "chapter": "XIV",
+      "title": "Das Argument von der Zukunft",
+      "steph": "177c–179c",
+      "segments": [
+        {
+          "text": "Zurück zum Argument. Protagoras hatte zugestanden, dass der Weise das Nützliche besser beurteilt. Nützlich aber ist, was sich in Zukunft als gut erweisen wird.",
+          "cite": "Tht. 177c–178a"
+        },
+        {
+          "text": "Wird jemand Fieber bekommen? Der Laie meint ja, der Arzt meint nein. Kommt es, wie der Arzt gesagt hat, dann war der Arzt das bessere Maß. Ebenso beurteilt der Winzer besser als der Kitharaspieler, ob ein Wein süß werden wird.",
+          "cite": "Tht. 178b–d"
+        },
+        {
+          "text": "Und Protagoras selbst konnte besser als jeder Laie vorhersagen, welche Rede vor Gericht überzeugen wird. Für die Zukunft ist also nicht jeder das Maß. Damit ist die Lehre des Protagoras in ihrer allgemeinen Form widerlegt. Übrig bleibt nur die gegenwärtige Wahrnehmung.",
+          "cite": "Tht. 178e–179c"
+        }
+      ]
+    },
+    {
+      "id": "fluss2",
+      "chapter": "XV",
+      "title": "Wenn wirklich alles fließt",
+      "steph": "179c–184a",
+      "segments": [
+        {
+          "text": "Nun prüft Sokrates die Flusslehre selbst. Er unterscheidet zwei Arten von Bewegung: die Ortsbewegung, wenn etwas den Platz wechselt oder sich dreht, und die Veränderung, wenn etwas an seinem Ort bleibt, aber zum Beispiel schwarz statt weiß wird.",
+          "cite": "Tht. 181c–d"
+        },
+        {
+          "text": "Wenn sich alles in jeder Hinsicht bewegt, dann fließt nicht nur das weiße Ding, sondern auch das Weiß selbst. Man kann es nicht einmal mehr richtig „weiß“ nennen, denn noch während man spricht, ist es schon anders geworden.",
+          "cite": "Tht. 182c–d"
+        },
+        {
+          "text": "Dann ist Sehen nicht mehr Sehen als Nicht-Sehen. Jede Antwort ist gleich richtig, also keine. Die Anhänger dieser Lehre bräuchten eine neue Sprache. Nicht einmal „so“ dürften sie sagen, denn auch „so“ steht still. Am besten passte zu ihnen das Wort „überhaupt nicht“.",
+          "cite": "Tht. 182e–183b"
+        },
+        {
+          "text": "Die radikale Flusslehre macht also nicht nur Erkenntnis unmöglich, sondern schon das Sprechen. Die Gegenposition, die Lehre des Parmenides vom unbewegten Sein, will Sokrates nicht prüfen: Parmenides sei ihm ehrwürdig und furchtbar zugleich. Er habe ihn getroffen, als er selbst noch sehr jung war.",
+          "cite": "Tht. 183c–184a; vgl. Parmenides 127a–c"
+        }
+      ]
+    },
+    {
+      "id": "pferd",
+      "chapter": "XVI",
+      "title": "Das hölzerne Pferd",
+      "steph": "184b–186e",
+      "segments": [
+        {
+          "text": "Jetzt kommt die entscheidende Widerlegung. Sokrates fragt: Sehen wir mit den Augen oder durch die Augen? Arg wäre es, wenn viele Wahrnehmungen in uns nebeneinanderlägen wie Krieger im hölzernen Pferd und nicht alle in einer Seele zusammenliefen. Die Sinnesorgane sind Werkzeuge, durch die die Seele wahrnimmt.",
+          "cite": "Tht. 184b–d"
+        },
+        {
+          "text": "Jeder Sinn hat sein eigenes Gebiet. Was du hörst, kannst du nicht sehen, und was du siehst, nicht hören. Wenn du aber von einem Ton und einer Farbe denkst, dass beide sind, dass jedes vom anderen verschieden und mit sich selbst dasselbe ist, und dass beide zusammen zwei sind: Durch welches Organ erfasst du das?",
+          "cite": "Tht. 184e–185b"
+        },
+        {
+          "text": "Theaitetos antwortet: Für dieses Gemeinsame, für Sein und Nichtsein, Ähnlichkeit und Unähnlichkeit, Dasselbe und Verschiedenes, Einheit und Zahl, Gerade und Ungerade, gibt es kein eigenes Organ. Die Seele selbst betrachtet es, durch sich selbst.",
+          "cite": "Tht. 185c–e"
+        },
+        {
+          "text": "Das Sein aber, und damit die Wahrheit, liegt nicht in den Eindrücken, sondern im Schließen über sie. Wahrnehmung allein erreicht kein Sein und darum keine Wahrheit. Und was die Wahrheit nicht erreicht, ist keine Erkenntnis. Wahrnehmung und Erkenntnis können also niemals dasselbe sein.",
+          "cite": "Tht. 186b–e"
+        },
+        {
+          "text": "Viele Interpreten sehen hier das philosophische Herzstück des Dialogs. Erkennen heißt urteilen, und Urteilen braucht Begriffe, die nicht selbst aus einem Sinnesorgan stammen. Kant wird mehr als zweitausend Jahre später einen verwandten Gedanken so fassen: Gedanken ohne Inhalt sind leer, Anschauungen ohne Begriffe sind blind.",
+          "cite": "Burnyeat 1976, Classical Quarterly 26; Kant, KrV A 51 / B 75"
+        }
+      ]
+    },
+    {
+      "id": "def2",
+      "chapter": "XVII",
+      "title": "Erkenntnis ist wahre Meinung",
+      "steph": "187a–189b",
+      "segments": [
+        {
+          "text": "Theaitetos beginnt neu. Wenn die Seele selbst sich mit dem Seienden beschäftigt, nennt man das Meinen oder Urteilen. Da es auch falsche Meinungen gibt, schlägt er vor: Erkenntnis ist wahre Meinung.",
+          "cite": "Tht. 187a–b"
+        },
+        {
+          "text": "Sokrates lenkt das Gespräch sofort auf ein Rätsel, das ihn schon lange beunruhigt: Wie ist eine falsche Meinung überhaupt möglich?",
+          "cite": "Tht. 187c–d"
+        },
+        {
+          "text": "Erster Versuch. Alles, worüber wir urteilen, kennen wir entweder, oder wir kennen es nicht. Wer zwei Dinge kennt, kann das eine nicht für das andere halten. Wer beide nicht kennt, auch nicht, denn er hat sie gar nicht im Sinn. Und wer das eine kennt und das andere nicht, kann sie ebenfalls nicht verwechseln. Jede Möglichkeit ist versperrt.",
+          "cite": "Tht. 188a–c"
+        },
+        {
+          "text": "Zweiter Versuch. Falsch urteilen heißt, das Nichtseiende zu meinen. Aber wer etwas sieht, sieht etwas Seiendes. Wer das Nichtseiende meint, meint nichts, und wer nichts meint, meint überhaupt nicht. Auch das scheitert.",
+          "cite": "Tht. 188c–189b"
+        }
+      ]
+    },
+    {
+      "id": "dialog",
+      "chapter": "XVIII",
+      "title": "Denken als Gespräch der Seele",
+      "steph": "189b–190e",
+      "segments": [
+        {
+          "text": "Dritter Versuch. Vielleicht heißt falsch urteilen, etwas mit etwas anderem zu vertauschen. Dazu gibt Sokrates eine Bestimmung des Denkens, die berühmt geworden ist.",
+          "cite": "Tht. 189b–c"
+        },
+        {
+          "text": "Denken ist eine Rede, welche die Seele bei sich selbst durchgeht über das, was sie erforschen will. Solange sie denkt, tut sie nichts anderes, als sich zu unterreden: Sie fragt sich selbst und antwortet, bejaht und verneint. Eine Meinung ist eine ausgesprochene Rede, nicht zu einem anderen und nicht laut, sondern schweigend zu sich selbst.",
+          "cite": "Tht. 189e–190a; vgl. Sophistes 263e"
+        },
+        {
+          "text": "Aber dann wird es eng. Niemand sagt im Gespräch mit sich selbst, auch nicht im Wahnsinn: „Der Ochse ist ganz gewiss ein Pferd“ oder „Zwei ist eins“. Wer beides vor Augen hat, verwechselt es nicht. Auch die Vertauschung scheint unmöglich.",
+          "cite": "Tht. 190b–e"
+        }
+      ]
+    },
+    {
+      "id": "wachs",
+      "chapter": "XIX",
+      "title": "Die Wachstafel",
+      "steph": "191a–195b",
+      "segments": [
+        {
+          "text": "Sokrates versucht es mit einem Bild. Stell dir vor, in unseren Seelen gibt es einen Block aus Wachs, bei dem einen größer, bei dem anderen kleiner, reiner oder schmutziger, härter oder weicher. Er ist ein Geschenk der Mnemosyne, der Mutter der Musen.",
+          "cite": "Tht. 191c–d"
+        },
+        {
+          "text": "Was wir sehen, hören oder denken und behalten wollen, drücken wir in dieses Wachs, wie man mit einem Siegelring siegelt. Was sich einprägt, erinnern und wissen wir, solange sein Bild bleibt. Was verwischt oder sich nicht einprägen lässt, haben wir vergessen.",
+          "cite": "Tht. 191d–e"
+        },
+        {
+          "text": "Jetzt lässt sich der Irrtum genau verorten: nicht zwischen zwei Wahrnehmungen und nicht zwischen zwei Erinnerungen, sondern dort, wo eine Wahrnehmung einem Abdruck zugeordnet wird. Ich kenne Theodoros und Theaitetos und habe von beiden einen Abdruck. Sehe ich beide von weitem und undeutlich, kann ich den Anblick des einen in den Abdruck des anderen legen, wie wenn man Schuhe an den falschen Fuß zieht, oder wie im Spiegel, der rechts und links vertauscht.",
+          "cite": "Tht. 192a–194b"
+        },
+        {
+          "text": "Das Bild erklärt sogar Begabung. Wer tiefes, glattes, gut durchknetetes Wachs hat, lernt gut und behält gut. Ist das Herz zottig, wie Homer sagt, oder ist das Wachs schmutzig, zu weich oder zu hart, dann werden die Abdrücke undeutlich, und es kommt leicht zu Irrtümern.",
+          "cite": "Tht. 194c–195a"
+        },
+        {
+          "text": "Das Bild hat eine lange Geschichte. Aristoteles vergleicht die Wahrnehmung mit Wachs, das die Form eines Siegelrings aufnimmt, ohne dessen Eisen oder Gold. Und Sigmund Freud entwirft 1925, ohne Platon zu nennen, ein Modell des Gedächtnisses am Wunderblock, einer Schreibtafel aus Harz oder Wachs.",
+          "cite": "Aristoteles, De anima II 12, 424a17–24; Freud 1925, IZP 11, 1–5"
+        }
+      ]
+    },
+    {
+      "id": "elf",
+      "chapter": "XX",
+      "title": "Fünf und sieben",
+      "steph": "195b–196c",
+      "segments": [
+        {
+          "text": "Doch die Wachstafel hat eine Lücke. Wenn Irrtum nur dort entsteht, wo Wahrnehmung und Gedanke aufeinandertreffen, dann könnte man sich über reine Gedanken nie irren. Man könnte also nie die gedachte Elf für die gedachte Zwölf halten.",
+          "cite": "Tht. 195c–e"
+        },
+        {
+          "text": "Aber genau das passiert. Wer fünf und sieben zusammenzählt, nicht fünf Menschen und sieben Menschen, sondern die Zahlen selbst, kann meinen, die Summe sei elf. Viele, sagt Theaitetos, sagen elf. Hier wird etwas, das man weiß, mit etwas anderem verwechselt, das man ebenfalls weiß. Das Rätsel ist zurück.",
+          "cite": "Tht. 195e–196c"
+        }
+      ]
+    },
+    {
+      "id": "taubenschlag",
+      "chapter": "XXI",
+      "title": "Der Taubenschlag",
+      "steph": "196d–200d",
+      "segments": [
+        {
+          "text": "Sokrates bemerkt selbst, wie dreist das Gespräch ist. Die ganze Zeit sagen sie „wir wissen“ und „wir wissen nicht“, als verstünden sie sich, während sie doch gerade nicht wissen, was Wissen ist.",
+          "cite": "Tht. 196d–197a"
+        },
+        {
+          "text": "Er unterscheidet nun zwischen Wissen besitzen und Wissen haben. Wer einen Mantel gekauft hat, ihn aber nicht trägt, besitzt ihn, hat ihn aber nicht an. Ebenso ein Vogelfänger, der wilde Tauben in einem Taubenschlag hält: Er besitzt sie alle, in der Hand hat er nur die, die er gerade greift.",
+          "cite": "Tht. 197b–d"
+        },
+        {
+          "text": "In jeder Seele, so das Bild, gibt es einen solchen Taubenschlag. In der Kindheit ist er leer. Wer etwas lernt, fängt einen Vogel und sperrt ihn ein. Wer etwas weiß, besitzt ihn. Wer rechnet, greift hinein, um einen bestimmten Vogel herauszuholen, etwa die Zwölf.",
+          "cite": "Tht. 197d–198d"
+        },
+        {
+          "text": "Ein Irrtum wäre dann ein Fehlgriff: Man will die eine Zahl und erwischt die andere, wie wenn man statt einer Taube eine Ringeltaube fängt. Man verwechselt zwei Dinge, die man beide besitzt, ohne sie gerade in der Hand zu haben.",
+          "cite": "Tht. 199a–b"
+        },
+        {
+          "text": "Doch Sokrates sieht den Haken. Wie kann man gerade durch ein Wissen in Unwissen geraten? Theaitetos schlägt vor, im Taubenschlag auch Vögel des Unwissens unterzubringen. Aber wer ein Unwissen für ein Wissen hält, bräuchte ein weiteres Wissen über seine Wissen und Unwissen, also einen zweiten Taubenschlag, und für diesen einen dritten, ohne Ende.",
+          "cite": "Tht. 199c–200c"
+        },
+        {
+          "text": "Sokrates zieht daraus eine methodische Lehre: Wir haben nach der falschen Meinung gefragt, bevor wir wissen, was Erkenntnis ist. Das war die falsche Reihenfolge.",
+          "cite": "Tht. 200c–d"
+        }
+      ]
+    },
+    {
+      "id": "richter",
+      "chapter": "XXII",
+      "title": "Die Richter",
+      "steph": "200d–201c",
+      "segments": [
+        {
+          "text": "Bleibt die Frage, ob wahre Meinung Erkenntnis ist. Sokrates antwortet mit einem kurzen, schlagenden Beispiel. Vor Gericht überzeugen Redner die Richter in kurzer Zeit, während die Wasseruhr läuft, von etwas, das nur ein Augenzeuge wissen kann, etwa von einem Raub.",
+          "cite": "Tht. 201a–b"
+        },
+        {
+          "text": "Wenn die Richter sich so richtig überzeugen lassen, urteilen sie richtig, und sie haben eine wahre Meinung. Aber sie wissen es nicht, denn sie waren nicht dabei. Wären wahre Meinung und Erkenntnis dasselbe, könnte nicht einmal der beste Richter richtig urteilen, ohne zu wissen. Also sind sie verschieden.",
+          "cite": "Tht. 201b–c"
+        }
+      ]
+    },
+    {
+      "id": "def3",
+      "chapter": "XXIII",
+      "title": "Wahre Meinung mit Logos",
+      "steph": "201c–202d",
+      "segments": [
+        {
+          "text": "Da erinnert sich Theaitetos, von jemandem gehört zu haben: Erkenntnis ist wahre Meinung mit Erklärung, griechisch: mit Logos. Was keine Erklärung hat, sei nicht erkennbar.",
+          "cite": "Tht. 201c–d"
+        },
+        {
+          "text": "Sokrates antwortet: Höre also einen Traum für den anderen. Die ersten Urbestandteile, aus denen wir und alles andere zusammengesetzt sind, ließen keine Erklärung zu. Man könne sie nur benennen. Man dürfe nicht einmal sagen, dass sie sind, denn damit fügte man ihnen schon etwas hinzu.",
+          "cite": "Tht. 201d–202a"
+        },
+        {
+          "text": "Erst was aus ihnen zusammengesetzt ist, lässt sich erklären. Denn so, wie es selbst aus mehreren zusammengeflochten ist, sind auch seine Namen zu einer Erklärung zusammengeflochten. Verflechtung von Namen sei das Wesen der Erklärung. Die Urbestandteile wären also wahrnehmbar, aber nicht erkennbar, die Verknüpfungen dagegen erkennbar.",
+          "cite": "Tht. 202a–b"
+        },
+        {
+          "text": "Ludwig Wittgenstein zitiert diese Passage in den Philosophischen Untersuchungen, Paragraph 46. Er sieht in ihr dieselbe Idee wie in Russells Individuen und in seinen eigenen Gegenständen aus dem Tractatus: einfache Urbestandteile der Welt, die sich nur benennen lassen.",
+          "cite": "Wittgenstein, PU § 46 (vgl. § 518 zu Tht. 189a)"
+        }
+      ]
+    },
+    {
+      "id": "silben",
+      "chapter": "XXIV",
+      "title": "Buchstabe und Silbe",
+      "steph": "202d–206c",
+      "segments": [
+        {
+          "text": "Sokrates prüft den Traum am Modell der Schrift. Die Elemente sind Buchstaben, die Zusammensetzungen Silben. Die erste Silbe von Sokrates ist „So“. Was ist „So“? Ein Sigma und ein Omega.",
+          "cite": "Tht. 202e–203a"
+        },
+        {
+          "text": "Das Sigma selbst lässt sich nicht weiter erklären. Es ist ein stimmloser Laut, ein bloßes Zischen der Zunge. Und das Beta hat weder Stimme noch Geräusch. Die Buchstaben sind tatsächlich, wie der Traum sagt, ohne Erklärung.",
+          "cite": "Tht. 203b"
+        },
+        {
+          "text": "Jetzt das Dilemma. Entweder ist die Silbe dasselbe wie ihre Buchstaben. Dann kennt, wer die Silbe kennt, auch die Buchstaben, und die Elemente wären doch erkennbar. Oder die Silbe ist eine neue, einheitliche Gestalt, die aus den Buchstaben entsteht, aber selbst keine Teile hat. Dann ist sie selbst einfach und ebenso unerklärbar wie ein Element.",
+          "cite": "Tht. 203c–205e"
+        },
+        {
+          "text": "Auch die Erfahrung spricht gegen den Traum. Beim Lesenlernen und beim Musizieren lernen wir zuerst die Elemente, die Buchstaben und die Töne, und kennen sie am deutlichsten.",
+          "cite": "Tht. 206a–b"
+        },
+        {
+          "text": "Gail Fine hat 1979 aus dieser Stelle eine eigene Antwort entwickelt, ein Modell des Wissens durch Zusammenhänge: Wissen ist nicht das Erfassen isolierter Elemente. Einen Buchstaben kennt, wer ihn im Verhältnis zu den anderen erklären kann, wer also weiß, wie er sich mit ihnen verbindet.",
+          "cite": "Fine 1979, Philosophical Review 88, 366–397"
+        }
+      ]
+    },
+    {
+      "id": "logos",
+      "chapter": "XXV",
+      "title": "Drei Bedeutungen von Logos",
+      "steph": "206c–208b",
+      "segments": [
+        {
+          "text": "Was also bedeutet Logos in der Definition? Sokrates prüft drei Möglichkeiten. Erstens: seine Meinung mit der Stimme ausdrücken, sodass sie im Strom der Rede sichtbar wird wie ein Bild im Spiegel oder im Wasser. Aber das kann jeder, der nicht taub oder stumm ist. Dann wäre jede wahre Meinung schon Erkenntnis.",
+          "cite": "Tht. 206c–e"
+        },
+        {
+          "text": "Zweitens: ein Ding durch seine Elemente hindurch beschreiben. Hesiod spricht von den hundert Hölzern eines Wagens. Wir können vielleicht Räder, Achse, Wagenkasten und Joch nennen. Wer aber alle hundert Teile durchgehen kann, hätte nach dieser Deutung Erkenntnis vom Wagen.",
+          "cite": "Tht. 207a–c; Hesiod, Erga 456"
+        },
+        {
+          "text": "Doch auch das reicht nicht. Denk an einen Schüler, der den Namen Theaitetos richtig schreibt, mit Theta und Epsilon am Anfang. Soll er aber Theodoros schreiben, meint er, es beginne mit Tau und Epsilon, und schreibt es so. Beim ersten Namen hat er eine wahre Meinung und kann alle Buchstaben der Reihe nach angeben. Weiß er deshalb, wie man diese Silbe schreibt? Offensichtlich nicht.",
+          "cite": "Tht. 207d–208b"
+        }
+      ]
+    },
+    {
+      "id": "merkmal",
+      "chapter": "XXVI",
+      "title": "Das Unterscheidungsmerkmal",
+      "steph": "208b–210a",
+      "segments": [
+        {
+          "text": "Drittens: ein Merkmal angeben, durch das sich ein Ding von allen anderen unterscheidet. Die Sonne zum Beispiel ist das Hellste von allem, was am Himmel um die Erde läuft.",
+          "cite": "Tht. 208c–d"
+        },
+        {
+          "text": "Jetzt kommt die stumpfe Nase ins Spiel. Wenn ich von Theaitetos nur weiß, dass er Nase, Mund und Augen hat, unterscheide ich ihn von niemandem. Weiß ich, dass er eine stumpfe Nase und hervortretende Augen hat, reicht es auch nicht, denn das hat Sokrates ebenfalls. Erst wenn sich seine besondere Stumpfnasigkeit in mir eingeprägt hat, sodass ich ihn morgen wiedererkenne, habe ich eine wahre Meinung über Theaitetos.",
+          "cite": "Tht. 209b–c"
+        },
+        {
+          "text": "Dann aber enthält schon die wahre Meinung das Unterscheidungsmerkmal. Es noch einmal hinzuzufügen, wäre, als würde man jemandem raten, zu nehmen, was er schon hat. Sokrates nennt das den Rat eines Blinden.",
+          "cite": "Tht. 209d–e"
+        },
+        {
+          "text": "Und soll „Erklärung hinzufügen“ heißen, den Unterschied zu erkennen statt ihn nur zu meinen, dann lautet die Definition: Erkenntnis ist richtige Meinung mit Erkenntnis des Unterschieds. Die Definition enthält das Wort, das sie erklären soll. Sie dreht sich im Kreis.",
+          "cite": "Tht. 209e–210a"
+        }
+      ]
+    },
+    {
+      "id": "aporie",
+      "chapter": "XXVII",
+      "title": "Windeier",
+      "steph": "210a–d",
+      "segments": [
+        {
+          "text": "Damit ist auch die dritte Definition gescheitert. Weder Wahrnehmung noch wahre Meinung noch wahre Meinung mit Erklärung ist Erkenntnis. Alle drei Kinder waren Windeier.",
+          "cite": "Tht. 210a–b"
+        },
+        {
+          "text": "Und doch war das Gespräch nicht umsonst. Wenn Theaitetos künftig wieder schwanger wird, dann mit besseren Gedanken. Und wenn er leer bleibt, wird er anderen weniger beschwerlich sein und sanftmütiger, weil er besonnen genug ist, nicht zu glauben, dass er weiß, was er nicht weiß.",
+          "cite": "Tht. 210b–c"
+        },
+        {
+          "text": "Dann bricht Sokrates auf: Jetzt nun muss ich mich in der Königshalle einstellen wegen der Klage, welche Meletos gegen mich angestellt hat. Morgen aber wollen wir uns wieder hier treffen.",
+          "cite": "Tht. 210d (Übers. Schleiermacher)"
+        }
+      ]
+    },
+    {
+      "id": "deutung",
+      "chapter": "XXVIII",
+      "title": "Warum scheitert der Dialog?",
+      "steph": "Forschung",
+      "segments": [
+        {
+          "text": "Warum lässt Platon den Dialog scheitern? Auffällig ist: Die Ideen, die in Phaidon und Politeia das Fundament allen Wissens bilden, kommen hier nicht ausdrücklich vor.",
+          "cite": "vgl. Phaidon 74a–76e; Politeia V 476e–480a"
+        },
+        {
+          "text": "Francis Cornford gab 1935 eine einflussreiche Antwort: Der Dialog zeigt, dass Erkenntnis ohne die Ideen nicht zu bestimmen ist. Er scheitert absichtlich, weil er die Ideen weglässt.",
+          "cite": "Cornford 1935, 28; 162–163"
+        },
+        {
+          "text": "Andere, etwa Gilbert Ryle und G. E. L. Owen, sahen im späten Platon einen Denker, der seine Ideenlehre kritisch überprüft oder hinter sich lässt. Myles Burnyeat hat für den ersten Teil des Dialogs zwei Lesarten unterschieden. Nach der einen scheitert die Wahrnehmung, weil Erkenntnis die Ideen zum Gegenstand hat, wie Cornford meinte. Nach der anderen scheitert sie, weil Wahrnehmung allein nicht einmal ein einfaches Urteil fassen kann.",
+          "cite": "Ryle 1939; Owen 1953; Burnyeat 1990 (Einleitung); SEP § 3"
+        },
+        {
+          "text": "David Sedley schlägt einen dritten Weg vor. Der historische Sokrates bringt in diesem Gespräch, ohne es selbst zu wissen, Gedanken zur Welt, die erst Platon zu Ende denken wird. Der Theaitetos wäre dann Platons Blick auf die eigenen Wurzeln.",
+          "cite": "Sedley 2004; Weller 2004 (NDPR)"
+        },
+        {
+          "text": "Und der Dialog geht weiter. Am nächsten Morgen treffen sich die drei wieder, mit einem Fremden aus Elea. Im Sophistes wird das Rätsel der falschen Meinung tatsächlich gelöst. Ein falscher Satz wie „Theaitetos fliegt“ sagt nicht Nichts. Er sagt über etwas, das ist, etwas aus, das von dem, was über ihn wahr ist, verschieden ist.",
+          "cite": "Sophistes 216a; 263a–d"
+        }
+      ]
+    },
+    {
+      "id": "gettier",
+      "chapter": "XXIX",
+      "title": "Von Platon zu Gettier",
+      "steph": "Rezeption",
+      "segments": [
+        {
+          "text": "Die dritte Definition hat eine erstaunliche Karriere gemacht. Lange galt in der Erkenntnistheorie als Standardanalyse: Wissen ist gerechtfertigte, wahre Überzeugung. Viele Darstellungen führen diese Formel auf den Theaitetos zurück.",
+          "cite": "vgl. Tht. 201c–d; Menon 97e–98a"
+        },
+        {
+          "text": "Im Jahr 1963 veröffentlichte Edmund Gettier einen Aufsatz von drei Seiten: „Ist gerechtfertigte wahre Überzeugung Wissen?“ In der ersten Fußnote verweist er auf Platons Theaitetos und den Menon.",
+          "cite": "Gettier 1963, Analysis 23, 121–123"
+        },
+        {
+          "text": "Sein erstes Beispiel: Smith und Jones bewerben sich um dieselbe Stelle. Smith hat gute Gründe zu glauben, dass Jones die Stelle bekommt und dass Jones zehn Münzen in der Tasche hat. Daraus schließt er: Der Mann, der die Stelle bekommt, hat zehn Münzen in der Tasche.",
+          "cite": "Gettier 1963, Fall I"
+        },
+        {
+          "text": "Tatsächlich bekommt aber Smith die Stelle. Und ohne es zu wissen, hat auch er zehn Münzen in der Tasche. Seine Überzeugung ist wahr und gerechtfertigt. Wissen ist sie offensichtlich nicht.",
+          "cite": "Gettier 1963, Fall I"
+        },
+        {
+          "text": "Platons Logos ist allerdings nicht einfach dasselbe wie Rechtfertigung im modernen Sinn. Bei Platon geht es eher um Erklärung und Verständnis, darum, warum etwas so ist. Schon im Menon heißt es, wahre Meinungen würden erst durch Begründung der Ursache festgebunden und so zu Wissen.",
+          "cite": "Menon 97d–98a; vgl. Burnyeat 1980; Fine 1979"
+        }
+      ]
+    },
+    {
+      "id": "schluss",
+      "chapter": "XXX",
+      "title": "Was bleibt",
+      "steph": "",
+      "segments": [
+        {
+          "text": "Der Theaitetos gibt keine Definition der Erkenntnis. Aber er hinterlässt eine Landkarte. Erkenntnis ist mehr als Wahrnehmung, denn sie verlangt Urteilen. Sie ist mehr als wahre Meinung, denn man kann zufällig richtig liegen. Und sie verlangt eine Erklärung, von der wir bis heute nicht genau sagen können, worin sie besteht.",
+          "cite": "Tht. 186e; 201c; 210a–b"
+        },
+        {
+          "text": "Vielleicht ist das die eigentliche Pointe der Hebammenkunst. Ein Gespräch kann gelingen, auch wenn es kein Ergebnis hat. Es räumt falsches Wissen aus dem Weg. Und es macht uns, wie Sokrates sagt, sanftmütiger: besonnen genug, nicht zu glauben, dass wir wissen, was wir nicht wissen.",
+          "cite": "Tht. 210c"
+        }
+      ]
+    }
+  ]
+}

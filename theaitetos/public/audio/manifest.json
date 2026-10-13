@@ -1,0 +1,510 @@
+{
+ "intro-0.wav": {
+  "hash": "69d066ccd4cee20f35963be8cc5b7f93dd325b7e",
+  "seconds": 9.119183673469388
+ },
+ "intro-1.wav": {
+  "hash": "a8d91e91dfaf297d7aae8f0b84e6dd182d455556",
+  "seconds": 8.274784580498865
+ },
+ "intro-2.wav": {
+  "hash": "af55c5cb1a1614f8ef3d30fd8df3c07492d6fa21",
+  "seconds": 13.167936507936508
+ },
+ "intro-3.wav": {
+  "hash": "15a58074df1c63d890ae17e0a7192a70e3cad52b",
+  "seconds": 11.850657596371882
+ },
+ "intro-4.wav": {
+  "hash": "ca67d10a97786340ca7587dd6e046a23230a4dbb",
+  "seconds": 10.457460317460317
+ },
+ "rahmen-0.wav": {
+  "hash": "c89adb604ba01ced42d712ad1b9611872bdcc418",
+  "seconds": 13.438095238095238
+ },
+ "rahmen-1.wav": {
+  "hash": "dafe3cf3b175b432275b74b80a8cc0b90c6546a9",
+  "seconds": 16.131609977324263
+ },
+ "rahmen-2.wav": {
+  "hash": "52d165d3f90fec0d6fd06ea5bec205d02b55c78c",
+  "seconds": 12.439637188208616
+ },
+ "rahmen-3.wav": {
+  "hash": "32fa08c648bffe5ff89162025dbe580e107c8241",
+  "seconds": 27.43659863945578
+ },
+ "rahmen-4.wav": {
+  "hash": "80f38b9e04c2c268d5fbfd2767379967665f4709",
+  "seconds": 10.051111111111112
+ },
+ "personen-0.wav": {
+  "hash": "0aa3971d0b35a82cb7a19378988c99de4f908b32",
+  "seconds": 10.558820861678004
+ },
+ "personen-1.wav": {
+  "hash": "9aeadc2143bbac25118ea8b93226a77e88329a53",
+  "seconds": 14.503083900226757
+ },
+ "personen-2.wav": {
+  "hash": "b18180b1e2c1c59d7b19ea7f2290f61cbf56f4a1",
+  "seconds": 9.470612244897959
+ },
+ "frage-0.wav": {
+  "hash": "59b7c013493d2d5450837e0dca17dd7c8bd4b472",
+  "seconds": 7.125396825396826
+ },
+ "frage-1.wav": {
+  "hash": "ba95560185487a19f3dc19cc8f0c9ef3a86cffba",
+  "seconds": 17.025578231292517
+ },
+ "frage-2.wav": {
+  "hash": "2909b159400dc7fedb160967845694ae89c185e0",
+  "seconds": 14.065034013605443
+ },
+ "frage-3.wav": {
+  "hash": "363c32477a63048883d6300da403d108dd2c48ee",
+  "seconds": 18.558095238095238
+ },
+ "mathematik-0.wav": {
+  "hash": "4c67e85a049e0476878a9a560e60c4d999e7337d",
+  "seconds": 15.609160997732426
+ },
+ "mathematik-1.wav": {
+  "hash": "8761c3549140678120ef1cf3b7f246fd5b3b11d0",
+  "seconds": 8.678004535147393
+ },
+ "mathematik-2.wav": {
+  "hash": "098e7d3d7152d4527499c976839832ee57f4a2a8",
+  "seconds": 22.905578231292516
+ },
+ "mathematik-3.wav": {
+  "hash": "183ee6dbd51ef51ae0b5abbd7a7e63af64b44ba9",
+  "seconds": 24.70512471655329
+ },
+ "mathematik-4.wav": {
+  "hash": "8cf0d9065c8c408a5ac235d003793fdeb9018190",
+  "seconds": 20.05265306122449
+ },
+ "mathematik-5.wav": {
+  "hash": "b7c566fa0db4daf2f0150699ea84e1365cef673f",
+  "seconds": 7.685804988662132
+ },
+ "mathematik-6.wav": {
+  "hash": "92310aed0114af70605af5dc792d969b1de745ad",
+  "seconds": 21.135510204081633
+ },
+ "hebamme-0.wav": {
+  "hash": "7ef0d06d8926619a5ff28f44ec4eed194d65ad80",
+  "seconds": 8.21360544217687
+ },
+ "hebamme-1.wav": {
+  "hash": "16a7a594b6844f149ee12530c87c2e15586ba924",
+  "seconds": 16.328979591836735
+ },
+ "hebamme-2.wav": {
+  "hash": "7346f5c3d181dc74c3b3cb4e352f35ca086d1ac2",
+  "seconds": 12.524036281179137
+ },
+ "hebamme-3.wav": {
+  "hash": "37c3682b08800babde816661bea5096c856a66ba",
+  "seconds": 20.958231292517006
+ },
+ "hebamme-4.wav": {
+  "hash": "62575b8852f05377915bcfce1a273afef967307a",
+  "seconds": 8.480634920634921
+ },
+ "def1-0.wav": {
+  "hash": "277f61d714bb4c0bc865cb3ab49e132115b91b12",
+  "seconds": 10.329750566893424
+ },
+ "def1-1.wav": {
+  "hash": "516d08bace3687ca079594a69f52e699c7b046dc",
+  "seconds": 9.346031746031747
+ },
+ "def1-2.wav": {
+  "hash": "52cf068565070e3a47fbb661870c6ae80c85aaf8",
+  "seconds": 13.318866213151928
+ },
+ "def1-3.wav": {
+  "hash": "cd1eb3f862842a34e87a3b84d9bcfe7a3f0145b7",
+  "seconds": 14.738412698412699
+ },
+ "fluss-0.wav": {
+  "hash": "6e8e1e979561c05d0b6ec3323b1f540ddd98c0b3",
+  "seconds": 15.2778231292517
+ },
+ "fluss-1.wav": {
+  "hash": "3ac602f5c76d39cb2b501916cb7e8db812f85f2a",
+  "seconds": 13.801133786848073
+ },
+ "fluss-2.wav": {
+  "hash": "32e9cad66d9d1ea2c5b95a23b7f647a1e751c590",
+  "seconds": 18.74920634920635
+ },
+ "fluss-3.wav": {
+  "hash": "1f599506164304a53cbac0f5584b9b8fa35d3bec",
+  "seconds": 15.411791383219954
+ },
+ "fluss-4.wav": {
+  "hash": "0b1b8ce3b9d5bf2d70cfe03664233ded53a2c8b3",
+  "seconds": 8.057324263038549
+ },
+ "zwillinge-0.wav": {
+  "hash": "8bbcc7d7493eed82baf880ebee1b85ade13a1da5",
+  "seconds": 16.80185941043084
+ },
+ "zwillinge-1.wav": {
+  "hash": "3e0a755f13130ccd217c80219377257ed792a789",
+  "seconds": 13.017006802721088
+ },
+ "zwillinge-2.wav": {
+  "hash": "aa0f059d4314df6df7ed2e4308c3506f73925c91",
+  "seconds": 12.106077097505668
+ },
+ "zwillinge-3.wav": {
+  "hash": "77c45d71c997ebbf739251ea560f048222892dd8",
+  "seconds": 15.542630385487529
+ },
+ "traum-0.wav": {
+  "hash": "077bd70b77e19a60a81ba96deca987dd951c6509",
+  "seconds": 15.269342403628118
+ },
+ "traum-1.wav": {
+  "hash": "123cd267a09f163c726a05abe17d69a07a209d25",
+  "seconds": 16.058820861678004
+ },
+ "traum-2.wav": {
+  "hash": "6987c3c7e5bb72dc3ee349a87bbe25dffee1890b",
+  "seconds": 10.65795918367347
+ },
+ "traum-3.wav": {
+  "hash": "94f8c6c413decca309599eb1e6880d5630c9b65b",
+  "seconds": 10.399410430839001
+ },
+ "kritik1-0.wav": {
+  "hash": "4fdde1d6d6488c3027f07e69426d537b05253b57",
+  "seconds": 13.856054421768707
+ },
+ "kritik1-1.wav": {
+  "hash": "0ad3f49188bc9d41c61bb1d5eebd17dfdd6e7fcc",
+  "seconds": 13.171065759637187
+ },
+ "kritik1-2.wav": {
+  "hash": "d5ef853d0100263fa221d37b0acc028b3d14eec2",
+  "seconds": 10.550340136054421
+ },
+ "kritik1-3.wav": {
+  "hash": "469ecc32cb2554aa92f6acbdf8f83a21982cbfb7",
+  "seconds": 9.029433106575963
+ },
+ "apologie-0.wav": {
+  "hash": "5c9f5221e8444a6baf06858a73f0ce2f6ba9aac7",
+  "seconds": 10.779410430839002
+ },
+ "apologie-1.wav": {
+  "hash": "18425a2ebca94324bfc6f8dec6a585c9a12bdbb9",
+  "seconds": 21.38154195011338
+ },
+ "apologie-2.wav": {
+  "hash": "9c2c27250394e92f2b8554febeab9d6b4a330332",
+  "seconds": 9.16875283446712
+ },
+ "peritrope-0.wav": {
+  "hash": "a4ca43329f1c765f366773dbf5817d6c2b466092",
+  "seconds": 9.827392290249433
+ },
+ "peritrope-1.wav": {
+  "hash": "e5ec3157ccd8ed51048275bc82ee917892eead6f",
+  "seconds": 14.970612244897959
+ },
+ "peritrope-2.wav": {
+  "hash": "c080926e5e9a6f0fb5ef9157b3a0418541b0e214",
+  "seconds": 9.682721088435374
+ },
+ "peritrope-3.wav": {
+  "hash": "f8dda3ace5d71cac7d1a0b0723ea9b7f80a61048",
+  "seconds": 17.312698412698413
+ },
+ "exkurs-0.wav": {
+  "hash": "10e0ce6740c7d3dd85172c9251a91e0ae6b4eb91",
+  "seconds": 15.61451247165533
+ },
+ "exkurs-1.wav": {
+  "hash": "5c94a78df87a8ce5ca5830cdd81c5b11b0aad2d5",
+  "seconds": 14.691972789115646
+ },
+ "exkurs-2.wav": {
+  "hash": "8829d0acb5ab4ea4c6525dfc6d51830afe63f731",
+  "seconds": 16.50848072562358
+ },
+ "exkurs-3.wav": {
+  "hash": "433501d2876a88fa5d03d9e5974841c034c8df04",
+  "seconds": 15.554240362811791
+ },
+ "exkurs-4.wav": {
+  "hash": "2140013f2d931b7275c5e7428ece58b2eb348b07",
+  "seconds": 12.230657596371882
+ },
+ "zukunft-0.wav": {
+  "hash": "b45f612d288231f6fc266553e12ed66864a7c7b3",
+  "seconds": 9.618412698412698
+ },
+ "zukunft-1.wav": {
+  "hash": "622519f15f56aa2f1b4f93b9b824255bf2a8cca0",
+  "seconds": 14.270884353741497
+ },
+ "zukunft-2.wav": {
+  "hash": "a10b88a1b7bc13d9c511c09c75e7f2044641c1b8",
+  "seconds": 15.536371882086168
+ },
+ "fluss2-0.wav": {
+  "hash": "705f3c3adf7db70fedc770428e47bc367e555061",
+  "seconds": 13.731473922902495
+ },
+ "fluss2-1.wav": {
+  "hash": "5b3024876b7f06698cb6852c58e3e1032b8bf07f",
+  "seconds": 10.724489795918368
+ },
+ "fluss2-2.wav": {
+  "hash": "e7e8e859a71b57fafb5d378b09c2252fb6611344",
+  "seconds": 15.42875283446712
+ },
+ "fluss2-3.wav": {
+  "hash": "69e0e0573bb57f4171a9b1723b4bd6adb060c24c",
+  "seconds": 17.15328798185941
+ },
+ "pferd-0.wav": {
+  "hash": "466d30807458f820a42bd61f22a1d1115448a6aa",
+  "seconds": 16.894739229024943
+ },
+ "pferd-1.wav": {
+  "hash": "7d46c0ffd38446988a01771e53b8393c0a98b5a7",
+  "seconds": 16.050340136054423
+ },
+ "pferd-2.wav": {
+  "hash": "9e00bd74057434a826d4f4c0a731eee3ce1a662d",
+  "seconds": 13.394784580498866
+ },
+ "pferd-3.wav": {
+  "hash": "998edc6b88731a5bfa922173ec52fddaecd6e8f3",
+  "seconds": 16.662539682539684
+ },
+ "pferd-4.wav": {
+  "hash": "5646c448850bfdb0a5fc618cd5eac1c17157e2fd",
+  "seconds": 17.745396825396824
+ },
+ "def2-0.wav": {
+  "hash": "65fd084745aff66ecf7e10df87e82ff67862f4db",
+  "seconds": 11.673378684807256
+ },
+ "def2-1.wav": {
+  "hash": "a3ffec6b8ce158566b8fc39dd5b61ad8b78c57dc",
+  "seconds": 6.745396825396825
+ },
+ "def2-2.wav": {
+  "hash": "c0f858f0cf5d6bceee6a69158be9b576b528a10f",
+  "seconds": 19.233696145124718
+ },
+ "def2-3.wav": {
+  "hash": "e1b09259fc33316e784d9946b3177d990685436a",
+  "seconds": 13.664036281179138
+ },
+ "dialog-0.wav": {
+  "hash": "cf4334fcd346efdb3ee43c113a23c03d7b20dcf2",
+  "seconds": 9.955102040816326
+ },
+ "dialog-1.wav": {
+  "hash": "ac8576f7258989bd806f504b3e63277b6df6489a",
+  "seconds": 18.97605442176871
+ },
+ "dialog-2.wav": {
+  "hash": "9231ce39f31df6236232bf2c575e6ad9580cd84b",
+  "seconds": 12.33201814058957
+ },
+ "wachs-0.wav": {
+  "hash": "4bcddce2667b1268fe2cb232f6c367e2f8721380",
+  "seconds": 14.239183673469388
+ },
+ "wachs-1.wav": {
+  "hash": "f9f476b6409ad8a64d5c1dacd902c5771fe15cbe",
+  "seconds": 14.413333333333334
+ },
+ "wachs-2.wav": {
+  "hash": "a8d79e39b67e8a9aaef361e556e79cc543ce7729",
+  "seconds": 23.99156462585034
+ },
+ "wachs-3.wav": {
+  "hash": "19e8920f8cfd0fbb4869ce9b9634a7ae94cb0fd8",
+  "seconds": 15.504671201814059
+ },
+ "wachs-4.wav": {
+  "hash": "af7a6f3cbc35d2bbe63fa4abe98c978034a63df2",
+  "seconds": 19.010884353741496
+ },
+ "elf-0.wav": {
+  "hash": "69b6c6589121d897ee6ec96d955dcc9a501fceea",
+  "seconds": 12.706666666666667
+ },
+ "elf-1.wav": {
+  "hash": "291a2e415074029460d022c6a6351b8b58a6bf71",
+  "seconds": 19.457414965986395
+ },
+ "taubenschlag-0.wav": {
+  "hash": "aa59bbac01d18e0247ab35dd0e1e6d92d9d21c4b",
+  "seconds": 9.772471655328799
+ },
+ "taubenschlag-1.wav": {
+  "hash": "2e4cec5b45806777672993e8fa099513f4df4c23",
+  "seconds": 15.16798185941043
+ },
+ "taubenschlag-2.wav": {
+  "hash": "1a5efda97da18d9c2b774cb9745a5c14de1a67af",
+  "seconds": 16.64780045351474
+ },
+ "taubenschlag-3.wav": {
+  "hash": "d607886f1e7568bda4ea34dd29f70a534b1b37a5",
+  "seconds": 11.88548752834467
+ },
+ "taubenschlag-4.wav": {
+  "hash": "b9b244cee278d03e60298250ed2dff29c0a71af8",
+  "seconds": 19.01936507936508
+ },
+ "taubenschlag-5.wav": {
+  "hash": "d79aeb793cb5d6b430f1132b7ff90518db3c7e7c",
+  "seconds": 8.808843537414965
+ },
+ "richter-0.wav": {
+  "hash": "98b3677fcb8d38bcf1313032be52ec8eaa6f81db",
+  "seconds": 15.23764172335601
+ },
+ "richter-1.wav": {
+  "hash": "2e98e9da727aa359efcf3f935063bcd43971690a",
+  "seconds": 16.952789115646258
+ },
+ "def3-0.wav": {
+  "hash": "dfe87923143a0579c0183fc519040f30c1eacb8a",
+  "seconds": 10.225260770975057
+ },
+ "def3-1.wav": {
+  "hash": "f55422fa8056f71763b27bad985ad871bd63583c",
+  "seconds": 16.31424036281179
+ },
+ "def3-2.wav": {
+  "hash": "55951ff5560f5e86d453e311d50139af07591ae1",
+  "seconds": 19.123854875283445
+ },
+ "def3-3.wav": {
+  "hash": "82ec0bc0b8e82a036d79bed239155f3280910e9e",
+  "seconds": 15.844489795918367
+ },
+ "silben-0.wav": {
+  "hash": "4b22100546c21be4440ee3d28d77bda830541534",
+  "seconds": 12.433378684807256
+ },
+ "silben-1.wav": {
+  "hash": "6c08efd94a2adbe017d3072a28adbcd78cbec7f2",
+  "seconds": 12.970566893424037
+ },
+ "silben-2.wav": {
+  "hash": "d7eda8f8831836434a99eb44697e62256f47dc05",
+  "seconds": 21.071201814058956
+ },
+ "silben-3.wav": {
+  "hash": "7d1ea9519c565e6b4d29cd9223aca19d6cdf7ba1",
+  "seconds": 8.971383219954648
+ },
+ "silben-4.wav": {
+  "hash": "8548ca4e03a6333f0872d273195a80440b4388a3",
+  "seconds": 16.73845804988662
+ },
+ "logos-0.wav": {
+  "hash": "5cb12c200ecfaa60a0c00e5dcdbbe38e6d7353ab",
+  "seconds": 17.936507936507937
+ },
+ "logos-1.wav": {
+  "hash": "ca85fe800650e479af0eb356c8a9b99e4cf445c0",
+  "seconds": 15.50154195011338
+ },
+ "logos-2.wav": {
+  "hash": "a9dab5a613da8cc8cf669b41ecbc0b049278f245",
+  "seconds": 23.471337868480724
+ },
+ "merkmal-0.wav": {
+  "hash": "832ecbef29c8ceec01b53137d3ef677c9477c26d",
+  "seconds": 9.308072562358277
+ },
+ "merkmal-1.wav": {
+  "hash": "c46be8d550914433b81e08158a7a4c04703c6d62",
+  "seconds": 23.87233560090703
+ },
+ "merkmal-2.wav": {
+  "hash": "6600c77af96afab6f4bb0099c416c556159d2767",
+  "seconds": 11.626938775510204
+ },
+ "merkmal-3.wav": {
+  "hash": "d1f863bb67d651014292b107c4dae2a286336c41",
+  "seconds": 14.587482993197279
+ },
+ "aporie-0.wav": {
+  "hash": "8d40d811fc20b981e52afd43a9d3713f62fbb9c6",
+  "seconds": 9.711292517006802
+ },
+ "aporie-1.wav": {
+  "hash": "060a16d74542704c156c3dfa26bc46a6f28ebefa",
+  "seconds": 14.424943310657596
+ },
+ "aporie-2.wav": {
+  "hash": "16fee0d4132f8bf4cec24a50d48ed97df34a1298",
+  "seconds": 9.726031746031746
+ },
+ "deutung-0.wav": {
+  "hash": "6e6961fb6f374a4b74c61b24e063bcd3d949d179",
+  "seconds": 9.644761904761905
+ },
+ "deutung-1.wav": {
+  "hash": "cf550af7bb515ac49e137345f7f7bcbd1ae6364f",
+  "seconds": 12.18734693877551
+ },
+ "deutung-2.wav": {
+  "hash": "270a266b54d3411c396553f9ce565ea1cf5087d1",
+  "seconds": 24.394784580498865
+ },
+ "deutung-3.wav": {
+  "hash": "2cbdc9920d8d33bb4f8ef5f6f1a20bcef45cd311",
+  "seconds": 14.111473922902494
+ },
+ "deutung-4.wav": {
+  "hash": "58e8ce375d1b6859b9d240383235ef5c4bc74b28",
+  "seconds": 19.573514739229026
+ },
+ "gettier-0.wav": {
+  "hash": "10ee2272d2165ec86cb0b691987a4f58cade69cb",
+  "seconds": 13.263945578231292
+ },
+ "gettier-1.wav": {
+  "hash": "db6cef83adb566b5ff31ce470d17a53399a25093",
+  "seconds": 13.394784580498866
+ },
+ "gettier-2.wav": {
+  "hash": "e6f1a050d7ece6e393445e557558674b08a3bcb0",
+  "seconds": 15.075102040816326
+ },
+ "gettier-3.wav": {
+  "hash": "6ed59175d4559c8eb28575b8f3b8971d2fd22422",
+  "seconds": 11.310340136054421
+ },
+ "gettier-4.wav": {
+  "hash": "9782301b87aa3902f4082be2faebfeaad98d5ee9",
+  "seconds": 16.53795918367347
+ },
+ "schluss-0.wav": {
+  "hash": "7bde84706693ed44aca9df61aa092080bdc4e34e",
+  "seconds": 18.737596371882088
+ },
+ "schluss-1.wav": {
+  "hash": "7e33b557449bf89111e08e5315f644d2bd3fc409",
+  "seconds": 16.22136054421769
+ }
+}
