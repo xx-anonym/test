@@ -7,6 +7,9 @@ Theodoros, irrationale Zahlen, platonische Körper) und die Wirkungsgeschichte (
 Mittelplatonismus, Kant, Freud, Wittgenstein, Gettier) sowie die Forschungsdebatte
 (Cornford, Ryle/Owen, Burnyeat, Sedley, Fine).
 
+**Video:** [`video/Theaitetos.mp4`](video/Theaitetos.mp4) (33:56 min, 1080p, 87 MB) ·
+Untertitel: [`video/Theaitetos.srt`](video/Theaitetos.srt)
+
 Jede Aussage ist am unteren Bildrand belegt: Platon nach Stephanus-Zählung, Zitate nach
 Schleiermachers Übersetzung, griechische Originalstellen nach Burnet (Perseus), Forschung
 mit Autor und Jahr. Das vollständige Literaturverzeichnis läuft im Abspann
