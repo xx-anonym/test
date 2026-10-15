@@ -1,0 +1,7 @@
+# Rendered media and intermediate files
+media/
+audio/*.wav
+audio/narration/
+output/*.mp4
+output/*.wav
+__pycache__/
