@@ -122,7 +122,7 @@ P4 ─┘                  ├── Z4 ─────────────�
 
 | Einwand | Quelle | greift an | Kernidee |
 | --- | --- | --- | --- |
-| Heterophänomenologie / Zugänglichkeit | Dennett 1991 ⚠️ | Z2, (Z3) | Was am Fledermaus-Erleben theoretisch interessant ist, lässt sich aus der dritten Person erforschen. |
+| Heterophänomenologie / Zugänglichkeit | Dennett 1991, S. 442, 447 | Z2, (Z3) | „There is at least a lot that we can know about what it is like to be a bat“; nichts theoretisch Wichtiges sei unzugänglich. |
 | „Boring and Myopic“ | Akins 1993 ⚠️ | P2, Z3 | Neurophysiologie legt nahe, dass das Sonar-Erleben nicht gegenständlich ist; vielleicht hat die Fledermaus gar keinen Standpunkt. |
 | Gegenkritik an Akins | Allen-Hermanson 2015 | stützt P2 | Vollständigere Befundlage: Fledermäuse sind keine starren Automaten. |
 | Fähigkeitshypothese | Lewis 1988; Nemirow 1980/1990 | P5, Z3 | „Wissen, wie es ist“ = Fähigkeiten (erinnern, vorstellen, wiedererkennen), keine Tatsachenkenntnis. |

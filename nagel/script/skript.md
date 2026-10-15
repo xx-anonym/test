@@ -135,15 +135,15 @@ Wortzahl und Sprechzeit: siehe Ende der Datei.
 - **Szene:** Zwei Ebenen: oben „Alltag“ (Wasser, Blitz), unten „Wissenschaft“ (H₂O-Molekül,
   Ladungsfluss), senkrechte Pfeile verbinden sie.
 
-#### 2.2 ⚠️ (Ryle)
-> Drei Ansätze prägten die Debatte. Der Behaviorismus, etwa bei Gilbert Ryle, verstand
-> mentale Begriffe als Rede über Verhalten und Verhaltensneigungen. Die Identitätstheorie von
+#### 2.2
+> Drei Ansätze prägten die Debatte. Der Behaviorismus verstand mentale Begriffe als Rede über
+> Verhalten und Verhaltensneigungen. Die Identitätstheorie von
 > Ullin Place und J. J. C. Smart behauptete, Empfindungen seien Gehirnprozesse. Und der
 > Funktionalismus, angestoßen von Hilary Putnam, bestimmte mentale Zustände über ihre Rolle:
 > was sie auslöst und was sie bewirken, gleichgültig, aus welchem Material das System besteht.
 
-- **Beleg:** RYLE1949 ⚠️; PLACE1956; SMART1959; PUTNAM1967 · Einblendungen „Ryle 1949“,
-  „Place 1956 · Smart 1959“, „Putnam 1967“
+- **Beleg:** PLACE1956; SMART1959; PUTNAM1967 · Einblendungen „Place 1956 · Smart 1959“,
+  „Putnam 1967“
 - **Szene:** Drei Diagramme. Behaviorismus: Reiz → (gestrichelter, leerer Kasten) →
   Verhalten. Identitätstheorie: „Empfindung“ = Nervenzellmuster. Funktionalismus: Kasten mit
   Ein- und Ausgängen, darunter austauschbare Bausteine (Neuron, Siliziumchip) – dieselbe
@@ -393,7 +393,7 @@ seine Knoten hinzu (Kennung und Seite).
 > Schluss: Physiologie und Psychologie könnten das Erleben loswerden – indem sie einsehen, dass
 > es töricht sei anzunehmen, es gebe solche Dinge, oder es gebe sie nicht.
 
-- **Beleg:** FARRELL1950 S. 183, 197 · Einblendung „Farrell 1950, S. 183“ bzw. „S. 197“ ·
+- **Beleg:** FARRELL1950 S. 183, 197 · Einblendung „Farrell 1950, S. 183“ bzw. „Farrell 1950, S. 197“ ·
   Zitat: „I wonder what it would be like to be, and hear like, a bat.“
 - **Szene:** Zeitleiste mit 1909, 1950, 1971, 1974. Bei 1950 Farrells Satz als Zitatkarte,
   daneben eine Waage, die zu „kein Problem“ kippt.
@@ -418,7 +418,7 @@ seine Knoten hinzu (Kennung und Seite).
 > das linke Feld unseres Bildes und lässt das rechte bewusst leer.
 
 - **Beleg:** UEXKUELL1909 S. 5–6, 212; SCHNITZLER2001 S. 558 (Reichweite) · Einblendungen
-  „Uexküll 1909, S. 6“ · „S. 212“ · Zitate (gemeinfrei): „der Standpunkt des Tieres der allein
+  „Uexküll 1909, S. 6“ · „Uexküll 1909, S. 212“ · Zitate (gemeinfrei): „der Standpunkt des Tieres der allein
   ausschlaggebende“; „wie die Mauern eines selbstgebauten Hauses“
 - **Szene:** Uexküll-Filter. Eine Gartenszene am Abend (Baum, Teich, Insekten, Mauer), erst in
   menschlicher Sicht (Farben, Fernsicht). Dann dieselbe Szene als Echo-Welt: keine Farben, nur
@@ -426,11 +426,6 @@ seine Knoten hinzu (Kennung und Seite).
   jenseits weniger Meter liegt, verschwindet. Beschriftung: „Darstellung dessen, was das Sonar
   *misst* – nicht, wie es sich anfühlt.“ Zum Schluss das Leitmotiv: Uexkülls Umwelt landet im
   linken Feld, das rechte bleibt dunkel.
-
-*Optional ⚠️ (nicht in der Wortzählung; nur nach Freigabe):* „Bekannt ist auch Ludwig
-Wittgensteins Satz: ‚Wenn ein Löwe sprechen könnte, wir könnten ihn nicht verstehn.‘ Er zielt
-aber auf Sprache und Lebensform, nicht auf Erlebnisqualitäten, und seine Deutung ist
-umstritten.“ – Beleg: WITTGENSTEIN1953 ⚠️.
 
 ---
 
@@ -499,17 +494,19 @@ Knoten, den er angreift (Tabelle in `research/argument.md`).
 - **Beleg:** –
 - **Szene:** Argumentbaum im Überblick.
 
-#### 8.2 ⚠️
-> Daniel Dennett, in Nagels erster Fußnote unter den Reduktionisten genannt, hält das Erleben
-> der Fledermaus für erforschbar. In „Consciousness Explained“ von 1991 argumentiert er, die
-> Struktur des Geistes einer Fledermaus sei ebenso zugänglich wie die Struktur ihres
-> Verdauungssystems. Was an ihrem Erleben theoretisch interessant ist, lasse sich von außen
-> ermitteln. Angegriffen wird der Schritt, uns bleibe nur eine schematische Vorstellung.
+#### 8.2
+> Daniel Dennett, in Nagels erster Fußnote unter den Reduktionisten genannt, widerspricht
+> frontal. Nagel behaupte, kein Wissen aus der dritten Person könne uns sagen, wie es ist, eine
+> Fledermaus zu sein, schreibt Dennett 1991, und diese Behauptung bestreite er rundweg. Wir
+> könnten eine Menge darüber wissen, wie es ist, eine Fledermaus zu sein; die Struktur ihres
+> Geistes sei ebenso zugänglich wie die Struktur ihres Verdauungssystems. Angegriffen wird der
+> Schritt, uns bleibe nur eine schematische Vorstellung.
 
-- **Beleg:** DENNETT1991 S. 441–448 ⚠️ (Zitat S. 447 nach SALZANI2022, S. 89; übrige Aussage
-  nach Wikipedia) · Einblendung „Dennett 1991, S. 447 (nach Salzani 2022)“
+- **Beleg:** DENNETT1991 S. 442, 447 ✅ · Einblendung „Dennett 1991, S. 442, 447“ · Zitat:
+  „…and I flatly deny that claim.“
 - **Szene:** Roter Pfeil auf Z2. Links füllt sich ein Fledermausdiagramm mit Daten (Verhalten,
-  Neurone) – Dennetts Programm.
+  Neurone) – Dennetts Programm: Untersuchung von außen, hin und her zwischen dem, was das
+  Tier verarbeitet, und der Welt, aus der es stammt.
 
 #### 8.3 ⚠️
 > Kathleen Akins prüfte das 1993 an der Schnurrbartfledermaus, mit überraschendem Ergebnis.
@@ -836,31 +833,21 @@ sind eigene Übersetzungen“, Hinweis auf die deutsche Übersetzung von Ulrich 
 
 ---
 
-## Offene Fragen an dich
+## Entscheidungen zur Freigabe (16.10.2026)
 
-1. **Dennett 1991 (8.2, ⚠️):** Das Buch war online nicht einsehbar. Das Zitat (S. 447) ist
-   über Salzani 2022 belegt, die Gesamtaussage über Wikipedia. Kannst du S. 441–448 prüfen,
-   oder soll der Absatz so markiert bleiben?
-2. **Akins 1993 (8.3, ⚠️):** belegt über zwei voneinander unabhängige Sekundärquellen, die
-   dieselbe Stelle (S. 147) wörtlich zitieren. Reicht dir das?
-3. **Griffins „paralytic perfectionism“ (9.8, ⚠️):** nur über Salzani 2022. Behalten oder
-   streichen?
-4. **Wittgensteins Löwe (Kap. 6, optional ⚠️):** Wortlaut und Stelle nur sekundär geprüft,
-   Deutung umstritten. Mein Vorschlag: weglassen.
-5. **Sprigge (6.2):** Dass Sprigge die Formel vorschlug, bestätigt Nagel 2024 selbst; den
-   genauen Wortlaut kenne ich nur aus Seager 2011. Einverstanden?
-6. **Ryle (2.2, ⚠️):** Einordnung als Behaviorist nach Sekundärquellen. Alternative: den Namen
-   weglassen und nur „der Behaviorismus“ sagen.
-7. **Stimme:** Zwei lokale Varianten, Hörproben in `audio/stimmproben/`.
-   (a) Piper `de_DE-thorsten-high`: etwas natürlicher, aber vom englischen „lessac“-Modell
-   abgeleitet, dessen Datensatz nur für Forschung lizenziert ist.
-   (b) Coqui `de/thorsten/vits`: Apache 2.0 auf CC0-Daten, lizenzrechtlich sauber; spricht
-   etwa 10 % langsamer (über die Geschwindigkeit ausgleichbar).
-   Mein Vorschlag: (b), wenn dir der Klang reicht. In der Umgebung liegt kein TTS-API-Key,
-   ein Bezahldienst kommt also nur infrage, wenn du einen bereitstellst.
+Skript freigegeben. Entscheidungen zu den offenen Fragen:
 
-Erledigt: Das Hörbeispiel (9.5) ist die CC0-Aufnahme „Bat feeding buzz“ (Kaldari 2020);
-Analyse in `research/quellen.md`, Abschnitt I.
+1. **Dennett 1991 (8.2):** S. 441–448 als Buchfotos nachgereicht und geprüft; Absatz an
+   Dennetts Wortlaut angepasst (S. 442, 447), Markierung entfernt.
+2. **Akins 1993 (8.3):** Beleg über zwei Sekundärquellen genügt; Einblendung mit „nach …“.
+3. **Griffin „paralytic perfectionism“ (9.8):** bleibt, Einblendung mit „nach Salzani 2022“.
+4. **Wittgensteins Löwe:** weggelassen.
+5. **Sprigge (6.2):** Wortlaut nach Seager 2011, Einblendung mit „nach …“.
+6. **Ryle:** Name weggelassen, nur „der Behaviorismus“.
+7. **Stimme:** Piper `de_DE-thorsten-high` (Lizenzhinweis in `research/quellen.md`, Abschnitt I).
+
+Hörbeispiel (9.5): CC0-Aufnahme „Bat feeding buzz“ (Kaldari 2020); Analyse in
+`research/quellen.md`, Abschnitt I.
 
 ## Umfang
 

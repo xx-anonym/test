@@ -136,13 +136,6 @@ Putnam, Hilary (1967): Psychological Predicates. In: W. H. Capitan / D. D. Merri
 Lewis, David K. (1966): An Argument for the Identity Theory. *Journal of Philosophy* 63 (1),
 S. 17–25. DOI: [10.2307/2024524](https://doi.org/10.2307/2024524). Von Nagel in Fn. 1 genannt.
 
-### RYLE1949 ⚠️
-Ryle, Gilbert (1949): *The Concept of Mind*. London: Hutchinson.
-Geprüft über Sekundärquellen (Routledge Encyclopedia of Philosophy, Artikel „Ryle, Gilbert“;
-Wikipedia „The Concept of Mind“): Ryle analysiert mentale Begriffe als Rede über Verhaltens-
-dispositionen; wird gewöhnlich als „logischer Behaviorist“ eingeordnet, den Ausdruck verwendete
-er selbst nicht. Verlagsangabe nicht unabhängig bestätigt.
-
 ### KRIPKE1972, ARMSTRONG1968, DAVIDSON1970 ✅ (nur als von Nagel zitiert)
 Kripke, S. (1972): Naming and Necessity. In: D. Davidson / G. Harman (Hg.), *Semantics of
 Natural Language*. Dordrecht: Reidel. – Armstrong, D. M. (1968): *A Materialist Theory of the
@@ -203,14 +196,6 @@ Ein Bilderbuch unsichtbarer Welten*. Berlin: Springer (Verständliche Wissenscha
 DOI: [10.1007/978-3-642-98976-6](https://doi.org/10.1007/978-3-642-98976-6). Nur als
 Literaturhinweis; Inhalte daraus werden nicht behauptet.
 
-### WITTGENSTEIN1953 ⚠️ (optional)
-Wittgenstein, Ludwig (1953): *Philosophische Untersuchungen*, Teil II, xi. Werkausgabe Bd. 1,
-Frankfurt a. M.: Suhrkamp 1984, S. 568 (= „Philosophie der Psychologie – Ein Fragment“, § 327).
-„Wenn ein Löwe sprechen könnte, wir könnten ihn nicht verstehn.“ Wortlaut und Stelle nur über
-Sekundärquellen geprüft (Cambridge-Kapitel „Understanding the Lion for Real“; KIT-Publikation);
-in der eingesehenen gemeinfreien PU-Ausgabe fehlt Teil II. **Deutung umstritten** → im Skript
-nur als optionaler, gekennzeichneter Absatz.
-
 ---
 
 ## D. Wirkungsgeschichte
@@ -268,18 +253,32 @@ von Sprechen und Handeln.
 
 ## E. Einwände und Gegenpositionen
 
-### DENNETT1991 ⚠️
+### DENNETT1991 ✅
 Dennett, Daniel C. (1991): *Consciousness Explained*. Boston: Little, Brown. Kap. 14
-„Consciousness Imagined“, Abschnitt „What It Is Like to Be a Bat“ (ca. S. 441–448).
-Buch nicht selbst eingesehen (nur gesperrte Ausleihexemplare zugänglich). Geprüft über:
-- `SALZANI2022`, S. 89 mit Anm. 9: Dennett 1991, S. 447: „the structure of a bat's mind is
-  just as accessible as the structure of a bat's digestive system“.
-- Wikipedia „What Is It Like to Be a Bat?“ (abgerufen 15.10.2026), mit Verweis auf
-  Dennett 1991, S. 441–443: Dennett bestreitet, dass das Bewusstsein der Fledermaus
-  unzugänglich sei; theoretisch interessante Merkmale ließen sich aus der dritten Person
-  beobachten.
-**Offene Frage an dich:** Kannst du die Stelle S. 441–448 im Buch prüfen, oder soll der
-Absatz bleiben wie markiert?
+„Consciousness Imagined“, Abschn. 2 „What It Is Like to Be a Bat“, S. 441–448.
+Geprüft an Fotos der Buchseiten 441–448 (bereitgestellt am 16.10.2026; Kolumnentitel mit
+Seitenzahlen sichtbar).
+- S. 441: „The most widely cited and influential thought experiment about consciousness is
+  Thomas Nagel's ‚What Is It Like to Be a Bat?‘ (1974).“ Dennett liest Nagels These als mehr
+  als eine epistemische: Wir hätten nicht „the representational machinery, to represent to
+  ourselves what it is like to be a bat“.
+- S. 442: „There is at least a lot that we can know about what it is like to be a bat, and
+  neither Nagel nor anyone else has given us a good reason to believe there is anything
+  interesting or theoretically important that is inaccessible to us.“ – „Nagel claims that no
+  amount of third-person knowledge could tell us what it is like to be a bat, and I flatly
+  deny that claim.“ Verweis auf Akins (1990).
+- S. 443: Heterophänomenologische Erzählungen über die Fledermaus lassen sich nach Realismus
+  ordnen; Beispiel: Ein Muskel schaltet die Ohren im Takt der eigenen Rufe ab; „A bat's
+  echolocation is only good for a few meters.“
+- S. 444: Einwand, solche Untersuchungen zeigten nur, wessen sich Fledermäuse *nicht* bewusst
+  sind („flying zombies“).
+- S. 445: „In order to understand a bat's consciousness, we must simply apply the same
+  principles to the bat that we apply to ourselves.“
+- S. 446: Verweis auf Uexküll (1909), „Umwelt und Innenwelt“; Griffin als „the pioneer
+  investigator of bat echolocation and the creator of the field of cognitive ethology“.
+- S. 447: „The structure of a bat's mind is just as accessible as the structure of a bat's
+  digestive system“. Dennett widerspricht auch Wittgensteins Löwen-Satz.
+- S. 448: Die Fledermaus habe ein „biological self“, aber „no selfy self to speak of“.
 
 ### AKINS1993 ⚠️
 Akins, Kathleen (1993): What Is It Like to Be Boring and Myopic? In: B. Dahlbom (Hg.),
@@ -536,7 +535,7 @@ unconvincing.“
 | **Hörbeispiel (geplant):** Fledermaus kurz vor dem Fang („feeding buzz“), 1/10 verlangsamt | Kaldari, „Bat feeding buzz.wav“, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bat_feeding_buzz.wav), aufgenommen 11.11.2020, Butler County, Pennsylvania; Art laut Beschreibung „most likely the big brown bat (*Eptesicus fuscus*)“ | CC0 1.0 | heruntergeladen und analysiert (s. u.) |
 | Alternative: Echoortungsrufe, 1/10 verlangsamt | Kaldari, „Hoary bat chirp recording.wav“, Wikimedia Commons, 10.11.2020; laut Beschreibung „most likely“ *Lasiurus cinereus* | CC0 1.0 | Metadaten geprüft; Download scheiterte an Rate-Limit |
 | Rückfalloption: Fleckfledermaus (*Euderma maculatum*), Echtzeit, hörbar (~9 kHz) | U.S. National Park Service, Yosemite, [Natural Sounds Library](https://www.nps.gov/subjects/sound/sounds-spotted-bat.htm); Credit „NPS“ | gemeinfrei (US-Bundeswerk; Galerie: „The files are in the public domain“) | heruntergeladen und analysiert |
-| Sprecherstimme | siehe unten (Entscheidung offen) | – | beide Varianten lokal lauffähig |
+| Sprecherstimme | Piper `de_DE-thorsten-high` (Entscheidung 16.10.2026) | Datensatz CC0; Basismodell s. u. | lokal installiert (piper-tts 1.8.0) |
 | Musik | keine geplant | – | – |
 | Grafiken | alle selbst erzeugt (Manim, Matplotlib) | – | – |
 
