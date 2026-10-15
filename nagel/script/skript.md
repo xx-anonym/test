@@ -864,4 +864,14 @@ Analyse in `research/quellen.md`, Abschnitt I.
 
 ## Umfang
 
-Siehe Bericht zur Vorlage: Wortzahl des Sprechertexts je Kapitel und geschätzte Laufzeit.
+Sprechertext: **3.441 Wörter** (Jahreszahlen als Ziffern gezählt). Gemessene Sprechzeit mit
+Piper `thorsten-high` (Sprechtempo 1,06, 0,38 s Satzpause, 0,55 s Absatzpause), Stand vor
+den letzten kleinen Textänderungen (Abweichung wenige Sekunden):
+
+| Kap. | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| min | 0,8 | 1,2 | 1,1 | 1,3 | 3,0 | 1,8 | 1,2 | 1,6 | 2,7 | 3,1 | 1,1 | 2,2 | 1,3 |
+
+Summe Sprechzeit 22,3 min; dazu Kapitelkarten (~0,6 min), Hörbeispiel (7 s) und Abspann
+(~0,75 min): **Gesamtlänge ca. 24 min.** Mit Coqui-Stimme bei gleichem Tempo etwa 10 % länger;
+dann Sprechtempo leicht erhöhen.
