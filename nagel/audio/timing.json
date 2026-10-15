@@ -1,0 +1,101 @@
+{
+ "3.1": {
+  "hash": "41b3a1f83e1caf11e5d24bfbd39bc7c33fbcadc7",
+  "duration": 14.481,
+  "sentences": [
+   {
+    "text": "Nagels zentrale Bestimmung steht auf Seite 436: Ein Organismus hat genau dann bewusste mentale Zustände, wenn es irgendwie ist, dieser Organismus zu sein – irgendwie für den Organismus selbst.",
+    "start": 0.0,
+    "end": 10.821
+   },
+   {
+    "text": "Dieses Merkmal nennt Nagel den subjektiven Charakter der Erfahrung.",
+    "start": 11.201,
+    "end": 14.481
+   }
+  ]
+ },
+ "3.2": {
+  "hash": "54d986fb49d651a8d97247cc4eba6b247508c840",
+  "duration": 14.23,
+  "sentences": [
+   {
+    "text": "Die Formel lädt zu einem Missverständnis ein.",
+    "start": 0.0,
+    "end": 2.254
+   },
+   {
+    "text": "Gemeint ist kein Vergleich, stellt Nagel klar, sondern wie es für das Subjekt selbst ist.",
+    "start": 2.634,
+    "end": 7.283
+   },
+   {
+    "text": "Von einem Stein nehmen wir an, dass es nicht irgendwie ist, ein Stein zu sein; von einer Fledermaus nehmen wir an, dass es so ist.",
+    "start": 7.663,
+    "end": 14.23
+   }
+  ]
+ },
+ "3.3": {
+  "hash": "b8477759fad54221c37001df6a7cf913a2bce154",
+  "duration": 26.838,
+  "sentences": [
+   {
+    "text": "Warum ist das ein Problem für die Reduktionisten?",
+    "start": 0.0,
+    "end": 2.303
+   },
+   {
+    "text": "Weil ihre Analysen, so Nagel, logisch damit vereinbar sind, dass genau dieses Merkmal fehlt.",
+    "start": 2.683,
+    "end": 7.769
+   },
+   {
+    "text": "Funktionale Zustände könnte man auch Robotern zuschreiben, die sich wie Menschen verhalten, aber nichts erleben.",
+    "start": 8.149,
+    "end": 13.735
+   },
+   {
+    "text": "Nagel bestreitet nicht, dass bewusste Zustände Verhalten verursachen und sich funktional beschreiben lassen.",
+    "start": 14.115,
+    "end": 19.789
+   },
+   {
+    "text": "Er bestreitet nur, dass das ihre Analyse erschöpft.",
+    "start": 20.169,
+    "end": 23.071
+   },
+   {
+    "text": "Wer den subjektiven Charakter weglässt, stellt das Problem falsch.",
+    "start": 23.451,
+    "end": 26.838
+   }
+  ]
+ },
+ "3.4": {
+  "hash": "14f27a26226f3f2bae0810c7cc28a159289ead62",
+  "duration": 18.113,
+  "sentences": [
+   {
+    "text": "Nagel bleibt dabei vorsichtig.",
+    "start": 0.0,
+    "end": 1.597
+   },
+   {
+    "text": "Vielleicht, räumt er in einer Fußnote ein, hätte alles, was komplex genug ist, um sich wie ein Mensch zu verhalten, auch Erfahrungen.",
+    "start": 1.977,
+    "end": 9.281
+   },
+   {
+    "text": "Aber das ließe sich nicht durch bloße Analyse des Begriffs der Erfahrung herausfinden.",
+    "start": 9.661,
+    "end": 14.075
+   },
+   {
+    "text": "Diese Fußnote wird uns bei der künstlichen Intelligenz wieder begegnen.",
+    "start": 14.455,
+    "end": 18.113
+   }
+  ]
+ }
+}

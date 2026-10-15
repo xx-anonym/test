@@ -5,3 +5,11 @@ audio/narration/
 output/*.mp4
 output/*.wav
 __pycache__/
+
+# Piper voice model (download, see README)
+voices/
+# Narration audio is regenerated from the script
+audio/narration/
+audio/scenes/
+audio/asr_report.txt
+output/scenes/

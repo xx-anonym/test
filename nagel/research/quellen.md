@@ -538,6 +538,9 @@ unconvincing.“
 | Sprecherstimme | Piper `de_DE-thorsten-high` (Entscheidung 16.10.2026) | Datensatz CC0; Basismodell s. u. | lokal installiert (piper-tts 1.8.0) |
 | Musik | keine geplant | – | – |
 | Grafiken | alle selbst erzeugt (Manim, Matplotlib) | – | – |
+| Schrift Inter | The Inter Project Authors, github.com/rsms/inter | SIL OFL 1.1 | `assets/fonts/`, Lizenz in `LICENSE-Inter.txt` |
+| Schrift Source Serif 4 | Adobe, github.com/adobe-fonts/source-serif (4.005) | SIL OFL 1.1 | `assets/fonts/`, Lizenz in `LICENSE-SourceSerif4.md` |
+| Sprachprüfung | faster-whisper, Modell „medium“ (nur Qualitätskontrolle, nicht im Video) | MIT | lokal |
 
 **Eigene Analyse „Bat feeding buzz.wav“** (Spektrogramm, NumPy/SciPy): 44,1 kHz, mono, 7,0 s
 (= 0,7 s Echtzeit). Dominante Frequenzen im verlangsamten Signal 2,3–3,8 kHz (10.–90.

@@ -7,27 +7,56 @@ heutige Debatte über Tier- und KI-Bewusstsein.
 
 ## Stand
 
-**Phase 1–2 (Recherche, Skript) abgeschlossen – wartet auf Freigabe.** Es ist noch nichts
-gerendert.
+- Recherche und Skript: freigegeben (16.10.2026).
+- **Prototyp:** Kapitel 3 „Die Kernthese“ als Stil-Muster gerendert (Animation, Ton,
+  Untertitel); wartet auf Abnahme.
+- Übrige Kapitel: nach Abnahme des Prototyps.
 
-| Datei | Inhalt |
+| Pfad | Inhalt |
 | --- | --- |
-| `research/quellen.md` | alle Quellen mit Prüfstatus (✅ am Original, ☑️ Abstract/Metadaten, ⚠️ nur sekundär), Seitenzahlen, Kernaussagen, Medien- und Lizenzliste |
-| `research/argument.md` | Nagels Argument als nummerierte Prämissen und Schlüsse, Zuordnung der Einwände |
-| `script/skript.md` | Sprechertext mit Beleg und Szenenbeschreibung pro Absatz, offene Fragen |
-| `audio/stimmproben/` | Hörproben der beiden möglichen Stimmen (Piper, Coqui) |
+| `research/quellen.md` | alle Quellen mit Prüfstatus, Seitenzahlen, Kernaussagen, Medien- und Lizenzliste |
+| `research/argument.md` | Nagels Argument als Prämissen und Schlüsse, Zuordnung der Einwände |
+| `script/skript.md` | freigegebener Sprechertext mit Beleg und Szenenbeschreibung pro Absatz – einzige Quelle für Text und Einblendungen |
+| `scenes/kit.py` | Gestaltung (Farben, Schriften, Belegleiste, Zitatkarte, Kapitelkarte, Leitmotiv, Icons) und Synchronisation an die Sprache |
+| `scenes/sNN_*.py` | eine Manim-Szene pro Kapitel (Klasse `KapitelN`) |
+| `tools/script_parse.py` | liest das Skript (Sprechertext, Einblendungen, Zitate) |
+| `tools/textnorm.py` | Aussprache für die Sprachausgabe (Zahlen, Namen, englische Titel) |
+| `tools/tts.py` | Piper-Sprachausgabe satzweise, mit Satzzeiten; `--verify` prüft jeden Satz mit Whisper |
+| `tools/timeline.py` | gemeinsamer Zeitplan für Szene, Tonspur und Untertitel |
+| `tools/build.py` | Tonspur, Untertitel, Zusammenführen mit ffmpeg |
+| `tools/render.py` | alles in einem Schritt für ein oder mehrere Kapitel |
+| `tools/asr_check.py` | Whisper-Gegenprobe einzelner Absätze |
+| `audio/timing.json` | gemessene Längen und Satzzeiten der Sprachaufnahmen |
+| `assets/` | Schriften (OFL), Hörbeispiel (CC0) |
 
-## Geplante Struktur
+## Einrichten
 
+Systempakete: ffmpeg, Pango/Cairo-Entwicklerdateien (für Manim; unter Debian/Ubuntu
+`libpango1.0-dev`, `libcairo2-dev`, `pkg-config`).
+
+```bash
+python3 -m venv venv
+venv/bin/pip install manim==0.22.0 piper-tts==1.8.0 num2words scipy faster-whisper
+mkdir -p voices && cd voices
+base=https://huggingface.co/rhasspy/piper-voices/resolve/main/de/de_DE/thorsten/high
+curl -LO $base/de_DE-thorsten-high.onnx -LO $base/de_DE-thorsten-high.onnx.json
+cd ..
 ```
-research/   Quellen, Argumentrekonstruktion
-script/     Skript (Quelle der Wahrheit für Text und Belege)
-scenes/     Manim-Szenen, je Kapitel eine Datei (s00_prolog.py … s13_abspann.py)
-audio/      Sprachaufnahmen (nicht versioniert), Stimmproben
-assets/     Hörbeispiel (CC0), Schriften
-output/     nagel_fledermaus.mp4, untertitel.srt, quellen.pdf
+
+## Eine Szene neu rendern
+
+```bash
+venv/bin/python tools/render.py 3             # Stimme (nur geänderte Absätze), Animation, Ton, Untertitel
+venv/bin/python tools/render.py 3 --verify    # dazu jeden Satz mit Whisper gegenhören
+venv/bin/python tools/render.py 3 --skip-tts  # nur Animation/Ton neu, Stimme unverändert
 ```
 
-Werkzeuge: Manim Community 0.22, NumPy/SciPy/Matplotlib (Spektrogramm, Physik), lokale TTS
-(Piper oder Coqui, siehe `script/skript.md`, offene Frage 7), ffmpeg. Das Wie des Neurenderns
-einzelner Szenen wird hier ergänzt, sobald die Szenen existieren.
+Ergebnis: `output/scenes/s03_kernthese.mp4` und `.srt`. Ändert sich ein Absatz im Skript,
+wird nur dieser neu gesprochen; die Szene passt ihr Timing automatisch an die neuen
+Satzzeiten an (`audio/timing.json`).
+
+Hinweise:
+- Piper spricht nicht deterministisch. Die Sprachaufnahmen (`audio/narration/`) sind nicht im
+  Repository; nach einem frischen Klon entstehen sie neu, mit leicht anderen Längen.
+- `--verify` erzeugt jeden Satz bis zu dreimal und behält die Fassung, die Whisper am
+  vollständigsten erkennt. Nicht sauber erkannte Sätze stehen in `audio/asr_report.txt`.

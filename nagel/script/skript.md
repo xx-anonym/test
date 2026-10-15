@@ -178,8 +178,8 @@ Wortzahl und Sprechzeit: siehe Ende der Datei.
   Der Teil „für O“ leuchtet auf und wandert ins rechte, dunkle Innenfeld.
 
 #### 3.2
-> Die Formel lädt zu einem Missverständnis ein. „Wie es ist“ meint keinen Vergleich, stellt
-> Nagel klar, sondern wie es für das Subjekt selbst ist. Von einem Stein nehmen wir an, dass
+> Die Formel lädt zu einem Missverständnis ein. Gemeint ist kein Vergleich, stellt Nagel klar,
+> sondern wie es für das Subjekt selbst ist. Von einem Stein nehmen wir an, dass
 > es nicht irgendwie ist, ein Stein zu sein; von einer Fledermaus nehmen wir an, dass es so ist.
 
 - **Beleg:** NAGEL1974 S. 440, Fn. 6 · Einblendung „Nagel 1974, S. 440, Fn. 6“ · Zitat: „how
