@@ -31,6 +31,7 @@ mit Autor und Jahr. Das vollständige Literaturverzeichnis läuft im Abspann
 | `scripts/stills.mjs` | Standbilder zur Kontrolle, z. B. `node scripts/stills.mjs wachs:2:0.5` |
 | `scripts/sprechervorlage.py` | Sprechplan `src/data/sprechplan.json`, Karaoke-Untertitel `video/karaoke.ass`, Vorlage `out/sprechervorlage.mp4` |
 | `scripts/stimme_ersetzen.py` | setzt eigene Sprachaufnahmen ein: `out/theaitetos_eigene_stimme.mp4` und `.srt` |
+| `scripts/thumbnail.html`, `scripts/thumbnail.py` | YouTube-Thumbnail `video/thumbnail.jpg` (1280 × 720) im Look des Videos |
 | `scripts/eigene_stimme.py` | gemeinsame Bausteine der beiden (Whisper, Zuordnung zum Skript, Audio) |
 
 ## Erzeugen

@@ -1,0 +1,67 @@
+<!doctype html>
+<!-- YouTube thumbnail in the look of the video (colours from src/theme.ts, card and strike
+     from src/components/kit.tsx). Rendered by scripts/thumbnail.py; needs `npm install` for the fonts. -->
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: 'Cormorant Garamond'; font-weight: 600; src: url('../node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-600-normal.woff2'); }
+  @font-face { font-family: 'EB Garamond'; font-weight: 400; src: url('../node_modules/@fontsource/eb-garamond/files/eb-garamond-latin-400-normal.woff2'); }
+  @font-face { font-family: 'EB Garamond'; font-weight: 400; src: url('../node_modules/@fontsource/eb-garamond/files/eb-garamond-greek-400-normal.woff2'); unicode-range: U+0370-03FF; }
+  @font-face { font-family: 'EB Garamond'; font-weight: 400; src: url('../node_modules/@fontsource/eb-garamond/files/eb-garamond-greek-ext-400-normal.woff2'); unicode-range: U+1F00-1FFF; }
+  @font-face { font-family: 'EB Garamond'; font-weight: 400; font-style: italic; src: url('../node_modules/@fontsource/eb-garamond/files/eb-garamond-latin-400-italic.woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 600; src: url('../node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2'); }
+
+  :root { --bg: #0d0f15; --bg2: #151926; --ink: #ece6d9; --muted: #9a968c; --gold: #d9b56b; --red: #e0574b; }
+  html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: var(--bg); }
+  .stage { position: relative; width: 1920px; height: 1080px;
+           background: radial-gradient(ellipse at 50% 45%, var(--bg2) 0%, var(--bg) 70%); }
+  .glow { position: absolute; inset: 0;
+          background: radial-gradient(circle at 30% 42%, rgba(217,181,107,0.10) 0%, rgba(217,181,107,0) 45%); }
+  .vignette { position: absolute; inset: 0;
+              background: radial-gradient(ellipse at center, rgba(0,0,0,0) 55%, rgba(0,0,0,0.55) 100%); }
+  .grain { position: absolute; inset: 0; width: 1920px; height: 1080px; object-fit: cover;
+           opacity: 0.05; mix-blend-mode: overlay; }
+
+  .left { position: absolute; left: 120px; top: 250px; width: 980px; }
+  .kicker { font: 600 36px Inter, sans-serif; color: var(--gold); letter-spacing: 0.32em; text-transform: uppercase; }
+  .title { font: 600 196px/0.98 'Cormorant Garamond', serif; color: var(--ink); letter-spacing: -0.01em; margin-top: 34px; }
+  .greek { font: 400 82px/1.2 'EB Garamond', serif; color: var(--gold); margin-top: 40px;
+           text-shadow: 0 0 40px rgba(217,181,107,0.45); }
+
+  .cards { position: absolute; right: 100px; top: 190px; display: flex; flex-direction: column; gap: 34px; }
+  .card { position: relative; width: 660px; height: 214px; box-sizing: border-box; padding: 0 44px;
+          display: flex; flex-direction: column; justify-content: center;
+          border-radius: 18px; border: 1.5px solid rgba(217,181,107,0.33);
+          background: linear-gradient(160deg, rgba(255,255,255,0.055), rgba(255,255,255,0.015)), var(--bg);
+          box-shadow: 0 20px 60px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.06); }
+  .label { font: 600 26px Inter, sans-serif; color: var(--gold); letter-spacing: 0.16em; text-transform: uppercase; }
+  .name { position: relative; display: inline-block; align-self: flex-start; margin-top: 10px;
+          font: 400 52px/1.15 'EB Garamond', serif; color: var(--ink); white-space: nowrap; }
+  .strike { position: absolute; left: -12px; right: -12px; top: 55%; height: 6px; border-radius: 6px;
+            background: var(--red); box-shadow: 0 0 18px var(--red); transform: rotate(-3deg); }
+</style>
+</head>
+<body>
+<div class="stage">
+  <div class="glow"></div>
+  <img class="grain" src="../public/img/grain.png" alt="">
+  <div class="vignette"></div>
+
+  <div class="left">
+    <div class="kicker">Platon · Theaitetos</div>
+    <div class="title">Was ist<br>Erkenntnis?</div>
+    <div class="greek">τί ἐστιν ἐπιστήμη;</div>
+  </div>
+
+  <div class="cards">
+    <div class="card"><div class="label">Definition 1</div>
+      <div class="name">Wahrnehmung<span class="strike"></span></div></div>
+    <div class="card"><div class="label">Definition 2</div>
+      <div class="name">wahre Meinung<span class="strike"></span></div></div>
+    <div class="card"><div class="label">Definition 3</div>
+      <div class="name">wahre Meinung mit Logos<span class="strike"></span></div></div>
+  </div>
+</div>
+</body>
+</html>
