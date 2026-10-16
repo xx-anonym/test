@@ -108,7 +108,7 @@ def summarize(ids, plan):
 
 
 # ------------------------------------------------------------ cutting and laying out
-def cut(segs, audio, found):
+def cut(segs, audio, found, words):
     """Pieces of a take, cut in the speaker's pauses between sentences (always between
     segments); each knows where its voice starts and ends and when it is due."""
     env = es.envelope(audio)
@@ -121,7 +121,15 @@ def cut(segs, audio, found):
         if idx:
             psid, _, _, _, p1, _ = seq[idx - 1]
             hi = max(min(p1, t0) + 0.2, head - 0.1)
-            c = es.pause_near(env, min(p1, t0) - 0.25, hi, (p1 + t0) / 2, min_len=0.1)
+            if any(p1 + 0.05 < w[1] < t0 - 0.1 for w in words):
+                # words heard in between that are not in the script (an addition, a repeat):
+                # they stay with the sentence before, the cut goes right before the next one
+                c = es.pause_near(env, min(p1, t0) - 0.25, hi, t0, min_len=0.1, near=0.3)
+            else:
+                # nothing heard in between: Whisper dates the end of a sentence more reliably
+                # than the start of the next (it misses words after a pause), so of similar
+                # pauses the one nearest that end wins
+                c = es.pause_near(env, min(p1, t0) - 0.25, hi, p1, min_len=0.1, near=0.6)
             if c is None and psid == sid:       # no pause: the sentences stay together
                 pieces[-1]['t1'] = t1
                 pieces[-1]['ks'].append(k)
@@ -139,11 +147,17 @@ def cut(segs, audio, found):
         if on is None:
             on = es.first_loud(env, pc['cut0'], pc['t1'])
         off = es.last_loud(env, pc['t1'] - 0.3, min(pc['cut1'], pc['t1'] + 0.5))
-        pc['on'] = on if on is not None else pc['t0']
-        pc['off'] = max(pc['on'] + 0.1, off if off is not None else pc['t1'])
-        pc['c0'] = max(pc['cut0'], pc['on'] - PAD_S)
-        pc['c1'] = min(pc['cut1'], pc['off'] + PAD_S)
-        pc['audio'] = audio
+        on = on if on is not None else pc['t0']
+        off = max(on + 0.1, off if off is not None else pc['t1'])
+        # Whisper sometimes misses words at the start or end of a sentence: voice running on
+        # into it belongs to it, and nothing spoken between the two cuts is thrown away
+        pc['on'], pc['off'] = es.spread(env, on, off, pc['cut0'], pc['cut1'], gap=0.8)
+        first = es.first_voice(env, pc['cut0'], pc['cut1'])
+        last = es.last_voice(env, pc['cut0'], pc['cut1'])
+        pc['c0'] = max(pc['cut0'], min(pc['on'], first if first is not None else pc['on']) - PAD_S)
+        pc['last'] = max(pc['off'], last if last is not None else pc['off'])   # end of everything said
+        pc['c1'] = min(pc['cut1'], pc['last'] + PAD_S)
+        pc['audio'], pc['env'] = audio, env
     return pieces
 
 
@@ -169,7 +183,7 @@ def assemble(pieces, track):
     for i, it in enumerate(items):
         if i:
             prev = items[i - 1]
-            cum += prev['off'] - prev['on'] + (MIN_PAUSE if prev['sid'] == it['sid'] else SEG_PAUSE)
+            cum += prev['last'] - prev['on'] + (MIN_PAUSE if prev['sid'] == it['sid'] else SEG_PAUSE)
         # start_i = x_i + cum_i keeps every gap iff x is non-decreasing
         y.append(it['due'] - cum)
         w.append(3.0 if it['k'] == 0 else 1.0)  # segment starts weigh more: the picture changes there
@@ -180,12 +194,14 @@ def assemble(pieces, track):
         it['late'] = it['on'] + shift - it['plan']
         it['shift'] = shift
         c0 = max(it['c0'], prev_end + 0.05 - shift)
+        # voice lost because the lead-in had to give way to the sentence before (should be none)
+        it['trimmed'] = float((it['env'][int(it['c0'] / es.HOP):int(c0 / es.HOP)] > es.LOUD).sum() * es.HOP)
         seg = es.fade(it['audio'][int(c0 * es.RATE):int(it['c1'] * es.RATE)].copy(), 0.04)
         i0 = int(round((c0 + shift) * es.RATE))
         lo, hi = max(0, i0), min(len(track), i0 + len(seg))
         if hi > lo:
             track[lo:hi] += seg[lo - i0:hi - i0]
-        prev_end = it['off'] + shift
+        prev_end = it['last'] + shift
 
 
 # ------------------------------------------------------------ subtitles from the new voice
@@ -266,7 +282,7 @@ def main():
         words = es.take_words(path, audio, args.modell)
         segs = scope(plan, kind, key, path)
         found = es.locate([(s['id'], [x['text'] for x in s['sentences']]) for s in segs], words)
-        pieces = cut(segs, audio, found)
+        pieces = cut(segs, audio, found, words)
         where = label[kind] + ('' if key is None else f' {key}')
         if not pieces:
             notes.append(f'{name}: nichts aus {where} erkannt – nicht verwendet')
@@ -315,6 +331,9 @@ def main():
         dev = np.abs([pc['late'] for pc in pieces])
         print(f'Sätze im Video gegenüber der Animation: {np.mean(dev < 0.1):.0%} genau'
               + (f', sonst im Median {np.median(dev[dev >= 0.1]):.2f} s daneben' if (dev >= 0.1).any() else ''))
+    cut_off = [f'{pc["sid"]} ({pc["trimmed"]:.1f} s)' for pc in pieces if pc['trimmed'] > 0.3]
+    if cut_off:
+        notes.append('Stimme beim Anlegen abgeschnitten, bitte anhören: Abschnitt ' + ', '.join(cut_off))
     if moved:
         notes.append(('weicht um mehr als 0,5 s von der Animation ab: Abschnitt ' if args.ohne_feinabgleich
                       else 'länger gesprochen als Platz war, um mehr als 0,5 s verschoben: Abschnitt ')

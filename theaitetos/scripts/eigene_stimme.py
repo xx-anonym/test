@@ -93,9 +93,11 @@ def fade(a, sec=0.02):
     return a
 
 
-def pause_near(env, t0, t1, mid, min_len=0.12):
+def pause_near(env, t0, t1, mid, min_len=0.12, near=None):
     """Middle of the longest pause (at least min_len) between t0 and t1, nearest to mid if
-    several are equally long; None if the speaker did not pause there."""
+    several are equally long; None if the speaker did not pause there. With near (0…1),
+    every pause at least that fraction of the longest one counts as long enough, and the
+    one nearest to mid wins."""
     i0, i1 = max(0, int(t0 / HOP)), min(len(env), int(t1 / HOP))
     if i1 - i0 < 3:
         return None
@@ -112,7 +114,12 @@ def pause_near(env, t0, t1, mid, min_len=0.12):
             k = j
         else:
             k += 1
-    return max(runs)[2] if runs else None
+    if not runs:
+        return None
+    if near is not None:
+        longest = max(r[0] for r in runs)
+        runs = [(0, r[1], r[2]) for r in runs if r[0] >= near * longest]
+    return max(runs)[2]
 
 
 def quietest(env, t0, t1):
@@ -133,6 +140,47 @@ def last_loud(env, t0, t1):
     i0 = max(0, int(t0 / HOP))
     idx = np.flatnonzero(env[i0:max(i0, int(t1 / HOP))] > LOUD)
     return (i0 + idx[-1] + 1) * HOP if len(idx) else None
+
+
+def first_voice(env, t0, t1, hold=0.3):
+    """First moment in [t0, t1) where the voice sets in and keeps going (at least half of the
+    next `hold` seconds loud), so a click does not count."""
+    i0, i1, n = max(0, int(t0 / HOP)), min(len(env), int(t1 / HOP)), max(1, int(hold / HOP))
+    loud = env > LOUD
+    for k in range(i0, i1):
+        if loud[k] and loud[k:k + n].mean() >= 0.5:
+            return k * HOP
+    return None
+
+
+def last_voice(env, t0, t1, hold=0.3):
+    """Last moment in (t0, t1] where sustained voice ends."""
+    i0, i1, n = max(0, int(t0 / HOP)), min(len(env), int(t1 / HOP)), max(1, int(hold / HOP))
+    loud = env > LOUD
+    for k in range(i1 - 1, i0 - 1, -1):
+        if loud[k] and loud[max(0, k - n + 1):k + 1].mean() >= 0.5:
+            return (k + 1) * HOP
+    return None
+
+
+def spread(env, on, off, lo, hi, gap=0.35):
+    """Widen [on, off] over voice that runs on into it with pauses shorter than `gap`, within
+    [lo, hi]: words Whisper missed at either end of a sentence belong to it."""
+    loud = env > LOUD
+    g = int(gap / HOP)
+    k, lo_k = int(on / HOP), max(0, int(lo / HOP))
+    while k > lo_k:
+        prev = np.flatnonzero(loud[max(lo_k, k - g):k])
+        if not len(prev):
+            break
+        k = max(lo_k, k - g) + prev[0]
+    j, hi_k = int(off / HOP), min(len(env), int(hi / HOP))
+    while j < hi_k:
+        nxt = np.flatnonzero(loud[j:min(hi_k, j + g)])
+        if not len(nxt):
+            break
+        j = j + nxt[-1] + 1
+    return k * HOP, j * HOP
 
 
 def clock(t):
@@ -225,12 +273,16 @@ def locate(units, words):
     `words`, and how many more letters were heard than the script has (slips, repeats)."""
     flat = [(x, i) for i, (w, _, _) in enumerate(words) for x in norm_words(w)]
     found, ptr = {}, 0
-    for uid, sents in units:
+    for u, (uid, sents) in enumerate(units):
         subs = subwords(sents)
         if not subs:
             continue
-        window = flat[ptr:ptr + 2 * len(subs) + 60]
-        pairs = fit([w for w, _, _ in subs], [w for w, _ in window])
+        # align together with the next unit, so that a unit whose words Whisper missed cannot
+        # claim matching words further on that belong to its successor
+        ahead = subwords(units[u + 1][1]) if u + 1 < len(units) else []
+        window = flat[ptr:ptr + 2 * (len(subs) + len(ahead)) + 60]
+        pairs = fit([w for w, _, _ in subs + ahead], [w for w, _ in window])
+        pairs = {i: j for i, j in pairs.items() if i < len(subs)}
         if len(pairs) < 0.4 * len(subs):
             continue                            # not in the recording (or not recognisable)
         word = lambda i: words[window[pairs[i]][1]]     # noqa: E731
