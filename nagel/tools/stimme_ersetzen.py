@@ -14,7 +14,8 @@ Whisper transcribes each take and its words are matched against the script, so e
 sentence is found wherever it is in the take (it does not matter when you pressed
 record). The take is cut in the pauses between sentences and each sentence is laid onto
 the moment the animation expects it – the timing the karaoke guide shows. Nothing is
-stretched; a sentence that runs longer than its slot pushes the next one back. A
+stretched; where sentences run longer than their slots, they move apart just enough
+(least squares) to keep a natural pause between them. A
 paragraph take replaces that paragraph of a chapter or whole-video take. The sound
 example in chapter 9 is mixed in as before. Transcripts are cached in audio/eigene_stimme/.
 
@@ -55,7 +56,9 @@ HOP = 0.02            # envelope resolution (s)
 LOUD = 0.3            # envelope level that counts as voice
 CREDITS = 13          # no narration in the credits
 VOICE_DELAY = 0.05    # the synthetic voice starts this long after a scheduled sentence start
-MIN_PAUSE = 0.25      # shortest pause left when a long sentence pushes the next one back
+MIN_PAUSE = 0.35      # shortest pause between two sentences when one runs long
+PARA_PAUSE = 0.6      # … between two paragraphs
+CLIP_GAP = 0.3        # … before and after the sound example
 PAD = 0.4             # pause kept before and after each piece of a take
 
 
@@ -123,6 +126,14 @@ def pause_near(env, t0, t1, mid, min_len=0.12):
 def first_loud(env, t0, t1):
     idx = np.flatnonzero(env[max(0, int(t0 / HOP)):max(0, int(t1 / HOP))] > LOUD)
     return max(0, int(t0 / HOP)) * HOP + idx[0] * HOP if len(idx) else None
+
+
+def quietest(env, t0, t1):
+    i0, i1 = max(0, int(t0 / HOP)), min(len(env), int(t1 / HOP))
+    if i1 - i0 < 3:
+        return (t0 + t1) / 2
+    smooth = np.convolve(env[i0:i1], np.ones(3) / 3, mode='same')
+    return (i0 + int(np.argmin(smooth[1:-1])) + 1.5) * HOP
 
 
 def last_loud(env, t0, t1):
@@ -279,10 +290,26 @@ def locate(tl, pids, words):
             t0 = words[window[pairs[i0]][1]][1] - rate * sum(len(subs[i]) for i in mine if i < i0)
             t1 = words[window[pairs[i1]][1]][2] + rate * sum(len(subs[i]) for i in mine if i > i1)
             spans.append((t0, t1))
-        j_first, j_last = pairs[i_first], pairs[i_last]
-        found[pid] = {'spans': spans, 'lo': window[j_first][1], 'hi': window[j_last][1] + 1,
-                      'surplus': (j_last - j_first) - (i_last - i_first)}
-        ptr += j_last + 1
+        found[pid] = {'spans': spans, 'lo': window[pairs[i_first]][1], 'hi': window[pairs[i_last]][1] + 1,
+                      'letters': sum(len(w) for w in subs)}
+        ptr += pairs[i_last] + 1
+    # words Whisper heard between two paragraphs but could not match go to the nearer one
+    order = [pid for pid in pids if pid in found]
+    for p, q in zip(order, order[1:]):
+        a, b = found[p], found[q]
+        end_p, start_q, k = words[a['hi'] - 1][2], words[b['lo']][1], a['hi']
+        while k < b['lo'] and words[k][1] - end_p < start_q - words[k][2]:
+            k += 1
+        a['hi'], b['lo'] = k, k
+    if order:
+        a, b = found[order[0]], found[order[-1]]
+        while a['lo'] > 0 and words[a['lo']][1] - words[a['lo'] - 1][2] < 1.0:
+            a['lo'] -= 1
+        while b['hi'] < len(words) and words[b['hi']][1] - words[b['hi'] - 1][2] < 1.0:
+            b['hi'] += 1
+    for f in found.values():                    # spoken beyond the script (slips, repeats)
+        heard = sum(len(x) for w, _, _ in words[f['lo']:f['hi']] for x in _norm_words(w))
+        f['surplus'] = heard - f['letters']
     return found
 
 
@@ -302,7 +329,9 @@ def cut(tl, audio, found):
             if c is None and ppid == pid:       # no pause: the sentences stay together
                 pieces[-1]['t1'] = t1
                 continue
-            pieces[-1]['cut1'] = c if c is not None else (p1 + t0) / 2
+            if c is None:                       # new paragraph without a pause: cut between words
+                c = quietest(env, min(p1, t0) - 0.5, max(p1, t0) + 0.5)
+            pieces[-1]['cut1'] = c
         cut0 = pieces[-1]['cut1'] if pieces else max(0.0, t0 - 1.0)
         pieces.append({'pid': pid, 'k': k, 'cut0': cut0, 't0': t0, 't1': t1, 'due': tl.due(pid, k)})
     if pieces:
@@ -318,18 +347,48 @@ def cut(tl, audio, found):
     return pieces
 
 
-def assemble(pieces, track):
-    """Lay the pieces onto the track in time order, each where it is due but never into
-    the one before (at least MIN_PAUSE apart). Sets each piece's 'shift' (take → video)."""
+def _pava(y, w):
+    """Non-decreasing weighted least-squares fit to y (pool adjacent violators)."""
+    blocks = []
+    for yi, wi in zip(y, w):
+        blocks.append([yi, wi, 1])
+        while len(blocks) > 1 and blocks[-2][0] > blocks[-1][0]:
+            m2, w2, c2 = blocks.pop()
+            m1, w1, c1 = blocks.pop()
+            blocks.append([(m1 * w1 + m2 * w2) / (w1 + w2), w1 + w2, c1 + c2])
+    return [m for m, _, c in blocks for _ in range(c)]
+
+
+def assemble(pieces, track, clips=()):
+    """Lay the pieces onto the track in order, each as close to when it is due as possible
+    (least squares: a sentence that runs long moves itself a little earlier and the next
+    ones a little later) but never closer to its neighbour than the minimum pause; the
+    sound example does not move. Sets each piece's 'shift' (take → video) and 'late'."""
+    items = sorted(pieces + [{'pid': None, 'on': a, 'off': b, 'due': a, 'clip': True} for a, b in clips],
+                   key=lambda p: p['due'])
+    cum, y, w = 0.0, [], []
+    for i, it in enumerate(items):
+        if i:
+            prev = items[i - 1]
+            if prev.get('clip') or it.get('clip'):
+                gap = CLIP_GAP
+            else:
+                gap = MIN_PAUSE if prev['pid'] == it['pid'] else PARA_PAUSE
+            cum += prev['off'] - prev['on'] + gap
+        # start_i = x_i + cum_i keeps every gap iff x is non-decreasing
+        y.append(it['due'] - cum)
+        # paragraph starts weigh more: the picture usually changes with a new paragraph
+        w.append(1e6 if it.get('clip') else 3.0 if it['k'] == 0 else 1.0)
+        it['cum'] = cum
     prev_end = -1e9
-    for pc in sorted(pieces, key=lambda p: p['due']):
-        at = max(pc['due'], prev_end + MIN_PAUSE)
-        pc['late'] = at - pc['due']
-        shift = at - pc['on']
-        c0 = max(pc['c0'], prev_end + 0.05 - shift)
-        put(track, pc['audio'][int(c0 * RATE):int(pc['c1'] * RATE)], c0 + shift)
-        pc['shift'] = shift
-        prev_end = pc['off'] + shift
+    for it, x in zip(items, _pava(y, w)):
+        shift = x + it['cum'] - it['on']
+        if not it.get('clip'):
+            it['late'] = it['on'] + shift - it['due']
+            it['shift'] = shift
+            c0 = max(it['c0'], prev_end + 0.05 - shift)
+            put(track, it['audio'][int(c0 * RATE):int(it['c1'] * RATE)], c0 + shift)
+        prev_end = it['off'] + shift
 
 
 # ------------------------------------------------------------ subtitles from the new voice
@@ -465,28 +524,29 @@ def main():
         gaps = [f'{p}/{k + 1}' for p in found for k, s in enumerate(found[p]['spans']) if s is None]
         if gaps:
             notes.append(f'{name}: Sätze kaum erkannt (bleiben am Satz davor): ' + ', '.join(gaps))
-        extra = [f'{p} (ab {clock(words[found[p]["lo"]][1])})' for p in found if found[p]['surplus'] >= 4]
+        extra = [f'{p} (ab {clock(words[found[p]["lo"]][1])})' for p in found if found[p]['surplus'] >= 25]
         if extra:
             notes.append(f'{name}: mehr Wörter als im Skript – Versprecher oder Wiederholung? Absatz '
                          + ', '.join(extra))
 
     pieces = [pc for ps in by_pid.values() for pc in ps]
     track = np.zeros(int(round(tl.total * RATE)) + RATE, dtype=np.float32)
-    assemble(pieces, track)
-    late = {}
+    assemble(pieces, track, [(c0, c1) for _, c0, c1 in tl.clips])
+    moved = {}
     for pc in pieces:
-        if pc['late'] > 0.3:
-            late[pc['pid']] = max(late.get(pc['pid'], 0.0), pc['late'])
-    if late:
-        notes.append('länger gesprochen als Platz war, nach hinten verschoben: '
-                     + ', '.join(f'{p} (+{s:.1f} s)' for p, s in sorted(late.items(), key=lambda x: tl.order.index(x[0]))))
-    for f, c0, c1 in tl.clips:                  # the sound example in chapter 9 stays
+        if abs(pc['late']) > 0.5 and abs(pc['late']) > abs(moved.get(pc['pid'], 0.0)):
+            moved[pc['pid']] = pc['late']
+    if pieces:
+        dev = np.abs([pc['late'] for pc in pieces])
+        print(f'Sätze im Video gegenüber der Animation: {np.mean(dev < 0.1):.0%} genau, '
+              f'sonst im Median {np.median(dev[dev >= 0.1]) if (dev >= 0.1).any() else 0:.2f} s daneben')
+    if moved:
+        notes.append('länger gesprochen als Platz war, um mehr als 0,5 s verschoben: Absatz '
+                     + ', '.join(f'{p} ({s:+.1f} s)' for p, s in sorted(moved.items(), key=lambda x: tl.order.index(x[0]))))
+    for f, c0, _ in tl.clips:                   # the sound example in chapter 9 stays
         clip = fade(read_wav(os.path.join(ROOT, f)) * 0.9, 0.05)
         i = int(round(c0 * RATE))
         track[i:i + len(clip)] += clip[:len(track) - i]
-        hit = [pc['pid'] for pc in pieces if pc['on'] + pc['shift'] < c1 and pc['off'] + pc['shift'] > c0]
-        if hit:
-            notes.append(f'Absatz {", ".join(sorted(set(hit)))} überlappt das Hörbeispiel')
     track = track[:int(round(tl.total * RATE))]
     silent = [p for p in tl.order if p not in by_pid]
     if silent:

@@ -100,12 +100,13 @@ cd scenes && ../venv/bin/manim render --config_file manim.cfg -o s04_argument s0
    Whisper schreibt mit, was in jeder Aufnahme gesagt wird; über die Wörter findet das Werkzeug
    jeden Satz des Skripts in der Aufnahme. Es schneidet in den Sprechpausen zwischen den Sätzen und
    legt jeden Satz an die Stelle, an der die Animation (und die Karaoke-Vorlage) ihn erwartet;
-   gestreckt wird nichts, ein zu lang gesprochener Satz schiebt den nächsten nach hinten. Dann
+   gestreckt wird nichts. Sind Sätze länger als ihr Platz, rücken sie gerade so weit auseinander
+   (etwas früher, etwas später), dass eine natürliche Pause bleibt. Dann
    mischt es das Hörbeispiel wieder ein, normalisiert auf −16 LUFS, ersetzt die Tonspur von
    `output/nagel_fledermaus.mp4` (das Bild kommt aus `output/nagel_fledermaus_piper.mp4`) und
    setzt die Untertitel auf die neue Stimme. Die Ausgabe nennt, wie weit die Aufnahme vom Takt
    der Vorlage abwich, und Stellen zum Nachhören: nicht gefundene Absätze, mehr Wörter als im
-   Skript (Versprecher, Wiederholungen), nach hinten geschobene Sätze. `--ohne-feinabgleich`
+   Skript (Versprecher, Wiederholungen), deutlich verschobene Sätze. `--ohne-feinabgleich`
    versetzt jede Aufnahme nur als Ganzes.
 
 Vorlage neu erzeugen (z. B. nach Skriptänderungen): `venv/bin/python tools/karaoke.py`.
