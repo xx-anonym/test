@@ -101,9 +101,11 @@ def put(track, seg, at):
         track[lo:hi] += seg[lo - i:hi - i]
 
 
-def pause_near(env, t0, t1, mid, min_len=0.12):
+def pause_near(env, t0, t1, mid, min_len=0.12, near=None):
     """Middle of the longest pause (at least min_len) between t0 and t1, nearest to mid if
-    several are equally long; None if the speaker did not pause there (then we don't cut)."""
+    several are equally long; None if the speaker did not pause there (then we don't cut).
+    With near (0…1), every pause at least that fraction of the longest one counts as long
+    enough, and the one nearest to mid wins."""
     i0, i1 = max(0, int(t0 / HOP)), min(len(env), int(t1 / HOP))
     if i1 - i0 < 3:
         return None
@@ -120,7 +122,12 @@ def pause_near(env, t0, t1, mid, min_len=0.12):
             k = j
         else:
             k += 1
-    return max(runs)[2] if runs else None
+    if not runs:
+        return None
+    if near is not None:
+        longest = max(r[0] for r in runs)
+        runs = [(0, r[1], r[2]) for r in runs if r[0] >= near * longest]
+    return max(runs)[2]
 
 
 def first_loud(env, t0, t1):
@@ -139,6 +146,47 @@ def quietest(env, t0, t1):
 def last_loud(env, t0, t1):
     idx = np.flatnonzero(env[max(0, int(t0 / HOP)):max(0, int(t1 / HOP))] > LOUD)
     return max(0, int(t0 / HOP)) * HOP + (idx[-1] + 1) * HOP if len(idx) else None
+
+
+def first_voice(env, t0, t1, hold=0.3):
+    """First moment in [t0, t1) where the voice sets in and keeps going (at least half of the
+    next `hold` seconds loud), so a click does not count."""
+    i0, i1, n = max(0, int(t0 / HOP)), min(len(env), int(t1 / HOP)), max(1, int(hold / HOP))
+    loud = env > LOUD
+    for k in range(i0, i1):
+        if loud[k] and loud[k:k + n].mean() >= 0.5:
+            return k * HOP
+    return None
+
+
+def last_voice(env, t0, t1, hold=0.3):
+    """Last moment in (t0, t1] where sustained voice ends."""
+    i0, i1, n = max(0, int(t0 / HOP)), min(len(env), int(t1 / HOP)), max(1, int(hold / HOP))
+    loud = env > LOUD
+    for k in range(i1 - 1, i0 - 1, -1):
+        if loud[k] and loud[max(0, k - n + 1):k + 1].mean() >= 0.5:
+            return (k + 1) * HOP
+    return None
+
+
+def spread(env, on, off, lo, hi, gap=0.35):
+    """Widen [on, off] over voice that runs on into it with pauses shorter than `gap`, within
+    [lo, hi]: words Whisper missed at either end of a sentence belong to it."""
+    loud = env > LOUD
+    g = int(gap / HOP)
+    k, lo_k = int(on / HOP), max(0, int(lo / HOP))
+    while k > lo_k:
+        prev = np.flatnonzero(loud[max(lo_k, k - g):k])
+        if not len(prev):
+            break
+        k = max(lo_k, k - g) + prev[0]
+    j, hi_k = int(off / HOP), min(len(env), int(hi / HOP))
+    while j < hi_k:
+        nxt = np.flatnonzero(loud[j:min(hi_k, j + g)])
+        if not len(nxt):
+            break
+        j = j + nxt[-1] + 1
+    return k * HOP, j * HOP
 
 
 def clock(t):
@@ -261,17 +309,26 @@ def locate(tl, pids, words):
     sentence spans [(start, end, voice started by) or None] in the take, its word range and how many
     more words were spoken than the script has (repeats, slips)."""
     flat = [(x, i) for i, (w, _, _) in enumerate(words) for x in (_norm_words(w) or [])]
-    found, ptr = {}, 0
-    for pid in pids:
-        sents = tl.paragraphs[pid][3]['sentences']
+
+    def script_words(pid):
         subs, owner = [], []
-        for k, s in enumerate(sents):
+        for k, s in enumerate(tl.paragraphs[pid][3]['sentences']):
             for tok in s['text'].split():
                 for w in _norm_words(spoken(tok)):
                     subs.append(w)
                     owner.append(k)
-        window = flat[ptr:ptr + 2 * len(subs) + 60]
-        pairs = _fit(subs, [w for w, _ in window])
+        return subs, owner
+
+    found, ptr = {}, 0
+    for n, pid in enumerate(pids):
+        sents = tl.paragraphs[pid][3]['sentences']
+        subs, owner = script_words(pid)
+        # align together with the next paragraph, so that a paragraph whose words Whisper
+        # missed cannot claim matching words further on that belong to its successor
+        ahead = script_words(pids[n + 1])[0] if n + 1 < len(pids) else []
+        window = flat[ptr:ptr + 2 * (len(subs) + len(ahead)) + 60]
+        pairs = _fit(subs + ahead, [w for w, _ in window])
+        pairs = {i: j for i, j in pairs.items() if i < len(subs)}
         if len(pairs) < 0.4 * len(subs):
             continue                            # not in the take (or not recognisable)
         i_first, i_last = min(pairs), max(pairs)
@@ -318,7 +375,7 @@ def locate(tl, pids, words):
 
 
 # ------------------------------------------------------------ cutting and laying out
-def cut(tl, audio, found):
+def cut(tl, audio, found, words):
     """Pieces of a take, cut in the speaker's pauses between sentences (always between
     paragraphs); each knows where its voice starts and ends and when it is due."""
     env = envelope(audio)
@@ -330,7 +387,15 @@ def cut(tl, audio, found):
         if idx:
             ppid, _, _, p1, _ = seq[idx - 1]
             hi = max(min(p1, t0) + 0.2, head - 0.1)
-            c = pause_near(env, min(p1, t0) - 0.25, hi, (p1 + t0) / 2, min_len=0.1)
+            if any(p1 + 0.05 < w[1] < t0 - 0.1 for w in words):
+                # words heard in between that are not in the script (an addition, a repeat):
+                # they stay with the sentence before, the cut goes right before the next one
+                c = pause_near(env, min(p1, t0) - 0.25, hi, t0, min_len=0.1, near=0.3)
+            else:
+                # nothing heard in between: Whisper dates the end of a sentence more reliably
+                # than the start of the next (it misses words after a pause), so of similar
+                # pauses the one nearest that end wins
+                c = pause_near(env, min(p1, t0) - 0.25, hi, p1, min_len=0.1, near=0.6)
             if c is None and ppid == pid:       # no pause: the sentences stay together
                 pieces[-1]['t1'] = t1
                 continue
@@ -347,11 +412,17 @@ def cut(tl, audio, found):
         if on is None:
             on = first_loud(env, pc['cut0'], pc['t1'])
         off = last_loud(env, pc['t1'] - 0.3, min(pc['cut1'], pc['t1'] + 0.5))
-        pc['on'] = on if on is not None else pc['t0']
-        pc['off'] = max(pc['on'] + 0.1, off if off is not None else pc['t1'])
-        pc['c0'] = max(pc['cut0'], pc['on'] - PAD)
-        pc['c1'] = min(pc['cut1'], pc['off'] + PAD)
-        pc['audio'] = audio
+        on = on if on is not None else pc['t0']
+        off = max(on + 0.1, off if off is not None else pc['t1'])
+        # Whisper sometimes misses words at the start or end of a sentence: voice running on
+        # into it belongs to it, and nothing spoken between the two cuts is thrown away
+        pc['on'], pc['off'] = spread(env, on, off, pc['cut0'], pc['cut1'], gap=0.8)
+        first = first_voice(env, pc['cut0'], pc['cut1'])
+        last = last_voice(env, pc['cut0'], pc['cut1'])
+        pc['c0'] = max(pc['cut0'], min(pc['on'], first if first is not None else pc['on']) - PAD)
+        pc['last'] = max(pc['off'], last if last is not None else pc['off'])   # end of everything said
+        pc['c1'] = min(pc['cut1'], pc['last'] + PAD)
+        pc['audio'], pc['env'] = audio, env
     return pieces
 
 
@@ -372,7 +443,7 @@ def assemble(pieces, track, clips=()):
     (least squares: a sentence that runs long moves itself a little earlier and the next
     ones a little later) but never closer to its neighbour than the minimum pause; the
     sound example does not move. Sets each piece's 'shift' (take → video) and 'late'."""
-    items = sorted(pieces + [{'pid': None, 'on': a, 'off': b, 'due': a, 'clip': True} for a, b in clips],
+    items = sorted(pieces + [{'pid': None, 'on': a, 'off': b, 'last': b, 'due': a, 'clip': True} for a, b in clips],
                    key=lambda p: p['due'])
     cum, y, w = 0.0, [], []
     for i, it in enumerate(items):
@@ -382,7 +453,7 @@ def assemble(pieces, track, clips=()):
                 gap = CLIP_GAP
             else:
                 gap = MIN_PAUSE if prev['pid'] == it['pid'] else PARA_PAUSE
-            cum += prev['off'] - prev['on'] + gap
+            cum += prev['last'] - prev['on'] + gap
         # start_i = x_i + cum_i keeps every gap iff x is non-decreasing
         y.append(it['due'] - cum)
         # paragraph starts weigh more: the picture usually changes with a new paragraph
@@ -395,8 +466,10 @@ def assemble(pieces, track, clips=()):
             it['late'] = it['on'] + shift - it['plan']     # against the animation
             it['shift'] = shift
             c0 = max(it['c0'], prev_end + 0.05 - shift)
+            # voice lost because the lead-in had to give way to the sentence before (should be none)
+            it['trimmed'] = float((it['env'][int(it['c0'] / HOP):int(c0 / HOP)] > LOUD).sum() * HOP)
             put(track, it['audio'][int(c0 * RATE):int(it['c1'] * RATE)], c0 + shift)
-        prev_end = it['off'] + shift
+        prev_end = it['last'] + shift
 
 
 # ------------------------------------------------------------ subtitles from the new voice
@@ -501,7 +574,7 @@ def main():
         words = take_words(path, audio, args.modell)
         pids = scope(tl, kind, key, path)
         found = locate(tl, pids, words)
-        pieces = cut(tl, audio, found)
+        pieces = cut(tl, audio, found, words)
         if not pieces:
             where = label[kind] + ('' if key is None else f' {key}')
             notes.append(f'{name}: nichts aus {where} erkannt – nicht verwendet')
@@ -548,6 +621,9 @@ def main():
         dev = np.abs([pc['late'] for pc in pieces])
         print(f'Sätze im Video gegenüber der Animation: {np.mean(dev < 0.1):.0%} genau'
               + (f', sonst im Median {np.median(dev[dev >= 0.1]):.2f} s daneben' if (dev >= 0.1).any() else ''))
+    cut_off = [f'{pc["pid"]} ({pc["trimmed"]:.1f} s)' for pc in pieces if pc['trimmed'] > 0.3]
+    if cut_off:
+        notes.append('Stimme beim Anlegen abgeschnitten, bitte anhören: Absatz ' + ', '.join(cut_off))
     if moved:
         notes.append(('weicht um mehr als 0,5 s von der Animation ab: Absatz ' if args.ohne_feinabgleich
                       else 'länger gesprochen als Platz war, um mehr als 0,5 s verschoben: Absatz ')
