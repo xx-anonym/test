@@ -258,7 +258,7 @@ def _fit(ref, hyp):
 
 def locate(tl, pids, words):
     """Find the paragraphs, in order, in a take's words. For each paragraph found:
-    sentence spans [(start, end) or None] in the take, its word range and how many
+    sentence spans [(start, end, voice started by) or None] in the take, its word range and how many
     more words were spoken than the script has (repeats, slips)."""
     flat = [(x, i) for i, (w, _, _) in enumerate(words) for x in (_norm_words(w) or [])]
     found, ptr = {}, 0
@@ -287,9 +287,13 @@ def locate(tl, pids, words):
                 spans.append(None)
                 continue
             i0, i1 = hits[0], hits[-1]
-            t0 = words[window[pairs[i0]][1]][1] - rate * sum(len(subs[i]) for i in mine if i < i0)
+            first = words[window[pairs[i0]][1]]
+            t0 = first[1] - rate * sum(len(subs[i]) for i in mine if i < i0)
             t1 = words[window[pairs[i1]][1]][2] + rate * sum(len(subs[i]) for i in mine if i > i1)
-            spans.append((t0, t1))
+            # Whisper often dates a first word too early, into the pause before it; the voice
+            # has started by the end of the first word it recognised (by its start, if the
+            # sentence's first words were not recognised)
+            spans.append((t0, t1, first[2] if i0 == mine[0] else first[1]))
         found[pid] = {'spans': spans, 'lo': window[pairs[i_first]][1], 'hi': window[pairs[i_last]][1] + 1,
                       'letters': sum(len(w) for w in subs)}
         ptr += pairs[i_last] + 1
@@ -322,10 +326,11 @@ def cut(tl, audio, found):
     seq = [(pid, k) + span for pid in sorted(found, key=tl.order.index)
            for k, span in enumerate(found[pid]['spans']) if span]
     pieces = []
-    for idx, (pid, k, t0, t1) in enumerate(seq):
+    for idx, (pid, k, t0, t1, head) in enumerate(seq):
         if idx:
-            ppid, _, _, p1 = seq[idx - 1]
-            c = pause_near(env, min(p1, t0) - 0.25, max(p1, t0) + 0.25, (p1 + t0) / 2, min_len=0.1)
+            ppid, _, _, p1, _ = seq[idx - 1]
+            hi = max(min(p1, t0) + 0.2, head - 0.1)
+            c = pause_near(env, min(p1, t0) - 0.25, hi, (p1 + t0) / 2, min_len=0.1)
             if c is None and ppid == pid:       # no pause: the sentences stay together
                 pieces[-1]['t1'] = t1
                 continue
@@ -333,11 +338,14 @@ def cut(tl, audio, found):
                 c = quietest(env, min(p1, t0) - 0.5, max(p1, t0) + 0.5)
             pieces[-1]['cut1'] = c
         cut0 = pieces[-1]['cut1'] if pieces else max(0.0, t0 - 1.0)
-        pieces.append({'pid': pid, 'k': k, 'cut0': cut0, 't0': t0, 't1': t1, 'due': tl.due(pid, k)})
+        due = tl.due(pid, k)
+        pieces.append({'pid': pid, 'k': k, 'cut0': cut0, 't0': t0, 't1': t1, 'head': head, 'due': due, 'plan': due})
     if pieces:
         pieces[-1]['cut1'] = min(dur, pieces[-1]['t1'] + 1.0)
     for pc in pieces:
-        on = first_loud(env, max(pc['cut0'], pc['t0'] - 0.3), pc['t0'] + 0.3)
+        on = first_loud(env, max(pc['cut0'], pc['t0'] - 0.3), max(pc['head'], pc['t0'] + 0.3))
+        if on is None:
+            on = first_loud(env, pc['cut0'], pc['t1'])
         off = last_loud(env, pc['t1'] - 0.3, min(pc['cut1'], pc['t1'] + 0.5))
         pc['on'] = on if on is not None else pc['t0']
         pc['off'] = max(pc['on'] + 0.1, off if off is not None else pc['t1'])
@@ -384,7 +392,7 @@ def assemble(pieces, track, clips=()):
     for it, x in zip(items, _pava(y, w)):
         shift = x + it['cum'] - it['on']
         if not it.get('clip'):
-            it['late'] = it['on'] + shift - it['due']
+            it['late'] = it['on'] + shift - it['plan']     # against the animation
             it['shift'] = shift
             c0 = max(it['c0'], prev_end + 0.05 - shift)
             put(track, it['audio'][int(c0 * RATE):int(it['c1'] * RATE)], c0 + shift)
@@ -538,10 +546,11 @@ def main():
             moved[pc['pid']] = pc['late']
     if pieces:
         dev = np.abs([pc['late'] for pc in pieces])
-        print(f'Sätze im Video gegenüber der Animation: {np.mean(dev < 0.1):.0%} genau, '
-              f'sonst im Median {np.median(dev[dev >= 0.1]) if (dev >= 0.1).any() else 0:.2f} s daneben')
+        print(f'Sätze im Video gegenüber der Animation: {np.mean(dev < 0.1):.0%} genau'
+              + (f', sonst im Median {np.median(dev[dev >= 0.1]):.2f} s daneben' if (dev >= 0.1).any() else ''))
     if moved:
-        notes.append('länger gesprochen als Platz war, um mehr als 0,5 s verschoben: Absatz '
+        notes.append(('weicht um mehr als 0,5 s von der Animation ab: Absatz ' if args.ohne_feinabgleich
+                      else 'länger gesprochen als Platz war, um mehr als 0,5 s verschoben: Absatz ')
                      + ', '.join(f'{p} ({s:+.1f} s)' for p, s in sorted(moved.items(), key=lambda x: tl.order.index(x[0]))))
     for f, c0, _ in tl.clips:                   # the sound example in chapter 9 stays
         clip = fade(read_wav(os.path.join(ROOT, f)) * 0.9, 0.05)

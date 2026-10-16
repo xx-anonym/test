@@ -107,7 +107,9 @@ cd scenes && ../venv/bin/manim render --config_file manim.cfg -o s04_argument s0
    setzt die Untertitel auf die neue Stimme. Die Ausgabe nennt, wie weit die Aufnahme vom Takt
    der Vorlage abwich, und Stellen zum Nachhören: nicht gefundene Absätze, mehr Wörter als im
    Skript (Versprecher, Wiederholungen), deutlich verschobene Sätze. `--ohne-feinabgleich`
-   versetzt jede Aufnahme nur als Ganzes.
+   versetzt jede Aufnahme nur als Ganzes. Whisper braucht für 24 Minuten Ton etwa 7 Minuten; das
+   Transkript wird zwischengespeichert, ein zweiter Lauf mit derselben Aufnahme dauert eine Minute.
+   Zurück zur Computerstimme: `venv/bin/python tools/build.py final`.
 
 Vorlage neu erzeugen (z. B. nach Skriptänderungen): `venv/bin/python tools/karaoke.py`.
 
