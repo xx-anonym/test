@@ -1,6 +1,6 @@
 # Quellen – „Wie ist es, eine Fledermaus zu sein?“
 
-Stand: 15.10.2026. Jede Quelle hat einen Kurzschlüssel (z. B. `NAGEL1974`), auf den
+Stand: 16.10.2026. Jede Quelle hat einen Kurzschlüssel (z. B. `NAGEL1974`), auf den
 `script/skript.md` verweist. Seitenzahlen beziehen sich immer auf die genannte Ausgabe.
 
 ## Prüfstatus
@@ -24,7 +24,8 @@ wird eine eigene deutsche Übersetzung (§ 51 UrhG, Belegzweck). Eine veröffent
 
 ### NAGEL1974 ✅
 Nagel, Thomas (1974): What Is It Like to Be a Bat? *The Philosophical Review* 83 (4),
-S. 435–450. DOI: [10.2307/2183914](https://doi.org/10.2307/2183914).
+S. 435–450. DOI: [10.2307/2183914](https://doi.org/10.2307/2183914). Erscheinungsmonat laut
+Crossref: Oktober 1974.
 Geprüft am JSTOR-Scan der Erstveröffentlichung (Seitenumbrüche am Scan abgelesen).
 
 | Seite | Inhalt (Paraphrase; kurze Originalzitate in Anführungszeichen) |
@@ -486,6 +487,9 @@ of Consciousness. arXiv:2308.08708 (v3, 22.08.2023). Geprüft am PDF.
 - Abstract: „Our analysis suggests that no current AI systems are conscious, but also suggests
   that there are no obvious technical barriers to building AI systems which satisfy these
   indicators.“
+- Abstract (arXiv, abgerufen 16.10.2026): Indikatoren („indicator properties“) werden aus
+  Theorien abgeleitet: „recurrent processing theory, global workspace theory, higher-order
+  theories, predictive processing, and attention schema theory“.
 - S. 4: computational functionalism als „working hypothesis“; „a mainstream—although
   disputed—position“; Verhaltenstests unzuverlässig, weil KI-Systeme menschliches Verhalten
   nachahmen können.

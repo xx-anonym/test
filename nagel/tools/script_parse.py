@@ -86,10 +86,20 @@ def parse(path: str = SCRIPT):
     return chapters
 
 
+# A full stop after an initial („J. J. C. Smart“) or an abbreviation does not end a sentence.
+NO_END = re.compile(r'(?:^|\s)(?:[A-ZÄÖÜ]|S|Fn|Kap|Abschn|Nr|Vgl|vgl|z\. B|d\. h|u\. a|ca|bzw)\.$')
+
+
 def split_sentences(text: str):
     """Split at sentence ends that are followed by an upper-case start."""
-    parts = re.split(r'(?<=[.!?])\s+(?=[A-ZÄÖÜ„0-9])', text)
-    return [p.strip() for p in parts if p.strip()]
+    parts = [p.strip() for p in re.split(r'(?<=[.!?])\s+(?=[A-ZÄÖÜ„0-9])', text) if p.strip()]
+    out = []
+    for p in parts:
+        if out and NO_END.search(out[-1]):
+            out[-1] += ' ' + p
+        else:
+            out.append(p)
+    return out
 
 
 def chapter(n: int, path: str = SCRIPT):

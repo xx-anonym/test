@@ -76,8 +76,10 @@ Wortzahl und Sprechzeit: siehe Ende der Datei.
 > die stärksten Einwände dar und fragt, was die echte Fledermaus und die heutige Debatte über
 > Tiere und Maschinen daran ändern.
 
-- **Beleg:** NAGEL1974 S. 435–450; NAGEL2024 Vorwort („a standard reference in many of these
-  debates“) · Einblendung „Nagel 1974, S. 435–450“
+- **Beleg:** NAGEL1974 S. 435–450 (Heft 4, Oktober 1974 laut Crossref); NAGEL2024 Vorwort („a
+  standard reference in many of these debates“); DENNETT1991 S. 441 · Einblendung „Nagel 1974,
+  S. 435–450“, „Dennett 1991, S. 441“ · Zitat: „The most widely cited and influential thought
+  experiment about consciousness“
 - **Szene:** Titelkarte „Wie ist es, eine Fledermaus zu sein?“, darunter „Thomas Nagel ·
   The Philosophical Review 83/4 · Oktober 1974“. Kapitelleiste.
 

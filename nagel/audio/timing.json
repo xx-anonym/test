@@ -97,5 +97,1091 @@
     "end": 18.113
    }
   ]
+ },
+ "0.1": {
+  "hash": "9fcfc8f0ce51634d470628450a493a6a95fde8b1",
+  "duration": 24.567,
+  "sentences": [
+   {
+    "text": "Es ist Dämmerung.",
+    "start": 0.0,
+    "end": 0.813
+   },
+   {
+    "text": "Eine Fledermaus verlässt ihr Quartier.",
+    "start": 1.193,
+    "end": 3.166
+   },
+   {
+    "text": "Sie stößt Rufe aus, meist so hoch, dass wir sie nicht hören, und liest aus den Echos, wo die Mücke fliegt und wohin sie ausweicht.",
+    "start": 3.546,
+    "end": 10.84
+   },
+   {
+    "text": "Kurz vor dem Fang folgen die Rufe bis zu zweihundertmal pro Sekunde aufeinander.",
+    "start": 11.22,
+    "end": 15.728
+   },
+   {
+    "text": "Wir können jeden Ruf messen und jedes Echo berechnen.",
+    "start": 16.108,
+    "end": 18.948
+   },
+   {
+    "text": "Und doch bleibt eine Frage, die keine Messung beantwortet: Wie ist es, diese Fledermaus zu sein?",
+    "start": 19.328,
+    "end": 24.567
+   }
+  ]
+ },
+ "0.2": {
+  "hash": "b7194e75075051ac4a67693435ea0c5814f668ac",
+  "duration": 22.966,
+  "sentences": [
+   {
+    "text": "1974 machte der Philosoph Thomas Nagel diese Frage zum Titel eines Aufsatzes: sechzehn Seiten in der Zeitschrift The Philosophical Review.",
+    "start": 0.0,
+    "end": 8.521
+   },
+   {
+    "text": "Der Text wurde zu einem Bezugspunkt fast jeder späteren Debatte über Bewusstsein.",
+    "start": 8.901,
+    "end": 13.176
+   },
+   {
+    "text": "Dieses Video rekonstruiert sein Argument, stellt die stärksten Einwände dar und fragt, was die echte Fledermaus und die heutige Debatte über Tiere und Maschinen daran ändern.",
+    "start": 13.556,
+    "end": 22.966
+   }
+  ]
+ },
+ "1.1": {
+  "hash": "f5ce7c63f4386c3793374473ea0a2c1a633f2d30",
+  "duration": 18.468,
+  "sentences": [
+   {
+    "text": "Nagel hätte jedes Tier wählen können.",
+    "start": 0.0,
+    "end": 1.841
+   },
+   {
+    "text": "Er nimmt die Fledermaus aus zwei Gründen.",
+    "start": 2.221,
+    "end": 4.209
+   },
+   {
+    "text": "Erstens zweifelt kaum jemand daran, dass sie etwas erlebt; sie ist ein Säugetier wie Mäuse oder Wale.",
+    "start": 4.589,
+    "end": 10.313
+   },
+   {
+    "text": "Wespen oder Flundern, schreibt Nagel, habe er nicht gewählt, weil Menschen den Glauben an Erleben verlieren, je weiter man im Stammbaum hinabsteigt.",
+    "start": 10.693,
+    "end": 18.468
+   }
+  ]
+ },
+ "1.2": {
+  "hash": "a23b785f04793879bac3f3a7a4981a51c7e62370",
+  "duration": 26.825,
+  "sentences": [
+   {
+    "text": "Zweitens nehmen die meisten Fledermäuse ihre Welt vor allem über Echoortung wahr.",
+    "start": 0.0,
+    "end": 4.166
+   },
+   {
+    "text": "Sie stoßen schnelle, fein modulierte, hohe Rufe aus und unterscheiden an den Echos Entfernung, Größe, Form, Bewegung und Oberfläche – Leistungen, die bei uns vor allem das Sehen übernimmt.",
+    "start": 4.546,
+    "end": 15.419
+   },
+   {
+    "text": "Aber dieses Sonar, so Nagel, funktioniert anders als jeder unserer Sinne.",
+    "start": 15.799,
+    "end": 20.244
+   },
+   {
+    "text": "Es gibt keinen Grund anzunehmen, dass es sich anfühlt wie irgendetwas, das wir erleben oder uns vorstellen können.",
+    "start": 20.624,
+    "end": 26.825
+   }
+  ]
+ },
+ "1.3": {
+  "hash": "0d82dd1be942052d7e5f42e9bc9540f25e0daaec",
+  "duration": 23.378,
+  "sentences": [
+   {
+    "text": "Die Fledermaus ist also nah genug, dass wir ihr Erleben zusprechen, und fremd genug, dass wir es nicht nachvollziehen können.",
+    "start": 0.0,
+    "end": 6.231
+   },
+   {
+    "text": "Woher die Idee kam, hat Nagel fünfzig Jahre später erzählt: In den frühen Siebzigerjahren nisteten Fledermäuse in seinem Landhaus in Pennsylvania.",
+    "start": 6.611,
+    "end": 14.889
+   },
+   {
+    "text": "Manchmal verirrte sich eine ins Haus – für ihn eine beunruhigend nahe Begegnung mit einem fremden Wesen.",
+    "start": 15.269,
+    "end": 20.104
+   },
+   {
+    "text": "Der Fledermaus, vermutet er, ging es genauso.",
+    "start": 20.484,
+    "end": 23.378
+   }
+  ]
+ },
+ "2.1": {
+  "hash": "35eb5eb953d9e565bb5697fbd0788be68e305494",
+  "duration": 11.355,
+  "sentences": [
+   {
+    "text": "Wogegen schreibt Nagel?",
+    "start": 0.0,
+    "end": 1.278
+   },
+   {
+    "text": "Um 1970 erlebte die Philosophie des Geistes, wie er sagt, eine Welle reduktionistischer Euphorie: Man wollte zeigen, dass Mentales in Wahrheit dasselbe ist wie etwas, das eine grundlegendere Wissenschaft beschreibt.",
+    "start": 1.658,
+    "end": 11.355
+   }
+  ]
+ },
+ "2.2": {
+  "hash": "e351d7492d4a7359b785e2f8d8a8cc4ebbef0b01",
+  "duration": 26.683,
+  "sentences": [
+   {
+    "text": "Drei Ansätze prägten die Debatte.",
+    "start": 0.0,
+    "end": 1.867
+   },
+   {
+    "text": "Der Behaviorismus verstand mentale Begriffe als Rede über Verhalten und Verhaltensneigungen.",
+    "start": 2.247,
+    "end": 7.237
+   },
+   {
+    "text": "Die Identitätstheorie von Ullin Place und J.",
+    "start": 7.617,
+    "end": 10.356
+   },
+   {
+    "text": "J.",
+    "start": 10.736,
+    "end": 11.121
+   },
+   {
+    "text": "C.",
+    "start": 11.501,
+    "end": 11.995
+   },
+   {
+    "text": "Smart behauptete, Empfindungen seien Gehirnprozesse.",
+    "start": 12.375,
+    "end": 15.39
+   },
+   {
+    "text": "Und der Funktionalismus, angestoßen von Hilary Putnam, bestimmte mentale Zustände über ihre Rolle: was sie auslöst und was sie bewirken, gleichgültig, aus welchem Material das System besteht.",
+    "start": 15.77,
+    "end": 26.683
+   }
+  ]
+ },
+ "2.3": {
+  "hash": "621481ef15f0245ac7241c0b0f0d9375891ea691",
+  "duration": 25.362,
+  "sentences": [
+   {
+    "text": "Nagels erste Fußnote nennt Vertreter, darunter Smart, David Lewis, Putnam und Daniel Dennett.",
+    "start": 0.0,
+    "end": 5.836
+   },
+   {
+    "text": "Jeder Reduktionist, spottet er, habe seine Lieblingsanalogie: Wasser und H₂O, Blitz und elektrische Entladung, Gen und DNA.",
+    "start": 6.216,
+    "end": 14.473
+   },
+   {
+    "text": "Übergangen werde, was das Leib-Seele-Problem einzigartig macht: das Bewusstsein.",
+    "start": 14.853,
+    "end": 19.377
+   },
+   {
+    "text": "Ohne Bewusstsein wäre das Problem viel weniger interessant.",
+    "start": 19.757,
+    "end": 22.867
+   },
+   {
+    "text": "Mit Bewusstsein scheint es hoffnungslos.",
+    "start": 23.247,
+    "end": 25.362
+   }
+  ]
+ },
+ "4.1": {
+  "hash": "d7e41443cade9cfb72f93138c6a894e7bc2cb891",
+  "duration": 14.515,
+  "sentences": [
+   {
+    "text": "Der erste Schritt betrifft die Vorstellungskraft.",
+    "start": 0.0,
+    "end": 2.339
+   },
+   {
+    "text": "Ihr Material ist unsere eigene Erfahrung, deshalb ist ihre Reichweite begrenzt.",
+    "start": 2.719,
+    "end": 7.108
+   },
+   {
+    "text": "Man kann sich ausmalen, Flughäute zu haben, in der Dämmerung Insekten zu fangen und den Tag kopfüber auf einem Dachboden zu verbringen.",
+    "start": 7.488,
+    "end": 14.515
+   }
+  ]
+ },
+ "4.2": {
+  "hash": "a75214d0cd030857193a2602a48cd707ba46501d",
+  "duration": 29.735,
+  "sentences": [
+   {
+    "text": "Aber, schreibt Nagel, das sagt mir nur, wie es für mich wäre, mich wie eine Fledermaus zu verhalten.",
+    "start": 0.0,
+    "end": 5.487
+   },
+   {
+    "text": "Das ist nicht die Frage.",
+    "start": 5.867,
+    "end": 7.019
+   },
+   {
+    "text": "Ich will wissen, wie es für eine Fledermaus ist, eine Fledermaus zu sein.",
+    "start": 7.399,
+    "end": 11.179
+   },
+   {
+    "text": "Ob ich meiner Erfahrung etwas hinzufüge, etwas abziehe oder sie abwandle – keine dieser Operationen führt dorthin.",
+    "start": 11.559,
+    "end": 17.971
+   },
+   {
+    "text": "Wir können der Fledermaus allgemeine Typen von Erfahrung zuschreiben: Schmerz, Furcht, Hunger, eine Art räumliche Wahrnehmung nach vorn.",
+    "start": 18.351,
+    "end": 25.466
+   },
+   {
+    "text": "Von ihrem besonderen Charakter bleibt uns nur eine schematische Vorstellung.",
+    "start": 25.846,
+    "end": 29.735
+   }
+  ]
+ },
+ "4.3": {
+  "hash": "18b7f0054b5b5308fede76f51549575aa749ec0a",
+  "duration": 22.198,
+  "sentences": [
+   {
+    "text": "Der zweite Schritt sichert, dass es solche Tatsachen trotzdem gibt.",
+    "start": 0.0,
+    "end": 3.409
+   },
+   {
+    "text": "Angenommen, intelligente Fledermäuse oder Marsianer versuchten sich vorzustellen, wie es ist, ein Mensch zu sein.",
+    "start": 3.789,
+    "end": 10.217
+   },
+   {
+    "text": "Sie würden scheitern.",
+    "start": 10.597,
+    "end": 11.674
+   },
+   {
+    "text": "Aber sie lägen falsch, wenn sie schlössen, es sei nicht auf bestimmte Weise, wir zu sein – das wissen wir aus eigener Erfahrung.",
+    "start": 12.054,
+    "end": 18.552
+   },
+   {
+    "text": "Nagel nennt diese Haltung einen Realismus über das Subjektive.",
+    "start": 18.932,
+    "end": 22.198
+   }
+  ]
+ },
+ "4.4": {
+  "hash": "c646bc5e1abfde345dd6734f541bb82b4b8f1b01",
+  "duration": 18.593,
+  "sentences": [
+   {
+    "text": "Der dritte Schritt: Diese Tatsachen sind an einen Standpunkt gebunden – nicht an ein privates Ich, sondern an einen Typ, den Standpunkt eines Wesens mit einer bestimmten Art von Wahrnehmung.",
+    "start": 0.0,
+    "end": 9.179
+   },
+   {
+    "text": "Je unähnlicher uns ein Wesen ist, desto weniger können wir ihn einnehmen.",
+    "start": 9.559,
+    "end": 13.285
+   },
+   {
+    "text": "Schon wie ein von Geburt an taubblinder Mensch erlebt, ist mir, so Nagel, nicht zugänglich.",
+    "start": 13.665,
+    "end": 18.593
+   }
+  ]
+ },
+ "4.5": {
+  "hash": "983ba79f973fa796d01e585e0bfa27bbee51c0b0",
+  "duration": 26.01,
+  "sentences": [
+   {
+    "text": "Jetzt kommt der entscheidende Kontrast.",
+    "start": 0.0,
+    "end": 1.699
+   },
+   {
+    "text": "Physikalische Tatsachen sind objektive Tatsachen schlechthin: von vielen Standpunkten aus zu verstehen, auch von Wesen mit ganz anderen Sinnen.",
+    "start": 2.079,
+    "end": 10.06
+   },
+   {
+    "text": "Nagels Beispiel ist der Blitz.",
+    "start": 10.44,
+    "end": 12.015
+   },
+   {
+    "text": "Ein marsianischer Wissenschaftler ohne Sehsinn wüsste nie, wie ein Blitz für uns aussieht.",
+    "start": 12.395,
+    "end": 16.627
+   },
+   {
+    "text": "Aber er könnte verstehen, was ein Blitz ist: eine elektrische Entladung.",
+    "start": 17.007,
+    "end": 21.162
+   },
+   {
+    "text": "Der Blitz hat einen objektiven Charakter, der sich nicht in seiner sichtbaren Erscheinung erschöpft.",
+    "start": 21.542,
+    "end": 26.01
+   }
+  ]
+ },
+ "4.6": {
+  "hash": "076b51c9cb355b5386b3f057de957b4d5a3a4186",
+  "duration": 20.279,
+  "sentences": [
+   {
+    "text": "So funktionieren erfolgreiche Reduktionen: Wir lösen uns von den Eindrücken auf unsere Sinne.",
+    "start": 0.0,
+    "end": 4.991
+   },
+   {
+    "text": "Als man entdeckte, dass Schall eine Welle in der Luft ist, ließ man den Standpunkt des Hörens zurück – der dabei, wie Nagel bemerkt, selbst unreduziert bleibt.",
+    "start": 5.371,
+    "end": 14.059
+   },
+   {
+    "text": "Für die Außenwelt ist das kein Verlust.",
+    "start": 14.439,
+    "end": 16.571
+   },
+   {
+    "text": "Objektivität ist eine Richtung, in die das Verstehen gehen kann.",
+    "start": 16.951,
+    "end": 20.279
+   }
+  ]
+ },
+ "4.7": {
+  "hash": "9a1b6d4ebe85c963a51a33b6c01a00495d069b75",
+  "duration": 31.406,
+  "sentences": [
+   {
+    "text": "Bei der Erfahrung selbst aber, so Nagel, scheint der Schritt von der Erscheinung zur Wirklichkeit keinen Sinn zu ergeben.",
+    "start": 0.0,
+    "end": 5.891
+   },
+   {
+    "text": "Er fragt: Was bliebe davon übrig, wie es ist, eine Fledermaus zu sein, wenn man den Standpunkt der Fledermaus entfernte?",
+    "start": 6.271,
+    "end": 13.304
+   },
+   {
+    "text": "Der Standpunkt ist hier kein Zugang zur Sache; er ist das Wesen der Innenwelt selbst.",
+    "start": 13.684,
+    "end": 17.976
+   },
+   {
+    "text": "Daraus folgt der Kernsatz des Aufsatzes: Wenn der subjektive Charakter einer Erfahrung nur von einem Standpunkt aus voll verständlich ist, dann bringt uns jeder Schritt zu größerer Objektivität nicht näher an ihr wirkliches Wesen heran.",
+    "start": 18.356,
+    "end": 29.463
+   },
+   {
+    "text": "Er führt uns weiter davon weg.",
+    "start": 29.843,
+    "end": 31.406
+   }
+  ]
+ },
+ "4.8": {
+  "hash": "70f55b0ed63df95beeacdabdaf0184c5ed318cb3",
+  "duration": 13.578,
+  "sentences": [
+   {
+    "text": "Das ist die eigentliche Pointe.",
+    "start": 0.0,
+    "end": 1.403
+   },
+   {
+    "text": "Nagel sagt nicht nur, dass uns Daten fehlen.",
+    "start": 1.783,
+    "end": 4.387
+   },
+   {
+    "text": "Er sagt, dass das Verfahren, mit dem die Wissenschaft sonst erfolgreich reduziert, hier in die falsche Richtung zeigt.",
+    "start": 4.767,
+    "end": 10.69
+   },
+   {
+    "text": "Das Problem, schreibt er, ist einzigartig.",
+    "start": 11.07,
+    "end": 13.578
+   }
+  ]
+ },
+ "5.1": {
+  "hash": "5fd8cd0272a5b34c97aab9d0f1389a88fdf5e62b",
+  "duration": 16.476,
+  "sentences": [
+   {
+    "text": "An dieser Stelle wird Nagel oft missverstanden.",
+    "start": 0.0,
+    "end": 2.57
+   },
+   {
+    "text": "Er schließt nicht, dass der Physikalismus falsch ist; das zu folgern wäre, schreibt er, ein Fehler.",
+    "start": 2.95,
+    "end": 8.527
+   },
+   {
+    "text": "Treffender sei: Der Physikalismus ist eine Position, die wir nicht verstehen können, weil wir derzeit keine Vorstellung davon haben, wie sie wahr sein könnte.",
+    "start": 8.907,
+    "end": 16.476
+   }
+  ]
+ },
+ "5.2": {
+  "hash": "5a9a90e0e9ba2ded06d371ae26bef6c4fb20e232",
+  "duration": 17.756,
+  "sentences": [
+   {
+    "text": "Das Problem steckt im kleinen Wort „ist“.",
+    "start": 0.0,
+    "end": 1.904
+   },
+   {
+    "text": "Eine Identität verstehen wir erst, wenn wir sehen, wie zwei Bezeichnungen auf dasselbe zulaufen können.",
+    "start": 2.284,
+    "end": 7.717
+   },
+   {
+    "text": "Der Physikalismus, schreibt Nagel, habe heute den Status, den der Satz „Materie ist Energie“ im Mund eines vorsokratischen Philosophen gehabt hätte: Wir haben nicht einmal den Anfang einer Vorstellung, wie er wahr sein könnte.",
+    "start": 8.097,
+    "end": 17.756
+   }
+  ]
+ },
+ "5.3": {
+  "hash": "70bc918b7e40be494c37ec0630888c9d655f934b",
+  "duration": 17.632,
+  "sentences": [
+   {
+    "text": "Trotzdem kann man Gründe haben, so etwas zu glauben.",
+    "start": 0.0,
+    "end": 2.555
+   },
+   {
+    "text": "Wer nichts von Metamorphose weiß, eine Raupe in einen sterilen Safe sperrt und Wochen später einen Schmetterling findet, hat guten Grund anzunehmen, dass der Schmetterling die Raupe ist oder war – ohne zu verstehen, in welchem Sinn.",
+    "start": 2.935,
+    "end": 13.091
+   },
+   {
+    "text": "In einer solchen Lage, vermutet Nagel, könnten wir beim Physikalismus sein.",
+    "start": 13.471,
+    "end": 17.632
+   }
+  ]
+ },
+ "5.4": {
+  "hash": "18e7cac7b78786c31f81c24d68e60114c2db3d49",
+  "duration": 24.038,
+  "sentences": [
+   {
+    "text": "Auch die These, wir könnten grundsätzlich nicht wissen, wie es ist, eine Fledermaus zu sein, vertritt Nagel ausdrücklich nicht.",
+    "start": 0.0,
+    "end": 6.754
+   },
+   {
+    "text": "In einer Fußnote erwähnt er blinde Menschen, die Gegenstände mit Klicklauten oder einem Stock orten; von dort ließe sich vielleicht grob extrapolieren.",
+    "start": 7.134,
+    "end": 14.937
+   },
+   {
+    "text": "Sein Punkt sei ein anderer: Schon um sich einen Begriff davon zu bilden, muss man den Standpunkt der Fledermaus einnehmen – und wer das nur teilweise kann, hat auch nur einen teilweisen Begriff.",
+    "start": 15.317,
+    "end": 24.038
+   }
+  ]
+ },
+ "5.5": {
+  "hash": "5f44821b087f17715993a062fd4268bd2c1b0991",
+  "duration": 29.046,
+  "sentences": [
+   {
+    "text": "Am Ende schlägt Nagel eine objektive Phänomenologie vor.",
+    "start": 0.0,
+    "end": 3.273
+   },
+   {
+    "text": "Sie soll Erfahrungen so beschreiben, dass auch Wesen sie wenigstens teilweise verstehen, die sie nicht haben können – etwa einem von Geburt an blinden Menschen erklären, wie Sehen ist.",
+    "start": 3.653,
+    "end": 12.418
+   },
+   {
+    "text": "Lose Vergleiche wie „Rot ist wie der Klang einer Trompete“ helfen dabei nicht, strukturelle Beschreibungen vielleicht schon.",
+    "start": 12.798,
+    "end": 18.928
+   },
+   {
+    "text": "Und in der letzten Fußnote vermutet Nagel, die Beziehung zwischen Geist und Körper werde einmal in einer Theorie ausgedrückt, deren Grundbegriffe weder klar mental noch klar physisch sind.",
+    "start": 19.308,
+    "end": 29.046
+   }
+  ]
+ },
+ "6.1": {
+  "hash": "450c748be5f015ef4aaec354410829a650a7b478",
+  "duration": 24.548,
+  "sentences": [
+   {
+    "text": "Die Frage selbst war 1974 nicht neu.",
+    "start": 0.0,
+    "end": 3.115
+   },
+   {
+    "text": "Schon 1950 schrieb B.",
+    "start": 3.495,
+    "end": 5.597
+   },
+   {
+    "text": "A.",
+    "start": 5.977,
+    "end": 6.33
+   },
+   {
+    "text": "Farrell in der Zeitschrift Mind über einen Marsianer mit einem „Pseudo-Radiosinn“ und über den Satz: „Ich frage mich, wie es wäre, eine Fledermaus zu sein und zu hören wie sie.“ Farrell zog aber den entgegengesetzten Schluss: Physiologie und Psychologie könnten das Erleben loswerden – indem sie einsehen, dass es töricht sei anzunehmen, es gebe solche Dinge, oder es gebe sie nicht.",
+    "start": 6.71,
+    "end": 24.548
+   }
+  ]
+ },
+ "6.2": {
+  "hash": "e370c59416328353252c5adec35e2d0a10b24883",
+  "duration": 18.231,
+  "sentences": [
+   {
+    "text": "1971 bestimmte Timothy Sprigge Bewusstsein als das, was man zu kennzeichnen versucht, wenn man fragt, wie es ist oder wäre, ein bestimmtes Objekt in einer bestimmten Lage zu sein.",
+    "start": 0.0,
+    "end": 9.573
+   },
+   {
+    "text": "In der Neuausgabe zum fünfzigsten Jahrestag erkennt Nagel beide an und gesteht: Als er den Aufsatz schrieb, hatte er Sprigge nicht gelesen und Farrell vergessen.",
+    "start": 9.953,
+    "end": 18.231
+   }
+  ]
+ },
+ "6.3": {
+  "hash": "bf74db2ddbf21128ebce28abf43e47c88c5977f1",
+  "duration": 30.163,
+  "sentences": [
+   {
+    "text": "Eine ältere Wurzel liegt in der Biologie.",
+    "start": 0.0,
+    "end": 2.209
+   },
+   {
+    "text": "1909 schrieb Jakob von Uexküll, jede Lebensform besitze eine ihr eigene Umwelt; der Standpunkt des Tieres müsse in der Forschung allein ausschlaggebend werden.",
+    "start": 2.589,
+    "end": 12.151
+   },
+   {
+    "text": "Die Reize dieser Umwelt umschließen das Tier wie die Mauern eines selbstgebauten Hauses.",
+    "start": 12.531,
+    "end": 17.388
+   },
+   {
+    "text": "Bemerkenswert ist, wo Uexküll aufhört: Die Innenwelt der Tiere mit seelischen Qualitäten auszumalen, hielt er für keine Sache ernsthafter Forscher.",
+    "start": 17.768,
+    "end": 25.906
+   },
+   {
+    "text": "Er beschreibt das linke Feld unseres Bildes und lässt das rechte bewusst leer.",
+    "start": 26.286,
+    "end": 30.163
+   }
+  ]
+ },
+ "7.1": {
+  "hash": "9a183fb1a4e368c62a6f487cb8c7e4572ab45cee",
+  "duration": 29.065,
+  "sentences": [
+   {
+    "text": "Nach 1974 wurde „wie es ist“ zur Standardformel.",
+    "start": 0.0,
+    "end": 3.591
+   },
+   {
+    "text": "1982 legte Frank Jackson ein verwandtes, aber eigenständiges Argument vor.",
+    "start": 3.971,
+    "end": 9.236
+   },
+   {
+    "text": "Mary ist eine brillante Wissenschaftlerin, die die Welt nur aus einem schwarz-weißen Raum über einen schwarz-weißen Bildschirm kennt.",
+    "start": 9.616,
+    "end": 15.865
+   },
+   {
+    "text": "Sie weiß alles Physikalische über das Farbensehen.",
+    "start": 16.245,
+    "end": 18.778
+   },
+   {
+    "text": "Lernt sie etwas Neues, wenn sie hinausgeht und zum ersten Mal Farben sieht?",
+    "start": 19.158,
+    "end": 23.21
+   },
+   {
+    "text": "Wenn ja, so Jackson, war ihr physikalisches Wissen unvollständig – und der Physikalismus falsch.",
+    "start": 23.59,
+    "end": 29.065
+   }
+  ]
+ },
+ "7.2": {
+  "hash": "0d859f423bb708f20203a40ab0aa0b2362a4d750",
+  "duration": 14.953,
+  "sentences": [
+   {
+    "text": "Jackson grenzt sich dabei von Nagel ab, dem er viel verdanke: Nagels Problem betreffe die Grenzen unserer Vorstellungskraft, und darüber sage der Physikalismus nichts.",
+    "start": 0.0,
+    "end": 8.997
+   },
+   {
+    "text": "Sein eigenes Argument behaupte mehr: Eine Eigenschaft der Erfahrung fehlt in aller physikalischen Information.",
+    "start": 9.377,
+    "end": 14.953
+   }
+  ]
+ },
+ "7.3": {
+  "hash": "65d1bc8f50723ca2e97715fe4c0f6b86f4b9b1d4",
+  "duration": 24.741,
+  "sentences": [
+   {
+    "text": "1983 prägte Joseph Levine den Begriff der Erklärungslücke.",
+    "start": 0.0,
+    "end": 4.864
+   },
+   {
+    "text": "Dass Wärme Molekülbewegung ist, erklärt alles, was wir an Wärme erklären wollen.",
+    "start": 5.244,
+    "end": 9.859
+   },
+   {
+    "text": "Dass Schmerz das Feuern bestimmter Nervenfasern sein soll, erklärt, was Schmerz bewirkt, aber nicht, warum er sich so anfühlt.",
+    "start": 10.239,
+    "end": 16.986
+   },
+   {
+    "text": "Levine folgert daraus nicht, dass der Materialismus falsch ist, sondern dass uns ein Verstehen fehlt; Nagels Aufsatz nennt er als Einfluss.",
+    "start": 17.366,
+    "end": 24.741
+   }
+  ]
+ },
+ "7.4": {
+  "hash": "f33335437bfd022ac5eff9515c916a2d0775c53d",
+  "duration": 25.746,
+  "sentences": [
+   {
+    "text": "1995 unterschied David Chalmers die „leichten“ Probleme des Bewusstseins – Reize unterscheiden, Information integrieren, über eigene Zustände berichten – vom „harten“ Problem: dem Problem der Erfahrung.",
+    "start": 0.0,
+    "end": 12.306
+   },
+   {
+    "text": "Er beruft sich dabei direkt auf Nagels Formel.",
+    "start": 12.686,
+    "end": 15.004
+   },
+   {
+    "text": "Im selben Jahr trennte Ned Block das phänomenale Bewusstsein, also wie es ist, in einem Zustand zu sein, vom Zugangsbewusstsein: der Verfügbarkeit von Information für Denken, Sprechen und Handeln.",
+    "start": 15.384,
+    "end": 25.746
+   }
+  ]
+ },
+ "8.1": {
+  "hash": "a1aa44845bcabc57df16a4b8398ad36378f43ef4",
+  "duration": 9.209,
+  "sentences": [
+   {
+    "text": "Ein Argument dieser Reichweite hat entschiedene Gegner.",
+    "start": 0.0,
+    "end": 2.704
+   },
+   {
+    "text": "Hier sind die wichtigsten, jeweils so stark, wie ihre Vertreter sie machen, und mit dem Schritt, den sie angreifen.",
+    "start": 3.084,
+    "end": 9.209
+   }
+  ]
+ },
+ "8.2": {
+  "hash": "b911f29dc28d3f655b7f04c49cf3dfd063b7c2b7",
+  "duration": 28.613,
+  "sentences": [
+   {
+    "text": "Daniel Dennett, in Nagels erster Fußnote unter den Reduktionisten genannt, widerspricht frontal.",
+    "start": 0.0,
+    "end": 5.726
+   },
+   {
+    "text": "Nagel behaupte, kein Wissen aus der dritten Person könne uns sagen, wie es ist, eine Fledermaus zu sein, schreibt Dennett 1991, und diese Behauptung bestreite er rundweg.",
+    "start": 6.106,
+    "end": 15.953
+   },
+   {
+    "text": "Wir könnten eine Menge darüber wissen, wie es ist, eine Fledermaus zu sein; die Struktur ihres Geistes sei ebenso zugänglich wie die Struktur ihres Verdauungssystems.",
+    "start": 16.333,
+    "end": 24.694
+   },
+   {
+    "text": "Angegriffen wird der Schritt, uns bleibe nur eine schematische Vorstellung.",
+    "start": 25.074,
+    "end": 28.613
+   }
+  ]
+ },
+ "8.3": {
+  "hash": "0dec4cc9b88314c4c38bc6175c978767821ea99b",
+  "duration": 35.942,
+  "sentences": [
+   {
+    "text": "Kathleen Akins prüfte das 1993 an der Schnurrbartfledermaus, mit überraschendem Ergebnis.",
+    "start": 0.0,
+    "end": 6.26
+   },
+   {
+    "text": "Die Neurophysiologie lege nahe, dass die Fledermaus ihr Sonar vermutlich nicht nutzt, um Gegenstände darzustellen.",
+    "start": 6.64,
+    "end": 13.089
+   },
+   {
+    "text": "Ihr Erleben sei dann wahrscheinlich weder bildhaft noch eines von einer Welt aus Dingen und Eigenschaften – und es sei plausibel, dass die Fledermaus überhaupt keinen Standpunkt hat.",
+    "start": 13.469,
+    "end": 21.873
+   },
+   {
+    "text": "Damit zielt Akins auf Nagels Voraussetzung, es sei irgendwie, eine Fledermaus zu sein.",
+    "start": 22.253,
+    "end": 27.288
+   },
+   {
+    "text": "Sean Allen-Hermanson hielt 2015 dagegen: Eine vollständigere Sicht der Befunde zeige Fledermäuse gerade nicht als starre Automaten.",
+    "start": 27.668,
+    "end": 35.942
+   }
+  ]
+ },
+ "8.4": {
+  "hash": "b22fe268bb11a37c955d82b75c4a345af584dcf1",
+  "duration": 27.12,
+  "sentences": [
+   {
+    "text": "David Lewis und Laurence Nemirow setzen an anderer Stelle an.",
+    "start": 0.0,
+    "end": 3.666
+   },
+   {
+    "text": "Ihre Fähigkeitshypothese: Zu wissen, wie eine Erfahrung ist, heißt nicht, eine Tatsache zu kennen, sondern Fähigkeiten zu besitzen – sich zu erinnern, sich etwas vorzustellen, etwas wiederzuerkennen.",
+    "start": 4.046,
+    "end": 13.068
+   },
+   {
+    "text": "Lektionen vermitteln Information, schreibt Lewis; Fähigkeit ist etwas anderes.",
+    "start": 13.448,
+    "end": 17.809
+   },
+   {
+    "text": "Dann wäre es nicht rätselhaft, dass kein Physikunterricht lehrt, wie die Echoortung einer Fledermaus ist.",
+    "start": 18.189,
+    "end": 23.497
+   },
+   {
+    "text": "Angegriffen wird Nagels Realismus über subjektive Tatsachen.",
+    "start": 23.877,
+    "end": 27.12
+   }
+  ]
+ },
+ "8.5": {
+  "hash": "545b6ee9c63e4cfc9983b85b54d970dc629b861c",
+  "duration": 33.573,
+  "sentences": [
+   {
+    "text": "Peter Hacker bestreitet schon die Formel.",
+    "start": 0.0,
+    "end": 1.89
+   },
+   {
+    "text": "Die Frage „Wie ist es, X zu sein?“ ist sinnvoll, wenn sie einen Kontrast enthält – etwa: Wie ist es für eine Frau, Soldatin zu sein, im Unterschied zu einem Mann?",
+    "start": 2.27,
+    "end": 11.023
+   },
+   {
+    "text": "Bei „Wie ist es für eine Fledermaus, eine Fledermaus zu sein?“ fehle jeder Kontrast.",
+    "start": 11.403,
+    "end": 15.871
+   },
+   {
+    "text": "Und wer fragt „Wie war es für dich?“, erwarte eine Bewertung, etwa angenehm oder aufregend, keine Erlebnisqualität.",
+    "start": 16.251,
+    "end": 22.93
+   },
+   {
+    "text": "Die Wendung, es sei irgendwie, ein Wesen zu sein, nennt Hacker schlecht gebaut.",
+    "start": 23.31,
+    "end": 27.744
+   },
+   {
+    "text": "Nagels Klarstellung, gemeint sei, wie es für das Subjekt ist, kennt er; sie überzeugt ihn nicht.",
+    "start": 28.124,
+    "end": 33.573
+   }
+  ]
+ },
+ "8.6": {
+  "hash": "797a81ffd601186743c8e9d5320dcd6167a4da17",
+  "duration": 26.07,
+  "sentences": [
+   {
+    "text": "Am weitesten geht der Illusionismus, den Keith Frankish 2016 ausgearbeitet hat.",
+    "start": 0.0,
+    "end": 5.053
+   },
+   {
+    "text": "Er bestreitet nicht, dass es uns so scheint, als hätten Erfahrungen eine qualitative Innenseite.",
+    "start": 5.433,
+    "end": 10.473
+   },
+   {
+    "text": "Er bestreitet, dass es diese phänomenalen Eigenschaften wirklich gibt.",
+    "start": 10.853,
+    "end": 14.464
+   },
+   {
+    "text": "An die Stelle des harten Problems tritt das Illusionsproblem: zu erklären, wie dieser Anschein entsteht und warum er so hartnäckig ist.",
+    "start": 14.844,
+    "end": 21.72
+   },
+   {
+    "text": "Getroffen wäre damit Nagels Ausgangspunkt, die Definition selbst.",
+    "start": 22.1,
+    "end": 26.07
+   }
+  ]
+ },
+ "9.1": {
+  "hash": "c5e8ea9e13cb735bf46b452dc5f3459ae1c17160",
+  "duration": 30.411,
+  "sentences": [
+   {
+    "text": "Wie arbeitet die echte Fledermaus?",
+    "start": 0.0,
+    "end": 1.768
+   },
+   {
+    "text": "Dass sie Hindernissen mit Echos ausweicht, zeigten Donald Griffin und Robert Galambos 1941; drei Jahre später prägte Griffin dafür das Wort echolocation.",
+    "start": 2.148,
+    "end": 12.064
+   },
+   {
+    "text": "Die Physik ist einfach: Schall legt bei zwanzig Grad etwa 343 Meter pro Sekunde zurück, und der Ruf muss hin und zurück.",
+    "start": 12.444,
+    "end": 19.896
+   },
+   {
+    "text": "Ein Echo nach sechs Millisekunden heißt: Das Insekt ist rund einen Meter entfernt.",
+    "start": 20.276,
+    "end": 25.205
+   },
+   {
+    "text": "Weit reicht das nicht; selbst ein günstiges Ziel ist kaum auf mehr als zehn Meter zu orten.",
+    "start": 25.585,
+    "end": 30.411
+   }
+  ]
+ },
+ "9.2": {
+  "hash": "916871c2af15e8c84085cdd919145d29ca32f8c0",
+  "duration": 18.275,
+  "sentences": [
+   {
+    "text": "Fledermäuse nutzen zwei Grundformen von Rufen.",
+    "start": 0.0,
+    "end": 2.533
+   },
+   {
+    "text": "Frequenzmodulierte Rufe gleiten rasch über einen breiten Bereich abwärts und sind präzise Zeitmarken für Entfernung und Richtung.",
+    "start": 2.913,
+    "end": 9.975
+   },
+   {
+    "text": "Konstantfrequente Rufe halten länger einen Ton; mit ihnen lassen sich schwache Echos entdecken und der Flügelschlag eines Insekts als Flackern im Echo erkennen.",
+    "start": 10.355,
+    "end": 18.275
+   }
+  ]
+ },
+ "9.3": {
+  "hash": "cffff24148609dfff2c8efd61e9c18c55a444c76",
+  "duration": 20.112,
+  "sentences": [
+   {
+    "text": "Fliegt die Fledermaus auf ein Ziel zu, kommt das Echo durch den Doppler-Effekt höher zurück: bei fünf Metern pro Sekunde und 61 Kilohertz um knapp zwei Kilohertz.",
+    "start": 0.0,
+    "end": 9.49
+   },
+   {
+    "text": "Arten mit langen konstantfrequenten Rufen gleichen das aus.",
+    "start": 9.87,
+    "end": 12.877
+   },
+   {
+    "text": "Sie senken ihren Ruf gerade so weit, dass das Echo in einem schmalen Fenster ankommt, für das ihr Innenohr besonders fein abgestimmt ist.",
+    "start": 13.257,
+    "end": 20.112
+   }
+  ]
+ },
+ "9.4": {
+  "hash": "491a40659a4f0ec4a25de98c49231ec16c78df6d",
+  "duration": 25.037,
+  "sentences": [
+   {
+    "text": "Wie das Gehirn das ordnet, hat Nobuo Suga an der Schnurrbartfledermaus untersucht, deren Ruf mit einem langen Ton bei etwa 61 Kilohertz beginnt.",
+    "start": 0.0,
+    "end": 8.083
+   },
+   {
+    "text": "Im Hörkortex sind Nervenzellen auf die Zeit zwischen Ruf und Echo abgestimmt und entlang einer Achse geordnet, die Entfernungen von sieben Zentimetern bis gut drei Metern abbildet.",
+    "start": 8.463,
+    "end": 18.535
+   },
+   {
+    "text": "Ein anderes Areal vergrößert das schmale Band knapp über 61 Kilohertz und verarbeitet Geschwindigkeit.",
+    "start": 18.915,
+    "end": 25.037
+   }
+  ]
+ },
+ "9.5": {
+  "hash": "750751eb63a71cf3688f0cce5333a2d11546f34b",
+  "duration": 14.384,
+  "sentences": [
+   {
+    "text": "So klingt das: eine Fledermaus kurz vor dem Fang, aufgenommen in Pennsylvania und zehnfach verlangsamt.",
+    "start": 0.0,
+    "end": 5.706
+   },
+   {
+    "text": "Dadurch rutschen die Rufe um mehr als drei Oktaven in unseren Hörbereich.",
+    "start": 6.086,
+    "end": 10.373
+   },
+   {
+    "text": "Jeder Ruf gleitet abwärts, und die Rufe folgen immer dichter aufeinander.",
+    "start": 10.753,
+    "end": 14.384
+   }
+  ]
+ },
+ "9.6": {
+  "hash": "7a0cb28f93fffd29486da76fa4deacec1b65c89e",
+  "duration": 23.118,
+  "sentences": [
+   {
+    "text": "Und Menschen?",
+    "start": 0.0,
+    "end": 0.751
+   },
+   {
+    "text": "Manche Blinde orten Gegenstände mit Mundklicks.",
+    "start": 1.131,
+    "end": 3.642
+   },
+   {
+    "text": "Lore Thaler und Kollegen untersuchten 2011 zwei solche Experten im Hirnscanner: Klicks mit Echos aktivierten, verglichen mit echofreien Kontrollgeräuschen, ein Areal, das gewöhnlich dem Sehen dient; im Hörkortex zeigte sich kein Unterschied.",
+    "start": 4.022,
+    "end": 16.282
+   },
+   {
+    "text": "Bei zwei Personen ist das ein Hinweis, kein Beweis.",
+    "start": 16.662,
+    "end": 19.892
+   },
+   {
+    "text": "Nagels Fußnote hatte solche Echoortung schon erwähnt.",
+    "start": 20.272,
+    "end": 23.118
+   }
+  ]
+ },
+ "9.7": {
+  "hash": "73105aa002451c28bb293f3618ad84494ff486cc",
+  "duration": 26.929,
+  "sentences": [
+   {
+    "text": "Verringert all das Nagels Kluft, oder bestätigt es sie?",
+    "start": 0.0,
+    "end": 3.107
+   },
+   {
+    "text": "Beides lässt sich vertreten.",
+    "start": 3.487,
+    "end": 4.756
+   },
+   {
+    "text": "Die linke Seite unseres Bildes ist voll geworden.",
+    "start": 5.136,
+    "end": 7.641
+   },
+   {
+    "text": "Wir wissen weit mehr darüber, was eine Fledermaus unterscheiden kann und wie ihr Gehirn das leistet, und ob ihre Echoortung eher dem Sehen ähnelt als dem Hören, ist teilweise eine empirische Frage geworden.",
+    "start": 8.021,
+    "end": 17.661
+   },
+   {
+    "text": "Aber die rechte Seite ist leer geblieben.",
+    "start": 18.041,
+    "end": 19.965
+   },
+   {
+    "text": "Aus keiner dieser Karten lässt sich ablesen, wie sich ein Echo für die Fledermaus anfühlt – so, wie Nagels Argument es vorhersagt.",
+    "start": 20.345,
+    "end": 26.929
+   }
+  ]
  }
 }

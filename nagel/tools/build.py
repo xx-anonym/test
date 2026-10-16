@@ -1,7 +1,7 @@
 """Assemble chapters: narration track, subtitles, and the muxed video.
 
     python tools/build.py scene 3        # audio + srt + mp4 for chapter 3
-    python tools/build.py final          # join all chapters into output/
+    python tools/build.py final          # join all chapters into output/ (video, srt)
 
 The audio track and the subtitles are laid out from the same schedule that
 drives the Manim scene (tools/timeline.py), so they line up by construction.
@@ -54,7 +54,17 @@ def write_wav(path, a):
         w.writeframes((a * 32767).astype(np.int16).tobytes())
 
 
+CREDITS = 13      # the credits have no narration; their length comes from the video
+
+
 def scene_audio(n):
+    if n == CREDITS:
+        end = round(duration(video_path(n)) * FPS) / FPS
+        s = {'paragraphs': [], 'end': end}
+        os.makedirs(SCENE_AUDIO, exist_ok=True)
+        path = os.path.join(SCENE_AUDIO, f'{SCENE_FILES[n]}.wav')
+        write_wav(path, np.zeros(int(round(end * RATE)), dtype=np.float32))
+        return path, s
     s = schedule(n)
     track = np.zeros(int(math.ceil(s['end'] * RATE)) + RATE, dtype=np.float32)
 
@@ -182,6 +192,50 @@ def build_scene(n):
     print(srt)
 
 
+def frames(path):
+    out = subprocess.run(['ffprobe', '-v', 'error', '-select_streams', 'v:0', '-count_packets',
+                          '-show_entries', 'stream=nb_read_packets', '-of', 'csv=p=0', path],
+                         capture_output=True, text=True, check=True).stdout
+    return int(out.strip())
+
+
+def build_final():
+    """Join all chapters: video streams copied, one continuous narration track
+    (loudness-normalised once), and one subtitle file with chapter offsets."""
+    out_dir = os.path.join(ROOT, 'output')
+    parts, track, items, t = [], [], [], 0.0
+    for n in sorted(SCENE_FILES):
+        video = video_path(n)
+        if not os.path.exists(video):
+            raise SystemExit(f'Kapitel {n} fehlt: {video}')
+        audio, s = scene_audio(n)
+        length = frames(video) / FPS
+        a = read_wav(audio)
+        a = np.pad(a, (0, max(0, int(round(length * RATE)) - len(a))))[:int(round(length * RATE))]
+        track.append(a)
+        items += cues(s, offset=t)
+        parts.append(video)
+        print(f'  {SCENE_FILES[n]:16s} {length:7.2f} s   ab {t:7.2f} s')
+        t += length
+    wav = os.path.join(SCENE_AUDIO, 'gesamt.wav')
+    write_wav(wav, np.concatenate(track))
+    lst = os.path.join(SCENE_AUDIO, 'concat.txt')
+    with open(lst, 'w') as f:
+        f.writelines(f"file '{p}'\n" for p in parts)
+    silent = os.path.join(SCENE_AUDIO, 'gesamt_video.mp4')
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', lst, '-an', '-c', 'copy',
+                    silent], check=True)
+    final = os.path.join(out_dir, 'nagel_fledermaus.mp4')
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', silent, '-i', wav,
+                    '-filter:a', 'loudnorm=I=-16:TP=-1.5:LRA=11', '-ar', str(RATE), '-ac', '2',
+                    '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', '-shortest', final],
+                   check=True)
+    srt = os.path.join(out_dir, 'untertitel.srt')
+    write_srt(srt, items)
+    print(f'{final}  ({duration(final):.2f} s, Summe der Kapitel {t:.2f} s)')
+    print(f'{srt}  ({len(items)} Untertitel)')
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('what', choices=['scene', 'final'])
@@ -191,7 +245,7 @@ def main():
         for n in args.chapters:
             build_scene(n)
     else:
-        raise SystemExit('final: folgt in der Produktionsphase')
+        build_final()
 
 
 if __name__ == '__main__':
