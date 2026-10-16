@@ -1,6 +1,6 @@
 """Replace the synthetic narration with your own recording and build the updated video.
 
-    python tools/stimme_ersetzen.py aufnahme.wav          # one take of the whole video
+    python tools/stimme_ersetzen.py aufnahme.m4a          # one take of the whole video
     python tools/stimme_ersetzen.py aufnahmen/            # a folder of takes (see below)
 
 Takes may be any format ffmpeg reads (wav, mp3, m4a, flac, …). In a folder the file
@@ -10,20 +10,26 @@ name says where a take belongs:
     4.2.wav, absatz_4.2.wav                              → paragraph 4.2 (e.g. a retake)
     anything else (only if it is the only file)          → the whole video
 
-Each take is placed automatically: its speech/pause pattern is matched against the
-pattern of the current narration (which the karaoke guide follows), so it does not
-matter when you pressed record. A paragraph take replaces that paragraph inside a
-chapter or whole-video take. The sound example in chapter 9 is mixed in as before.
+Whisper transcribes each take and its words are matched against the script, so every
+sentence is found wherever it is in the take (it does not matter when you pressed
+record). The take is cut in the pauses between sentences and each sentence is laid onto
+the moment the animation expects it – the timing the karaoke guide shows. Nothing is
+stretched; a sentence that runs longer than its slot pushes the next one back. A
+paragraph take replaces that paragraph of a chapter or whole-video take. The sound
+example in chapter 9 is mixed in as before. Transcripts are cached in audio/eigene_stimme/.
 
 Result:
     output/nagel_fledermaus.mp4   video with your voice (loudness −16 LUFS)
-    output/untertitel.srt         subtitles timed to your voice (Whisper; skip with --schnell)
+    output/untertitel.srt         subtitles timed to your voice
                                   (with --ziel X.mp4 the subtitles go to X.srt instead)
 The picture is taken from output/nagel_fledermaus_piper.mp4 (the version with the synthetic
 voice, refreshed by `tools/build.py final`); it is created from the current video if missing.
 """
 
 import argparse
+import functools
+import hashlib
+import json
 import os
 import re
 import shutil
@@ -32,7 +38,9 @@ import sys
 
 import numpy as np
 
-from build import RATE, NARRATION, SCENE_FILES, _pieces, _wrap, chapter_layout, read_wav, write_srt, write_wav
+from build import RATE, SCENE_FILES, _pieces, _wrap, chapter_layout, read_wav, write_srt, write_wav
+from karaoke import _norm_words, _similar, token_times
+from textnorm import spoken
 from timeline import schedule
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -44,7 +52,11 @@ WORK = os.path.join(ROOT, 'audio', 'eigene_stimme')
 AUDIO_EXT = ('.wav', '.mp3', '.m4a', '.aac', '.flac', '.ogg', '.opus', '.aiff', '.aif', '.wma', '.mp4', '.mov')
 
 HOP = 0.02            # envelope resolution (s)
+LOUD = 0.3            # envelope level that counts as voice
 CREDITS = 13          # no narration in the credits
+VOICE_DELAY = 0.05    # the synthetic voice starts this long after a scheduled sentence start
+MIN_PAUSE = 0.25      # shortest pause left when a long sentence pushes the next one back
+PAD = 0.4             # pause kept before and after each piece of a take
 
 
 # ------------------------------------------------------------ audio helpers
@@ -70,20 +82,6 @@ def envelope(a):
     return np.clip((db - floor - 6) / max(6.0, top - floor - 6), 0, 1)
 
 
-def best_lag(rec, ref, max_lag, center=0):
-    """Lag (frames) by which rec must be shifted to match ref – searched within
-    center ± max_lag – and a 0…1 match score."""
-    r = rec - rec.mean()
-    f = ref - ref.mean()
-    size = 1 << int(np.ceil(np.log2(len(r) + len(f) + 2 * abs(center) + 1)))
-    corr = np.fft.irfft(np.fft.rfft(f, size) * np.conj(np.fft.rfft(r, size)), size)
-    lags = np.arange(center - max_lag, center + max_lag + 1)
-    vals = corr[lags % size]
-    i = int(np.argmax(vals))
-    norm = np.sqrt(np.sum(r ** 2) * np.sum(f ** 2)) + 1e-9
-    return int(lags[i]), float(vals[i] / norm)
-
-
 def fade(a, sec=0.02):
     k = min(len(a) // 2, int(sec * RATE))
     if k:
@@ -92,74 +90,12 @@ def fade(a, sec=0.02):
     return a
 
 
-# ------------------------------------------------------------ the old narration as reference
-class Timeline:
-    def __init__(self):
-        self.layout = chapter_layout()
-        self.total = self.layout[-1][1] + self.layout[-1][2]
-        self.chapters = {}
-        self.paragraphs = {}
-        self.clips = []
-        for n, off, length in self.layout:
-            if n == CREDITS:
-                continue
-            s = schedule(n)
-            self.chapters[n] = (off, length, s)
-            for p in s['paragraphs']:
-                self.paragraphs[p['id']] = (n, off + p['start'], off + p['end'], p)
-                if p['clip']:
-                    self.clips.append((p['clip']['file'], off + p['clip']['start']))
-
-    def reference(self, start, end):
-        """The current narration between start and end (seconds in the final video)."""
-        out = np.zeros(int(round((end - start) * RATE)), dtype=np.float32)
-        for pid, (n, a, b, p) in self.paragraphs.items():
-            if b < start or a > end:
-                continue
-            voice = read_wav(os.path.join(NARRATION, f'{pid}.wav'))
-            i = int(round((a - start) * RATE))
-            lo, hi = max(0, i), min(len(out), i + len(voice))
-            if hi > lo:
-                out[lo:hi] += voice[lo - i:hi - i]
-        return out
-
-
-# ------------------------------------------------------------ placing the takes
-def classify(paths):
-    takes = []
-    for path in paths:
-        stem = os.path.splitext(os.path.basename(path))[0].strip().lower()
-        m = re.match(r'^(?:absatz[ _-]*)?(\d{1,2})\.(\d{1,2})$', stem)
-        if m:
-            takes.append(('absatz', f'{int(m.group(1))}.{int(m.group(2))}', path))
-            continue
-        m = re.match(r'^(?:kapitel|kap|k|s)?[ _-]*0*(\d{1,2})(?:[ _-].*)?$', stem)
-        if m and int(m.group(1)) in SCENE_FILES:
-            takes.append(('kapitel', int(m.group(1)), path))
-            continue
-        takes.append(('gesamt', None, path))
-    whole = [t for t in takes if t[0] == 'gesamt']
-    if len(whole) > 1 or (whole and len(takes) > 1 and any(t[0] == 'kapitel' for t in takes)):
-        names = ', '.join(os.path.basename(t[2]) for t in whole)
-        raise SystemExit(f'Nicht eindeutig zuzuordnen: {names}. Entweder eine Gesamtaufnahme oder Kapitel-'
-                         'aufnahmen (z. B. kapitel_04.wav); Nachaufnahmen einzelner Absätze heißen z. B. 4.2.wav.')
-    return takes
-
-
-def paragraph_reference(tl, pid, start, end):
-    """The old narration of one paragraph alone, between start and end."""
-    _, a, _, _ = tl.paragraphs[pid]
-    out = np.zeros(int(round((end - start) * RATE)), dtype=np.float32)
-    voice = read_wav(os.path.join(NARRATION, f'{pid}.wav'))
-    i = int(round((a - start) * RATE))
-    lo, hi = max(0, i), min(len(out), i + len(voice))
-    out[lo:hi] = voice[lo - i:hi - i]
-    return out
-
-
-def speech_frames(env):
-    idx = np.flatnonzero(env > 0.3)
-    return (idx[0] * HOP, (idx[-1] + 1) * HOP) if len(idx) else (0.0, 0.0)
+def put(track, seg, at):
+    seg = fade(seg.copy(), 0.04)
+    i = int(round(at * RATE))
+    lo, hi = max(0, i), min(len(track), i + len(seg))
+    if hi > lo:
+        track[lo:hi] += seg[lo - i:hi - i]
 
 
 def pause_near(env, t0, t1, mid, min_len=0.12):
@@ -184,152 +120,227 @@ def pause_near(env, t0, t1, mid, min_len=0.12):
     return max(runs)[2] if runs else None
 
 
-def sentence_reference(tl, pid, k, start, end):
-    """The old narration of one sentence alone, between start and end."""
-    _, a, _, p = tl.paragraphs[pid]
-    s = p['sentences'][k]
-    voice = read_wav(os.path.join(NARRATION, f'{pid}.wav'))
-    local = s['start'] - p['sentences'][0]['start']
-    v0 = int(max(0.0, local - 0.05) * RATE)
-    v1 = int((local + (s['end'] - s['start']) + 0.05) * RATE)
-    piece = voice[v0:v1]
-    out = np.zeros(int(round((end - start) * RATE)), dtype=np.float32)
-    i = int(round((a + local - 0.05 - start) * RATE))
-    lo, hi = max(0, i), min(len(out), i + len(piece))
-    if hi > lo:
-        out[lo:hi] = piece[lo - i:hi - i]
-    return out
+def first_loud(env, t0, t1):
+    idx = np.flatnonzero(env[max(0, int(t0 / HOP)):max(0, int(t1 / HOP))] > LOUD)
+    return max(0, int(t0 / HOP)) * HOP + idx[0] * HOP if len(idx) else None
 
 
-def put(track, seg, at):
-    seg = fade(seg.copy())
-    i = int(round(at * RATE))
-    lo, hi = max(0, i), min(len(track), i + len(seg))
-    if hi > lo:
-        track[lo:hi] += seg[lo - i:hi - i]
+def last_loud(env, t0, t1):
+    idx = np.flatnonzero(env[max(0, int(t0 / HOP)):max(0, int(t1 / HOP))] > LOUD)
+    return max(0, int(t0 / HOP)) * HOP + (idx[-1] + 1) * HOP if len(idx) else None
 
 
-def place(tl, take, kind, key, path, track, report, fine=True):
-    """Put one take where its speech pattern matches the old narration (which the animation
-    follows); with fine=True each paragraph of a longer take is then aligned on its own."""
+def clock(t):
+    return f'{int(t // 60)}:{t % 60:04.1f}'
+
+
+# ------------------------------------------------------------ the animation's timetable
+class Timeline:
+    def __init__(self):
+        self.layout = chapter_layout()
+        self.total = self.layout[-1][1] + self.layout[-1][2]
+        self.chapters = {}
+        self.paragraphs = {}
+        self.clips = []
+        for n, off, length in self.layout:
+            if n == CREDITS:
+                continue
+            s = schedule(n)
+            self.chapters[n] = (off, length, s)
+            for p in s['paragraphs']:
+                self.paragraphs[p['id']] = (n, off + p['start'], off + p['end'], p)
+                if p['clip']:
+                    self.clips.append((p['clip']['file'], off + p['clip']['start'], off + p['clip']['end']))
+        self.order = sorted(self.paragraphs, key=lambda pid: self.paragraphs[pid][1])
+
+    def due(self, pid, k):
+        """When sentence k of paragraph pid is spoken in the animation (seconds in the video)."""
+        n, _, _, p = self.paragraphs[pid]
+        return self.chapters[n][0] + p['sentences'][k]['start'] + VOICE_DELAY
+
+
+def classify(paths):
+    takes = []
+    for path in paths:
+        stem = os.path.splitext(os.path.basename(path))[0].strip().lower()
+        m = re.match(r'^(?:absatz[ _-]*)?(\d{1,2})\.(\d{1,2})$', stem)
+        if m:
+            takes.append(('absatz', f'{int(m.group(1))}.{int(m.group(2))}', path))
+            continue
+        m = re.match(r'^(?:kapitel|kap|k|s)?[ _-]*0*(\d{1,2})(?:[ _-].*)?$', stem)
+        if m and int(m.group(1)) in SCENE_FILES:
+            takes.append(('kapitel', int(m.group(1)), path))
+            continue
+        takes.append(('gesamt', None, path))
+    whole = [t for t in takes if t[0] == 'gesamt']
+    if len(whole) > 1 or (whole and len(takes) > 1 and any(t[0] == 'kapitel' for t in takes)):
+        names = ', '.join(os.path.basename(t[2]) for t in whole)
+        raise SystemExit(f'Nicht eindeutig zuzuordnen: {names}. Entweder eine Gesamtaufnahme oder Kapitel-'
+                         'aufnahmen (z. B. kapitel_04.wav); Nachaufnahmen einzelner Absätze heißen z. B. 4.2.wav.')
+    return takes
+
+
+def scope(tl, kind, key, path):
     if kind == 'gesamt':
-        start, end, search = 0.0, tl.total, 180.0
-    elif kind == 'kapitel':
-        off, length, _ = tl.chapters[key]
-        start, end, search = off, off + length, 60.0
-    else:
-        if key not in tl.paragraphs:
-            raise SystemExit(f'Absatz {key} gibt es im Skript nicht ({os.path.basename(path)}).')
-        _, a, b, _ = tl.paragraphs[key]
-        start, end, search = a - 0.35, b + 0.35, 8.0
-    env = envelope(take)
-    lag, score = best_lag(env, envelope(tl.reference(start, end)), int(search / HOP))
-    at = start + lag * HOP                      # where the take's first sample lands
-    name = os.path.basename(path)
+        return list(tl.order)
+    if kind == 'kapitel':
+        return [pid for pid in tl.order if tl.paragraphs[pid][0] == key]
+    if key not in tl.paragraphs:
+        raise SystemExit(f'Absatz {key} gibt es im Skript nicht ({os.path.basename(path)}).')
+    return [key]
 
-    if kind == 'absatz':                        # a retake replaces that paragraph
-        track[int(start * RATE):int(end * RATE)] = 0
-        state = {'prev_end': -1e9, 'shifts': [], 'crowded': []}
-        if fine:
-            place_sentences(tl, key, take, at, at, track, state)
+
+# ------------------------------------------------------------ what was said when (Whisper)
+def take_words(path, audio, model_name):
+    """[(word, start, end)] of a take, seconds from its beginning; cached per file and model."""
+    h = hashlib.sha1()
+    with open(path, 'rb') as f:
+        for block in iter(lambda: f.read(1 << 20), b''):
+            h.update(block)
+    cache = os.path.join(WORK, f'woerter_{h.hexdigest()[:16]}_{model_name}.json')
+    if os.path.exists(cache):
+        with open(cache) as f:
+            return [tuple(w) for w in json.load(f)]
+    from faster_whisper import WhisperModel
+    from scipy.signal import resample_poly
+    model = WhisperModel(model_name, device='cpu', compute_type='int8')
+    a16 = resample_poly(audio, 1, RATE // 16000).astype(np.float32)
+    segments, _ = model.transcribe(a16, language='de', beam_size=5, word_timestamps=True,
+                                   condition_on_previous_text=False, vad_filter=True)
+    words = [(w.word.strip(), round(w.start, 3), round(w.end, 3)) for s in segments for w in (s.words or [])]
+    os.makedirs(WORK, exist_ok=True)
+    with open(cache, 'w') as f:
+        json.dump(words, f, ensure_ascii=False)
+    return words
+
+
+@functools.lru_cache(maxsize=None)
+def _sim(a, b):
+    return _similar(a, b)
+
+
+def _fit(ref, hyp):
+    """Semi-global alignment: all of ref, somewhere inside hyp (extra words before and after
+    it are free). Returns {ref index: hyp index} for the words that match."""
+    n, m = len(ref), len(hyp)
+    rows = [[0.0] * (m + 1)]
+    for i in range(1, n + 1):
+        prev, row, r = rows[-1], [-float(i)] + [0.0] * m, ref[i - 1]
+        for j in range(1, m + 1):
+            d = prev[j - 1] + (2 if _sim(r, hyp[j - 1]) else -1)
+            u, le = prev[j] - 1, row[j - 1] - 1
+            row[j] = d if d >= u and d >= le else (u if u >= le else le)
+        rows.append(row)
+    pairs, i, j = {}, n, int(np.argmax(rows[n]))
+    while i > 0 and j > 0:
+        hit = _sim(ref[i - 1], hyp[j - 1])
+        if rows[i][j] == rows[i - 1][j - 1] + (2 if hit else -1):
+            if hit:
+                pairs[i - 1] = j - 1
+            i, j = i - 1, j - 1
+        elif rows[i][j] == rows[i - 1][j] - 1:
+            i -= 1
         else:
-            put(track, take, at)
-        f0, f1 = speech_frames(env)
-        late = max(0.0, at + f1 - end) + max(0.0, start - (at + f0))
-        report.append((name, kind, key, at - start, score, late, (state['shifts'], []) if fine else None))
-        return
-
-    pids = sorted((p for p, v in tl.paragraphs.items() if start <= v[1] and v[2] <= end),
-                  key=lambda p: tl.paragraphs[p][1])
-    if not fine or not pids:
-        lo = max(start, at)
-        seg = take[int(round((lo - at) * RATE)):int(round((end - at) * RATE))]
-        put(track, seg, lo)
-        report.append((name, kind, key, at - start, score, 0.0, None))
-        return
-
-    # cut the take in the pauses between paragraphs …
-    cuts = [max(0.0, tl.paragraphs[pids[0]][1] - at - 1.0)]
-    for p, q in zip(pids[:-1], pids[1:]):
-        mid = (tl.paragraphs[p][2] + tl.paragraphs[q][1]) / 2 - at
-        cut = pause_near(env, mid - 1.0, mid + 1.0, mid, min_len=0.2)
-        cuts.append(cut if cut is not None else mid)
-    cuts.append(min(len(take) / RATE, tl.paragraphs[pids[-1]][2] - at + 1.5))
-    # … lay each paragraph onto its place in the animation, then each sentence inside it
-    state = {'prev_end': -1e9, 'shifts': [], 'crowded': []}
-    for pid, c0, c1 in zip(pids, cuts[:-1], cuts[1:]):
-        if c1 - c0 < 0.2:
-            continue
-        seg = take[int(c0 * RATE):int(c1 * RATE)]
-        nominal = at + c0
-        _, a, b, _ = tl.paragraphs[pid]
-        pos = align(seg, lambda r0, r1: paragraph_reference(tl, pid, r0, r1), nominal, 1.5)
-        place_sentences(tl, pid, seg, pos, nominal, track, state)
-    report.append((name, kind, key, at - start, score, 0.0, (state['shifts'], state['crowded'])))
+            j -= 1
+    return pairs
 
 
-def align(seg, reference, nominal, search):
-    """Best position (s) of seg near nominal, matched against reference(r0, r1); nominal if unsure."""
-    dur = len(seg) / RATE
-    r0 = nominal - search - 0.5
-    ref = reference(r0, nominal + dur + search + 0.5)
-    lag, sc = best_lag(envelope(seg), envelope(ref), int(search / HOP), center=int(round((nominal - r0) / HOP)))
-    pos = r0 + lag * HOP
-    return pos if sc >= 0.3 else nominal
+def locate(tl, pids, words):
+    """Find the paragraphs, in order, in a take's words. For each paragraph found:
+    sentence spans [(start, end) or None] in the take, its word range and how many
+    more words were spoken than the script has (repeats, slips)."""
+    flat = [(x, i) for i, (w, _, _) in enumerate(words) for x in (_norm_words(w) or [])]
+    found, ptr = {}, 0
+    for pid in pids:
+        sents = tl.paragraphs[pid][3]['sentences']
+        subs, owner = [], []
+        for k, s in enumerate(sents):
+            for tok in s['text'].split():
+                for w in _norm_words(spoken(tok)):
+                    subs.append(w)
+                    owner.append(k)
+        window = flat[ptr:ptr + 2 * len(subs) + 60]
+        pairs = _fit(subs, [w for w, _ in window])
+        if len(pairs) < 0.4 * len(subs):
+            continue                            # not in the take (or not recognisable)
+        i_first, i_last = min(pairs), max(pairs)
+        t_first = words[window[pairs[i_first]][1]][1]
+        t_last = words[window[pairs[i_last]][1]][2]
+        rate = (t_last - t_first) / max(1, sum(len(w) for w in subs[i_first:i_last + 1]))
+        rate = min(max(rate, 0.03), 0.15)       # seconds per letter, for words Whisper missed
+        spans = []
+        for k in range(len(sents)):
+            mine = [i for i in range(len(subs)) if owner[i] == k]
+            hits = [i for i in mine if i in pairs]
+            if len(hits) < max(1, 0.25 * len(mine)):
+                spans.append(None)
+                continue
+            i0, i1 = hits[0], hits[-1]
+            t0 = words[window[pairs[i0]][1]][1] - rate * sum(len(subs[i]) for i in mine if i < i0)
+            t1 = words[window[pairs[i1]][1]][2] + rate * sum(len(subs[i]) for i in mine if i > i1)
+            spans.append((t0, t1))
+        j_first, j_last = pairs[i_first], pairs[i_last]
+        found[pid] = {'spans': spans, 'lo': window[j_first][1], 'hi': window[j_last][1] + 1,
+                      'surplus': (j_last - j_first) - (i_last - i_first)}
+        ptr += j_last + 1
+    return found
 
 
-def place_sentences(tl, pid, seg, pos, nominal, track, state, gap=0.15):
-    """Split a paragraph take at the speaker's pauses near the sentence boundaries and align
-    each piece to its sentence; pieces never overlap and keep at least `gap` of pause."""
-    _, a, _, p = tl.paragraphs[pid]
-    sents = p['sentences']
-    env = envelope(seg)
-    bounds = [0.0]
-    groups = [[0]]
-    for k in range(1, len(sents)):
-        mid = (sents[k - 1]['end'] + sents[k]['start']) / 2 - p['start'] + a - pos
-        cut = pause_near(env, mid - 0.6, mid + 0.6, mid)
-        if cut is None or cut <= bounds[-1] + 0.2:
-            groups[-1].append(k)            # no pause there: keep the sentences together
-        else:
-            bounds.append(cut)
-            groups.append([k])
-    bounds.append(len(seg) / RATE)
-    for ks, b0, b1 in zip(groups, bounds[:-1], bounds[1:]):
-        piece = seg[int(b0 * RATE):int(b1 * RATE)]
-        if len(piece) < int(0.1 * RATE):
-            continue
+# ------------------------------------------------------------ cutting and laying out
+def cut(tl, audio, found):
+    """Pieces of a take, cut in the speaker's pauses between sentences (always between
+    paragraphs); each knows where its voice starts and ends and when it is due."""
+    env = envelope(audio)
+    dur = len(audio) / RATE
+    seq = [(pid, k) + span for pid in sorted(found, key=tl.order.index)
+           for k, span in enumerate(found[pid]['spans']) if span]
+    pieces = []
+    for idx, (pid, k, t0, t1) in enumerate(seq):
+        if idx:
+            ppid, _, _, p1 = seq[idx - 1]
+            c = pause_near(env, min(p1, t0) - 0.25, max(p1, t0) + 0.25, (p1 + t0) / 2, min_len=0.1)
+            if c is None and ppid == pid:       # no pause: the sentences stay together
+                pieces[-1]['t1'] = t1
+                continue
+            pieces[-1]['cut1'] = c if c is not None else (p1 + t0) / 2
+        cut0 = pieces[-1]['cut1'] if pieces else max(0.0, t0 - 1.0)
+        pieces.append({'pid': pid, 'k': k, 'cut0': cut0, 't0': t0, 't1': t1, 'due': tl.due(pid, k)})
+    if pieces:
+        pieces[-1]['cut1'] = min(dur, pieces[-1]['t1'] + 1.0)
+    for pc in pieces:
+        on = first_loud(env, max(pc['cut0'], pc['t0'] - 0.3), pc['t0'] + 0.3)
+        off = last_loud(env, pc['t1'] - 0.3, min(pc['cut1'], pc['t1'] + 0.5))
+        pc['on'] = on if on is not None else pc['t0']
+        pc['off'] = max(pc['on'] + 0.1, off if off is not None else pc['t1'])
+        pc['c0'] = max(pc['cut0'], pc['on'] - PAD)
+        pc['c1'] = min(pc['cut1'], pc['off'] + PAD)
+        pc['audio'] = audio
+    return pieces
 
-        def ref(r0, r1, ks=ks):
-            return sum(sentence_reference(tl, pid, k, r0, r1) for k in ks)
-        spos = align(piece, ref, pos + b0, 0.6)
-        f0, f1 = speech_frames(envelope(piece))
-        if spos + f0 < state['prev_end'] + gap:
-            if spos + f0 < state['prev_end'] - 0.05 and pid not in state['crowded']:
-                state['crowded'].append(pid)
-            spos = state['prev_end'] + gap - f0
-        put(track, piece, spos)
-        state['shifts'].append(spos - (nominal + b0))
-        state['prev_end'] = spos + f1
+
+def assemble(pieces, track):
+    """Lay the pieces onto the track in time order, each where it is due but never into
+    the one before (at least MIN_PAUSE apart). Sets each piece's 'shift' (take → video)."""
+    prev_end = -1e9
+    for pc in sorted(pieces, key=lambda p: p['due']):
+        at = max(pc['due'], prev_end + MIN_PAUSE)
+        pc['late'] = at - pc['due']
+        shift = at - pc['on']
+        c0 = max(pc['c0'], prev_end + 0.05 - shift)
+        put(track, pc['audio'][int(c0 * RATE):int(pc['c1'] * RATE)], c0 + shift)
+        pc['shift'] = shift
+        prev_end = pc['off'] + shift
 
 
 # ------------------------------------------------------------ subtitles from the new voice
-def subtitles(tl, track, model_name):
-    from faster_whisper import WhisperModel
-    from scipy.signal import resample_poly
-    from karaoke import token_times
-    model = WhisperModel(model_name, device='cpu', compute_type='int8')
+def subtitles(tl, para_words, track):
+    """Cues timed to the new voice; para_words: {pid: [(word, start, end)] in video time}."""
     items = []
-    for pid in sorted(tl.paragraphs, key=lambda k: [int(x) for x in k.split('.')]):
+    for pid in tl.order:
         n, a, b, p = tl.paragraphs[pid]
-        w0, w1 = max(0.0, a - 0.8), min(tl.total, b + 1.2)
-        seg = track[int(w0 * RATE):int(w1 * RATE)]
-        seg16 = resample_poly(seg, 1, RATE // 16000).astype(np.float32)
-        segments, _ = model.transcribe(seg16, language='de', beam_size=5, word_timestamps=True,
-                                       condition_on_previous_text=False)
-        hyp = [(w.word.strip(), w0 + w.start, w0 + w.end) for s in segments for w in (s.words or [])]
         sents = [s['text'] for s in p['sentences']]
-        if not hyp:      # nothing recognised: keep the old timing
+        hyp = para_words.get(pid)
+        if not hyp:      # no take for it: keep the old timing
             for s in p['sentences']:
                 pieces = _pieces(s['text'])
                 total = sum(len(x) for x in pieces)
@@ -338,10 +349,8 @@ def subtitles(tl, track, model_name):
                     d = (s['end'] - s['start']) * len(x) / total
                     items.append((t, t + d, _wrap(x)))
                     t += d
-            print(f'  {pid}: keine Sprache erkannt – alte Zeiten', flush=True)
             continue
-        text = ' '.join(sents)
-        times = token_times(text, hyp[0][1], hyp[-1][2], hyp)
+        times = token_times(' '.join(sents), hyp[0][1], hyp[-1][2], hyp)
         k = 0
         firsts = []
         for s in sents:
@@ -359,7 +368,6 @@ def subtitles(tl, track, model_name):
                 t1 = t_tok[j + cnt] if j + cnt < len(t_tok) else max(s_end, t0 + 0.5)
                 items.append((t0, t1, _wrap(piece)))
                 j += cnt
-        print(f'  {pid}: {len(hyp)} Wörter erkannt', flush=True)
     items.sort(key=lambda x: x[0])
     items = snap_to_onsets(items, track)
     for i in range(len(items) - 1):             # no overlaps
@@ -374,7 +382,7 @@ def snap_to_onsets(items, track):
     onset of the voice (after a pause), start it there instead."""
     env = envelope(track)
     quiet = np.convolve(env, np.ones(3) / 3, mode='same') < 0.15
-    loud = env > 0.3
+    loud = env > LOUD
     onsets = np.array([k * HOP for k in range(8, len(env)) if loud[k] and quiet[k - 8:k].all()])
     out = []
     for a, b, txt in items:
@@ -395,12 +403,15 @@ def snap_to_onsets(items, track):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('aufnahme', help='Audiodatei oder Ordner mit Aufnahmen')
-    ap.add_argument('--schnell', action='store_true', help='Untertitel nicht neu an die Stimme anpassen')
-    ap.add_argument('--modell', default='small', help='Whisper-Modell für die Untertitel (Standard: small)')
+    ap.add_argument('--modell', default='small', help='Whisper-Modell (Standard: small)')
     ap.add_argument('--ziel', default=FINAL, help='Ausgabedatei (Standard: output/nagel_fledermaus.mp4)')
     ap.add_argument('--ohne-feinabgleich', action='store_true',
-                    help='Aufnahmen nur als Ganzes anlegen, Absätze nicht einzeln nachziehen')
+                    help='jede Aufnahme nur als Ganzes versetzen, die Sätze nicht einzeln anlegen')
     args = ap.parse_args()
+    try:
+        import faster_whisper  # noqa: F401
+    except ImportError:
+        raise SystemExit('faster-whisper fehlt: venv/bin/pip install faster-whisper')
 
     src = args.aufnahme
     if os.path.isdir(src):
@@ -414,44 +425,78 @@ def main():
     takes.sort(key=lambda t: order[t[0]])
 
     tl = Timeline()
-    track = np.zeros(int(round(tl.total * RATE)) + RATE, dtype=np.float32)
-    report = []
+    by_pid, words_of, notes = {}, {}, []
+    label = {'gesamt': 'ganzes Video', 'kapitel': 'Kapitel', 'absatz': 'Absatz'}
     for kind, key, path in takes:
-        print(f'lege an: {os.path.basename(path)} ({kind}{"" if key is None else " " + str(key)})', flush=True)
-        place(tl, load(path), kind, key, path, track, report, fine=not args.ohne_feinabgleich)
-    retakes = {key for k, key, _ in takes if k == 'absatz'}
-    covered = set(tl.chapters) if any(k == 'gesamt' for k, _, _ in takes) else {key for k, key, _ in takes if k == 'kapitel'}
-    missing = [n for n in tl.chapters if n not in covered
-               and not all(pid in retakes for pid, v in tl.paragraphs.items() if v[0] == n)]
+        name = os.path.basename(path)
+        print(f'{name}: Whisper hört zu …', flush=True)
+        audio = load(path)
+        words = take_words(path, audio, args.modell)
+        pids = scope(tl, kind, key, path)
+        found = locate(tl, pids, words)
+        pieces = cut(tl, audio, found)
+        if not pieces:
+            where = label[kind] + ('' if key is None else f' {key}')
+            notes.append(f'{name}: nichts aus {where} erkannt – nicht verwendet')
+            continue
+        drift = np.array([pc['due'] - pc['on'] for pc in pieces])
+        offset = float(np.median(drift))
+        if args.ohne_feinabgleich:
+            for pc in pieces:
+                pc['due'] = pc['on'] + offset
+        for pid in found:
+            mine = [pc for pc in pieces if pc['pid'] == pid]
+            if mine:
+                by_pid[pid] = mine
+                words_of[pid] = (words[found[pid]['lo']:found[pid]['hi']], mine)
+        n_sent = sum(len(tl.paragraphs[p][3]['sentences']) for p in pids)
+        n_found = sum(1 for p in found for s in found[p]['spans'] if s)
+        dev = np.abs(drift - offset)
+        worst = pieces[int(np.argmax(dev))]
+        start = f'bei {clock(offset)} im Video' if offset >= 0 else f'{-offset:.1f} s vor dem Video'
+        print(f'  {label[kind]}{"" if key is None else " " + str(key)}: Aufnahme beginnt {start}; '
+              f'{len(found)} von {len(pids)} Absätzen, {n_found} von {n_sent} Sätzen gefunden')
+        print(f'  Abweichung vom Takt der Vorlage: Median {np.median(dev):.2f} s, größte {dev.max():.2f} s '
+              f'(Absatz {worst["pid"]}, Satz {worst["k"] + 1})'
+              + ('' if args.ohne_feinabgleich else ' – wird angeglichen'))
+        lost = [p for p in pids if p not in found]
+        if lost:
+            notes.append(f'{name}: nicht gefunden, bitte anhören: Absatz ' + ', '.join(lost))
+        gaps = [f'{p}/{k + 1}' for p in found for k, s in enumerate(found[p]['spans']) if s is None]
+        if gaps:
+            notes.append(f'{name}: Sätze kaum erkannt (bleiben am Satz davor): ' + ', '.join(gaps))
+        extra = [f'{p} (ab {clock(words[found[p]["lo"]][1])})' for p in found if found[p]['surplus'] >= 4]
+        if extra:
+            notes.append(f'{name}: mehr Wörter als im Skript – Versprecher oder Wiederholung? Absatz '
+                         + ', '.join(extra))
 
-    for name, kind, key, shift, score, late, fine in report:
-        warn = []
-        if score < 0.3:
-            warn.append('Zuordnung unsicher – bitte anhören')
-        if late > 0.3:
-            warn.append(f'ragt {late:.1f} s über den Absatz hinaus')
-        line = (f'  {name:24s} {kind:8s} {"" if key is None else key!s:5s} Versatz {shift:+7.2f} s  '
-                f'Übereinstimmung {score:.2f}')
-        if fine:
-            shifts, crowded = fine
-            line += f'  Feinabgleich (Absätze, Sätze): max. {max(map(abs, shifts), default=0):.2f} s'
-            if crowded:
-                warn.append('zu lang gesprochen, nach hinten verschoben: ' + ', '.join(crowded))
-        print(line + (f'  – {"; ".join(warn)}' if warn else ''))
-    if missing:
-        print('Hinweis: ohne Aufnahme (dort ist jetzt Stille): Kapitel ' + ', '.join(map(str, missing)))
-
-    # the sound example in chapter 9 stays
-    for f, at in tl.clips:
+    pieces = [pc for ps in by_pid.values() for pc in ps]
+    track = np.zeros(int(round(tl.total * RATE)) + RATE, dtype=np.float32)
+    assemble(pieces, track)
+    late = {}
+    for pc in pieces:
+        if pc['late'] > 0.3:
+            late[pc['pid']] = max(late.get(pc['pid'], 0.0), pc['late'])
+    if late:
+        notes.append('länger gesprochen als Platz war, nach hinten verschoben: '
+                     + ', '.join(f'{p} (+{s:.1f} s)' for p, s in sorted(late.items(), key=lambda x: tl.order.index(x[0]))))
+    for f, c0, c1 in tl.clips:                  # the sound example in chapter 9 stays
         clip = fade(read_wav(os.path.join(ROOT, f)) * 0.9, 0.05)
-        i = int(round(at * RATE))
+        i = int(round(c0 * RATE))
         track[i:i + len(clip)] += clip[:len(track) - i]
+        hit = [pc['pid'] for pc in pieces if pc['on'] + pc['shift'] < c1 and pc['off'] + pc['shift'] > c0]
+        if hit:
+            notes.append(f'Absatz {", ".join(sorted(set(hit)))} überlappt das Hörbeispiel')
     track = track[:int(round(tl.total * RATE))]
+    silent = [p for p in tl.order if p not in by_pid]
+    if silent:
+        notes.append('ohne Aufnahme (dort ist jetzt Stille): Absatz ' + ', '.join(silent))
+    for line in notes:
+        print('Hinweis: ' + line)
 
     os.makedirs(WORK, exist_ok=True)
     wav = os.path.join(WORK, 'tonspur.wav')
     write_wav(wav, np.clip(track, -1, 1))
-
     if not os.path.exists(BACKUP) and os.path.exists(FINAL):
         shutil.copy2(FINAL, BACKUP)
         print(f'Sicherung der bisherigen Fassung: {BACKUP}')
@@ -464,16 +509,14 @@ def main():
     os.replace(tmp, args.ziel)
     print(f'Video mit eigener Stimme: {args.ziel}')
 
-    if args.schnell:
-        print('Untertitel unverändert (--schnell).')
-        return
-    try:
-        import faster_whisper  # noqa: F401
-    except ImportError:
-        print('faster-whisper ist nicht installiert – Untertitel unverändert.')
-        return
-    print('Untertitel an die neue Stimme anpassen (Whisper) …', flush=True)
-    items = subtitles(tl, track, args.modell)
+    para_words = {}
+    for pid, (ws, ps) in words_of.items():
+        out = []
+        for w, a, b in ws:                      # each word moves with the piece it is in
+            pc = min(ps, key=lambda p: 0 if p['c0'] <= a < p['c1'] else min(abs(a - p['c0']), abs(a - p['c1'])))
+            out.append((w, a + pc['shift'], b + pc['shift']))
+        para_words[pid] = out
+    items = subtitles(tl, para_words, track)
     srt = SRT if os.path.abspath(args.ziel) == os.path.abspath(FINAL) else os.path.splitext(args.ziel)[0] + '.srt'
     write_srt(srt, items)
     print(f'Untertitel: {srt} ({len(items)})')
