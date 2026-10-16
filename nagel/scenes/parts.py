@@ -206,11 +206,11 @@ class YearAxis(VGroup):
     def __init__(self, years, y=-1.6, x0=-6.2, x1=6.2, y0=1900, y1=2030):
         line = Line([x0, y, 0], [x1, y, 0], color=DIM, stroke_width=3)
         ticks = VGroup()
-        self.points = {}
+        self.at = {}
         last = None
         for yr in sorted(years):
             x = year_x(yr, x0, x1, y0, y1)
-            self.points[yr] = np.array([x, y, 0])
+            self.at[yr] = np.array([x, y, 0])
             # Labels of close years alternate below/above the axis.
             below = last is None or x - last[0] > 0.7 or not last[1]
             ly = y - 0.32 if below else y + 0.32

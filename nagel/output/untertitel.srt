@@ -1,0 +1,2047 @@
+1
+00:00:00,600 --> 00:00:01,400
+Es ist Dämmerung.
+
+2
+00:00:01,800 --> 00:00:03,767
+Eine Fledermaus verlässt ihr Quartier.
+
+3
+00:00:04,133 --> 00:00:07,529
+Sie stößt Rufe aus, meist so
+hoch, dass wir sie nicht hören,
+
+4
+00:00:07,529 --> 00:00:11,433
+und liest aus den Echos, wo die
+Mücke fliegt und wohin sie ausweicht.
+
+5
+00:00:11,833 --> 00:00:16,333
+Kurz vor dem Fang folgen die Rufe bis zu
+zweihundertmal pro Sekunde aufeinander.
+
+6
+00:00:16,700 --> 00:00:19,533
+Wir können jeden Ruf messen
+und jedes Echo berechnen.
+
+7
+00:00:19,933 --> 00:00:23,789
+Und doch bleibt eine Frage, die keine
+Messung beantwortet: Wie ist es,
+
+8
+00:00:23,789 --> 00:00:25,167
+diese Fledermaus zu sein?
+
+9
+00:00:25,867 --> 00:00:30,663
+1974 machte der Philosoph Thomas Nagel
+diese Frage zum Titel eines Aufsatzes:
+
+10
+00:00:30,663 --> 00:00:34,400
+sechzehn Seiten in der Zeitschrift
+The Philosophical Review.
+
+11
+00:00:34,767 --> 00:00:39,033
+Der Text wurde zu einem Bezugspunkt fast
+jeder späteren Debatte über Bewusstsein.
+
+12
+00:00:39,433 --> 00:00:41,687
+Dieses Video rekonstruiert sein Argument,
+
+13
+00:00:41,687 --> 00:00:44,106
+stellt die stärksten
+Einwände dar und fragt,
+
+14
+00:00:44,106 --> 00:00:46,305
+was die echte Fledermaus und die heutige
+
+15
+00:00:46,305 --> 00:00:48,833
+Debatte über Tiere und
+Maschinen daran ändern.
+
+16
+00:00:53,900 --> 00:00:55,733
+Nagel hätte jedes Tier wählen können.
+
+17
+00:00:56,133 --> 00:00:58,100
+Er nimmt die Fledermaus aus zwei Gründen.
+
+18
+00:00:58,500 --> 00:01:01,806
+Erstens zweifelt kaum jemand
+daran, dass sie etwas erlebt;
+
+19
+00:01:01,806 --> 00:01:04,200
+sie ist ein Säugetier wie Mäuse oder Wale.
+
+20
+00:01:04,600 --> 00:01:07,792
+Wespen oder Flundern, schreibt
+Nagel, habe er nicht gewählt,
+
+21
+00:01:07,792 --> 00:01:10,292
+weil Menschen den Glauben
+an Erleben verlieren,
+
+22
+00:01:10,292 --> 00:01:12,367
+je weiter man im Stammbaum hinabsteigt.
+
+23
+00:01:13,067 --> 00:01:17,233
+Zweitens nehmen die meisten Fledermäuse
+ihre Welt vor allem über Echoortung wahr.
+
+24
+00:01:17,600 --> 00:01:19,768
+Sie stoßen schnelle, fein modulierte,
+
+25
+00:01:19,768 --> 00:01:23,812
+hohe Rufe aus und unterscheiden an
+den Echos Entfernung, Größe, Form,
+
+26
+00:01:23,812 --> 00:01:28,500
+Bewegung und Oberfläche – Leistungen, die
+bei uns vor allem das Sehen übernimmt.
+
+27
+00:01:28,867 --> 00:01:33,300
+Aber dieses Sonar, so Nagel, funktioniert
+anders als jeder unserer Sinne.
+
+28
+00:01:33,700 --> 00:01:37,541
+Es gibt keinen Grund anzunehmen,
+dass es sich anfühlt wie irgendetwas,
+
+29
+00:01:37,541 --> 00:01:39,900
+das wir erleben oder
+uns vorstellen können.
+
+30
+00:01:40,600 --> 00:01:42,323
+Die Fledermaus ist also nah genug,
+
+31
+00:01:42,323 --> 00:01:44,806
+dass wir ihr Erleben
+zusprechen, und fremd genug,
+
+32
+00:01:44,806 --> 00:01:46,833
+dass wir es nicht nachvollziehen können.
+
+33
+00:01:47,200 --> 00:01:50,601
+Woher die Idee kam, hat Nagel
+fünfzig Jahre später erzählt:
+
+34
+00:01:50,601 --> 00:01:52,791
+In den frühen Siebzigerjahren nisteten
+
+35
+00:01:52,791 --> 00:01:55,500
+Fledermäuse in seinem
+Landhaus in Pennsylvania.
+
+36
+00:01:55,867 --> 00:01:57,650
+Manchmal verirrte sich eine ins Haus –
+
+37
+00:01:57,650 --> 00:02:00,700
+für ihn eine beunruhigend nahe
+Begegnung mit einem fremden Wesen.
+
+38
+00:02:01,100 --> 00:02:03,967
+Der Fledermaus, vermutet
+er, ging es genauso.
+
+39
+00:02:09,067 --> 00:02:10,333
+Wogegen schreibt Nagel?
+
+40
+00:02:10,733 --> 00:02:13,341
+Um 1970 erlebte die Philosophie
+des Geistes, wie er sagt,
+
+41
+00:02:13,341 --> 00:02:15,995
+eine Welle reduktionistischer
+Euphorie: Man wollte zeigen,
+
+42
+00:02:15,995 --> 00:02:18,237
+dass Mentales in Wahrheit
+dasselbe ist wie etwas,
+
+43
+00:02:18,237 --> 00:02:20,433
+das eine grundlegendere
+Wissenschaft beschreibt.
+
+44
+00:02:21,133 --> 00:02:22,967
+Drei Ansätze prägten die Debatte.
+
+45
+00:02:23,333 --> 00:02:25,967
+Der Behaviorismus verstand
+mentale Begriffe als
+
+46
+00:02:25,967 --> 00:02:28,433
+Rede über Verhalten und
+Verhaltensneigungen.
+
+47
+00:02:28,800 --> 00:02:33,178
+Die Identitätstheorie von Ullin
+Place und J. J. C. Smart behauptete,
+
+48
+00:02:33,178 --> 00:02:35,367
+Empfindungen seien Gehirnprozesse.
+
+49
+00:02:35,733 --> 00:02:38,903
+Und der Funktionalismus,
+angestoßen von Hilary Putnam,
+
+50
+00:02:38,903 --> 00:02:41,426
+bestimmte mentale
+Zustände über ihre Rolle:
+
+51
+00:02:41,426 --> 00:02:43,598
+was sie auslöst und was sie bewirken,
+
+52
+00:02:43,598 --> 00:02:46,767
+gleichgültig, aus welchem
+Material das System besteht.
+
+53
+00:02:47,467 --> 00:02:51,651
+Nagels erste Fußnote nennt Vertreter,
+darunter Smart, David Lewis,
+
+54
+00:02:51,651 --> 00:02:53,300
+Putnam und Daniel Dennett.
+
+55
+00:02:53,667 --> 00:02:58,884
+Jeder Reduktionist, spottet er, habe
+seine Lieblingsanalogie: Wasser und H₂O,
+
+56
+00:02:58,884 --> 00:03:01,933
+Blitz und elektrische
+Entladung, Gen und DNA.
+
+57
+00:03:02,333 --> 00:03:04,840
+Übergangen werde, was
+das Leib-Seele-Problem
+
+58
+00:03:04,840 --> 00:03:06,833
+einzigartig macht: das Bewusstsein.
+
+59
+00:03:07,233 --> 00:03:10,333
+Ohne Bewusstsein wäre das
+Problem viel weniger interessant.
+
+60
+00:03:10,700 --> 00:03:12,833
+Mit Bewusstsein scheint es hoffnungslos.
+
+61
+00:03:17,933 --> 00:03:20,613
+Nagels zentrale Bestimmung
+steht auf Seite 436:
+
+62
+00:03:20,613 --> 00:03:25,118
+Ein Organismus hat genau dann bewusste
+mentale Zustände, wenn es irgendwie ist,
+
+63
+00:03:25,118 --> 00:03:28,767
+dieser Organismus zu sein –
+irgendwie für den Organismus selbst.
+
+64
+00:03:29,133 --> 00:03:32,400
+Dieses Merkmal nennt Nagel den
+subjektiven Charakter der Erfahrung.
+
+65
+00:03:33,100 --> 00:03:35,367
+Die Formel lädt zu einem
+Missverständnis ein.
+
+66
+00:03:35,733 --> 00:03:38,155
+Gemeint ist kein Vergleich,
+stellt Nagel klar,
+
+67
+00:03:38,155 --> 00:03:40,367
+sondern wie es für das Subjekt selbst ist.
+
+68
+00:03:40,767 --> 00:03:44,737
+Von einem Stein nehmen wir an, dass es
+nicht irgendwie ist, ein Stein zu sein;
+
+69
+00:03:44,737 --> 00:03:47,333
+von einer Fledermaus nehmen
+wir an, dass es so ist.
+
+70
+00:03:48,033 --> 00:03:50,333
+Warum ist das ein Problem
+für die Reduktionisten?
+
+71
+00:03:50,700 --> 00:03:54,007
+Weil ihre Analysen, so Nagel,
+logisch damit vereinbar sind,
+
+72
+00:03:54,007 --> 00:03:55,800
+dass genau dieses Merkmal fehlt.
+
+73
+00:03:56,167 --> 00:03:59,093
+Funktionale Zustände könnte
+man auch Robotern zuschreiben,
+
+74
+00:03:59,093 --> 00:04:01,767
+die sich wie Menschen
+verhalten, aber nichts erleben.
+
+75
+00:04:02,133 --> 00:04:03,370
+Nagel bestreitet nicht,
+
+76
+00:04:03,370 --> 00:04:05,736
+dass bewusste Zustände
+Verhalten verursachen
+
+77
+00:04:05,736 --> 00:04:07,833
+und sich funktional beschreiben lassen.
+
+78
+00:04:08,200 --> 00:04:11,100
+Er bestreitet nur, dass
+das ihre Analyse erschöpft.
+
+79
+00:04:11,500 --> 00:04:14,867
+Wer den subjektiven Charakter
+weglässt, stellt das Problem falsch.
+
+80
+00:04:15,567 --> 00:04:17,167
+Nagel bleibt dabei vorsichtig.
+
+81
+00:04:17,533 --> 00:04:21,847
+Vielleicht, räumt er in einer Fußnote
+ein, hätte alles, was komplex genug ist,
+
+82
+00:04:21,847 --> 00:04:24,833
+um sich wie ein Mensch zu
+verhalten, auch Erfahrungen.
+
+83
+00:04:25,233 --> 00:04:27,563
+Aber das ließe sich
+nicht durch bloße Analyse
+
+84
+00:04:27,563 --> 00:04:29,633
+des Begriffs der Erfahrung herausfinden.
+
+85
+00:04:30,033 --> 00:04:33,667
+Diese Fußnote wird uns bei der
+künstlichen Intelligenz wieder begegnen.
+
+86
+00:04:38,733 --> 00:04:41,067
+Der erste Schritt betrifft
+die Vorstellungskraft.
+
+87
+00:04:41,467 --> 00:04:45,833
+Ihr Material ist unsere eigene Erfahrung,
+deshalb ist ihre Reichweite begrenzt.
+
+88
+00:04:46,233 --> 00:04:48,496
+Man kann sich ausmalen,
+Flughäute zu haben,
+
+89
+00:04:48,496 --> 00:04:50,760
+in der Dämmerung Insekten
+zu fangen und den
+
+90
+00:04:50,760 --> 00:04:53,233
+Tag kopfüber auf einem
+Dachboden zu verbringen.
+
+91
+00:04:53,933 --> 00:04:57,322
+Aber, schreibt Nagel, das sagt
+mir nur, wie es für mich wäre,
+
+92
+00:04:57,322 --> 00:04:59,433
+mich wie eine Fledermaus zu verhalten.
+
+93
+00:04:59,800 --> 00:05:00,967
+Das ist nicht die Frage.
+
+94
+00:05:01,333 --> 00:05:05,100
+Ich will wissen, wie es für eine
+Fledermaus ist, eine Fledermaus zu sein.
+
+95
+00:05:05,500 --> 00:05:09,691
+Ob ich meiner Erfahrung etwas hinzufüge,
+etwas abziehe oder sie abwandle –
+
+96
+00:05:09,691 --> 00:05:11,900
+keine dieser Operationen führt dorthin.
+
+97
+00:05:12,300 --> 00:05:16,402
+Wir können der Fledermaus allgemeine
+Typen von Erfahrung zuschreiben: Schmerz,
+
+98
+00:05:16,402 --> 00:05:19,400
+Furcht, Hunger, eine Art
+räumliche Wahrnehmung nach vorn.
+
+99
+00:05:19,767 --> 00:05:23,667
+Von ihrem besonderen Charakter bleibt
+uns nur eine schematische Vorstellung.
+
+100
+00:05:24,367 --> 00:05:27,767
+Der zweite Schritt sichert, dass
+es solche Tatsachen trotzdem gibt.
+
+101
+00:05:28,167 --> 00:05:32,819
+Angenommen, intelligente Fledermäuse oder
+Marsianer versuchten sich vorzustellen,
+
+102
+00:05:32,819 --> 00:05:34,600
+wie es ist, ein Mensch zu sein.
+
+103
+00:05:34,967 --> 00:05:36,033
+Sie würden scheitern.
+
+104
+00:05:36,433 --> 00:05:40,323
+Aber sie lägen falsch, wenn sie schlössen,
+es sei nicht auf bestimmte Weise,
+
+105
+00:05:40,323 --> 00:05:42,933
+wir zu sein – das wissen
+wir aus eigener Erfahrung.
+
+106
+00:05:43,300 --> 00:05:46,567
+Nagel nennt diese Haltung einen
+Realismus über das Subjektive.
+
+107
+00:05:47,267 --> 00:05:50,729
+Der dritte Schritt: Diese Tatsachen
+sind an einen Standpunkt gebunden –
+
+108
+00:05:50,729 --> 00:05:53,069
+nicht an ein privates
+Ich, sondern an einen Typ,
+
+109
+00:05:53,069 --> 00:05:56,433
+den Standpunkt eines Wesens mit
+einer bestimmten Art von Wahrnehmung.
+
+110
+00:05:56,833 --> 00:06:00,567
+Je unähnlicher uns ein Wesen ist,
+desto weniger können wir ihn einnehmen.
+
+111
+00:06:00,933 --> 00:06:04,935
+Schon wie ein von Geburt an taubblinder
+Mensch erlebt, ist mir, so Nagel,
+
+112
+00:06:04,935 --> 00:06:05,867
+nicht zugänglich.
+
+113
+00:06:06,567 --> 00:06:08,400
+Jetzt kommt der entscheidende Kontrast.
+
+114
+00:06:08,767 --> 00:06:12,074
+Physikalische Tatsachen sind
+objektive Tatsachen schlechthin:
+
+115
+00:06:12,074 --> 00:06:16,467
+von vielen Standpunkten aus zu verstehen,
+auch von Wesen mit ganz anderen Sinnen.
+
+116
+00:06:16,833 --> 00:06:18,533
+Nagels Beispiel ist der Blitz.
+
+117
+00:06:18,933 --> 00:06:21,822
+Ein marsianischer Wissenschaftler
+ohne Sehsinn wüsste nie,
+
+118
+00:06:21,822 --> 00:06:23,367
+wie ein Blitz für uns aussieht.
+
+119
+00:06:23,733 --> 00:06:27,733
+Aber er könnte verstehen, was ein
+Blitz ist: eine elektrische Entladung.
+
+120
+00:06:28,100 --> 00:06:29,991
+Der Blitz hat einen objektiven Charakter,
+
+121
+00:06:29,991 --> 00:06:32,667
+der sich nicht in seiner
+sichtbaren Erscheinung erschöpft.
+
+122
+00:06:33,367 --> 00:06:35,649
+So funktionieren erfolgreiche Reduktionen:
+
+123
+00:06:35,649 --> 00:06:38,367
+Wir lösen uns von den
+Eindrücken auf unsere Sinne.
+
+124
+00:06:38,733 --> 00:06:41,947
+Als man entdeckte, dass Schall
+eine Welle in der Luft ist,
+
+125
+00:06:41,947 --> 00:06:45,993
+ließ man den Standpunkt des Hörens
+zurück – der dabei, wie Nagel bemerkt,
+
+126
+00:06:45,993 --> 00:06:47,433
+selbst unreduziert bleibt.
+
+127
+00:06:47,800 --> 00:06:49,933
+Für die Außenwelt ist das kein Verlust.
+
+128
+00:06:50,333 --> 00:06:53,633
+Objektivität ist eine Richtung,
+in die das Verstehen gehen kann.
+
+129
+00:06:54,333 --> 00:06:56,300
+Bei der Erfahrung selbst aber, so Nagel,
+
+130
+00:06:56,300 --> 00:07:00,233
+scheint der Schritt von der Erscheinung
+zur Wirklichkeit keinen Sinn zu ergeben.
+
+131
+00:07:00,600 --> 00:07:04,737
+Er fragt: Was bliebe davon übrig,
+wie es ist, eine Fledermaus zu sein,
+
+132
+00:07:04,737 --> 00:07:07,633
+wenn man den Standpunkt
+der Fledermaus entfernte?
+
+133
+00:07:08,033 --> 00:07:10,370
+Der Standpunkt ist hier
+kein Zugang zur Sache;
+
+134
+00:07:10,370 --> 00:07:12,300
+er ist das Wesen der Innenwelt selbst.
+
+135
+00:07:12,700 --> 00:07:14,614
+Daraus folgt der Kernsatz des Aufsatzes:
+
+136
+00:07:14,614 --> 00:07:16,958
+Wenn der subjektive
+Charakter einer Erfahrung nur
+
+137
+00:07:16,958 --> 00:07:19,207
+von einem Standpunkt aus
+voll verständlich ist,
+
+138
+00:07:19,207 --> 00:07:21,791
+dann bringt uns jeder Schritt
+zu größerer Objektivität
+
+139
+00:07:21,791 --> 00:07:23,800
+nicht näher an ihr wirkliches Wesen heran.
+
+140
+00:07:24,167 --> 00:07:25,733
+Er führt uns weiter davon weg.
+
+141
+00:07:26,433 --> 00:07:27,833
+Das ist die eigentliche Pointe.
+
+142
+00:07:28,200 --> 00:07:30,833
+Nagel sagt nicht nur,
+dass uns Daten fehlen.
+
+143
+00:07:31,200 --> 00:07:35,358
+Er sagt, dass das Verfahren, mit dem die
+Wissenschaft sonst erfolgreich reduziert,
+
+144
+00:07:35,358 --> 00:07:37,133
+hier in die falsche Richtung zeigt.
+
+145
+00:07:37,500 --> 00:07:40,000
+Das Problem, schreibt er, ist einzigartig.
+
+146
+00:07:45,100 --> 00:07:47,667
+An dieser Stelle wird
+Nagel oft missverstanden.
+
+147
+00:07:48,067 --> 00:07:52,270
+Er schließt nicht, dass der Physikalismus
+falsch ist; das zu folgern wäre,
+
+148
+00:07:52,270 --> 00:07:53,633
+schreibt er, ein Fehler.
+
+149
+00:07:54,000 --> 00:07:58,048
+Treffender sei: Der Physikalismus ist eine
+Position, die wir nicht verstehen können,
+
+150
+00:07:58,048 --> 00:08:01,567
+weil wir derzeit keine Vorstellung
+davon haben, wie sie wahr sein könnte.
+
+151
+00:08:02,267 --> 00:08:04,167
+Das Problem steckt im kleinen Wort „ist“.
+
+152
+00:08:04,567 --> 00:08:07,230
+Eine Identität verstehen
+wir erst, wenn wir sehen,
+
+153
+00:08:07,230 --> 00:08:10,000
+wie zwei Bezeichnungen auf
+dasselbe zulaufen können.
+
+154
+00:08:10,367 --> 00:08:12,838
+Der Physikalismus, schreibt
+Nagel, habe heute den Status,
+
+155
+00:08:12,838 --> 00:08:14,658
+den der Satz „Materie ist Energie“ im Mund
+
+156
+00:08:14,658 --> 00:08:16,696
+eines vorsokratischen
+Philosophen gehabt hätte:
+
+157
+00:08:16,696 --> 00:08:20,033
+Wir haben nicht einmal den Anfang einer
+Vorstellung, wie er wahr sein könnte.
+
+158
+00:08:20,733 --> 00:08:23,500
+Trotzdem kann man Gründe
+haben, so etwas zu glauben.
+
+159
+00:08:23,867 --> 00:08:25,401
+Wer nichts von Metamorphose weiß,
+
+160
+00:08:25,401 --> 00:08:27,447
+eine Raupe in einen
+sterilen Safe sperrt und
+
+161
+00:08:27,447 --> 00:08:29,353
+Wochen später einen Schmetterling findet,
+
+162
+00:08:29,353 --> 00:08:32,840
+hat guten Grund anzunehmen, dass der
+Schmetterling die Raupe ist oder war –
+
+163
+00:08:32,840 --> 00:08:34,467
+ohne zu verstehen, in welchem Sinn.
+
+164
+00:08:34,867 --> 00:08:38,900
+In einer solchen Lage, vermutet Nagel,
+könnten wir beim Physikalismus sein.
+
+165
+00:08:39,600 --> 00:08:43,198
+Auch die These, wir könnten
+grundsätzlich nicht wissen, wie es ist,
+
+166
+00:08:43,198 --> 00:08:46,367
+eine Fledermaus zu sein, vertritt
+Nagel ausdrücklich nicht.
+
+167
+00:08:46,733 --> 00:08:49,037
+In einer Fußnote erwähnt
+er blinde Menschen,
+
+168
+00:08:49,037 --> 00:08:51,916
+die Gegenstände mit Klicklauten
+oder einem Stock orten;
+
+169
+00:08:51,916 --> 00:08:54,533
+von dort ließe sich
+vielleicht grob extrapolieren.
+
+170
+00:08:54,933 --> 00:08:58,213
+Sein Punkt sei ein anderer: Schon um
+sich einen Begriff davon zu bilden,
+
+171
+00:08:58,213 --> 00:08:59,944
+muss man den Standpunkt der Fledermaus
+
+172
+00:08:59,944 --> 00:09:01,902
+einnehmen – und wer
+das nur teilweise kann,
+
+173
+00:09:01,902 --> 00:09:03,633
+hat auch nur einen teilweisen Begriff.
+
+174
+00:09:04,333 --> 00:09:07,600
+Am Ende schlägt Nagel eine
+objektive Phänomenologie vor.
+
+175
+00:09:08,000 --> 00:09:09,734
+Sie soll Erfahrungen so beschreiben,
+
+176
+00:09:09,734 --> 00:09:13,588
+dass auch Wesen sie wenigstens teilweise
+verstehen, die sie nicht haben können –
+
+177
+00:09:13,588 --> 00:09:16,767
+etwa einem von Geburt an blinden
+Menschen erklären, wie Sehen ist.
+
+178
+00:09:17,133 --> 00:09:21,023
+Lose Vergleiche wie „Rot ist wie der
+Klang einer Trompete“ helfen dabei nicht,
+
+179
+00:09:21,023 --> 00:09:23,267
+strukturelle Beschreibungen
+vielleicht schon.
+
+180
+00:09:23,633 --> 00:09:25,831
+Und in der letzten Fußnote vermutet Nagel,
+
+181
+00:09:25,831 --> 00:09:30,122
+die Beziehung zwischen Geist und Körper
+werde einmal in einer Theorie ausgedrückt,
+
+182
+00:09:30,122 --> 00:09:33,367
+deren Grundbegriffe weder klar
+mental noch klar physisch sind.
+
+183
+00:09:38,467 --> 00:09:41,900
+Die Frage selbst war 1974 nicht neu.
+
+184
+00:09:42,267 --> 00:09:45,281
+Schon 1950 schrieb B. A. Farrell
+in der Zeitschrift Mind über
+
+185
+00:09:45,281 --> 00:09:48,395
+einen Marsianer mit einem
+„Pseudo-Radiosinn“ und über den Satz:
+
+186
+00:09:48,395 --> 00:09:49,828
+„Ich frage mich, wie es wäre,
+
+187
+00:09:49,828 --> 00:09:52,101
+eine Fledermaus zu sein
+und zu hören wie sie.“
+
+188
+00:09:52,101 --> 00:09:54,424
+Farrell zog aber den
+entgegengesetzten Schluss:
+
+189
+00:09:54,424 --> 00:09:58,328
+Physiologie und Psychologie könnten das
+Erleben loswerden – indem sie einsehen,
+
+190
+00:09:58,328 --> 00:10:02,133
+dass es töricht sei anzunehmen, es gebe
+solche Dinge, oder es gebe sie nicht.
+
+191
+00:10:02,833 --> 00:10:05,590
+1971 bestimmte Timothy
+Sprigge Bewusstsein als das,
+
+192
+00:10:05,590 --> 00:10:09,427
+was man zu kennzeichnen versucht,
+wenn man fragt, wie es ist oder wäre,
+
+193
+00:10:09,427 --> 00:10:12,400
+ein bestimmtes Objekt in
+einer bestimmten Lage zu sein.
+
+194
+00:10:12,800 --> 00:10:15,050
+In der Neuausgabe zum
+fünfzigsten Jahrestag
+
+195
+00:10:15,050 --> 00:10:16,881
+erkennt Nagel beide an und gesteht:
+
+196
+00:10:16,881 --> 00:10:18,294
+Als er den Aufsatz schrieb,
+
+197
+00:10:18,294 --> 00:10:21,067
+hatte er Sprigge nicht
+gelesen und Farrell vergessen.
+
+198
+00:10:21,767 --> 00:10:23,867
+Eine ältere Wurzel liegt in der Biologie.
+
+199
+00:10:24,233 --> 00:10:28,750
+1909 schrieb Jakob von Uexküll, jede
+Lebensform besitze eine ihr eigene Umwelt;
+
+200
+00:10:28,750 --> 00:10:33,267
+der Standpunkt des Tieres müsse in der
+Forschung allein ausschlaggebend werden.
+
+201
+00:10:33,667 --> 00:10:36,077
+Die Reize dieser Umwelt
+umschließen das Tier
+
+202
+00:10:36,077 --> 00:10:38,433
+wie die Mauern eines
+selbstgebauten Hauses.
+
+203
+00:10:38,833 --> 00:10:40,834
+Bemerkenswert ist, wo Uexküll aufhört:
+
+204
+00:10:40,834 --> 00:10:44,045
+Die Innenwelt der Tiere mit
+seelischen Qualitäten auszumalen,
+
+205
+00:10:44,045 --> 00:10:46,467
+hielt er für keine Sache
+ernsthafter Forscher.
+
+206
+00:10:46,833 --> 00:10:50,900
+Er beschreibt das linke Feld unseres
+Bildes und lässt das rechte bewusst leer.
+
+207
+00:10:55,967 --> 00:10:59,567
+Nach 1974 wurde „wie es
+ist“ zur Standardformel.
+
+208
+00:10:59,933 --> 00:11:05,200
+1982 legte Frank Jackson ein verwandtes,
+aber eigenständiges Argument vor.
+
+209
+00:11:05,567 --> 00:11:07,576
+Mary ist eine brillante Wissenschaftlerin,
+
+210
+00:11:07,576 --> 00:11:09,776
+die die Welt nur aus
+einem schwarz-weißen Raum
+
+211
+00:11:09,776 --> 00:11:11,833
+über einen schwarz-weißen
+Bildschirm kennt.
+
+212
+00:11:12,200 --> 00:11:14,733
+Sie weiß alles Physikalische
+über das Farbensehen.
+
+213
+00:11:15,133 --> 00:11:19,167
+Lernt sie etwas Neues, wenn sie hinausgeht
+und zum ersten Mal Farben sieht?
+
+214
+00:11:19,567 --> 00:11:23,365
+Wenn ja, so Jackson, war ihr
+physikalisches Wissen unvollständig –
+
+215
+00:11:23,365 --> 00:11:25,033
+und der Physikalismus falsch.
+
+216
+00:11:25,733 --> 00:11:29,061
+Jackson grenzt sich dabei von
+Nagel ab, dem er viel verdanke:
+
+217
+00:11:29,061 --> 00:11:32,442
+Nagels Problem betreffe die
+Grenzen unserer Vorstellungskraft,
+
+218
+00:11:32,442 --> 00:11:34,733
+und darüber sage der Physikalismus nichts.
+
+219
+00:11:35,100 --> 00:11:36,950
+Sein eigenes Argument behaupte mehr:
+
+220
+00:11:36,950 --> 00:11:40,700
+Eine Eigenschaft der Erfahrung fehlt
+in aller physikalischen Information.
+
+221
+00:11:41,400 --> 00:11:46,267
+1983 prägte Joseph Levine den
+Begriff der Erklärungslücke.
+
+222
+00:11:46,633 --> 00:11:51,267
+Dass Wärme Molekülbewegung ist, erklärt
+alles, was wir an Wärme erklären wollen.
+
+223
+00:11:51,633 --> 00:11:55,260
+Dass Schmerz das Feuern bestimmter
+Nervenfasern sein soll, erklärt,
+
+224
+00:11:55,260 --> 00:11:58,400
+was Schmerz bewirkt, aber
+nicht, warum er sich so anfühlt.
+
+225
+00:11:58,767 --> 00:12:02,130
+Levine folgert daraus nicht, dass
+der Materialismus falsch ist,
+
+226
+00:12:02,130 --> 00:12:06,133
+sondern dass uns ein Verstehen fehlt;
+Nagels Aufsatz nennt er als Einfluss.
+
+227
+00:12:06,833 --> 00:12:11,407
+1995 unterschied David Chalmers die
+„leichten“ Probleme des Bewusstseins –
+
+228
+00:12:11,407 --> 00:12:14,189
+Reize unterscheiden,
+Information integrieren,
+
+229
+00:12:14,189 --> 00:12:16,167
+über eigene Zustände berichten –
+
+230
+00:12:16,167 --> 00:12:19,133
+vom „harten“ Problem: dem
+Problem der Erfahrung.
+
+231
+00:12:19,533 --> 00:12:21,833
+Er beruft sich dabei
+direkt auf Nagels Formel.
+
+232
+00:12:22,233 --> 00:12:26,388
+Im selben Jahr trennte Ned Block das
+phänomenale Bewusstsein, also wie es ist,
+
+233
+00:12:26,388 --> 00:12:28,998
+in einem Zustand zu sein,
+vom Zugangsbewusstsein:
+
+234
+00:12:28,998 --> 00:12:32,567
+der Verfügbarkeit von Information
+für Denken, Sprechen und Handeln.
+
+235
+00:12:37,667 --> 00:12:40,367
+Ein Argument dieser Reichweite
+hat entschiedene Gegner.
+
+236
+00:12:40,767 --> 00:12:44,780
+Hier sind die wichtigsten, jeweils so
+stark, wie ihre Vertreter sie machen,
+
+237
+00:12:44,780 --> 00:12:46,867
+und mit dem Schritt, den sie angreifen.
+
+238
+00:12:47,567 --> 00:12:52,033
+Daniel Dennett, in Nagels erster Fußnote
+unter den Reduktionisten genannt,
+
+239
+00:12:52,033 --> 00:12:53,300
+widerspricht frontal.
+
+240
+00:12:53,667 --> 00:12:55,735
+Nagel behaupte, kein Wissen aus der
+
+241
+00:12:55,735 --> 00:12:58,275
+dritten Person könne
+uns sagen, wie es ist,
+
+242
+00:12:58,275 --> 00:13:01,052
+eine Fledermaus zu sein,
+schreibt Dennett 1991,
+
+243
+00:13:01,052 --> 00:13:03,533
+und diese Behauptung bestreite er rundweg.
+
+244
+00:13:03,900 --> 00:13:07,726
+Wir könnten eine Menge darüber wissen,
+wie es ist, eine Fledermaus zu sein;
+
+245
+00:13:07,726 --> 00:13:10,175
+die Struktur ihres Geistes
+sei ebenso zugänglich
+
+246
+00:13:10,175 --> 00:13:12,267
+wie die Struktur ihres Verdauungssystems.
+
+247
+00:13:12,633 --> 00:13:16,167
+Angegriffen wird der Schritt, uns bleibe
+nur eine schematische Vorstellung.
+
+248
+00:13:16,867 --> 00:13:21,139
+Kathleen Akins prüfte das 1993
+an der Schnurrbartfledermaus,
+
+249
+00:13:21,139 --> 00:13:23,133
+mit überraschendem Ergebnis.
+
+250
+00:13:23,500 --> 00:13:25,274
+Die Neurophysiologie lege nahe,
+
+251
+00:13:25,274 --> 00:13:29,967
+dass die Fledermaus ihr Sonar vermutlich
+nicht nutzt, um Gegenstände darzustellen.
+
+252
+00:13:30,333 --> 00:13:32,900
+Ihr Erleben sei dann
+wahrscheinlich weder bildhaft noch
+
+253
+00:13:32,900 --> 00:13:35,280
+eines von einer Welt aus
+Dingen und Eigenschaften –
+
+254
+00:13:35,280 --> 00:13:38,733
+und es sei plausibel, dass die Fledermaus
+überhaupt keinen Standpunkt hat.
+
+255
+00:13:39,133 --> 00:13:42,745
+Damit zielt Akins auf Nagels
+Voraussetzung, es sei irgendwie,
+
+256
+00:13:42,745 --> 00:13:44,167
+eine Fledermaus zu sein.
+
+257
+00:13:44,533 --> 00:13:47,097
+Sean Allen-Hermanson hielt 2015 dagegen:
+
+258
+00:13:47,097 --> 00:13:49,852
+Eine vollständigere
+Sicht der Befunde zeige
+
+259
+00:13:49,852 --> 00:13:52,800
+Fledermäuse gerade nicht
+als starre Automaten.
+
+260
+00:13:53,500 --> 00:13:57,167
+David Lewis und Laurence Nemirow
+setzen an anderer Stelle an.
+
+261
+00:13:57,533 --> 00:14:00,898
+Ihre Fähigkeitshypothese: Zu wissen,
+wie eine Erfahrung ist, heißt nicht,
+
+262
+00:14:00,898 --> 00:14:02,004
+eine Tatsache zu kennen,
+
+263
+00:14:02,004 --> 00:14:04,354
+sondern Fähigkeiten zu
+besitzen – sich zu erinnern,
+
+264
+00:14:04,354 --> 00:14:06,567
+sich etwas vorzustellen,
+etwas wiederzuerkennen.
+
+265
+00:14:06,933 --> 00:14:11,300
+Lektionen vermitteln Information, schreibt
+Lewis; Fähigkeit ist etwas anderes.
+
+266
+00:14:11,700 --> 00:14:14,962
+Dann wäre es nicht rätselhaft,
+dass kein Physikunterricht lehrt,
+
+267
+00:14:14,962 --> 00:14:17,000
+wie die Echoortung einer Fledermaus ist.
+
+268
+00:14:17,367 --> 00:14:20,633
+Angegriffen wird Nagels Realismus
+über subjektive Tatsachen.
+
+269
+00:14:21,333 --> 00:14:23,233
+Peter Hacker bestreitet schon die Formel.
+
+270
+00:14:23,600 --> 00:14:26,230
+Die Frage „Wie ist es, X
+zu sein?“ ist sinnvoll,
+
+271
+00:14:26,230 --> 00:14:28,038
+wenn sie einen Kontrast enthält –
+
+272
+00:14:28,038 --> 00:14:32,367
+etwa: Wie ist es für eine Frau, Soldatin
+zu sein, im Unterschied zu einem Mann?
+
+273
+00:14:32,733 --> 00:14:37,200
+Bei „Wie ist es für eine Fledermaus, eine
+Fledermaus zu sein?“ fehle jeder Kontrast.
+
+274
+00:14:37,600 --> 00:14:41,167
+Und wer fragt „Wie war es für
+dich?“, erwarte eine Bewertung,
+
+275
+00:14:41,167 --> 00:14:44,267
+etwa angenehm oder aufregend,
+keine Erlebnisqualität.
+
+276
+00:14:44,633 --> 00:14:49,067
+Die Wendung, es sei irgendwie, ein Wesen
+zu sein, nennt Hacker schlecht gebaut.
+
+277
+00:14:49,467 --> 00:14:53,527
+Nagels Klarstellung, gemeint sei,
+wie es für das Subjekt ist, kennt er;
+
+278
+00:14:53,527 --> 00:14:54,900
+sie überzeugt ihn nicht.
+
+279
+00:14:55,600 --> 00:15:00,667
+Am weitesten geht der Illusionismus, den
+Keith Frankish 2016 ausgearbeitet hat.
+
+280
+00:15:01,033 --> 00:15:03,365
+Er bestreitet nicht,
+dass es uns so scheint,
+
+281
+00:15:03,365 --> 00:15:06,067
+als hätten Erfahrungen eine
+qualitative Innenseite.
+
+282
+00:15:06,467 --> 00:15:10,067
+Er bestreitet, dass es diese
+phänomenalen Eigenschaften wirklich gibt.
+
+283
+00:15:10,433 --> 00:15:14,244
+An die Stelle des harten Problems tritt
+das Illusionsproblem: zu erklären,
+
+284
+00:15:14,244 --> 00:15:17,333
+wie dieser Anschein entsteht
+und warum er so hartnäckig ist.
+
+285
+00:15:17,700 --> 00:15:21,667
+Getroffen wäre damit Nagels
+Ausgangspunkt, die Definition selbst.
+
+286
+00:15:26,767 --> 00:15:28,533
+Wie arbeitet die echte Fledermaus?
+
+287
+00:15:28,900 --> 00:15:31,663
+Dass sie Hindernissen mit Echos ausweicht,
+
+288
+00:15:31,663 --> 00:15:34,821
+zeigten Donald Griffin
+und Robert Galambos 1941;
+
+289
+00:15:34,821 --> 00:15:38,833
+drei Jahre später prägte Griffin
+dafür das Wort echolocation.
+
+290
+00:15:39,200 --> 00:15:40,655
+Die Physik ist einfach:
+
+291
+00:15:40,655 --> 00:15:44,642
+Schall legt bei zwanzig Grad etwa
+343 Meter pro Sekunde zurück,
+
+292
+00:15:44,642 --> 00:15:46,667
+und der Ruf muss hin und zurück.
+
+293
+00:15:47,033 --> 00:15:51,967
+Ein Echo nach sechs Millisekunden heißt:
+Das Insekt ist rund einen Meter entfernt.
+
+294
+00:15:52,367 --> 00:15:53,540
+Weit reicht das nicht;
+
+295
+00:15:53,540 --> 00:15:57,167
+selbst ein günstiges Ziel ist kaum
+auf mehr als zehn Meter zu orten.
+
+296
+00:15:57,867 --> 00:16:00,500
+Fledermäuse nutzen zwei
+Grundformen von Rufen.
+
+297
+00:16:00,900 --> 00:16:04,533
+Frequenzmodulierte Rufe gleiten
+rasch über einen breiten Bereich
+
+298
+00:16:04,533 --> 00:16:08,167
+abwärts und sind präzise Zeitmarken
+für Entfernung und Richtung.
+
+299
+00:16:08,567 --> 00:16:11,016
+Konstantfrequente Rufe
+halten länger einen Ton;
+
+300
+00:16:11,016 --> 00:16:13,830
+mit ihnen lassen sich schwache
+Echos entdecken und der
+
+301
+00:16:13,830 --> 00:16:16,800
+Flügelschlag eines Insekts
+als Flackern im Echo erkennen.
+
+302
+00:16:17,500 --> 00:16:19,653
+Fliegt die Fledermaus auf ein Ziel zu,
+
+303
+00:16:19,653 --> 00:16:22,657
+kommt das Echo durch den
+Doppler-Effekt höher zurück:
+
+304
+00:16:22,657 --> 00:16:26,567
+bei fünf Metern pro Sekunde und 61
+Kilohertz um knapp zwei Kilohertz.
+
+305
+00:16:26,933 --> 00:16:30,067
+Arten mit langen konstantfrequenten
+Rufen gleichen das aus.
+
+306
+00:16:30,433 --> 00:16:32,202
+Sie senken ihren Ruf gerade so weit,
+
+307
+00:16:32,202 --> 00:16:34,561
+dass das Echo in einem
+schmalen Fenster ankommt,
+
+308
+00:16:34,561 --> 00:16:37,067
+für das ihr Innenohr
+besonders fein abgestimmt ist.
+
+309
+00:16:37,767 --> 00:16:42,392
+Wie das Gehirn das ordnet, hat Nobuo Suga
+an der Schnurrbartfledermaus untersucht,
+
+310
+00:16:42,392 --> 00:16:45,833
+deren Ruf mit einem langen Ton
+bei etwa 61 Kilohertz beginnt.
+
+311
+00:16:46,233 --> 00:16:49,400
+Im Hörkortex sind Nervenzellen
+auf die Zeit zwischen Ruf
+
+312
+00:16:49,400 --> 00:16:52,398
+und Echo abgestimmt und
+entlang einer Achse geordnet,
+
+313
+00:16:52,398 --> 00:16:56,300
+die Entfernungen von sieben Zentimetern
+bis gut drei Metern abbildet.
+
+314
+00:16:56,667 --> 00:16:59,764
+Ein anderes Areal vergrößert
+das schmale Band knapp
+
+315
+00:16:59,764 --> 00:17:02,800
+über 61 Kilohertz und
+verarbeitet Geschwindigkeit.
+
+316
+00:17:03,500 --> 00:17:06,238
+So klingt das: eine
+Fledermaus kurz vor dem Fang,
+
+317
+00:17:06,238 --> 00:17:09,200
+aufgenommen in Pennsylvania
+und zehnfach verlangsamt.
+
+318
+00:17:09,600 --> 00:17:13,867
+Dadurch rutschen die Rufe um mehr als
+drei Oktaven in unseren Hörbereich.
+
+319
+00:17:14,267 --> 00:17:17,900
+Jeder Ruf gleitet abwärts, und die
+Rufe folgen immer dichter aufeinander.
+
+320
+00:17:26,800 --> 00:17:27,567
+Und Menschen?
+
+321
+00:17:27,933 --> 00:17:30,433
+Manche Blinde orten
+Gegenstände mit Mundklicks.
+
+322
+00:17:30,833 --> 00:17:34,894
+Lore Thaler und Kollegen untersuchten
+2011 zwei solche Experten im Hirnscanner:
+
+323
+00:17:34,894 --> 00:17:38,749
+Klicks mit Echos aktivierten, verglichen
+mit echofreien Kontrollgeräuschen,
+
+324
+00:17:38,749 --> 00:17:40,908
+ein Areal, das gewöhnlich dem Sehen dient;
+
+325
+00:17:40,908 --> 00:17:43,067
+im Hörkortex zeigte sich kein Unterschied.
+
+326
+00:17:43,467 --> 00:17:46,700
+Bei zwei Personen ist das
+ein Hinweis, kein Beweis.
+
+327
+00:17:47,067 --> 00:17:49,933
+Nagels Fußnote hatte solche
+Echoortung schon erwähnt.
+
+328
+00:17:50,633 --> 00:17:53,733
+Verringert all das Nagels
+Kluft, oder bestätigt es sie?
+
+329
+00:17:54,133 --> 00:17:55,400
+Beides lässt sich vertreten.
+
+330
+00:17:55,767 --> 00:17:58,267
+Die linke Seite unseres
+Bildes ist voll geworden.
+
+331
+00:17:58,667 --> 00:18:00,043
+Wir wissen weit mehr darüber,
+
+332
+00:18:00,043 --> 00:18:03,365
+was eine Fledermaus unterscheiden
+kann und wie ihr Gehirn das leistet,
+
+333
+00:18:03,365 --> 00:18:06,165
+und ob ihre Echoortung eher
+dem Sehen ähnelt als dem Hören,
+
+334
+00:18:06,165 --> 00:18:08,300
+ist teilweise eine
+empirische Frage geworden.
+
+335
+00:18:08,667 --> 00:18:10,600
+Aber die rechte Seite ist leer geblieben.
+
+336
+00:18:10,967 --> 00:18:13,235
+Aus keiner dieser Karten
+lässt sich ablesen,
+
+337
+00:18:13,235 --> 00:18:15,814
+wie sich ein Echo für die
+Fledermaus anfühlt – so,
+
+338
+00:18:15,814 --> 00:18:17,567
+wie Nagels Argument es vorhersagt.
+
+339
+00:18:18,267 --> 00:18:25,067
+Eine Pointe am Rand: 1973 und 1974 war
+Nagel Gast an der Rockefeller University,
+
+340
+00:18:25,067 --> 00:18:26,767
+wo Griffin forschte.
+
+341
+00:18:27,133 --> 00:18:29,850
+Die beiden sprachen über
+Fledermäuse und über die
+
+342
+00:18:29,850 --> 00:18:32,567
+Scheu von Biologen vor
+dem Thema Tierbewusstsein.
+
+343
+00:18:32,933 --> 00:18:38,433
+Griffins Buch dazu von 1976 war, so
+Nagel, eine Folge dieser Gespräche.
+
+344
+00:18:38,833 --> 00:18:42,233
+Griffin selbst warf Nagel später
+lähmenden Perfektionismus vor.
+
+345
+00:18:47,333 --> 00:18:50,958
+Den Gegensatz von subjektivem
+und objektivem Standpunkt
+
+346
+00:18:50,958 --> 00:18:54,452
+hat Nagel 1986 zum Thema
+eines ganzen Buches gemacht:
+
+347
+00:18:54,452 --> 00:18:56,033
+„The View from Nowhere“.
+
+348
+00:18:56,400 --> 00:19:00,455
+Objektivität, so fasste Bernard
+Williams in seiner Rezension zusammen,
+
+349
+00:19:00,455 --> 00:19:02,946
+ist dort keine Weise,
+wie Dinge existieren,
+
+350
+00:19:02,946 --> 00:19:04,800
+sondern ein Stil des Verstehens.
+
+351
+00:19:05,500 --> 00:19:07,567
+2012 ging Nagel weiter.
+
+352
+00:19:07,933 --> 00:19:09,604
+In „Mind and Cosmos“ argumentiert er:
+
+353
+00:19:09,604 --> 00:19:12,222
+Wenn sich Bewusstsein nicht
+physikalisch reduzieren lässt,
+
+354
+00:19:12,222 --> 00:19:15,833
+muss auch die Naturgeschichte, die es
+hervorgebracht hat, anders gedacht werden.
+
+355
+00:19:16,233 --> 00:19:20,582
+Er neigt einem neutralen Monismus zu und
+erwägt zielgerichtete Naturprinzipien,
+
+356
+00:19:20,582 --> 00:19:22,233
+ohne einen Schöpfer anzurufen.
+
+357
+00:19:22,633 --> 00:19:24,582
+Das Buch stieß auf scharfe Kritik;
+
+358
+00:19:24,582 --> 00:19:27,277
+Brian Leiter und Michael
+Weisberg nannten seine
+
+359
+00:19:27,277 --> 00:19:30,200
+Argumente gegen den
+Naturalismus nicht überzeugend.
+
+360
+00:19:30,900 --> 00:19:35,209
+Zum fünfzigsten Jubiläum erschien
+der Aufsatz 2024 als kleines Buch,
+
+361
+00:19:35,209 --> 00:19:37,300
+zusammen mit einem neuen Vortrag.
+
+362
+00:19:37,667 --> 00:19:38,836
+Darin vermutet Nagel,
+
+363
+00:19:38,836 --> 00:19:41,176
+bewusste Eigenschaften und ihre neuronalen
+
+364
+00:19:41,176 --> 00:19:44,183
+Bedingungen seien untrennbare
+Aspekte von etwas Einem,
+
+365
+00:19:44,183 --> 00:19:46,300
+für das wir noch keinen Begriff haben.
+
+366
+00:19:46,667 --> 00:19:51,033
+Angelegt war das schon in
+der letzten Fußnote von 1974.
+
+367
+00:19:56,133 --> 00:19:58,500
+Heute ist Nagels Frage
+auch eine praktische.
+
+368
+00:19:58,900 --> 00:20:02,633
+2012 erklärte eine Gruppe von
+Neurowissenschaftlern in Cambridge,
+
+369
+00:20:02,633 --> 00:20:03,953
+nichtmenschliche Tiere,
+
+370
+00:20:03,953 --> 00:20:07,571
+darunter alle Säugetiere und
+Vögel und viele andere wie Kraken,
+
+371
+00:20:07,571 --> 00:20:11,533
+besäßen die neurologischen Grundlagen,
+die Bewusstsein hervorbringen.
+
+372
+00:20:11,900 --> 00:20:15,352
+Man beachte die Formulierung:
+Behauptet werden die Grundlagen,
+
+373
+00:20:15,352 --> 00:20:16,967
+nicht ein bestimmtes Erleben.
+
+374
+00:20:17,667 --> 00:20:22,533
+2024 folgte die New Yorker
+Erklärung zum Tierbewusstsein.
+
+375
+00:20:22,933 --> 00:20:24,200
+Sie unterscheidet Grade.
+
+376
+00:20:24,567 --> 00:20:26,733
+Für Säugetiere und Vögel gebe es starke
+
+377
+00:20:26,733 --> 00:20:29,733
+wissenschaftliche Unterstützung
+für bewusstes Erleben.
+
+378
+00:20:30,100 --> 00:20:34,092
+Für alle Wirbeltiere und viele
+Wirbellose, mindestens Kopffüßer,
+
+379
+00:20:34,092 --> 00:20:38,833
+Zehnfußkrebse und Insekten, bestehe
+zumindest eine realistische Möglichkeit.
+
+380
+00:20:39,233 --> 00:20:42,643
+Und wo eine solche Möglichkeit
+besteht, sei es unverantwortlich,
+
+381
+00:20:42,643 --> 00:20:46,000
+sie bei Entscheidungen zu übergehen,
+die diese Tiere betreffen.
+
+382
+00:20:46,700 --> 00:20:49,818
+Gesichert ist damit nicht, wie es für
+eine Biene ist, eine Biene zu sein,
+
+383
+00:20:49,818 --> 00:20:52,382
+sondern nur, dass es vernünftig
+ist, mit Erleben zu rechnen:
+
+384
+00:20:52,382 --> 00:20:55,500
+die Trennung zwischen dem Ob und dem
+Wie, die schon Nagels Aufsatz zieht.
+
+385
+00:20:56,200 --> 00:20:57,100
+Und Maschinen?
+
+386
+00:20:57,467 --> 00:20:58,800
+Hier ist die Lage offener.
+
+387
+00:20:59,200 --> 00:21:03,515
+Ein Bericht einer Gruppe um Patrick Butlin
+und Robert Long kam 2023 zu dem Schluss,
+
+388
+00:21:03,515 --> 00:21:06,686
+dass nach ihrer Analyse kein
+damaliges KI-System bewusst ist,
+
+389
+00:21:06,686 --> 00:21:08,973
+aber auch keine
+offensichtlichen technischen
+
+390
+00:21:08,973 --> 00:21:10,741
+Hürden bestehen, Systeme zu bauen,
+
+391
+00:21:10,741 --> 00:21:12,300
+die ihre Indikatoren erfüllen.
+
+392
+00:21:12,700 --> 00:21:15,420
+Die Autoren setzen dabei
+als Arbeitshypothese voraus,
+
+393
+00:21:15,420 --> 00:21:18,500
+dass die richtige Art von
+Berechnung für Bewusstsein genügt;
+
+394
+00:21:18,500 --> 00:21:21,067
+sie nennen das selbst
+verbreitet, aber umstritten.
+
+395
+00:21:21,467 --> 00:21:23,833
+Bewusstsein definieren
+sie mit Nagels Formel.
+
+396
+00:21:24,533 --> 00:21:27,648
+David Chalmers hielt es 2023
+für eher unwahrscheinlich,
+
+397
+00:21:27,648 --> 00:21:31,838
+dass heutige große Sprachmodelle bewusst
+sind, aber für ernsthaft möglich,
+
+398
+00:21:31,838 --> 00:21:33,933
+dass ihre Nachfolger es sein könnten.
+
+399
+00:21:34,333 --> 00:21:36,112
+Einige Forschende fordern deshalb,
+
+400
+00:21:36,112 --> 00:21:38,674
+schon jetzt Verfahren für
+den Fall vorzubereiten,
+
+401
+00:21:38,674 --> 00:21:40,400
+dass KI-Systeme moralisch zählen.
+
+402
+00:21:41,100 --> 00:21:43,933
+Nagels Text gibt dafür ein
+Werkzeug und eine Warnung.
+
+403
+00:21:44,300 --> 00:21:47,767
+Das Werkzeug: Seine Definition
+trennt Verhalten von Erleben.
+
+404
+00:21:48,133 --> 00:21:52,357
+Dass ein System spricht wie ein Mensch,
+beantwortet nicht, ob es irgendwie ist,
+
+405
+00:21:52,357 --> 00:21:53,533
+dieses System zu sein.
+
+406
+00:21:53,900 --> 00:21:57,815
+Die Warnung steht in der Fußnote über
+die Roboter: Vielleicht hat alles,
+
+407
+00:21:57,815 --> 00:22:01,567
+was komplex genug ist, sich wie ein
+Mensch zu verhalten, Erfahrungen.
+
+408
+00:22:01,933 --> 00:22:04,767
+Ob das so ist, entscheidet
+keine Begriffsanalyse.
+
+409
+00:22:05,133 --> 00:22:06,367
+Diese Frage ist offen.
+
+410
+00:22:11,433 --> 00:22:13,067
+Was bleibt nach fünfzig Jahren?
+
+411
+00:22:13,433 --> 00:22:16,694
+Erstens eine Bestimmung, die sich
+durchgesetzt hat, auch bei vielen,
+
+412
+00:22:16,694 --> 00:22:18,228
+die Nagels Folgerungen ablehnen:
+
+413
+00:22:18,228 --> 00:22:20,433
+Bewusstsein als das, wie
+es für ein Wesen ist.
+
+414
+00:22:20,833 --> 00:22:25,700
+Chalmers, Block und noch der
+KI-Bericht von 2023 beginnen damit.
+
+415
+00:22:26,100 --> 00:22:29,529
+Zweitens eine Diagnose: Das
+Verfahren erfolgreicher Reduktionen,
+
+416
+00:22:29,529 --> 00:22:32,475
+weg vom Standpunkt und hin
+zur objektiven Beschreibung,
+
+417
+00:22:32,475 --> 00:22:36,600
+lässt sich nicht einfach auf etwas
+übertragen, das selbst ein Standpunkt ist.
+
+418
+00:22:37,300 --> 00:22:40,104
+Angreifbar ist das Argument an
+mehreren Stellen: an der Annahme,
+
+419
+00:22:40,104 --> 00:22:43,345
+dass die Fledermaus einen einheitlichen
+Standpunkt hat; an der Behauptung,
+
+420
+00:22:43,345 --> 00:22:46,806
+zu wissen, wie es ist, heiße, Tatsachen
+zu kennen; an der Grammatik der Formel;
+
+421
+00:22:46,806 --> 00:22:48,733
+und an der Wirklichkeit
+des Erlebens selbst.
+
+422
+00:22:49,100 --> 00:22:51,467
+Beendet hat keiner dieser
+Einwände die Debatte.
+
+423
+00:22:51,867 --> 00:22:56,285
+Nagel schreibt fünfzig Jahre später, es
+gebe bis heute keine Einigkeit darüber,
+
+424
+00:22:56,285 --> 00:22:58,467
+wie mit diesen Problemen umzugehen ist.
+
+425
+00:22:59,167 --> 00:23:01,648
+Und Nagel betont, sein
+Aufsatz behaupte nicht,
+
+426
+00:23:01,648 --> 00:23:04,400
+die Wissenschaft könne
+Bewusstsein nicht verstehen.
+
+427
+00:23:04,767 --> 00:23:08,278
+Seine These ist enger und zugleich
+anspruchsvoller: Um es zu verstehen,
+
+428
+00:23:08,278 --> 00:23:10,503
+muss sich unsere
+Vorstellung davon erweitern,
+
+429
+00:23:10,503 --> 00:23:12,333
+was wissenschaftliches Verstehen ist.
+
+430
+00:23:12,700 --> 00:23:14,906
+Ob das gelingt, durch neue Begriffe,
+
+431
+00:23:14,906 --> 00:23:17,848
+eine objektive Phänomenologie
+oder den Nachweis,
+
+432
+00:23:17,848 --> 00:23:20,667
+dass das Problem eine
+Illusion ist, ist offen.
+
+433
+00:23:21,033 --> 00:23:23,300
+Die Fledermaus fliegt
+weiter durch die Dämmerung.
+
+434
+00:23:23,667 --> 00:23:25,367
+Wir können jeden ihrer Rufe messen.
+
+435
+00:23:25,767 --> 00:23:28,100
+Wie es ist, sie zu sein, wissen wir nicht.
+

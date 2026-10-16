@@ -20,6 +20,7 @@ LEAD = 0.6        # after the card, before the voice starts
 GAP = 0.7         # between paragraphs
 TAIL = 1.5        # after the last paragraph
 CLIP_PAD = 0.6    # silence around a sound clip
+TAIL_EXTRA = {12: 3.0}   # let the closing image of the last chapter stand a little longer
 
 # Sound clips by paragraph id: file and length in seconds.
 CLIPS = {
@@ -54,7 +55,7 @@ def schedule(n: int, timing: dict | None = None) -> dict:
             t = entry['clip']['end'] + CLIP_PAD
         paras.append(entry)
         t += GAP
-    end = snap(t - GAP + TAIL)
+    end = snap(t - GAP + TAIL + TAIL_EXTRA.get(n, 0.0))
     return {'chapter': n, 'title': chap['title'], 'card': card, 'card_end': CARD if card else 0.0,
             'paragraphs': paras, 'end': end}
 

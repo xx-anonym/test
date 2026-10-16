@@ -64,7 +64,7 @@ class Kapitel6(NarratedScene):
         # Sentence 2: Farrell 1950 – the Martian, the bat sentence, the opposite conclusion.
         self.wait_until(self.t('6.1', 1))
         self.cite(self.cite_of('6.1', 0))
-        p50 = self.axis.points[1950]
+        p50 = self.axis.at[1950]
         mark = Dot(p50, radius=0.1, color=OCHRE)
         card = year_card('Farrell 1950', '„Experience“, Mind').next_to(p50, UP, buff=0.35)
         self.play(FadeIn(mark), FadeIn(card, shift=UP * 0.1), run_time=0.6)
@@ -88,7 +88,7 @@ class Kapitel6(NarratedScene):
     def p62(self):
         self.wait_until(self.t('6.2'))
         self.cite(self.cite_of('6.2', 0))
-        p71 = self.axis.points[1971]
+        p71 = self.axis.at[1971]
         mark = Dot(p71, radius=0.1, color=OCHRE)
         card = year_card('Sprigge 1971', '„Final Causes“').next_to(p71, UP, buff=0.35)
         self.play(FadeIn(mark), FadeIn(card, shift=UP * 0.1), run_time=0.6)
@@ -104,11 +104,11 @@ class Kapitel6(NarratedScene):
         self.wait_until(self.t('6.2', 1))
         self.cite(self.cite_of('6.2', 1))
         self.play(FadeOut(defin), FadeOut(tag), FadeOut(card), run_time=0.4)
-        p24 = self.axis.points[2024]
+        p24 = self.axis.at[2024]
         m24 = Dot(p24, radius=0.1, color=FG)
         c24 = year_card('Nagel 2024', 'Neuausgabe, Vorwort').next_to(p24, UP, buff=0.35).shift(LEFT * 0.4)
         self.play(FadeIn(m24), FadeIn(c24, shift=UP * 0.1), run_time=0.6)
-        arcs = VGroup(*[CurvedArrow(p24 + UP * 0.15, self.axis.points[yr] + UP * 0.15, angle=PI / 3.2, color=MUTED,
+        arcs = VGroup(*[CurvedArrow(p24 + UP * 0.15, self.axis.at[yr] + UP * 0.15, angle=PI / 3.2, color=MUTED,
                                     stroke_width=2.5, tip_length=0.18) for yr in (1971, 1950)])
         self.play_at(self.t('6.2', 1, 'beide'), Create(arcs[0]), Create(arcs[1]), run_time=1.0)
         q = QuoteCard("When I wrote my paper, I hadn't read Sprigge and had forgotten Farrell.",
@@ -175,24 +175,24 @@ class Kapitel6(NarratedScene):
     def p63(self):
         self.wait_until(self.t('6.3'))
         self.cite(self.cite_of('6.3', 0))
-        p09 = self.axis.points[1909]
+        p09 = self.axis.at[1909]
         mark = Dot(p09, radius=0.1, color=OCHRE)
         card = year_card('Uexküll 1909', '„Umwelt und Innenwelt der Tiere“').next_to(p09, UP, buff=0.35).shift(RIGHT * 0.9)
         self.play(FadeIn(mark), FadeIn(card, shift=UP * 0.1), run_time=0.6)
 
-        # Sentence 2: every form of life has its own Umwelt; the animal's standpoint decides.
+        # Sentence 2: every form of life has its own Umwelt – first the garden as we see it.
         self.wait_until(self.t('6.3', 1))
-        q1 = QuoteCard(self.quote_of('6.3', 0), self.cite_of('6.3', 0), size=24, width=50).move_to([0.5, 1.6, 0])
-        self.play(FadeIn(q1, shift=UP * 0.1), run_time=0.6)
-        bat_pos = [-4.3, -0.2, 0]
+        bat_pos = [-3.6, -0.2, 0]
         g = self.garden(bat_pos)
         human = txt('menschliche Sicht: Farben, Fernsicht', size=20, color=FG).move_to([0, 3.1, 0])
-        self.play_at(self.t('6.3', 1, 'Standpunkt'), FadeOut(q1), FadeOut(card), FadeOut(mark),
-                     *[FadeOut(m) for m in self.marks.values()], FadeOut(self.axis), run_time=0.5)
-        self.play(FadeIn(g), FadeIn(human), run_time=1.0)
+        self.play(FadeOut(card), FadeOut(mark), *[FadeOut(m) for m in self.marks.values()], FadeOut(self.axis),
+                  FadeIn(g), FadeIn(human), run_time=1.0)
+        q1 = QuoteCard(self.quote_of('6.3', 0), self.cite_of('6.3', 0), size=22, width=50).move_to([2.6, -2.7, 0])
+        self.play_at(self.t('6.3', 1, 'Standpunkt'), FadeIn(q1, shift=UP * 0.1), run_time=0.6)
+        self.wait_until(self.t('6.3', 1, end=True) - 1.8)
 
         # The same garden as an echo world: what sonar measures, near range only.
-        reach = 3.3
+        reach = 2.9
         dots, movers = self.echoes(g, bat_pos, reach)
         dark = Rectangle(width=14.3, height=8.1, fill_color=BG, fill_opacity=1, stroke_width=0)
         rng_c = DashedVMobject(Circle(radius=reach, stroke_color=MUTED, stroke_width=2).move_to(bat_pos), num_dashes=60)
@@ -200,20 +200,20 @@ class Kapitel6(NarratedScene):
         echo_lab.move_to([0, 3.1, 0])
         b2 = bat(width=0.75).move_to(bat_pos)
         note = txt('Darstellung dessen, was das Sonar misst – nicht, wie es sich anfühlt', size=20, color=MUTED,
-                   slant=ITALIC).move_to([1.6, -2.75, 0])
+                   slant=ITALIC).move_to([2.65, -2.75, 0])
         reach_l = txt('Reichweite wenige Meter · Schnitzler & Kalko 2001, S. 558 · schematisch', size=15, color=MUTED)
         reach_l.next_to(note, UP, buff=0.12)
-        self.play(FadeIn(dark), FadeOut(human), FadeIn(b2), run_time=0.9)
-        self.play(Create(rng_c), FadeIn(echo_lab), run_time=0.6)
+        self.play(FadeIn(dark), FadeOut(human), FadeOut(q1), FadeIn(b2), run_time=0.9)
+        self.play(Create(rng_c), FadeIn(echo_lab), run_time=0.5)
         self.play(LaggedStart(*[FadeIn(d) for d in dots], lag_ratio=0.01), FadeIn(movers), FadeIn(note), FadeIn(reach_l),
-                  run_time=1.2)
+                  run_time=0.9)
         self.remove(g)
 
         # Sentence 3: the stimuli of the Umwelt enclose the animal like walls.
         self.wait_until(self.t('6.3', 2))
         self.cite(self.cite_of('6.3', 1))
         wall = Circle(radius=reach, stroke_color=OCHRE, stroke_width=7).move_to(bat_pos)
-        q2 = QuoteCard(self.quote_of('6.3', 1), self.cite_of('6.3', 1), size=24, width=50).move_to([3.6, 1.0, 0])
+        q2 = QuoteCard(self.quote_of('6.3', 1), self.cite_of('6.3', 1), size=22, width=40).move_to([3.6, 1.0, 0])
         self.play(ReplacementTransform(rng_c, wall), run_time=0.9)
         self.play_at(self.t('6.3', 2, 'Mauern'), FadeIn(q2, shift=UP * 0.1), run_time=0.6)
 
@@ -221,7 +221,7 @@ class Kapitel6(NarratedScene):
         self.wait_until(self.t('6.3', 3))
         self.cite(self.cite_of('6.3', 0))
         stop = txt('Innenwelt „mit seelischen Qualitäten auszumalen“:\nfür Uexküll keine Sache ernsthafter Forscher',
-                   size=22, color=FG).move_to([3.6, 1.0, 0])
+                   size=19, color=FG).move_to([3.4, 1.0, 0])
         self.play(FadeOut(q2), FadeIn(stop), run_time=0.6)
 
         # Sentence 5: Uexküll fills the left field and leaves the right one empty.

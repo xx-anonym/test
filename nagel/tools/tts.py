@@ -122,6 +122,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--model', required=True)
     ap.add_argument('--chapters', nargs='*', type=int)
+    ap.add_argument('--paragraphs', nargs='*', help='only these paragraph ids, e.g. 4.5 9.2')
     ap.add_argument('--verify', action='store_true')
     ap.add_argument('--force', action='store_true', help='re-synthesise even if cached')
     args = ap.parse_args()
@@ -138,6 +139,8 @@ def main():
             continue
         for p in chap['paragraphs']:
             pid = p['id']
+            if args.paragraphs and pid not in args.paragraphs:
+                continue
             key = hashlib.sha1(('\n'.join(spoken(s) for s in p['sentences']) + settings).encode()).hexdigest()
             path = os.path.join(OUT, f'{pid}.wav')
             if not args.force and timing.get(pid, {}).get('hash') == key and os.path.exists(path):

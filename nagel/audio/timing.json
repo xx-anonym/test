@@ -250,43 +250,28 @@
   ]
  },
  "2.2": {
-  "hash": "e351d7492d4a7359b785e2f8d8a8cc4ebbef0b01",
-  "duration": 26.683,
+  "hash": "0ab2656e7bccab1428cff0c34955dc6327a1fd90",
+  "duration": 25.636,
   "sentences": [
    {
     "text": "Drei Ansätze prägten die Debatte.",
     "start": 0.0,
-    "end": 1.867
+    "end": 1.822
    },
    {
     "text": "Der Behaviorismus verstand mentale Begriffe als Rede über Verhalten und Verhaltensneigungen.",
-    "start": 2.247,
-    "end": 7.237
+    "start": 2.202,
+    "end": 7.289
    },
    {
-    "text": "Die Identitätstheorie von Ullin Place und J.",
-    "start": 7.617,
-    "end": 10.356
-   },
-   {
-    "text": "J.",
-    "start": 10.736,
-    "end": 11.121
-   },
-   {
-    "text": "C.",
-    "start": 11.501,
-    "end": 11.995
-   },
-   {
-    "text": "Smart behauptete, Empfindungen seien Gehirnprozesse.",
-    "start": 12.375,
-    "end": 15.39
+    "text": "Die Identitätstheorie von Ullin Place und J. J. C. Smart behauptete, Empfindungen seien Gehirnprozesse.",
+    "start": 7.669,
+    "end": 14.224
    },
    {
     "text": "Und der Funktionalismus, angestoßen von Hilary Putnam, bestimmte mentale Zustände über ihre Rolle: was sie auslöst und was sie bewirken, gleichgültig, aus welchem Material das System besteht.",
-    "start": 15.77,
-    "end": 26.683
+    "start": 14.604,
+    "end": 25.636
    }
   ]
  },
@@ -431,38 +416,38 @@
   ]
  },
  "4.5": {
-  "hash": "983ba79f973fa796d01e585e0bfa27bbee51c0b0",
-  "duration": 26.01,
+  "hash": "6e67f019cb62ab47e92192da2e013f4087965a4b",
+  "duration": 26.101,
   "sentences": [
    {
     "text": "Jetzt kommt der entscheidende Kontrast.",
     "start": 0.0,
-    "end": 1.699
+    "end": 1.826
    },
    {
     "text": "Physikalische Tatsachen sind objektive Tatsachen schlechthin: von vielen Standpunkten aus zu verstehen, auch von Wesen mit ganz anderen Sinnen.",
-    "start": 2.079,
-    "end": 10.06
+    "start": 2.206,
+    "end": 9.898
    },
    {
     "text": "Nagels Beispiel ist der Blitz.",
-    "start": 10.44,
-    "end": 12.015
+    "start": 10.278,
+    "end": 11.977
    },
    {
     "text": "Ein marsianischer Wissenschaftler ohne Sehsinn wüsste nie, wie ein Blitz für uns aussieht.",
-    "start": 12.395,
-    "end": 16.627
+    "start": 12.357,
+    "end": 16.79
    },
    {
     "text": "Aber er könnte verstehen, was ein Blitz ist: eine elektrische Entladung.",
-    "start": 17.007,
-    "end": 21.162
+    "start": 17.17,
+    "end": 21.152
    },
    {
     "text": "Der Blitz hat einen objektiven Charakter, der sich nicht in seiner sichtbaren Erscheinung erschöpft.",
-    "start": 21.542,
-    "end": 26.01
+    "start": 21.532,
+    "end": 26.101
    }
   ]
  },
@@ -592,23 +577,23 @@
   ]
  },
  "5.3": {
-  "hash": "70bc918b7e40be494c37ec0630888c9d655f934b",
-  "duration": 17.632,
+  "hash": "4b1ed3cb9821928290cb0d3077ad702e50fbe1fe",
+  "duration": 18.176,
   "sentences": [
    {
     "text": "Trotzdem kann man Gründe haben, so etwas zu glauben.",
     "start": 0.0,
-    "end": 2.555
+    "end": 2.763
    },
    {
     "text": "Wer nichts von Metamorphose weiß, eine Raupe in einen sterilen Safe sperrt und Wochen später einen Schmetterling findet, hat guten Grund anzunehmen, dass der Schmetterling die Raupe ist oder war – ohne zu verstehen, in welchem Sinn.",
-    "start": 2.935,
-    "end": 13.091
+    "start": 3.143,
+    "end": 13.747
    },
    {
     "text": "In einer solchen Lage, vermutet Nagel, könnten wir beim Physikalismus sein.",
-    "start": 13.471,
-    "end": 17.632
+    "start": 14.127,
+    "end": 18.176
    }
   ]
  },
@@ -660,28 +645,18 @@
   ]
  },
  "6.1": {
-  "hash": "450c748be5f015ef4aaec354410829a650a7b478",
-  "duration": 24.548,
+  "hash": "4a7cfb98b28630216c5d67cd9b8f8042f7bd57eb",
+  "duration": 23.669,
   "sentences": [
    {
     "text": "Die Frage selbst war 1974 nicht neu.",
     "start": 0.0,
-    "end": 3.115
+    "end": 3.423
    },
    {
-    "text": "Schon 1950 schrieb B.",
-    "start": 3.495,
-    "end": 5.597
-   },
-   {
-    "text": "A.",
-    "start": 5.977,
-    "end": 6.33
-   },
-   {
-    "text": "Farrell in der Zeitschrift Mind über einen Marsianer mit einem „Pseudo-Radiosinn“ und über den Satz: „Ich frage mich, wie es wäre, eine Fledermaus zu sein und zu hören wie sie.“ Farrell zog aber den entgegengesetzten Schluss: Physiologie und Psychologie könnten das Erleben loswerden – indem sie einsehen, dass es töricht sei anzunehmen, es gebe solche Dinge, oder es gebe sie nicht.",
-    "start": 6.71,
-    "end": 24.548
+    "text": "Schon 1950 schrieb B. A. Farrell in der Zeitschrift Mind über einen Marsianer mit einem „Pseudo-Radiosinn“ und über den Satz: „Ich frage mich, wie es wäre, eine Fledermaus zu sein und zu hören wie sie.“ Farrell zog aber den entgegengesetzten Schluss: Physiologie und Psychologie könnten das Erleben loswerden – indem sie einsehen, dass es töricht sei anzunehmen, es gebe solche Dinge, oder es gebe sie nicht.",
+    "start": 3.803,
+    "end": 23.669
    }
   ]
  },
@@ -702,33 +677,33 @@
   ]
  },
  "6.3": {
-  "hash": "bf74db2ddbf21128ebce28abf43e47c88c5977f1",
-  "duration": 30.163,
+  "hash": "7a57dd78eea0fe7658af6784e56931b16c559a95",
+  "duration": 29.148,
   "sentences": [
    {
     "text": "Eine ältere Wurzel liegt in der Biologie.",
     "start": 0.0,
-    "end": 2.209
+    "end": 2.091
    },
    {
     "text": "1909 schrieb Jakob von Uexküll, jede Lebensform besitze eine ihr eigene Umwelt; der Standpunkt des Tieres müsse in der Forschung allein ausschlaggebend werden.",
-    "start": 2.589,
-    "end": 12.151
+    "start": 2.471,
+    "end": 11.504
    },
    {
     "text": "Die Reize dieser Umwelt umschließen das Tier wie die Mauern eines selbstgebauten Hauses.",
-    "start": 12.531,
-    "end": 17.388
+    "start": 11.884,
+    "end": 16.681
    },
    {
     "text": "Bemerkenswert ist, wo Uexküll aufhört: Die Innenwelt der Tiere mit seelischen Qualitäten auszumalen, hielt er für keine Sache ernsthafter Forscher.",
-    "start": 17.768,
-    "end": 25.906
+    "start": 17.061,
+    "end": 24.702
    },
    {
     "text": "Er beschreibt das linke Feld unseres Bildes und lässt das rechte bewusst leer.",
-    "start": 26.286,
-    "end": 30.163
+    "start": 25.082,
+    "end": 29.148
    }
   ]
  },
@@ -1034,44 +1009,44 @@
   ]
  },
  "9.2": {
-  "hash": "916871c2af15e8c84085cdd919145d29ca32f8c0",
-  "duration": 18.275,
+  "hash": "ada4208e9d29a0e482d477405ba4be43abcb44e4",
+  "duration": 18.928,
   "sentences": [
    {
     "text": "Fledermäuse nutzen zwei Grundformen von Rufen.",
     "start": 0.0,
-    "end": 2.533
+    "end": 2.64
    },
    {
     "text": "Frequenzmodulierte Rufe gleiten rasch über einen breiten Bereich abwärts und sind präzise Zeitmarken für Entfernung und Richtung.",
-    "start": 2.913,
-    "end": 9.975
+    "start": 3.02,
+    "end": 10.307
    },
    {
     "text": "Konstantfrequente Rufe halten länger einen Ton; mit ihnen lassen sich schwache Echos entdecken und der Flügelschlag eines Insekts als Flackern im Echo erkennen.",
-    "start": 10.355,
-    "end": 18.275
+    "start": 10.687,
+    "end": 18.928
    }
   ]
  },
  "9.3": {
-  "hash": "cffff24148609dfff2c8efd61e9c18c55a444c76",
-  "duration": 20.112,
+  "hash": "2a5f499b76a7c7dcfbd5682c7b562a5058f4ed83",
+  "duration": 19.568,
   "sentences": [
    {
     "text": "Fliegt die Fledermaus auf ein Ziel zu, kommt das Echo durch den Doppler-Effekt höher zurück: bei fünf Metern pro Sekunde und 61 Kilohertz um knapp zwei Kilohertz.",
     "start": 0.0,
-    "end": 9.49
+    "end": 9.067
    },
    {
     "text": "Arten mit langen konstantfrequenten Rufen gleichen das aus.",
-    "start": 9.87,
-    "end": 12.877
+    "start": 9.447,
+    "end": 12.552
    },
    {
     "text": "Sie senken ihren Ruf gerade so weit, dass das Echo in einem schmalen Fenster ankommt, für das ihr Innenohr besonders fein abgestimmt ist.",
-    "start": 13.257,
-    "end": 20.112
+    "start": 12.932,
+    "end": 19.568
    }
   ]
  },
@@ -1181,6 +1156,324 @@
     "text": "Aus keiner dieser Karten lässt sich ablesen, wie sich ein Echo für die Fledermaus anfühlt – so, wie Nagels Argument es vorhersagt.",
     "start": 20.345,
     "end": 26.929
+   }
+  ]
+ },
+ "9.8": {
+  "hash": "7e329ef255c927f6944dd71b5cda5c4c6073b803",
+  "duration": 23.978,
+  "sentences": [
+   {
+    "text": "Eine Pointe am Rand: 1973 und 1974 war Nagel Gast an der Rockefeller University, wo Griffin forschte.",
+    "start": 0.0,
+    "end": 8.495
+   },
+   {
+    "text": "Die beiden sprachen über Fledermäuse und über die Scheu von Biologen vor dem Thema Tierbewusstsein.",
+    "start": 8.875,
+    "end": 14.297
+   },
+   {
+    "text": "Griffins Buch dazu von 1976 war, so Nagel, eine Folge dieser Gespräche.",
+    "start": 14.677,
+    "end": 20.171
+   },
+   {
+    "text": "Griffin selbst warf Nagel später lähmenden Perfektionismus vor.",
+    "start": 20.551,
+    "end": 23.978
+   }
+  ]
+ },
+ "10.1": {
+  "hash": "693a2a68e2dd58b4576a197a9481f05f108bc12a",
+  "duration": 17.452,
+  "sentences": [
+   {
+    "text": "Den Gegensatz von subjektivem und objektivem Standpunkt hat Nagel 1986 zum Thema eines ganzen Buches gemacht: „The View from Nowhere“.",
+    "start": 0.0,
+    "end": 8.697
+   },
+   {
+    "text": "Objektivität, so fasste Bernard Williams in seiner Rezension zusammen, ist dort keine Weise, wie Dinge existieren, sondern ein Stil des Verstehens.",
+    "start": 9.077,
+    "end": 17.452
+   }
+  ]
+ },
+ "10.2": {
+  "hash": "c46a8763c6a2d715e2b3c99734d77dba12413747",
+  "duration": 24.71,
+  "sentences": [
+   {
+    "text": "2012 ging Nagel weiter.",
+    "start": 0.0,
+    "end": 2.063
+   },
+   {
+    "text": "In „Mind and Cosmos“ argumentiert er: Wenn sich Bewusstsein nicht physikalisch reduzieren lässt, muss auch die Naturgeschichte, die es hervorgebracht hat, anders gedacht werden.",
+    "start": 2.443,
+    "end": 10.342
+   },
+   {
+    "text": "Er neigt einem neutralen Monismus zu und erwägt zielgerichtete Naturprinzipien, ohne einen Schöpfer anzurufen.",
+    "start": 10.722,
+    "end": 16.746
+   },
+   {
+    "text": "Das Buch stieß auf scharfe Kritik; Brian Leiter und Michael Weisberg nannten seine Argumente gegen den Naturalismus nicht überzeugend.",
+    "start": 17.126,
+    "end": 24.71
+   }
+  ]
+ },
+ "10.3": {
+  "hash": "11092dce1faf01cfc4bf65d701c7e63a8876a6df",
+  "duration": 20.117,
+  "sentences": [
+   {
+    "text": "Zum fünfzigsten Jubiläum erschien der Aufsatz 2024 als kleines Buch, zusammen mit einem neuen Vortrag.",
+    "start": 0.0,
+    "end": 6.397
+   },
+   {
+    "text": "Darin vermutet Nagel, bewusste Eigenschaften und ihre neuronalen Bedingungen seien untrennbare Aspekte von etwas Einem, für das wir noch keinen Begriff haben.",
+    "start": 6.777,
+    "end": 15.39
+   },
+   {
+    "text": "Angelegt war das schon in der letzten Fußnote von 1974.",
+    "start": 15.77,
+    "end": 20.117
+   }
+  ]
+ },
+ "11.1": {
+  "hash": "c21c09c406b1ed31bea630887a1daec33b5a9549",
+  "duration": 20.846,
+  "sentences": [
+   {
+    "text": "Heute ist Nagels Frage auch eine praktische.",
+    "start": 0.0,
+    "end": 2.379
+   },
+   {
+    "text": "2012 erklärte eine Gruppe von Neurowissenschaftlern in Cambridge, nichtmenschliche Tiere, darunter alle Säugetiere und Vögel und viele andere wie Kraken, besäßen die neurologischen Grundlagen, die Bewusstsein hervorbringen.",
+    "start": 2.759,
+    "end": 15.39
+   },
+   {
+    "text": "Man beachte die Formulierung: Behauptet werden die Grundlagen, nicht ein bestimmtes Erleben.",
+    "start": 15.77,
+    "end": 20.846
+   }
+  ]
+ },
+ "11.2": {
+  "hash": "470c9a10d99cd757c366075abe867bd31212555d",
+  "duration": 28.339,
+  "sentences": [
+   {
+    "text": "2024 folgte die New Yorker Erklärung zum Tierbewusstsein.",
+    "start": 0.0,
+    "end": 4.882
+   },
+   {
+    "text": "Sie unterscheidet Grade.",
+    "start": 5.262,
+    "end": 6.521
+   },
+   {
+    "text": "Für Säugetiere und Vögel gebe es starke wissenschaftliche Unterstützung für bewusstes Erleben.",
+    "start": 6.901,
+    "end": 12.058
+   },
+   {
+    "text": "Für alle Wirbeltiere und viele Wirbellose, mindestens Kopffüßer, Zehnfußkrebse und Insekten, bestehe zumindest eine realistische Möglichkeit.",
+    "start": 12.438,
+    "end": 21.174
+   },
+   {
+    "text": "Und wo eine solche Möglichkeit besteht, sei es unverantwortlich, sie bei Entscheidungen zu übergehen, die diese Tiere betreffen.",
+    "start": 21.554,
+    "end": 28.339
+   }
+  ]
+ },
+ "11.3": {
+  "hash": "5c9554182d2786bb3da5e08f06b923dcbe949886",
+  "duration": 8.786,
+  "sentences": [
+   {
+    "text": "Gesichert ist damit nicht, wie es für eine Biene ist, eine Biene zu sein, sondern nur, dass es vernünftig ist, mit Erleben zu rechnen: die Trennung zwischen dem Ob und dem Wie, die schon Nagels Aufsatz zieht.",
+    "start": 0.0,
+    "end": 8.786
+   }
+  ]
+ },
+ "11.4": {
+  "hash": "16f271418b33c163e8a2bfbf1e713b1c96a16ffc",
+  "duration": 27.649,
+  "sentences": [
+   {
+    "text": "Und Maschinen?",
+    "start": 0.0,
+    "end": 0.885
+   },
+   {
+    "text": "Hier ist die Lage offener.",
+    "start": 1.265,
+    "end": 2.611
+   },
+   {
+    "text": "Ein Bericht einer Gruppe um Patrick Butlin und Robert Long kam 2023 zu dem Schluss, dass nach ihrer Analyse kein damaliges KI-System bewusst ist, aber auch keine offensichtlichen technischen Hürden bestehen, Systeme zu bauen, die ihre Indikatoren erfüllen.",
+    "start": 2.991,
+    "end": 16.106
+   },
+   {
+    "text": "Die Autoren setzen dabei als Arbeitshypothese voraus, dass die richtige Art von Berechnung für Bewusstsein genügt; sie nennen das selbst verbreitet, aber umstritten.",
+    "start": 16.486,
+    "end": 24.877
+   },
+   {
+    "text": "Bewusstsein definieren sie mit Nagels Formel.",
+    "start": 25.257,
+    "end": 27.649
+   }
+  ]
+ },
+ "11.5": {
+  "hash": "140a2ccc876ccae6404965810c139d121e22b1a6",
+  "duration": 15.864,
+  "sentences": [
+   {
+    "text": "David Chalmers hielt es 2023 für eher unwahrscheinlich, dass heutige große Sprachmodelle bewusst sind, aber für ernsthaft möglich, dass ihre Nachfolger es sein könnten.",
+    "start": 0.0,
+    "end": 9.406
+   },
+   {
+    "text": "Einige Forschende fordern deshalb, schon jetzt Verfahren für den Fall vorzubereiten, dass KI-Systeme moralisch zählen.",
+    "start": 9.786,
+    "end": 15.864
+   }
+  ]
+ },
+ "11.6": {
+  "hash": "a41ef0bfcded64d3be6ccb195f3ac485304fe9a0",
+  "duration": 25.267,
+  "sentences": [
+   {
+    "text": "Nagels Text gibt dafür ein Werkzeug und eine Warnung.",
+    "start": 0.0,
+    "end": 2.825
+   },
+   {
+    "text": "Das Werkzeug: Seine Definition trennt Verhalten von Erleben.",
+    "start": 3.205,
+    "end": 6.651
+   },
+   {
+    "text": "Dass ein System spricht wie ein Mensch, beantwortet nicht, ob es irgendwie ist, dieses System zu sein.",
+    "start": 7.031,
+    "end": 12.417
+   },
+   {
+    "text": "Die Warnung steht in der Fußnote über die Roboter: Vielleicht hat alles, was komplex genug ist, sich wie ein Mensch zu verhalten, Erfahrungen.",
+    "start": 12.797,
+    "end": 20.455
+   },
+   {
+    "text": "Ob das so ist, entscheidet keine Begriffsanalyse.",
+    "start": 20.835,
+    "end": 23.656
+   },
+   {
+    "text": "Diese Frage ist offen.",
+    "start": 24.036,
+    "end": 25.267
+   }
+  ]
+ },
+ "12.1": {
+  "hash": "ef97b45b6fb6ff9f362de147e15643860e147e97",
+  "duration": 25.165,
+  "sentences": [
+   {
+    "text": "Was bleibt nach fünfzig Jahren?",
+    "start": 0.0,
+    "end": 1.617
+   },
+   {
+    "text": "Erstens eine Bestimmung, die sich durchgesetzt hat, auch bei vielen, die Nagels Folgerungen ablehnen: Bewusstsein als das, wie es für ein Wesen ist.",
+    "start": 1.997,
+    "end": 9.011
+   },
+   {
+    "text": "Chalmers, Block und noch der KI-Bericht von 2023 beginnen damit.",
+    "start": 9.391,
+    "end": 14.274
+   },
+   {
+    "text": "Zweitens eine Diagnose: Das Verfahren erfolgreicher Reduktionen, weg vom Standpunkt und hin zur objektiven Beschreibung, lässt sich nicht einfach auf etwas übertragen, das selbst ein Standpunkt ist.",
+    "start": 14.654,
+    "end": 25.165
+   }
+  ]
+ },
+ "12.2": {
+  "hash": "ee5ad4f6984dcbe671c469ebd6f583154cfe86d7",
+  "duration": 21.162,
+  "sentences": [
+   {
+    "text": "Angreifbar ist das Argument an mehreren Stellen: an der Annahme, dass die Fledermaus einen einheitlichen Standpunkt hat; an der Behauptung, zu wissen, wie es ist, heiße, Tatsachen zu kennen; an der Grammatik der Formel; und an der Wirklichkeit des Erlebens selbst.",
+    "start": 0.0,
+    "end": 11.421
+   },
+   {
+    "text": "Beendet hat keiner dieser Einwände die Debatte.",
+    "start": 11.801,
+    "end": 14.17
+   },
+   {
+    "text": "Nagel schreibt fünfzig Jahre später, es gebe bis heute keine Einigkeit darüber, wie mit diesen Problemen umzugehen ist.",
+    "start": 14.55,
+    "end": 21.162
+   }
+  ]
+ },
+ "12.3": {
+  "hash": "0dd0f0150022c9eca227ed8fa97a781bc6416b0e",
+  "duration": 28.933,
+  "sentences": [
+   {
+    "text": "Und Nagel betont, sein Aufsatz behaupte nicht, die Wissenschaft könne Bewusstsein nicht verstehen.",
+    "start": 0.0,
+    "end": 5.234
+   },
+   {
+    "text": "Seine These ist enger und zugleich anspruchsvoller: Um es zu verstehen, muss sich unsere Vorstellung davon erweitern, was wissenschaftliches Verstehen ist.",
+    "start": 5.614,
+    "end": 13.153
+   },
+   {
+    "text": "Ob das gelingt, durch neue Begriffe, eine objektive Phänomenologie oder den Nachweis, dass das Problem eine Illusion ist, ist offen.",
+    "start": 13.533,
+    "end": 21.489
+   },
+   {
+    "text": "Die Fledermaus fliegt weiter durch die Dämmerung.",
+    "start": 21.869,
+    "end": 24.134
+   },
+   {
+    "text": "Wir können jeden ihrer Rufe messen.",
+    "start": 24.514,
+    "end": 26.204
+   },
+   {
+    "text": "Wie es ist, sie zu sein, wissen wir nicht.",
+    "start": 26.584,
+    "end": 28.933
    }
   ]
  }

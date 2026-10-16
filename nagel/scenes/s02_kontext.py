@@ -146,7 +146,7 @@ class Kapitel2(NarratedScene):
         fn_body = VGroup(fn_title, fn_names).arrange(DOWN, aligned_edge=LEFT, buff=0.2)
         fn_box = RoundedRectangle(corner_radius=0.08, width=fn_body.width + 0.5, height=fn_body.height + 0.4,
                                   fill_color=PANEL, fill_opacity=1, stroke_width=0)
-        fn = VGroup(fn_box, fn_body.move_to(fn_box)).move_to([4.6, 0.6, 0])
+        fn = VGroup(fn_box, fn_body.move_to(fn_box)).move_to([5.35, 0.6, 0])
         self.play(FadeIn(fn_box), FadeIn(fn_title), run_time=0.5)
         for key, row in zip(['Smart', 'Lewis', 'Putnam', None, 'Dennett'], fn_names):
             if key:
@@ -163,11 +163,10 @@ class Kapitel2(NarratedScene):
             lines.add(VGroup(la, e, lb))
         # align the equals signs in one column
         for row, y in zip(lines, [1.9, 1.05, 0.2, -0.95]):
-            row[1].move_to([-1.9, y, 0])
+            row[1].move_to([-2.4, y, 0])
             row[0].next_to(row[1], LEFT, buff=0.3)
             row[2].next_to(row[1], RIGHT, buff=0.3)
-        ticks = VGroup(*[check(color=OCHRE, size=0.28).next_to(row, RIGHT, buff=0.35) for row in lines[:3]])
-        ticks.align_to(ticks[1], LEFT)
+        ticks = VGroup(*[check(color=OCHRE, size=0.28).move_to([2.45, row.get_y(), 0]) for row in lines[:3]])
         for row, tick, (_, _, key) in zip(lines[:3], ticks, rows):
             self.wait_until(self.t('2.3', 1, key))
             self.play(FadeIn(row, shift=UP * 0.08), run_time=0.45)

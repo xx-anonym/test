@@ -111,7 +111,7 @@ class Kapitel7(NarratedScene):
         stand = Line(mon.get_bottom(), mon.get_bottom() + DOWN * 0.45, color='#9a9a9a', stroke_width=4)
         wave = FunctionGraph(lambda x: 0.18 * np.sin(9 * x), x_range=[-1.0, 1.0], color='#d0d0d0', stroke_width=2.5)
         wave.move_to(mon.get_center() + UP * 0.45)
-        lam = txt('λ = 650 nm', size=16, color='#d0d0d0').next_to(wave, DOWN, buff=0.08)
+        lam = txt('Wellenlängen', size=16, color='#d0d0d0').next_to(wave, DOWN, buff=0.08)
         scan = net_pattern(cols=6, rows=2, lit=(2, 9), color='#e0e0e0', spacing=0.3).move_to(mon.get_center() + DOWN * 0.45)
         door = Rectangle(width=0.9, height=2.2, stroke_color='#9a9a9a', stroke_width=3, fill_color='#3a3a3a',
                          fill_opacity=1).move_to([1.4, -1.65, 0])

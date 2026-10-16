@@ -72,12 +72,11 @@ class Kapitel9(NarratedScene):
         who = txt('Griffin & Galambos 1941: Ausweichen mit Echos · Griffin 1944: das Wort', size=20, color=MUTED)
         who.next_to(word, DOWN, buff=0.3)
         self.play(FadeIn(who), run_time=0.5)
-        self.play_at(self.t('9.1', 1, 'echolocation'), Write(word), run_time=1.0)
+        self.play_at(self.t('9.1', 1, 'drei Jahre'), Write(word), run_time=1.0)
 
         # Sentence 3: the physics – to scale.
         self.wait_until(self.t('9.1', 2))
-        self.cite(self.cite_of('9.1', 1))
-        self.play(FadeOut(word), FadeOut(who), run_time=0.4)
+        self.cite(self.cite_of('9.1', 1), run_time=0.3)
         S = 2.35                                    # scene units per metre
         y0 = 1.2
         bx = -5.3
@@ -93,9 +92,9 @@ class Kapitel9(NarratedScene):
                        txt('1 m', size=16, color=MUTED).move_to([bx + S / 2, y0 - 1.95, 0]))
         lab_i = txt('Insekt, 1 m', size=16, color=MUTED).next_to(ins, UP, buff=0.5)
         lab_w = txt('Mauer, 3 m', size=16, color=MUTED).next_to(wall, UP, buff=0.1)
-        cval = txt('c ≈ 343 m/s (20 °C)', size=20, color=OCHRE).move_to([3.9, 2.7, 0])
-        self.play(FadeIn(b), FadeIn(ins), FadeIn(wall), FadeIn(scale), FadeIn(lab_i), FadeIn(lab_w), run_time=0.7)
-        self.play_at(self.t('9.1', 2, '343'), FadeIn(cval), run_time=0.5)
+        cval = txt('c ≈ 343 m/s (20 °C)', size=20, color=OCHRE).move_to([4.4, 2.7, 0])
+        self.play(FadeOut(word), FadeOut(who), FadeIn(b), FadeIn(ins), FadeIn(wall), FadeIn(scale), FadeIn(lab_i),
+                  FadeIn(lab_w), FadeIn(cval), run_time=0.7)
 
         # time diagram
         ty = -1.9
@@ -105,7 +104,7 @@ class Kapitel9(NarratedScene):
         def tx(ms):
             return tx0 + (tx1 - tx0) * ms / tms
         tline = Arrow([tx0, ty, 0], [tx1 + 0.3, ty, 0], buff=0, color=MUTED, stroke_width=3)
-        tlab = txt('Zeit (ms)', size=16, color=MUTED).next_to(tline, DOWN, buff=0.1).align_to(tline, RIGHT)
+        tlab = txt('Zeit (ms)', size=16, color=MUTED).next_to(tline, UP, buff=0.1).align_to(tline, RIGHT)
         tticks = VGroup(*[VGroup(Line([tx(m), ty - 0.07, 0], [tx(m), ty + 0.07, 0], color=MUTED, stroke_width=2),
                                  txt(f'{m}', size=14, color=MUTED).move_to([tx(m), ty - 0.25, 0]))
                           for m in range(0, 21, 5)])
@@ -141,7 +140,7 @@ class Kapitel9(NarratedScene):
         e2 = always_redraw(echo_wall)
         head = always_redraw(lambda: Line([tx(clock.get_value()), ty - 0.1, 0], [tx(clock.get_value()), ty + 0.55, 0],
                                           color=OCHRE, stroke_width=3))
-        slow = txt('Zeitlupe: 20 ms in 5 s (250-fach)', size=16, color=MUTED).move_to([3.9, 2.3, 0])
+        slow = txt('Zeitlupe: 20 ms in 4 s (200-fach)', size=16, color=MUTED).move_to([4.4, 2.3, 0])
         self.add(out, e1, e2, head)
         self.play(FadeIn(slow), run_time=0.3)
         call = VGroup(Line([tx(0), ty, 0], [tx(0), ty + 0.5, 0], color=OCHRE, stroke_width=5),
@@ -149,18 +148,18 @@ class Kapitel9(NarratedScene):
         self.add(call)
         marks = VGroup()
         for target_ms, name in ((t_ins, 'Insekt 5,8 ms'), (t_wall, 'Mauer 17,5 ms')):
-            self.play(clock.animate.set_value(target_ms), run_time=(target_ms - clock.get_value()) / tms * 5.0,
+            self.play(clock.animate.set_value(target_ms), run_time=(target_ms - clock.get_value()) / tms * 4.0,
                       rate_func=linear)
             m = VGroup(Line([tx(target_ms), ty, 0], [tx(target_ms), ty + 0.5, 0], color=FG, stroke_width=4),
                        txt(name, size=16).move_to([tx(target_ms), ty + 0.7, 0]))
             self.add(m)
             marks.add(m)
-        self.play(clock.animate.set_value(tms), run_time=(tms - clock.get_value()) / tms * 5.0, rate_func=linear)
+        self.play(clock.animate.set_value(tms), run_time=(tms - clock.get_value()) / tms * 4.0, rate_func=linear)
         self.remove(out, e1, e2, head)
 
         # Sentence 4: 6 ms → about one metre.
         self.wait_until(self.t('9.1', 3))
-        f1 = txt('r = c · Δt / 2', size=34, font=SERIF, slant=ITALIC).move_to([3.9, 1.35, 0])
+        f1 = txt('r = c · Δt / 2', size=34, font=SERIF, slant=ITALIC).move_to([4.4, 1.35, 0])
         f2 = txt('343 m/s · 5,8 ms / 2 ≈ 1,0 m', size=20, color=FG).next_to(f1, DOWN, buff=0.25)
         self.play(Write(f1), run_time=0.8)
         self.play(FadeIn(f2), Indicate(marks[0], color=OCHRE), run_time=0.7)
@@ -219,10 +218,11 @@ class Kapitel9(NarratedScene):
         self.wait_until(self.t('9.3'))
         self.cite(self.cite_of('9.3'))
         ax = Axes(x_range=[0, 10, 2], y_range=[58, 64, 1], x_length=8.0, y_length=4.0, tips=False,
-                  axis_config={'color': MUTED, 'stroke_width': 2, 'font_size': 20},
-                  y_axis_config={'numbers_to_include': [58, 59, 60, 61, 62, 63, 64]})
+                  axis_config={'color': MUTED, 'stroke_width': 2}, x_axis_config={'include_ticks': False})
         ax.move_to([-1.3, -0.3, 0])
-        yl = txt('Frequenz (kHz)', size=16, color=MUTED).rotate(PI / 2).next_to(ax.y_axis, LEFT, buff=0.55)
+        ynum = VGroup(*[txt(str(f), size=16, color=MUTED).next_to(ax.c2p(0, f), LEFT, buff=0.15) for f in range(58, 65)])
+        ax.add(ynum)
+        yl = txt('Frequenz (kHz)', size=16, color=MUTED).rotate(PI / 2).next_to(ax.y_axis, LEFT, buff=0.6)
         xl = txt('Zeit', size=16, color=MUTED).next_to(ax.x_axis, DOWN, buff=0.15).align_to(ax.x_axis, RIGHT)
         win = Rectangle(width=ax.c2p(10, 0)[0] - ax.c2p(0, 0)[0], height=ax.c2p(0, 61.6)[1] - ax.c2p(0, 60.8)[1],
                         stroke_width=0, fill_color=VIOLET, fill_opacity=0.18)
@@ -239,8 +239,8 @@ class Kapitel9(NarratedScene):
         el = txt('Echo 62,8 kHz', size=18).next_to(echo, UP, buff=0.1)
         self.play(Create(call), FadeIn(cl), run_time=0.6)
         self.play_at(self.t('9.3', 0, 'höher'), Create(echo), FadeIn(el), run_time=0.6)
-        form = txt('f(Echo) = f(Ruf) · (c + v) / (c − v)\n≈ f(Ruf) · (1 + 2v / c)', size=24, font=SERIF, slant=ITALIC)
-        form.move_to([4.6, 1.9, 0])
+        form = txt('f(Echo) = f(Ruf) · (c + v) / (c − v)\n≈ f(Ruf) · (1 + 2v / c)', size=22, font=SERIF, slant=ITALIC)
+        form.move_to([4.3, 2.75, 0])
         vals = txt('v = 5 m/s, f₀ = 61 kHz → Δf ≈ 1,8 kHz', size=18, color=MUTED).next_to(form, DOWN, buff=0.2)
         self.play_at(self.t('9.3', 0, 'fünf Metern'), Write(form), FadeIn(vals), run_time=1.0)
 
@@ -251,8 +251,8 @@ class Kapitel9(NarratedScene):
         cl2 = txt('Ruf 59,3 kHz', size=18, color=OCHRE).next_to(call2, DOWN, buff=0.1)
         echo2 = bar(6.0, 9.5, 61.0, FG)
         el2 = txt('Echo 61,0 kHz', size=18).next_to(echo2, UP, buff=0.1)
-        comp = txt('mit Kompensation', size=18, color=MUTED).move_to(ax.c2p(7.5, 63.5))
-        nocomp = txt('ohne', size=18, color=MUTED).move_to(ax.c2p(2.5, 63.5))
+        comp = txt('mit Kompensation', size=18, color=MUTED).move_to(ax.c2p(7.5, 64.4))
+        nocomp = txt('ohne Kompensation', size=18, color=MUTED).move_to(ax.c2p(2.5, 64.4))
         self.play(FadeIn(nocomp), FadeIn(comp), run_time=0.4)
         self.play_at(self.t('9.3', 2, 'senken'), Create(call2), FadeIn(cl2), run_time=0.6)
         self.play_at(self.t('9.3', 2, 'Fenster'), Create(echo2), FadeIn(el2), Indicate(win, color=VIOLET), run_time=0.8)
@@ -269,7 +269,7 @@ class Kapitel9(NarratedScene):
         cortex = Ellipse(width=8.6, height=4.6, stroke_color=MUTED, stroke_width=3, fill_color=PANEL,
                          fill_opacity=1).move_to([1.5, -0.4, 0])
         self.play(FadeIn(title), FadeIn(note), FadeIn(cortex), run_time=0.7)
-        call = txt('Ruf: langer Ton bei ≈ 61 kHz, dann FM-Abschwung', size=18, color=OCHRE).move_to([1.5, 1.35, 0])
+        call = txt('Ruf: langer Ton bei ≈ 61 kHz, dann FM-Abschwung', size=18, color=OCHRE).move_to([1.5, 2.25, 0])
         self.play_at(self.t('9.4', 0, '61'), FadeIn(call), run_time=0.5)
 
         # Sentence 2: delay-tuned neurons along a range axis 7 cm … 310 cm.
@@ -295,14 +295,14 @@ class Kapitel9(NarratedScene):
                              if True else VGroup())
         self.play(FadeIn(ib), FadeIn(il), run_time=0.4)
         self.add(ii, spot)
-        self.play_at(self.t('9.4', 1, 'sieben'), d.animate.set_value(0.12), run_time=3.0, rate_func=smooth)
-        self.play(d.animate.set_value(2.6), run_time=1.6, rate_func=smooth)
+        self.play_at(self.t('9.4', 1, 'sieben'), d.animate.set_value(0.12), run_time=2.2, rate_func=smooth)
+        self.play(d.animate.set_value(2.6), run_time=1.2, rate_func=smooth)
 
         # Sentence 3: DSCF area – the band just above 61 kHz is spread wide.
         self.wait_until(self.t('9.4', 2))
-        dscf = RoundedRectangle(corner_radius=0.1, width=3.3, height=1.6, stroke_color=VIOLET, stroke_width=2,
-                                fill_color='#211b33', fill_opacity=1).move_to([3.75, -1.15, 0])
-        band = Rectangle(width=2.9, height=0.9, stroke_width=0, fill_color=VIOLET, fill_opacity=0.45).move_to(dscf)
+        dscf = RoundedRectangle(corner_radius=0.1, width=3.0, height=1.4, stroke_color=VIOLET, stroke_width=2,
+                                fill_color='#211b33', fill_opacity=1).move_to([3.5, -0.95, 0])
+        band = Rectangle(width=2.6, height=0.8, stroke_width=0, fill_color=VIOLET, fill_opacity=0.45).move_to(dscf)
         bl = txt('61–62 kHz', size=18, color=FG).move_to(band)
         dl = txt('DSCF-Areal: Geschwindigkeit', size=17, color=VIOLET).next_to(dscf, DOWN, buff=0.08)
         rest = VGroup(txt('übrige Frequenzen', size=13, color=MUTED).next_to(band, UP, buff=0.04))
@@ -386,12 +386,12 @@ class Kapitel9(NarratedScene):
         self.wait_until(self.t('9.6', 2))
         outline, occ, aud = brain_side(width=4.0)
         brain = VGroup(outline, occ, aud).move_to([3.4, 0.4, 0])
-        bl = txt('schematisch', size=15, color=MUTED, slant=ITALIC).next_to(brain, DOWN, buff=0.1).align_to(brain, RIGHT)
+        bl = txt('schematisch', size=15, color=MUTED, slant=ITALIC).next_to(brain, UP, buff=0.05).align_to(brain, LEFT)
         front = txt('vorn →', size=15, color=MUTED).next_to(brain, UP, buff=0.05).align_to(brain, RIGHT)
         self.play(FadeIn(brain), FadeIn(bl), FadeIn(front), run_time=0.6)
-        ol = txt('Sehrinde (calcariner Kortex)', size=17, color=OCHRE).next_to(occ, LEFT, buff=0.25)
-        ol.shift(DOWN * 0.95)
-        al = txt('Hörkortex: kein Unterschied', size=17, color=MUTED).next_to(brain, DOWN, buff=0.5).align_to(brain, RIGHT)
+        ol = txt('Sehrinde (calcariner Kortex): aktiv', size=17, color=OCHRE).next_to(brain, DOWN, buff=0.15)
+        ol.align_to(brain, LEFT)
+        al = txt('Hörkortex: kein Unterschied', size=17, color=MUTED).next_to(ol, DOWN, buff=0.1).align_to(brain, LEFT)
         self.play_at(self.t('9.6', 2, 'Areal'), occ.animate.set_fill(OCHRE), FadeIn(ol), run_time=0.8)
         self.play_at(self.t('9.6', 2, 'Hörkortex'), Indicate(aud, color=MUTED), FadeIn(al), run_time=0.7)
         comp = txt('Klicks mit Echo vs. echofreie Kontrollgeräusche', size=16, color=MUTED).move_to([3.4, 2.65, 0])

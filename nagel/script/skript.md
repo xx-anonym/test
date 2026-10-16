@@ -1,6 +1,6 @@
 # Skript – „Wie ist es, eine Fledermaus zu sein?“ Thomas Nagel, 1974
 
-Entwurf 1 zur Freigabe · Stand 15.10.2026
+Freigegebene Fassung · Stand 16.10.2026
 
 Jeder Absatz hat drei Teile: **Sprechertext** (Zitatblock), **Beleg** (Kurzschlüssel aus
 `research/quellen.md` und Einblendung unten rechts) und **Szene** (was die Animation zeigt
@@ -853,14 +853,12 @@ Hörbeispiel (9.5): CC0-Aufnahme „Bat feeding buzz“ (Kaldari 2020); Analyse 
 
 ## Umfang
 
-Sprechertext: **3.441 Wörter** (Jahreszahlen als Ziffern gezählt). Gemessene Sprechzeit mit
-Piper `thorsten-high` (Sprechtempo 1,06, 0,38 s Satzpause, 0,55 s Absatzpause), Stand vor
-den letzten kleinen Textänderungen (Abweichung wenige Sekunden):
+Sprechertext: **3.441 Wörter** (Jahreszahlen als Ziffern gezählt). Gemessene Sprechzeit der
+endgültigen Aufnahmen mit Piper `thorsten-high` (Sprechtempo 1,06, 0,38 s Satzpause):
 
 | Kap. | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| min | 0,8 | 1,2 | 1,1 | 1,3 | 3,0 | 1,8 | 1,2 | 1,6 | 2,7 | 3,1 | 1,1 | 2,2 | 1,3 |
+| min | 0,8 | 1,1 | 1,0 | 1,2 | 2,9 | 1,8 | 1,2 | 1,6 | 2,7 | 3,0 | 1,0 | 2,1 | 1,3 |
 
-Summe Sprechzeit 22,3 min; dazu Kapitelkarten (~0,6 min), Hörbeispiel (7 s) und Abspann
-(~0,75 min): **Gesamtlänge ca. 24 min.** Mit Coqui-Stimme bei gleichem Tempo etwa 10 % länger;
-dann Sprechtempo leicht erhöhen.
+Summe Sprechzeit 21,8 min; mit Kapitelkarten, Pausen, Hörbeispiel (7 s) und Abspann
+(51 s): **fertiges Video 24:24 min** (`output/nagel_fledermaus.mp4`).

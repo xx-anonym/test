@@ -124,10 +124,10 @@ class Kapitel12(NarratedScene):
 
         # Sentence 2: our idea of scientific understanding must widen.
         self.wait_until(self.t('12.3', 1))
-        circ = Circle(radius=1.0, stroke_color=OCHRE, stroke_width=3).move_to([0, -0.2, 0])
+        circ = Circle(radius=1.3, stroke_color=OCHRE, stroke_width=3).move_to([0, -0.2, 0])
         cl = txt('wissenschaftliches\nVerstehen', size=22, color=OCHRE).move_to(circ)
         self.play(Create(circ), FadeIn(cl), run_time=0.7)
-        self.play_at(self.t('12.3', 1, 'erweitern'), circ.animate.scale(1.9), run_time=1.4, rate_func=smooth)
+        self.play_at(self.t('12.3', 1, 'erweitern'), circ.animate.scale(1.6), run_time=1.4, rate_func=smooth)
 
         # Sentence 3: how – open.
         self.wait_until(self.t('12.3', 2))
@@ -150,17 +150,16 @@ class Kapitel12(NarratedScene):
         self.play(FadeIn(land), FadeIn(flyer), run_time=0.8)
         calls = Calls(flyer, None)
         self.add(calls)
-        dur = max(2.0, self.t('12.3', 4, end=True) - self.now)
+        dur = max(2.0, self.t('12.3', 5) - 0.9 - self.now)
         self.play(tr.animate.set_value(0.55), run_time=dur, rate_func=linear)
 
         # Sentences 5–6: left everything measured, right dark.
         calls.active = False
         calls.clear_updaters()
         flyer.clear_updaters()
-        self.play(FadeOut(VGroup(land, calls, flyer)), run_time=0.6)
         outer, inner = two_fields(height=3.8, y=-0.1)
         items = VGroup(txt('Rufe, Echos, Laufzeiten', size=20), txt('Doppler-Kompensation', size=20),
                        txt('Karten im Hörkortex', size=20), txt('Verhalten, Reichweite', size=20)).arrange(
             DOWN, aligned_edge=LEFT, buff=0.22).move_to(outer.box)
-        self.play(FadeIn(outer), LaggedStart(*[FadeIn(i) for i in items], lag_ratio=0.2), run_time=1.0)
+        self.play(FadeOut(VGroup(land, calls, flyer)), FadeIn(outer), FadeIn(items), run_time=0.8)
         self.play_at(self.t('12.3', 5), FadeIn(inner), run_time=0.9)

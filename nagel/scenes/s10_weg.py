@@ -95,7 +95,7 @@ class Kapitel10(NarratedScene):
         dots = VGroup(*[Dot([x, y, 0], radius=0.07, color=MUTED) for x in xs[:-1]])
         labs = VGroup(*[txt(s, size=18, color=MUTED).next_to([x, y, 0], DOWN, buff=0.2) for x, s in zip(xs, stations)])
         glow = Circle(radius=0.22, fill_color=VIOLET, fill_opacity=0.8, stroke_color=FG, stroke_width=2).move_to([xs[-1], y, 0])
-        note = txt('schematisch, ohne Zeitmaßstab', size=15, color=MUTED, slant=ITALIC).next_to(line, UP, buff=0.15)
+        note = txt('schematisch, ohne Zeitmaßstab', size=15, color=MUTED, slant=ITALIC).next_to(labs, DOWN, buff=0.2)
         note.align_to(line, LEFT)
         self.play(Create(line), FadeIn(dots), FadeIn(labs[:-1]), FadeIn(note), run_time=1.0)
         self.play_at(self.t('10.2', 1, 'Bewusstsein'), FadeIn(glow, scale=0.5), FadeIn(labs[-1]), run_time=0.6)
@@ -131,10 +131,10 @@ class Kapitel10(NarratedScene):
 
         # Sentence 2: inseparable aspects of one thing for which we have no concept yet.
         self.wait_until(self.t('10.3', 1))
-        m = Circle(radius=0.85, stroke_color=VIOLET, stroke_width=3).move_to([-0.2, 1.3, 0])
-        p = Circle(radius=0.85, stroke_color=OCHRE, stroke_width=3).move_to([4.0, 1.3, 0])
-        ml = txt('bewusste\nEigenschaften', size=19, color=VIOLET).move_to(m)
-        pl = txt('neuronale\nBedingungen', size=19, color=OCHRE).move_to(p)
+        m = Circle(radius=1.0, stroke_color=VIOLET, stroke_width=3).move_to([-0.2, 1.3, 0])
+        p = Circle(radius=1.0, stroke_color=OCHRE, stroke_width=3).move_to([4.0, 1.3, 0])
+        ml = txt('bewusste\nEigenschaften', size=16, color=VIOLET).move_to(m)
+        pl = txt('neuronale\nBedingungen', size=16, color=OCHRE).move_to(p)
         n = Circle(radius=0.95, stroke_color=MUTED, stroke_width=3, fill_color='#2b303a', fill_opacity=1).move_to([1.9, -0.9, 0])
         a1 = Arrow(n.get_top() + LEFT * 0.35, m.get_bottom() + RIGHT * 0.25, buff=0.08, color=MUTED, stroke_width=3)
         a2 = Arrow(n.get_top() + RIGHT * 0.35, p.get_bottom() + LEFT * 0.25, buff=0.08, color=MUTED, stroke_width=3)

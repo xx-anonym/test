@@ -191,8 +191,8 @@ class Kapitel11(NarratedScene):
         self.play(FadeIn(ct), LaggedStart(*[FadeIn(p) for p in col], lag_ratio=0.15), run_time=1.0)
         self.play(FadeIn(it), LaggedStart(*[GrowArrow(a) for a in arrows], lag_ratio=0.1), FadeIn(ind), run_time=1.0)
         self.play(FadeIn(sys_), FadeIn(sl), run_time=0.5)
-        verdict = txt('kein damaliges System bewusst –\nkeine offensichtlichen technischen Hürden', size=18)
-        verdict.next_to(sys_, UP, buff=0.3)
+        verdict = txt('kein damaliges System bewusst –\nkeine offensichtlichen technischen Hürden', size=16)
+        verdict.next_to(sl, DOWN, buff=0.25)
         self.play_at(self.t('11.4', 2, 'kein damaliges'), FadeIn(verdict), run_time=0.6)
 
         # Sentence 4: working hypothesis – computation suffices (disputed).

@@ -536,12 +536,13 @@ unconvincing.“
 
 | Element | Quelle | Lizenz | Status |
 | --- | --- | --- | --- |
-| **Hörbeispiel (geplant):** Fledermaus kurz vor dem Fang („feeding buzz“), 1/10 verlangsamt | Kaldari, „Bat feeding buzz.wav“, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bat_feeding_buzz.wav), aufgenommen 11.11.2020, Butler County, Pennsylvania; Art laut Beschreibung „most likely the big brown bat (*Eptesicus fuscus*)“ | CC0 1.0 | heruntergeladen und analysiert (s. u.) |
-| Alternative: Echoortungsrufe, 1/10 verlangsamt | Kaldari, „Hoary bat chirp recording.wav“, Wikimedia Commons, 10.11.2020; laut Beschreibung „most likely“ *Lasiurus cinereus* | CC0 1.0 | Metadaten geprüft; Download scheiterte an Rate-Limit |
-| Rückfalloption: Fleckfledermaus (*Euderma maculatum*), Echtzeit, hörbar (~9 kHz) | U.S. National Park Service, Yosemite, [Natural Sounds Library](https://www.nps.gov/subjects/sound/sounds-spotted-bat.htm); Credit „NPS“ | gemeinfrei (US-Bundeswerk; Galerie: „The files are in the public domain“) | heruntergeladen und analysiert |
+| **Hörbeispiel (verwendet, Kap. 9.5):** Fledermaus kurz vor dem Fang („feeding buzz“), 1/10 verlangsamt | Kaldari, „Bat feeding buzz.wav“, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bat_feeding_buzz.wav), aufgenommen 11.11.2020, Butler County, Pennsylvania; Art laut Beschreibung „most likely the big brown bat (*Eptesicus fuscus*)“ | CC0 1.0 | heruntergeladen und analysiert (s. u.) |
+| Alternative (nicht verwendet): Echoortungsrufe, 1/10 verlangsamt | Kaldari, „Hoary bat chirp recording.wav“, Wikimedia Commons, 10.11.2020; laut Beschreibung „most likely“ *Lasiurus cinereus* | CC0 1.0 | Metadaten geprüft; Download scheiterte an Rate-Limit |
+| Rückfalloption (nicht verwendet): Fleckfledermaus (*Euderma maculatum*), Echtzeit, hörbar (~9 kHz) | U.S. National Park Service, Yosemite, [Natural Sounds Library](https://www.nps.gov/subjects/sound/sounds-spotted-bat.htm); Credit „NPS“ | gemeinfrei (US-Bundeswerk; Galerie: „The files are in the public domain“) | heruntergeladen und analysiert |
 | Sprecherstimme | Piper `de_DE-thorsten-high` (Entscheidung 16.10.2026) | Datensatz CC0; Basismodell s. u. | lokal installiert (piper-tts 1.8.0) |
-| Musik | keine geplant | – | – |
-| Grafiken | alle selbst erzeugt (Manim, Matplotlib) | – | – |
+| Musik | keine | – | – |
+| Grafiken | alle selbst erzeugt (Manim CE 0.22.0, Matplotlib); Spektrogramm in Kap. 9.5 berechnet aus der CC0-Aufnahme (`tools/make_spectrogram.py`, `assets/img/spectrogram_buzz.png`); Buchumschläge in Kap. 9–10 selbst gestaltet (nur Titel und Jahr) | – | – |
+| Software für die Stimme | piper-tts 1.8.0 (nur als Werkzeug verwendet, nicht weitergegeben) | GPL-3.0-or-later (laut Paketmetadaten) | lokal |
 | Schrift Inter | The Inter Project Authors, github.com/rsms/inter | SIL OFL 1.1 | `assets/fonts/`, Lizenz in `LICENSE-Inter.txt` |
 | Schrift Source Serif 4 | Adobe, github.com/adobe-fonts/source-serif (4.005) | SIL OFL 1.1 | `assets/fonts/`, Lizenz in `LICENSE-SourceSerif4.md` |
 | Sprachprüfung | faster-whisper, Modell „medium“ (nur Qualitätskontrolle, nicht im Video) | MIT | lokal |

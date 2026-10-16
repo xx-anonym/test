@@ -88,22 +88,23 @@ def scene_audio(n):
 
 
 # ---------------------------------------------------------------- subtitles
-MAX_CHARS = 80   # per cue (two lines)
+MAX_CHARS = 84   # per cue (two lines)
 LINE = 42        # per line
 
 
 def _pieces(sentence):
     if len(sentence) <= MAX_CHARS:
-        return [sentence]
-    out, cur = [], ''
-    for piece in re.split(r'(?<=[,;:–])\s+', sentence):
-        if cur and len(cur) + 1 + len(piece) > MAX_CHARS:
+        out = [sentence]
+    else:
+        out, cur = [], ''
+        for piece in re.split(r'(?<=[,;:–])\s+', sentence):
+            if cur and len(cur) + 1 + len(piece) > MAX_CHARS:
+                out.append(cur)
+                cur = piece
+            else:
+                cur = f'{cur} {piece}'.strip()
+        if cur:
             out.append(cur)
-            cur = piece
-        else:
-            cur = f'{cur} {piece}'.strip()
-    if cur:
-        out.append(cur)
     # Every cue must wrap into two lines of at most LINE characters;
     # otherwise split it at the word boundary nearest its middle.
     final = []
@@ -113,13 +114,24 @@ def _pieces(sentence):
             final.append(p)
             return
         mid = len(p) // 2
-        cut = min((i for i, c in enumerate(p) if c == ' '), key=lambda i: abs(i - mid))
+        spaces = [i for i, c in enumerate(p) if c == ' ']
+        commas = [i for i in spaces if p[i - 1] in ',;:' and 0.25 < i / len(p) < 0.75]
+        cut = min(commas or spaces, key=lambda i: abs(i - mid))   # prefer a comma near the middle
         add(p[:cut])
         add(p[cut + 1:])
 
     for p in out:
         add(p)
-    return final
+    # A very short tail („ist offen.“) reads better together with the cue before it.
+    merged = []
+    for p in final:
+        if merged and len(p) < 16:
+            both = f'{merged[-1]} {p}'
+            if len(both) <= MAX_CHARS and all(len(line) <= LINE for line in _wrap(both).split('\n')):
+                merged[-1] = both
+                continue
+        merged.append(p)
+    return merged
 
 
 def _wrap(text):
