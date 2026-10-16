@@ -12,6 +12,7 @@ import json
 import math
 import os
 import re
+import shutil
 import subprocess
 import wave
 
@@ -211,6 +212,16 @@ def frames(path):
     return int(out.strip())
 
 
+def chapter_layout():
+    """[(chapter, start in the final video, length)] from the rendered chapter videos."""
+    out, t = [], 0.0
+    for n in sorted(SCENE_FILES):
+        length = frames(video_path(n)) / FPS
+        out.append((n, t, length))
+        t += length
+    return out
+
+
 def build_final():
     """Join all chapters: video streams copied, one continuous narration track
     (loudness-normalised once), and one subtitle file with chapter offsets."""
@@ -242,6 +253,8 @@ def build_final():
                     '-filter:a', 'loudnorm=I=-16:TP=-1.5:LRA=11', '-ar', str(RATE), '-ac', '2',
                     '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', '-shortest', final],
                    check=True)
+    # The synthetic-voice version is also the picture source for tools/stimme_ersetzen.py.
+    shutil.copy2(final, os.path.join(out_dir, 'nagel_fledermaus_piper.mp4'))
     srt = os.path.join(out_dir, 'untertitel.srt')
     write_srt(srt, items)
     print(f'{final}  ({duration(final):.2f} s, Summe der Kapitel {t:.2f} s)')

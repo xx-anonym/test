@@ -1,0 +1,5115 @@
+{
+ "0.1": {
+  "hash": "9fcfc8f0ce51634d470628450a493a6a95fde8b1",
+  "sentences": [
+   {
+    "text": "Es ist Dämmerung.",
+    "tokens": [
+     0.0,
+     0.16,
+     0.4
+    ],
+    "matched": 3
+   },
+   {
+    "text": "Eine Fledermaus verlässt ihr Quartier.",
+    "tokens": [
+     1.193,
+     1.5230000000000001,
+     2.1029999999999998,
+     2.5629999999999997,
+     2.723
+    ],
+    "matched": 5
+   },
+   {
+    "text": "Sie stößt Rufe aus, meist so hoch, dass wir sie nicht hören, und liest aus den Echos, wo die Mücke fliegt und wohin sie ausweicht.",
+    "tokens": [
+     3.546,
+     3.796,
+     4.236,
+     4.496,
+     5.096,
+     5.236,
+     5.496,
+     5.916,
+     6.096,
+     6.196,
+     6.295999999999999,
+     6.556,
+     7.176,
+     7.356,
+     7.596,
+     7.736000000000001,
+     7.936,
+     8.656,
+     8.736,
+     8.836,
+     8.996,
+     9.576,
+     9.956,
+     10.156,
+     10.356
+    ],
+    "matched": 25
+   },
+   {
+    "text": "Kurz vor dem Fang folgen die Rufe bis zu zweihundertmal pro Sekunde aufeinander.",
+    "tokens": [
+     11.22,
+     11.53,
+     11.65,
+     11.87,
+     12.07,
+     12.51,
+     12.69,
+     13.11,
+     13.370000000000001,
+     13.69,
+     14.43,
+     14.67,
+     15.129999999999999
+    ],
+    "matched": 14
+   },
+   {
+    "text": "Wir können jeden Ruf messen und jedes Echo berechnen.",
+    "tokens": [
+     16.108,
+     16.318,
+     16.637999999999998,
+     16.898,
+     17.218,
+     17.718,
+     17.998,
+     18.158,
+     18.398
+    ],
+    "matched": 9
+   },
+   {
+    "text": "Und doch bleibt eine Frage, die keine Messung beantwortet: Wie ist es, diese Fledermaus zu sein?",
+    "tokens": [
+     19.328,
+     19.578,
+     19.898,
+     20.078,
+     20.378,
+     20.938,
+     21.137999999999998,
+     21.357999999999997,
+     21.718,
+     22.718,
+     22.837999999999997,
+     23.058,
+     23.438,
+     23.637999999999998,
+     24.078,
+     24.298
+    ],
+    "matched": 16
+   }
+  ]
+ },
+ "0.2": {
+  "hash": "b7194e75075051ac4a67693435ea0c5814f668ac",
+  "sentences": [
+   {
+    "text": "1974 machte der Philosoph Thomas Nagel diese Frage zum Titel eines Aufsatzes: sechzehn Seiten in der Zeitschrift The Philosophical Review.",
+    "tokens": [
+     0.7400000000000002,
+     1.42,
+     1.98,
+     2.14,
+     2.58,
+     2.94,
+     3.24,
+     3.52,
+     3.86,
+     4.06,
+     4.54,
+     4.74,
+     5.7,
+     6.06,
+     6.4,
+     6.6,
+     6.76,
+     7.341428571428572,
+     7.5,
+     8.22
+    ],
+    "matched": 20
+   },
+   {
+    "text": "Der Text wurde zu einem Bezugspunkt fast jeder späteren Debatte über Bewusstsein.",
+    "tokens": [
+     8.901,
+     9.091,
+     9.431,
+     9.751,
+     9.911,
+     10.091,
+     10.831,
+     11.130999999999998,
+     11.331,
+     11.890999999999998,
+     12.230999999999998,
+     12.530999999999999
+    ],
+    "matched": 12
+   },
+   {
+    "text": "Dieses Video rekonstruiert sein Argument, stellt die stärksten Einwände dar und fragt, was die echte Fledermaus und die heutige Debatte über Tiere und Maschinen daran ändern.",
+    "tokens": [
+     13.556,
+     14.025999999999998,
+     14.405999999999999,
+     15.105999999999998,
+     15.245999999999999,
+     16.105999999999998,
+     16.156,
+     16.366,
+     16.766,
+     17.206,
+     17.506,
+     17.785999999999998,
+     18.386,
+     18.546,
+     18.686,
+     18.985999999999997,
+     19.625999999999998,
+     20.006,
+     20.165999999999997,
+     20.465999999999998,
+     20.845999999999997,
+     21.145999999999997,
+     21.506,
+     21.805999999999997,
+     22.226,
+     22.445999999999998
+    ],
+    "matched": 26
+   }
+  ]
+ },
+ "1.1": {
+  "hash": "f5ce7c63f4386c3793374473ea0a2c1a633f2d30",
+  "sentences": [
+   {
+    "text": "Nagel hätte jedes Tier wählen können.",
+    "tokens": [
+     0.0,
+     0.4,
+     0.68,
+     0.96,
+     1.22,
+     1.62
+    ],
+    "matched": 6
+   },
+   {
+    "text": "Er nimmt die Fledermaus aus zwei Gründen.",
+    "tokens": [
+     2.221,
+     2.4110000000000005,
+     2.591,
+     2.8310000000000004,
+     3.311,
+     3.551,
+     3.8310000000000004
+    ],
+    "matched": 7
+   },
+   {
+    "text": "Erstens zweifelt kaum jemand daran, dass sie etwas erlebt; sie ist ein Säugetier wie Mäuse oder Wale.",
+    "tokens": [
+     4.589,
+     5.139,
+     5.579000000000001,
+     5.859000000000001,
+     6.139000000000001,
+     6.819000000000001,
+     6.869000000000001,
+     7.039000000000001,
+     7.279000000000001,
+     8.019,
+     8.159,
+     8.379000000000001,
+     8.539000000000001,
+     9.039000000000001,
+     9.199000000000002,
+     9.679,
+     9.979000000000001
+    ],
+    "matched": 17
+   },
+   {
+    "text": "Wespen oder Flundern, schreibt Nagel, habe er nicht gewählt, weil Menschen den Glauben an Erleben verlieren, je weiter man im Stammbaum hinabsteigt.",
+    "tokens": [
+     10.693,
+     11.222999999999999,
+     11.463,
+     12.383,
+     12.602999999999998,
+     13.363,
+     13.442999999999998,
+     13.602999999999998,
+     13.822999999999999,
+     14.523,
+     14.582999999999998,
+     14.922999999999998,
+     15.142999999999999,
+     15.523,
+     15.762999999999998,
+     15.863,
+     16.762999999999998,
+     16.823,
+     17.043,
+     17.203,
+     17.403,
+     17.782999999999998
+    ],
+    "matched": 23
+   }
+  ]
+ },
+ "1.2": {
+  "hash": "a23b785f04793879bac3f3a7a4981a51c7e62370",
+  "sentences": [
+   {
+    "text": "Zweitens nehmen die meisten Fledermäuse ihre Welt vor allem über Echoortung wahr.",
+    "tokens": [
+     0.0,
+     0.58,
+     0.8,
+     1.06,
+     1.4,
+     2.2,
+     2.46,
+     2.68,
+     2.9,
+     3.12,
+     3.66,
+     4.0
+    ],
+    "matched": 13
+   },
+   {
+    "text": "Sie stoßen schnelle, fein modulierte, hohe Rufe aus und unterscheiden an den Echos Entfernung, Größe, Form, Bewegung und Oberfläche – Leistungen, die bei uns vor allem das Sehen übernimmt.",
+    "tokens": [
+     4.546,
+     4.796,
+     5.176,
+     5.856000000000001,
+     6.196000000000001,
+     6.553142857142857,
+     6.696000000000001,
+     7.276,
+     7.476000000000001,
+     7.876,
+     8.516,
+     8.716000000000001,
+     8.836,
+     9.296,
+     9.936,
+     10.736,
+     11.196000000000002,
+     11.656,
+     11.836,
+     12.454181818181818,
+     12.516,
+     13.576,
+     13.656,
+     13.816,
+     14.016,
+     14.216000000000001,
+     14.476,
+     14.716000000000001,
+     14.956000000000001
+    ],
+    "matched": 27
+   },
+   {
+    "text": "Aber dieses Sonar, so Nagel, funktioniert anders als jeder unserer Sinne.",
+    "tokens": [
+     15.799,
+     16.108999999999998,
+     16.448999999999998,
+     17.089,
+     17.288999999999998,
+     18.209,
+     18.569,
+     19.029,
+     19.349,
+     19.529,
+     19.848999999999997
+    ],
+    "matched": 11
+   },
+   {
+    "text": "Es gibt keinen Grund anzunehmen, dass es sich anfühlt wie irgendetwas, das wir erleben oder uns vorstellen können.",
+    "tokens": [
+     20.624,
+     20.854,
+     21.133999999999997,
+     21.374,
+     21.694,
+     22.613999999999997,
+     22.674,
+     22.814,
+     23.014,
+     23.573999999999998,
+     23.854,
+     24.714,
+     24.874,
+     25.054,
+     25.473999999999997,
+     25.753999999999998,
+     26.034,
+     26.433999999999997
+    ],
+    "matched": 18
+   }
+  ]
+ },
+ "1.3": {
+  "hash": "0d82dd1be942052d7e5f42e9bc9540f25e0daaec",
+  "sentences": [
+   {
+    "text": "Die Fledermaus ist also nah genug, dass wir ihr Erleben zusprechen, und fremd genug, dass wir es nicht nachvollziehen können.",
+    "tokens": [
+     0.0,
+     0.12,
+     0.74,
+     0.94,
+     1.1,
+     1.28,
+     1.92,
+     2.02,
+     2.18,
+     2.3,
+     2.58,
+     3.14,
+     3.72,
+     4.08,
+     4.62,
+     4.7,
+     4.86,
+     4.98,
+     5.14,
+     5.74
+    ],
+    "matched": 20
+   },
+   {
+    "text": "Woher die Idee kam, hat Nagel fünfzig Jahre später erzählt: In den frühen Siebzigerjahren nisteten Fledermäuse in seinem Landhaus in Pennsylvania.",
+    "tokens": [
+     6.611,
+     6.941,
+     7.101,
+     7.301,
+     7.921,
+     8.001,
+     8.361,
+     8.701,
+     9.141,
+     9.461,
+     10.481,
+     10.561,
+     10.641,
+     11.081,
+     11.741,
+     12.201,
+     13.001000000000001,
+     13.181000000000001,
+     13.381,
+     13.881,
+     14.061
+    ],
+    "matched": 22
+   },
+   {
+    "text": "Manchmal verirrte sich eine ins Haus – für ihn eine beunruhigend nahe Begegnung mit einem fremden Wesen.",
+    "tokens": [
+     15.269,
+     15.719,
+     16.119,
+     16.299,
+     16.499,
+     16.639,
+     16.910999999999998,
+     16.979,
+     17.378999999999998,
+     17.499,
+     17.679,
+     18.319,
+     18.599,
+     19.019,
+     19.139,
+     19.279,
+     19.698999999999998
+    ],
+    "matched": 16
+   },
+   {
+    "text": "Der Fledermaus, vermutet er, ging es genauso.",
+    "tokens": [
+     20.484,
+     20.694000000000003,
+     21.394000000000002,
+     21.974,
+     22.494,
+     22.674,
+     22.814
+    ],
+    "matched": 8
+   }
+  ]
+ },
+ "2.1": {
+  "hash": "35eb5eb953d9e565bb5697fbd0788be68e305494",
+  "sentences": [
+   {
+    "text": "Wogegen schreibt Nagel?",
+    "tokens": [
+     0.0,
+     0.4,
+     0.76
+    ],
+    "matched": 3
+   },
+   {
+    "text": "Um 1970 erlebte die Philosophie des Geistes, wie er sagt, eine Welle reduktionistischer Euphorie: Man wollte zeigen, dass Mentales in Wahrheit dasselbe ist wie etwas, das eine grundlegendere Wissenschaft beschreibt.",
+    "tokens": [
+     1.658,
+     1.7679999999999998,
+     2.428,
+     2.948,
+     3.1079999999999997,
+     3.5679999999999996,
+     3.708,
+     4.148,
+     4.268,
+     4.318,
+     4.808,
+     4.928,
+     5.208,
+     5.867999999999999,
+     6.4479999999999995,
+     6.548,
+     6.808,
+     7.348,
+     7.428,
+     7.801333333333334,
+     7.894666666666667,
+     8.268,
+     8.668,
+     8.788,
+     8.948,
+     9.448,
+     9.548,
+     9.668000000000001,
+     10.208,
+     10.608
+    ],
+    "matched": 29
+   }
+  ]
+ },
+ "2.2": {
+  "hash": "0ab2656e7bccab1428cff0c34955dc6327a1fd90",
+  "sentences": [
+   {
+    "text": "Drei Ansätze prägten die Debatte.",
+    "tokens": [
+     0.0,
+     0.26,
+     0.78,
+     1.28,
+     1.36
+    ],
+    "matched": 5
+   },
+   {
+    "text": "Der Behaviorismus verstand mentale Begriffe als Rede über Verhalten und Verhaltensneigungen.",
+    "tokens": [
+     2.202,
+     2.3320000000000003,
+     3.152,
+     3.672,
+     4.172000000000001,
+     4.652,
+     4.832000000000001,
+     5.072,
+     5.312,
+     5.832000000000001,
+     6.172
+    ],
+    "matched": 11
+   },
+   {
+    "text": "Die Identitätstheorie von Ullin Place und J. J. C. Smart behauptete, Empfindungen seien Gehirnprozesse.",
+    "tokens": [
+     7.669,
+     7.819,
+     8.998999999999999,
+     9.24823076923077,
+     9.663615384615385,
+     10.079,
+     10.689,
+     10.892333333333333,
+     11.095666666666666,
+     11.299,
+     11.579,
+     12.439,
+     12.979,
+     13.318999999999999
+    ],
+    "matched": 13
+   },
+   {
+    "text": "Und der Funktionalismus, angestoßen von Hilary Putnam, bestimmte mentale Zustände über ihre Rolle: was sie auslöst und was sie bewirken, gleichgültig, aus welchem Material das System besteht.",
+    "tokens": [
+     14.604,
+     14.733999999999998,
+     14.854,
+     15.933999999999997,
+     16.514,
+     16.674,
+     16.953999999999997,
+     17.854,
+     18.233999999999998,
+     18.733999999999998,
+     19.334,
+     19.514,
+     19.753999999999998,
+     20.413999999999998,
+     20.514,
+     20.634,
+     21.153999999999996,
+     21.554,
+     21.773999999999997,
+     21.933999999999997,
+     22.653999999999996,
+     23.593999999999998,
+     23.714,
+     24.073999999999998,
+     24.534,
+     24.753999999999998,
+     25.093999999999998
+    ],
+    "matched": 27
+   }
+  ]
+ },
+ "2.3": {
+  "hash": "621481ef15f0245ac7241c0b0f0d9375891ea691",
+  "sentences": [
+   {
+    "text": "Nagels erste Fußnote nennt Vertreter, darunter Smart, David Lewis, Putnam und Daniel Dennett.",
+    "tokens": [
+     0.0,
+     0.44,
+     0.8233333333333334,
+     1.36,
+     1.64,
+     2.52,
+     2.82,
+     3.52,
+     3.7,
+     4.204,
+     4.96,
+     5.046666666666667,
+     5.22
+    ],
+    "matched": 13
+   },
+   {
+    "text": "Jeder Reduktionist, spottet er, habe seine Lieblingsanalogie: Wasser und H₂O, Blitz und elektrische Entladung, Gen und DNA.",
+    "tokens": [
+     6.216,
+     6.386,
+     7.2860000000000005,
+     7.706,
+     8.226,
+     8.386000000000001,
+     8.586,
+     9.798173913043478,
+     10.225999999999999,
+     10.672666666666666,
+     11.566,
+     11.826,
+     11.986,
+     12.506,
+     13.316,
+     13.586,
+     13.918625
+    ],
+    "matched": 17
+   },
+   {
+    "text": "Übergangen werde, was das Leib-Seele-Problem einzigartig macht: das Bewusstsein.",
+    "tokens": [
+     14.853,
+     15.383,
+     16.003,
+     16.102999999999998,
+     16.27036842105263,
+     17.163,
+     17.963,
+     18.503,
+     18.553
+    ],
+    "matched": 10
+   },
+   {
+    "text": "Ohne Bewusstsein wäre das Problem viel weniger interessant.",
+    "tokens": [
+     19.757,
+     20.027,
+     20.707,
+     20.947,
+     21.127000000000002,
+     21.527,
+     21.787,
+     22.127000000000002
+    ],
+    "matched": 9
+   },
+   {
+    "text": "Mit Bewusstsein scheint es hoffnungslos.",
+    "tokens": [
+     23.247,
+     23.377,
+     24.017,
+     24.256999999999998,
+     24.497
+    ],
+    "matched": 5
+   }
+  ]
+ },
+ "3.1": {
+  "hash": "41b3a1f83e1caf11e5d24bfbd39bc7c33fbcadc7",
+  "sentences": [
+   {
+    "text": "Nagels zentrale Bestimmung steht auf Seite 436: Ein Organismus hat genau dann bewusste mentale Zustände, wenn es irgendwie ist, dieser Organismus zu sein – irgendwie für den Organismus selbst.",
+    "tokens": [
+     0.0,
+     0.34,
+     0.82,
+     1.24,
+     1.48,
+     1.68,
+     1.9,
+     3.54,
+     3.7,
+     4.18,
+     4.34,
+     4.58,
+     4.82,
+     5.22,
+     5.62,
+     6.52,
+     6.6,
+     6.74,
+     7.08,
+     7.82,
+     7.94,
+     8.5,
+     8.68,
+     9.112,
+     9.22,
+     9.44,
+     9.66,
+     9.72,
+     10.26
+    ],
+    "matched": 28
+   },
+   {
+    "text": "Dieses Merkmal nennt Nagel den subjektiven Charakter der Erfahrung.",
+    "tokens": [
+     11.201,
+     11.431,
+     11.971,
+     12.190999999999999,
+     12.484333333333334,
+     12.631,
+     13.251,
+     13.711,
+     13.811
+    ],
+    "matched": 9
+   }
+  ]
+ },
+ "3.2": {
+  "hash": "54d986fb49d651a8d97247cc4eba6b247508c840",
+  "sentences": [
+   {
+    "text": "Die Formel lädt zu einem Missverständnis ein.",
+    "tokens": [
+     0.0,
+     0.12,
+     0.6,
+     0.78,
+     0.92,
+     1.08,
+     1.94
+    ],
+    "matched": 7
+   },
+   {
+    "text": "Gemeint ist kein Vergleich, stellt Nagel klar, sondern wie es für das Subjekt selbst ist.",
+    "tokens": [
+     2.634,
+     3.084,
+     3.204,
+     3.404,
+     4.304,
+     4.504,
+     4.804,
+     5.464,
+     5.604,
+     5.9239999999999995,
+     6.0440000000000005,
+     6.164,
+     6.244,
+     6.584,
+     6.843999999999999
+    ],
+    "matched": 15
+   },
+   {
+    "text": "Von einem Stein nehmen wir an, dass es nicht irgendwie ist, ein Stein zu sein; von einer Fledermaus nehmen wir an, dass es so ist.",
+    "tokens": [
+     7.663,
+     7.833,
+     8.013,
+     8.293000000000001,
+     8.513,
+     8.673,
+     9.093,
+     9.293000000000001,
+     9.433,
+     9.633000000000001,
+     10.013,
+     10.713000000000001,
+     10.793000000000001,
+     10.993,
+     11.213000000000001,
+     11.813,
+     11.893,
+     12.053,
+     12.553,
+     12.793,
+     12.993,
+     13.493,
+     13.613,
+     13.753,
+     13.933
+    ],
+    "matched": 25
+   }
+  ]
+ },
+ "3.3": {
+  "hash": "b8477759fad54221c37001df6a7cf913a2bce154",
+  "sentences": [
+   {
+    "text": "Warum ist das ein Problem für die Reduktionisten?",
+    "tokens": [
+     0.0,
+     0.26,
+     0.44,
+     0.58,
+     0.74,
+     1.06,
+     1.36,
+     1.46
+    ],
+    "matched": 8
+   },
+   {
+    "text": "Weil ihre Analysen, so Nagel, logisch damit vereinbar sind, dass genau dieses Merkmal fehlt.",
+    "tokens": [
+     2.683,
+     2.873,
+     3.033,
+     3.633,
+     3.833,
+     4.253,
+     4.993,
+     5.133,
+     5.633,
+     6.133,
+     6.2330000000000005,
+     6.553,
+     6.833,
+     7.373
+    ],
+    "matched": 14
+   },
+   {
+    "text": "Funktionale Zustände könnte man auch Robotern zuschreiben, die sich wie Menschen verhalten, aber nichts erleben.",
+    "tokens": [
+     8.149,
+     8.738999999999999,
+     9.298999999999998,
+     9.558999999999997,
+     9.778999999999998,
+     9.998999999999999,
+     10.498999999999999,
+     11.318999999999999,
+     11.398999999999997,
+     11.558999999999997,
+     11.738999999999999,
+     12.018999999999998,
+     12.898999999999997,
+     12.998999999999999,
+     13.198999999999998
+    ],
+    "matched": 15
+   },
+   {
+    "text": "Nagel bestreitet nicht, dass bewusste Zustände Verhalten verursachen und sich funktional beschreiben lassen.",
+    "tokens": [
+     14.115,
+     14.465,
+     15.045,
+     15.305,
+     15.645,
+     16.1186,
+     16.5922,
+     17.125,
+     17.785,
+     18.185,
+     18.365,
+     18.925,
+     19.345
+    ],
+    "matched": 12
+   },
+   {
+    "text": "Er bestreitet nur, dass das ihre Analyse erschöpft.",
+    "tokens": [
+     20.169,
+     20.279,
+     20.799,
+     21.519,
+     21.679,
+     21.819,
+     22.019,
+     22.539
+    ],
+    "matched": 8
+   },
+   {
+    "text": "Wer den subjektiven Charakter weglässt, stellt das Problem falsch.",
+    "tokens": [
+     23.451,
+     23.561,
+     23.701,
+     24.361,
+     24.820999999999998,
+     25.641,
+     25.741,
+     25.921,
+     26.261
+    ],
+    "matched": 9
+   }
+  ]
+ },
+ "3.4": {
+  "hash": "14f27a26226f3f2bae0810c7cc28a159289ead62",
+  "sentences": [
+   {
+    "text": "Nagel bleibt dabei vorsichtig.",
+    "tokens": [
+     0.0,
+     0.34,
+     0.56,
+     0.84
+    ],
+    "matched": 4
+   },
+   {
+    "text": "Vielleicht, räumt er in einer Fußnote ein, hätte alles, was komplex genug ist, um sich wie ein Mensch zu verhalten, auch Erfahrungen.",
+    "tokens": [
+     1.977,
+     2.427,
+     3.007,
+     3.067,
+     3.1870000000000003,
+     3.4703333333333335,
+     3.867,
+     4.367,
+     4.4670000000000005,
+     5.127000000000001,
+     5.2669999999999995,
+     5.727,
+     6.007,
+     6.667,
+     6.827,
+     7.007,
+     7.147,
+     7.287000000000001,
+     7.526999999999999,
+     7.686999999999999,
+     8.467,
+     8.517000000000001
+    ],
+    "matched": 22
+   },
+   {
+    "text": "Aber das ließe sich nicht durch bloße Analyse des Begriffs der Erfahrung herausfinden.",
+    "tokens": [
+     9.661,
+     9.831,
+     9.991,
+     10.411,
+     10.570999999999998,
+     10.730999999999998,
+     10.950999999999999,
+     11.470999999999998,
+     12.091,
+     12.210999999999999,
+     12.710999999999999,
+     12.770999999999999,
+     13.210999999999999
+    ],
+    "matched": 13
+   },
+   {
+    "text": "Diese Fußnote wird uns bei der künstlichen Intelligenz wieder begegnen.",
+    "tokens": [
+     14.455,
+     14.834166666666667,
+     15.364999999999998,
+     15.625,
+     15.825,
+     16.025,
+     16.105,
+     16.585,
+     17.265,
+     17.405
+    ],
+    "matched": 10
+   }
+  ]
+ },
+ "4.1": {
+  "hash": "d7e41443cade9cfb72f93138c6a894e7bc2cb891",
+  "sentences": [
+   {
+    "text": "Der erste Schritt betrifft die Vorstellungskraft.",
+    "tokens": [
+     0.0,
+     0.12,
+     0.42,
+     0.7,
+     1.18,
+     1.28
+    ],
+    "matched": 6
+   },
+   {
+    "text": "Ihr Material ist unsere eigene Erfahrung, deshalb ist ihre Reichweite begrenzt.",
+    "tokens": [
+     2.719,
+     2.829,
+     3.309,
+     3.649,
+     4.029,
+     4.349,
+     5.209,
+     5.509,
+     5.729,
+     5.909000000000001,
+     6.449
+    ],
+    "matched": 11
+   },
+   {
+    "text": "Man kann sich ausmalen, Flughäute zu haben, in der Dämmerung Insekten zu fangen und den Tag kopfüber auf einem Dachboden zu verbringen.",
+    "tokens": [
+     7.488,
+     7.638000000000001,
+     7.8580000000000005,
+     8.018,
+     8.878,
+     9.378,
+     9.538,
+     10.118,
+     10.178,
+     10.278,
+     10.718,
+     11.218,
+     11.338000000000001,
+     11.738,
+     12.038,
+     12.198,
+     12.438,
+     13.018,
+     13.138000000000002,
+     13.298000000000002,
+     13.858,
+     13.978000000000002
+    ],
+    "matched": 22
+   }
+  ]
+ },
+ "4.2": {
+  "hash": "a75214d0cd030857193a2602a48cd707ba46501d",
+  "sentences": [
+   {
+    "text": "Aber, schreibt Nagel, das sagt mir nur, wie es für mich wäre, mich wie eine Fledermaus zu verhalten.",
+    "tokens": [
+     0.0,
+     0.78,
+     1.04,
+     1.8,
+     1.92,
+     2.14,
+     2.32,
+     2.78,
+     2.88,
+     3.0,
+     3.1,
+     3.24,
+     3.84,
+     3.94,
+     4.08,
+     4.26,
+     4.76,
+     4.9
+    ],
+    "matched": 18
+   },
+   {
+    "text": "Das ist nicht die Frage.",
+    "tokens": [
+     5.867,
+     6.017,
+     6.157,
+     6.317,
+     6.497
+    ],
+    "matched": 5
+   },
+   {
+    "text": "Ich will wissen, wie es für eine Fledermaus ist, eine Fledermaus zu sein.",
+    "tokens": [
+     7.399,
+     7.549,
+     7.7090000000000005,
+     8.029,
+     8.369,
+     8.509,
+     8.689,
+     8.809000000000001,
+     9.389,
+     9.689,
+     10.129,
+     10.669,
+     10.869
+    ],
+    "matched": 13
+   },
+   {
+    "text": "Ob ich meiner Erfahrung etwas hinzufüge, etwas abziehe oder sie abwandle – keine dieser Operationen führt dorthin.",
+    "tokens": [
+     11.559,
+     11.708999999999998,
+     11.868999999999998,
+     12.068999999999999,
+     12.649,
+     13.008999999999999,
+     13.948999999999998,
+     14.088999999999999,
+     14.808999999999997,
+     15.068999999999999,
+     15.229,
+     15.886777777777775,
+     15.968999999999998,
+     16.148999999999997,
+     16.448999999999998,
+     17.249,
+     17.369
+    ],
+    "matched": 16
+   },
+   {
+    "text": "Wir können der Fledermaus allgemeine Typen von Erfahrung zuschreiben: Schmerz, Furcht, Hunger, eine Art räumliche Wahrnehmung nach vorn.",
+    "tokens": [
+     18.351,
+     18.461,
+     18.721,
+     18.921,
+     19.461,
+     20.061,
+     20.381,
+     20.520999999999997,
+     21.180999999999997,
+     21.820999999999998,
+     22.601,
+     23.220999999999997,
+     23.641,
+     23.761,
+     23.961,
+     24.400999999999996,
+     24.860999999999997,
+     25.040999999999997
+    ],
+    "matched": 19
+   },
+   {
+    "text": "Von ihrem besonderen Charakter bleibt uns nur eine schematische Vorstellung.",
+    "tokens": [
+     25.846,
+     25.976,
+     26.216,
+     26.796,
+     27.296,
+     27.656,
+     27.896,
+     28.176,
+     28.355999999999998,
+     28.976
+    ],
+    "matched": 10
+   }
+  ]
+ },
+ "4.3": {
+  "hash": "18b7f0054b5b5308fede76f51549575aa749ec0a",
+  "sentences": [
+   {
+    "text": "Der zweite Schritt sichert, dass es solche Tatsachen trotzdem gibt.",
+    "tokens": [
+     0.0,
+     0.12,
+     0.44,
+     0.78,
+     1.5,
+     1.6,
+     1.76,
+     1.92,
+     2.54,
+     2.76
+    ],
+    "matched": 10
+   },
+   {
+    "text": "Angenommen, intelligente Fledermäuse oder Marsianer versuchten sich vorzustellen, wie es ist, ein Mensch zu sein.",
+    "tokens": [
+     3.789,
+     4.559,
+     5.179,
+     5.9590000000000005,
+     6.217461538461539,
+     6.799,
+     7.399000000000001,
+     7.559,
+     8.479000000000001,
+     8.579,
+     8.779,
+     9.239,
+     9.339,
+     9.579,
+     9.819
+    ],
+    "matched": 15
+   },
+   {
+    "text": "Sie würden scheitern.",
+    "tokens": [
+     10.597,
+     10.767,
+     11.027
+    ],
+    "matched": 3
+   },
+   {
+    "text": "Aber sie lägen falsch, wenn sie schlössen, es sei nicht auf bestimmte Weise, wir zu sein – das wissen wir aus eigener Erfahrung.",
+    "tokens": [
+     12.054,
+     12.244,
+     12.443999999999999,
+     12.684,
+     13.424,
+     13.504,
+     13.623999999999999,
+     14.344,
+     14.504,
+     14.644,
+     14.844,
+     14.963999999999999,
+     15.443999999999999,
+     16.124,
+     16.264,
+     16.464,
+     16.880000000000003,
+     16.984,
+     17.084,
+     17.264,
+     17.484,
+     17.644,
+     18.024
+    ],
+    "matched": 22
+   },
+   {
+    "text": "Nagel nennt diese Haltung einen Realismus über das Subjektive.",
+    "tokens": [
+     18.932,
+     19.302,
+     19.581999999999997,
+     19.741999999999997,
+     20.103666666666665,
+     20.362,
+     21.002,
+     21.322,
+     21.461999999999996
+    ],
+    "matched": 9
+   }
+  ]
+ },
+ "4.4": {
+  "hash": "c646bc5e1abfde345dd6734f541bb82b4b8f1b01",
+  "sentences": [
+   {
+    "text": "Der dritte Schritt: Diese Tatsachen sind an einen Standpunkt gebunden – nicht an ein privates Ich, sondern an einen Typ, den Standpunkt eines Wesens mit einer bestimmten Art von Wahrnehmung.",
+    "tokens": [
+     0.0,
+     0.18666666666666668,
+     0.56,
+     1.04,
+     1.2,
+     1.72,
+     1.92,
+     2.12,
+     2.34,
+     2.82,
+     3.62,
+     3.72,
+     3.86,
+     4.04,
+     4.14,
+     4.46,
+     5.18,
+     5.4,
+     5.64,
+     5.82,
+     6.06,
+     6.3,
+     6.76,
+     7.0,
+     7.52,
+     7.64,
+     7.78,
+     8.3,
+     8.48,
+     8.64
+    ],
+    "matched": 29
+   },
+   {
+    "text": "Je unähnlicher uns ein Wesen ist, desto weniger können wir ihn einnehmen.",
+    "tokens": [
+     9.559,
+     9.729,
+     10.248999999999999,
+     10.428999999999998,
+     10.608999999999998,
+     10.868999999999998,
+     11.389,
+     11.628999999999998,
+     11.868999999999998,
+     12.248999999999999,
+     12.468999999999998,
+     12.672999999999998
+    ],
+    "matched": 12
+   },
+   {
+    "text": "Schon wie ein von Geburt an taubblinder Mensch erlebt, ist mir, so Nagel, nicht zugänglich.",
+    "tokens": [
+     13.665,
+     13.874999999999998,
+     14.014999999999999,
+     14.134999999999998,
+     14.294999999999998,
+     14.674999999999999,
+     14.767307692307691,
+     15.274999999999999,
+     15.474999999999998,
+     16.055,
+     16.195,
+     16.775,
+     16.974999999999998,
+     17.695,
+     17.814999999999998
+    ],
+    "matched": 17
+   }
+  ]
+ },
+ "4.5": {
+  "hash": "6e67f019cb62ab47e92192da2e013f4087965a4b",
+  "sentences": [
+   {
+    "text": "Jetzt kommt der entscheidende Kontrast.",
+    "tokens": [
+     0.0,
+     0.18,
+     0.5,
+     0.68,
+     1.16
+    ],
+    "matched": 5
+   },
+   {
+    "text": "Physikalische Tatsachen sind objektive Tatsachen schlechthin: von vielen Standpunkten aus zu verstehen, auch von Wesen mit ganz anderen Sinnen.",
+    "tokens": [
+     2.206,
+     3.056,
+     3.576,
+     3.7960000000000003,
+     4.376,
+     4.916,
+     5.716,
+     5.816000000000001,
+     6.096,
+     6.9559999999999995,
+     7.156000000000001,
+     7.316000000000001,
+     8.116,
+     8.276,
+     8.496,
+     8.776,
+     8.916,
+     9.056000000000001,
+     9.436
+    ],
+    "matched": 19
+   },
+   {
+    "text": "Nagels Beispiel ist der Blitz.",
+    "tokens": [
+     10.278,
+     10.688,
+     11.108,
+     11.427999999999999,
+     11.588
+    ],
+    "matched": 5
+   },
+   {
+    "text": "Ein marsianischer Wissenschaftler ohne Sehsinn wüsste nie, wie ein Blitz für uns aussieht.",
+    "tokens": [
+     12.357,
+     12.527,
+     13.146999999999998,
+     13.927,
+     14.13790909090909,
+     14.506999999999998,
+     14.846999999999998,
+     15.107,
+     15.506999999999998,
+     15.686999999999998,
+     15.986999999999998,
+     16.147,
+     16.267
+    ],
+    "matched": 14
+   },
+   {
+    "text": "Aber er könnte verstehen, was ein Blitz ist: eine elektrische Entladung.",
+    "tokens": [
+     17.17,
+     17.36,
+     17.5,
+     17.720000000000002,
+     18.54,
+     18.66,
+     18.84,
+     19.16,
+     19.720000000000002,
+     19.86,
+     20.5
+    ],
+    "matched": 11
+   },
+   {
+    "text": "Der Blitz hat einen objektiven Charakter, der sich nicht in seiner sichtbaren Erscheinung erschöpft.",
+    "tokens": [
+     21.532,
+     21.662,
+     22.002,
+     22.142,
+     22.342,
+     22.942,
+     23.842,
+     23.922,
+     24.061999999999998,
+     24.262,
+     24.381999999999998,
+     24.541999999999998,
+     25.022,
+     25.541999999999998
+    ],
+    "matched": 14
+   }
+  ]
+ },
+ "4.6": {
+  "hash": "076b51c9cb355b5386b3f057de957b4d5a3a4186",
+  "sentences": [
+   {
+    "text": "So funktionieren erfolgreiche Reduktionen: Wir lösen uns von den Eindrücken auf unsere Sinne.",
+    "tokens": [
+     0.0,
+     0.16,
+     0.78,
+     1.54,
+     2.48,
+     2.72,
+     3.06,
+     3.26,
+     3.44,
+     3.54,
+     4.04,
+     4.26,
+     4.52
+    ],
+    "matched": 13
+   },
+   {
+    "text": "Als man entdeckte, dass Schall eine Welle in der Luft ist, ließ man den Standpunkt des Hörens zurück – der dabei, wie Nagel bemerkt, selbst unreduziert bleibt.",
+    "tokens": [
+     5.371,
+     5.521000000000001,
+     5.7010000000000005,
+     6.561000000000001,
+     6.6610000000000005,
+     6.921000000000001,
+     7.101000000000001,
+     7.381,
+     7.501000000000001,
+     7.581,
+     7.861000000000001,
+     8.221,
+     8.701,
+     8.841000000000001,
+     8.941,
+     9.461,
+     9.681000000000001,
+     10.141000000000002,
+     10.56957142857143,
+     10.641000000000002,
+     10.741,
+     11.101,
+     11.461,
+     11.761000000000001,
+     12.601,
+     12.801000000000002,
+     13.615
+    ],
+    "matched": 27
+   },
+   {
+    "text": "Für die Außenwelt ist das kein Verlust.",
+    "tokens": [
+     14.439,
+     14.609,
+     14.748999999999999,
+     15.349,
+     15.588999999999999,
+     15.768999999999998,
+     15.969
+    ],
+    "matched": 7
+   },
+   {
+    "text": "Objektivität ist eine Richtung, in die das Verstehen gehen kann.",
+    "tokens": [
+     17.381,
+     17.861,
+     17.981,
+     18.181,
+     18.861,
+     18.961,
+     19.021,
+     19.201,
+     19.541,
+     19.820999999999998
+    ],
+    "matched": 10
+   }
+  ]
+ },
+ "4.7": {
+  "hash": "9a1b6d4ebe85c963a51a33b6c01a00495d069b75",
+  "sentences": [
+   {
+    "text": "Bei der Erfahrung selbst aber, so Nagel, scheint der Schritt von der Erscheinung zur Wirklichkeit keinen Sinn zu ergeben.",
+    "tokens": [
+     0.0,
+     0.14,
+     0.26,
+     0.7879999999999999,
+     1.14,
+     1.8,
+     1.98,
+     2.38,
+     2.76,
+     3.0,
+     3.3,
+     3.56,
+     3.68,
+     4.06,
+     4.18,
+     4.74,
+     4.96,
+     5.26,
+     5.42
+    ],
+    "matched": 19
+   },
+   {
+    "text": "Er fragt: Was bliebe davon übrig, wie es ist, eine Fledermaus zu sein, wenn man den Standpunkt der Fledermaus entfernte?",
+    "tokens": [
+     6.271,
+     6.401,
+     7.081,
+     7.221,
+     7.541,
+     7.821,
+     8.561,
+     8.681000000000001,
+     8.861,
+     9.421,
+     9.561,
+     10.141,
+     10.280999999999999,
+     11.041,
+     11.141,
+     11.301,
+     11.440999999999999,
+     11.961,
+     12.121,
+     12.701
+    ],
+    "matched": 20
+   },
+   {
+    "text": "Der Standpunkt ist hier kein Zugang zur Sache; er ist das Wesen der Innenwelt selbst.",
+    "tokens": [
+     13.684,
+     13.813999999999998,
+     14.373999999999999,
+     14.674,
+     14.854,
+     15.014,
+     15.393999999999998,
+     15.553999999999998,
+     16.253999999999998,
+     16.354,
+     16.494,
+     16.654,
+     16.973999999999997,
+     17.093999999999998,
+     17.623199999999997
+    ],
+    "matched": 15
+   },
+   {
+    "text": "Daraus folgt der Kernsatz des Aufsatzes: Wenn der subjektive Charakter einer Erfahrung nur von einem Standpunkt aus voll verständlich ist, dann bringt uns jeder Schritt zu größerer Objektivität nicht näher an ihr wirkliches Wesen heran.",
+    "tokens": [
+     18.356,
+     18.586000000000002,
+     18.946,
+     19.046,
+     19.426000000000002,
+     19.626,
+     20.426000000000002,
+     20.506,
+     20.666,
+     21.266000000000002,
+     21.766000000000002,
+     21.906000000000002,
+     22.386000000000003,
+     22.806,
+     22.986,
+     23.166,
+     23.666,
+     23.866,
+     24.086000000000002,
+     24.706000000000003,
+     25.126,
+     25.286,
+     25.566000000000003,
+     25.786,
+     26.006,
+     26.306,
+     26.356,
+     26.486,
+     27.526000000000003,
+     27.706000000000003,
+     28.026000000000003,
+     28.106,
+     28.186,
+     28.726,
+     29.006
+    ],
+    "matched": 34
+   },
+   {
+    "text": "Er führt uns weiter davon weg.",
+    "tokens": [
+     29.843,
+     29.993,
+     30.213,
+     30.453,
+     30.753,
+     31.032999999999998
+    ],
+    "matched": 6
+   }
+  ]
+ },
+ "4.8": {
+  "hash": "70f55b0ed63df95beeacdabdaf0184c5ed318cb3",
+  "sentences": [
+   {
+    "text": "Das ist die eigentliche Pointe.",
+    "tokens": [
+     0.0,
+     0.14,
+     0.32,
+     0.46,
+     0.94
+    ],
+    "matched": 5
+   },
+   {
+    "text": "Nagel sagt nicht nur, dass uns Daten fehlen.",
+    "tokens": [
+     1.783,
+     2.113,
+     2.3529999999999998,
+     2.553,
+     3.2729999999999997,
+     3.3529999999999998,
+     3.513,
+     3.753
+    ],
+    "matched": 8
+   },
+   {
+    "text": "Er sagt, dass das Verfahren, mit dem die Wissenschaft sonst erfolgreich reduziert, hier in die falsche Richtung zeigt.",
+    "tokens": [
+     4.767,
+     4.917000000000001,
+     5.497000000000001,
+     5.577000000000001,
+     5.7170000000000005,
+     6.517,
+     6.6370000000000005,
+     6.757000000000001,
+     6.877000000000001,
+     7.257000000000001,
+     7.597,
+     8.057,
+     9.157,
+     9.257000000000001,
+     9.417000000000002,
+     9.517,
+     9.897,
+     10.097000000000001
+    ],
+    "matched": 18
+   },
+   {
+    "text": "Das Problem, schreibt er, ist einzigartig.",
+    "tokens": [
+     11.07,
+     11.2,
+     11.82,
+     12.26,
+     12.799999999999999,
+     12.966714285714286
+    ],
+    "matched": 7
+   }
+  ]
+ },
+ "5.1": {
+  "hash": "5fd8cd0272a5b34c97aab9d0f1389a88fdf5e62b",
+  "sentences": [
+   {
+    "text": "An dieser Stelle wird Nagel oft missverstanden.",
+    "tokens": [
+     0.0,
+     0.14,
+     0.38,
+     0.76,
+     1.04,
+     1.4,
+     1.64
+    ],
+    "matched": 7
+   },
+   {
+    "text": "Er schließt nicht, dass der Physikalismus falsch ist; das zu folgern wäre, schreibt er, ein Fehler.",
+    "tokens": [
+     2.95,
+     3.0800000000000005,
+     3.5000000000000004,
+     4.0200000000000005,
+     4.1000000000000005,
+     4.260000000000001,
+     4.98,
+     5.300000000000001,
+     5.84,
+     5.9,
+     6.08,
+     6.48,
+     7.140000000000001,
+     7.48,
+     7.680000000000001,
+     8.04
+    ],
+    "matched": 16
+   },
+   {
+    "text": "Treffender sei: Der Physikalismus ist eine Position, die wir nicht verstehen können, weil wir derzeit keine Vorstellung davon haben, wie sie wahr sein könnte.",
+    "tokens": [
+     8.907,
+     9.357,
+     9.796999999999999,
+     9.896999999999998,
+     10.597,
+     10.777,
+     10.956999999999999,
+     11.956999999999999,
+     12.077,
+     12.197,
+     12.337,
+     12.636999999999999,
+     13.357,
+     13.477,
+     13.616999999999999,
+     13.916999999999998,
+     14.157,
+     14.657,
+     14.916999999999998,
+     15.517,
+     15.597,
+     15.716999999999999,
+     15.857,
+     16.057
+    ],
+    "matched": 25
+   }
+  ]
+ },
+ "5.2": {
+  "hash": "5a9a90e0e9ba2ded06d371ae26bef6c4fb20e232",
+  "sentences": [
+   {
+    "text": "Das Problem steckt im kleinen Wort „ist“.",
+    "tokens": [
+     0.0,
+     0.12,
+     0.48,
+     0.82,
+     0.98,
+     1.2,
+     1.5
+    ],
+    "matched": 7
+   },
+   {
+    "text": "Eine Identität verstehen wir erst, wenn wir sehen, wie zwei Bezeichnungen auf dasselbe zulaufen können.",
+    "tokens": [
+     2.284,
+     2.454,
+     3.054,
+     3.4139999999999997,
+     3.674,
+     4.314,
+     4.414,
+     4.554,
+     5.054,
+     5.134,
+     5.3740000000000006,
+     6.154,
+     6.314,
+     6.754,
+     7.214
+    ],
+    "matched": 15
+   },
+   {
+    "text": "Der Physikalismus, schreibt Nagel, habe heute den Status, den der Satz „Materie ist Energie“ im Mund eines vorsokratischen Philosophen gehabt hätte: Wir haben nicht einmal den Anfang einer Vorstellung, wie er wahr sein könnte.",
+    "tokens": [
+     8.097,
+     8.206999999999999,
+     9.187,
+     9.506999999999998,
+     9.906999999999998,
+     10.027,
+     10.247,
+     10.486999999999998,
+     11.126999999999999,
+     11.206999999999999,
+     11.326999999999998,
+     11.486999999999998,
+     11.846999999999998,
+     12.006999999999998,
+     12.286999999999999,
+     12.546999999999999,
+     12.686999999999998,
+     12.866999999999999,
+     13.646999999999998,
+     14.146999999999998,
+     14.306999999999999,
+     14.686999999999998,
+     14.767,
+     14.966999999999999,
+     15.146999999999998,
+     15.366999999999999,
+     15.506999999999998,
+     15.786999999999999,
+     16.006999999999998,
+     16.826999999999998,
+     16.927,
+     17.027,
+     17.147,
+     17.347
+    ],
+    "matched": 35
+   }
+  ]
+ },
+ "5.3": {
+  "hash": "4b1ed3cb9821928290cb0d3077ad702e50fbe1fe",
+  "sentences": [
+   {
+    "text": "Trotzdem kann man Gründe haben, so etwas zu glauben.",
+    "tokens": [
+     0.0,
+     0.44,
+     0.62,
+     0.78,
+     1.14,
+     1.68,
+     1.78,
+     2.02,
+     2.26
+    ],
+    "matched": 9
+   },
+   {
+    "text": "Wer nichts von Metamorphose weiß, eine Raupe in einen sterilen Safe sperrt und Wochen später einen Schmetterling findet, hat guten Grund anzunehmen, dass der Schmetterling die Raupe ist oder war – ohne zu verstehen, in welchem Sinn.",
+    "tokens": [
+     3.143,
+     3.273,
+     3.473,
+     3.673,
+     4.558,
+     4.853,
+     4.973,
+     5.353,
+     5.513,
+     5.693,
+     6.155222222222222,
+     6.386333333333334,
+     6.7330000000000005,
+     6.853,
+     7.093,
+     7.453,
+     7.813,
+     8.333,
+     8.953,
+     9.033000000000001,
+     9.273,
+     9.513,
+     10.173,
+     10.273,
+     10.413,
+     10.893,
+     11.033000000000001,
+     11.293,
+     11.473,
+     11.673,
+     11.943,
+     12.033,
+     12.193,
+     12.353,
+     12.953,
+     13.053,
+     13.393
+    ],
+    "matched": 38
+   },
+   {
+    "text": "In einer solchen Lage, vermutet Nagel, könnten wir beim Physikalismus sein.",
+    "tokens": [
+     14.127,
+     14.237,
+     14.457,
+     14.717,
+     15.437,
+     15.757,
+     16.417,
+     16.617,
+     16.817,
+     16.937,
+     17.677
+    ],
+    "matched": 11
+   }
+  ]
+ },
+ "5.4": {
+  "hash": "18e7cac7b78786c31f81c24d68e60114c2db3d49",
+  "sentences": [
+   {
+    "text": "Auch die These, wir könnten grundsätzlich nicht wissen, wie es ist, eine Fledermaus zu sein, vertritt Nagel ausdrücklich nicht.",
+    "tokens": [
+     0.0,
+     0.2,
+     0.4,
+     1.1,
+     1.22,
+     1.46,
+     2.12,
+     2.32,
+     2.9,
+     3.06,
+     3.22,
+     3.82,
+     3.92,
+     4.44,
+     4.64,
+     5.18,
+     5.46,
+     5.84,
+     6.38
+    ],
+    "matched": 19
+   },
+   {
+    "text": "In einer Fußnote erwähnt er blinde Menschen, die Gegenstände mit Klicklauten oder einem Stock orten; von dort ließe sich vielleicht grob extrapolieren.",
+    "tokens": [
+     7.134,
+     7.244000000000001,
+     7.577333333333334,
+     8.044,
+     8.484,
+     8.584,
+     8.944,
+     9.564,
+     9.644,
+     10.264000000000001,
+     10.384,
+     11.064,
+     11.364,
+     11.777333333333333,
+     12.190666666666667,
+     12.604,
+     12.764,
+     12.944,
+     13.244,
+     13.444,
+     13.704,
+     14.124
+    ],
+    "matched": 21
+   },
+   {
+    "text": "Sein Punkt sei ein anderer: Schon um sich einen Begriff davon zu bilden, muss man den Standpunkt der Fledermaus einnehmen – und wer das nur teilweise kann, hat auch nur einen teilweisen Begriff.",
+    "tokens": [
+     15.317,
+     15.507,
+     15.727,
+     15.966999999999999,
+     16.147,
+     16.767,
+     16.947,
+     17.127,
+     17.307,
+     17.487,
+     17.747,
+     17.967,
+     18.186999999999998,
+     18.787,
+     18.947,
+     19.147,
+     19.267,
+     19.767,
+     19.927,
+     20.366999999999997,
+     20.744999999999997,
+     20.794999999999998,
+     21.167,
+     21.287,
+     21.436999999999998,
+     21.587,
+     21.847,
+     22.487,
+     22.647,
+     22.787,
+     22.947,
+     23.107,
+     23.347
+    ],
+    "matched": 32
+   }
+  ]
+ },
+ "5.5": {
+  "hash": "5f44821b087f17715993a062fd4268bd2c1b0991",
+  "sentences": [
+   {
+    "text": "Am Ende schlägt Nagel eine objektive Phänomenologie vor.",
+    "tokens": [
+     0.0,
+     0.12,
+     0.46,
+     0.86,
+     1.2,
+     1.42,
+     2.12,
+     2.86
+    ],
+    "matched": 8
+   },
+   {
+    "text": "Sie soll Erfahrungen so beschreiben, dass auch Wesen sie wenigstens teilweise verstehen, die sie nicht haben können – etwa einem von Geburt an blinden Menschen erklären, wie Sehen ist.",
+    "tokens": [
+     3.653,
+     3.8230000000000004,
+     4.003,
+     4.683,
+     4.823,
+     5.523,
+     5.603,
+     5.823,
+     6.123,
+     6.263,
+     6.743,
+     6.9830000000000005,
+     7.8629999999999995,
+     7.963000000000001,
+     8.063,
+     8.263,
+     8.543000000000001,
+     9.091571428571429,
+     9.183,
+     9.343,
+     9.563,
+     9.743,
+     10.103,
+     10.223,
+     10.603,
+     10.843,
+     11.663,
+     11.883,
+     12.023
+    ],
+    "matched": 29
+   },
+   {
+    "text": "Lose Vergleiche wie „Rot ist wie der Klang einer Trompete“ helfen dabei nicht, strukturelle Beschreibungen vielleicht schon.",
+    "tokens": [
+     12.798,
+     13.107999999999999,
+     13.788,
+     13.908,
+     14.187999999999999,
+     14.488,
+     14.628,
+     14.748,
+     15.027999999999999,
+     15.187999999999999,
+     15.767999999999999,
+     16.008,
+     16.368,
+     16.908,
+     17.528,
+     18.128,
+     18.408
+    ],
+    "matched": 17
+   },
+   {
+    "text": "Und in der letzten Fußnote vermutet Nagel, die Beziehung zwischen Geist und Körper werde einmal in einer Theorie ausgedrückt, deren Grundbegriffe weder klar mental noch klar physisch sind.",
+    "tokens": [
+     19.308,
+     19.518,
+     19.738,
+     19.858,
+     20.317999999999998,
+     20.778,
+     21.258,
+     21.958,
+     22.038,
+     22.538,
+     22.738,
+     23.278,
+     23.458,
+     23.778,
+     23.997999999999998,
+     24.458,
+     24.618,
+     24.817999999999998,
+     25.198,
+     26.158,
+     26.298,
+     27.078,
+     27.338,
+     27.518,
+     27.738,
+     28.037999999999997,
+     28.298,
+     28.778
+    ],
+    "matched": 28
+   }
+  ]
+ },
+ "6.1": {
+  "hash": "4a7cfb98b28630216c5d67cd9b8f8042f7bd57eb",
+  "sentences": [
+   {
+    "text": "Die Frage selbst war 1974 nicht neu.",
+    "tokens": [
+     0.0,
+     0.12,
+     0.52,
+     0.92,
+     1.28,
+     2.56,
+     2.94
+    ],
+    "matched": 7
+   },
+   {
+    "text": "Schon 1950 schrieb B. A. Farrell in der Zeitschrift Mind über einen Marsianer mit einem „Pseudo-Radiosinn“ und über den Satz: „Ich frage mich, wie es wäre, eine Fledermaus zu sein und zu hören wie sie.“ Farrell zog aber den entgegengesetzten Schluss: Physiologie und Psychologie könnten das Erleben loswerden – indem sie einsehen, dass es töricht sei anzunehmen, es gebe solche Dinge, oder es gebe sie nicht.",
+    "tokens": [
+     3.803,
+     4.013,
+     4.833,
+     5.4303333333333335,
+     5.515666666666666,
+     5.601,
+     6.1129999999999995,
+     6.2330000000000005,
+     6.313000000000001,
+     6.793,
+     7.133,
+     7.313000000000001,
+     7.473000000000001,
+     7.993,
+     8.173,
+     8.393,
+     9.312999999999999,
+     9.453,
+     9.653,
+     9.773,
+     10.253,
+     10.333,
+     10.633,
+     11.013,
+     11.093,
+     11.213000000000001,
+     11.773,
+     11.973,
+     12.473,
+     12.573,
+     12.753,
+     12.913,
+     13.053,
+     13.253,
+     13.473,
+     13.666333333333334,
+     14.053,
+     14.433,
+     14.653,
+     14.793,
+     15.628833333333333,
+     15.973,
+     16.633000000000003,
+     16.813000000000002,
+     17.433,
+     17.653,
+     17.872999999999998,
+     18.573,
+     19.005000000000003,
+     19.055000000000003,
+     19.213,
+     19.433,
+     20.093,
+     20.193,
+     20.353,
+     20.693,
+     20.853,
+     21.533,
+     21.583000000000002,
+     21.733,
+     22.033,
+     22.373,
+     22.773,
+     22.933,
+     23.153,
+     23.313
+    ],
+    "matched": 70
+   }
+  ]
+ },
+ "6.2": {
+  "hash": "e370c59416328353252c5adec35e2d0a10b24883",
+  "sentences": [
+   {
+    "text": "1971 bestimmte Timothy Sprigge Bewusstsein als das, was man zu kennzeichnen versucht, wenn man fragt, wie es ist oder wäre, ein bestimmtes Objekt in einer bestimmten Lage zu sein.",
+    "tokens": [
+     0.8400000000000045,
+     1.2800000000000022,
+     1.72,
+     1.956923076923077,
+     2.16,
+     2.88,
+     3.02,
+     3.46,
+     3.56,
+     3.76,
+     3.98,
+     4.5,
+     5.3,
+     5.38,
+     5.52,
+     6.04,
+     6.12,
+     6.26,
+     6.38,
+     6.58,
+     7.12,
+     7.2,
+     7.66,
+     8.02,
+     8.2,
+     8.34,
+     8.74,
+     8.96,
+     9.18
+    ],
+    "matched": 28
+   },
+   {
+    "text": "In der Neuausgabe zum fünfzigsten Jahrestag erkennt Nagel beide an und gesteht: Als er den Aufsatz schrieb, hatte er Sprigge nicht gelesen und Farrell vergessen.",
+    "tokens": [
+     9.953,
+     10.062999999999999,
+     10.203,
+     10.902999999999999,
+     11.043,
+     11.623,
+     12.162999999999998,
+     12.463,
+     12.863,
+     13.102999999999998,
+     13.383,
+     13.502999999999998,
+     14.343,
+     14.462999999999997,
+     14.622999999999998,
+     14.742999999999999,
+     15.203,
+     15.762999999999998,
+     15.902999999999999,
+     16.063,
+     16.363,
+     16.523,
+     17.043,
+     17.256333333333334,
+     17.683
+    ],
+    "matched": 25
+   }
+  ]
+ },
+ "6.3": {
+  "hash": "7a57dd78eea0fe7658af6784e56931b16c559a95",
+  "sentences": [
+   {
+    "text": "Eine ältere Wurzel liegt in der Biologie.",
+    "tokens": [
+     0.0,
+     0.2,
+     0.64,
+     1.04,
+     1.22,
+     1.38,
+     1.46
+    ],
+    "matched": 7
+   },
+   {
+    "text": "1909 schrieb Jakob von Uexküll, jede Lebensform besitze eine ihr eigene Umwelt; der Standpunkt des Tieres müsse in der Forschung allein ausschlaggebend werden.",
+    "tokens": [
+     2.471,
+     3.4010000000000002,
+     3.7810000000000006,
+     4.2410000000000005,
+     4.507666666666667,
+     5.041,
+     5.181,
+     5.851588235294118,
+     6.321,
+     6.469571428571428,
+     6.581,
+     6.961,
+     7.721,
+     7.881,
+     8.381,
+     8.581,
+     9.041,
+     9.341000000000001,
+     9.440999999999999,
+     9.541,
+     10.081,
+     10.261,
+     11.141000000000002
+    ],
+    "matched": 21
+   },
+   {
+    "text": "Die Reize dieser Umwelt umschließen das Tier wie die Mauern eines selbstgebauten Hauses.",
+    "tokens": [
+     11.884,
+     12.014,
+     12.394,
+     12.654,
+     12.994,
+     13.674,
+     13.854,
+     14.193999999999999,
+     14.373999999999999,
+     14.474,
+     14.934,
+     15.514,
+     16.134
+    ],
+    "matched": 14
+   },
+   {
+    "text": "Bemerkenswert ist, wo Uexküll aufhört: Die Innenwelt der Tiere mit seelischen Qualitäten auszumalen, hielt er für keine Sache ernsthafter Forscher.",
+    "tokens": [
+     17.061,
+     17.711,
+     18.311,
+     18.445999999999998,
+     18.851,
+     19.631,
+     19.730999999999998,
+     20.111,
+     20.291,
+     20.531,
+     20.750999999999998,
+     21.110999999999997,
+     21.671,
+     22.671,
+     22.891,
+     22.991,
+     23.091,
+     23.311,
+     23.531,
+     24.091
+    ],
+    "matched": 20
+   },
+   {
+    "text": "Er beschreibt das linke Feld unseres Bildes und lässt das rechte bewusst leer.",
+    "tokens": [
+     25.082,
+     25.212,
+     25.692,
+     25.832,
+     26.176444444444442,
+     26.451999999999998,
+     26.872,
+     27.432,
+     27.672,
+     27.912,
+     28.112000000000002,
+     28.392,
+     28.652
+    ],
+    "matched": 12
+   }
+  ]
+ },
+ "7.1": {
+  "hash": "9a183fb1a4e368c62a6f487cb8c7e4572ab45cee",
+  "sentences": [
+   {
+    "text": "Nach 1974 wurde „wie es ist“ zur Standardformel.",
+    "tokens": [
+     0.0,
+     0.22,
+     1.44,
+     2.04,
+     2.24,
+     2.38,
+     2.52,
+     2.66
+    ],
+    "matched": 8
+   },
+   {
+    "text": "1982 legte Frank Jackson ein verwandtes, aber eigenständiges Argument vor.",
+    "tokens": [
+     4.561,
+     5.1610000000000005,
+     5.821,
+     6.007666666666666,
+     6.381,
+     6.621,
+     7.501,
+     7.641,
+     8.421,
+     8.821000000000002
+    ],
+    "matched": 11
+   },
+   {
+    "text": "Mary ist eine brillante Wissenschaftlerin, die die Welt nur aus einem schwarz-weißen Raum über einen schwarz-weißen Bildschirm kennt.",
+    "tokens": [
+     9.616,
+     9.886,
+     10.165999999999999,
+     10.366,
+     10.786,
+     11.866,
+     11.945999999999998,
+     12.065999999999999,
+     12.286,
+     12.526,
+     12.765999999999998,
+     12.945999999999998,
+     13.625999999999998,
+     13.866,
+     14.206,
+     14.386,
+     15.105999999999998,
+     15.526
+    ],
+    "matched": 20
+   },
+   {
+    "text": "Sie weiß alles Physikalische über das Farbensehen.",
+    "tokens": [
+     16.245,
+     16.375,
+     16.635,
+     16.915,
+     17.735,
+     17.915,
+     18.115000000000002
+    ],
+    "matched": 7
+   },
+   {
+    "text": "Lernt sie etwas Neues, wenn sie hinausgeht und zum ersten Mal Farben sieht?",
+    "tokens": [
+     19.158,
+     19.508,
+     19.648,
+     19.908,
+     20.748,
+     20.828,
+     20.948,
+     21.608,
+     21.868000000000002,
+     22.048000000000002,
+     22.288,
+     22.548000000000002,
+     22.888
+    ],
+    "matched": 13
+   },
+   {
+    "text": "Wenn ja, so Jackson, war ihr physikalisches Wissen unvollständig – und der Physikalismus falsch.",
+    "tokens": [
+     23.59,
+     23.74,
+     24.24,
+     24.32,
+     24.72,
+     25.279999999999998,
+     25.419999999999998,
+     26.2,
+     26.54,
+     27.412857142857142,
+     27.48,
+     27.68,
+     27.759999999999998,
+     28.54
+    ],
+    "matched": 13
+   }
+  ]
+ },
+ "7.2": {
+  "hash": "0d859f423bb708f20203a40ab0aa0b2362a4d750",
+  "sentences": [
+   {
+    "text": "Jackson grenzt sich dabei von Nagel ab, dem er viel verdanke: Nagels Problem betreffe die Grenzen unserer Vorstellungskraft, und darüber sage der Physikalismus nichts.",
+    "tokens": [
+     0.0,
+     0.38,
+     0.76,
+     0.96,
+     1.18,
+     1.4,
+     1.68,
+     2.2,
+     2.28,
+     2.46,
+     2.66,
+     3.38,
+     3.82,
+     4.1,
+     4.7,
+     4.82,
+     5.2,
+     5.44,
+     6.48,
+     6.92,
+     7.22,
+     7.58,
+     7.82,
+     8.54
+    ],
+    "matched": 24
+   },
+   {
+    "text": "Sein eigenes Argument behaupte mehr: Eine Eigenschaft der Erfahrung fehlt in aller physikalischen Information.",
+    "tokens": [
+     9.377,
+     9.667,
+     10.067,
+     10.427,
+     10.907,
+     11.467,
+     11.607,
+     12.087,
+     12.267,
+     12.687,
+     13.067,
+     13.247,
+     13.447,
+     14.167
+    ],
+    "matched": 14
+   }
+  ]
+ },
+ "7.3": {
+  "hash": "65d1bc8f50723ca2e97715fe4c0f6b86f4b9b1d4",
+  "sentences": [
+   {
+    "text": "1983 prägte Joseph Levine den Begriff der Erklärungslücke.",
+    "tokens": [
+     0.7199999999999989,
+     1.3999999999999995,
+     2.08,
+     2.67,
+     3.26,
+     3.4,
+     3.74,
+     3.96
+    ],
+    "matched": 8
+   },
+   {
+    "text": "Dass Wärme Molekülbewegung ist, erklärt alles, was wir an Wärme erklären wollen.",
+    "tokens": [
+     5.244,
+     5.310666666666666,
+     5.394,
+     6.714,
+     6.934,
+     7.494,
+     8.054,
+     8.174,
+     8.434000000000001,
+     8.654,
+     8.994,
+     9.234
+    ],
+    "matched": 11
+   },
+   {
+    "text": "Dass Schmerz das Feuern bestimmter Nervenfasern sein soll, erklärt, was Schmerz bewirkt, aber nicht, warum er sich so anfühlt.",
+    "tokens": [
+     10.239,
+     10.389,
+     10.889,
+     10.939,
+     11.349,
+     11.789,
+     12.549,
+     12.709,
+     13.249,
+     13.989,
+     14.089,
+     14.489,
+     15.129000000000001,
+     15.269,
+     15.809000000000001,
+     15.989,
+     16.189,
+     16.329,
+     16.489
+    ],
+    "matched": 19
+   },
+   {
+    "text": "Levine folgert daraus nicht, dass der Materialismus falsch ist, sondern dass uns ein Verstehen fehlt; Nagels Aufsatz nennt er als Einfluss.",
+    "tokens": [
+     17.366,
+     17.836,
+     18.296,
+     18.555999999999997,
+     19.096,
+     19.195999999999998,
+     19.355999999999998,
+     19.956,
+     20.296,
+     20.976,
+     21.195999999999998,
+     21.375999999999998,
+     21.555999999999997,
+     21.735999999999997,
+     22.176,
+     22.756,
+     23.096,
+     23.496,
+     23.836,
+     23.936,
+     24.116
+    ],
+    "matched": 21
+   }
+  ]
+ },
+ "7.4": {
+  "hash": "f33335437bfd022ac5eff9515c916a2d0775c53d",
+  "sentences": [
+   {
+    "text": "1995 unterschied David Chalmers die „leichten“ Probleme des Bewusstseins – Reize unterscheiden, Information integrieren, über eigene Zustände berichten – vom „harten“ Problem: dem Problem der Erfahrung.",
+    "tokens": [
+     0.0,
+     0.86,
+     1.646923076923077,
+     2.0046153846153847,
+     2.72,
+     2.86,
+     3.2,
+     3.66,
+     3.92,
+     4.898461538461539,
+     4.98,
+     5.28,
+     6.24,
+     6.6,
+     7.78,
+     7.92,
+     8.26,
+     8.88,
+     9.617999999999999,
+     9.7,
+     9.78,
+     10.12,
+     10.96,
+     11.06,
+     11.48,
+     11.66
+    ],
+    "matched": 24
+   },
+   {
+    "text": "Er beruft sich dabei direkt auf Nagels Formel.",
+    "tokens": [
+     12.686,
+     12.796,
+     13.155999999999999,
+     13.356,
+     13.536,
+     13.796,
+     14.075999999999999,
+     14.495999999999999
+    ],
+    "matched": 8
+   },
+   {
+    "text": "Im selben Jahr trennte Ned Block das phänomenale Bewusstsein, also wie es ist, in einem Zustand zu sein, vom Zugangsbewusstsein: der Verfügbarkeit von Information für Denken, Sprechen und Handeln.",
+    "tokens": [
+     15.384,
+     15.574,
+     15.914,
+     16.034,
+     16.285999999999998,
+     16.394,
+     16.733999999999998,
+     16.974,
+     17.514,
+     18.434,
+     18.614,
+     18.774,
+     18.934,
+     19.414,
+     19.494,
+     19.614,
+     20.094,
+     20.234,
+     20.64542857142857,
+     20.954,
+     22.294,
+     22.414,
+     23.1615,
+     23.334,
+     23.674,
+     24.054000000000002,
+     24.753999999999998,
+     25.054000000000002,
+     25.253999999999998
+    ],
+    "matched": 28
+   }
+  ]
+ },
+ "8.1": {
+  "hash": "a1aa44845bcabc57df16a4b8398ad36378f43ef4",
+  "sentences": [
+   {
+    "text": "Ein Argument dieser Reichweite hat entschiedene Gegner.",
+    "tokens": [
+     0.0,
+     0.18,
+     0.6,
+     0.84,
+     1.56,
+     1.7,
+     2.24
+    ],
+    "matched": 8
+   },
+   {
+    "text": "Hier sind die wichtigsten, jeweils so stark, wie ihre Vertreter sie machen, und mit dem Schritt, den sie angreifen.",
+    "tokens": [
+     3.084,
+     3.314,
+     3.5340000000000003,
+     3.6740000000000004,
+     4.614000000000001,
+     4.934,
+     5.034000000000001,
+     5.674,
+     5.7540000000000004,
+     5.934,
+     6.394,
+     6.514,
+     6.774000000000001,
+     7.2940000000000005,
+     7.494,
+     7.593999999999999,
+     8.054,
+     8.294,
+     8.434000000000001
+    ],
+    "matched": 19
+   }
+  ]
+ },
+ "8.2": {
+  "hash": "b911f29dc28d3f655b7f04c49cf3dfd063b7c2b7",
+  "sentences": [
+   {
+    "text": "Daniel Dennett, in Nagels erster Fußnote unter den Reduktionisten genannt, widerspricht frontal.",
+    "tokens": [
+     0.0,
+     0.32,
+     1.12,
+     1.3,
+     1.64,
+     2.1107692307692307,
+     2.66,
+     2.9,
+     3.1,
+     3.78,
+     4.62,
+     5.14
+    ],
+    "matched": 12
+   },
+   {
+    "text": "Nagel behaupte, kein Wissen aus der dritten Person könne uns sagen, wie es ist, eine Fledermaus zu sein, schreibt Dennett 1991, und diese Behauptung bestreite er rundweg.",
+    "tokens": [
+     6.106,
+     6.396,
+     7.336,
+     7.496,
+     7.756,
+     7.916,
+     8.036,
+     8.315999999999999,
+     8.676,
+     9.076,
+     9.196,
+     9.776,
+     9.896,
+     10.076,
+     10.496,
+     10.596,
+     11.155999999999999,
+     11.336,
+     11.916,
+     12.161333333333333,
+     12.376000000000001,
+     12.916,
+     14.096,
+     14.356000000000002,
+     14.876000000000001,
+     15.276,
+     15.396
+    ],
+    "matched": 28
+   },
+   {
+    "text": "Wir könnten eine Menge darüber wissen, wie es ist, eine Fledermaus zu sein; die Struktur ihres Geistes sei ebenso zugänglich wie die Struktur ihres Verdauungssystems.",
+    "tokens": [
+     16.333,
+     16.442999999999998,
+     16.762999999999998,
+     17.022999999999996,
+     17.223,
+     17.462999999999997,
+     18.223,
+     18.493,
+     18.673,
+     18.942999999999998,
+     19.063,
+     19.583,
+     19.762999999999998,
+     20.342999999999996,
+     20.423,
+     20.842999999999996,
+     21.183,
+     21.583,
+     21.822999999999997,
+     22.223,
+     22.782999999999998,
+     22.882999999999996,
+     22.962999999999997,
+     23.363,
+     23.743
+    ],
+    "matched": 25
+   },
+   {
+    "text": "Angegriffen wird der Schritt, uns bleibe nur eine schematische Vorstellung.",
+    "tokens": [
+     25.074,
+     25.664,
+     25.784000000000002,
+     25.904,
+     26.534000000000002,
+     26.804000000000002,
+     26.944000000000003,
+     27.184,
+     27.364,
+     27.904
+    ],
+    "matched": 11
+   }
+  ]
+ },
+ "8.3": {
+  "hash": "0dec4cc9b88314c4c38bc6175c978767821ea99b",
+  "sentences": [
+   {
+    "text": "Kathleen Akins prüfte das 1993 an der Schnurrbartfledermaus, mit überraschendem Ergebnis.",
+    "tokens": [
+     0.0,
+     0.5371428571428571,
+     0.94,
+     1.44,
+     1.6,
+     2.44,
+     3.24,
+     3.3875,
+     4.42,
+     4.92,
+     5.62
+    ],
+    "matched": 12
+   },
+   {
+    "text": "Die Neurophysiologie lege nahe, dass die Fledermaus ihr Sonar vermutlich nicht nutzt, um Gegenstände darzustellen.",
+    "tokens": [
+     6.64,
+     6.77,
+     7.85,
+     8.39,
+     8.75,
+     8.87,
+     9.01,
+     9.57,
+     9.71,
+     9.99,
+     10.59,
+     10.809999999999999,
+     11.530000000000001,
+     11.649999999999999,
+     12.29
+    ],
+    "matched": 15
+   },
+   {
+    "text": "Ihr Erleben sei dann wahrscheinlich weder bildhaft noch eines von einer Welt aus Dingen und Eigenschaften – und es sei plausibel, dass die Fledermaus überhaupt keinen Standpunkt hat.",
+    "tokens": [
+     13.469,
+     13.598999999999998,
+     14.078999999999999,
+     14.178999999999998,
+     14.338999999999999,
+     14.838999999999999,
+     15.178999999999998,
+     15.578999999999999,
+     15.799,
+     15.998999999999999,
+     16.218999999999998,
+     16.398999999999997,
+     16.599,
+     16.779,
+     17.079,
+     17.499,
+     18.204714285714285,
+     18.259,
+     18.499,
+     18.659,
+     18.799,
+     19.639,
+     19.738999999999997,
+     19.878999999999998,
+     20.378999999999998,
+     20.779,
+     21.098999999999997,
+     21.579
+    ],
+    "matched": 27
+   },
+   {
+    "text": "Damit zielt Akins auf Nagels Voraussetzung, es sei irgendwie, eine Fledermaus zu sein.",
+    "tokens": [
+     22.253,
+     22.463,
+     22.863,
+     23.363,
+     23.543,
+     23.923,
+     25.023,
+     25.183,
+     25.323,
+     25.762999999999998,
+     26.143,
+     26.703,
+     26.903
+    ],
+    "matched": 13
+   },
+   {
+    "text": "Sean Allen-Hermanson hielt 2015 dagegen: Eine vollständigere Sicht der Befunde zeige Fledermäuse gerade nicht als starre Automaten.",
+    "tokens": [
+     27.668,
+     27.923555555555556,
+     28.817999999999998,
+     29.137999999999998,
+     29.977999999999998,
+     30.997999999999998,
+     31.137999999999998,
+     32.018,
+     32.257999999999996,
+     32.498,
+     32.938,
+     33.278,
+     33.978,
+     34.238,
+     34.518,
+     34.757999999999996,
+     35.198
+    ],
+    "matched": 18
+   }
+  ]
+ },
+ "8.4": {
+  "hash": "b22fe268bb11a37c955d82b75c4a345af584dcf1",
+  "sentences": [
+   {
+    "text": "David Lewis und Laurence Nemirow setzen an anderer Stelle an.",
+    "tokens": [
+     0.0,
+     0.5,
+     0.78,
+     1.0036363636363637,
+     1.6,
+     2.18,
+     2.38,
+     2.68,
+     2.98,
+     3.26
+    ],
+    "matched": 10
+   },
+   {
+    "text": "Ihre Fähigkeitshypothese: Zu wissen, wie eine Erfahrung ist, heißt nicht, eine Tatsache zu kennen, sondern Fähigkeiten zu besitzen – sich zu erinnern, sich etwas vorzustellen, etwas wiederzuerkennen.",
+    "tokens": [
+     4.046,
+     4.196000000000001,
+     5.196000000000001,
+     5.316000000000001,
+     5.696000000000001,
+     5.756,
+     5.896000000000001,
+     6.316000000000001,
+     6.776,
+     6.916,
+     7.416,
+     7.5360000000000005,
+     7.996,
+     8.156,
+     8.676,
+     8.836,
+     9.376000000000001,
+     9.556000000000001,
+     10.053777777777778,
+     10.116,
+     10.216000000000001,
+     10.376000000000001,
+     10.996,
+     11.116,
+     11.376000000000001,
+     12.176,
+     12.388380952380952
+    ],
+    "matched": 29
+   },
+   {
+    "text": "Lektionen vermitteln Information, schreibt Lewis; Fähigkeit ist etwas anderes.",
+    "tokens": [
+     13.448,
+     13.998,
+     14.458,
+     15.518,
+     15.758,
+     16.298,
+     16.778,
+     16.938,
+     17.178
+    ],
+    "matched": 9
+   },
+   {
+    "text": "Dann wäre es nicht rätselhaft, dass kein Physikunterricht lehrt, wie die Echoortung einer Fledermaus ist.",
+    "tokens": [
+     18.189,
+     18.358999999999998,
+     18.538999999999998,
+     18.779,
+     18.919,
+     19.799,
+     19.899,
+     20.058999999999997,
+     20.899,
+     21.519,
+     21.639,
+     22.058999999999997,
+     22.399,
+     22.539,
+     23.119
+    ],
+    "matched": 16
+   },
+   {
+    "text": "Angegriffen wird Nagels Realismus über subjektive Tatsachen.",
+    "tokens": [
+     23.877,
+     24.506999999999998,
+     24.627,
+     25.066999999999997,
+     25.607,
+     25.866999999999997,
+     26.467
+    ],
+    "matched": 7
+   }
+  ]
+ },
+ "8.5": {
+  "hash": "545b6ee9c63e4cfc9983b85b54d970dc629b861c",
+  "sentences": [
+   {
+    "text": "Peter Hacker bestreitet schon die Formel.",
+    "tokens": [
+     0.0,
+     0.32,
+     0.58,
+     1.1,
+     1.26,
+     1.42
+    ],
+    "matched": 7
+   },
+   {
+    "text": "Die Frage „Wie ist es, X zu sein?“ ist sinnvoll, wenn sie einen Kontrast enthält – etwa: Wie ist es für eine Frau, Soldatin zu sein, im Unterschied zu einem Mann?",
+    "tokens": [
+     2.27,
+     2.4000000000000004,
+     2.8400000000000003,
+     2.89,
+     3.08,
+     3.22,
+     3.4800000000000004,
+     3.66,
+     4.2,
+     4.32,
+     5.16,
+     5.28,
+     5.42,
+     5.6,
+     6.0600000000000005,
+     6.585,
+     6.66,
+     6.9399999999999995,
+     7.380000000000001,
+     7.5600000000000005,
+     7.700000000000001,
+     7.859999999999999,
+     7.98,
+     8.32,
+     9.18,
+     9.32,
+     9.620000000000001,
+     9.96,
+     10.280000000000001,
+     10.5,
+     10.66
+    ],
+    "matched": 30
+   },
+   {
+    "text": "Bei „Wie ist es für eine Fledermaus, eine Fledermaus zu sein?“ fehle jeder Kontrast.",
+    "tokens": [
+     11.403,
+     11.552999999999999,
+     11.733,
+     11.933,
+     12.052999999999999,
+     12.233,
+     12.353,
+     13.033,
+     13.293,
+     13.833,
+     14.013,
+     14.633,
+     14.993,
+     15.152999999999999
+    ],
+    "matched": 14
+   },
+   {
+    "text": "Und wer fragt „Wie war es für dich?“, erwarte eine Bewertung, etwa angenehm oder aufregend, keine Erlebnisqualität.",
+    "tokens": [
+     16.251,
+     16.381,
+     16.561,
+     17.061,
+     17.121000000000002,
+     17.281,
+     17.381,
+     17.521,
+     18.281,
+     18.641000000000002,
+     18.821,
+     19.741,
+     19.901,
+     20.581,
+     20.741,
+     21.561,
+     21.801000000000002
+    ],
+    "matched": 17
+   },
+   {
+    "text": "Die Wendung, es sei irgendwie, ein Wesen zu sein, nennt Hacker schlecht gebaut.",
+    "tokens": [
+     23.31,
+     23.439999999999998,
+     24.22,
+     24.419999999999998,
+     24.56,
+     24.919999999999998,
+     25.5,
+     25.779999999999998,
+     25.939999999999998,
+     26.56,
+     26.759999999999998,
+     26.919999999999998,
+     27.159999999999997
+    ],
+    "matched": 13
+   },
+   {
+    "text": "Nagels Klarstellung, gemeint sei, wie es für das Subjekt ist, kennt er; sie überzeugt ihn nicht.",
+    "tokens": [
+     28.124,
+     28.534,
+     29.433999999999997,
+     29.894,
+     30.374,
+     30.473999999999997,
+     30.554,
+     30.694,
+     30.773999999999997,
+     31.133999999999997,
+     31.613999999999997,
+     31.814,
+     32.454,
+     32.574,
+     33.134,
+     33.214
+    ],
+    "matched": 16
+   }
+  ]
+ },
+ "8.6": {
+  "hash": "797a81ffd601186743c8e9d5320dcd6167a4da17",
+  "sentences": [
+   {
+    "text": "Am weitesten geht der Illusionismus, den Keith Frankish 2016 ausgearbeitet hat.",
+    "tokens": [
+     0.0,
+     0.18,
+     0.7,
+     0.9,
+     1.06,
+     1.9514285714285715,
+     2.1571428571428575,
+     2.5,
+     3.04,
+     3.94,
+     4.82
+    ],
+    "matched": 10
+   },
+   {
+    "text": "Er bestreitet nicht, dass es uns so scheint, als hätten Erfahrungen eine qualitative Innenseite.",
+    "tokens": [
+     5.433,
+     5.563,
+     6.103,
+     6.683,
+     6.823,
+     6.9830000000000005,
+     7.103,
+     7.223,
+     7.9030000000000005,
+     8.063,
+     8.283,
+     9.003,
+     9.183,
+     9.663
+    ],
+    "matched": 14
+   },
+   {
+    "text": "Er bestreitet, dass es diese phänomenalen Eigenschaften wirklich gibt.",
+    "tokens": [
+     10.853,
+     10.982999999999999,
+     11.822999999999999,
+     11.943,
+     12.082999999999998,
+     12.343,
+     13.082999999999998,
+     13.843,
+     13.963
+    ],
+    "matched": 9
+   },
+   {
+    "text": "An die Stelle des harten Problems tritt das Illusionsproblem: zu erklären, wie dieser Anschein entsteht und warum er so hartnäckig ist.",
+    "tokens": [
+     14.844,
+     14.973999999999998,
+     15.113999999999999,
+     15.373999999999999,
+     15.573999999999998,
+     15.913999999999998,
+     16.453999999999997,
+     16.674,
+     16.793999999999997,
+     17.714,
+     18.093999999999998,
+     18.814,
+     18.913999999999998,
+     19.134,
+     19.613999999999997,
+     20.034,
+     20.154,
+     20.494,
+     20.694,
+     20.793999999999997,
+     21.374
+    ],
+    "matched": 21
+   },
+   {
+    "text": "Getroffen wäre damit Nagels Ausgangspunkt, die Definition selbst.",
+    "tokens": [
+     22.1,
+     22.57,
+     22.85,
+     23.130000000000003,
+     23.55,
+     24.45,
+     24.830000000000002,
+     25.47
+    ],
+    "matched": 8
+   }
+  ]
+ },
+ "9.1": {
+  "hash": "c5e8ea9e13cb735bf46b452dc5f3459ae1c17160",
+  "sentences": [
+   {
+    "text": "Wie arbeitet die echte Fledermaus?",
+    "tokens": [
+     0.0,
+     0.16,
+     0.62,
+     0.8,
+     1.0
+    ],
+    "matched": 5
+   },
+   {
+    "text": "Dass sie Hindernissen mit Echos ausweicht, zeigten Donald Griffin und Robert Galambos 1941; drei Jahre später prägte Griffin dafür das Wort echolocation.",
+    "tokens": [
+     2.148,
+     2.2980000000000005,
+     2.458,
+     2.958,
+     3.1980000000000004,
+     3.5180000000000002,
+     4.438000000000001,
+     4.798,
+     5.078,
+     5.558,
+     5.958,
+     6.2379999999999995,
+     6.898,
+     8.658,
+     8.858,
+     9.078000000000001,
+     9.478,
+     9.958,
+     10.298,
+     10.598,
+     10.898000000000001,
+     11.172352941176472
+    ],
+    "matched": 22
+   },
+   {
+    "text": "Die Physik ist einfach: Schall legt bei zwanzig Grad etwa 343 Meter pro Sekunde zurück, und der Ruf muss hin und zurück.",
+    "tokens": [
+     12.444,
+     12.574,
+     13.074,
+     13.234,
+     14.014,
+     14.214,
+     14.494,
+     14.544,
+     14.934000000000001,
+     15.214,
+     15.514,
+     16.754,
+     17.014,
+     17.234,
+     17.674,
+     17.954,
+     18.394,
+     18.534,
+     18.774,
+     18.954,
+     19.194,
+     19.454
+    ],
+    "matched": 22
+   },
+   {
+    "text": "Ein Echo nach sechs Millisekunden heißt: Das Insekt ist rund einen Meter entfernt.",
+    "tokens": [
+     20.276,
+     20.631714285714285,
+     21.105999999999998,
+     21.156,
+     21.366,
+     22.125999999999998,
+     22.945999999999998,
+     23.026,
+     23.445999999999998,
+     23.586,
+     23.866,
+     24.226,
+     24.485999999999997
+    ],
+    "matched": 13
+   },
+   {
+    "text": "Weit reicht das nicht; selbst ein günstiges Ziel ist kaum auf mehr als zehn Meter zu orten.",
+    "tokens": [
+     25.585,
+     25.815,
+     26.015,
+     26.235,
+     26.795,
+     27.015,
+     27.315,
+     27.775,
+     28.075,
+     28.295,
+     28.595,
+     28.835,
+     28.995,
+     29.195,
+     29.475,
+     29.715,
+     29.955
+    ],
+    "matched": 17
+   }
+  ]
+ },
+ "9.2": {
+  "hash": "ada4208e9d29a0e482d477405ba4be43abcb44e4",
+  "sentences": [
+   {
+    "text": "Fledermäuse nutzen zwei Grundformen von Rufen.",
+    "tokens": [
+     0.0,
+     0.66,
+     0.9,
+     1.2,
+     2.0,
+     2.16
+    ],
+    "matched": 6
+   },
+   {
+    "text": "Frequenzmodulierte Rufe gleiten rasch über einen breiten Bereich abwärts und sind präzise Zeitmarken für Entfernung und Richtung.",
+    "tokens": [
+     3.02,
+     3.97,
+     4.41,
+     4.85,
+     5.3100000000000005,
+     5.470000000000001,
+     5.69,
+     6.17,
+     6.41,
+     7.210000000000001,
+     7.390000000000001,
+     7.59,
+     8.17,
+     8.93,
+     9.03,
+     9.55,
+     9.77
+    ],
+    "matched": 17
+   },
+   {
+    "text": "Konstantfrequente Rufe halten länger einen Ton; mit ihnen lassen sich schwache Echos entdecken und der Flügelschlag eines Insekts als Flackern im Echo erkennen.",
+    "tokens": [
+     10.687,
+     11.650333333333332,
+     11.876999999999999,
+     12.216999999999999,
+     12.517,
+     13.066999999999998,
+     13.396999999999998,
+     13.496999999999998,
+     13.636999999999999,
+     13.936999999999998,
+     14.156999999999998,
+     14.496999999999998,
+     14.816999999999998,
+     15.396999999999998,
+     15.796999999999999,
+     15.896999999999998,
+     16.497,
+     16.776999999999997,
+     17.337,
+     17.457,
+     18.017,
+     18.177,
+     18.497
+    ],
+    "matched": 22
+   }
+  ]
+ },
+ "9.3": {
+  "hash": "2a5f499b76a7c7dcfbd5682c7b562a5058f4ed83",
+  "sentences": [
+   {
+    "text": "Fliegt die Fledermaus auf ein Ziel zu, kommt das Echo durch den Doppler-Effekt höher zurück: bei fünf Metern pro Sekunde und 61 Kilohertz um knapp zwei Kilohertz.",
+    "tokens": [
+     0.0,
+     0.36,
+     0.48,
+     1.06,
+     1.3,
+     1.44,
+     1.68,
+     2.3,
+     2.54,
+     2.7,
+     2.92,
+     3.12,
+     3.28875,
+     4.02,
+     4.32,
+     4.56,
+     4.96,
+     5.152,
+     5.44,
+     5.76,
+     6.42,
+     6.58,
+     7.218181818181819,
+     7.66,
+     7.8,
+     8.04,
+     8.356
+    ],
+    "matched": 27
+   },
+   {
+    "text": "Arten mit langen konstantfrequenten Rufen gleichen das aus.",
+    "tokens": [
+     9.447,
+     9.836999999999998,
+     9.976999999999999,
+     10.286999999999999,
+     11.216999999999999,
+     11.596999999999998,
+     11.996999999999998,
+     12.116999999999999
+    ],
+    "matched": 9
+   },
+   {
+    "text": "Sie senken ihren Ruf gerade so weit, dass das Echo in einem schmalen Fenster ankommt, für das ihr Innenohr besonders fein abgestimmt ist.",
+    "tokens": [
+     12.932,
+     13.122,
+     13.501999999999999,
+     13.722,
+     14.042,
+     14.192,
+     14.242,
+     15.022,
+     15.122,
+     15.282,
+     15.501999999999999,
+     15.681999999999999,
+     15.822,
+     16.242,
+     16.622,
+     17.302,
+     17.381999999999998,
+     17.502,
+     17.682,
+     18.061999999999998,
+     18.381999999999998,
+     18.762,
+     19.242
+    ],
+    "matched": 23
+   }
+  ]
+ },
+ "9.4": {
+  "hash": "491a40659a4f0ec4a25de98c49231ec16c78df6d",
+  "sentences": [
+   {
+    "text": "Wie das Gehirn das ordnet, hat Nobuo Suga an der Schnurrbartfledermaus untersucht, deren Ruf mit einem langen Ton bei etwa 61 Kilohertz beginnt.",
+    "tokens": [
+     0.0,
+     0.12,
+     0.26,
+     0.7,
+     0.8,
+     1.5,
+     1.695,
+     2.02,
+     2.36,
+     2.56,
+     2.64,
+     3.62,
+     4.52,
+     4.66,
+     5.04,
+     5.18,
+     5.36,
+     5.72,
+     5.96,
+     6.2,
+     6.4,
+     7.0618181818181816,
+     7.52
+    ],
+    "matched": 25
+   },
+   {
+    "text": "Im Hörkortex sind Nervenzellen auf die Zeit zwischen Ruf und Echo abgestimmt und entlang einer Achse geordnet, die Entfernungen von sieben Zentimetern bis gut drei Metern abbildet.",
+    "tokens": [
+     8.463,
+     8.612999999999998,
+     9.232999999999999,
+     9.713,
+     10.453,
+     10.652999999999999,
+     10.772999999999998,
+     10.953,
+     11.152999999999999,
+     11.712999999999997,
+     12.012999999999998,
+     12.352999999999998,
+     12.953,
+     13.273,
+     13.712999999999997,
+     13.953,
+     14.293,
+     15.092999999999998,
+     15.212999999999997,
+     15.872999999999998,
+     16.092999999999996,
+     16.325941176470586,
+     16.753,
+     17.113,
+     17.333,
+     17.508999999999997,
+     17.772999999999996
+    ],
+    "matched": 27
+   },
+   {
+    "text": "Ein anderes Areal vergrößert das schmale Band knapp über 61 Kilohertz und verarbeitet Geschwindigkeit.",
+    "tokens": [
+     18.915,
+     19.084999999999997,
+     19.485,
+     20.165,
+     20.784999999999997,
+     20.924999999999997,
+     21.224999999999998,
+     21.564999999999998,
+     21.865,
+     22.165,
+     22.815,
+     23.265,
+     23.665,
+     24.224999999999998
+    ],
+    "matched": 14
+   }
+  ]
+ },
+ "9.5": {
+  "hash": "750751eb63a71cf3688f0cce5333a2d11546f34b",
+  "sentences": [
+   {
+    "text": "So klingt das: eine Fledermaus kurz vor dem Fang, aufgenommen in Pennsylvania und zehnfach verlangsamt.",
+    "tokens": [
+     0.0,
+     0.18,
+     0.56,
+     0.8,
+     1.2,
+     1.8,
+     2.06,
+     2.26,
+     2.38,
+     3.0,
+     3.38,
+     3.62,
+     4.4,
+     4.64,
+     5.02
+    ],
+    "matched": 15
+   },
+   {
+    "text": "Dadurch rutschen die Rufe um mehr als drei Oktaven in unseren Hörbereich.",
+    "tokens": [
+     6.086,
+     6.456,
+     6.936000000000001,
+     7.0360000000000005,
+     7.416,
+     7.596,
+     7.796,
+     7.976000000000001,
+     8.316,
+     9.016,
+     9.276,
+     9.536000000000001
+    ],
+    "matched": 12
+   },
+   {
+    "text": "Jeder Ruf gleitet abwärts, und die Rufe folgen immer dichter aufeinander.",
+    "tokens": [
+     10.753,
+     10.923,
+     11.283,
+     11.623,
+     12.242999999999999,
+     12.523,
+     12.642999999999999,
+     12.923,
+     13.343,
+     13.482999999999999,
+     13.823
+    ],
+    "matched": 11
+   }
+  ]
+ },
+ "9.6": {
+  "hash": "7a0cb28f93fffd29486da76fa4deacec1b65c89e",
+  "sentences": [
+   {
+    "text": "Und Menschen?",
+    "tokens": [
+     0.0,
+     0.16
+    ],
+    "matched": 2
+   },
+   {
+    "text": "Manche Blinde orten Gegenstände mit Mundklicks.",
+    "tokens": [
+     1.131,
+     1.4609999999999999,
+     1.801,
+     2.161,
+     2.8810000000000002,
+     2.981
+    ],
+    "matched": 6
+   },
+   {
+    "text": "Lore Thaler und Kollegen untersuchten 2011 zwei solche Experten im Hirnscanner: Klicks mit Echos aktivierten, verglichen mit echofreien Kontrollgeräuschen, ein Areal, das gewöhnlich dem Sehen dient; im Hörkortex zeigte sich kein Unterschied.",
+    "tokens": [
+     4.022,
+     4.072,
+     4.692,
+     5.0120000000000005,
+     5.392,
+     6.0120000000000005,
+     6.867555555555556,
+     7.112,
+     7.332000000000001,
+     7.972,
+     8.052,
+     8.572,
+     8.932,
+     9.072,
+     9.372,
+     10.132000000000001,
+     10.612,
+     10.692,
+     11.252,
+     12.192,
+     12.312000000000001,
+     12.624500000000001,
+     12.812000000000001,
+     13.251999999999999,
+     13.413538461538462,
+     13.682769230769232,
+     13.952000000000002,
+     14.251999999999999,
+     14.952000000000002,
+     15.332,
+     15.472000000000001,
+     15.712
+    ],
+    "matched": 30
+   },
+   {
+    "text": "Bei zwei Personen ist das ein Hinweis, kein Beweis.",
+    "tokens": [
+     16.662,
+     16.811999999999998,
+     17.052,
+     17.631999999999998,
+     17.971999999999998,
+     18.131999999999998,
+     18.272,
+     19.131999999999998,
+     19.272
+    ],
+    "matched": 9
+   },
+   {
+    "text": "Nagels Fußnote hatte solche Echoortung schon erwähnt.",
+    "tokens": [
+     20.272,
+     20.766999999999996,
+     21.261999999999997,
+     21.482,
+     21.8495,
+     22.461999999999996,
+     22.601999999999997
+    ],
+    "matched": 8
+   }
+  ]
+ },
+ "9.7": {
+  "hash": "73105aa002451c28bb293f3618ad84494ff486cc",
+  "sentences": [
+   {
+    "text": "Verringert all das Nagels Kluft, oder bestätigt es sie?",
+    "tokens": [
+     0.0,
+     0.5,
+     0.68,
+     0.8680000000000001,
+     1.3066666666666666,
+     1.62,
+     2.0,
+     2.64,
+     2.78
+    ],
+    "matched": 8
+   },
+   {
+    "text": "Beides lässt sich vertreten.",
+    "tokens": [
+     3.487,
+     3.757,
+     3.9170000000000003,
+     4.1370000000000005
+    ],
+    "matched": 4
+   },
+   {
+    "text": "Die linke Seite unseres Bildes ist voll geworden.",
+    "tokens": [
+     5.136,
+     5.246,
+     5.586,
+     5.906000000000001,
+     6.306,
+     6.766,
+     6.8660000000000005,
+     7.106
+    ],
+    "matched": 8
+   },
+   {
+    "text": "Wir wissen weit mehr darüber, was eine Fledermaus unterscheiden kann und wie ihr Gehirn das leistet, und ob ihre Echoortung eher dem Sehen ähnelt als dem Hören, ist teilweise eine empirische Frage geworden.",
+    "tokens": [
+     8.021,
+     8.111,
+     8.371,
+     8.651000000000002,
+     8.831000000000001,
+     9.351,
+     9.471,
+     9.711,
+     10.191,
+     10.711000000000002,
+     10.891000000000002,
+     11.191,
+     11.371,
+     11.451,
+     11.771,
+     11.831000000000001,
+     12.331000000000001,
+     12.651,
+     12.871000000000002,
+     13.351,
+     13.893857142857144,
+     14.111,
+     14.251000000000001,
+     14.551000000000002,
+     14.831000000000001,
+     14.931000000000001,
+     15.111,
+     15.631,
+     15.691,
+     16.011,
+     16.331,
+     16.811,
+     17.131
+    ],
+    "matched": 35
+   },
+   {
+    "text": "Aber die rechte Seite ist leer geblieben.",
+    "tokens": [
+     18.041,
+     18.211,
+     18.351,
+     18.651,
+     19.011,
+     19.251,
+     19.451
+    ],
+    "matched": 7
+   },
+   {
+    "text": "Aus keiner dieser Karten lässt sich ablesen, wie sich ein Echo für die Fledermaus anfühlt – so, wie Nagels Argument es vorhersagt.",
+    "tokens": [
+     20.345,
+     20.494999999999997,
+     20.755,
+     21.075,
+     21.494999999999997,
+     21.654999999999998,
+     21.895,
+     22.654999999999998,
+     22.775,
+     22.915,
+     23.115,
+     23.334999999999997,
+     23.555,
+     23.654999999999998,
+     24.154999999999998,
+     24.785,
+     24.875,
+     25.055,
+     25.275,
+     25.615,
+     26.014999999999997,
+     26.154999999999998
+    ],
+    "matched": 22
+   }
+  ]
+ },
+ "9.8": {
+  "hash": "7e329ef255c927f6944dd71b5cda5c4c6073b803",
+  "sentences": [
+   {
+    "text": "Eine Pointe am Rand: 1973 und 1974 war Nagel Gast an der Rockefeller University, wo Griffin forschte.",
+    "tokens": [
+     0.0,
+     0.2,
+     0.68,
+     0.74,
+     1.52,
+     2.62,
+     3.26,
+     4.28,
+     4.593846153846154,
+     5.2215384615384615,
+     5.64,
+     5.8,
+     5.9,
+     6.4,
+     7.221052631578948,
+     7.385263157894737,
+     7.96
+    ],
+    "matched": 16
+   },
+   {
+    "text": "Die beiden sprachen über Fledermäuse und über die Scheu von Biologen vor dem Thema Tierbewusstsein.",
+    "tokens": [
+     8.875,
+     9.004999999999999,
+     9.205,
+     9.785,
+     10.004999999999999,
+     10.785,
+     11.045,
+     11.264999999999999,
+     11.385,
+     11.725,
+     11.885,
+     12.604999999999999,
+     12.844999999999999,
+     12.965,
+     13.285
+    ],
+    "matched": 15
+   },
+   {
+    "text": "Griffins Buch dazu von 1976 war, so Nagel, eine Folge dieser Gespräche.",
+    "tokens": [
+     14.677,
+     15.087,
+     15.306999999999999,
+     15.666999999999998,
+     15.847,
+     16.927,
+     17.927,
+     18.087,
+     18.767,
+     18.887,
+     19.186999999999998,
+     19.467
+    ],
+    "matched": 13
+   },
+   {
+    "text": "Griffin selbst warf Nagel später lähmenden Perfektionismus vor.",
+    "tokens": [
+     20.551,
+     20.941,
+     21.220999999999997,
+     21.580999999999996,
+     21.900999999999996,
+     22.200999999999997,
+     22.741,
+     23.500999999999998
+    ],
+    "matched": 8
+   }
+  ]
+ },
+ "10.1": {
+  "hash": "693a2a68e2dd58b4576a197a9481f05f108bc12a",
+  "sentences": [
+   {
+    "text": "Den Gegensatz von subjektivem und objektivem Standpunkt hat Nagel 1986 zum Thema eines ganzen Buches gemacht: „The View from Nowhere“.",
+    "tokens": [
+     0.0,
+     0.24,
+     0.64,
+     0.82,
+     1.74,
+     1.86,
+     2.54,
+     2.96,
+     3.18,
+     3.58,
+     4.54,
+     5.42,
+     5.82,
+     6.06,
+     6.32,
+     6.86,
+     7.43,
+     7.674285714285714,
+     8.0,
+     8.253454545454545
+    ],
+    "matched": 21
+   },
+   {
+    "text": "Objektivität, so fasste Bernard Williams in seiner Rezension zusammen, ist dort keine Weise, wie Dinge existieren, sondern ein Stil des Verstehens.",
+    "tokens": [
+     9.077,
+     10.187,
+     10.347,
+     10.767,
+     11.126999999999999,
+     11.447,
+     11.806999999999999,
+     11.966999999999999,
+     12.427,
+     13.407,
+     13.507,
+     13.706999999999999,
+     13.947,
+     14.646999999999998,
+     14.767,
+     14.947,
+     15.947,
+     16.186999999999998,
+     16.387,
+     16.647,
+     16.767
+    ],
+    "matched": 22
+   }
+  ]
+ },
+ "10.2": {
+  "hash": "c46a8763c6a2d715e2b3c99734d77dba12413747",
+  "sentences": [
+   {
+    "text": "2012 ging Nagel weiter.",
+    "tokens": [
+     0.0,
+     0.96,
+     1.176,
+     1.5
+    ],
+    "matched": 4
+   },
+   {
+    "text": "In „Mind and Cosmos“ argumentiert er: Wenn sich Bewusstsein nicht physikalisch reduzieren lässt, muss auch die Naturgeschichte, die es hervorgebracht hat, anders gedacht werden.",
+    "tokens": [
+     2.443,
+     2.5930000000000004,
+     2.873,
+     3.093,
+     3.5130000000000003,
+     4.073,
+     4.393000000000001,
+     4.473000000000001,
+     4.613,
+     5.1530000000000005,
+     5.293,
+     5.933,
+     6.393000000000001,
+     6.913,
+     7.013,
+     7.2330000000000005,
+     7.373000000000001,
+     8.193,
+     8.333,
+     8.413,
+     8.933,
+     9.513,
+     9.593,
+     9.913
+    ],
+    "matched": 24
+   },
+   {
+    "text": "Er neigt einem neutralen Monismus zu und erwägt zielgerichtete Naturprinzipien, ohne einen Schöpfer anzurufen.",
+    "tokens": [
+     10.722,
+     10.772,
+     11.171999999999999,
+     11.371999999999998,
+     11.972,
+     12.431999999999999,
+     12.712,
+     12.931999999999999,
+     13.271999999999998,
+     14.031999999999998,
+     15.011999999999999,
+     15.451999999999998,
+     15.671999999999999,
+     16.032
+    ],
+    "matched": 13
+   },
+   {
+    "text": "Das Buch stieß auf scharfe Kritik; Brian Leiter und Michael Weisberg nannten seine Argumente gegen den Naturalismus nicht überzeugend.",
+    "tokens": [
+     17.126,
+     17.296,
+     17.576,
+     17.956,
+     18.156,
+     18.496000000000002,
+     18.910545454545456,
+     19.256,
+     20.116,
+     20.376,
+     20.836,
+     21.356,
+     21.776,
+     21.916,
+     22.516000000000002,
+     22.716,
+     22.876,
+     23.616,
+     23.876
+    ],
+    "matched": 18
+   }
+  ]
+ },
+ "10.3": {
+  "hash": "11092dce1faf01cfc4bf65d701c7e63a8876a6df",
+  "sentences": [
+   {
+    "text": "Zum fünfzigsten Jubiläum erschien der Aufsatz 2024 als kleines Buch, zusammen mit einem neuen Vortrag.",
+    "tokens": [
+     0.0,
+     0.12,
+     0.8,
+     1.28,
+     1.62,
+     1.7,
+     2.16,
+     3.06,
+     3.88,
+     4.32,
+     4.56,
+     5.06,
+     5.34,
+     5.52,
+     5.7
+    ],
+    "matched": 15
+   },
+   {
+    "text": "Darin vermutet Nagel, bewusste Eigenschaften und ihre neuronalen Bedingungen seien untrennbare Aspekte von etwas Einem, für das wir noch keinen Begriff haben.",
+    "tokens": [
+     6.777,
+     7.127000000000001,
+     7.547000000000001,
+     8.287,
+     8.727,
+     9.507,
+     9.687000000000001,
+     9.947000000000001,
+     10.647,
+     11.167000000000002,
+     11.547,
+     12.067,
+     12.607,
+     12.847000000000001,
+     13.047,
+     13.786999999999999,
+     13.927,
+     14.027000000000001,
+     14.147,
+     14.286999999999999,
+     14.587,
+     14.927
+    ],
+    "matched": 22
+   },
+   {
+    "text": "Angelegt war das schon in der letzten Fußnote von 1974.",
+    "tokens": [
+     15.77,
+     16.34,
+     16.54,
+     16.72,
+     16.959999999999997,
+     17.279999999999998,
+     17.38,
+     17.86,
+     18.34,
+     18.599999999999998
+    ],
+    "matched": 10
+   }
+  ]
+ },
+ "11.1": {
+  "hash": "c21c09c406b1ed31bea630887a1daec33b5a9549",
+  "sentences": [
+   {
+    "text": "Heute ist Nagels Frage auch eine praktische.",
+    "tokens": [
+     0.0,
+     0.3,
+     0.54,
+     0.96,
+     1.24,
+     1.52,
+     1.66
+    ],
+    "matched": 7
+   },
+   {
+    "text": "2012 erklärte eine Gruppe von Neurowissenschaftlern in Cambridge, nichtmenschliche Tiere, darunter alle Säugetiere und Vögel und viele andere wie Kraken, besäßen die neurologischen Grundlagen, die Bewusstsein hervorbringen.",
+    "tokens": [
+     2.759,
+     3.5090000000000003,
+     4.129,
+     4.309,
+     4.729,
+     4.889,
+     5.869,
+     6.013615384615385,
+     6.808999999999999,
+     7.429,
+     8.109,
+     8.369,
+     8.589,
+     9.309,
+     9.549,
+     9.969,
+     10.329,
+     10.569,
+     10.869,
+     11.109,
+     11.969,
+     12.349,
+     12.449,
+     13.109,
+     14.009,
+     14.089,
+     14.649
+    ],
+    "matched": 28
+   },
+   {
+    "text": "Man beachte die Formulierung: Behauptet werden die Grundlagen, nicht ein bestimmtes Erleben.",
+    "tokens": [
+     15.77,
+     15.959999999999999,
+     16.419999999999998,
+     16.599999999999998,
+     17.5,
+     18.06,
+     18.299999999999997,
+     18.52,
+     19.18,
+     19.68,
+     19.88,
+     20.38
+    ],
+    "matched": 12
+   }
+  ]
+ },
+ "11.2": {
+  "hash": "470c9a10d99cd757c366075abe867bd31212555d",
+  "sentences": [
+   {
+    "text": "2024 folgte die New Yorker Erklärung zum Tierbewusstsein.",
+    "tokens": [
+     0.0,
+     1.28,
+     2.02,
+     2.23,
+     2.44,
+     3.02,
+     3.62,
+     3.88
+    ],
+    "matched": 8
+   },
+   {
+    "text": "Sie unterscheidet Grade.",
+    "tokens": [
+     5.262,
+     5.412,
+     6.072
+    ],
+    "matched": 3
+   },
+   {
+    "text": "Für Säugetiere und Vögel gebe es starke wissenschaftliche Unterstützung für bewusstes Erleben.",
+    "tokens": [
+     6.901,
+     7.071,
+     7.791,
+     8.051,
+     8.511,
+     8.751,
+     8.971,
+     9.451,
+     10.190999999999999,
+     10.771,
+     11.051,
+     11.551
+    ],
+    "matched": 12
+   },
+   {
+    "text": "Für alle Wirbeltiere und viele Wirbellose, mindestens Kopffüßer, Zehnfußkrebse und Insekten, bestehe zumindest eine realistische Möglichkeit.",
+    "tokens": [
+     12.438,
+     12.628,
+     12.868,
+     13.628,
+     13.888,
+     14.228,
+     15.268,
+     15.687999999999999,
+     16.45709090909091,
+     17.567999999999998,
+     17.908,
+     18.588,
+     18.948,
+     19.368000000000002,
+     19.768,
+     20.408
+    ],
+    "matched": 16
+   },
+   {
+    "text": "Und wo eine solche Möglichkeit besteht, sei es unverantwortlich, sie bei Entscheidungen zu übergehen, die diese Tiere betreffen.",
+    "tokens": [
+     21.554,
+     21.663999999999998,
+     21.924,
+     22.183999999999997,
+     22.424,
+     23.043999999999997,
+     23.924,
+     24.104,
+     24.263999999999996,
+     25.444,
+     25.543999999999997,
+     25.723999999999997,
+     26.304,
+     26.444,
+     27.083999999999996,
+     27.163999999999998,
+     27.424,
+     27.703999999999997
+    ],
+    "matched": 18
+   }
+  ]
+ },
+ "11.3": {
+  "hash": "5c9554182d2786bb3da5e08f06b923dcbe949886",
+  "sentences": [
+   {
+    "text": "Gesichert ist damit nicht, wie es für eine Biene ist, eine Biene zu sein, sondern nur, dass es vernünftig ist, mit Erleben zu rechnen: die Trennung zwischen dem Ob und dem Wie, die schon Nagels Aufsatz zieht.",
+    "tokens": [
+     0.0,
+     0.42,
+     0.54,
+     0.74,
+     1.3,
+     1.38,
+     1.46,
+     1.62,
+     1.72,
+     1.94,
+     2.3,
+     2.38,
+     2.68,
+     2.82,
+     3.4,
+     3.54,
+     4.0,
+     4.1,
+     4.26,
+     4.58,
+     4.93,
+     5.28,
+     5.5,
+     5.66,
+     6.08,
+     6.18,
+     6.44,
+     6.64,
+     6.86,
+     7.04,
+     7.16,
+     7.3,
+     7.62,
+     7.67,
+     7.72,
+     8.1,
+     8.46
+    ],
+    "matched": 36
+   }
+  ]
+ },
+ "11.4": {
+  "hash": "16f271418b33c163e8a2bfbf1e713b1c96a16ffc",
+  "sentences": [
+   {
+    "text": "Und Maschinen?",
+    "tokens": [
+     0.0,
+     0.16
+    ],
+    "matched": 2
+   },
+   {
+    "text": "Hier ist die Lage offener.",
+    "tokens": [
+     1.265,
+     1.4749999999999999,
+     1.6549999999999998,
+     1.835,
+     2.1171818181818183
+    ],
+    "matched": 6
+   },
+   {
+    "text": "Ein Bericht einer Gruppe um Patrick Butlin und Robert Long kam 2023 zu dem Schluss, dass nach ihrer Analyse kein damaliges KI-System bewusst ist, aber auch keine offensichtlichen technischen Hürden bestehen, Systeme zu bauen, die ihre Indikatoren erfüllen.",
+    "tokens": [
+     2.991,
+     3.1610000000000005,
+     3.6210000000000004,
+     3.721,
+     4.021000000000001,
+     4.146333333333334,
+     4.585000000000001,
+     4.961,
+     5.081,
+     5.361000000000001,
+     5.726714285714286,
+     6.001,
+     7.2010000000000005,
+     7.297000000000001,
+     7.441000000000001,
+     8.041,
+     8.101,
+     8.281,
+     8.441,
+     8.801,
+     8.961,
+     9.471,
+     9.981,
+     10.221,
+     10.881,
+     11.001000000000001,
+     11.141,
+     11.401000000000002,
+     12.141,
+     12.701,
+     12.941,
+     13.453000000000001,
+     13.901000000000002,
+     14.141,
+     14.801,
+     14.861,
+     15.001000000000001,
+     15.621
+    ],
+    "matched": 38
+   },
+   {
+    "text": "Die Autoren setzen dabei als Arbeitshypothese voraus, dass die richtige Art von Berechnung für Bewusstsein genügt; sie nennen das selbst verbreitet, aber umstritten.",
+    "tokens": [
+     16.486,
+     16.596,
+     17.036,
+     17.256,
+     17.656,
+     17.856,
+     18.676000000000002,
+     19.376,
+     19.476,
+     19.636,
+     19.976,
+     20.256,
+     20.456,
+     21.016,
+     21.136,
+     21.716,
+     22.356,
+     22.516,
+     22.756,
+     22.936,
+     23.176000000000002,
+     24.076,
+     24.276
+    ],
+    "matched": 23
+   },
+   {
+    "text": "Bewusstsein definieren sie mit Nagels Formel.",
+    "tokens": [
+     25.257,
+     25.827,
+     26.467000000000002,
+     26.607,
+     26.802374999999998,
+     27.25825
+    ],
+    "matched": 5
+   }
+  ]
+ },
+ "11.5": {
+  "hash": "140a2ccc876ccae6404965810c139d121e22b1a6",
+  "sentences": [
+   {
+    "text": "David Chalmers hielt es 2023 für eher unwahrscheinlich, dass heutige große Sprachmodelle bewusst sind, aber für ernsthaft möglich, dass ihre Nachfolger es sein könnten.",
+    "tokens": [
+     0.0,
+     0.18,
+     0.72,
+     1.0,
+     1.1,
+     2.16,
+     2.64,
+     2.8,
+     3.76,
+     3.86,
+     4.24,
+     4.48,
+     5.28,
+     5.5,
+     6.18,
+     6.32,
+     6.54,
+     7.04,
+     7.76,
+     7.86,
+     8.08,
+     8.6175,
+     8.725,
+     8.94
+    ],
+    "matched": 23
+   },
+   {
+    "text": "Einige Forschende fordern deshalb, schon jetzt Verfahren für den Fall vorzubereiten, dass KI-Systeme moralisch zählen.",
+    "tokens": [
+     9.786,
+     10.056,
+     10.515999999999998,
+     10.915999999999999,
+     11.695999999999998,
+     11.796,
+     11.956,
+     12.475999999999999,
+     12.616,
+     12.735999999999999,
+     12.975999999999999,
+     14.015999999999998,
+     14.290285714285712,
+     14.975999999999999,
+     15.436
+    ],
+    "matched": 16
+   }
+  ]
+ },
+ "11.6": {
+  "hash": "a41ef0bfcded64d3be6ccb195f3ac485304fe9a0",
+  "sentences": [
+   {
+    "text": "Nagels Text gibt dafür ein Werkzeug und eine Warnung.",
+    "tokens": [
+     0.0,
+     0.44,
+     0.64,
+     0.9,
+     1.12,
+     1.36,
+     1.78,
+     2.14,
+     2.36
+    ],
+    "matched": 9
+   },
+   {
+    "text": "Das Werkzeug: Seine Definition trennt Verhalten von Erleben.",
+    "tokens": [
+     3.205,
+     3.3750000000000004,
+     4.355,
+     4.4750000000000005,
+     5.195,
+     5.475,
+     5.9350000000000005,
+     6.155
+    ],
+    "matched": 9
+   },
+   {
+    "text": "Dass ein System spricht wie ein Mensch, beantwortet nicht, ob es irgendwie ist, dieses System zu sein.",
+    "tokens": [
+     7.031,
+     7.161,
+     7.367666666666667,
+     7.781,
+     8.100999999999999,
+     8.321,
+     8.501,
+     8.801,
+     9.521,
+     10.081,
+     10.181000000000001,
+     10.321,
+     10.621,
+     11.041,
+     11.521,
+     11.901,
+     12.081
+    ],
+    "matched": 17
+   },
+   {
+    "text": "Die Warnung steht in der Fußnote über die Roboter: Vielleicht hat alles, was komplex genug ist, sich wie ein Mensch zu verhalten, Erfahrungen.",
+    "tokens": [
+     12.797,
+     12.927,
+     13.347,
+     13.567,
+     13.727,
+     13.913,
+     14.347,
+     14.547,
+     14.667,
+     15.447,
+     15.747,
+     15.987,
+     16.607,
+     16.727,
+     17.147,
+     17.407,
+     18.167,
+     18.307,
+     18.487000000000002,
+     18.627,
+     18.867,
+     18.987000000000002,
+     19.747
+    ],
+    "matched": 23
+   },
+   {
+    "text": "Ob das so ist, entscheidet keine Begriffsanalyse.",
+    "tokens": [
+     20.835,
+     21.005,
+     21.245,
+     21.425,
+     21.905,
+     22.385,
+     22.565
+    ],
+    "matched": 7
+   },
+   {
+    "text": "Diese Frage ist offen.",
+    "tokens": [
+     24.036,
+     24.246000000000002,
+     24.586000000000002,
+     24.846
+    ],
+    "matched": 4
+   }
+  ]
+ },
+ "12.1": {
+  "hash": "ef97b45b6fb6ff9f362de147e15643860e147e97",
+  "sentences": [
+   {
+    "text": "Was bleibt nach fünfzig Jahren?",
+    "tokens": [
+     0.0,
+     0.16,
+     0.44,
+     0.66,
+     0.98
+    ],
+    "matched": 5
+   },
+   {
+    "text": "Erstens eine Bestimmung, die sich durchgesetzt hat, auch bei vielen, die Nagels Folgerungen ablehnen: Bewusstsein als das, wie es für ein Wesen ist.",
+    "tokens": [
+     1.997,
+     2.307,
+     2.427,
+     3.127,
+     3.2270000000000003,
+     3.407,
+     3.867,
+     4.327,
+     4.427,
+     4.627000000000001,
+     5.2669999999999995,
+     5.316999999999999,
+     5.367,
+     6.267,
+     6.867,
+     7.347,
+     7.567,
+     8.007,
+     8.087,
+     8.167,
+     8.307,
+     8.427,
+     8.707
+    ],
+    "matched": 23
+   },
+   {
+    "text": "Chalmers, Block und noch der KI-Bericht von 2023 beginnen damit.",
+    "tokens": [
+     9.391,
+     10.161,
+     10.401,
+     10.821,
+     11.001,
+     11.176384615384615,
+     11.761,
+     11.940999999999999,
+     12.780999999999999,
+     13.800999999999998
+    ],
+    "matched": 11
+   },
+   {
+    "text": "Zweitens eine Diagnose: Das Verfahren erfolgreicher Reduktionen, weg vom Standpunkt und hin zur objektiven Beschreibung, lässt sich nicht einfach auf etwas übertragen, das selbst ein Standpunkt ist.",
+    "tokens": [
+     14.654,
+     15.164,
+     15.324,
+     16.080363636363636,
+     16.364,
+     16.784,
+     17.464,
+     18.404,
+     18.584,
+     18.784,
+     19.363999999999997,
+     19.804,
+     20.003999999999998,
+     20.144,
+     20.683999999999997,
+     21.363999999999997,
+     21.784,
+     21.964,
+     22.104,
+     22.503999999999998,
+     22.664,
+     22.904,
+     23.683999999999997,
+     23.764,
+     24.064,
+     24.264,
+     24.744
+    ],
+    "matched": 27
+   }
+  ]
+ },
+ "12.2": {
+  "hash": "ee5ad4f6984dcbe671c469ebd6f583154cfe86d7",
+  "sentences": [
+   {
+    "text": "Angreifbar ist das Argument an mehreren Stellen: an der Annahme, dass die Fledermaus einen einheitlichen Standpunkt hat; an der Behauptung, zu wissen, wie es ist, heiße, Tatsachen zu kennen; an der Grammatik der Formel; und an der Wirklichkeit des Erlebens selbst.",
+    "tokens": [
+     0.0,
+     0.56,
+     0.68,
+     0.84,
+     1.26,
+     1.4,
+     1.7,
+     2.2,
+     2.3,
+     2.4,
+     2.86,
+     2.94,
+     3.1,
+     3.56,
+     3.76,
+     4.28,
+     4.74,
+     5.12,
+     5.2,
+     5.28,
+     5.84,
+     5.98,
+     6.32,
+     6.4,
+     6.5,
+     6.76,
+     6.94,
+     7.72,
+     7.86,
+     8.38,
+     8.44,
+     8.54,
+     8.98,
+     9.08,
+     9.52,
+     9.8,
+     9.94,
+     10.02,
+     10.5,
+     10.64,
+     11.02
+    ],
+    "matched": 41
+   },
+   {
+    "text": "Beendet hat keiner dieser Einwände die Debatte.",
+    "tokens": [
+     11.801,
+     12.270999999999999,
+     12.411,
+     12.671,
+     12.971,
+     13.511,
+     13.671
+    ],
+    "matched": 7
+   },
+   {
+    "text": "Nagel schreibt fünfzig Jahre später, es gebe bis heute keine Einigkeit darüber, wie mit diesen Problemen umzugehen ist.",
+    "tokens": [
+     14.55,
+     14.86,
+     15.26,
+     15.6,
+     16.02,
+     16.82,
+     16.94,
+     17.14,
+     17.3,
+     17.64,
+     17.92,
+     18.44,
+     19.259999999999998,
+     19.4,
+     19.56,
+     19.78,
+     20.42,
+     20.88
+    ],
+    "matched": 18
+   }
+  ]
+ },
+ "12.3": {
+  "hash": "0dd0f0150022c9eca227ed8fa97a781bc6416b0e",
+  "sentences": [
+   {
+    "text": "Und Nagel betont, sein Aufsatz behaupte nicht, die Wissenschaft könne Bewusstsein nicht verstehen.",
+    "tokens": [
+     0.0,
+     0.16,
+     0.5,
+     1.2,
+     1.36,
+     1.98,
+     2.48,
+     2.96,
+     3.04,
+     3.42,
+     3.98,
+     4.52,
+     4.68
+    ],
+    "matched": 14
+   },
+   {
+    "text": "Seine These ist enger und zugleich anspruchsvoller: Um es zu verstehen, muss sich unsere Vorstellung davon erweitern, was wissenschaftliches Verstehen ist.",
+    "tokens": [
+     5.614,
+     5.904,
+     6.164,
+     6.504,
+     6.864,
+     7.024,
+     7.404,
+     8.424,
+     8.544,
+     8.664,
+     8.764,
+     9.464,
+     9.564,
+     9.744,
+     9.964,
+     10.664,
+     10.884,
+     11.604,
+     11.744,
+     12.404,
+     12.724
+    ],
+    "matched": 21
+   },
+   {
+    "text": "Ob das gelingt, durch neue Begriffe, eine objektive Phänomenologie oder den Nachweis, dass das Problem eine Illusion ist, ist offen.",
+    "tokens": [
+     13.533,
+     13.662999999999998,
+     13.902999999999999,
+     14.703,
+     14.842999999999998,
+     15.162999999999998,
+     16.043,
+     16.122999999999998,
+     16.723,
+     17.523,
+     17.963,
+     18.143,
+     18.863,
+     18.942999999999998,
+     19.122999999999998,
+     19.503,
+     19.762999999999998,
+     20.243,
+     20.863,
+     20.982999999999997
+    ],
+    "matched": 20
+   },
+   {
+    "text": "Die Fledermaus fliegt weiter durch die Dämmerung.",
+    "tokens": [
+     21.869,
+     21.999,
+     22.639,
+     23.038999999999998,
+     23.238999999999997,
+     23.499,
+     23.639
+    ],
+    "matched": 7
+   },
+   {
+    "text": "Wir können jeden ihrer Rufe messen.",
+    "tokens": [
+     24.514,
+     24.644,
+     24.843999999999998,
+     25.124,
+     25.404,
+     25.764
+    ],
+    "matched": 6
+   },
+   {
+    "text": "Wie es ist, sie zu sein, wissen wir nicht.",
+    "tokens": [
+     26.584,
+     26.733999999999998,
+     26.933999999999997,
+     27.194,
+     27.514,
+     27.694,
+     27.994,
+     28.334,
+     28.554
+    ],
+    "matched": 9
+   }
+  ]
+ }
+}

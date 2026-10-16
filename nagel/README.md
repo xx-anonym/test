@@ -12,6 +12,8 @@ heutige Debatte über Tier- und KI-Bewusstsein.
 | `output/nagel_fledermaus.mp4` | das fertige Video (nicht im Repository, siehe unten) |
 | `output/untertitel.srt` | deutsche Untertitel zum Gesamtvideo |
 | `output/quellen.pdf` | Quellenverzeichnis mit Prüfstatus und Anhang „Belege je Absatz“ |
+| `output/karaoke.ass` | Karaoke-Untertitel als Sprechervorlage (Wort für Wort im Takt der Animation) |
+| `output/sprechervorlage.mp4` | Bild mit eingebranntem Karaoke-Text, ohne Ton (nicht im Repository, `tools/karaoke.py video`) |
 
 ## Aufbau
 
@@ -33,6 +35,8 @@ heutige Debatte über Tier- und KI-Bewusstsein.
 | `tools/bibliography.py` | Literaturliste für den Abspann, gelesen aus `research/quellen.md` |
 | `tools/make_pdf.py` | erzeugt `output/quellen.pdf` (pandoc + Chromium) |
 | `tools/asr_check.py` | Whisper-Gegenprobe einzelner Absätze |
+| `tools/karaoke.py` | Wortzeiten (Whisper) → `output/karaoke.ass` und `output/sprechervorlage.mp4` |
+| `tools/stimme_ersetzen.py` | setzt eigene Sprachaufnahmen als Tonspur ein und erzeugt Video und Untertitel neu |
 | `audio/timing.json` | gemessene Längen und Satzzeiten der Sprachaufnahmen |
 | `assets/` | Schriften (OFL), Hörbeispiel (CC0), Spektrogramm |
 
@@ -69,6 +73,39 @@ Nur die Animation, ohne Ton (schneller, zum Ausprobieren):
 ```bash
 cd scenes && ../venv/bin/manim render --config_file manim.cfg -o s04_argument s04_argument.py Kapitel4
 ```
+
+## Selbst einsprechen
+
+1. **Vorlage abspielen:** `output/sprechervorlage.mp4` (Bild mit Karaoke-Text, ohne Ton) – oder
+   `output/nagel_fledermaus.mp4` zusammen mit `output/karaoke.ass` in VLC/mpv (Untertitel → Datei
+   hinzufügen). Jede Zeile erscheint kurz vor ihrem Einsatz, das Wort, das gerade dran ist, füllt
+   sich ocker; darunter steht gedimmt die nächste Zeile, oben rechts die Absatznummer. In
+   Kapitel 9 läuft ein Hörbeispiel: Dort steht „Hörbeispiel – nicht sprechen“.
+2. **Aufnehmen**, am besten kapitelweise, die Vorlage über Kopfhörer oder stumm. Wann die Aufnahme
+   startet, ist egal. Dateinamen (wav, mp3, m4a, flac …):
+
+   | Datei | wird angelegt als |
+   | --- | --- |
+   | `kapitel_04.wav` (auch `04.wav`, `kap4.m4a`) | Kapitel 4 |
+   | `4.2.wav` (auch `absatz_4.2.wav`) | Nachaufnahme von Absatz 4.2, ersetzt ihn in der Kapitelaufnahme |
+   | eine einzige Datei mit anderem Namen | das ganze Video in einem Durchgang |
+
+3. **Einsetzen:**
+
+   ```bash
+   venv/bin/python tools/stimme_ersetzen.py aufnahmen/        # Ordner mit den Aufnahmen
+   venv/bin/python tools/stimme_ersetzen.py komplett.wav      # oder eine Gesamtaufnahme
+   ```
+
+   Das Werkzeug findet jede Aufnahme über ihr Sprech- und Pausenmuster, legt danach jeden Absatz
+   und jeden Satz einzeln an seine Stelle in der Animation (geschnitten wird nur in Sprechpausen,
+   nichts wird gestreckt), mischt das Hörbeispiel wieder ein, normalisiert auf −16 LUFS und
+   ersetzt die Tonspur von `output/nagel_fledermaus.mp4`. Die bisherige Fassung bleibt einmalig als
+   `output/nagel_fledermaus_piper.mp4` erhalten. Danach werden die Untertitel per Whisper an die
+   neue Stimme angepasst (`--schnell` lässt das aus). Die Ausgabe nennt für jede Aufnahme den
+   Versatz, die Sicherheit der Zuordnung und Stellen, die zu lang gesprochen wurden.
+
+Vorlage neu erzeugen (z. B. nach Skriptänderungen): `venv/bin/python tools/karaoke.py`.
 
 ## Gesamtvideo und Quellen-PDF
 

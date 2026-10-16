@@ -13,3 +13,6 @@ audio/narration/
 audio/scenes/
 audio/asr_report.txt
 output/scenes/
+
+# Own recordings and the mixed track built from them
+audio/eigene_stimme/

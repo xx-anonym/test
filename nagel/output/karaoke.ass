@@ -1,0 +1,957 @@
+[Script Info]
+Title: Sprechervorlage – Wie ist es, eine Fledermaus zu sein?
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Karaoke,Inter,58,&H004BA6DB,&H00DCE6EB,&H30100C0A,&H00000000,-1,0,0,0,100,100,0,0,3,16,0,2,80,80,120,1
+Style: Naechste,Inter,36,&H00A1938B,&H00A1938B,&H30100C0A,&H00000000,0,0,0,0,100,100,0,0,3,10,0,2,80,80,30,1
+Style: Info,Inter,30,&H004BA6DB,&H004BA6DB,&H30100C0A,&H00000000,-1,0,0,0,100,100,0,0,3,10,0,9,40,40,30,1
+Style: Pause,Inter,52,&H00DCE6EB,&H00DCE6EB,&H30100C0A,&H00000000,-1,0,0,0,100,100,0,0,3,18,0,5,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:01.40,Karaoke,,0,0,0,,{\k80}{\kf16}Es {\kf24}ist {\kf40}Dämmerung.
+Dialogue: 0,0:00:00.00,0:00:01.40,Naechste,,0,0,0,,Eine Fledermaus verlässt ihr Quartier.
+Dialogue: 1,0:00:01.40,0:00:03.77,Karaoke,,0,0,0,,{\k39}{\kf33}Eine {\kf58}Fledermaus {\kf46}verlässt {\kf16}ihr {\kf44}Quartier.
+Dialogue: 0,0:00:01.40,0:00:03.77,Naechste,,0,0,0,,Sie stößt Rufe aus, meist so hoch, dass wir sie nicht hören,
+Dialogue: 1,0:00:03.77,0:00:07.78,Karaoke,,0,0,0,,{\k38}{\kf25}Sie {\kf44}stößt {\kf26}Rufe {\kf60}aus, {\kf14}meist {\kf26}so\N{\kf42}hoch, {\kf18}dass {\kf10}wir {\kf10}sie {\kf26}nicht {\kf62}hören,
+Dialogue: 0,0:00:03.77,0:00:07.78,Naechste,,0,0,0,,und liest aus den Echos, wo die Mücke fliegt und wohin sie ausweicht.
+Dialogue: 1,0:00:07.78,0:00:11.43,Karaoke,,0,0,0,,{\k0}{\kf18}und {\kf24}liest {\kf14}aus {\kf20}den {\kf72}Echos, {\kf8}wo {\kf10}die\N{\kf16}Mücke {\kf58}fliegt {\kf38}und {\kf20}wohin {\kf20}sie {\kf48}ausweicht.
+Dialogue: 0,0:00:07.78,0:00:11.43,Naechste,,0,0,0,,Kurz vor dem Fang folgen die Rufe bis zu zweihundertmal pro Sekunde aufeinander.
+Dialogue: 1,0:00:11.43,0:00:16.33,Karaoke,,0,0,0,,{\k39}{\kf31}Kurz {\kf12}vor {\kf22}dem {\kf20}Fang {\kf44}folgen {\kf18}die {\kf42}Rufe {\kf26}bis {\kf32}zu\N{\kf74}zweihundertmal {\kf24}pro {\kf46}Sekunde {\kf60}aufeinander.
+Dialogue: 0,0:00:11.43,0:00:16.33,Naechste,,0,0,0,,Wir können jeden Ruf messen und jedes Echo berechnen.
+Dialogue: 1,0:00:16.33,0:00:19.53,Karaoke,,0,0,0,,{\k37}{\kf21}Wir {\kf32}können {\kf26}jeden {\kf32}Ruf {\kf50}messen\N{\kf28}und {\kf16}jedes {\kf24}Echo {\kf54}berechnen.
+Dialogue: 0,0:00:16.33,0:00:19.53,Naechste,,0,0,0,,Und doch bleibt eine Frage, die keine Messung beantwortet: Wie ist es,
+Dialogue: 1,0:00:19.53,0:00:24.04,Karaoke,,0,0,0,,{\k39}{\kf25}Und {\kf32}doch {\kf18}bleibt {\kf30}eine {\kf56}Frage, {\kf20}die {\kf22}keine\N{\kf36}Messung {\kf100}beantwortet: {\kf12}Wie {\kf22}ist {\kf38}es,
+Dialogue: 0,0:00:19.53,0:00:24.04,Naechste,,0,0,0,,diese Fledermaus zu sein?
+Dialogue: 1,0:00:24.04,0:00:25.52,Karaoke,,0,0,0,,{\k0}{\kf20}diese {\kf44}Fledermaus {\kf22}zu {\kf27}sein?
+Dialogue: 0,0:00:24.04,0:00:25.52,Naechste,,0,0,0,,1974 machte der Philosoph Thomas Nagel diese Frage zum Titel eines Aufsatzes:
+Dialogue: 1,0:00:25.81,0:00:31.57,Karaoke,,0,0,0,,{\k80}{\kf68}1974 {\kf56}machte {\kf16}der {\kf44}Philosoph {\kf36}Thomas {\kf30}Nagel\N{\kf28}diese {\kf34}Frage {\kf20}zum {\kf48}Titel {\kf20}eines {\kf96}Aufsatzes:
+Dialogue: 0,0:00:25.81,0:00:31.57,Naechste,,0,0,0,,sechzehn Seiten in der Zeitschrift The Philosophical Review.
+Dialogue: 1,0:00:31.57,0:00:34.40,Karaoke,,0,0,0,,{\k0}{\kf36}sechzehn {\kf34}Seiten {\kf20}in {\kf16}der {\kf58}Zeitschrift\N{\kf16}The {\kf72}Philosophical {\kf31}Review.
+Dialogue: 0,0:00:31.57,0:00:34.40,Naechste,,0,0,0,,Der Text wurde zu einem Bezugspunkt fast jeder späteren Debatte über Bewusstsein.
+Dialogue: 1,0:00:34.40,0:00:39.03,Karaoke,,0,0,0,,{\k37}{\kf19}Der {\kf34}Text {\kf32}wurde {\kf16}zu {\kf18}einem {\kf74}Bezugspunkt {\kf30}fast\N{\kf20}jeder {\kf56}späteren {\kf34}Debatte {\kf30}über {\kf64}Bewusstsein.
+Dialogue: 0,0:00:34.40,0:00:39.03,Naechste,,0,0,0,,Dieses Video rekonstruiert sein Argument,
+Dialogue: 1,0:00:39.03,0:00:41.97,Karaoke,,0,0,0,,{\k39}{\kf47}Dieses {\kf38}Video {\kf70}rekonstruiert {\kf14}sein {\kf86}Argument,
+Dialogue: 0,0:00:39.03,0:00:41.97,Naechste,,0,0,0,,stellt die stärksten Einwände dar und fragt,
+Dialogue: 1,0:00:41.97,0:00:44.25,Karaoke,,0,0,0,,{\k0}{\kf5}stellt {\kf21}die {\kf40}stärksten\N{\kf44}Einwände {\kf30}dar {\kf28}und {\kf60}fragt,
+Dialogue: 0,0:00:41.97,0:00:44.25,Naechste,,0,0,0,,was die echte Fledermaus und die heutige
+Dialogue: 1,0:00:44.25,0:00:46.33,Karaoke,,0,0,0,,{\k0}{\kf16}was {\kf14}die {\kf30}echte {\kf64}Fledermaus {\kf38}und {\kf16}die {\kf30}heutige
+Dialogue: 0,0:00:44.25,0:00:46.33,Naechste,,0,0,0,,Debatte über Tiere und Maschinen daran ändern.
+Dialogue: 1,0:00:46.33,0:00:49.18,Karaoke,,0,0,0,,{\k0}{\kf38}Debatte {\kf30}über {\kf36}Tiere {\kf30}und\N{\kf42}Maschinen {\kf22}daran {\kf52}ändern.
+Dialogue: 0,0:00:46.33,0:00:49.18,Naechste,,0,0,0,,Nagel hätte jedes Tier wählen können.
+Dialogue: 1,0:00:53.10,0:00:55.73,Karaoke,,0,0,0,,{\k80}{\kf40}Nagel {\kf28}hätte {\kf28}jedes {\kf26}Tier {\kf40}wählen {\kf21}können.
+Dialogue: 0,0:00:53.10,0:00:55.73,Naechste,,0,0,0,,Er nimmt die Fledermaus aus zwei Gründen.
+Dialogue: 1,0:00:55.73,0:00:58.10,Karaoke,,0,0,0,,{\k39}{\kf19}Er {\kf18}nimmt {\kf24}die {\kf48}Fledermaus {\kf24}aus {\kf28}zwei {\kf37}Gründen.
+Dialogue: 0,0:00:55.73,0:00:58.10,Naechste,,0,0,0,,Erstens zweifelt kaum jemand daran, dass sie etwas erlebt;
+Dialogue: 1,0:00:58.10,0:01:01.92,Karaoke,,0,0,0,,{\k39}{\kf55}Erstens {\kf44}zweifelt {\kf28}kaum {\kf28}jemand\N{\kf68}daran, {\kf5}dass {\kf17}sie {\kf24}etwas {\kf74}erlebt;
+Dialogue: 0,0:00:58.10,0:01:01.92,Naechste,,0,0,0,,sie ist ein Säugetier wie Mäuse oder Wale.
+Dialogue: 1,0:01:01.92,0:01:04.20,Karaoke,,0,0,0,,{\k0}{\kf14}sie {\kf22}ist {\kf16}ein {\kf50}Säugetier {\kf16}wie {\kf48}Mäuse {\kf30}oder {\kf32}Wale.
+Dialogue: 0,0:01:01.92,0:01:04.20,Naechste,,0,0,0,,Wespen oder Flundern, schreibt Nagel, habe er nicht gewählt,
+Dialogue: 1,0:01:04.20,0:01:08.42,Karaoke,,0,0,0,,{\k39}{\kf53}Wespen {\kf24}oder {\kf92}Flundern, {\kf22}schreibt\N{\kf76}Nagel, {\kf8}habe {\kf16}er {\kf22}nicht {\kf70}gewählt,
+Dialogue: 0,0:01:04.20,0:01:08.42,Naechste,,0,0,0,,weil Menschen den Glauben an Erleben verlieren,
+Dialogue: 1,0:01:08.42,0:01:10.66,Karaoke,,0,0,0,,{\k0}{\kf6}weil {\kf34}Menschen {\kf22}den {\kf38}Glauben\N{\kf24}an {\kf10}Erleben {\kf90}verlieren,
+Dialogue: 0,0:01:08.42,0:01:10.66,Naechste,,0,0,0,,je weiter man im Stammbaum hinabsteigt.
+Dialogue: 1,0:01:10.66,0:01:12.37,Karaoke,,0,0,0,,{\k0}{\kf6}je {\kf22}weiter {\kf16}man {\kf20}im {\kf38}Stammbaum {\kf68}hinabsteigt.
+Dialogue: 0,0:01:10.66,0:01:12.37,Naechste,,0,0,0,,Zweitens nehmen die meisten Fledermäuse ihre Welt vor allem über Echoortung wahr.
+Dialogue: 1,0:01:12.37,0:01:17.23,Karaoke,,0,0,0,,{\k70}{\kf58}Zweitens {\kf22}nehmen {\kf26}die {\kf34}meisten {\kf80}Fledermäuse\N{\kf26}ihre {\kf22}Welt {\kf22}vor {\kf22}allem {\kf54}über {\kf34}Echoortung {\kf17}wahr.
+Dialogue: 0,0:01:12.37,0:01:17.23,Naechste,,0,0,0,,Sie stoßen schnelle, fein modulierte,
+Dialogue: 1,0:01:17.23,0:01:19.62,Karaoke,,0,0,0,,{\k38}{\kf25}Sie {\kf38}stoßen {\kf68}schnelle, {\kf34}fein {\kf36}modulierte,
+Dialogue: 0,0:01:17.23,0:01:19.62,Naechste,,0,0,0,,hohe Rufe aus und unterscheiden an den Echos Entfernung, Größe, Form,
+Dialogue: 1,0:01:19.62,0:01:24.26,Karaoke,,0,0,0,,{\k0}{\kf14}hohe {\kf58}Rufe {\kf20}aus {\kf40}und {\kf64}unterscheiden {\kf20}an\N{\kf12}den {\kf46}Echos {\kf64}Entfernung, {\kf80}Größe, {\kf46}Form,
+Dialogue: 0,0:01:19.62,0:01:24.26,Naechste,,0,0,0,,Bewegung und Oberfläche – Leistungen, die bei uns vor allem das Sehen übernimmt.
+Dialogue: 1,0:01:24.26,0:01:28.50,Karaoke,,0,0,0,,{\k0}{\kf46}Bewegung {\kf18}und {\kf62}Oberfläche {\kf6}– {\kf106}Leistungen, {\kf8}die\N{\kf16}bei {\kf20}uns {\kf20}vor {\kf26}allem {\kf24}das {\kf24}Sehen {\kf48}übernimmt.
+Dialogue: 0,0:01:24.26,0:01:28.50,Naechste,,0,0,0,,Aber dieses Sonar, so Nagel, funktioniert anders als jeder unserer Sinne.
+Dialogue: 1,0:01:28.50,0:01:33.30,Karaoke,,0,0,0,,{\k37}{\kf31}Aber {\kf34}dieses {\kf64}Sonar, {\kf20}so {\kf92}Nagel, {\kf36}funktioniert\N{\kf46}anders {\kf32}als {\kf18}jeder {\kf32}unserer {\kf38}Sinne.
+Dialogue: 0,0:01:28.50,0:01:33.30,Naechste,,0,0,0,,Es gibt keinen Grund anzunehmen, dass es sich anfühlt wie irgendetwas,
+Dialogue: 1,0:01:33.30,0:01:37.78,Karaoke,,0,0,0,,{\k39}{\kf23}Es {\kf28}gibt {\kf24}keinen {\kf32}Grund {\kf92}anzunehmen,\N{\kf6}dass {\kf14}es {\kf20}sich {\kf56}anfühlt {\kf28}wie {\kf86}irgendetwas,
+Dialogue: 0,0:01:33.30,0:01:37.78,Naechste,,0,0,0,,das wir erleben oder uns vorstellen können.
+Dialogue: 1,0:01:37.78,0:01:39.90,Karaoke,,0,0,0,,{\k0}{\kf16}das {\kf18}wir {\kf42}erleben {\kf28}oder\N{\kf28}uns {\kf40}vorstellen {\kf40}können.
+Dialogue: 0,0:01:37.78,0:01:39.90,Naechste,,0,0,0,,Die Fledermaus ist also nah genug,
+Dialogue: 1,0:01:39.90,0:01:42.52,Karaoke,,0,0,0,,{\k70}{\kf12}Die {\kf62}Fledermaus {\kf20}ist {\kf16}also {\kf18}nah {\kf64}genug,
+Dialogue: 0,0:01:39.90,0:01:42.52,Naechste,,0,0,0,,dass wir ihr Erleben zusprechen, und fremd genug,
+Dialogue: 1,0:01:42.52,0:01:45.22,Karaoke,,0,0,0,,{\k0}{\kf10}dass {\kf16}wir {\kf12}ihr {\kf28}Erleben\N{\kf56}zusprechen, {\kf58}und {\kf36}fremd {\kf54}genug,
+Dialogue: 0,0:01:42.52,0:01:45.22,Naechste,,0,0,0,,dass wir es nicht nachvollziehen können.
+Dialogue: 1,0:01:45.22,0:01:46.83,Karaoke,,0,0,0,,{\k0}{\kf8}dass {\kf16}wir {\kf12}es {\kf16}nicht {\kf60}nachvollziehen {\kf49}können.
+Dialogue: 0,0:01:45.22,0:01:46.83,Naechste,,0,0,0,,Woher die Idee kam, hat Nagel fünfzig Jahre später erzählt:
+Dialogue: 1,0:01:46.83,0:01:51.08,Karaoke,,0,0,0,,{\k38}{\kf33}Woher {\kf16}die {\kf20}Idee {\kf62}kam, {\kf8}hat {\kf36}Nagel\N{\kf34}fünfzig {\kf44}Jahre {\kf32}später {\kf102}erzählt:
+Dialogue: 0,0:01:46.83,0:01:51.08,Naechste,,0,0,0,,In den frühen Siebzigerjahren nisteten
+Dialogue: 1,0:01:51.08,0:01:52.80,Karaoke,,0,0,0,,{\k0}{\kf8}In {\kf8}den {\kf44}frühen {\kf66}Siebzigerjahren {\kf46}nisteten
+Dialogue: 0,0:01:51.08,0:01:52.80,Naechste,,0,0,0,,Fledermäuse in seinem Landhaus in Pennsylvania.
+Dialogue: 1,0:01:52.80,0:01:55.50,Karaoke,,0,0,0,,{\k0}{\kf80}Fledermäuse {\kf18}in {\kf20}seinem\N{\kf50}Landhaus {\kf18}in {\kf84}Pennsylvania.
+Dialogue: 0,0:01:52.80,0:01:55.50,Naechste,,0,0,0,,Manchmal verirrte sich eine ins Haus –
+Dialogue: 1,0:01:55.50,0:01:57.58,Karaoke,,0,0,0,,{\k37}{\kf45}Manchmal {\kf40}verirrte {\kf18}sich {\kf20}eine {\kf14}ins {\kf27}Haus {\kf7}–
+Dialogue: 0,0:01:55.50,0:01:57.58,Naechste,,0,0,0,,für ihn eine beunruhigend nahe Begegnung mit einem fremden Wesen.
+Dialogue: 1,0:01:57.58,0:02:00.70,Karaoke,,0,0,0,,{\k0}{\kf40}für {\kf12}ihn {\kf18}eine {\kf64}beunruhigend {\kf28}nahe\N{\kf42}Begegnung {\kf12}mit {\kf14}einem {\kf42}fremden {\kf40}Wesen.
+Dialogue: 0,0:01:57.58,0:02:00.70,Naechste,,0,0,0,,Der Fledermaus, vermutet er, ging es genauso.
+Dialogue: 1,0:02:00.70,0:02:04.32,Karaoke,,0,0,0,,{\k38}{\kf21}Der {\kf70}Fledermaus, {\kf58}vermutet\N{\kf52}er, {\kf18}ging {\kf14}es {\kf55}genauso.
+Dialogue: 0,0:02:00.70,0:02:04.32,Naechste,,0,0,0,,Wogegen schreibt Nagel?
+Dialogue: 1,0:02:08.27,0:02:10.33,Karaoke,,0,0,0,,{\k80}{\kf40}Wogegen {\kf36}schreibt {\kf51}Nagel?
+Dialogue: 0,0:02:08.27,0:02:10.33,Naechste,,0,0,0,,Um 1970 erlebte die Philosophie des Geistes, wie er sagt,
+Dialogue: 1,0:02:10.33,0:02:13.87,Karaoke,,0,0,0,,{\k39}{\kf11}Um {\kf66}1970 {\kf52}erlebte {\kf16}die {\kf46}Philosophie\N{\kf14}des {\kf44}Geistes, {\kf12}wie {\kf5}er {\kf49}sagt,
+Dialogue: 0,0:02:10.33,0:02:13.87,Naechste,,0,0,0,,eine Welle reduktionistischer Euphorie: Man wollte zeigen,
+Dialogue: 1,0:02:13.87,0:02:16.41,Karaoke,,0,0,0,,{\k0}{\kf12}eine {\kf28}Welle {\kf66}reduktionistischer\N{\kf58}Euphorie: {\kf10}Man {\kf26}wollte {\kf54}zeigen,
+Dialogue: 0,0:02:13.87,0:02:16.41,Naechste,,0,0,0,,dass Mentales in Wahrheit dasselbe ist wie etwas,
+Dialogue: 1,0:02:16.41,0:02:18.51,Karaoke,,0,0,0,,{\k0}{\kf8}dass {\kf37}Mentales {\kf9}in {\kf37}Wahrheit\N{\kf40}dasselbe {\kf12}ist {\kf16}wie {\kf50}etwas,
+Dialogue: 0,0:02:16.41,0:02:18.51,Naechste,,0,0,0,,das eine grundlegendere Wissenschaft beschreibt.
+Dialogue: 1,0:02:18.51,0:02:20.43,Karaoke,,0,0,0,,{\k0}{\kf10}das {\kf12}eine {\kf54}grundlegendere\N{\kf40}Wissenschaft {\kf76}beschreibt.
+Dialogue: 0,0:02:18.51,0:02:20.43,Naechste,,0,0,0,,Drei Ansätze prägten die Debatte.
+Dialogue: 1,0:02:20.43,0:02:22.97,Karaoke,,0,0,0,,{\k70}{\kf26}Drei {\kf52}Ansätze {\kf50}prägten {\kf8}die {\kf47}Debatte.
+Dialogue: 0,0:02:20.43,0:02:22.97,Naechste,,0,0,0,,Der Behaviorismus verstand mentale Begriffe als
+Dialogue: 1,0:02:22.97,0:02:25.97,Karaoke,,0,0,0,,{\k37}{\kf13}Der {\kf82}Behaviorismus {\kf52}verstand\N{\kf50}mentale {\kf48}Begriffe {\kf18}als
+Dialogue: 0,0:02:22.97,0:02:25.97,Naechste,,0,0,0,,Rede über Verhalten und Verhaltensneigungen.
+Dialogue: 1,0:02:25.97,0:02:28.43,Karaoke,,0,0,0,,{\k0}{\kf24}Rede {\kf24}über {\kf52}Verhalten {\kf34}und\N{\kf113}Verhaltensneigungen.
+Dialogue: 0,0:02:25.97,0:02:28.43,Naechste,,0,0,0,,Die Identitätstheorie von Ullin Place und J. J. C. Smart behauptete,
+Dialogue: 1,0:02:28.43,0:02:33.57,Karaoke,,0,0,0,,{\k37}{\kf15}Die {\kf118}Identitätstheorie {\kf25}von {\kf42}Ullin\N{\kf42}Place {\kf61}und {\kf20}J. {\kf20}J. {\kf20}C. {\kf28}Smart {\kf86}behauptete,
+Dialogue: 0,0:02:28.43,0:02:33.57,Naechste,,0,0,0,,Empfindungen seien Gehirnprozesse.
+Dialogue: 1,0:02:33.57,0:02:35.37,Karaoke,,0,0,0,,{\k0}{\kf54}Empfindungen {\kf34}seien {\kf91}Gehirnprozesse.
+Dialogue: 0,0:02:33.57,0:02:35.37,Naechste,,0,0,0,,Und der Funktionalismus, angestoßen von Hilary Putnam,
+Dialogue: 1,0:02:35.37,0:02:38.99,Karaoke,,0,0,0,,{\k37}{\kf13}Und {\kf12}der {\kf108}Funktionalismus,\N{\kf58}angestoßen {\kf16}von {\kf28}Hilary {\kf90}Putnam,
+Dialogue: 0,0:02:35.37,0:02:38.99,Naechste,,0,0,0,,bestimmte mentale Zustände über ihre Rolle:
+Dialogue: 1,0:02:38.99,0:02:41.55,Karaoke,,0,0,0,,{\k0}{\kf38}bestimmte {\kf50}mentale\N{\kf60}Zustände {\kf18}über {\kf24}ihre {\kf66}Rolle:
+Dialogue: 0,0:02:38.99,0:02:41.55,Naechste,,0,0,0,,was sie auslöst und was sie bewirken,
+Dialogue: 1,0:02:41.55,0:02:43.79,Karaoke,,0,0,0,,{\k0}{\kf10}was {\kf12}sie {\kf52}auslöst {\kf40}und {\kf22}was {\kf16}sie {\kf72}bewirken,
+Dialogue: 0,0:02:41.55,0:02:43.79,Naechste,,0,0,0,,gleichgültig, aus welchem Material das System besteht.
+Dialogue: 1,0:02:43.79,0:02:46.77,Karaoke,,0,0,0,,{\k0}{\kf94}gleichgültig, {\kf12}aus {\kf36}welchem\N{\kf46}Material {\kf22}das {\kf34}System {\kf54}besteht.
+Dialogue: 0,0:02:43.79,0:02:46.77,Naechste,,0,0,0,,Nagels erste Fußnote nennt Vertreter, darunter Smart, David Lewis,
+Dialogue: 1,0:02:46.77,0:02:51.67,Karaoke,,0,0,0,,{\k70}{\kf44}Nagels {\kf38}erste {\kf54}Fußnote {\kf28}nennt {\kf88}Vertreter,\N{\kf30}darunter {\kf70}Smart, {\kf18}David {\kf50}Lewis,
+Dialogue: 0,0:02:46.77,0:02:51.67,Naechste,,0,0,0,,Putnam und Daniel Dennett.
+Dialogue: 1,0:02:51.67,0:02:53.30,Karaoke,,0,0,0,,{\k0}{\kf76}Putnam {\kf9}und {\kf17}Daniel {\kf61}Dennett.
+Dialogue: 0,0:02:51.67,0:02:53.30,Naechste,,0,0,0,,Jeder Reduktionist, spottet er, habe seine Lieblingsanalogie: Wasser und H₂O,
+Dialogue: 1,0:02:53.30,0:02:59.03,Karaoke,,0,0,0,,{\k38}{\kf17}Jeder {\kf90}Reduktionist, {\kf42}spottet {\kf52}er, {\kf16}habe\N{\kf20}seine {\kf121}Lieblingsanalogie: {\kf43}Wasser {\kf45}und {\kf89}H₂O,
+Dialogue: 0,0:02:53.30,0:02:59.03,Naechste,,0,0,0,,Blitz und elektrische Entladung, Gen und DNA.
+Dialogue: 1,0:02:59.03,0:03:01.93,Karaoke,,0,0,0,,{\k0}{\kf26}Blitz {\kf16}und {\kf52}elektrische\N{\kf81}Entladung, {\kf27}Gen {\kf33}und {\kf55}DNA.
+Dialogue: 0,0:02:59.03,0:03:01.93,Naechste,,0,0,0,,Übergangen werde, was das Leib-Seele-Problem
+Dialogue: 1,0:03:01.93,0:03:04.63,Karaoke,,0,0,0,,{\k39}{\kf53}Übergangen {\kf62}werde, {\kf10}was\N{\kf17}das {\kf89}Leib-Seele-Problem
+Dialogue: 0,0:03:01.93,0:03:04.63,Naechste,,0,0,0,,einzigartig macht: das Bewusstsein.
+Dialogue: 1,0:03:04.63,0:03:06.83,Karaoke,,0,0,0,,{\k0}{\kf80}einzigartig {\kf54}macht: {\kf5}das {\kf81}Bewusstsein.
+Dialogue: 0,0:03:04.63,0:03:06.83,Naechste,,0,0,0,,Ohne Bewusstsein wäre das Problem viel weniger interessant.
+Dialogue: 1,0:03:06.83,0:03:10.33,Karaoke,,0,0,0,,{\k39}{\kf27}Ohne {\kf68}Bewusstsein {\kf24}wäre {\kf18}das\N{\kf40}Problem {\kf26}viel {\kf34}weniger {\kf74}interessant.
+Dialogue: 0,0:03:06.83,0:03:10.33,Naechste,,0,0,0,,Mit Bewusstsein scheint es hoffnungslos.
+Dialogue: 1,0:03:10.33,0:03:13.18,Karaoke,,0,0,0,,{\k38}{\kf13}Mit {\kf64}Bewusstsein {\kf24}scheint {\kf24}es {\kf87}hoffnungslos.
+Dialogue: 0,0:03:10.33,0:03:13.18,Naechste,,0,0,0,,Nagels zentrale Bestimmung steht auf Seite 436:
+Dialogue: 1,0:03:17.13,0:03:21.47,Karaoke,,0,0,0,,{\k80}{\kf34}Nagels {\kf48}zentrale {\kf42}Bestimmung\N{\kf24}steht {\kf20}auf {\kf22}Seite {\kf164}436:
+Dialogue: 0,0:03:17.13,0:03:21.47,Naechste,,0,0,0,,Ein Organismus hat genau dann bewusste mentale Zustände, wenn es irgendwie ist,
+Dialogue: 1,0:03:21.47,0:03:25.75,Karaoke,,0,0,0,,{\k0}{\kf16}Ein {\kf48}Organismus {\kf16}hat {\kf24}genau {\kf24}dann {\kf40}bewusste\N{\kf40}mentale {\kf90}Zustände, {\kf8}wenn {\kf14}es {\kf34}irgendwie {\kf74}ist,
+Dialogue: 0,0:03:21.47,0:03:25.75,Naechste,,0,0,0,,dieser Organismus zu sein – irgendwie für den Organismus selbst.
+Dialogue: 1,0:03:25.75,0:03:28.77,Karaoke,,0,0,0,,{\k0}{\kf12}dieser {\kf56}Organismus {\kf18}zu {\kf43}sein {\kf11}–\N{\kf22}irgendwie {\kf22}für {\kf6}den {\kf54}Organismus {\kf57}selbst.
+Dialogue: 0,0:03:25.75,0:03:28.77,Naechste,,0,0,0,,Dieses Merkmal nennt Nagel den subjektiven Charakter der Erfahrung.
+Dialogue: 1,0:03:28.77,0:03:32.40,Karaoke,,0,0,0,,{\k37}{\kf23}Dieses {\kf54}Merkmal {\kf22}nennt {\kf29}Nagel {\kf15}den\N{\kf62}subjektiven {\kf46}Charakter {\kf10}der {\kf66}Erfahrung.
+Dialogue: 0,0:03:28.77,0:03:32.40,Naechste,,0,0,0,,Die Formel lädt zu einem Missverständnis ein.
+Dialogue: 1,0:03:32.40,0:03:35.37,Karaoke,,0,0,0,,{\k70}{\kf12}Die {\kf48}Formel {\kf18}lädt {\kf14}zu {\kf16}einem\N{\kf86}Missverständnis {\kf33}ein.
+Dialogue: 0,0:03:32.40,0:03:35.37,Naechste,,0,0,0,,Gemeint ist kein Vergleich, stellt Nagel klar,
+Dialogue: 1,0:03:35.37,0:03:38.56,Karaoke,,0,0,0,,{\k37}{\kf45}Gemeint {\kf12}ist {\kf20}kein {\kf90}Vergleich,\N{\kf20}stellt {\kf30}Nagel {\kf66}klar,
+Dialogue: 0,0:03:35.37,0:03:38.56,Naechste,,0,0,0,,sondern wie es für das Subjekt selbst ist.
+Dialogue: 1,0:03:38.56,0:03:40.37,Karaoke,,0,0,0,,{\k0}{\kf14}sondern {\kf32}wie {\kf12}es {\kf12}für {\kf8}das {\kf34}Subjekt {\kf26}selbst {\kf42}ist.
+Dialogue: 0,0:03:38.56,0:03:40.37,Naechste,,0,0,0,,Von einem Stein nehmen wir an, dass es nicht irgendwie ist, ein Stein zu sein;
+Dialogue: 1,0:03:40.37,0:03:44.91,Karaoke,,0,0,0,,{\k40}{\kf17}Von {\kf18}einem {\kf28}Stein {\kf22}nehmen {\kf16}wir {\kf42}an, {\kf20}dass {\kf14}es\N{\kf20}nicht {\kf38}irgendwie {\kf70}ist, {\kf8}ein {\kf20}Stein {\kf22}zu {\kf60}sein;
+Dialogue: 0,0:03:40.37,0:03:44.91,Naechste,,0,0,0,,von einer Fledermaus nehmen wir an, dass es so ist.
+Dialogue: 1,0:03:44.91,0:03:47.33,Karaoke,,0,0,0,,{\k0}{\kf8}von {\kf16}einer {\kf50}Fledermaus {\kf24}nehmen\N{\kf20}wir {\kf50}an, {\kf12}dass {\kf14}es {\kf18}so {\kf30}ist.
+Dialogue: 0,0:03:44.91,0:03:47.33,Naechste,,0,0,0,,Warum ist das ein Problem für die Reduktionisten?
+Dialogue: 1,0:03:47.33,0:03:50.33,Karaoke,,0,0,0,,{\k70}{\kf26}Warum {\kf18}ist {\kf14}das {\kf16}ein {\kf32}Problem\N{\kf30}für {\kf10}die {\kf84}Reduktionisten?
+Dialogue: 0,0:03:47.33,0:03:50.33,Naechste,,0,0,0,,Weil ihre Analysen, so Nagel, logisch damit vereinbar sind,
+Dialogue: 1,0:03:50.33,0:03:54.17,Karaoke,,0,0,0,,{\k38}{\kf19}Weil {\kf16}ihre {\kf60}Analysen, {\kf20}so {\kf42}Nagel,\N{\kf74}logisch {\kf14}damit {\kf50}vereinbar {\kf50}sind,
+Dialogue: 0,0:03:50.33,0:03:54.17,Naechste,,0,0,0,,dass genau dieses Merkmal fehlt.
+Dialogue: 1,0:03:54.17,0:03:55.80,Karaoke,,0,0,0,,{\k0}{\kf10}dass {\kf32}genau {\kf28}dieses {\kf54}Merkmal {\kf39}fehlt.
+Dialogue: 0,0:03:54.17,0:03:55.80,Naechste,,0,0,0,,Funktionale Zustände könnte man auch Robotern zuschreiben,
+Dialogue: 1,0:03:55.80,0:03:59.35,Karaoke,,0,0,0,,{\k38}{\kf59}Funktionale {\kf56}Zustände {\kf26}könnte\N{\kf22}man {\kf22}auch {\kf50}Robotern {\kf82}zuschreiben,
+Dialogue: 0,0:03:55.80,0:03:59.35,Naechste,,0,0,0,,die sich wie Menschen verhalten, aber nichts erleben.
+Dialogue: 1,0:03:59.35,0:04:01.77,Karaoke,,0,0,0,,{\k0}{\kf8}die {\kf16}sich {\kf18}wie {\kf28}Menschen\N{\kf88}verhalten, {\kf10}aber {\kf20}nichts {\kf53}erleben.
+Dialogue: 0,0:03:59.35,0:04:01.77,Naechste,,0,0,0,,Nagel bestreitet nicht,
+Dialogue: 1,0:04:01.77,0:04:03.34,Karaoke,,0,0,0,,{\k38}{\kf35}Nagel {\kf58}bestreitet {\kf26}nicht,
+Dialogue: 0,0:04:01.77,0:04:03.34,Naechste,,0,0,0,,dass bewusste Zustände Verhalten verursachen
+Dialogue: 1,0:04:03.34,0:04:05.82,Karaoke,,0,0,0,,{\k0}{\kf34}dass {\kf47}bewusste {\kf47}Zustände\N{\kf53}Verhalten {\kf66}verursachen
+Dialogue: 0,0:04:03.34,0:04:05.82,Naechste,,0,0,0,,und sich funktional beschreiben lassen.
+Dialogue: 1,0:04:05.82,0:04:07.83,Karaoke,,0,0,0,,{\k0}{\kf40}und {\kf18}sich {\kf56}funktional {\kf42}beschreiben {\kf46}lassen.
+Dialogue: 0,0:04:05.82,0:04:07.83,Naechste,,0,0,0,,Er bestreitet nur, dass das ihre Analyse erschöpft.
+Dialogue: 1,0:04:07.83,0:04:11.10,Karaoke,,0,0,0,,{\k37}{\kf11}Er {\kf52}bestreitet {\kf72}nur, {\kf16}dass\N{\kf14}das {\kf20}ihre {\kf52}Analyse {\kf53}erschöpft.
+Dialogue: 0,0:04:07.83,0:04:11.10,Naechste,,0,0,0,,Wer den subjektiven Charakter weglässt, stellt das Problem falsch.
+Dialogue: 1,0:04:11.10,0:04:14.87,Karaoke,,0,0,0,,{\k38}{\kf11}Wer {\kf14}den {\kf66}subjektiven {\kf46}Charakter\N{\kf82}weglässt, {\kf10}stellt {\kf18}das {\kf34}Problem {\kf57}falsch.
+Dialogue: 0,0:04:11.10,0:04:14.87,Naechste,,0,0,0,,Nagel bleibt dabei vorsichtig.
+Dialogue: 1,0:04:14.87,0:04:17.17,Karaoke,,0,0,0,,{\k70}{\kf34}Nagel {\kf22}bleibt {\kf28}dabei {\kf76}vorsichtig.
+Dialogue: 0,0:04:14.87,0:04:17.17,Naechste,,0,0,0,,Vielleicht, räumt er in einer Fußnote ein, hätte alles, was komplex genug ist,
+Dialogue: 1,0:04:17.17,0:04:22.23,Karaoke,,0,0,0,,{\k38}{\kf45}Vielleicht, {\kf58}räumt {\kf6}er {\kf12}in {\kf28}einer {\kf40}Fußnote\N{\kf50}ein, {\kf10}hätte {\kf66}alles, {\kf14}was {\kf46}komplex {\kf28}genug {\kf66}ist,
+Dialogue: 0,0:04:17.17,0:04:22.23,Naechste,,0,0,0,,um sich wie ein Mensch zu verhalten, auch Erfahrungen.
+Dialogue: 1,0:04:22.23,0:04:24.83,Karaoke,,0,0,0,,{\k0}{\kf16}um {\kf18}sich {\kf14}wie {\kf14}ein {\kf24}Mensch {\kf16}zu\N{\kf78}verhalten, {\kf5}auch {\kf75}Erfahrungen.
+Dialogue: 0,0:04:22.23,0:04:24.83,Naechste,,0,0,0,,Aber das ließe sich nicht durch bloße Analyse
+Dialogue: 1,0:04:24.83,0:04:27.66,Karaoke,,0,0,0,,{\k39}{\kf17}Aber {\kf16}das {\kf42}ließe {\kf16}sich\N{\kf16}nicht {\kf22}durch {\kf52}bloße {\kf62}Analyse
+Dialogue: 0,0:04:24.83,0:04:27.66,Naechste,,0,0,0,,des Begriffs der Erfahrung herausfinden.
+Dialogue: 1,0:04:27.66,0:04:29.63,Karaoke,,0,0,0,,{\k0}{\kf12}des {\kf50}Begriffs {\kf6}der {\kf44}Erfahrung {\kf86}herausfinden.
+Dialogue: 0,0:04:27.66,0:04:29.63,Naechste,,0,0,0,,Diese Fußnote wird uns bei der künstlichen Intelligenz wieder begegnen.
+Dialogue: 1,0:04:29.63,0:04:34.02,Karaoke,,0,0,0,,{\k39}{\kf38}Diese {\kf53}Fußnote {\kf26}wird {\kf20}uns {\kf20}bei {\kf8}der\N{\kf48}künstlichen {\kf68}Intelligenz {\kf14}wieder {\kf69}begegnen.
+Dialogue: 0,0:04:29.63,0:04:34.02,Naechste,,0,0,0,,Der erste Schritt betrifft die Vorstellungskraft.
+Dialogue: 1,0:04:37.93,0:04:41.07,Karaoke,,0,0,0,,{\k80}{\kf12}Der {\kf30}erste {\kf28}Schritt {\kf48}betrifft\N{\kf10}die {\kf105}Vorstellungskraft.
+Dialogue: 0,0:04:37.93,0:04:41.07,Naechste,,0,0,0,,Ihr Material ist unsere eigene Erfahrung, deshalb ist ihre Reichweite begrenzt.
+Dialogue: 1,0:04:41.07,0:04:45.83,Karaoke,,0,0,0,,{\k39}{\kf11}Ihr {\kf48}Material {\kf34}ist {\kf38}unsere {\kf32}eigene {\kf86}Erfahrung,\N{\kf30}deshalb {\kf22}ist {\kf18}ihre {\kf54}Reichweite {\kf65}begrenzt.
+Dialogue: 0,0:04:41.07,0:04:45.83,Naechste,,0,0,0,,Man kann sich ausmalen, Flughäute zu haben,
+Dialogue: 1,0:04:45.83,0:04:48.85,Karaoke,,0,0,0,,{\k39}{\kf15}Man {\kf22}kann {\kf16}sich {\kf86}ausmalen,\N{\kf50}Flughäute {\kf16}zu {\kf58}haben,
+Dialogue: 0,0:04:45.83,0:04:48.85,Naechste,,0,0,0,,in der Dämmerung Insekten zu fangen und den
+Dialogue: 1,0:04:48.85,0:04:50.93,Karaoke,,0,0,0,,{\k0}{\kf6}in {\kf10}der {\kf44}Dämmerung {\kf50}Insekten\N{\kf12}zu {\kf40}fangen {\kf30}und {\kf16}den
+Dialogue: 0,0:04:48.85,0:04:50.93,Naechste,,0,0,0,,Tag kopfüber auf einem Dachboden zu verbringen.
+Dialogue: 1,0:04:50.93,0:04:53.23,Karaoke,,0,0,0,,{\k0}{\kf24}Tag {\kf58}kopfüber {\kf12}auf {\kf16}einem\N{\kf56}Dachboden {\kf12}zu {\kf52}verbringen.
+Dialogue: 0,0:04:50.93,0:04:53.23,Naechste,,0,0,0,,Aber, schreibt Nagel, das sagt mir nur, wie es für mich wäre,
+Dialogue: 1,0:04:53.23,0:04:57.77,Karaoke,,0,0,0,,{\k70}{\kf78}Aber, {\kf26}schreibt {\kf76}Nagel, {\kf12}das {\kf22}sagt\N{\kf18}mir {\kf46}nur, {\kf10}wie {\kf12}es {\kf10}für {\kf14}mich {\kf60}wäre,
+Dialogue: 0,0:04:53.23,0:04:57.77,Naechste,,0,0,0,,mich wie eine Fledermaus zu verhalten.
+Dialogue: 1,0:04:57.77,0:04:59.43,Karaoke,,0,0,0,,{\k0}{\kf10}mich {\kf14}wie {\kf18}eine {\kf50}Fledermaus {\kf14}zu {\kf60}verhalten.
+Dialogue: 0,0:04:57.77,0:04:59.43,Naechste,,0,0,0,,Das ist nicht die Frage.
+Dialogue: 1,0:04:59.43,0:05:00.97,Karaoke,,0,0,0,,{\k37}{\kf15}Das {\kf14}ist {\kf16}nicht {\kf18}die {\kf54}Frage.
+Dialogue: 0,0:04:59.43,0:05:00.97,Naechste,,0,0,0,,Ich will wissen, wie es für eine Fledermaus ist, eine Fledermaus zu sein.
+Dialogue: 1,0:05:00.97,0:05:05.10,Karaoke,,0,0,0,,{\k37}{\kf15}Ich {\kf16}will {\kf32}wissen, {\kf34}wie {\kf14}es {\kf18}für {\kf12}eine\N{\kf58}Fledermaus {\kf30}ist, {\kf44}eine {\kf54}Fledermaus {\kf20}zu {\kf30}sein.
+Dialogue: 0,0:05:00.97,0:05:05.10,Naechste,,0,0,0,,Ob ich meiner Erfahrung etwas hinzufüge, etwas abziehe oder sie abwandle –
+Dialogue: 1,0:05:05.10,0:05:09.90,Karaoke,,0,0,0,,{\k39}{\kf15}Ob {\kf16}ich {\kf20}meiner {\kf58}Erfahrung {\kf36}etwas {\kf94}hinzufüge,\N{\kf14}etwas {\kf72}abziehe {\kf26}oder {\kf16}sie {\kf66}abwandle {\kf8}–
+Dialogue: 0,0:05:05.10,0:05:09.90,Naechste,,0,0,0,,keine dieser Operationen führt dorthin.
+Dialogue: 1,0:05:09.90,0:05:11.90,Karaoke,,0,0,0,,{\k0}{\kf18}keine {\kf30}dieser {\kf80}Operationen {\kf12}führt {\kf60}dorthin.
+Dialogue: 0,0:05:09.90,0:05:11.90,Naechste,,0,0,0,,Wir können der Fledermaus allgemeine Typen von Erfahrung zuschreiben: Schmerz,
+Dialogue: 1,0:05:11.90,0:05:16.53,Karaoke,,0,0,0,,{\k38}{\kf11}Wir {\kf26}können {\kf20}der {\kf54}Fledermaus {\kf60}allgemeine\N{\kf32}Typen {\kf14}von {\kf66}Erfahrung {\kf64}zuschreiben: {\kf78}Schmerz,
+Dialogue: 0,0:05:11.90,0:05:16.53,Naechste,,0,0,0,,Furcht, Hunger, eine Art räumliche Wahrnehmung nach vorn.
+Dialogue: 1,0:05:16.53,0:05:19.40,Karaoke,,0,0,0,,{\k0}{\kf62}Furcht, {\kf42}Hunger, {\kf12}eine {\kf20}Art\N{\kf44}räumliche {\kf46}Wahrnehmung {\kf18}nach {\kf43}vorn.
+Dialogue: 0,0:05:16.53,0:05:19.40,Naechste,,0,0,0,,Von ihrem besonderen Charakter bleibt uns nur eine schematische Vorstellung.
+Dialogue: 1,0:05:19.40,0:05:23.67,Karaoke,,0,0,0,,{\k38}{\kf13}Von {\kf24}ihrem {\kf58}besonderen {\kf50}Charakter {\kf36}bleibt\N{\kf24}uns {\kf28}nur {\kf18}eine {\kf62}schematische {\kf76}Vorstellung.
+Dialogue: 0,0:05:19.40,0:05:23.67,Naechste,,0,0,0,,Der zweite Schritt sichert, dass es solche Tatsachen trotzdem gibt.
+Dialogue: 1,0:05:23.67,0:05:27.77,Karaoke,,0,0,0,,{\k70}{\kf12}Der {\kf32}zweite {\kf34}Schritt {\kf72}sichert, {\kf10}dass\N{\kf16}es {\kf16}solche {\kf62}Tatsachen {\kf22}trotzdem {\kf64}gibt.
+Dialogue: 0,0:05:23.67,0:05:27.77,Naechste,,0,0,0,,Angenommen, intelligente Fledermäuse oder Marsianer versuchten sich vorzustellen,
+Dialogue: 1,0:05:27.77,0:05:32.85,Karaoke,,0,0,0,,{\k39}{\kf77}Angenommen, {\kf62}intelligente {\kf78}Fledermäuse {\kf26}oder\N{\kf58}Marsianer {\kf60}versuchten {\kf16}sich {\kf92}vorzustellen,
+Dialogue: 0,0:05:27.77,0:05:32.85,Naechste,,0,0,0,,wie es ist, ein Mensch zu sein.
+Dialogue: 1,0:05:32.85,0:05:34.60,Karaoke,,0,0,0,,{\k0}{\kf10}wie {\kf20}es {\kf46}ist, {\kf10}ein {\kf24}Mensch {\kf24}zu {\kf41}sein.
+Dialogue: 0,0:05:32.85,0:05:34.60,Naechste,,0,0,0,,Sie würden scheitern.
+Dialogue: 1,0:05:34.60,0:05:36.03,Karaoke,,0,0,0,,{\k36}{\kf17}Sie {\kf26}würden {\kf64}scheitern.
+Dialogue: 0,0:05:34.60,0:05:36.03,Naechste,,0,0,0,,Aber sie lägen falsch, wenn sie schlössen, es sei nicht auf bestimmte Weise,
+Dialogue: 1,0:05:36.03,0:05:40.49,Karaoke,,0,0,0,,{\k39}{\kf19}Aber {\kf20}sie {\kf24}lägen {\kf74}falsch, {\kf8}wenn {\kf12}sie {\kf72}schlössen,\N{\kf16}es {\kf14}sei {\kf20}nicht {\kf12}auf {\kf48}bestimmte {\kf68}Weise,
+Dialogue: 0,0:05:36.03,0:05:40.49,Naechste,,0,0,0,,wir zu sein – das wissen wir aus eigener Erfahrung.
+Dialogue: 1,0:05:40.49,0:05:42.93,Karaoke,,0,0,0,,{\k0}{\kf14}wir {\kf20}zu {\kf42}sein {\kf10}– {\kf10}das {\kf18}wissen\N{\kf22}wir {\kf16}aus {\kf38}eigener {\kf54}Erfahrung.
+Dialogue: 0,0:05:40.49,0:05:42.93,Naechste,,0,0,0,,Nagel nennt diese Haltung einen Realismus über das Subjektive.
+Dialogue: 1,0:05:42.93,0:05:46.57,Karaoke,,0,0,0,,{\k37}{\kf37}Nagel {\kf28}nennt {\kf16}diese {\kf36}Haltung {\kf26}einen\N{\kf64}Realismus {\kf32}über {\kf14}das {\kf74}Subjektive.
+Dialogue: 0,0:05:42.93,0:05:46.57,Naechste,,0,0,0,,Der dritte Schritt: Diese Tatsachen sind an einen Standpunkt gebunden –
+Dialogue: 1,0:05:46.57,0:05:50.99,Karaoke,,0,0,0,,{\k70}{\kf19}Der {\kf37}dritte {\kf48}Schritt: {\kf16}Diese {\kf52}Tatsachen\N{\kf20}sind {\kf20}an {\kf22}einen {\kf48}Standpunkt {\kf80}gebunden {\kf10}–
+Dialogue: 0,0:05:46.57,0:05:50.99,Naechste,,0,0,0,,nicht an ein privates Ich, sondern an einen Typ,
+Dialogue: 1,0:05:50.99,0:05:53.33,Karaoke,,0,0,0,,{\k0}{\kf14}nicht {\kf18}an {\kf10}ein {\kf32}privates\N{\kf72}Ich, {\kf22}sondern {\kf24}an {\kf18}einen {\kf24}Typ,
+Dialogue: 0,0:05:50.99,0:05:53.33,Naechste,,0,0,0,,den Standpunkt eines Wesens mit einer bestimmten Art von Wahrnehmung.
+Dialogue: 1,0:05:53.33,0:05:56.43,Karaoke,,0,0,0,,{\k0}{\kf24}den {\kf46}Standpunkt {\kf24}eines {\kf52}Wesens {\kf12}mit\N{\kf14}einer {\kf52}bestimmten {\kf18}Art {\kf16}von {\kf53}Wahrnehmung.
+Dialogue: 0,0:05:53.33,0:05:56.43,Naechste,,0,0,0,,Je unähnlicher uns ein Wesen ist, desto weniger können wir ihn einnehmen.
+Dialogue: 1,0:05:56.43,0:06:00.57,Karaoke,,0,0,0,,{\k39}{\kf17}Je {\kf52}unähnlicher {\kf18}uns {\kf18}ein {\kf26}Wesen {\kf52}ist,\N{\kf24}desto {\kf24}weniger {\kf38}können {\kf22}wir {\kf20}ihn {\kf63}einnehmen.
+Dialogue: 0,0:05:56.43,0:06:00.57,Naechste,,0,0,0,,Schon wie ein von Geburt an taubblinder Mensch erlebt, ist mir, so Nagel,
+Dialogue: 1,0:06:00.57,0:06:04.96,Karaoke,,0,0,0,,{\k37}{\kf21}Schon {\kf14}wie {\kf12}ein {\kf16}von {\kf38}Geburt {\kf9}an {\kf51}taubblinder\N{\kf20}Mensch {\kf58}erlebt, {\kf14}ist {\kf58}mir, {\kf20}so {\kf72}Nagel,
+Dialogue: 0,0:06:00.57,0:06:04.96,Naechste,,0,0,0,,nicht zugänglich.
+Dialogue: 1,0:06:04.96,0:06:05.87,Karaoke,,0,0,0,,{\k0}{\kf12}nicht {\kf78}zugänglich.
+Dialogue: 0,0:06:04.96,0:06:05.87,Naechste,,0,0,0,,Jetzt kommt der entscheidende Kontrast.
+Dialogue: 1,0:06:05.87,0:06:08.40,Karaoke,,0,0,0,,{\k70}{\kf18}Jetzt {\kf32}kommt {\kf18}der {\kf48}entscheidende {\kf67}Kontrast.
+Dialogue: 0,0:06:05.87,0:06:08.40,Naechste,,0,0,0,,Physikalische Tatsachen sind objektive Tatsachen schlechthin:
+Dialogue: 1,0:06:08.40,0:06:12.28,Karaoke,,0,0,0,,{\k37}{\kf85}Physikalische {\kf52}Tatsachen {\kf22}sind\N{\kf58}objektive {\kf54}Tatsachen {\kf80}schlechthin:
+Dialogue: 0,0:06:08.40,0:06:12.28,Naechste,,0,0,0,,von vielen Standpunkten aus zu verstehen, auch von Wesen mit ganz anderen Sinnen.
+Dialogue: 1,0:06:12.28,0:06:16.47,Karaoke,,0,0,0,,{\k0}{\kf10}von {\kf28}vielen {\kf86}Standpunkten {\kf20}aus {\kf16}zu {\kf80}verstehen,\N{\kf16}auch {\kf22}von {\kf28}Wesen {\kf14}mit {\kf14}ganz {\kf38}anderen {\kf46}Sinnen.
+Dialogue: 0,0:06:12.28,0:06:16.47,Naechste,,0,0,0,,Nagels Beispiel ist der Blitz.
+Dialogue: 1,0:06:16.47,0:06:18.53,Karaoke,,0,0,0,,{\k38}{\kf41}Nagels {\kf42}Beispiel {\kf32}ist {\kf16}der {\kf38}Blitz.
+Dialogue: 0,0:06:16.47,0:06:18.53,Naechste,,0,0,0,,Ein marsianischer Wissenschaftler ohne Sehsinn wüsste nie,
+Dialogue: 1,0:06:18.53,0:06:21.67,Karaoke,,0,0,0,,{\k39}{\kf17}Ein {\kf62}marsianischer {\kf78}Wissenschaftler\N{\kf21}ohne {\kf37}Sehsinn {\kf34}wüsste {\kf26}nie,
+Dialogue: 0,0:06:18.53,0:06:21.67,Naechste,,0,0,0,,wie ein Blitz für uns aussieht.
+Dialogue: 1,0:06:21.67,0:06:23.37,Karaoke,,0,0,0,,{\k0}{\kf40}wie {\kf18}ein {\kf30}Blitz {\kf16}für {\kf12}uns {\kf53}aussieht.
+Dialogue: 0,0:06:21.67,0:06:23.37,Naechste,,0,0,0,,Aber er könnte verstehen, was ein Blitz ist: eine elektrische Entladung.
+Dialogue: 1,0:06:23.37,0:06:27.73,Karaoke,,0,0,0,,{\k37}{\kf19}Aber {\kf14}er {\kf22}könnte {\kf82}verstehen, {\kf12}was {\kf18}ein\N{\kf32}Blitz {\kf56}ist: {\kf14}eine {\kf64}elektrische {\kf67}Entladung.
+Dialogue: 0,0:06:23.37,0:06:27.73,Naechste,,0,0,0,,Der Blitz hat einen objektiven Charakter,
+Dialogue: 1,0:06:27.73,0:06:30.41,Karaoke,,0,0,0,,{\k37}{\kf13}Der {\kf34}Blitz {\kf14}hat {\kf20}einen {\kf60}objektiven {\kf90}Charakter,
+Dialogue: 0,0:06:27.73,0:06:30.41,Naechste,,0,0,0,,der sich nicht in seiner sichtbaren Erscheinung erschöpft.
+Dialogue: 1,0:06:30.41,0:06:32.67,Karaoke,,0,0,0,,{\k0}{\kf8}der {\kf14}sich {\kf20}nicht {\kf12}in {\kf16}seiner\N{\kf48}sichtbaren {\kf52}Erscheinung {\kf56}erschöpft.
+Dialogue: 0,0:06:30.41,0:06:32.67,Naechste,,0,0,0,,So funktionieren erfolgreiche Reduktionen:
+Dialogue: 1,0:06:32.67,0:06:35.85,Karaoke,,0,0,0,,{\k70}{\kf16}So {\kf62}funktionieren {\kf76}erfolgreiche {\kf94}Reduktionen:
+Dialogue: 0,0:06:32.67,0:06:35.85,Naechste,,0,0,0,,Wir lösen uns von den Eindrücken auf unsere Sinne.
+Dialogue: 1,0:06:35.85,0:06:38.37,Karaoke,,0,0,0,,{\k0}{\kf24}Wir {\kf34}lösen {\kf20}uns {\kf18}von {\kf10}den\N{\kf50}Eindrücken {\kf22}auf {\kf26}unsere {\kf48}Sinne.
+Dialogue: 0,0:06:35.85,0:06:38.37,Naechste,,0,0,0,,Als man entdeckte, dass Schall eine Welle in der Luft ist,
+Dialogue: 1,0:06:38.37,0:06:41.59,Karaoke,,0,0,0,,{\k37}{\kf15}Als {\kf18}man {\kf86}entdeckte, {\kf10}dass {\kf26}Schall\N{\kf18}eine {\kf28}Welle {\kf12}in {\kf8}der {\kf28}Luft {\kf36}ist,
+Dialogue: 0,0:06:38.37,0:06:41.59,Naechste,,0,0,0,,ließ man den Standpunkt des Hörens zurück – der dabei, wie Nagel bemerkt,
+Dialogue: 1,0:06:41.59,0:06:45.97,Karaoke,,0,0,0,,{\k0}{\kf48}ließ {\kf14}man {\kf10}den {\kf52}Standpunkt {\kf22}des {\kf46}Hörens\N{\kf43}zurück {\kf7}– {\kf10}der {\kf36}dabei, {\kf36}wie {\kf30}Nagel {\kf84}bemerkt,
+Dialogue: 0,0:06:41.59,0:06:45.97,Naechste,,0,0,0,,selbst unreduziert bleibt.
+Dialogue: 1,0:06:45.97,0:06:47.43,Karaoke,,0,0,0,,{\k0}{\kf20}selbst {\kf81}unreduziert {\kf45}bleibt.
+Dialogue: 0,0:06:45.97,0:06:47.43,Naechste,,0,0,0,,Für die Außenwelt ist das kein Verlust.
+Dialogue: 1,0:06:47.43,0:06:49.95,Karaoke,,0,0,0,,{\k37}{\kf17}Für {\kf14}die {\kf60}Außenwelt {\kf24}ist {\kf18}das {\kf20}kein {\kf60}Verlust.
+Dialogue: 0,0:06:47.43,0:06:49.95,Naechste,,0,0,0,,Objektivität ist eine Richtung, in die das Verstehen gehen kann.
+Dialogue: 1,0:06:49.95,0:06:53.63,Karaoke,,0,0,0,,{\k80}{\kf48}Objektivität {\kf12}ist {\kf20}eine {\kf68}Richtung,\N{\kf10}in {\kf6}die {\kf18}das {\kf34}Verstehen {\kf28}gehen {\kf45}kann.
+Dialogue: 0,0:06:49.95,0:06:53.63,Naechste,,0,0,0,,Bei der Erfahrung selbst aber, so Nagel,
+Dialogue: 1,0:06:53.63,0:06:56.71,Karaoke,,0,0,0,,{\k70}{\kf14}Bei {\kf12}der {\kf53}Erfahrung {\kf35}selbst {\kf66}aber, {\kf18}so {\kf40}Nagel,
+Dialogue: 0,0:06:53.63,0:06:56.71,Naechste,,0,0,0,,scheint der Schritt von der Erscheinung zur Wirklichkeit keinen Sinn zu ergeben.
+Dialogue: 1,0:06:56.71,0:07:00.23,Karaoke,,0,0,0,,{\k0}{\kf38}scheint {\kf24}der {\kf30}Schritt {\kf26}von {\kf12}der {\kf38}Erscheinung\N{\kf12}zur {\kf56}Wirklichkeit {\kf22}keinen {\kf30}Sinn {\kf16}zu {\kf48}ergeben.
+Dialogue: 0,0:06:56.71,0:07:00.23,Naechste,,0,0,0,,Er fragt: Was bliebe davon übrig, wie es ist, eine Fledermaus zu sein,
+Dialogue: 1,0:07:00.23,0:07:05.37,Karaoke,,0,0,0,,{\k37}{\kf13}Er {\kf68}fragt: {\kf14}Was {\kf32}bliebe {\kf28}davon {\kf74}übrig,\N{\kf12}wie {\kf18}es {\kf56}ist, {\kf14}eine {\kf58}Fledermaus {\kf14}zu {\kf76}sein,
+Dialogue: 0,0:07:00.23,0:07:05.37,Naechste,,0,0,0,,wenn man den Standpunkt der Fledermaus entfernte?
+Dialogue: 1,0:07:05.37,0:07:07.63,Karaoke,,0,0,0,,{\k0}{\kf10}wenn {\kf16}man {\kf14}den {\kf52}Standpunkt\N{\kf16}der {\kf58}Fledermaus {\kf60}entfernte?
+Dialogue: 0,0:07:05.37,0:07:07.63,Naechste,,0,0,0,,Der Standpunkt ist hier kein Zugang zur Sache;
+Dialogue: 1,0:07:07.63,0:07:10.59,Karaoke,,0,0,0,,{\k38}{\kf13}Der {\kf56}Standpunkt {\kf30}ist {\kf18}hier\N{\kf16}kein {\kf38}Zugang {\kf16}zur {\kf70}Sache;
+Dialogue: 0,0:07:07.63,0:07:10.59,Naechste,,0,0,0,,er ist das Wesen der Innenwelt selbst.
+Dialogue: 1,0:07:10.59,0:07:12.30,Karaoke,,0,0,0,,{\k0}{\kf10}er {\kf14}ist {\kf16}das {\kf32}Wesen {\kf12}der {\kf53}Innenwelt {\kf34}selbst.
+Dialogue: 0,0:07:10.59,0:07:12.30,Naechste,,0,0,0,,Daraus folgt der Kernsatz des Aufsatzes:
+Dialogue: 1,0:07:12.30,0:07:14.76,Karaoke,,0,0,0,,{\k39}{\kf23}Daraus {\kf36}folgt {\kf10}der {\kf38}Kernsatz {\kf20}des {\kf80}Aufsatzes:
+Dialogue: 0,0:07:12.30,0:07:14.76,Naechste,,0,0,0,,Wenn der subjektive Charakter einer Erfahrung nur
+Dialogue: 1,0:07:14.76,0:07:17.14,Karaoke,,0,0,0,,{\k0}{\kf8}Wenn {\kf16}der {\kf60}subjektive\N{\kf50}Charakter {\kf14}einer {\kf48}Erfahrung {\kf42}nur
+Dialogue: 0,0:07:14.76,0:07:17.14,Naechste,,0,0,0,,von einem Standpunkt aus voll verständlich ist,
+Dialogue: 1,0:07:17.14,0:07:19.46,Karaoke,,0,0,0,,{\k0}{\kf18}von {\kf18}einem {\kf50}Standpunkt {\kf20}aus\N{\kf22}voll {\kf62}verständlich {\kf42}ist,
+Dialogue: 0,0:07:17.14,0:07:19.46,Naechste,,0,0,0,,dann bringt uns jeder Schritt zu größerer Objektivität
+Dialogue: 1,0:07:19.46,0:07:21.86,Karaoke,,0,0,0,,{\k0}{\kf16}dann {\kf28}bringt {\kf22}uns {\kf22}jeder {\kf30}Schritt\N{\kf5}zu {\kf13}größerer {\kf104}Objektivität
+Dialogue: 0,0:07:19.46,0:07:21.86,Naechste,,0,0,0,,nicht näher an ihr wirkliches Wesen heran.
+Dialogue: 1,0:07:21.86,0:07:23.80,Karaoke,,0,0,0,,{\k0}{\kf18}nicht {\kf32}näher {\kf8}an {\kf8}ihr {\kf54}wirkliches {\kf28}Wesen {\kf46}heran.
+Dialogue: 0,0:07:21.86,0:07:23.80,Naechste,,0,0,0,,Er führt uns weiter davon weg.
+Dialogue: 1,0:07:23.80,0:07:25.73,Karaoke,,0,0,0,,{\k38}{\kf15}Er {\kf22}führt {\kf24}uns {\kf30}weiter {\kf28}davon {\kf37}weg.
+Dialogue: 0,0:07:23.80,0:07:25.73,Naechste,,0,0,0,,Das ist die eigentliche Pointe.
+Dialogue: 1,0:07:25.73,0:07:27.83,Karaoke,,0,0,0,,{\k70}{\kf14}Das {\kf18}ist {\kf14}die {\kf48}eigentliche {\kf46}Pointe.
+Dialogue: 0,0:07:25.73,0:07:27.83,Naechste,,0,0,0,,Nagel sagt nicht nur, dass uns Daten fehlen.
+Dialogue: 1,0:07:27.83,0:07:30.83,Karaoke,,0,0,0,,{\k38}{\kf33}Nagel {\kf24}sagt {\kf20}nicht {\kf72}nur,\N{\kf8}dass {\kf16}uns {\kf24}Daten {\kf65}fehlen.
+Dialogue: 0,0:07:27.83,0:07:30.83,Naechste,,0,0,0,,Er sagt, dass das Verfahren, mit dem die Wissenschaft sonst erfolgreich reduziert,
+Dialogue: 1,0:07:30.83,0:07:35.59,Karaoke,,0,0,0,,{\k37}{\kf15}Er {\kf58}sagt, {\kf8}dass {\kf14}das {\kf80}Verfahren, {\kf12}mit {\kf12}dem {\kf12}die\N{\kf38}Wissenschaft {\kf34}sonst {\kf46}erfolgreich {\kf110}reduziert,
+Dialogue: 0,0:07:30.83,0:07:35.59,Naechste,,0,0,0,,hier in die falsche Richtung zeigt.
+Dialogue: 1,0:07:35.59,0:07:37.13,Karaoke,,0,0,0,,{\k0}{\kf10}hier {\kf16}in {\kf10}die {\kf38}falsche {\kf20}Richtung {\kf60}zeigt.
+Dialogue: 0,0:07:35.59,0:07:37.13,Naechste,,0,0,0,,Das Problem, schreibt er, ist einzigartig.
+Dialogue: 1,0:07:37.13,0:07:40.35,Karaoke,,0,0,0,,{\k37}{\kf13}Das {\kf62}Problem, {\kf44}schreibt {\kf54}er, {\kf17}ist {\kf60}einzigartig.
+Dialogue: 0,0:07:37.13,0:07:40.35,Naechste,,0,0,0,,An dieser Stelle wird Nagel oft missverstanden.
+Dialogue: 1,0:07:44.30,0:07:47.67,Karaoke,,0,0,0,,{\k80}{\kf14}An {\kf24}dieser {\kf38}Stelle {\kf28}wird\N{\kf36}Nagel {\kf24}oft {\kf93}missverstanden.
+Dialogue: 0,0:07:44.30,0:07:47.67,Naechste,,0,0,0,,Er schließt nicht, dass der Physikalismus falsch ist; das zu folgern wäre,
+Dialogue: 1,0:07:47.67,0:07:52.24,Karaoke,,0,0,0,,{\k38}{\kf13}Er {\kf42}schließt {\kf52}nicht, {\kf8}dass {\kf16}der {\kf72}Physikalismus\N{\kf32}falsch {\kf54}ist; {\kf6}das {\kf18}zu {\kf40}folgern {\kf66}wäre,
+Dialogue: 0,0:07:47.67,0:07:52.24,Naechste,,0,0,0,,schreibt er, ein Fehler.
+Dialogue: 1,0:07:52.24,0:07:53.63,Karaoke,,0,0,0,,{\k0}{\kf34}schreibt {\kf20}er, {\kf36}ein {\kf49}Fehler.
+Dialogue: 0,0:07:52.24,0:07:53.63,Naechste,,0,0,0,,Treffender sei: Der Physikalismus ist eine Position, die wir nicht verstehen können,
+Dialogue: 1,0:07:53.63,0:07:58.46,Karaoke,,0,0,0,,{\k37}{\kf45}Treffender {\kf44}sei: {\kf10}Der {\kf70}Physikalismus {\kf18}ist {\kf18}eine\N{\kf100}Position, {\kf12}die {\kf12}wir {\kf14}nicht {\kf30}verstehen {\kf72}können,
+Dialogue: 0,0:07:53.63,0:07:58.46,Naechste,,0,0,0,,weil wir derzeit keine Vorstellung davon haben, wie sie wahr sein könnte.
+Dialogue: 1,0:07:58.46,0:08:01.57,Karaoke,,0,0,0,,{\k0}{\kf12}weil {\kf14}wir {\kf30}derzeit {\kf24}keine {\kf50}Vorstellung\N{\kf26}davon {\kf60}haben, {\kf8}wie {\kf12}sie {\kf14}wahr {\kf20}sein {\kf41}könnte.
+Dialogue: 0,0:07:58.46,0:08:01.57,Naechste,,0,0,0,,Das Problem steckt im kleinen Wort „ist“.
+Dialogue: 1,0:08:01.57,0:08:04.17,Karaoke,,0,0,0,,{\k70}{\kf12}Das {\kf36}Problem {\kf34}steckt {\kf16}im {\kf22}kleinen {\kf30}Wort {\kf40}„ist“.
+Dialogue: 0,0:08:01.57,0:08:04.17,Naechste,,0,0,0,,Eine Identität verstehen wir erst, wenn wir sehen,
+Dialogue: 1,0:08:04.17,0:08:07.32,Karaoke,,0,0,0,,{\k38}{\kf17}Eine {\kf60}Identität {\kf36}verstehen\N{\kf26}wir {\kf64}erst, {\kf10}wenn {\kf14}wir {\kf50}sehen,
+Dialogue: 0,0:08:04.17,0:08:07.32,Naechste,,0,0,0,,wie zwei Bezeichnungen auf dasselbe zulaufen können.
+Dialogue: 1,0:08:07.32,0:08:10.00,Karaoke,,0,0,0,,{\k0}{\kf8}wie {\kf24}zwei {\kf78}Bezeichnungen {\kf16}auf\N{\kf44}dasselbe {\kf46}zulaufen {\kf52}können.
+Dialogue: 0,0:08:07.32,0:08:10.00,Naechste,,0,0,0,,Der Physikalismus, schreibt Nagel, habe heute den Status,
+Dialogue: 1,0:08:10.00,0:08:13.39,Karaoke,,0,0,0,,{\k36}{\kf11}Der {\kf98}Physikalismus, {\kf32}schreibt\N{\kf40}Nagel, {\kf12}habe {\kf22}heute {\kf24}den {\kf64}Status,
+Dialogue: 0,0:08:10.00,0:08:13.39,Naechste,,0,0,0,,den der Satz „Materie ist Energie“ im Mund
+Dialogue: 1,0:08:13.39,0:08:14.95,Karaoke,,0,0,0,,{\k0}{\kf8}den {\kf12}der {\kf16}Satz {\kf36}„Materie {\kf16}ist {\kf28}Energie“ {\kf26}im {\kf14}Mund
+Dialogue: 0,0:08:13.39,0:08:14.95,Naechste,,0,0,0,,eines vorsokratischen Philosophen gehabt hätte:
+Dialogue: 1,0:08:14.95,0:08:16.95,Karaoke,,0,0,0,,{\k0}{\kf18}eines {\kf78}vorsokratischen\N{\kf50}Philosophen {\kf16}gehabt {\kf38}hätte:
+Dialogue: 0,0:08:14.95,0:08:16.95,Naechste,,0,0,0,,Wir haben nicht einmal den Anfang einer Vorstellung, wie er wahr sein könnte.
+Dialogue: 1,0:08:16.95,0:08:20.03,Karaoke,,0,0,0,,{\k0}{\kf8}Wir {\kf20}haben {\kf18}nicht {\kf22}einmal {\kf14}den {\kf28}Anfang {\kf22}einer\N{\kf82}Vorstellung, {\kf10}wie {\kf10}er {\kf12}wahr {\kf20}sein {\kf42}könnte.
+Dialogue: 0,0:08:16.95,0:08:20.03,Naechste,,0,0,0,,Trotzdem kann man Gründe haben, so etwas zu glauben.
+Dialogue: 1,0:08:20.03,0:08:23.50,Karaoke,,0,0,0,,{\k70}{\kf44}Trotzdem {\kf18}kann {\kf16}man {\kf36}Gründe\N{\kf54}haben, {\kf10}so {\kf24}etwas {\kf24}zu {\kf51}glauben.
+Dialogue: 0,0:08:20.03,0:08:23.50,Naechste,,0,0,0,,Wer nichts von Metamorphose weiß,
+Dialogue: 1,0:08:23.50,0:08:25.59,Karaoke,,0,0,0,,{\k38}{\kf13}Wer {\kf20}nichts {\kf20}von {\kf88}Metamorphose {\kf30}weiß,
+Dialogue: 0,0:08:23.50,0:08:25.59,Naechste,,0,0,0,,eine Raupe in einen sterilen Safe sperrt und
+Dialogue: 1,0:08:25.59,0:08:27.59,Karaoke,,0,0,0,,{\k0}{\kf12}eine {\kf38}Raupe {\kf16}in {\kf18}einen\N{\kf46}sterilen {\kf23}Safe {\kf35}sperrt {\kf12}und
+Dialogue: 0,0:08:25.59,0:08:27.59,Naechste,,0,0,0,,Wochen später einen Schmetterling findet,
+Dialogue: 1,0:08:27.59,0:08:29.69,Karaoke,,0,0,0,,{\k0}{\kf24}Wochen {\kf36}später {\kf36}einen {\kf52}Schmetterling {\kf62}findet,
+Dialogue: 0,0:08:27.59,0:08:29.69,Naechste,,0,0,0,,hat guten Grund anzunehmen, dass der Schmetterling die Raupe ist oder war –
+Dialogue: 1,0:08:29.69,0:08:32.77,Karaoke,,0,0,0,,{\k0}{\kf8}hat {\kf24}guten {\kf24}Grund {\kf66}anzunehmen, {\kf10}dass {\kf14}der\N{\kf48}Schmetterling {\kf14}die {\kf26}Raupe {\kf18}ist {\kf20}oder {\kf27}war {\kf9}–
+Dialogue: 0,0:08:29.69,0:08:32.77,Naechste,,0,0,0,,ohne zu verstehen, in welchem Sinn.
+Dialogue: 1,0:08:32.77,0:08:34.47,Karaoke,,0,0,0,,{\k0}{\kf16}ohne {\kf16}zu {\kf60}verstehen, {\kf10}in {\kf34}welchem {\kf34}Sinn.
+Dialogue: 0,0:08:32.77,0:08:34.47,Naechste,,0,0,0,,In einer solchen Lage, vermutet Nagel, könnten wir beim Physikalismus sein.
+Dialogue: 1,0:08:34.47,0:08:38.90,Karaoke,,0,0,0,,{\k39}{\kf11}In {\kf22}einer {\kf26}solchen {\kf72}Lage, {\kf32}vermutet {\kf66}Nagel,\N{\kf20}könnten {\kf20}wir {\kf12}beim {\kf74}Physikalismus {\kf49}sein.
+Dialogue: 0,0:08:34.47,0:08:38.90,Naechste,,0,0,0,,Auch die These, wir könnten grundsätzlich nicht wissen, wie es ist,
+Dialogue: 1,0:08:38.90,0:08:43.42,Karaoke,,0,0,0,,{\k70}{\kf20}Auch {\kf20}die {\kf70}These, {\kf12}wir {\kf24}könnten\N{\kf66}grundsätzlich {\kf20}nicht {\kf58}wissen, {\kf16}wie {\kf16}es {\kf60}ist,
+Dialogue: 0,0:08:38.90,0:08:43.42,Naechste,,0,0,0,,eine Fledermaus zu sein, vertritt Nagel ausdrücklich nicht.
+Dialogue: 1,0:08:43.42,0:08:46.37,Karaoke,,0,0,0,,{\k0}{\kf10}eine {\kf52}Fledermaus {\kf20}zu {\kf54}sein, {\kf28}vertritt\N{\kf38}Nagel {\kf54}ausdrücklich {\kf39}nicht.
+Dialogue: 0,0:08:43.42,0:08:46.37,Naechste,,0,0,0,,In einer Fußnote erwähnt er blinde Menschen,
+Dialogue: 1,0:08:46.37,0:08:49.16,Karaoke,,0,0,0,,{\k37}{\kf11}In {\kf33}einer {\kf47}Fußnote {\kf44}erwähnt\N{\kf10}er {\kf36}blinde {\kf62}Menschen,
+Dialogue: 0,0:08:46.37,0:08:49.16,Naechste,,0,0,0,,die Gegenstände mit Klicklauten oder einem Stock orten;
+Dialogue: 1,0:08:49.16,0:08:52.20,Karaoke,,0,0,0,,{\k0}{\kf8}die {\kf62}Gegenstände {\kf12}mit {\kf68}Klicklauten\N{\kf30}oder {\kf41}einem {\kf41}Stock {\kf41}orten;
+Dialogue: 0,0:08:49.16,0:08:52.20,Naechste,,0,0,0,,von dort ließe sich vielleicht grob extrapolieren.
+Dialogue: 1,0:08:52.20,0:08:54.53,Karaoke,,0,0,0,,{\k0}{\kf16}von {\kf18}dort {\kf30}ließe {\kf20}sich\N{\kf26}vielleicht {\kf42}grob {\kf81}extrapolieren.
+Dialogue: 0,0:08:52.20,0:08:54.53,Naechste,,0,0,0,,Sein Punkt sei ein anderer: Schon um sich einen Begriff davon zu bilden,
+Dialogue: 1,0:08:54.53,0:08:58.39,Karaoke,,0,0,0,,{\k38}{\kf19}Sein {\kf22}Punkt {\kf24}sei {\kf18}ein {\kf62}anderer: {\kf18}Schon {\kf18}um\N{\kf18}sich {\kf18}einen {\kf26}Begriff {\kf22}davon {\kf22}zu {\kf60}bilden,
+Dialogue: 0,0:08:54.53,0:08:58.39,Naechste,,0,0,0,,muss man den Standpunkt der Fledermaus
+Dialogue: 1,0:08:58.39,0:08:59.97,Karaoke,,0,0,0,,{\k0}{\kf16}muss {\kf20}man {\kf12}den {\kf50}Standpunkt {\kf16}der {\kf44}Fledermaus
+Dialogue: 0,0:08:58.39,0:08:59.97,Naechste,,0,0,0,,einnehmen – und wer das nur teilweise kann,
+Dialogue: 1,0:08:59.97,0:09:02.09,Karaoke,,0,0,0,,{\k0}{\kf38}einnehmen {\kf5}– {\kf37}und {\kf12}wer\N{\kf15}das {\kf15}nur {\kf26}teilweise {\kf64}kann,
+Dialogue: 0,0:08:59.97,0:09:02.09,Naechste,,0,0,0,,hat auch nur einen teilweisen Begriff.
+Dialogue: 1,0:09:02.09,0:09:03.63,Karaoke,,0,0,0,,{\k0}{\kf16}hat {\kf14}auch {\kf16}nur {\kf16}einen {\kf24}teilweisen {\kf69}Begriff.
+Dialogue: 0,0:09:02.09,0:09:03.63,Naechste,,0,0,0,,Am Ende schlägt Nagel eine objektive Phänomenologie vor.
+Dialogue: 1,0:09:03.63,0:09:07.60,Karaoke,,0,0,0,,{\k70}{\kf12}Am {\kf34}Ende {\kf40}schlägt {\kf34}Nagel {\kf22}eine\N{\kf70}objektive {\kf74}Phänomenologie {\kf41}vor.
+Dialogue: 0,0:09:03.63,0:09:07.60,Naechste,,0,0,0,,Sie soll Erfahrungen so beschreiben,
+Dialogue: 1,0:09:07.60,0:09:09.86,Karaoke,,0,0,0,,{\k39}{\kf17}Sie {\kf18}soll {\kf68}Erfahrungen {\kf14}so {\kf70}beschreiben,
+Dialogue: 0,0:09:07.60,0:09:09.86,Naechste,,0,0,0,,dass auch Wesen sie wenigstens teilweise verstehen, die sie nicht haben können –
+Dialogue: 1,0:09:09.86,0:09:13.52,Karaoke,,0,0,0,,{\k0}{\kf8}dass {\kf22}auch {\kf30}Wesen {\kf14}sie {\kf48}wenigstens {\kf24}teilweise\N{\kf88}verstehen, {\kf10}die {\kf10}sie {\kf20}nicht {\kf28}haben {\kf55}können {\kf9}–
+Dialogue: 0,0:09:09.86,0:09:13.52,Naechste,,0,0,0,,etwa einem von Geburt an blinden Menschen erklären, wie Sehen ist.
+Dialogue: 1,0:09:13.52,0:09:16.77,Karaoke,,0,0,0,,{\k0}{\kf16}etwa {\kf22}einem {\kf18}von {\kf36}Geburt {\kf12}an {\kf38}blinden\N{\kf24}Menschen {\kf82}erklären, {\kf22}wie {\kf14}Sehen {\kf41}ist.
+Dialogue: 0,0:09:13.52,0:09:16.77,Naechste,,0,0,0,,Lose Vergleiche wie „Rot ist wie der Klang einer Trompete“ helfen dabei nicht,
+Dialogue: 1,0:09:16.77,0:09:21.24,Karaoke,,0,0,0,,{\k36}{\kf31}Lose {\kf68}Vergleiche {\kf12}wie {\kf28}„Rot {\kf30}ist {\kf14}wie {\kf12}der\N{\kf28}Klang {\kf16}einer {\kf58}Trompete“ {\kf24}helfen {\kf36}dabei {\kf54}nicht,
+Dialogue: 0,0:09:16.77,0:09:21.24,Naechste,,0,0,0,,strukturelle Beschreibungen vielleicht schon.
+Dialogue: 1,0:09:21.24,0:09:23.27,Karaoke,,0,0,0,,{\k0}{\kf62}strukturelle {\kf60}Beschreibungen\N{\kf28}vielleicht {\kf53}schon.
+Dialogue: 0,0:09:21.24,0:09:23.27,Naechste,,0,0,0,,Und in der letzten Fußnote vermutet Nagel,
+Dialogue: 1,0:09:23.27,0:09:26.29,Karaoke,,0,0,0,,{\k37}{\kf21}Und {\kf22}in {\kf12}der {\kf46}letzten {\kf46}Fußnote {\kf48}vermutet {\kf70}Nagel,
+Dialogue: 0,0:09:23.27,0:09:26.29,Naechste,,0,0,0,,die Beziehung zwischen Geist und Körper werde einmal in einer Theorie ausgedrückt,
+Dialogue: 1,0:09:26.29,0:09:30.49,Karaoke,,0,0,0,,{\k0}{\kf8}die {\kf50}Beziehung {\kf20}zwischen {\kf54}Geist {\kf18}und {\kf32}Körper\N{\kf22}werde {\kf46}einmal {\kf16}in {\kf20}einer {\kf38}Theorie {\kf96}ausgedrückt,
+Dialogue: 0,0:09:26.29,0:09:30.49,Naechste,,0,0,0,,deren Grundbegriffe weder klar mental noch klar physisch sind.
+Dialogue: 1,0:09:30.49,0:09:33.72,Karaoke,,0,0,0,,{\k0}{\kf14}deren {\kf78}Grundbegriffe {\kf26}weder {\kf18}klar\N{\kf22}mental {\kf30}noch {\kf26}klar {\kf48}physisch {\kf26}sind.
+Dialogue: 0,0:09:30.49,0:09:33.72,Naechste,,0,0,0,,Die Frage selbst war 1974 nicht neu.
+Dialogue: 1,0:09:37.67,0:09:41.90,Karaoke,,0,0,0,,{\k80}{\kf12}Die {\kf40}Frage {\kf40}selbst {\kf36}war {\kf128}1974 {\kf38}nicht {\kf49}neu.
+Dialogue: 0,0:09:37.67,0:09:41.90,Naechste,,0,0,0,,Schon 1950 schrieb B. A. Farrell in der Zeitschrift Mind über
+Dialogue: 1,0:09:41.90,0:09:45.78,Karaoke,,0,0,0,,{\k37}{\kf21}Schon {\kf82}1950 {\kf60}schrieb {\kf9}B. {\kf9}A. {\kf51}Farrell\N{\kf12}in {\kf8}der {\kf48}Zeitschrift {\kf34}Mind {\kf18}über
+Dialogue: 0,0:09:41.90,0:09:45.78,Naechste,,0,0,0,,einen Marsianer mit einem „Pseudo-Radiosinn“ und über den Satz:
+Dialogue: 1,0:09:45.78,0:09:48.72,Karaoke,,0,0,0,,{\k0}{\kf16}einen {\kf52}Marsianer {\kf18}mit {\kf22}einem\N{\kf92}„Pseudo-Radiosinn“ {\kf14}und {\kf20}über {\kf12}den {\kf48}Satz:
+Dialogue: 0,0:09:45.78,0:09:48.72,Naechste,,0,0,0,,„Ich frage mich, wie es wäre,
+Dialogue: 1,0:09:48.72,0:09:50.24,Karaoke,,0,0,0,,{\k0}{\kf8}„Ich {\kf30}frage {\kf38}mich, {\kf8}wie {\kf12}es {\kf56}wäre,
+Dialogue: 0,0:09:48.72,0:09:50.24,Naechste,,0,0,0,,eine Fledermaus zu sein und zu hören wie sie.“
+Dialogue: 1,0:09:50.24,0:09:52.13,Karaoke,,0,0,0,,{\k0}{\kf20}eine {\kf50}Fledermaus {\kf10}zu {\kf18}sein\N{\kf16}und {\kf14}zu {\kf20}hören {\kf22}wie {\kf19}sie.“
+Dialogue: 0,0:09:50.24,0:09:52.13,Naechste,,0,0,0,,Farrell zog aber den entgegengesetzten Schluss:
+Dialogue: 1,0:09:52.13,0:09:54.44,Karaoke,,0,0,0,,{\k0}{\kf39}Farrell {\kf38}zog {\kf22}aber {\kf14}den\N{\kf84}entgegengesetzten {\kf34}Schluss:
+Dialogue: 0,0:09:52.13,0:09:54.44,Naechste,,0,0,0,,Physiologie und Psychologie könnten das Erleben loswerden – indem sie einsehen,
+Dialogue: 1,0:09:54.44,0:09:58.56,Karaoke,,0,0,0,,{\k0}{\kf66}Physiologie {\kf18}und {\kf62}Psychologie {\kf22}könnten {\kf22}das\N{\kf70}Erleben {\kf43}loswerden {\kf5}– {\kf16}indem {\kf22}sie {\kf66}einsehen,
+Dialogue: 0,0:09:54.44,0:09:58.56,Naechste,,0,0,0,,dass es töricht sei anzunehmen, es gebe solche Dinge, oder es gebe sie nicht.
+Dialogue: 1,0:09:58.56,0:10:02.48,Karaoke,,0,0,0,,{\k0}{\kf10}dass {\kf16}es {\kf34}töricht {\kf16}sei {\kf68}anzunehmen, {\kf5}es {\kf15}gebe\N{\kf30}solche {\kf34}Dinge, {\kf40}oder {\kf16}es {\kf22}gebe {\kf16}sie {\kf35}nicht.
+Dialogue: 0,0:09:58.56,0:10:02.48,Naechste,,0,0,0,,1971 bestimmte Timothy Sprigge Bewusstsein als das,
+Dialogue: 1,0:10:02.87,0:10:06.29,Karaoke,,0,0,0,,{\k80}{\kf44}1971 {\kf44}bestimmte {\kf24}Timothy\N{\kf20}Sprigge {\kf72}Bewusstsein {\kf14}als {\kf44}das,
+Dialogue: 0,0:10:02.87,0:10:06.29,Naechste,,0,0,0,,was man zu kennzeichnen versucht, wenn man fragt, wie es ist oder wäre,
+Dialogue: 1,0:10:06.29,0:10:09.95,Karaoke,,0,0,0,,{\k0}{\kf10}was {\kf20}man {\kf22}zu {\kf52}kennzeichnen {\kf80}versucht,\N{\kf8}wenn {\kf14}man {\kf52}fragt, {\kf8}wie {\kf14}es {\kf12}ist {\kf20}oder {\kf54}wäre,
+Dialogue: 0,0:10:06.29,0:10:09.95,Naechste,,0,0,0,,ein bestimmtes Objekt in einer bestimmten Lage zu sein.
+Dialogue: 1,0:10:09.95,0:10:12.40,Karaoke,,0,0,0,,{\k0}{\kf8}ein {\kf46}bestimmtes {\kf36}Objekt {\kf18}in\N{\kf14}einer {\kf40}bestimmten {\kf22}Lage {\kf22}zu {\kf39}sein.
+Dialogue: 0,0:10:09.95,0:10:12.40,Naechste,,0,0,0,,In der Neuausgabe zum fünfzigsten Jahrestag
+Dialogue: 1,0:10:12.40,0:10:15.00,Karaoke,,0,0,0,,{\k39}{\kf11}In {\kf14}der {\kf70}Neuausgabe {\kf14}zum\N{\kf58}fünfzigsten {\kf54}Jahrestag
+Dialogue: 0,0:10:12.40,0:10:15.00,Naechste,,0,0,0,,erkennt Nagel beide an und gesteht:
+Dialogue: 1,0:10:15.00,0:10:17.18,Karaoke,,0,0,0,,{\k0}{\kf30}erkennt {\kf40}Nagel {\kf24}beide {\kf28}an {\kf12}und {\kf84}gesteht:
+Dialogue: 0,0:10:15.00,0:10:17.18,Naechste,,0,0,0,,Als er den Aufsatz schrieb,
+Dialogue: 1,0:10:17.18,0:10:18.60,Karaoke,,0,0,0,,{\k0}{\kf12}Als {\kf16}er {\kf12}den {\kf46}Aufsatz {\kf56}schrieb,
+Dialogue: 0,0:10:17.18,0:10:18.60,Naechste,,0,0,0,,hatte er Sprigge nicht gelesen und Farrell vergessen.
+Dialogue: 1,0:10:18.60,0:10:21.07,Karaoke,,0,0,0,,{\k0}{\kf14}hatte {\kf16}er {\kf30}Sprigge {\kf16}nicht\N{\kf52}gelesen {\kf21}und {\kf43}Farrell {\kf55}vergessen.
+Dialogue: 0,0:10:18.60,0:10:21.07,Naechste,,0,0,0,,Eine ältere Wurzel liegt in der Biologie.
+Dialogue: 1,0:10:21.07,0:10:23.87,Karaoke,,0,0,0,,{\k70}{\kf20}Eine {\kf44}ältere {\kf40}Wurzel {\kf18}liegt {\kf16}in {\kf8}der {\kf64}Biologie.
+Dialogue: 0,0:10:21.07,0:10:23.87,Naechste,,0,0,0,,1909 schrieb Jakob von Uexküll, jede Lebensform besitze eine ihr eigene Umwelt;
+Dialogue: 1,0:10:23.87,0:10:29.49,Karaoke,,0,0,0,,{\k37}{\kf93}1909 {\kf38}schrieb {\kf46}Jakob {\kf27}von {\kf53}Uexküll, {\kf14}jede\N{\kf67}Lebensform {\kf47}besitze {\kf15}eine {\kf11}ihr {\kf38}eigene {\kf76}Umwelt;
+Dialogue: 0,0:10:23.87,0:10:29.49,Naechste,,0,0,0,,der Standpunkt des Tieres müsse in der Forschung allein ausschlaggebend werden.
+Dialogue: 1,0:10:29.49,0:10:33.27,Karaoke,,0,0,0,,{\k0}{\kf16}der {\kf50}Standpunkt {\kf20}des {\kf46}Tieres {\kf30}müsse {\kf10}in {\kf10}der\N{\kf54}Forschung {\kf18}allein {\kf88}ausschlaggebend {\kf36}werden.
+Dialogue: 0,0:10:29.49,0:10:33.27,Naechste,,0,0,0,,Die Reize dieser Umwelt umschließen das Tier
+Dialogue: 1,0:10:33.27,0:10:35.96,Karaoke,,0,0,0,,{\k38}{\kf13}Die {\kf38}Reize {\kf26}dieser {\kf34}Umwelt\N{\kf68}umschließen {\kf18}das {\kf34}Tier
+Dialogue: 0,0:10:33.27,0:10:35.96,Naechste,,0,0,0,,wie die Mauern eines selbstgebauten Hauses.
+Dialogue: 1,0:10:35.96,0:10:38.43,Karaoke,,0,0,0,,{\k0}{\kf18}wie {\kf10}die {\kf46}Mauern {\kf58}eines\N{\kf62}selbstgebauten {\kf53}Hauses.
+Dialogue: 0,0:10:35.96,0:10:38.43,Naechste,,0,0,0,,Bemerkenswert ist, wo Uexküll aufhört:
+Dialogue: 1,0:10:38.43,0:10:41.40,Karaoke,,0,0,0,,{\k39}{\kf65}Bemerkenswert {\kf60}ist, {\kf13}wo {\kf40}Uexküll {\kf78}aufhört:
+Dialogue: 0,0:10:38.43,0:10:41.40,Naechste,,0,0,0,,Die Innenwelt der Tiere mit seelischen Qualitäten auszumalen,
+Dialogue: 1,0:10:41.40,0:10:44.44,Karaoke,,0,0,0,,{\k0}{\kf10}Die {\kf38}Innenwelt {\kf18}der {\kf24}Tiere {\kf22}mit\N{\kf36}seelischen {\kf56}Qualitäten {\kf100}auszumalen,
+Dialogue: 0,0:10:41.40,0:10:44.44,Naechste,,0,0,0,,hielt er für keine Sache ernsthafter Forscher.
+Dialogue: 1,0:10:44.44,0:10:46.47,Karaoke,,0,0,0,,{\k0}{\kf22}hielt {\kf10}er {\kf10}für {\kf22}keine {\kf22}Sache\N{\kf56}ernsthafter {\kf61}Forscher.
+Dialogue: 0,0:10:44.44,0:10:46.47,Naechste,,0,0,0,,Er beschreibt das linke Feld unseres Bildes und lässt das rechte bewusst leer.
+Dialogue: 1,0:10:46.47,0:10:51.25,Karaoke,,0,0,0,,{\k38}{\kf13}Er {\kf48}beschreibt {\kf14}das {\kf34}linke {\kf28}Feld {\kf42}unseres\N{\kf56}Bildes {\kf24}und {\kf24}lässt {\kf20}das {\kf28}rechte {\kf26}bewusst {\kf48}leer.
+Dialogue: 0,0:10:46.47,0:10:51.25,Naechste,,0,0,0,,Nach 1974 wurde „wie es ist“ zur Standardformel.
+Dialogue: 1,0:10:55.17,0:10:59.73,Karaoke,,0,0,0,,{\k80}{\kf22}Nach {\kf122}1974 {\kf60}wurde {\kf20}„wie {\kf14}es\N{\kf14}ist“ {\kf14}zur {\kf94}Standardformel.
+Dialogue: 0,0:10:55.17,0:10:59.73,Naechste,,0,0,0,,1982 legte Frank Jackson ein verwandtes, aber eigenständiges Argument vor.
+Dialogue: 1,0:10:59.73,0:11:05.20,Karaoke,,0,0,0,,{\k80}{\kf60}1982 {\kf66}legte {\kf19}Frank {\kf37}Jackson {\kf24}ein {\kf88}verwandtes,\N{\kf14}aber {\kf78}eigenständiges {\kf40}Argument {\kf41}vor.
+Dialogue: 0,0:10:59.73,0:11:05.20,Naechste,,0,0,0,,Mary ist eine brillante Wissenschaftlerin,
+Dialogue: 1,0:11:05.20,0:11:07.83,Karaoke,,0,0,0,,{\k38}{\kf27}Mary {\kf28}ist {\kf20}eine {\kf42}brillante {\kf108}Wissenschaftlerin,
+Dialogue: 0,0:11:05.20,0:11:07.83,Naechste,,0,0,0,,die die Welt nur aus einem schwarz-weißen Raum
+Dialogue: 1,0:11:07.83,0:11:09.83,Karaoke,,0,0,0,,{\k0}{\kf8}die {\kf12}die {\kf22}Welt {\kf24}nur {\kf24}aus\N{\kf18}einem {\kf68}schwarz-weißen {\kf24}Raum
+Dialogue: 0,0:11:07.83,0:11:09.83,Naechste,,0,0,0,,über einen schwarz-weißen Bildschirm kennt.
+Dialogue: 1,0:11:09.83,0:11:11.83,Karaoke,,0,0,0,,{\k0}{\kf34}über {\kf18}einen {\kf72}schwarz-weißen\N{\kf42}Bildschirm {\kf34}kennt.
+Dialogue: 0,0:11:09.83,0:11:11.83,Naechste,,0,0,0,,Sie weiß alles Physikalische über das Farbensehen.
+Dialogue: 1,0:11:11.83,0:11:14.73,Karaoke,,0,0,0,,{\k38}{\kf13}Sie {\kf26}weiß {\kf28}alles {\kf82}Physikalische\N{\kf18}über {\kf20}das {\kf65}Farbensehen.
+Dialogue: 0,0:11:11.83,0:11:14.73,Naechste,,0,0,0,,Lernt sie etwas Neues, wenn sie hinausgeht und zum ersten Mal Farben sieht?
+Dialogue: 1,0:11:14.73,0:11:19.17,Karaoke,,0,0,0,,{\k39}{\kf35}Lernt {\kf14}sie {\kf26}etwas {\kf84}Neues, {\kf8}wenn {\kf12}sie {\kf66}hinausgeht\N{\kf26}und {\kf18}zum {\kf24}ersten {\kf26}Mal {\kf34}Farben {\kf31}sieht?
+Dialogue: 0,0:11:14.73,0:11:19.17,Naechste,,0,0,0,,Wenn ja, so Jackson, war ihr physikalisches Wissen unvollständig –
+Dialogue: 1,0:11:19.17,0:11:23.45,Karaoke,,0,0,0,,{\k39}{\kf15}Wenn {\kf50}ja, {\kf8}so {\kf40}Jackson, {\kf56}war {\kf14}ihr\N{\kf78}physikalisches {\kf34}Wissen {\kf87}unvollständig {\kf7}–
+Dialogue: 0,0:11:19.17,0:11:23.45,Naechste,,0,0,0,,und der Physikalismus falsch.
+Dialogue: 1,0:11:23.45,0:11:25.03,Karaoke,,0,0,0,,{\k0}{\kf20}und {\kf8}der {\kf78}Physikalismus {\kf53}falsch.
+Dialogue: 0,0:11:23.45,0:11:25.03,Naechste,,0,0,0,,Jackson grenzt sich dabei von Nagel ab, dem er viel verdanke:
+Dialogue: 1,0:11:25.03,0:11:29.11,Karaoke,,0,0,0,,{\k70}{\kf38}Jackson {\kf38}grenzt {\kf20}sich {\kf22}dabei {\kf22}von\N{\kf28}Nagel {\kf52}ab, {\kf8}dem {\kf18}er {\kf20}viel {\kf72}verdanke:
+Dialogue: 0,0:11:25.03,0:11:29.11,Naechste,,0,0,0,,Nagels Problem betreffe die Grenzen unserer Vorstellungskraft,
+Dialogue: 1,0:11:29.11,0:11:32.21,Karaoke,,0,0,0,,{\k0}{\kf44}Nagels {\kf28}Problem {\kf60}betreffe {\kf12}die\N{\kf38}Grenzen {\kf24}unserer {\kf104}Vorstellungskraft,
+Dialogue: 0,0:11:29.11,0:11:32.21,Naechste,,0,0,0,,und darüber sage der Physikalismus nichts.
+Dialogue: 1,0:11:32.21,0:11:34.73,Karaoke,,0,0,0,,{\k0}{\kf44}und {\kf30}darüber {\kf36}sage {\kf24}der {\kf72}Physikalismus {\kf46}nichts.
+Dialogue: 0,0:11:32.21,0:11:34.73,Naechste,,0,0,0,,Sein eigenes Argument behaupte mehr:
+Dialogue: 1,0:11:34.73,0:11:37.20,Karaoke,,0,0,0,,{\k38}{\kf29}Sein {\kf40}eigenes {\kf36}Argument {\kf48}behaupte {\kf56}mehr:
+Dialogue: 0,0:11:34.73,0:11:37.20,Naechste,,0,0,0,,Eine Eigenschaft der Erfahrung fehlt in aller physikalischen Information.
+Dialogue: 1,0:11:37.20,0:11:41.05,Karaoke,,0,0,0,,{\k0}{\kf14}Eine {\kf48}Eigenschaft {\kf18}der {\kf42}Erfahrung {\kf38}fehlt\N{\kf18}in {\kf20}aller {\kf72}physikalischen {\kf80}Information.
+Dialogue: 0,0:11:37.20,0:11:41.05,Naechste,,0,0,0,,1983 prägte Joseph Levine den Begriff der Erklärungslücke.
+Dialogue: 1,0:11:41.32,0:11:46.27,Karaoke,,0,0,0,,{\k80}{\kf68}1983 {\kf68}prägte {\kf59}Joseph {\kf59}Levine {\kf14}den\N{\kf34}Begriff {\kf22}der {\kf91}Erklärungslücke.
+Dialogue: 0,0:11:41.32,0:11:46.27,Naechste,,0,0,0,,Dass Wärme Molekülbewegung ist, erklärt alles, was wir an Wärme erklären wollen.
+Dialogue: 1,0:11:46.27,0:11:51.27,Karaoke,,0,0,0,,{\k38}{\kf7}Dass {\kf8}Wärme {\kf132}Molekülbewegung {\kf22}ist, {\kf56}erklärt\N{\kf56}alles, {\kf12}was {\kf26}wir {\kf22}an {\kf34}Wärme {\kf24}erklären {\kf63}wollen.
+Dialogue: 0,0:11:46.27,0:11:51.27,Naechste,,0,0,0,,Dass Schmerz das Feuern bestimmter Nervenfasern sein soll, erklärt,
+Dialogue: 1,0:11:51.27,0:11:55.39,Karaoke,,0,0,0,,{\k37}{\kf15}Dass {\kf50}Schmerz {\kf5}das {\kf41}Feuern {\kf44}bestimmter\N{\kf76}Nervenfasern {\kf16}sein {\kf54}soll, {\kf74}erklärt,
+Dialogue: 0,0:11:51.27,0:11:55.39,Naechste,,0,0,0,,was Schmerz bewirkt, aber nicht, warum er sich so anfühlt.
+Dialogue: 1,0:11:55.39,0:11:58.40,Karaoke,,0,0,0,,{\k0}{\kf10}was {\kf40}Schmerz {\kf64}bewirkt, {\kf14}aber\N{\kf54}nicht, {\kf18}warum {\kf20}er {\kf14}sich {\kf16}so {\kf51}anfühlt.
+Dialogue: 0,0:11:55.39,0:11:58.40,Naechste,,0,0,0,,Levine folgert daraus nicht, dass der Materialismus falsch ist,
+Dialogue: 1,0:11:58.40,0:12:02.38,Karaoke,,0,0,0,,{\k37}{\kf47}Levine {\kf46}folgert {\kf26}daraus {\kf54}nicht, {\kf10}dass\N{\kf16}der {\kf60}Materialismus {\kf34}falsch {\kf68}ist,
+Dialogue: 0,0:11:58.40,0:12:02.38,Naechste,,0,0,0,,sondern dass uns ein Verstehen fehlt; Nagels Aufsatz nennt er als Einfluss.
+Dialogue: 1,0:12:02.38,0:12:06.13,Karaoke,,0,0,0,,{\k0}{\kf22}sondern {\kf18}dass {\kf18}uns {\kf18}ein {\kf44}Verstehen {\kf58}fehlt;\N{\kf34}Nagels {\kf40}Aufsatz {\kf34}nennt {\kf10}er {\kf18}als {\kf62}Einfluss.
+Dialogue: 0,0:12:02.38,0:12:06.13,Naechste,,0,0,0,,1995 unterschied David Chalmers die „leichten“ Probleme des Bewusstseins –
+Dialogue: 1,0:12:06.13,0:12:11.81,Karaoke,,0,0,0,,{\k70}{\kf86}1995 {\kf79}unterschied {\kf36}David {\kf72}Chalmers {\kf14}die\N{\kf34}„leichten“ {\kf46}Probleme {\kf26}des {\kf98}Bewusstseins {\kf8}–
+Dialogue: 0,0:12:06.13,0:12:11.81,Naechste,,0,0,0,,Reize unterscheiden, Information integrieren,
+Dialogue: 1,0:12:11.81,0:12:14.61,Karaoke,,0,0,0,,{\k0}{\kf30}Reize {\kf96}unterscheiden,\N{\kf36}Information {\kf118}integrieren,
+Dialogue: 0,0:12:11.81,0:12:14.61,Naechste,,0,0,0,,über eigene Zustände berichten –
+Dialogue: 1,0:12:14.61,0:12:16.53,Karaoke,,0,0,0,,{\k0}{\kf14}über {\kf34}eigene {\kf62}Zustände {\kf74}berichten {\kf8}–
+Dialogue: 0,0:12:14.61,0:12:16.53,Naechste,,0,0,0,,vom „harten“ Problem: dem Problem der Erfahrung.
+Dialogue: 1,0:12:16.53,0:12:19.13,Karaoke,,0,0,0,,{\k0}{\kf8}vom {\kf34}„harten“ {\kf84}Problem: {\kf10}dem\N{\kf42}Problem {\kf18}der {\kf64}Erfahrung.
+Dialogue: 0,0:12:16.53,0:12:19.13,Naechste,,0,0,0,,Er beruft sich dabei direkt auf Nagels Formel.
+Dialogue: 1,0:12:19.13,0:12:21.83,Karaoke,,0,0,0,,{\k39}{\kf11}Er {\kf36}beruft {\kf20}sich {\kf18}dabei\N{\kf26}direkt {\kf28}auf {\kf42}Nagels {\kf50}Formel.
+Dialogue: 0,0:12:19.13,0:12:21.83,Naechste,,0,0,0,,Im selben Jahr trennte Ned Block das phänomenale Bewusstsein, also wie es ist,
+Dialogue: 1,0:12:21.83,0:12:26.25,Karaoke,,0,0,0,,{\k38}{\kf19}Im {\kf34}selben {\kf12}Jahr {\kf25}trennte {\kf11}Ned {\kf34}Block {\kf24}das\N{\kf54}phänomenale {\kf92}Bewusstsein, {\kf18}also {\kf16}wie {\kf16}es {\kf48}ist,
+Dialogue: 0,0:12:21.83,0:12:26.25,Naechste,,0,0,0,,in einem Zustand zu sein, vom Zugangsbewusstsein:
+Dialogue: 1,0:12:26.25,0:12:29.13,Karaoke,,0,0,0,,{\k0}{\kf8}in {\kf12}einem {\kf48}Zustand {\kf14}zu {\kf41}sein,\N{\kf31}vom {\kf134}Zugangsbewusstsein:
+Dialogue: 0,0:12:26.25,0:12:29.13,Naechste,,0,0,0,,der Verfügbarkeit von Information für Denken, Sprechen und Handeln.
+Dialogue: 1,0:12:29.13,0:12:32.92,Karaoke,,0,0,0,,{\k0}{\kf12}der {\kf75}Verfügbarkeit {\kf17}von {\kf34}Information\N{\kf38}für {\kf70}Denken, {\kf30}Sprechen {\kf20}und {\kf48}Handeln.
+Dialogue: 0,0:12:29.13,0:12:32.92,Naechste,,0,0,0,,Ein Argument dieser Reichweite hat entschiedene Gegner.
+Dialogue: 1,0:12:36.87,0:12:40.37,Karaoke,,0,0,0,,{\k80}{\kf18}Ein {\kf42}Argument {\kf24}dieser {\kf72}Reichweite\N{\kf14}hat {\kf54}entschiedene {\kf46}Gegner.
+Dialogue: 0,0:12:36.87,0:12:40.37,Naechste,,0,0,0,,Hier sind die wichtigsten, jeweils so stark, wie ihre Vertreter sie machen,
+Dialogue: 1,0:12:40.37,0:12:44.44,Karaoke,,0,0,0,,{\k38}{\kf23}Hier {\kf22}sind {\kf14}die {\kf94}wichtigsten, {\kf32}jeweils {\kf10}so\N{\kf64}stark, {\kf8}wie {\kf18}ihre {\kf46}Vertreter {\kf12}sie {\kf26}machen,
+Dialogue: 0,0:12:40.37,0:12:44.44,Naechste,,0,0,0,,und mit dem Schritt, den sie angreifen.
+Dialogue: 1,0:12:44.44,0:12:46.87,Karaoke,,0,0,0,,{\k0}{\kf52}und {\kf20}mit {\kf10}dem {\kf46}Schritt, {\kf24}den {\kf14}sie {\kf77}angreifen.
+Dialogue: 0,0:12:44.44,0:12:46.87,Naechste,,0,0,0,,Daniel Dennett, in Nagels erster Fußnote unter den Reduktionisten genannt,
+Dialogue: 1,0:12:46.87,0:12:52.19,Karaoke,,0,0,0,,{\k70}{\kf32}Daniel {\kf80}Dennett, {\kf18}in {\kf34}Nagels {\kf47}erster {\kf55}Fußnote\N{\kf24}unter {\kf20}den {\kf68}Reduktionisten {\kf84}genannt,
+Dialogue: 0,0:12:46.87,0:12:52.19,Naechste,,0,0,0,,widerspricht frontal.
+Dialogue: 1,0:12:52.19,0:12:53.30,Karaoke,,0,0,0,,{\k0}{\kf52}widerspricht {\kf59}frontal.
+Dialogue: 0,0:12:52.19,0:12:53.30,Naechste,,0,0,0,,Nagel behaupte, kein Wissen aus der
+Dialogue: 1,0:12:53.30,0:12:55.60,Karaoke,,0,0,0,,{\k37}{\kf29}Nagel {\kf94}behaupte, {\kf16}kein {\kf26}Wissen {\kf16}aus {\kf12}der
+Dialogue: 0,0:12:53.30,0:12:55.60,Naechste,,0,0,0,,dritten Person könne uns sagen, wie es ist,
+Dialogue: 1,0:12:55.60,0:12:58.06,Karaoke,,0,0,0,,{\k0}{\kf28}dritten {\kf36}Person {\kf40}könne\N{\kf12}uns {\kf58}sagen, {\kf12}wie {\kf18}es {\kf42}ist,
+Dialogue: 0,0:12:55.60,0:12:58.06,Naechste,,0,0,0,,eine Fledermaus zu sein, schreibt Dennett 1991,
+Dialogue: 1,0:12:58.06,0:13:00.48,Karaoke,,0,0,0,,{\k0}{\kf10}eine {\kf56}Fledermaus {\kf18}zu {\kf58}sein,\N{\kf25}schreibt {\kf21}Dennett {\kf54}1991,
+Dialogue: 0,0:12:58.06,0:13:00.48,Naechste,,0,0,0,,und diese Behauptung bestreite er rundweg.
+Dialogue: 1,0:13:00.48,0:13:03.53,Karaoke,,0,0,0,,{\k0}{\kf118}und {\kf26}diese {\kf52}Behauptung {\kf40}bestreite {\kf12}er {\kf57}rundweg.
+Dialogue: 0,0:13:00.48,0:13:03.53,Naechste,,0,0,0,,Wir könnten eine Menge darüber wissen, wie es ist, eine Fledermaus zu sein;
+Dialogue: 1,0:13:03.53,0:13:07.91,Karaoke,,0,0,0,,{\k37}{\kf11}Wir {\kf32}könnten {\kf26}eine {\kf20}Menge {\kf24}darüber {\kf76}wissen,\N{\kf27}wie {\kf18}es {\kf27}ist, {\kf12}eine {\kf52}Fledermaus {\kf18}zu {\kf58}sein;
+Dialogue: 0,0:13:03.53,0:13:07.91,Naechste,,0,0,0,,die Struktur ihres Geistes sei ebenso zugänglich
+Dialogue: 1,0:13:07.91,0:13:10.35,Karaoke,,0,0,0,,{\k0}{\kf8}die {\kf42}Struktur {\kf34}ihres {\kf40}Geistes\N{\kf24}sei {\kf40}ebenso {\kf56}zugänglich
+Dialogue: 0,0:13:07.91,0:13:10.35,Naechste,,0,0,0,,wie die Struktur ihres Verdauungssystems.
+Dialogue: 1,0:13:10.35,0:13:12.27,Karaoke,,0,0,0,,{\k0}{\kf10}wie {\kf8}die {\kf40}Struktur {\kf38}ihres {\kf96}Verdauungssystems.
+Dialogue: 0,0:13:10.35,0:13:12.27,Naechste,,0,0,0,,Angegriffen wird der Schritt, uns bleibe nur eine schematische Vorstellung.
+Dialogue: 1,0:13:12.27,0:13:16.17,Karaoke,,0,0,0,,{\k37}{\kf59}Angegriffen {\kf12}wird {\kf12}der {\kf63}Schritt, {\kf27}uns {\kf14}bleibe\N{\kf24}nur {\kf18}eine {\kf54}schematische {\kf70}Vorstellung.
+Dialogue: 0,0:13:12.27,0:13:16.17,Naechste,,0,0,0,,Kathleen Akins prüfte das 1993 an der Schnurrbartfledermaus,
+Dialogue: 1,0:13:16.17,0:13:21.29,Karaoke,,0,0,0,,{\k70}{\kf54}Kathleen {\kf40}Akins {\kf50}prüfte {\kf16}das {\kf84}1993\N{\kf80}an {\kf15}der {\kf103}Schnurrbartfledermaus,
+Dialogue: 0,0:13:16.17,0:13:21.29,Naechste,,0,0,0,,mit überraschendem Ergebnis.
+Dialogue: 1,0:13:21.29,0:13:23.13,Karaoke,,0,0,0,,{\k0}{\kf50}mit {\kf70}überraschendem {\kf65}Ergebnis.
+Dialogue: 0,0:13:21.29,0:13:23.13,Naechste,,0,0,0,,Die Neurophysiologie lege nahe,
+Dialogue: 1,0:13:23.13,0:13:25.62,Karaoke,,0,0,0,,{\k37}{\kf13}Die {\kf108}Neurophysiologie {\kf54}lege {\kf36}nahe,
+Dialogue: 0,0:13:23.13,0:13:25.62,Naechste,,0,0,0,,dass die Fledermaus ihr Sonar vermutlich nicht nutzt, um Gegenstände darzustellen.
+Dialogue: 1,0:13:25.62,0:13:29.97,Karaoke,,0,0,0,,{\k0}{\kf12}dass {\kf14}die {\kf56}Fledermaus {\kf14}ihr {\kf28}Sonar {\kf60}vermutlich\N{\kf22}nicht {\kf72}nutzt, {\kf12}um {\kf64}Gegenstände {\kf81}darzustellen.
+Dialogue: 0,0:13:25.62,0:13:29.97,Naechste,,0,0,0,,Ihr Erleben sei dann wahrscheinlich weder bildhaft noch
+Dialogue: 1,0:13:29.97,0:13:32.67,Karaoke,,0,0,0,,{\k37}{\kf13}Ihr {\kf48}Erleben {\kf10}sei {\kf16}dann\N{\kf50}wahrscheinlich {\kf34}weder {\kf40}bildhaft {\kf22}noch
+Dialogue: 0,0:13:29.97,0:13:32.67,Naechste,,0,0,0,,eines von einer Welt aus Dingen und Eigenschaften –
+Dialogue: 1,0:13:32.67,0:13:35.13,Karaoke,,0,0,0,,{\k0}{\kf20}eines {\kf22}von {\kf18}einer {\kf20}Welt {\kf18}aus\N{\kf30}Dingen {\kf42}und {\kf71}Eigenschaften {\kf5}–
+Dialogue: 0,0:13:32.67,0:13:35.13,Naechste,,0,0,0,,und es sei plausibel, dass die Fledermaus überhaupt keinen Standpunkt hat.
+Dialogue: 1,0:13:35.13,0:13:38.73,Karaoke,,0,0,0,,{\k0}{\kf24}und {\kf16}es {\kf14}sei {\kf84}plausibel, {\kf10}dass {\kf14}die {\kf50}Fledermaus\N{\kf40}überhaupt {\kf32}keinen {\kf48}Standpunkt {\kf29}hat.
+Dialogue: 0,0:13:35.13,0:13:38.73,Naechste,,0,0,0,,Damit zielt Akins auf Nagels Voraussetzung, es sei irgendwie,
+Dialogue: 1,0:13:38.73,0:13:42.63,Karaoke,,0,0,0,,{\k39}{\kf21}Damit {\kf40}zielt {\kf50}Akins {\kf18}auf {\kf38}Nagels\N{\kf110}Voraussetzung, {\kf16}es {\kf14}sei {\kf44}irgendwie,
+Dialogue: 0,0:13:38.73,0:13:42.63,Naechste,,0,0,0,,eine Fledermaus zu sein.
+Dialogue: 1,0:13:42.63,0:13:44.17,Karaoke,,0,0,0,,{\k0}{\kf38}eine {\kf56}Fledermaus {\kf20}zu {\kf40}sein.
+Dialogue: 0,0:13:42.63,0:13:44.17,Naechste,,0,0,0,,Sean Allen-Hermanson hielt 2015 dagegen:
+Dialogue: 1,0:13:44.17,0:13:47.86,Karaoke,,0,0,0,,{\k37}{\kf26}Sean {\kf89}Allen-Hermanson {\kf32}hielt {\kf84}2015 {\kf102}dagegen:
+Dialogue: 0,0:13:44.17,0:13:47.86,Naechste,,0,0,0,,Eine vollständigere Sicht der Befunde zeige
+Dialogue: 1,0:13:47.86,0:13:50.14,Karaoke,,0,0,0,,{\k0}{\kf14}Eine {\kf88}vollständigere\N{\kf24}Sicht {\kf24}der {\kf44}Befunde {\kf34}zeige
+Dialogue: 0,0:13:47.86,0:13:50.14,Naechste,,0,0,0,,Fledermäuse gerade nicht als starre Automaten.
+Dialogue: 1,0:13:50.14,0:13:52.80,Karaoke,,0,0,0,,{\k0}{\kf70}Fledermäuse {\kf26}gerade {\kf28}nicht\N{\kf24}als {\kf44}starre {\kf74}Automaten.
+Dialogue: 0,0:13:50.14,0:13:52.80,Naechste,,0,0,0,,David Lewis und Laurence Nemirow setzen an anderer Stelle an.
+Dialogue: 1,0:13:52.80,0:13:57.17,Karaoke,,0,0,0,,{\k70}{\kf50}David {\kf28}Lewis {\kf22}und {\kf60}Laurence {\kf58}Nemirow\N{\kf20}setzen {\kf30}an {\kf30}anderer {\kf28}Stelle {\kf41}an.
+Dialogue: 0,0:13:52.80,0:13:57.17,Naechste,,0,0,0,,Ihre Fähigkeitshypothese: Zu wissen, wie eine Erfahrung ist, heißt nicht,
+Dialogue: 1,0:13:57.17,0:14:00.92,Karaoke,,0,0,0,,{\k38}{\kf15}Ihre {\kf100}Fähigkeitshypothese: {\kf12}Zu {\kf38}wissen,\N{\kf6}wie {\kf14}eine {\kf42}Erfahrung {\kf46}ist, {\kf14}heißt {\kf50}nicht,
+Dialogue: 0,0:13:57.17,0:14:00.92,Naechste,,0,0,0,,eine Tatsache zu kennen,
+Dialogue: 1,0:14:00.92,0:14:02.18,Karaoke,,0,0,0,,{\k0}{\kf12}eine {\kf46}Tatsache {\kf16}zu {\kf52}kennen,
+Dialogue: 0,0:14:00.92,0:14:02.18,Naechste,,0,0,0,,sondern Fähigkeiten zu besitzen – sich zu erinnern,
+Dialogue: 1,0:14:02.18,0:14:04.50,Karaoke,,0,0,0,,{\k0}{\kf16}sondern {\kf54}Fähigkeiten {\kf18}zu\N{\kf50}besitzen {\kf6}– {\kf10}sich {\kf16}zu {\kf62}erinnern,
+Dialogue: 0,0:14:02.18,0:14:04.50,Naechste,,0,0,0,,sich etwas vorzustellen, etwas wiederzuerkennen.
+Dialogue: 1,0:14:04.50,0:14:06.57,Karaoke,,0,0,0,,{\k0}{\kf12}sich {\kf26}etwas {\kf80}vorzustellen,\N{\kf21}etwas {\kf68}wiederzuerkennen.
+Dialogue: 0,0:14:04.50,0:14:06.57,Naechste,,0,0,0,,Lektionen vermitteln Information, schreibt Lewis; Fähigkeit ist etwas anderes.
+Dialogue: 1,0:14:06.57,0:14:11.30,Karaoke,,0,0,0,,{\k38}{\kf55}Lektionen {\kf46}vermitteln {\kf106}Information, {\kf24}schreibt\N{\kf54}Lewis; {\kf48}Fähigkeit {\kf16}ist {\kf24}etwas {\kf62}anderes.
+Dialogue: 0,0:14:06.57,0:14:11.30,Naechste,,0,0,0,,Dann wäre es nicht rätselhaft, dass kein Physikunterricht lehrt,
+Dialogue: 1,0:14:11.30,0:14:15.02,Karaoke,,0,0,0,,{\k39}{\kf17}Dann {\kf18}wäre {\kf24}es {\kf14}nicht {\kf88}rätselhaft,\N{\kf10}dass {\kf16}kein {\kf84}Physikunterricht {\kf62}lehrt,
+Dialogue: 0,0:14:11.30,0:14:15.02,Naechste,,0,0,0,,wie die Echoortung einer Fledermaus ist.
+Dialogue: 1,0:14:15.02,0:14:17.00,Karaoke,,0,0,0,,{\k0}{\kf12}wie {\kf42}die {\kf34}Echoortung {\kf14}einer {\kf58}Fledermaus {\kf38}ist.
+Dialogue: 0,0:14:15.02,0:14:17.00,Naechste,,0,0,0,,Angegriffen wird Nagels Realismus über subjektive Tatsachen.
+Dialogue: 1,0:14:17.00,0:14:20.63,Karaoke,,0,0,0,,{\k38}{\kf63}Angegriffen {\kf12}wird {\kf44}Nagels {\kf54}Realismus\N{\kf26}über {\kf60}subjektive {\kf67}Tatsachen.
+Dialogue: 0,0:14:17.00,0:14:20.63,Naechste,,0,0,0,,Peter Hacker bestreitet schon die Formel.
+Dialogue: 1,0:14:20.63,0:14:23.23,Karaoke,,0,0,0,,{\k70}{\kf32}Peter {\kf26}Hacker {\kf52}bestreitet {\kf16}schon {\kf16}die {\kf48}Formel.
+Dialogue: 0,0:14:20.63,0:14:23.23,Naechste,,0,0,0,,Die Frage „Wie ist es, X zu sein?“ ist sinnvoll,
+Dialogue: 1,0:14:23.23,0:14:26.49,Karaoke,,0,0,0,,{\k37}{\kf13}Die {\kf44}Frage {\kf5}„Wie {\kf19}ist {\kf14}es, {\kf26}X\N{\kf18}zu {\kf54}sein?“ {\kf12}ist {\kf84}sinnvoll,
+Dialogue: 0,0:14:23.23,0:14:26.49,Naechste,,0,0,0,,wenn sie einen Kontrast enthält –
+Dialogue: 1,0:14:26.49,0:14:27.99,Karaoke,,0,0,0,,{\k0}{\kf12}wenn {\kf14}sie {\kf18}einen {\kf46}Kontrast {\kf53}enthält {\kf7}–
+Dialogue: 0,0:14:26.49,0:14:27.99,Naechste,,0,0,0,,etwa: Wie ist es für eine Frau, Soldatin zu sein, im Unterschied zu einem Mann?
+Dialogue: 1,0:14:27.99,0:14:32.37,Karaoke,,0,0,0,,{\k0}{\kf28}etwa: {\kf44}Wie {\kf18}ist {\kf14}es {\kf16}für {\kf12}eine {\kf34}Frau, {\kf86}Soldatin\N{\kf14}zu {\kf30}sein, {\kf34}im {\kf32}Unterschied {\kf22}zu {\kf16}einem {\kf37}Mann?
+Dialogue: 0,0:14:27.99,0:14:32.37,Naechste,,0,0,0,,Bei „Wie ist es für eine Fledermaus, eine Fledermaus zu sein?“ fehle jeder Kontrast.
+Dialogue: 1,0:14:32.37,0:14:37.20,Karaoke,,0,0,0,,{\k37}{\kf15}Bei {\kf18}„Wie {\kf20}ist {\kf12}es {\kf18}für {\kf12}eine {\kf68}Fledermaus, {\kf26}eine\N{\kf54}Fledermaus {\kf18}zu {\kf62}sein?“ {\kf36}fehle {\kf16}jeder {\kf71}Kontrast.
+Dialogue: 0,0:14:32.37,0:14:37.20,Naechste,,0,0,0,,Und wer fragt „Wie war es für dich?“, erwarte eine Bewertung,
+Dialogue: 1,0:14:37.20,0:14:41.07,Karaoke,,0,0,0,,{\k38}{\kf13}Und {\kf18}wer {\kf50}fragt {\kf6}„Wie {\kf16}war {\kf10}es {\kf14}für\N{\kf76}dich?“, {\kf36}erwarte {\kf18}eine {\kf92}Bewertung,
+Dialogue: 0,0:14:37.20,0:14:41.07,Naechste,,0,0,0,,etwa angenehm oder aufregend, keine Erlebnisqualität.
+Dialogue: 1,0:14:41.07,0:14:44.27,Karaoke,,0,0,0,,{\k0}{\kf16}etwa {\kf68}angenehm {\kf16}oder {\kf82}aufregend,\N{\kf24}keine {\kf113}Erlebnisqualität.
+Dialogue: 0,0:14:41.07,0:14:44.27,Naechste,,0,0,0,,Die Wendung, es sei irgendwie, ein Wesen zu sein, nennt Hacker schlecht gebaut.
+Dialogue: 1,0:14:44.27,0:14:49.07,Karaoke,,0,0,0,,{\k38}{\kf13}Die {\kf78}Wendung, {\kf20}es {\kf14}sei {\kf36}irgendwie, {\kf58}ein {\kf28}Wesen\N{\kf16}zu {\kf62}sein, {\kf20}nennt {\kf16}Hacker {\kf24}schlecht {\kf57}gebaut.
+Dialogue: 0,0:14:44.27,0:14:49.07,Naechste,,0,0,0,,Nagels Klarstellung, gemeint sei, wie es für das Subjekt ist, kennt er;
+Dialogue: 1,0:14:49.07,0:14:53.79,Karaoke,,0,0,0,,{\k39}{\kf41}Nagels {\kf90}Klarstellung, {\kf46}gemeint {\kf48}sei,\N{\kf10}wie {\kf8}es {\kf14}für {\kf8}das {\kf36}Subjekt {\kf48}ist, {\kf20}kennt {\kf64}er;
+Dialogue: 0,0:14:49.07,0:14:53.79,Naechste,,0,0,0,,sie überzeugt ihn nicht.
+Dialogue: 1,0:14:53.79,0:14:54.90,Karaoke,,0,0,0,,{\k0}{\kf12}sie {\kf56}überzeugt {\kf8}ihn {\kf35}nicht.
+Dialogue: 0,0:14:53.79,0:14:54.90,Naechste,,0,0,0,,Am weitesten geht der Illusionismus, den Keith Frankish 2016 ausgearbeitet hat.
+Dialogue: 1,0:14:54.90,0:15:00.67,Karaoke,,0,0,0,,{\k70}{\kf18}Am {\kf52}weitesten {\kf20}geht {\kf16}der {\kf89}Illusionismus, {\kf21}den\N{\kf34}Keith {\kf54}Frankish {\kf90}2016 {\kf88}ausgearbeitet {\kf25}hat.
+Dialogue: 0,0:14:54.90,0:15:00.67,Naechste,,0,0,0,,Er bestreitet nicht, dass es uns so scheint,
+Dialogue: 1,0:15:00.67,0:15:03.50,Karaoke,,0,0,0,,{\k37}{\kf13}Er {\kf54}bestreitet {\kf58}nicht,\N{\kf14}dass {\kf16}es {\kf12}uns {\kf12}so {\kf68}scheint,
+Dialogue: 0,0:15:00.67,0:15:03.50,Naechste,,0,0,0,,als hätten Erfahrungen eine qualitative Innenseite.
+Dialogue: 1,0:15:03.50,0:15:06.07,Karaoke,,0,0,0,,{\k0}{\kf16}als {\kf22}hätten {\kf72}Erfahrungen {\kf18}eine\N{\kf48}qualitative {\kf80}Innenseite.
+Dialogue: 0,0:15:03.50,0:15:06.07,Naechste,,0,0,0,,Er bestreitet, dass es diese phänomenalen Eigenschaften wirklich gibt.
+Dialogue: 1,0:15:06.07,0:15:10.07,Karaoke,,0,0,0,,{\k39}{\kf13}Er {\kf84}bestreitet, {\kf12}dass {\kf14}es {\kf26}diese\N{\kf74}phänomenalen {\kf76}Eigenschaften {\kf12}wirklich {\kf50}gibt.
+Dialogue: 0,0:15:06.07,0:15:10.07,Naechste,,0,0,0,,An die Stelle des harten Problems tritt das Illusionsproblem: zu erklären,
+Dialogue: 1,0:15:10.07,0:15:14.41,Karaoke,,0,0,0,,{\k38}{\kf13}An {\kf14}die {\kf26}Stelle {\kf20}des {\kf34}harten {\kf54}Problems {\kf22}tritt\N{\kf12}das {\kf92}Illusionsproblem: {\kf38}zu {\kf72}erklären,
+Dialogue: 0,0:15:10.07,0:15:14.41,Naechste,,0,0,0,,wie dieser Anschein entsteht und warum er so hartnäckig ist.
+Dialogue: 1,0:15:14.41,0:15:17.33,Karaoke,,0,0,0,,{\k0}{\kf10}wie {\kf22}dieser {\kf48}Anschein {\kf42}entsteht\N{\kf12}und {\kf34}warum {\kf20}er {\kf10}so {\kf58}hartnäckig {\kf36}ist.
+Dialogue: 0,0:15:14.41,0:15:17.33,Naechste,,0,0,0,,Getroffen wäre damit Nagels Ausgangspunkt, die Definition selbst.
+Dialogue: 1,0:15:17.33,0:15:22.02,Karaoke,,0,0,0,,{\k37}{\kf47}Getroffen {\kf28}wäre {\kf28}damit {\kf42}Nagels\N{\kf90}Ausgangspunkt, {\kf38}die {\kf64}Definition {\kf60}selbst.
+Dialogue: 0,0:15:17.33,0:15:22.02,Naechste,,0,0,0,,Wie arbeitet die echte Fledermaus?
+Dialogue: 1,0:15:25.97,0:15:28.53,Karaoke,,0,0,0,,{\k80}{\kf16}Wie {\kf46}arbeitet {\kf18}die {\kf20}echte {\kf77}Fledermaus?
+Dialogue: 0,0:15:25.97,0:15:28.53,Naechste,,0,0,0,,Dass sie Hindernissen mit Echos ausweicht,
+Dialogue: 1,0:15:28.53,0:15:31.20,Karaoke,,0,0,0,,{\k38}{\kf15}Dass {\kf16}sie {\kf50}Hindernissen {\kf24}mit {\kf32}Echos {\kf92}ausweicht,
+Dialogue: 0,0:15:28.53,0:15:31.20,Naechste,,0,0,0,,zeigten Donald Griffin und Robert Galambos 1941;
+Dialogue: 1,0:15:31.20,0:15:35.42,Karaoke,,0,0,0,,{\k0}{\kf36}zeigten {\kf28}Donald {\kf48}Griffin\N{\kf40}und {\kf28}Robert {\kf66}Galambos {\kf176}1941;
+Dialogue: 0,0:15:31.20,0:15:35.42,Naechste,,0,0,0,,drei Jahre später prägte Griffin dafür das Wort echolocation.
+Dialogue: 1,0:15:35.42,0:15:38.83,Karaoke,,0,0,0,,{\k0}{\kf20}drei {\kf22}Jahre {\kf40}später {\kf48}prägte {\kf34}Griffin\N{\kf30}dafür {\kf30}das {\kf27}Wort {\kf89}echolocation.
+Dialogue: 0,0:15:35.42,0:15:38.83,Naechste,,0,0,0,,Die Physik ist einfach:
+Dialogue: 1,0:15:38.83,0:15:40.78,Karaoke,,0,0,0,,{\k38}{\kf13}Die {\kf50}Physik {\kf16}ist {\kf78}einfach:
+Dialogue: 0,0:15:38.83,0:15:40.78,Naechste,,0,0,0,,Schall legt bei zwanzig Grad etwa 343 Meter pro Sekunde zurück,
+Dialogue: 1,0:15:40.78,0:15:44.72,Karaoke,,0,0,0,,{\k0}{\kf20}Schall {\kf28}legt {\kf5}bei {\kf39}zwanzig {\kf28}Grad {\kf30}etwa\N{\kf124}343 {\kf26}Meter {\kf22}pro {\kf44}Sekunde {\kf28}zurück,
+Dialogue: 0,0:15:40.78,0:15:44.72,Naechste,,0,0,0,,und der Ruf muss hin und zurück.
+Dialogue: 1,0:15:44.72,0:15:46.67,Karaoke,,0,0,0,,{\k0}{\kf44}und {\kf14}der {\kf24}Ruf {\kf18}muss {\kf24}hin {\kf26}und {\kf45}zurück.
+Dialogue: 0,0:15:44.72,0:15:46.67,Naechste,,0,0,0,,Ein Echo nach sechs Millisekunden heißt: Das Insekt ist rund einen Meter entfernt.
+Dialogue: 1,0:15:46.67,0:15:51.97,Karaoke,,0,0,0,,{\k38}{\kf36}Ein {\kf47}Echo {\kf5}nach {\kf21}sechs {\kf76}Millisekunden {\kf82}heißt:\N{\kf8}Das {\kf42}Insekt {\kf14}ist {\kf28}rund {\kf36}einen {\kf26}Meter {\kf71}entfernt.
+Dialogue: 0,0:15:46.67,0:15:51.97,Naechste,,0,0,0,,Weit reicht das nicht;
+Dialogue: 1,0:15:51.97,0:15:53.56,Karaoke,,0,0,0,,{\k39}{\kf23}Weit {\kf20}reicht {\kf22}das {\kf56}nicht;
+Dialogue: 0,0:15:51.97,0:15:53.56,Naechste,,0,0,0,,selbst ein günstiges Ziel ist kaum auf mehr als zehn Meter zu orten.
+Dialogue: 1,0:15:53.56,0:15:57.17,Karaoke,,0,0,0,,{\k0}{\kf22}selbst {\kf30}ein {\kf46}günstiges {\kf30}Ziel {\kf22}ist {\kf30}kaum\N{\kf24}auf {\kf16}mehr {\kf20}als {\kf28}zehn {\kf24}Meter {\kf24}zu {\kf44}orten.
+Dialogue: 0,0:15:53.56,0:15:57.17,Naechste,,0,0,0,,Fledermäuse nutzen zwei Grundformen von Rufen.
+Dialogue: 1,0:15:57.17,0:16:00.50,Karaoke,,0,0,0,,{\k70}{\kf66}Fledermäuse {\kf24}nutzen {\kf30}zwei\N{\kf80}Grundformen {\kf16}von {\kf47}Rufen.
+Dialogue: 0,0:15:57.17,0:16:00.50,Naechste,,0,0,0,,Frequenzmodulierte Rufe gleiten rasch über einen breiten Bereich
+Dialogue: 1,0:16:00.50,0:16:04.28,Karaoke,,0,0,0,,{\k39}{\kf95}Frequenzmodulierte {\kf44}Rufe {\kf44}gleiten\N{\kf46}rasch {\kf16}über {\kf22}einen {\kf48}breiten {\kf24}Bereich
+Dialogue: 0,0:16:00.50,0:16:04.28,Naechste,,0,0,0,,abwärts und sind präzise Zeitmarken für Entfernung und Richtung.
+Dialogue: 1,0:16:04.28,0:16:08.17,Karaoke,,0,0,0,,{\k0}{\kf80}abwärts {\kf18}und {\kf20}sind {\kf58}präzise {\kf76}Zeitmarken\N{\kf10}für {\kf52}Entfernung {\kf22}und {\kf53}Richtung.
+Dialogue: 0,0:16:04.28,0:16:08.17,Naechste,,0,0,0,,Konstantfrequente Rufe halten länger einen Ton;
+Dialogue: 1,0:16:08.17,0:16:11.26,Karaoke,,0,0,0,,{\k39}{\kf96}Konstantfrequente {\kf23}Rufe\N{\kf34}halten {\kf30}länger {\kf55}einen {\kf33}Ton;
+Dialogue: 0,0:16:08.17,0:16:11.26,Naechste,,0,0,0,,mit ihnen lassen sich schwache Echos entdecken und der
+Dialogue: 1,0:16:11.26,0:16:13.76,Karaoke,,0,0,0,,{\k0}{\kf10}mit {\kf14}ihnen {\kf30}lassen {\kf22}sich {\kf34}schwache\N{\kf32}Echos {\kf58}entdecken {\kf40}und {\kf10}der
+Dialogue: 0,0:16:11.26,0:16:13.76,Naechste,,0,0,0,,Flügelschlag eines Insekts als Flackern im Echo erkennen.
+Dialogue: 1,0:16:13.76,0:16:16.80,Karaoke,,0,0,0,,{\k0}{\kf60}Flügelschlag {\kf28}eines {\kf56}Insekts\N{\kf12}als {\kf56}Flackern {\kf16}im {\kf32}Echo {\kf44}erkennen.
+Dialogue: 0,0:16:13.76,0:16:16.80,Naechste,,0,0,0,,Fliegt die Fledermaus auf ein Ziel zu,
+Dialogue: 1,0:16:16.80,0:16:19.80,Karaoke,,0,0,0,,{\k70}{\kf36}Fliegt {\kf12}die {\kf58}Fledermaus {\kf24}auf {\kf14}ein {\kf24}Ziel {\kf62}zu,
+Dialogue: 0,0:16:16.80,0:16:19.80,Naechste,,0,0,0,,kommt das Echo durch den Doppler-Effekt höher zurück:
+Dialogue: 1,0:16:19.80,0:16:22.06,Karaoke,,0,0,0,,{\k0}{\kf24}kommt {\kf16}das {\kf22}Echo {\kf20}durch {\kf17}den\N{\kf73}Doppler-Effekt {\kf30}höher {\kf24}zurück:
+Dialogue: 0,0:16:19.80,0:16:22.06,Naechste,,0,0,0,,bei fünf Metern pro Sekunde und 61 Kilohertz um knapp zwei Kilohertz.
+Dialogue: 1,0:16:22.06,0:16:26.57,Karaoke,,0,0,0,,{\k0}{\kf40}bei {\kf19}fünf {\kf29}Metern {\kf32}pro {\kf66}Sekunde {\kf16}und {\kf64}61\N{\kf44}Kilohertz {\kf14}um {\kf24}knapp {\kf32}zwei {\kf71}Kilohertz.
+Dialogue: 0,0:16:22.06,0:16:26.57,Naechste,,0,0,0,,Arten mit langen konstantfrequenten Rufen gleichen das aus.
+Dialogue: 1,0:16:26.57,0:16:30.07,Karaoke,,0,0,0,,{\k38}{\kf39}Arten {\kf14}mit {\kf31}langen {\kf93}konstantfrequenten\N{\kf38}Rufen {\kf40}gleichen {\kf12}das {\kf45}aus.
+Dialogue: 0,0:16:26.57,0:16:30.07,Naechste,,0,0,0,,Sie senken ihren Ruf gerade so weit,
+Dialogue: 1,0:16:30.07,0:16:32.52,Karaoke,,0,0,0,,{\k37}{\kf19}Sie {\kf38}senken {\kf22}ihren {\kf32}Ruf {\kf15}gerade {\kf5}so {\kf78}weit,
+Dialogue: 0,0:16:30.07,0:16:32.52,Naechste,,0,0,0,,dass das Echo in einem schmalen Fenster ankommt,
+Dialogue: 1,0:16:32.52,0:16:34.80,Karaoke,,0,0,0,,{\k0}{\kf10}dass {\kf16}das {\kf22}Echo {\kf18}in {\kf14}einem\N{\kf42}schmalen {\kf38}Fenster {\kf68}ankommt,
+Dialogue: 0,0:16:32.52,0:16:34.80,Naechste,,0,0,0,,für das ihr Innenohr besonders fein abgestimmt ist.
+Dialogue: 1,0:16:34.80,0:16:37.07,Karaoke,,0,0,0,,{\k0}{\kf8}für {\kf12}das {\kf18}ihr {\kf38}Innenohr\N{\kf32}besonders {\kf38}fein {\kf48}abgestimmt {\kf32}ist.
+Dialogue: 0,0:16:34.80,0:16:37.07,Naechste,,0,0,0,,Wie das Gehirn das ordnet, hat Nobuo Suga an der Schnurrbartfledermaus untersucht,
+Dialogue: 1,0:16:37.07,0:16:42.29,Karaoke,,0,0,0,,{\k70}{\kf12}Wie {\kf14}das {\kf44}Gehirn {\kf10}das {\kf70}ordnet, {\kf20}hat {\kf32}Nobuo {\kf34}Suga\N{\kf20}an {\kf8}der {\kf98}Schnurrbartfledermaus {\kf90}untersucht,
+Dialogue: 0,0:16:37.07,0:16:42.29,Naechste,,0,0,0,,deren Ruf mit einem langen Ton bei etwa 61 Kilohertz beginnt.
+Dialogue: 1,0:16:42.29,0:16:45.83,Karaoke,,0,0,0,,{\k0}{\kf14}deren {\kf38}Ruf {\kf14}mit {\kf18}einem {\kf36}langen {\kf24}Ton\N{\kf24}bei {\kf20}etwa {\kf66}61 {\kf46}Kilohertz {\kf55}beginnt.
+Dialogue: 0,0:16:42.29,0:16:45.83,Naechste,,0,0,0,,Im Hörkortex sind Nervenzellen auf die Zeit zwischen Ruf
+Dialogue: 1,0:16:45.83,0:16:49.48,Karaoke,,0,0,0,,{\k40}{\kf15}Im {\kf62}Hörkortex {\kf48}sind {\kf74}Nervenzellen\N{\kf20}auf {\kf12}die {\kf18}Zeit {\kf20}zwischen {\kf56}Ruf
+Dialogue: 0,0:16:45.83,0:16:49.48,Naechste,,0,0,0,,und Echo abgestimmt und entlang einer Achse geordnet,
+Dialogue: 1,0:16:49.48,0:16:52.86,Karaoke,,0,0,0,,{\k0}{\kf30}und {\kf34}Echo {\kf60}abgestimmt {\kf32}und\N{\kf44}entlang {\kf24}einer {\kf34}Achse {\kf80}geordnet,
+Dialogue: 0,0:16:49.48,0:16:52.86,Naechste,,0,0,0,,die Entfernungen von sieben Zentimetern bis gut drei Metern abbildet.
+Dialogue: 1,0:16:52.86,0:16:56.30,Karaoke,,0,0,0,,{\k0}{\kf12}die {\kf66}Entfernungen {\kf22}von {\kf23}sieben {\kf43}Zentimetern\N{\kf36}bis {\kf22}gut {\kf18}drei {\kf26}Metern {\kf76}abbildet.
+Dialogue: 0,0:16:52.86,0:16:56.30,Naechste,,0,0,0,,Ein anderes Areal vergrößert das schmale Band knapp
+Dialogue: 1,0:16:56.30,0:16:59.63,Karaoke,,0,0,0,,{\k38}{\kf17}Ein {\kf40}anderes {\kf68}Areal {\kf62}vergrößert\N{\kf14}das {\kf30}schmale {\kf34}Band {\kf30}knapp
+Dialogue: 0,0:16:56.30,0:16:59.63,Naechste,,0,0,0,,über 61 Kilohertz und verarbeitet Geschwindigkeit.
+Dialogue: 1,0:16:59.63,0:17:02.80,Karaoke,,0,0,0,,{\k0}{\kf30}über {\kf65}61 {\kf45}Kilohertz {\kf40}und\N{\kf56}verarbeitet {\kf81}Geschwindigkeit.
+Dialogue: 0,0:16:59.63,0:17:02.80,Naechste,,0,0,0,,So klingt das: eine Fledermaus kurz vor dem Fang,
+Dialogue: 1,0:17:02.80,0:17:06.50,Karaoke,,0,0,0,,{\k70}{\kf18}So {\kf38}klingt {\kf24}das: {\kf40}eine\N{\kf60}Fledermaus {\kf26}kurz {\kf20}vor {\kf12}dem {\kf62}Fang,
+Dialogue: 0,0:17:02.80,0:17:06.50,Naechste,,0,0,0,,aufgenommen in Pennsylvania und zehnfach verlangsamt.
+Dialogue: 1,0:17:06.50,0:17:09.20,Karaoke,,0,0,0,,{\k0}{\kf38}aufgenommen {\kf24}in {\kf78}Pennsylvania\N{\kf24}und {\kf38}zehnfach {\kf68}verlangsamt.
+Dialogue: 0,0:17:06.50,0:17:09.20,Naechste,,0,0,0,,Dadurch rutschen die Rufe um mehr als drei Oktaven in unseren Hörbereich.
+Dialogue: 1,0:17:09.20,0:17:13.87,Karaoke,,0,0,0,,{\k39}{\kf37}Dadurch {\kf48}rutschen {\kf10}die {\kf38}Rufe {\kf18}um {\kf20}mehr {\kf18}als\N{\kf34}drei {\kf70}Oktaven {\kf26}in {\kf26}unseren {\kf83}Hörbereich.
+Dialogue: 0,0:17:09.20,0:17:13.87,Naechste,,0,0,0,,Jeder Ruf gleitet abwärts, und die Rufe folgen immer dichter aufeinander.
+Dialogue: 1,0:17:13.87,0:17:18.25,Karaoke,,0,0,0,,{\k39}{\kf17}Jeder {\kf36}Ruf {\kf34}gleitet {\kf62}abwärts, {\kf28}und {\kf12}die\N{\kf28}Rufe {\kf42}folgen {\kf14}immer {\kf34}dichter {\kf58}aufeinander.
+Dialogue: 1,0:17:26.00,0:17:27.57,Karaoke,,0,0,0,,{\k80}{\kf16}Und {\kf61}Menschen?
+Dialogue: 0,0:17:26.00,0:17:27.57,Naechste,,0,0,0,,Manche Blinde orten Gegenstände mit Mundklicks.
+Dialogue: 1,0:17:27.57,0:17:30.43,Karaoke,,0,0,0,,{\k36}{\kf33}Manche {\kf34}Blinde {\kf36}orten\N{\kf72}Gegenstände {\kf10}mit {\kf65}Mundklicks.
+Dialogue: 0,0:17:27.57,0:17:30.43,Naechste,,0,0,0,,Lore Thaler und Kollegen untersuchten 2011 zwei solche Experten im Hirnscanner:
+Dialogue: 1,0:17:30.43,0:17:35.37,Karaoke,,0,0,0,,{\k39}{\kf5}Lore {\kf62}Thaler {\kf32}und {\kf38}Kollegen {\kf62}untersuchten\N{\kf86}2011 {\kf24}zwei {\kf22}solche {\kf64}Experten {\kf8}im {\kf52}Hirnscanner:
+Dialogue: 0,0:17:30.43,0:17:35.37,Naechste,,0,0,0,,Klicks mit Echos aktivierten, verglichen mit echofreien Kontrollgeräuschen,
+Dialogue: 1,0:17:35.37,0:17:38.99,Karaoke,,0,0,0,,{\k0}{\kf36}Klicks {\kf14}mit {\kf30}Echos {\kf76}aktivierten, {\kf48}verglichen\N{\kf8}mit {\kf56}echofreien {\kf94}Kontrollgeräuschen,
+Dialogue: 0,0:17:35.37,0:17:38.99,Naechste,,0,0,0,,ein Areal, das gewöhnlich dem Sehen dient;
+Dialogue: 1,0:17:38.99,0:17:40.75,Karaoke,,0,0,0,,{\k0}{\kf12}ein {\kf31}Areal, {\kf19}das {\kf44}gewöhnlich {\kf16}dem {\kf27}Sehen {\kf27}dient;
+Dialogue: 0,0:17:38.99,0:17:40.75,Naechste,,0,0,0,,im Hörkortex zeigte sich kein Unterschied.
+Dialogue: 1,0:17:40.75,0:17:43.07,Karaoke,,0,0,0,,{\k0}{\kf30}im {\kf70}Hörkortex {\kf38}zeigte {\kf14}sich {\kf24}kein {\kf55}Unterschied.
+Dialogue: 0,0:17:40.75,0:17:43.07,Naechste,,0,0,0,,Bei zwei Personen ist das ein Hinweis, kein Beweis.
+Dialogue: 1,0:17:43.07,0:17:46.70,Karaoke,,0,0,0,,{\k40}{\kf15}Bei {\kf24}zwei {\kf58}Personen {\kf34}ist {\kf16}das\N{\kf14}ein {\kf86}Hinweis, {\kf14}kein {\kf63}Beweis.
+Dialogue: 0,0:17:43.07,0:17:46.70,Naechste,,0,0,0,,Nagels Fußnote hatte solche Echoortung schon erwähnt.
+Dialogue: 1,0:17:46.70,0:17:49.93,Karaoke,,0,0,0,,{\k37}{\kf50}Nagels {\kf49}Fußnote {\kf22}hatte {\kf37}solche\N{\kf61}Echoortung {\kf14}schon {\kf53}erwähnt.
+Dialogue: 0,0:17:46.70,0:17:49.93,Naechste,,0,0,0,,Verringert all das Nagels Kluft, oder bestätigt es sie?
+Dialogue: 1,0:17:49.93,0:17:53.73,Karaoke,,0,0,0,,{\k70}{\kf50}Verringert {\kf18}all {\kf19}das {\kf44}Nagels\N{\kf31}Kluft, {\kf38}oder {\kf64}bestätigt {\kf14}es {\kf32}sie?
+Dialogue: 0,0:17:49.93,0:17:53.73,Naechste,,0,0,0,,Beides lässt sich vertreten.
+Dialogue: 1,0:17:53.73,0:17:55.40,Karaoke,,0,0,0,,{\k39}{\kf27}Beides {\kf16}lässt {\kf22}sich {\kf63}vertreten.
+Dialogue: 0,0:17:53.73,0:17:55.40,Naechste,,0,0,0,,Die linke Seite unseres Bildes ist voll geworden.
+Dialogue: 1,0:17:55.40,0:17:58.27,Karaoke,,0,0,0,,{\k37}{\kf11}Die {\kf34}linke {\kf32}Seite {\kf40}unseres\N{\kf46}Bildes {\kf10}ist {\kf24}voll {\kf53}geworden.
+Dialogue: 0,0:17:55.40,0:17:58.27,Naechste,,0,0,0,,Wir wissen weit mehr darüber,
+Dialogue: 1,0:17:58.27,0:17:59.98,Karaoke,,0,0,0,,{\k39}{\kf9}Wir {\kf26}wissen {\kf28}weit {\kf18}mehr {\kf52}darüber,
+Dialogue: 0,0:17:58.27,0:17:59.98,Naechste,,0,0,0,,was eine Fledermaus unterscheiden kann und wie ihr Gehirn das leistet,
+Dialogue: 1,0:17:59.98,0:18:02.96,Karaoke,,0,0,0,,{\k0}{\kf12}was {\kf24}eine {\kf48}Fledermaus {\kf52}unterscheiden\N{\kf18}kann {\kf30}und {\kf18}wie {\kf8}ihr {\kf32}Gehirn {\kf6}das {\kf50}leistet,
+Dialogue: 0,0:17:59.98,0:18:02.96,Naechste,,0,0,0,,und ob ihre Echoortung eher dem Sehen ähnelt als dem Hören,
+Dialogue: 1,0:18:02.96,0:18:06.26,Karaoke,,0,0,0,,{\k0}{\kf32}und {\kf22}ob {\kf48}ihre {\kf54}Echoortung {\kf22}eher\N{\kf14}dem {\kf30}Sehen {\kf28}ähnelt {\kf10}als {\kf18}dem {\kf52}Hören,
+Dialogue: 0,0:18:02.96,0:18:06.26,Naechste,,0,0,0,,ist teilweise eine empirische Frage geworden.
+Dialogue: 1,0:18:06.26,0:18:08.30,Karaoke,,0,0,0,,{\k0}{\kf6}ist {\kf32}teilweise {\kf32}eine\N{\kf48}empirische {\kf32}Frage {\kf54}geworden.
+Dialogue: 0,0:18:06.26,0:18:08.30,Naechste,,0,0,0,,Aber die rechte Seite ist leer geblieben.
+Dialogue: 1,0:18:08.30,0:18:10.60,Karaoke,,0,0,0,,{\k37}{\kf17}Aber {\kf14}die {\kf30}rechte {\kf36}Seite {\kf24}ist {\kf20}leer {\kf52}geblieben.
+Dialogue: 0,0:18:08.30,0:18:10.60,Naechste,,0,0,0,,Aus keiner dieser Karten lässt sich ablesen,
+Dialogue: 1,0:18:10.60,0:18:13.29,Karaoke,,0,0,0,,{\k38}{\kf15}Aus {\kf26}keiner {\kf32}dieser {\kf42}Karten\N{\kf16}lässt {\kf24}sich {\kf76}ablesen,
+Dialogue: 0,0:18:10.60,0:18:13.29,Naechste,,0,0,0,,wie sich ein Echo für die Fledermaus anfühlt – so,
+Dialogue: 1,0:18:13.29,0:18:15.69,Karaoke,,0,0,0,,{\k0}{\kf12}wie {\kf14}sich {\kf20}ein {\kf22}Echo {\kf22}für {\kf10}die\N{\kf50}Fledermaus {\kf63}anfühlt {\kf9}– {\kf18}so,
+Dialogue: 0,0:18:13.29,0:18:15.69,Naechste,,0,0,0,,wie Nagels Argument es vorhersagt.
+Dialogue: 1,0:18:15.69,0:18:17.57,Karaoke,,0,0,0,,{\k0}{\kf22}wie {\kf34}Nagels {\kf40}Argument {\kf14}es {\kf78}vorhersagt.
+Dialogue: 0,0:18:15.69,0:18:17.57,Naechste,,0,0,0,,Eine Pointe am Rand: 1973 und 1974 war Nagel Gast an der Rockefeller University,
+Dialogue: 1,0:18:17.57,0:18:25.49,Karaoke,,0,0,0,,{\k70}{\kf20}Eine {\kf48}Pointe {\kf6}am {\kf78}Rand: {\kf110}1973 {\kf64}und {\kf102}1974 {\kf31}war\N{\kf63}Nagel {\kf42}Gast {\kf16}an {\kf10}der {\kf50}Rockefeller {\kf82}University,
+Dialogue: 0,0:18:17.57,0:18:25.49,Naechste,,0,0,0,,wo Griffin forschte.
+Dialogue: 1,0:18:25.49,0:18:26.77,Karaoke,,0,0,0,,{\k0}{\kf16}wo {\kf57}Griffin {\kf54}forschte.
+Dialogue: 0,0:18:25.49,0:18:26.77,Naechste,,0,0,0,,Die beiden sprachen über Fledermäuse und über die
+Dialogue: 1,0:18:26.77,0:18:29.65,Karaoke,,0,0,0,,{\k38}{\kf13}Die {\kf20}beiden {\kf58}sprachen {\kf22}über\N{\kf78}Fledermäuse {\kf26}und {\kf22}über {\kf12}die
+Dialogue: 0,0:18:26.77,0:18:29.65,Naechste,,0,0,0,,Scheu von Biologen vor dem Thema Tierbewusstsein.
+Dialogue: 1,0:18:29.65,0:18:32.57,Karaoke,,0,0,0,,{\k0}{\kf34}Scheu {\kf16}von {\kf72}Biologen {\kf24}vor\N{\kf12}dem {\kf32}Thema {\kf102}Tierbewusstsein.
+Dialogue: 0,0:18:29.65,0:18:32.57,Naechste,,0,0,0,,Griffins Buch dazu von 1976 war, so Nagel, eine Folge dieser Gespräche.
+Dialogue: 1,0:18:32.57,0:18:38.43,Karaoke,,0,0,0,,{\k38}{\kf41}Griffins {\kf22}Buch {\kf36}dazu {\kf18}von {\kf108}1976 {\kf100}war, {\kf16}so\N{\kf68}Nagel, {\kf12}eine {\kf30}Folge {\kf28}dieser {\kf70}Gespräche.
+Dialogue: 0,0:18:32.57,0:18:38.43,Naechste,,0,0,0,,Griffin selbst warf Nagel später lähmenden Perfektionismus vor.
+Dialogue: 1,0:18:38.43,0:18:42.58,Karaoke,,0,0,0,,{\k38}{\kf39}Griffin {\kf28}selbst {\kf36}warf {\kf32}Nagel {\kf30}später\N{\kf54}lähmenden {\kf76}Perfektionismus {\kf47}vor.
+Dialogue: 0,0:18:38.43,0:18:42.58,Naechste,,0,0,0,,Den Gegensatz von subjektivem und objektivem Standpunkt
+Dialogue: 1,0:18:46.53,0:18:50.29,Karaoke,,0,0,0,,{\k80}{\kf24}Den {\kf40}Gegensatz {\kf18}von {\kf92}subjektivem\N{\kf12}und {\kf68}objektivem {\kf42}Standpunkt
+Dialogue: 0,0:18:46.53,0:18:50.29,Naechste,,0,0,0,,hat Nagel 1986 zum Thema eines ganzen Buches gemacht:
+Dialogue: 1,0:18:50.29,0:18:54.76,Karaoke,,0,0,0,,{\k0}{\kf22}hat {\kf40}Nagel {\kf96}1986 {\kf88}zum {\kf40}Thema\N{\kf24}eines {\kf26}ganzen {\kf54}Buches {\kf57}gemacht:
+Dialogue: 0,0:18:50.29,0:18:54.76,Naechste,,0,0,0,,„The View from Nowhere“.
+Dialogue: 1,0:18:54.76,0:18:56.03,Karaoke,,0,0,0,,{\k0}{\kf24}„The {\kf33}View {\kf25}from {\kf45}Nowhere“.
+Dialogue: 0,0:18:54.76,0:18:56.03,Naechste,,0,0,0,,Objektivität, so fasste Bernard Williams in seiner Rezension zusammen,
+Dialogue: 1,0:18:56.03,0:19:00.74,Karaoke,,0,0,0,,{\k38}{\kf111}Objektivität, {\kf16}so {\kf42}fasste {\kf36}Bernard\N{\kf32}Williams {\kf36}in {\kf16}seiner {\kf46}Rezension {\kf98}zusammen,
+Dialogue: 0,0:18:56.03,0:19:00.74,Naechste,,0,0,0,,ist dort keine Weise, wie Dinge existieren,
+Dialogue: 1,0:19:00.74,0:19:03.28,Karaoke,,0,0,0,,{\k0}{\kf10}ist {\kf20}dort {\kf24}keine {\kf70}Weise,\N{\kf12}wie {\kf18}Dinge {\kf100}existieren,
+Dialogue: 0,0:19:00.74,0:19:03.28,Naechste,,0,0,0,,sondern ein Stil des Verstehens.
+Dialogue: 1,0:19:03.28,0:19:04.80,Karaoke,,0,0,0,,{\k0}{\kf24}sondern {\kf20}ein {\kf26}Stil {\kf12}des {\kf70}Verstehens.
+Dialogue: 0,0:19:03.28,0:19:04.80,Naechste,,0,0,0,,2012 ging Nagel weiter.
+Dialogue: 1,0:19:04.80,0:19:07.57,Karaoke,,0,0,0,,{\k70}{\kf96}2012 {\kf22}ging {\kf32}Nagel {\kf57}weiter.
+Dialogue: 0,0:19:04.80,0:19:07.57,Naechste,,0,0,0,,In „Mind and Cosmos“ argumentiert er:
+Dialogue: 1,0:19:07.57,0:19:09.89,Karaoke,,0,0,0,,{\k38}{\kf15}In {\kf28}„Mind {\kf22}and {\kf42}Cosmos“ {\kf56}argumentiert {\kf32}er:
+Dialogue: 0,0:19:07.57,0:19:09.89,Naechste,,0,0,0,,Wenn sich Bewusstsein nicht physikalisch reduzieren lässt,
+Dialogue: 1,0:19:09.89,0:19:12.41,Karaoke,,0,0,0,,{\k0}{\kf8}Wenn {\kf14}sich {\kf54}Bewusstsein {\kf14}nicht\N{\kf64}physikalisch {\kf46}reduzieren {\kf52}lässt,
+Dialogue: 0,0:19:09.89,0:19:12.41,Naechste,,0,0,0,,muss auch die Naturgeschichte, die es hervorgebracht hat, anders gedacht werden.
+Dialogue: 1,0:19:12.41,0:19:15.83,Karaoke,,0,0,0,,{\k0}{\kf10}muss {\kf22}auch {\kf14}die {\kf82}Naturgeschichte, {\kf14}die {\kf8}es\N{\kf52}hervorgebracht {\kf58}hat, {\kf8}anders {\kf32}gedacht {\kf42}werden.
+Dialogue: 0,0:19:12.41,0:19:15.83,Naechste,,0,0,0,,Er neigt einem neutralen Monismus zu und erwägt zielgerichtete Naturprinzipien,
+Dialogue: 1,0:19:15.83,0:19:20.51,Karaoke,,0,0,0,,{\k39}{\kf5}Er {\kf40}neigt {\kf20}einem {\kf60}neutralen {\kf46}Monismus {\kf28}zu {\kf22}und\N{\kf34}erwägt {\kf76}zielgerichtete {\kf98}Naturprinzipien,
+Dialogue: 0,0:19:15.83,0:19:20.51,Naechste,,0,0,0,,ohne einen Schöpfer anzurufen.
+Dialogue: 1,0:19:20.51,0:19:22.23,Karaoke,,0,0,0,,{\k0}{\kf44}ohne {\kf22}einen {\kf36}Schöpfer {\kf70}anzurufen.
+Dialogue: 0,0:19:20.51,0:19:22.23,Naechste,,0,0,0,,Das Buch stieß auf scharfe Kritik;
+Dialogue: 1,0:19:22.23,0:19:24.41,Karaoke,,0,0,0,,{\k39}{\kf17}Das {\kf28}Buch {\kf38}stieß {\kf20}auf {\kf34}scharfe {\kf41}Kritik;
+Dialogue: 0,0:19:22.23,0:19:24.41,Naechste,,0,0,0,,Brian Leiter und Michael Weisberg nannten seine
+Dialogue: 1,0:19:24.41,0:19:27.42,Karaoke,,0,0,0,,{\k0}{\kf35}Brian {\kf86}Leiter {\kf26}und {\kf46}Michael\N{\kf52}Weisberg {\kf42}nannten {\kf14}seine
+Dialogue: 0,0:19:24.41,0:19:27.42,Naechste,,0,0,0,,Argumente gegen den Naturalismus nicht überzeugend.
+Dialogue: 1,0:19:27.42,0:19:30.20,Karaoke,,0,0,0,,{\k0}{\kf60}Argumente {\kf20}gegen {\kf16}den\N{\kf74}Naturalismus {\kf26}nicht {\kf82}überzeugend.
+Dialogue: 0,0:19:27.42,0:19:30.20,Naechste,,0,0,0,,Zum fünfzigsten Jubiläum erschien der Aufsatz 2024 als kleines Buch,
+Dialogue: 1,0:19:30.20,0:19:35.46,Karaoke,,0,0,0,,{\k70}{\kf12}Zum {\kf68}fünfzigsten {\kf48}Jubiläum {\kf34}erschien\N{\kf8}der {\kf46}Aufsatz {\kf90}2024 {\kf82}als {\kf44}kleines {\kf24}Buch,
+Dialogue: 0,0:19:30.20,0:19:35.46,Naechste,,0,0,0,,zusammen mit einem neuen Vortrag.
+Dialogue: 1,0:19:35.46,0:19:37.30,Karaoke,,0,0,0,,{\k0}{\kf50}zusammen {\kf28}mit {\kf18}einem {\kf18}neuen {\kf70}Vortrag.
+Dialogue: 0,0:19:35.46,0:19:37.30,Naechste,,0,0,0,,Darin vermutet Nagel,
+Dialogue: 1,0:19:37.30,0:19:39.19,Karaoke,,0,0,0,,{\k38}{\kf35}Darin {\kf42}vermutet {\kf74}Nagel,
+Dialogue: 0,0:19:37.30,0:19:39.19,Naechste,,0,0,0,,bewusste Eigenschaften und ihre neuronalen
+Dialogue: 1,0:19:39.19,0:19:41.55,Karaoke,,0,0,0,,{\k0}{\kf44}bewusste {\kf78}Eigenschaften {\kf18}und {\kf26}ihre {\kf70}neuronalen
+Dialogue: 0,0:19:39.19,0:19:41.55,Naechste,,0,0,0,,Bedingungen seien untrennbare Aspekte von etwas Einem,
+Dialogue: 1,0:19:41.55,0:19:44.69,Karaoke,,0,0,0,,{\k0}{\kf52}Bedingungen {\kf38}seien {\kf52}untrennbare\N{\kf54}Aspekte {\kf24}von {\kf20}etwas {\kf74}Einem,
+Dialogue: 0,0:19:41.55,0:19:44.69,Naechste,,0,0,0,,für das wir noch keinen Begriff haben.
+Dialogue: 1,0:19:44.69,0:19:46.30,Karaoke,,0,0,0,,{\k0}{\kf14}für {\kf10}das {\kf12}wir {\kf14}noch {\kf30}keinen {\kf34}Begriff {\kf47}haben.
+Dialogue: 0,0:19:44.69,0:19:46.30,Naechste,,0,0,0,,Angelegt war das schon in der letzten Fußnote von 1974.
+Dialogue: 1,0:19:46.30,0:19:51.38,Karaoke,,0,0,0,,{\k37}{\kf57}Angelegt {\kf20}war {\kf18}das {\kf24}schon {\kf32}in\N{\kf10}der {\kf48}letzten {\kf48}Fußnote {\kf26}von {\kf153}1974.
+Dialogue: 0,0:19:46.30,0:19:51.38,Naechste,,0,0,0,,Heute ist Nagels Frage auch eine praktische.
+Dialogue: 1,0:19:55.33,0:19:58.50,Karaoke,,0,0,0,,{\k80}{\kf30}Heute {\kf24}ist {\kf42}Nagels {\kf28}Frage\N{\kf28}auch {\kf14}eine {\kf71}praktische.
+Dialogue: 0,0:19:55.33,0:19:58.50,Naechste,,0,0,0,,2012 erklärte eine Gruppe von Neurowissenschaftlern in Cambridge,
+Dialogue: 1,0:19:58.50,0:20:02.94,Karaoke,,0,0,0,,{\k39}{\kf75}2012 {\kf62}erklärte {\kf18}eine {\kf42}Gruppe {\kf16}von\N{\kf98}Neurowissenschaftlern {\kf14}in {\kf80}Cambridge,
+Dialogue: 0,0:19:58.50,0:20:02.94,Naechste,,0,0,0,,nichtmenschliche Tiere,
+Dialogue: 1,0:20:02.94,0:20:04.24,Karaoke,,0,0,0,,{\k0}{\kf62}nichtmenschliche {\kf68}Tiere,
+Dialogue: 0,0:20:02.94,0:20:04.24,Naechste,,0,0,0,,darunter alle Säugetiere und Vögel und viele andere wie Kraken,
+Dialogue: 1,0:20:04.24,0:20:08.10,Karaoke,,0,0,0,,{\k0}{\kf26}darunter {\kf22}alle {\kf72}Säugetiere {\kf24}und\N{\kf42}Vögel {\kf36}und {\kf24}viele {\kf30}andere {\kf24}wie {\kf86}Kraken,
+Dialogue: 0,0:20:04.24,0:20:08.10,Naechste,,0,0,0,,besäßen die neurologischen Grundlagen, die Bewusstsein hervorbringen.
+Dialogue: 1,0:20:08.10,0:20:11.53,Karaoke,,0,0,0,,{\k0}{\kf38}besäßen {\kf10}die {\kf66}neurologischen {\kf90}Grundlagen,\N{\kf8}die {\kf56}Bewusstsein {\kf75}hervorbringen.
+Dialogue: 0,0:20:08.10,0:20:11.53,Naechste,,0,0,0,,Man beachte die Formulierung: Behauptet werden die Grundlagen,
+Dialogue: 1,0:20:11.53,0:20:15.31,Karaoke,,0,0,0,,{\k37}{\kf19}Man {\kf46}beachte {\kf18}die {\kf90}Formulierung:\N{\kf56}Behauptet {\kf24}werden {\kf22}die {\kf66}Grundlagen,
+Dialogue: 0,0:20:11.53,0:20:15.31,Naechste,,0,0,0,,nicht ein bestimmtes Erleben.
+Dialogue: 1,0:20:15.31,0:20:16.97,Karaoke,,0,0,0,,{\k0}{\kf50}nicht {\kf20}ein {\kf50}bestimmtes {\kf45}Erleben.
+Dialogue: 0,0:20:15.31,0:20:16.97,Naechste,,0,0,0,,2024 folgte die New Yorker Erklärung zum Tierbewusstsein.
+Dialogue: 1,0:20:16.97,0:20:22.53,Karaoke,,0,0,0,,{\k70}{\kf128}2024 {\kf74}folgte {\kf21}die {\kf21}New {\kf58}Yorker\N{\kf60}Erklärung {\kf26}zum {\kf99}Tierbewusstsein.
+Dialogue: 0,0:20:16.97,0:20:22.53,Naechste,,0,0,0,,Sie unterscheidet Grade.
+Dialogue: 1,0:20:22.53,0:20:24.20,Karaoke,,0,0,0,,{\k40}{\kf15}Sie {\kf66}unterscheidet {\kf46}Grade.
+Dialogue: 0,0:20:22.53,0:20:24.20,Naechste,,0,0,0,,Für Säugetiere und Vögel gebe es starke
+Dialogue: 1,0:20:24.20,0:20:27.12,Karaoke,,0,0,0,,{\k37}{\kf17}Für {\kf72}Säugetiere {\kf26}und {\kf46}Vögel {\kf24}gebe {\kf22}es {\kf48}starke
+Dialogue: 0,0:20:24.20,0:20:27.12,Naechste,,0,0,0,,wissenschaftliche Unterstützung für bewusstes Erleben.
+Dialogue: 1,0:20:27.12,0:20:29.73,Karaoke,,0,0,0,,{\k0}{\kf74}wissenschaftliche {\kf58}Unterstützung\N{\kf28}für {\kf50}bewusstes {\kf52}Erleben.
+Dialogue: 0,0:20:27.12,0:20:29.73,Naechste,,0,0,0,,Für alle Wirbeltiere und viele Wirbellose, mindestens Kopffüßer,
+Dialogue: 1,0:20:29.73,0:20:34.12,Karaoke,,0,0,0,,{\k37}{\kf19}Für {\kf24}alle {\kf76}Wirbeltiere {\kf26}und {\kf34}viele\N{\kf104}Wirbellose, {\kf42}mindestens {\kf77}Kopffüßer,
+Dialogue: 0,0:20:29.73,0:20:34.12,Naechste,,0,0,0,,Zehnfußkrebse und Insekten, bestehe zumindest eine realistische Möglichkeit.
+Dialogue: 1,0:20:34.12,0:20:38.83,Karaoke,,0,0,0,,{\k0}{\kf111}Zehnfußkrebse {\kf34}und {\kf68}Insekten, {\kf36}bestehe\N{\kf42}zumindest {\kf40}eine {\kf64}realistische {\kf76}Möglichkeit.
+Dialogue: 0,0:20:34.12,0:20:38.83,Naechste,,0,0,0,,Und wo eine solche Möglichkeit besteht, sei es unverantwortlich,
+Dialogue: 1,0:20:38.83,0:20:43.11,Karaoke,,0,0,0,,{\k39}{\kf11}Und {\kf26}wo {\kf26}eine {\kf24}solche {\kf62}Möglichkeit\N{\kf88}besteht, {\kf18}sei {\kf16}es {\kf118}unverantwortlich,
+Dialogue: 0,0:20:38.83,0:20:43.11,Naechste,,0,0,0,,sie bei Entscheidungen zu übergehen, die diese Tiere betreffen.
+Dialogue: 1,0:20:43.11,0:20:46.00,Karaoke,,0,0,0,,{\k0}{\kf10}sie {\kf18}bei {\kf58}Entscheidungen {\kf14}zu {\kf64}übergehen,\N{\kf8}die {\kf26}diese {\kf28}Tiere {\kf63}betreffen.
+Dialogue: 0,0:20:43.11,0:20:46.00,Naechste,,0,0,0,,Gesichert ist damit nicht, wie es für eine Biene ist, eine Biene zu sein,
+Dialogue: 1,0:20:46.00,0:20:50.10,Karaoke,,0,0,0,,{\k70}{\kf42}Gesichert {\kf12}ist {\kf20}damit {\kf56}nicht, {\kf8}wie {\kf8}es {\kf16}für\N{\kf10}eine {\kf22}Biene {\kf36}ist, {\kf8}eine {\kf30}Biene {\kf14}zu {\kf58}sein,
+Dialogue: 0,0:20:46.00,0:20:50.10,Naechste,,0,0,0,,sondern nur, dass es vernünftig ist, mit Erleben zu rechnen:
+Dialogue: 1,0:20:50.10,0:20:52.78,Karaoke,,0,0,0,,{\k0}{\kf14}sondern {\kf46}nur, {\kf10}dass {\kf16}es {\kf32}vernünftig\N{\kf35}ist, {\kf35}mit {\kf22}Erleben {\kf16}zu {\kf42}rechnen:
+Dialogue: 0,0:20:50.10,0:20:52.78,Naechste,,0,0,0,,die Trennung zwischen dem Ob und dem Wie, die schon Nagels Aufsatz zieht.
+Dialogue: 1,0:20:52.78,0:20:55.50,Karaoke,,0,0,0,,{\k0}{\kf10}die {\kf26}Trennung {\kf20}zwischen {\kf22}dem {\kf18}Ob {\kf12}und {\kf14}dem\N{\kf32}Wie, {\kf5}die {\kf5}schon {\kf38}Nagels {\kf36}Aufsatz {\kf34}zieht.
+Dialogue: 0,0:20:52.78,0:20:55.50,Naechste,,0,0,0,,Und Maschinen?
+Dialogue: 1,0:20:55.50,0:20:57.10,Karaoke,,0,0,0,,{\k70}{\kf16}Und {\kf74}Maschinen?
+Dialogue: 0,0:20:55.50,0:20:57.10,Naechste,,0,0,0,,Hier ist die Lage offener.
+Dialogue: 1,0:20:57.10,0:20:58.80,Karaoke,,0,0,0,,{\k37}{\kf21}Hier {\kf18}ist {\kf18}die {\kf28}Lage {\kf48}offener.
+Dialogue: 0,0:20:57.10,0:20:58.80,Naechste,,0,0,0,,Ein Bericht einer Gruppe um Patrick Butlin und Robert Long kam 2023 zu dem Schluss,
+Dialogue: 1,0:20:58.80,0:21:04.24,Karaoke,,0,0,0,,{\k39}{\kf17}Ein {\kf46}Bericht {\kf10}einer {\kf30}Gruppe {\kf13}um {\kf44}Patrick {\kf38}Butlin\N{\kf12}und {\kf28}Robert {\kf37}Long {\kf27}kam {\kf120}2023 {\kf10}zu {\kf14}dem {\kf60}Schluss,
+Dialogue: 0,0:20:58.80,0:21:04.24,Naechste,,0,0,0,,dass nach ihrer Analyse kein damaliges KI-System bewusst ist,
+Dialogue: 1,0:21:04.24,0:21:07.08,Karaoke,,0,0,0,,{\k0}{\kf6}dass {\kf18}nach {\kf16}ihrer {\kf36}Analyse {\kf16}kein\N{\kf51}damaliges {\kf51}KI-System {\kf24}bewusst {\kf66}ist,
+Dialogue: 0,0:21:04.24,0:21:07.08,Naechste,,0,0,0,,aber auch keine offensichtlichen technischen
+Dialogue: 1,0:21:07.08,0:21:08.90,Karaoke,,0,0,0,,{\k0}{\kf12}aber {\kf14}auch {\kf26}keine\N{\kf74}offensichtlichen {\kf56}technischen
+Dialogue: 0,0:21:07.08,0:21:08.90,Naechste,,0,0,0,,Hürden bestehen, Systeme zu bauen,
+Dialogue: 1,0:21:08.90,0:21:11.00,Karaoke,,0,0,0,,{\k0}{\kf24}Hürden {\kf51}bestehen, {\kf45}Systeme {\kf24}zu {\kf66}bauen,
+Dialogue: 0,0:21:08.90,0:21:11.00,Naechste,,0,0,0,,die ihre Indikatoren erfüllen.
+Dialogue: 1,0:21:11.00,0:21:12.30,Karaoke,,0,0,0,,{\k0}{\kf6}die {\kf14}ihre {\kf62}Indikatoren {\kf48}erfüllen.
+Dialogue: 0,0:21:11.00,0:21:12.30,Naechste,,0,0,0,,Die Autoren setzen dabei als Arbeitshypothese voraus,
+Dialogue: 1,0:21:12.30,0:21:15.58,Karaoke,,0,0,0,,{\k39}{\kf11}Die {\kf44}Autoren {\kf22}setzen {\kf40}dabei\N{\kf20}als {\kf82}Arbeitshypothese {\kf70}voraus,
+Dialogue: 0,0:21:12.30,0:21:15.58,Naechste,,0,0,0,,dass die richtige Art von Berechnung für Bewusstsein genügt;
+Dialogue: 1,0:21:15.58,0:21:18.56,Karaoke,,0,0,0,,{\k0}{\kf10}dass {\kf16}die {\kf34}richtige {\kf28}Art {\kf20}von\N{\kf56}Berechnung {\kf12}für {\kf58}Bewusstsein {\kf64}genügt;
+Dialogue: 0,0:21:15.58,0:21:18.56,Naechste,,0,0,0,,sie nennen das selbst verbreitet, aber umstritten.
+Dialogue: 1,0:21:18.56,0:21:21.07,Karaoke,,0,0,0,,{\k0}{\kf16}sie {\kf24}nennen {\kf18}das {\kf24}selbst\N{\kf90}verbreitet, {\kf20}aber {\kf59}umstritten.
+Dialogue: 0,0:21:18.56,0:21:21.07,Naechste,,0,0,0,,Bewusstsein definieren sie mit Nagels Formel.
+Dialogue: 1,0:21:21.07,0:21:23.83,Karaoke,,0,0,0,,{\k39}{\kf57}Bewusstsein {\kf64}definieren\N{\kf14}sie {\kf20}mit {\kf46}Nagels {\kf38}Formel.
+Dialogue: 0,0:21:21.07,0:21:23.83,Naechste,,0,0,0,,David Chalmers hielt es 2023 für eher unwahrscheinlich,
+Dialogue: 1,0:21:23.83,0:21:28.29,Karaoke,,0,0,0,,{\k70}{\kf18}David {\kf54}Chalmers {\kf28}hielt {\kf10}es {\kf106}2023\N{\kf48}für {\kf16}eher {\kf96}unwahrscheinlich,
+Dialogue: 0,0:21:23.83,0:21:28.29,Naechste,,0,0,0,,dass heutige große Sprachmodelle bewusst sind, aber für ernsthaft möglich,
+Dialogue: 1,0:21:28.29,0:21:32.29,Karaoke,,0,0,0,,{\k0}{\kf10}dass {\kf38}heutige {\kf24}große {\kf80}Sprachmodelle {\kf22}bewusst\N{\kf68}sind, {\kf14}aber {\kf22}für {\kf50}ernsthaft {\kf72}möglich,
+Dialogue: 0,0:21:28.29,0:21:32.29,Naechste,,0,0,0,,dass ihre Nachfolger es sein könnten.
+Dialogue: 1,0:21:32.29,0:21:33.93,Karaoke,,0,0,0,,{\k0}{\kf10}dass {\kf22}ihre {\kf54}Nachfolger {\kf11}es {\kf22}sein {\kf46}könnten.
+Dialogue: 0,0:21:32.29,0:21:33.93,Naechste,,0,0,0,,Einige Forschende fordern deshalb,
+Dialogue: 1,0:21:33.93,0:21:36.23,Karaoke,,0,0,0,,{\k39}{\kf27}Einige {\kf46}Forschende {\kf40}fordern {\kf78}deshalb,
+Dialogue: 0,0:21:33.93,0:21:36.23,Naechste,,0,0,0,,schon jetzt Verfahren für den Fall vorzubereiten,
+Dialogue: 1,0:21:36.23,0:21:38.55,Karaoke,,0,0,0,,{\k0}{\kf10}schon {\kf16}jetzt {\kf52}Verfahren {\kf14}für\N{\kf12}den {\kf24}Fall {\kf104}vorzubereiten,
+Dialogue: 0,0:21:36.23,0:21:38.55,Naechste,,0,0,0,,dass KI-Systeme moralisch zählen.
+Dialogue: 1,0:21:38.55,0:21:40.40,Karaoke,,0,0,0,,{\k0}{\kf27}dass {\kf69}KI-Systeme {\kf46}moralisch {\kf43}zählen.
+Dialogue: 0,0:21:38.55,0:21:40.40,Naechste,,0,0,0,,Nagels Text gibt dafür ein Werkzeug und eine Warnung.
+Dialogue: 1,0:21:40.40,0:21:43.93,Karaoke,,0,0,0,,{\k70}{\kf44}Nagels {\kf20}Text {\kf26}gibt {\kf22}dafür {\kf24}ein\N{\kf42}Werkzeug {\kf36}und {\kf22}eine {\kf47}Warnung.
+Dialogue: 0,0:21:40.40,0:21:43.93,Naechste,,0,0,0,,Das Werkzeug: Seine Definition trennt Verhalten von Erleben.
+Dialogue: 1,0:21:43.93,0:21:47.77,Karaoke,,0,0,0,,{\k37}{\kf17}Das {\kf98}Werkzeug: {\kf12}Seine {\kf72}Definition\N{\kf28}trennt {\kf46}Verhalten {\kf22}von {\kf51}Erleben.
+Dialogue: 0,0:21:43.93,0:21:47.77,Naechste,,0,0,0,,Dass ein System spricht wie ein Mensch, beantwortet nicht, ob es irgendwie ist,
+Dialogue: 1,0:21:47.77,0:21:52.14,Karaoke,,0,0,0,,{\k36}{\kf13}Dass {\kf21}ein {\kf41}System {\kf32}spricht {\kf22}wie {\kf18}ein {\kf30}Mensch,\N{\kf72}beantwortet {\kf56}nicht, {\kf10}ob {\kf14}es {\kf30}irgendwie {\kf42}ist,
+Dialogue: 0,0:21:47.77,0:21:52.14,Naechste,,0,0,0,,dieses System zu sein.
+Dialogue: 1,0:21:52.14,0:21:53.53,Karaoke,,0,0,0,,{\k0}{\kf48}dieses {\kf38}System {\kf18}zu {\kf35}sein.
+Dialogue: 0,0:21:52.14,0:21:53.53,Naechste,,0,0,0,,Die Warnung steht in der Fußnote über die Roboter: Vielleicht hat alles,
+Dialogue: 1,0:21:53.53,0:21:57.71,Karaoke,,0,0,0,,{\k36}{\kf13}Die {\kf42}Warnung {\kf22}steht {\kf16}in {\kf19}der {\kf43}Fußnote {\kf20}über\N{\kf12}die {\kf78}Roboter: {\kf30}Vielleicht {\kf24}hat {\kf62}alles,
+Dialogue: 0,0:21:53.53,0:21:57.71,Naechste,,0,0,0,,was komplex genug ist, sich wie ein Mensch zu verhalten, Erfahrungen.
+Dialogue: 1,0:21:57.71,0:22:01.57,Karaoke,,0,0,0,,{\k0}{\kf12}was {\kf42}komplex {\kf26}genug {\kf76}ist, {\kf14}sich {\kf18}wie {\kf14}ein\N{\kf24}Mensch {\kf12}zu {\kf76}verhalten, {\kf72}Erfahrungen.
+Dialogue: 0,0:21:57.71,0:22:01.57,Naechste,,0,0,0,,Ob das so ist, entscheidet keine Begriffsanalyse.
+Dialogue: 1,0:22:01.57,0:22:04.77,Karaoke,,0,0,0,,{\k37}{\kf17}Ob {\kf24}das {\kf18}so {\kf48}ist, {\kf48}entscheidet\N{\kf18}keine {\kf110}Begriffsanalyse.
+Dialogue: 0,0:22:01.57,0:22:04.77,Naechste,,0,0,0,,Diese Frage ist offen.
+Dialogue: 1,0:22:04.77,0:22:06.72,Karaoke,,0,0,0,,{\k37}{\kf21}Diese {\kf34}Frage {\kf26}ist {\kf42}offen.
+Dialogue: 0,0:22:04.77,0:22:06.72,Naechste,,0,0,0,,Was bleibt nach fünfzig Jahren?
+Dialogue: 1,0:22:10.63,0:22:13.07,Karaoke,,0,0,0,,{\k80}{\kf16}Was {\kf28}bleibt {\kf22}nach {\kf32}fünfzig {\kf65}Jahren?
+Dialogue: 0,0:22:10.63,0:22:13.07,Naechste,,0,0,0,,Erstens eine Bestimmung, die sich durchgesetzt hat, auch bei vielen,
+Dialogue: 1,0:22:13.07,0:22:16.70,Karaoke,,0,0,0,,{\k36}{\kf31}Erstens {\kf12}eine {\kf70}Bestimmung, {\kf10}die {\kf18}sich\N{\kf46}durchgesetzt {\kf46}hat, {\kf10}auch {\kf20}bei {\kf64}vielen,
+Dialogue: 0,0:22:13.07,0:22:16.70,Naechste,,0,0,0,,die Nagels Folgerungen ablehnen:
+Dialogue: 1,0:22:16.70,0:22:18.30,Karaoke,,0,0,0,,{\k0}{\kf5}die {\kf5}Nagels {\kf90}Folgerungen {\kf60}ablehnen:
+Dialogue: 0,0:22:16.70,0:22:18.30,Naechste,,0,0,0,,Bewusstsein als das, wie es für ein Wesen ist.
+Dialogue: 1,0:22:18.30,0:22:20.43,Karaoke,,0,0,0,,{\k0}{\kf48}Bewusstsein {\kf22}als {\kf44}das, {\kf8}wie\N{\kf8}es {\kf14}für {\kf12}ein {\kf28}Wesen {\kf29}ist.
+Dialogue: 0,0:22:18.30,0:22:20.43,Naechste,,0,0,0,,Chalmers, Block und noch der KI-Bericht von 2023 beginnen damit.
+Dialogue: 1,0:22:20.43,0:22:25.70,Karaoke,,0,0,0,,{\k39}{\kf77}Chalmers, {\kf24}Block {\kf42}und {\kf18}noch {\kf18}der\N{\kf58}KI-Bericht {\kf18}von {\kf84}2023 {\kf102}beginnen {\kf47}damit.
+Dialogue: 0,0:22:20.43,0:22:25.70,Naechste,,0,0,0,,Zweitens eine Diagnose: Das Verfahren erfolgreicher Reduktionen,
+Dialogue: 1,0:22:25.70,0:22:29.84,Karaoke,,0,0,0,,{\k39}{\kf51}Zweitens {\kf16}eine {\kf76}Diagnose: {\kf28}Das\N{\kf42}Verfahren {\kf68}erfolgreicher {\kf94}Reduktionen,
+Dialogue: 0,0:22:25.70,0:22:29.84,Naechste,,0,0,0,,weg vom Standpunkt und hin zur objektiven Beschreibung,
+Dialogue: 1,0:22:29.84,0:22:32.80,Karaoke,,0,0,0,,{\k0}{\kf18}weg {\kf20}vom {\kf58}Standpunkt {\kf44}und {\kf20}hin\N{\kf14}zur {\kf54}objektiven {\kf68}Beschreibung,
+Dialogue: 0,0:22:29.84,0:22:32.80,Naechste,,0,0,0,,lässt sich nicht einfach auf etwas übertragen, das selbst ein Standpunkt ist.
+Dialogue: 1,0:22:32.80,0:22:36.60,Karaoke,,0,0,0,,{\k0}{\kf42}lässt {\kf18}sich {\kf14}nicht {\kf40}einfach {\kf16}auf {\kf24}etwas\N{\kf78}übertragen, {\kf8}das {\kf30}selbst {\kf20}ein {\kf48}Standpunkt {\kf42}ist.
+Dialogue: 0,0:22:32.80,0:22:36.60,Naechste,,0,0,0,,Angreifbar ist das Argument an mehreren Stellen: an der Annahme,
+Dialogue: 1,0:22:36.60,0:22:40.16,Karaoke,,0,0,0,,{\k70}{\kf56}Angreifbar {\kf12}ist {\kf16}das {\kf42}Argument {\kf14}an\N{\kf30}mehreren {\kf50}Stellen: {\kf10}an {\kf10}der {\kf46}Annahme,
+Dialogue: 0,0:22:36.60,0:22:40.16,Naechste,,0,0,0,,dass die Fledermaus einen einheitlichen Standpunkt hat; an der Behauptung,
+Dialogue: 1,0:22:40.16,0:22:43.14,Karaoke,,0,0,0,,{\k0}{\kf8}dass {\kf16}die {\kf46}Fledermaus {\kf20}einen {\kf52}einheitlichen\N{\kf46}Standpunkt {\kf38}hat; {\kf8}an {\kf8}der {\kf56}Behauptung,
+Dialogue: 0,0:22:40.16,0:22:43.14,Naechste,,0,0,0,,zu wissen, wie es ist, heiße, Tatsachen zu kennen; an der Grammatik der Formel;
+Dialogue: 1,0:22:43.14,0:22:46.82,Karaoke,,0,0,0,,{\k0}{\kf14}zu {\kf34}wissen, {\kf8}wie {\kf10}es {\kf26}ist, {\kf18}heiße, {\kf78}Tatsachen\N{\kf14}zu {\kf52}kennen; {\kf6}an {\kf10}der {\kf44}Grammatik {\kf10}der {\kf44}Formel;
+Dialogue: 0,0:22:43.14,0:22:46.82,Naechste,,0,0,0,,und an der Wirklichkeit des Erlebens selbst.
+Dialogue: 1,0:22:46.82,0:22:48.73,Karaoke,,0,0,0,,{\k0}{\kf28}und {\kf14}an {\kf8}der {\kf48}Wirklichkeit\N{\kf14}des {\kf38}Erlebens {\kf41}selbst.
+Dialogue: 0,0:22:46.82,0:22:48.73,Naechste,,0,0,0,,Beendet hat keiner dieser Einwände die Debatte.
+Dialogue: 1,0:22:48.73,0:22:51.47,Karaoke,,0,0,0,,{\k37}{\kf47}Beendet {\kf14}hat {\kf26}keiner {\kf30}dieser\N{\kf54}Einwände {\kf16}die {\kf50}Debatte.
+Dialogue: 0,0:22:48.73,0:22:51.47,Naechste,,0,0,0,,Nagel schreibt fünfzig Jahre später, es gebe bis heute keine Einigkeit darüber,
+Dialogue: 1,0:22:51.47,0:22:56.56,Karaoke,,0,0,0,,{\k38}{\kf31}Nagel {\kf40}schreibt {\kf34}fünfzig {\kf42}Jahre {\kf80}später, {\kf12}es\N{\kf20}gebe {\kf16}bis {\kf34}heute {\kf28}keine {\kf52}Einigkeit {\kf82}darüber,
+Dialogue: 0,0:22:51.47,0:22:56.56,Naechste,,0,0,0,,wie mit diesen Problemen umzugehen ist.
+Dialogue: 1,0:22:56.56,0:22:58.47,Karaoke,,0,0,0,,{\k0}{\kf14}wie {\kf16}mit {\kf22}diesen {\kf64}Problemen {\kf46}umzugehen {\kf29}ist.
+Dialogue: 0,0:22:56.56,0:22:58.47,Naechste,,0,0,0,,Und Nagel betont, sein Aufsatz behaupte nicht,
+Dialogue: 1,0:22:58.47,0:23:02.13,Karaoke,,0,0,0,,{\k70}{\kf16}Und {\kf34}Nagel {\kf70}betont, {\kf16}sein\N{\kf62}Aufsatz {\kf50}behaupte {\kf48}nicht,
+Dialogue: 0,0:22:58.47,0:23:02.13,Naechste,,0,0,0,,die Wissenschaft könne Bewusstsein nicht verstehen.
+Dialogue: 1,0:23:02.13,0:23:04.40,Karaoke,,0,0,0,,{\k0}{\kf8}die {\kf38}Wissenschaft {\kf56}könne\N{\kf54}Bewusstsein {\kf16}nicht {\kf55}verstehen.
+Dialogue: 0,0:23:02.13,0:23:04.40,Naechste,,0,0,0,,Seine These ist enger und zugleich anspruchsvoller: Um es zu verstehen,
+Dialogue: 1,0:23:04.40,0:23:08.63,Karaoke,,0,0,0,,{\k38}{\kf29}Seine {\kf26}These {\kf34}ist {\kf36}enger {\kf16}und {\kf38}zugleich\N{\kf102}anspruchsvoller: {\kf12}Um {\kf12}es {\kf10}zu {\kf70}verstehen,
+Dialogue: 0,0:23:04.40,0:23:08.63,Naechste,,0,0,0,,muss sich unsere Vorstellung davon erweitern,
+Dialogue: 1,0:23:08.63,0:23:10.77,Karaoke,,0,0,0,,{\k0}{\kf10}muss {\kf18}sich {\kf22}unsere\N{\kf70}Vorstellung {\kf22}davon {\kf72}erweitern,
+Dialogue: 0,0:23:08.63,0:23:10.77,Naechste,,0,0,0,,was wissenschaftliches Verstehen ist.
+Dialogue: 1,0:23:10.77,0:23:12.33,Karaoke,,0,0,0,,{\k0}{\kf14}was {\kf66}wissenschaftliches {\kf32}Verstehen {\kf44}ist.
+Dialogue: 0,0:23:10.77,0:23:12.33,Naechste,,0,0,0,,Ob das gelingt, durch neue Begriffe,
+Dialogue: 1,0:23:12.33,0:23:15.21,Karaoke,,0,0,0,,{\k37}{\kf13}Ob {\kf24}das {\kf80}gelingt, {\kf14}durch {\kf32}neue {\kf88}Begriffe,
+Dialogue: 0,0:23:12.33,0:23:15.21,Naechste,,0,0,0,,eine objektive Phänomenologie oder den Nachweis,
+Dialogue: 1,0:23:15.21,0:23:18.03,Karaoke,,0,0,0,,{\k0}{\kf8}eine {\kf60}objektive {\kf80}Phänomenologie\N{\kf44}oder {\kf18}den {\kf72}Nachweis,
+Dialogue: 0,0:23:15.21,0:23:18.03,Naechste,,0,0,0,,dass das Problem eine Illusion ist, ist offen.
+Dialogue: 1,0:23:18.03,0:23:20.67,Karaoke,,0,0,0,,{\k0}{\kf8}dass {\kf18}das {\kf38}Problem {\kf26}eine\N{\kf48}Illusion {\kf62}ist, {\kf12}ist {\kf52}offen.
+Dialogue: 0,0:23:18.03,0:23:20.67,Naechste,,0,0,0,,Die Fledermaus fliegt weiter durch die Dämmerung.
+Dialogue: 1,0:23:20.67,0:23:23.30,Karaoke,,0,0,0,,{\k37}{\kf13}Die {\kf64}Fledermaus {\kf40}fliegt\N{\kf20}weiter {\kf26}durch {\kf14}die {\kf49}Dämmerung.
+Dialogue: 0,0:23:20.67,0:23:23.30,Naechste,,0,0,0,,Wir können jeden ihrer Rufe messen.
+Dialogue: 1,0:23:23.30,0:23:25.37,Karaoke,,0,0,0,,{\k38}{\kf13}Wir {\kf20}können {\kf28}jeden {\kf28}ihrer {\kf36}Rufe {\kf44}messen.
+Dialogue: 0,0:23:23.30,0:23:25.37,Naechste,,0,0,0,,Wie es ist, sie zu sein, wissen wir nicht.
+Dialogue: 1,0:23:25.37,0:23:28.45,Karaoke,,0,0,0,,{\k38}{\kf15}Wie {\kf20}es {\kf26}ist, {\kf32}sie {\kf18}zu {\kf30}sein, {\kf34}wissen {\kf22}wir {\kf38}nicht.
+Dialogue: 0,0:00:00.60,0:00:25.17,Info,,0,0,0,,Absatz 0.1
+Dialogue: 0,0:00:25.87,0:00:48.83,Info,,0,0,0,,Absatz 0.2
+Dialogue: 0,0:00:51.90,0:00:53.90,Info,,0,0,0,,gleich: Absatz 1.1
+Dialogue: 0,0:00:53.90,0:01:12.37,Info,,0,0,0,,Absatz 1.1
+Dialogue: 0,0:01:13.07,0:01:39.90,Info,,0,0,0,,Absatz 1.2
+Dialogue: 0,0:01:40.60,0:02:03.97,Info,,0,0,0,,Absatz 1.3
+Dialogue: 0,0:02:07.07,0:02:09.07,Info,,0,0,0,,gleich: Absatz 2.1
+Dialogue: 0,0:02:09.07,0:02:20.43,Info,,0,0,0,,Absatz 2.1
+Dialogue: 0,0:02:21.13,0:02:46.77,Info,,0,0,0,,Absatz 2.2
+Dialogue: 0,0:02:47.47,0:03:12.83,Info,,0,0,0,,Absatz 2.3
+Dialogue: 0,0:03:15.93,0:03:17.93,Info,,0,0,0,,gleich: Absatz 3.1
+Dialogue: 0,0:03:17.93,0:03:32.40,Info,,0,0,0,,Absatz 3.1
+Dialogue: 0,0:03:33.10,0:03:47.33,Info,,0,0,0,,Absatz 3.2
+Dialogue: 0,0:03:48.03,0:04:14.87,Info,,0,0,0,,Absatz 3.3
+Dialogue: 0,0:04:15.57,0:04:33.67,Info,,0,0,0,,Absatz 3.4
+Dialogue: 0,0:04:36.73,0:04:38.73,Info,,0,0,0,,gleich: Absatz 4.1
+Dialogue: 0,0:04:38.73,0:04:53.23,Info,,0,0,0,,Absatz 4.1
+Dialogue: 0,0:04:53.93,0:05:23.67,Info,,0,0,0,,Absatz 4.2
+Dialogue: 0,0:05:24.37,0:05:46.57,Info,,0,0,0,,Absatz 4.3
+Dialogue: 0,0:05:47.27,0:06:05.87,Info,,0,0,0,,Absatz 4.4
+Dialogue: 0,0:06:06.57,0:06:32.67,Info,,0,0,0,,Absatz 4.5
+Dialogue: 0,0:06:33.37,0:06:53.63,Info,,0,0,0,,Absatz 4.6
+Dialogue: 0,0:06:54.33,0:07:25.73,Info,,0,0,0,,Absatz 4.7
+Dialogue: 0,0:07:26.43,0:07:40.00,Info,,0,0,0,,Absatz 4.8
+Dialogue: 0,0:07:43.10,0:07:45.10,Info,,0,0,0,,gleich: Absatz 5.1
+Dialogue: 0,0:07:45.10,0:08:01.57,Info,,0,0,0,,Absatz 5.1
+Dialogue: 0,0:08:02.27,0:08:20.03,Info,,0,0,0,,Absatz 5.2
+Dialogue: 0,0:08:20.73,0:08:38.90,Info,,0,0,0,,Absatz 5.3
+Dialogue: 0,0:08:39.60,0:09:03.63,Info,,0,0,0,,Absatz 5.4
+Dialogue: 0,0:09:04.33,0:09:33.37,Info,,0,0,0,,Absatz 5.5
+Dialogue: 0,0:09:36.47,0:09:38.47,Info,,0,0,0,,gleich: Absatz 6.1
+Dialogue: 0,0:09:38.47,0:10:02.13,Info,,0,0,0,,Absatz 6.1
+Dialogue: 0,0:10:02.83,0:10:21.07,Info,,0,0,0,,Absatz 6.2
+Dialogue: 0,0:10:21.77,0:10:50.90,Info,,0,0,0,,Absatz 6.3
+Dialogue: 0,0:10:53.97,0:10:55.97,Info,,0,0,0,,gleich: Absatz 7.1
+Dialogue: 0,0:10:55.97,0:11:25.03,Info,,0,0,0,,Absatz 7.1
+Dialogue: 0,0:11:25.73,0:11:40.70,Info,,0,0,0,,Absatz 7.2
+Dialogue: 0,0:11:41.40,0:12:06.13,Info,,0,0,0,,Absatz 7.3
+Dialogue: 0,0:12:06.83,0:12:32.57,Info,,0,0,0,,Absatz 7.4
+Dialogue: 0,0:12:35.67,0:12:37.67,Info,,0,0,0,,gleich: Absatz 8.1
+Dialogue: 0,0:12:37.67,0:12:46.87,Info,,0,0,0,,Absatz 8.1
+Dialogue: 0,0:12:47.57,0:13:16.17,Info,,0,0,0,,Absatz 8.2
+Dialogue: 0,0:13:16.87,0:13:52.80,Info,,0,0,0,,Absatz 8.3
+Dialogue: 0,0:13:53.50,0:14:20.63,Info,,0,0,0,,Absatz 8.4
+Dialogue: 0,0:14:21.33,0:14:54.90,Info,,0,0,0,,Absatz 8.5
+Dialogue: 0,0:14:55.60,0:15:21.67,Info,,0,0,0,,Absatz 8.6
+Dialogue: 0,0:15:24.77,0:15:26.77,Info,,0,0,0,,gleich: Absatz 9.1
+Dialogue: 0,0:15:26.77,0:15:57.17,Info,,0,0,0,,Absatz 9.1
+Dialogue: 0,0:15:57.87,0:16:16.80,Info,,0,0,0,,Absatz 9.2
+Dialogue: 0,0:16:17.50,0:16:37.07,Info,,0,0,0,,Absatz 9.3
+Dialogue: 0,0:16:37.77,0:17:02.80,Info,,0,0,0,,Absatz 9.4
+Dialogue: 0,0:17:03.50,0:17:17.90,Info,,0,0,0,,Absatz 9.5
+Dialogue: 0,0:17:24.80,0:17:26.80,Info,,0,0,0,,gleich: Absatz 9.6
+Dialogue: 0,0:17:26.80,0:17:49.93,Info,,0,0,0,,Absatz 9.6
+Dialogue: 0,0:17:50.63,0:18:17.57,Info,,0,0,0,,Absatz 9.7
+Dialogue: 0,0:18:18.27,0:18:42.23,Info,,0,0,0,,Absatz 9.8
+Dialogue: 0,0:18:45.33,0:18:47.33,Info,,0,0,0,,gleich: Absatz 10.1
+Dialogue: 0,0:18:47.33,0:19:04.80,Info,,0,0,0,,Absatz 10.1
+Dialogue: 0,0:19:05.50,0:19:30.20,Info,,0,0,0,,Absatz 10.2
+Dialogue: 0,0:19:30.90,0:19:51.03,Info,,0,0,0,,Absatz 10.3
+Dialogue: 0,0:19:54.13,0:19:56.13,Info,,0,0,0,,gleich: Absatz 11.1
+Dialogue: 0,0:19:56.13,0:20:16.97,Info,,0,0,0,,Absatz 11.1
+Dialogue: 0,0:20:17.67,0:20:46.00,Info,,0,0,0,,Absatz 11.2
+Dialogue: 0,0:20:46.70,0:20:55.50,Info,,0,0,0,,Absatz 11.3
+Dialogue: 0,0:20:56.20,0:21:23.83,Info,,0,0,0,,Absatz 11.4
+Dialogue: 0,0:21:24.53,0:21:40.40,Info,,0,0,0,,Absatz 11.5
+Dialogue: 0,0:21:41.10,0:22:06.37,Info,,0,0,0,,Absatz 11.6
+Dialogue: 0,0:22:09.43,0:22:11.43,Info,,0,0,0,,gleich: Absatz 12.1
+Dialogue: 0,0:22:11.43,0:22:36.60,Info,,0,0,0,,Absatz 12.1
+Dialogue: 0,0:22:37.30,0:22:58.47,Info,,0,0,0,,Absatz 12.2
+Dialogue: 0,0:22:59.17,0:23:28.10,Info,,0,0,0,,Absatz 12.3
+Dialogue: 0,0:17:18.20,0:17:25.50,Pause,,0,0,0,,Hörbeispiel – nicht sprechen
