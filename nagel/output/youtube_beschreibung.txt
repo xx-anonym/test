@@ -1,0 +1,53 @@
+Kann man wissen, wie es ist, eine Fledermaus zu sein? 1974 machte der Philosoph Thomas Nagel genau diese Frage zum Titel eines Aufsatzes – sechzehn Seiten, die zu einem Bezugspunkt fast jeder späteren Debatte über Bewusstsein wurden.
+
+Dieses Video rekonstruiert Nagels Argument Schritt für Schritt, stellt die stärksten Einwände vor und fragt, was die echte Fledermaus und die heutige Debatte über Tiere und Maschinen daran ändern.
+
+Nagels Kernthese (Nagel 1974, S. 436, sinngemäß): Ein Wesen hat bewusste Zustände genau dann, wenn es irgendwie ist, dieses Wesen zu sein – irgendwie für das Wesen selbst.
+
+KAPITEL
+0:00 Prolog
+0:51 Warum gerade eine Fledermaus?
+2:06 Die Lage 1974
+3:15 Die Kernthese
+4:36 Das Argument Schritt für Schritt
+7:42 Was Nagel nicht behauptet
+9:35 Vorläufer: Farrell, Sprigge, Uexküll
+10:53 Wirkungsgeschichte: Jackson, Levine, Chalmers
+12:35 Einwände: Dennett, Akins, Lewis, Hacker, Frankish
+15:24 Die echte Fledermaus: Echoortung
+18:44 Nagels weiterer Weg
+19:53 Tiere und Maschinen heute
+22:08 Fazit
+23:33 Abspann mit Literatur
+
+PRIMÄRTEXT
+Thomas Nagel: What Is It Like to Be a Bat? The Philosophical Review 83 (4), 1974, S. 435–450. DOI 10.2307/2183914
+Deutsch: Wie ist es, eine Fledermaus zu sein? Englisch/Deutsch, übers. und hg. von Ulrich Diehl. Stuttgart: Reclam 2016.
+
+WEITERE QUELLEN (Auswahl)
+– Farrell, B. A. (1950): Experience. Mind 59, S. 170–198
+– Uexküll, Jakob von (1909): Umwelt und Innenwelt der Tiere. Berlin: Springer
+– Jackson, Frank (1982): Epiphenomenal Qualia. The Philosophical Quarterly 32, S. 127–136
+– Levine, Joseph (1983): Materialism and Qualia: The Explanatory Gap. Pacific Philosophical Quarterly 64, S. 354–361
+– Chalmers, David J. (1995): Facing Up to the Problem of Consciousness. Journal of Consciousness Studies 2 (3), S. 200–219
+– Dennett, Daniel C. (1991): Consciousness Explained. Boston: Little, Brown, S. 441–448
+– Akins, Kathleen (1993): What Is It Like to Be Boring and Myopic? In: B. Dahlbom (Hg.), Dennett and His Critics (zitiert nach Allen-Hermanson 2015 und Salzani 2022)
+– Lewis, David (1988): What Experience Teaches. Proceedings of the Russellian Society 13, S. 29–57
+– Hacker, P. M. S. (2002): Is There Anything It Is Like to Be a Bat? Philosophy 77, S. 157–174
+– Frankish, Keith (2016): Illusionism as a Theory of Consciousness. Journal of Consciousness Studies 23 (11–12), S. 11–39
+– Schnitzler, Hans-Ulrich / Kalko, Elisabeth K. V. (2001): Echolocation by Insect-Eating Bats. BioScience 51, S. 557–569
+– Suga, Nobuo (1988): What Does Single-Unit Analysis in the Auditory Cortex Tell Us …? In: Rakic / Singer (Hg.), Neurobiology of Neocortex, S. 331–349
+– Thaler, Lore / Arnott, Stephen R. / Goodale, Melvyn A. (2011): Neural Correlates of Natural Human Echolocation … PLoS ONE 6 (5), e20162
+– Nagel, Thomas (1986): The View from Nowhere; (2012): Mind and Cosmos; (2024): What Is It Like to Be a Bat? Jubiläumsausgabe, Oxford University Press
+– The Cambridge Declaration on Consciousness (2012); The New York Declaration on Animal Consciousness (2024)
+– Butlin, Patrick / Long, Robert u. a. (2023): Consciousness in Artificial Intelligence. arXiv:2308.08708
+– Chalmers, David J. (2023): Could a Large Language Model Be Conscious? arXiv:2303.07103
+– Long, Robert / Sebo, Jeff u. a. (2024): Taking AI Welfare Seriously. arXiv:2411.00986
+
+Die vollständige Literaturliste steht im Abspann (ab 23:33). Im Video sind die Belege jeweils unten rechts eingeblendet, wo möglich mit Seitenangabe.
+
+MEDIEN
+Hörbeispiel (Kapitel 9): Kaldari, „Bat feeding buzz.wav“ (2020), Wikimedia Commons, CC0 1.0 (Aufnahme auf ein Zehntel verlangsamt).
+Animationen: selbst erstellt mit Manim und Matplotlib. Schriften: Inter und Source Serif 4 (SIL Open Font License). Keine Musik.
+
+#Philosophie #Bewusstsein #ThomasNagel
