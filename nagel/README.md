@@ -13,6 +13,7 @@ heutige Debatte über Tier- und KI-Bewusstsein.
 | `output/untertitel.srt` | deutsche Untertitel zum Gesamtvideo |
 | `output/quellen.pdf` | Quellenverzeichnis mit Prüfstatus und Anhang „Belege je Absatz“ |
 | `output/karaoke.ass` | Karaoke-Untertitel als Sprechervorlage (Wort für Wort im Takt der Animation) |
+| `output/thumbnail.jpg` | YouTube-Thumbnail, 1280 × 720 (`scenes/thumbnail.py`, siehe dort) |
 | `output/sprechervorlage.mp4` | Bild mit eingebranntem Karaoke-Text, ohne Ton (nicht im Repository, `tools/karaoke.py video`) |
 
 ## Aufbau
@@ -24,6 +25,7 @@ heutige Debatte über Tier- und KI-Bewusstsein.
 | `script/skript.md` | freigegebener Sprechertext mit Beleg und Szenenbeschreibung pro Absatz – einzige Quelle für Text und Einblendungen |
 | `scenes/kit.py` | Gestaltung (Farben, Schriften, Belegleiste, Zitatkarte, Kapitelkarte, Leitmotiv) und Synchronisation an die Sprache |
 | `scenes/parts.py` | wiederverwendbare Bausteine (Argumentbaum, Zeitachse, Abendlandschaft, Fledermausflug, Symbole) |
+| `scenes/thumbnail.py` | YouTube-Thumbnail im Look des Videos |
 | `scenes/sNN_*.py` | eine Manim-Szene pro Kapitel (Klasse `KapitelN`); `s13_abspann.py` ist der Abspann |
 | `tools/script_parse.py` | liest das Skript (Sprechertext, Sätze, Einblendungen, Zitate) |
 | `tools/textnorm.py` | Aussprache für die Sprachausgabe (Zahlen, Namen, englische Titel) |
