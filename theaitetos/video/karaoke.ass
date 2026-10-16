@@ -1,0 +1,1298 @@
+[Script Info]
+Title: Sprechervorlage – Theaitetos
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Karaoke,Inter,58,&H006BB5D9,&H00D9E6EC,&H30150F0D,&H00000000,-1,0,0,0,100,100,0,0,3,16,0,2,80,80,120,1
+Style: Naechste,Inter,36,&H008C969A,&H008C969A,&H30150F0D,&H00000000,0,0,0,0,100,100,0,0,3,10,0,2,80,80,30,1
+Style: Info,Inter,30,&H006BB5D9,&H006BB5D9,&H30150F0D,&H00000000,-1,0,0,0,100,100,0,0,3,10,0,9,40,40,30,1
+Style: Pause,Inter,52,&H00D9E6EC,&H00D9E6EC,&H30150F0D,&H00000000,-1,0,0,0,100,100,0,0,3,18,0,5,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.40,0:00:04.04,Karaoke,,0,0,0,,{\k80}{\kf7}Athen, {\kf5}im {\kf14}Jahr {\kf179}399 {\kf22}vor {\kf57}Christus.
+Dialogue: 0,0:00:00.40,0:00:04.04,Naechste,,0,0,0,,Gegen Sokrates ist Anklage erhoben worden.
+Dialogue: 1,0:00:04.04,0:00:06.76,Karaoke,,0,0,0,,{\k56}{\kf35}Gegen {\kf55}Sokrates {\kf18}ist {\kf48}Anklage {\kf36}erhoben {\kf24}worden.
+Dialogue: 0,0:00:04.04,0:00:06.76,Naechste,,0,0,0,,Bald wird er verurteilt und hingerichtet werden.
+Dialogue: 1,0:00:06.76,0:00:09.46,Karaoke,,0,0,0,,{\k68}{\kf18}Bald {\kf16}wird {\kf14}er {\kf60}verurteilt\N{\kf18}und {\kf48}hingerichtet {\kf20}werden.
+Dialogue: 0,0:00:06.76,0:00:09.46,Naechste,,0,0,0,,An diesem Tag aber spricht er nicht über sich.
+Dialogue: 1,0:00:09.46,0:00:12.30,Karaoke,,0,0,0,,{\k80}{\kf10}An {\kf26}diesem {\kf32}Tag {\kf22}aber {\kf22}spricht\N{\kf20}er {\kf16}nicht {\kf26}über {\kf30}sich.
+Dialogue: 0,0:00:09.46,0:00:12.30,Naechste,,0,0,0,,Er stellt einem jungen Mathematiker eine Frage,
+Dialogue: 1,0:00:12.30,0:00:15.44,Karaoke,,0,0,0,,{\k58}{\kf10}Er {\kf18}stellt {\kf30}einem {\kf24}jungen\N{\kf66}Mathematiker {\kf34}eine {\kf74}Frage,
+Dialogue: 0,0:00:12.30,0:00:15.44,Naechste,,0,0,0,,die bis heute nicht abgeschlossen ist: Was ist Erkenntnis?
+Dialogue: 1,0:00:15.44,0:00:18.30,Karaoke,,0,0,0,,{\k0}{\kf6}die {\kf14}bis {\kf26}heute {\kf14}nicht {\kf56}abgeschlossen\N{\kf76}ist: {\kf10}Was {\kf18}ist {\kf64}Erkenntnis?
+Dialogue: 0,0:00:15.44,0:00:18.30,Naechste,,0,0,0,,Platons Dialog Theaitetos gilt als die erste systematische Untersuchung des Wissensbegriffs in der europäischen Philosophie.
+Dialogue: 1,0:00:18.30,0:00:25.96,Karaoke,,0,0,0,,{\k80}{\kf56}Platons {\kf46}Dialog {\kf77}Theaitetos {\kf28}gilt {\kf20}als {\kf20}die {\kf28}erste {\kf82}systematische\N{\kf70}Untersuchung {\kf22}des {\kf76}Wissensbegriffs {\kf28}in {\kf10}der {\kf52}europäischen {\kf70}Philosophie.
+Dialogue: 0,0:00:18.30,0:00:25.96,Naechste,,0,0,0,,Er prüft drei Antworten.
+Dialogue: 1,0:00:25.96,0:00:27.66,Karaoke,,0,0,0,,{\k58}{\kf10}Er {\kf32}prüft {\kf24}drei {\kf46}Antworten.
+Dialogue: 0,0:00:25.96,0:00:27.66,Naechste,,0,0,0,,Er widerlegt alle drei.
+Dialogue: 1,0:00:27.66,0:00:29.60,Karaoke,,0,0,0,,{\k74}{\kf12}Er {\kf40}widerlegt {\kf22}alle {\kf38}drei.
+Dialogue: 0,0:00:27.66,0:00:29.60,Naechste,,0,0,0,,Und er endet ohne Ergebnis.
+Dialogue: 1,0:00:29.60,0:00:32.10,Karaoke,,0,0,0,,{\k80}{\kf8}Und {\kf28}er {\kf38}endet {\kf24}ohne {\kf70}Ergebnis.
+Dialogue: 0,0:00:29.60,0:00:32.10,Naechste,,0,0,0,,Gerade dadurch hat er die Erkenntnistheorie bis in die Gegenwart geprägt.
+Dialogue: 1,0:00:32.10,0:00:36.46,Karaoke,,0,0,0,,{\k80}{\kf24}Gerade {\kf40}dadurch {\kf32}hat {\kf12}er {\kf10}die {\kf94}Erkenntnistheorie\N{\kf26}bis {\kf18}in {\kf10}die {\kf36}Gegenwart {\kf54}geprägt.
+Dialogue: 0,0:00:32.10,0:00:36.46,Naechste,,0,0,0,,Wir gehen den Dialog Schritt für Schritt durch: mit seinen Argumenten,
+Dialogue: 1,0:00:36.46,0:00:40.42,Karaoke,,0,0,0,,{\k62}{\kf10}Wir {\kf20}gehen {\kf18}den {\kf44}Dialog {\kf22}Schritt {\kf20}für\N{\kf20}Schritt {\kf32}durch: {\kf50}mit {\kf16}seinen {\kf82}Argumenten,
+Dialogue: 0,0:00:36.46,0:00:40.42,Naechste,,0,0,0,,mit Platons eigenen Bildern, und mit dem, was die Forschung daraus gemacht hat.
+Dialogue: 1,0:00:40.42,0:00:44.48,Karaoke,,0,0,0,,{\k0}{\kf8}mit {\kf44}Platons {\kf32}eigenen {\kf48}Bildern, {\kf46}und {\kf20}mit {\kf20}dem,\N{\kf32}was {\kf16}die {\kf42}Forschung {\kf24}daraus {\kf34}gemacht {\kf36}hat.
+Dialogue: 0,0:00:40.42,0:00:44.48,Naechste,,0,0,0,,Die Angaben am unteren Bildrand belegen jede Aussage.
+Dialogue: 1,0:00:44.48,0:00:48.02,Karaoke,,0,0,0,,{\k80}{\kf10}Die {\kf50}Angaben {\kf18}am {\kf34}unteren\N{\kf46}Bildrand {\kf40}belegen {\kf18}jede {\kf58}Aussage.
+Dialogue: 0,0:00:44.48,0:00:48.02,Naechste,,0,0,0,,Stellen aus Platon werden nach der üblichen Stephanus-Zählung angegeben,
+Dialogue: 1,0:00:48.02,0:00:52.64,Karaoke,,0,0,0,,{\k70}{\kf28}Stellen {\kf24}aus {\kf48}Platon {\kf18}werden {\kf32}nach {\kf18}der\N{\kf45}üblichen {\kf91}Stephanus-Zählung {\kf88}angegeben,
+Dialogue: 0,0:00:48.02,0:00:52.64,Naechste,,0,0,0,,Zitate folgen der Übersetzung von Friedrich Schleiermacher.
+Dialogue: 1,0:00:52.64,0:00:55.93,Karaoke,,0,0,0,,{\k0}{\kf26}Zitate {\kf60}folgen {\kf12}der {\kf56}Übersetzung\N{\kf26}von {\kf40}Friedrich {\kf74}Schleiermacher.
+Dialogue: 0,0:00:52.64,0:00:55.93,Naechste,,0,0,0,,Der Dialog beginnt nicht in Athen, sondern in Megara.
+Dialogue: 1,0:00:59.18,0:01:02.76,Karaoke,,0,0,0,,{\k80}{\kf9}Der {\kf40}Dialog {\kf42}beginnt {\kf16}nicht {\kf25}in\N{\kf61}Athen, {\kf20}sondern {\kf22}in {\kf43}Megara.
+Dialogue: 0,0:00:59.18,0:01:02.76,Naechste,,0,0,0,,Eukleides, ein Freund des Sokrates, kommt vom Hafen.
+Dialogue: 1,0:01:02.76,0:01:06.28,Karaoke,,0,0,0,,{\k56}{\kf89}Eukleides, {\kf8}ein {\kf24}Freund {\kf20}des\N{\kf98}Sokrates, {\kf8}kommt {\kf22}vom {\kf27}Hafen.
+Dialogue: 0,0:01:02.76,0:01:06.28,Naechste,,0,0,0,,Dort hat er Theaitetos gesehen,
+Dialogue: 1,0:01:06.28,0:01:08.97,Karaoke,,0,0,0,,{\k70}{\kf13}Dort {\kf18}hat {\kf16}er {\kf80}Theaitetos {\kf72}gesehen,
+Dialogue: 0,0:01:06.28,0:01:08.97,Naechste,,0,0,0,,der verwundet und an der Ruhr erkrankt aus dem Heerlager bei Korinth nach Athen gebracht wird.
+Dialogue: 1,0:01:08.97,0:01:13.24,Karaoke,,0,0,0,,{\k0}{\kf6}der {\kf48}verwundet {\kf19}und {\kf13}an {\kf20}der {\kf28}Ruhr {\kf50}erkrankt {\kf12}aus {\kf12}dem\N{\kf33}Heerlager {\kf11}bei {\kf50}Korinth {\kf26}nach {\kf26}Athen {\kf34}gebracht {\kf39}wird.
+Dialogue: 0,0:01:08.97,0:01:13.24,Naechste,,0,0,0,,Eukleides erinnert sich: Sokrates hatte diesem Theaitetos, damals noch ein Junge,
+Dialogue: 1,0:01:13.24,0:01:18.95,Karaoke,,0,0,0,,{\k80}{\kf51}Eukleides {\kf38}erinnert {\kf58}sich: {\kf46}Sokrates {\kf32}hatte\N{\kf55}diesem {\kf91}Theaitetos, {\kf20}damals {\kf30}noch {\kf24}ein {\kf46}Junge,
+Dialogue: 0,0:01:13.24,0:01:18.95,Naechste,,0,0,0,,eine große Zukunft vorausgesagt.
+Dialogue: 1,0:01:18.95,0:01:20.70,Karaoke,,0,0,0,,{\k0}{\kf14}eine {\kf28}große {\kf44}Zukunft {\kf89}vorausgesagt.
+Dialogue: 0,0:01:18.95,0:01:20.70,Naechste,,0,0,0,,Er hat ihr Gespräch damals aufgeschrieben,
+Dialogue: 1,0:01:20.70,0:01:23.37,Karaoke,,0,0,0,,{\k56}{\kf13}Er {\kf14}hat {\kf14}ihr {\kf50}Gespräch {\kf18}damals {\kf102}aufgeschrieben,
+Dialogue: 0,0:01:20.70,0:01:23.37,Naechste,,0,0,0,,Sokrates später mehrmals nach Einzelheiten gefragt und den Text verbessert.
+Dialogue: 1,0:01:23.37,0:01:27.18,Karaoke,,0,0,0,,{\k0}{\kf34}Sokrates {\kf34}später {\kf44}mehrmals {\kf20}nach {\kf60}Einzelheiten\N{\kf38}gefragt {\kf48}und {\kf18}den {\kf18}Text {\kf67}verbessert.
+Dialogue: 0,0:01:23.37,0:01:27.18,Naechste,,0,0,0,,Nun lässt er ihn von einem Sklaven vorlesen.
+Dialogue: 1,0:01:27.18,0:01:29.90,Karaoke,,0,0,0,,{\k54}{\kf13}Nun {\kf26}lässt {\kf28}er {\kf20}ihn {\kf20}von\N{\kf16}einem {\kf36}Sklaven {\kf59}vorlesen.
+Dialogue: 0,0:01:27.18,0:01:29.90,Naechste,,0,0,0,,Ein Detail ist bemerkenswert.
+Dialogue: 1,0:01:29.90,0:01:32.26,Karaoke,,0,0,0,,{\k78}{\kf15}Ein {\kf34}Detail {\kf20}ist {\kf89}bemerkenswert.
+Dialogue: 0,0:01:29.90,0:01:32.26,Naechste,,0,0,0,,Eukleides hat Einschübe wie „sagte ich“ oder „stimmte er zu“ gestrichen und das Gespräch als reinen Dialog niedergeschrieben.
+Dialogue: 1,0:01:32.26,0:01:38.90,Karaoke,,0,0,0,,{\k66}{\kf47}Eukleides {\kf18}hat {\kf80}Einschübe {\kf10}wie {\kf26}„sagte {\kf42}ich“ {\kf8}oder {\kf36}„stimmte {\kf12}er {\kf12}zu“\N{\kf56}gestrichen {\kf24}und {\kf14}das {\kf48}Gespräch {\kf18}als {\kf32}reinen {\kf50}Dialog {\kf65}niedergeschrieben.
+Dialogue: 0,0:01:32.26,0:01:38.90,Naechste,,0,0,0,,Platon lässt uns damit einen Blick in die eigene Werkstatt werfen.
+Dialogue: 1,0:01:38.90,0:01:42.96,Karaoke,,0,0,0,,{\k72}{\kf43}Platon {\kf22}lässt {\kf28}uns {\kf34}damit {\kf28}einen {\kf30}Blick\N{\kf22}in {\kf10}die {\kf26}eigene {\kf50}Werkstatt {\kf33}werfen.
+Dialogue: 0,0:01:38.90,0:01:42.96,Naechste,,0,0,0,,Das Hauptgespräch spielt im Jahr 399, kurz vor dem Prozess.
+Dialogue: 1,0:01:42.96,0:01:48.40,Karaoke,,0,0,0,,{\k80}{\kf11}Das {\kf86}Hauptgespräch {\kf42}spielt {\kf20}im\N{\kf14}Jahr {\kf156}399, {\kf50}kurz {\kf22}vor {\kf10}dem {\kf53}Prozess.
+Dialogue: 0,0:01:42.96,0:01:48.40,Naechste,,0,0,0,,Die Rahmenhandlung liegt viel später.
+Dialogue: 1,0:01:48.40,0:01:50.82,Karaoke,,0,0,0,,{\k56}{\kf13}Die {\kf72}Rahmenhandlung {\kf30}liegt {\kf24}viel {\kf47}später.
+Dialogue: 0,0:01:48.40,0:01:50.82,Naechste,,0,0,0,,Die meisten Forscher beziehen die Kämpfe bei Korinth,
+Dialogue: 1,0:01:50.82,0:01:54.23,Karaoke,,0,0,0,,{\k64}{\kf9}Die {\kf28}meisten {\kf56}Forscher {\kf38}beziehen\N{\kf16}die {\kf38}Kämpfe {\kf28}bei {\kf64}Korinth,
+Dialogue: 0,0:01:50.82,0:01:54.23,Naechste,,0,0,0,,von denen Theaitetos zurückkehrt, auf das Jahr 369 vor Christus;
+Dialogue: 1,0:01:54.23,0:01:59.03,Karaoke,,0,0,0,,{\k0}{\kf16}von {\kf29}denen {\kf59}Theaitetos {\kf66}zurückkehrt,\N{\kf30}auf {\kf18}das {\kf12}Jahr {\kf86}369 {\kf88}vor {\kf76}Christus;
+Dialogue: 0,0:01:54.23,0:01:59.03,Naechste,,0,0,0,,erwogen wird auch 394.
+Dialogue: 1,0:01:59.03,0:02:01.54,Karaoke,,0,0,0,,{\k0}{\kf22}erwogen {\kf18}wird {\kf22}auch {\kf189}394.
+Dialogue: 0,0:01:59.03,0:02:01.54,Naechste,,0,0,0,,Gilt 369, dann ist der Dialog danach entstanden, in Platons späterer Schaffenszeit:
+Dialogue: 1,0:02:01.54,0:02:08.17,Karaoke,,0,0,0,,{\k56}{\kf13}Gilt {\kf186}369, {\kf10}dann {\kf14}ist {\kf14}der {\kf40}Dialog {\kf26}danach\N{\kf60}entstanden, {\kf38}in {\kf40}Platons {\kf54}späterer {\kf112}Schaffenszeit:
+Dialogue: 0,0:02:01.54,0:02:08.17,Naechste,,0,0,0,,nach der Politeia und vor Sophistes und Politikos.
+Dialogue: 1,0:02:08.17,0:02:11.00,Karaoke,,0,0,0,,{\k0}{\kf12}nach {\kf14}der {\kf58}Politeia {\kf12}und {\kf12}vor\N{\kf64}Sophistes {\kf32}und {\kf79}Politikos.
+Dialogue: 0,0:02:08.17,0:02:11.00,Naechste,,0,0,0,,Der Rahmen ist also auch ein Nachruf: auf einen Freund und bedeutenden Mathematiker,
+Dialogue: 1,0:02:11.00,0:02:16.25,Karaoke,,0,0,0,,{\k78}{\kf11}Der {\kf32}Rahmen {\kf24}ist {\kf28}also {\kf22}auch {\kf22}ein {\kf58}Nachruf: {\kf34}auf\N{\kf18}einen {\kf36}Freund {\kf42}und {\kf52}bedeutenden {\kf68}Mathematiker,
+Dialogue: 0,0:02:11.00,0:02:16.25,Naechste,,0,0,0,,der jung gestorben ist.
+Dialogue: 1,0:02:16.25,0:02:17.50,Karaoke,,0,0,0,,{\k0}{\kf32}der {\kf18}jung {\kf46}gestorben {\kf29}ist.
+Dialogue: 0,0:02:16.25,0:02:17.50,Naechste,,0,0,0,,Wie die Geschichte ausgeht, wissen wir schon, bevor das Gespräch beginnt.
+Dialogue: 1,0:02:17.50,0:02:22.01,Karaoke,,0,0,0,,{\k56}{\kf5}Wie {\kf10}die {\kf36}Geschichte {\kf96}ausgeht, {\kf14}wissen\N{\kf16}wir {\kf46}schon, {\kf20}bevor {\kf28}das {\kf44}Gespräch {\kf45}beginnt.
+Dialogue: 0,0:02:17.50,0:02:22.01,Naechste,,0,0,0,,Drei Personen tragen das Gespräch.
+Dialogue: 1,0:02:25.32,0:02:27.82,Karaoke,,0,0,0,,{\k80}{\kf16}Drei {\kf50}Personen {\kf26}tragen {\kf22}das {\kf56}Gespräch.
+Dialogue: 0,0:02:25.32,0:02:27.82,Naechste,,0,0,0,,Theodoros aus Kyrene ist ein älterer,
+Dialogue: 1,0:02:27.82,0:02:30.88,Karaoke,,0,0,0,,{\k52}{\kf76}Theodoros {\kf20}aus {\kf38}Kyrene {\kf28}ist {\kf20}ein {\kf72}älterer,
+Dialogue: 0,0:02:27.82,0:02:30.88,Naechste,,0,0,0,,berühmter Mathematiker und ein Freund des Protagoras.
+Dialogue: 1,0:02:30.88,0:02:33.80,Karaoke,,0,0,0,,{\k0}{\kf40}berühmter {\kf60}Mathematiker {\kf44}und\N{\kf18}ein {\kf26}Freund {\kf20}des {\kf84}Protagoras.
+Dialogue: 0,0:02:30.88,0:02:33.80,Naechste,,0,0,0,,Er würde lieber zuhören als mitreden.
+Dialogue: 1,0:02:33.80,0:02:36.54,Karaoke,,0,0,0,,{\k64}{\kf12}Er {\kf22}würde {\kf62}lieber {\kf28}zuhören {\kf24}als {\kf42}mitreden.
+Dialogue: 0,0:02:33.80,0:02:36.54,Naechste,,0,0,0,,Theaitetos ist sein begabtester Schüler.
+Dialogue: 1,0:02:36.54,0:02:39.66,Karaoke,,0,0,0,,{\k80}{\kf84}Theaitetos {\kf34}ist {\kf22}sein {\kf52}begabtester {\kf40}Schüler.
+Dialogue: 0,0:02:36.54,0:02:39.66,Naechste,,0,0,0,,Theodoros lobt ihn: Er lerne schnell und sei dabei sanft und tapfer zugleich.
+Dialogue: 1,0:02:39.66,0:02:44.88,Karaoke,,0,0,0,,{\k58}{\kf66}Theodoros {\kf36}lobt {\kf54}ihn: {\kf12}Er {\kf24}lerne {\kf30}schnell\N{\kf38}und {\kf16}sei {\kf20}dabei {\kf44}sanft {\kf22}und {\kf34}tapfer {\kf68}zugleich.
+Dialogue: 0,0:02:39.66,0:02:44.88,Naechste,,0,0,0,,Schön sei er allerdings nicht.
+Dialogue: 1,0:02:44.88,0:02:46.70,Karaoke,,0,0,0,,{\k48}{\kf24}Schön {\kf18}sei {\kf16}er {\kf30}allerdings {\kf46}nicht.
+Dialogue: 0,0:02:44.88,0:02:46.70,Naechste,,0,0,0,,Er habe eine stumpfe Nase und hervortretende Augen, ganz wie Sokrates.
+Dialogue: 1,0:02:46.70,0:02:51.72,Karaoke,,0,0,0,,{\k52}{\kf12}Er {\kf24}habe {\kf24}eine {\kf46}stumpfe {\kf46}Nase {\kf36}und\N{\kf72}hervortretende {\kf42}Augen, {\kf33}ganz {\kf25}wie {\kf70}Sokrates.
+Dialogue: 0,0:02:46.70,0:02:51.72,Naechste,,0,0,0,,Diese Ähnlichkeit ist kein Zufall.
+Dialogue: 1,0:02:51.72,0:02:54.22,Karaoke,,0,0,0,,{\k80}{\kf20}Diese {\kf64}Ähnlichkeit {\kf20}ist {\kf20}kein {\kf46}Zufall.
+Dialogue: 0,0:02:51.72,0:02:54.22,Naechste,,0,0,0,,Ganz am Ende des Dialogs wird ausgerechnet eine stumpfe Nase darüber entscheiden,
+Dialogue: 1,0:02:54.22,0:02:59.34,Karaoke,,0,0,0,,{\k66}{\kf18}Ganz {\kf24}am {\kf28}Ende {\kf20}des {\kf64}Dialogs {\kf18}wird {\kf72}ausgerechnet\N{\kf22}eine {\kf38}stumpfe {\kf34}Nase {\kf22}darüber {\kf86}entscheiden,
+Dialogue: 0,0:02:54.22,0:02:59.34,Naechste,,0,0,0,,ob eine Definition der Erkenntnis taugt.
+Dialogue: 1,0:02:59.34,0:03:02.01,Karaoke,,0,0,0,,{\k0}{\kf12}ob {\kf22}eine {\kf72}Definition {\kf22}der {\kf60}Erkenntnis {\kf44}taugt.
+Dialogue: 0,0:02:59.34,0:03:02.01,Naechste,,0,0,0,,Sokrates gesteht, dass ihn eine kleine Frage ratlos macht:
+Dialogue: 1,0:03:05.16,0:03:09.42,Karaoke,,0,0,0,,{\k80}{\kf54}Sokrates {\kf78}gesteht, {\kf12}dass {\kf14}ihn\N{\kf24}eine {\kf18}kleine {\kf32}Frage {\kf48}ratlos {\kf66}macht:
+Dialogue: 0,0:03:05.16,0:03:09.42,Naechste,,0,0,0,,Was ist eigentlich Erkenntnis?
+Dialogue: 1,0:03:09.42,0:03:10.70,Karaoke,,0,0,0,,{\k0}{\kf8}Was {\kf20}ist {\kf28}eigentlich {\kf72}Erkenntnis?
+Dialogue: 0,0:03:09.42,0:03:10.70,Naechste,,0,0,0,,Auf Griechisch heißt sie Epistéme.
+Dialogue: 1,0:03:10.70,0:03:13.00,Karaoke,,0,0,0,,{\k60}{\kf12}Auf {\kf34}Griechisch {\kf30}heißt {\kf20}sie {\kf64}Epistéme.
+Dialogue: 0,0:03:10.70,0:03:13.00,Naechste,,0,0,0,,Theaitetos antwortet mit Beispielen: Geometrie und die anderen Wissenschaften,
+Dialogue: 1,0:03:13.00,0:03:18.54,Karaoke,,0,0,0,,{\k80}{\kf72}Theaitetos {\kf70}antwortet {\kf12}mit {\kf86}Beispielen:\N{\kf40}Geometrie {\kf40}und {\kf20}die {\kf20}anderen {\kf114}Wissenschaften,
+Dialogue: 0,0:03:13.00,0:03:18.54,Naechste,,0,0,0,,die Theodoros lehrt, dazu die Schusterei und die übrigen Handwerke.
+Dialogue: 1,0:03:18.54,0:03:22.22,Karaoke,,0,0,0,,{\k0}{\kf10}die {\kf56}Theodoros {\kf46}lehrt, {\kf30}dazu {\kf24}die\N{\kf42}Schusterei {\kf50}und {\kf16}die {\kf34}übrigen {\kf60}Handwerke.
+Dialogue: 0,0:03:18.54,0:03:22.22,Naechste,,0,0,0,,Sokrates lehnt ab.
+Dialogue: 1,0:03:22.22,0:03:23.88,Karaoke,,0,0,0,,{\k70}{\kf54}Sokrates {\kf32}lehnt {\kf10}ab.
+Dialogue: 0,0:03:22.22,0:03:23.88,Naechste,,0,0,0,,Er hat nicht gefragt, wovon es Erkenntnis gibt oder wie viele Arten es gibt,
+Dialogue: 1,0:03:23.88,0:03:28.90,Karaoke,,0,0,0,,{\k68}{\kf10}Er {\kf16}hat {\kf16}nicht {\kf70}gefragt, {\kf50}wovon {\kf14}es {\kf62}Erkenntnis\N{\kf32}gibt {\kf30}oder {\kf16}wie {\kf20}viele {\kf30}Arten {\kf14}es {\kf54}gibt,
+Dialogue: 0,0:03:23.88,0:03:28.90,Naechste,,0,0,0,,sondern was Erkenntnis selbst ist.
+Dialogue: 1,0:03:28.90,0:03:30.56,Karaoke,,0,0,0,,{\k0}{\kf18}sondern {\kf22}was {\kf54}Erkenntnis {\kf24}selbst {\kf48}ist.
+Dialogue: 0,0:03:28.90,0:03:30.56,Naechste,,0,0,0,,Er gibt ein Beispiel.
+Dialogue: 1,0:03:30.56,0:03:32.22,Karaoke,,0,0,0,,{\k72}{\kf14}Er {\kf20}gibt {\kf20}ein {\kf36}Beispiel.
+Dialogue: 0,0:03:30.56,0:03:32.22,Naechste,,0,0,0,,Wer auf die Frage, was Lehm ist, antwortet: „Töpferlehm, Ofenlehm, Ziegellehm“,
+Dialogue: 1,0:03:32.22,0:03:37.40,Karaoke,,0,0,0,,{\k80}{\kf6}Wer {\kf18}auf {\kf14}die {\kf56}Frage, {\kf8}was {\kf24}Lehm {\kf48}ist, {\kf78}antwortet:\N{\kf60}„Töpferlehm, {\kf72}Ofenlehm, {\kf54}Ziegellehm“,
+Dialogue: 0,0:03:32.22,0:03:37.40,Naechste,,0,0,0,,der hat nichts erklärt, denn er setzt das Wort voraus, das er erklären soll.
+Dialogue: 1,0:03:37.40,0:03:40.70,Karaoke,,0,0,0,,{\k0}{\kf5}der {\kf11}hat {\kf18}nichts {\kf80}erklärt, {\kf10}denn {\kf14}er {\kf14}setzt\N{\kf24}das {\kf16}Wort {\kf60}voraus, {\kf6}das {\kf14}er {\kf22}erklären {\kf36}soll.
+Dialogue: 0,0:03:37.40,0:03:40.70,Naechste,,0,0,0,,Die einfache Antwort wäre: Lehm ist Erde, mit Flüssigkeit vermischt.
+Dialogue: 1,0:03:40.70,0:03:45.38,Karaoke,,0,0,0,,{\k66}{\kf8}Die {\kf44}einfache {\kf26}Antwort {\kf86}wäre: {\kf28}Lehm {\kf16}ist\N{\kf30}Erde, {\kf48}mit {\kf52}Flüssigkeit {\kf46}vermischt.
+Dialogue: 0,0:03:40.70,0:03:45.38,Naechste,,0,0,0,,Dahinter steht eine starke Voraussetzung: Man versteht etwas erst,
+Dialogue: 1,0:03:45.38,0:03:50.04,Karaoke,,0,0,0,,{\k80}{\kf34}Dahinter {\kf32}steht {\kf28}eine {\kf40}starke\N{\kf100}Voraussetzung: {\kf10}Man {\kf44}versteht {\kf26}etwas {\kf72}erst,
+Dialogue: 0,0:03:45.38,0:03:50.04,Naechste,,0,0,0,,wenn man das Gemeinsame aller Fälle angeben kann.
+Dialogue: 1,0:03:50.04,0:03:51.96,Karaoke,,0,0,0,,{\k0}{\kf8}wenn {\kf10}man {\kf14}das {\kf38}Gemeinsame\N{\kf32}aller {\kf26}Fälle {\kf44}angeben {\kf20}kann.
+Dialogue: 0,0:03:50.04,0:03:51.96,Naechste,,0,0,0,,Der Philosoph Peter Geach hat genau diese Voraussetzung 1966 als „sokratischen Fehlschluss“ kritisiert.
+Dialogue: 1,0:03:51.96,0:04:00.40,Karaoke,,0,0,0,,{\k64}{\kf12}Der {\kf48}Philosoph {\kf40}Peter {\kf40}Geach {\kf24}hat {\kf32}genau {\kf30}diese {\kf78}Voraussetzung\N{\kf244}1966 {\kf34}als {\kf64}„sokratischen {\kf60}Fehlschluss“ {\kf74}kritisiert.
+Dialogue: 0,0:03:51.96,0:04:00.40,Naechste,,0,0,0,,Denn wir erkennen ja vieles zuverlässig, ohne es definieren zu können.
+Dialogue: 1,0:04:00.40,0:04:04.61,Karaoke,,0,0,0,,{\k56}{\kf10}Denn {\kf16}wir {\kf32}erkennen {\kf20}ja {\kf48}vieles {\kf52}zuverlässig,\N{\kf34}ohne {\kf20}es {\kf52}definieren {\kf22}zu {\kf24}können.
+Dialogue: 0,0:04:00.40,0:04:04.61,Naechste,,0,0,0,,Theaitetos erinnert sich an eine Mathematikstunde.
+Dialogue: 1,0:04:07.82,0:04:11.50,Karaoke,,0,0,0,,{\k80}{\kf80}Theaitetos {\kf56}erinnert {\kf20}sich\N{\kf20}an {\kf18}eine {\kf94}Mathematikstunde.
+Dialogue: 0,0:04:07.82,0:04:11.50,Naechste,,0,0,0,,Theodoros hatte gezeigt,
+Dialogue: 1,0:04:11.50,0:04:13.90,Karaoke,,0,0,0,,{\k54}{\kf70}Theodoros {\kf24}hatte {\kf92}gezeigt,
+Dialogue: 0,0:04:11.50,0:04:13.90,Naechste,,0,0,0,,dass die Seite eines Quadrats mit drei oder mit fünf Quadratfuß Fläche nicht mit der Einheit von einem Fuß messbar ist.
+Dialogue: 1,0:04:13.90,0:04:19.62,Karaoke,,0,0,0,,{\k0}{\kf5}dass {\kf13}die {\kf32}Seite {\kf22}eines {\kf54}Quadrats {\kf20}mit {\kf28}drei {\kf36}oder {\kf16}mit {\kf24}fünf {\kf70}Quadratfuß\N{\kf42}Fläche {\kf18}nicht {\kf20}mit {\kf8}der {\kf36}Einheit {\kf16}von {\kf18}einem {\kf16}Fuß {\kf38}messbar {\kf40}ist.
+Dialogue: 0,0:04:13.90,0:04:19.62,Naechste,,0,0,0,,Heute würden wir sagen: Die Wurzeln aus drei und aus fünf sind irrational.
+Dialogue: 1,0:04:19.62,0:04:24.08,Karaoke,,0,0,0,,{\k60}{\kf18}Heute {\kf28}würden {\kf14}wir {\kf66}sagen: {\kf8}Die {\kf38}Wurzeln\N{\kf26}aus {\kf34}drei {\kf34}und {\kf15}aus {\kf20}fünf {\kf20}sind {\kf64}irrational.
+Dialogue: 0,0:04:19.62,0:04:24.08,Naechste,,0,0,0,,So ging Theodoros jeden Fall einzeln durch, bis zur Wurzel aus siebzehn.
+Dialogue: 1,0:04:24.08,0:04:28.54,Karaoke,,0,0,0,,{\k78}{\kf16}So {\kf20}ging {\kf66}Theodoros {\kf20}jeden {\kf22}Fall {\kf50}einzeln\N{\kf24}durch, {\kf40}bis {\kf20}zur {\kf32}Wurzel {\kf20}aus {\kf38}siebzehn.
+Dialogue: 0,0:04:24.08,0:04:28.54,Naechste,,0,0,0,,Dort hielt er inne.
+Dialogue: 1,0:04:28.54,0:04:30.14,Karaoke,,0,0,0,,{\k74}{\kf16}Dort {\kf28}hielt {\kf16}er {\kf24}inne.
+Dialogue: 0,0:04:28.54,0:04:30.14,Naechste,,0,0,0,,Warum gerade bei siebzehn, sagt der Text nicht.
+Dialogue: 1,0:04:30.14,0:04:33.44,Karaoke,,0,0,0,,{\k80}{\kf20}Warum {\kf32}gerade {\kf22}bei {\kf74}siebzehn,\N{\kf20}sagt {\kf18}der {\kf20}Text {\kf44}nicht.
+Dialogue: 0,0:04:30.14,0:04:33.44,Naechste,,0,0,0,,Eine moderne Vermutung verbindet das mit dieser Figur,
+Dialogue: 1,0:04:33.44,0:04:36.68,Karaoke,,0,0,0,,{\k72}{\kf16}Eine {\kf40}moderne {\kf50}Vermutung\N{\kf42}verbindet {\kf20}das {\kf14}mit {\kf22}dieser {\kf48}Figur,
+Dialogue: 0,0:04:33.44,0:04:36.68,Naechste,,0,0,0,,der sogenannten Spirale des Theodoros.
+Dialogue: 1,0:04:36.68,0:04:39.08,Karaoke,,0,0,0,,{\k0}{\kf40}der {\kf52}sogenannten {\kf50}Spirale {\kf18}des {\kf80}Theodoros.
+Dialogue: 0,0:04:36.68,0:04:39.08,Naechste,,0,0,0,,Man setzt rechtwinklige Dreiecke aneinander,
+Dialogue: 1,0:04:39.08,0:04:42.16,Karaoke,,0,0,0,,{\k52}{\kf10}Man {\kf31}setzt {\kf79}rechtwinklige\N{\kf44}Dreiecke {\kf92}aneinander,
+Dialogue: 0,0:04:39.08,0:04:42.16,Naechste,,0,0,0,,deren eine Kathete immer die Länge eins hat.
+Dialogue: 1,0:04:42.16,0:04:44.22,Karaoke,,0,0,0,,{\k0}{\kf16}deren {\kf30}eine {\kf40}Kathete {\kf28}immer\N{\kf16}die {\kf24}Länge {\kf24}eins {\kf28}hat.
+Dialogue: 0,0:04:42.16,0:04:44.22,Naechste,,0,0,0,,Die Hypotenusen sind dann nacheinander die Wurzeln aus zwei, drei,
+Dialogue: 1,0:04:44.22,0:04:48.44,Karaoke,,0,0,0,,{\k54}{\kf10}Die {\kf66}Hypotenusen {\kf20}sind {\kf16}dann {\kf40}nacheinander\N{\kf14}die {\kf40}Wurzeln {\kf20}aus {\kf74}zwei, {\kf68}drei,
+Dialogue: 0,0:04:44.22,0:04:48.44,Naechste,,0,0,0,,vier und so weiter.
+Dialogue: 1,0:04:48.44,0:04:49.46,Karaoke,,0,0,0,,{\k0}{\kf22}vier {\kf30}und {\kf16}so {\kf34}weiter.
+Dialogue: 0,0:04:48.44,0:04:49.46,Naechste,,0,0,0,,Mit der Wurzel aus siebzehn ist die erste Umdrehung fast vollendet.
+Dialogue: 1,0:04:49.46,0:04:53.80,Karaoke,,0,0,0,,{\k72}{\kf10}Mit {\kf12}der {\kf38}Wurzel {\kf22}aus {\kf56}siebzehn {\kf36}ist\N{\kf18}die {\kf28}erste {\kf56}Umdrehung {\kf24}fast {\kf62}vollendet.
+Dialogue: 0,0:04:49.46,0:04:53.80,Naechste,,0,0,0,,Das nächste Dreieck würde das erste überdecken.
+Dialogue: 1,0:04:53.80,0:04:57.00,Karaoke,,0,0,0,,{\k76}{\kf14}Das {\kf30}nächste {\kf54}Dreieck {\kf26}würde\N{\kf22}das {\kf28}erste {\kf42}überdecken.
+Dialogue: 0,0:04:53.80,0:04:57.00,Naechste,,0,0,0,,Theaitetos und sein Freund, der jüngere Sokrates,
+Dialogue: 1,0:04:57.00,0:05:01.16,Karaoke,,0,0,0,,{\k80}{\kf86}Theaitetos {\kf20}und {\kf16}sein {\kf80}Freund,\N{\kf5}der {\kf37}jüngere {\kf92}Sokrates,
+Dialogue: 0,0:04:57.00,0:05:01.16,Naechste,,0,0,0,,wollten nicht unendlich viele Einzelfälle behandeln.
+Dialogue: 1,0:05:01.16,0:05:03.54,Karaoke,,0,0,0,,{\k0}{\kf10}wollten {\kf28}nicht {\kf64}unendlich\N{\kf28}viele {\kf52}Einzelfälle {\kf44}behandeln.
+Dialogue: 0,0:05:01.16,0:05:03.54,Naechste,,0,0,0,,Sie suchten einen Begriff für alle.
+Dialogue: 1,0:05:03.54,0:05:05.82,Karaoke,,0,0,0,,{\k80}{\kf14}Sie {\kf48}suchten {\kf16}einen {\kf28}Begriff {\kf22}für {\kf20}alle.
+Dialogue: 0,0:05:03.54,0:05:05.82,Naechste,,0,0,0,,Zahlen, die sich als Produkt zweier gleicher Faktoren bilden lassen,
+Dialogue: 1,0:05:05.82,0:05:10.36,Karaoke,,0,0,0,,{\k80}{\kf74}Zahlen, {\kf8}die {\kf12}sich {\kf18}als {\kf34}Produkt {\kf46}zweier\N{\kf34}gleicher {\kf42}Faktoren {\kf38}bilden {\kf68}lassen,
+Dialogue: 0,0:05:05.82,0:05:10.36,Naechste,,0,0,0,,wie vier oder neun, legten sie als Quadrat und nannten sie Quadratzahlen.
+Dialogue: 1,0:05:10.36,0:05:14.16,Karaoke,,0,0,0,,{\k0}{\kf8}wie {\kf30}vier {\kf18}oder {\kf68}neun, {\kf32}legten {\kf10}sie {\kf16}als\N{\kf40}Quadrat {\kf28}und {\kf38}nannten {\kf16}sie {\kf62}Quadratzahlen.
+Dialogue: 0,0:05:10.36,0:05:14.16,Naechste,,0,0,0,,Alle anderen, wie drei, fünf oder sechs,
+Dialogue: 1,0:05:14.16,0:05:17.48,Karaoke,,0,0,0,,{\k80}{\kf18}Alle {\kf56}anderen, {\kf24}wie {\kf56}drei, {\kf12}fünf {\kf24}oder {\kf62}sechs,
+Dialogue: 0,0:05:14.16,0:05:17.48,Naechste,,0,0,0,,lassen sich nur als Rechteck mit ungleichen Seiten legen.
+Dialogue: 1,0:05:17.48,0:05:19.88,Karaoke,,0,0,0,,{\k0}{\kf18}lassen {\kf22}sich {\kf22}nur {\kf14}als {\kf52}Rechteck\N{\kf12}mit {\kf54}ungleichen {\kf18}Seiten {\kf28}legen.
+Dialogue: 0,0:05:17.48,0:05:19.88,Naechste,,0,0,0,,Diese nannten sie längliche Zahlen.
+Dialogue: 1,0:05:19.88,0:05:22.14,Karaoke,,0,0,0,,{\k76}{\kf16}Diese {\kf36}nannten {\kf18}sie {\kf40}längliche {\kf36}Zahlen.
+Dialogue: 0,0:05:19.88,0:05:22.14,Naechste,,0,0,0,,Die Seite eines Quadrats, dessen Fläche eine Quadratzahl ist, nannten sie Länge.
+Dialogue: 1,0:05:22.14,0:05:27.04,Karaoke,,0,0,0,,{\k80}{\kf12}Die {\kf34}Seite {\kf26}eines {\kf86}Quadrats, {\kf20}dessen {\kf32}Fläche\N{\kf16}eine {\kf54}Quadratzahl {\kf58}ist, {\kf30}nannten {\kf14}sie {\kf24}Länge.
+Dialogue: 0,0:05:22.14,0:05:27.04,Naechste,,0,0,0,,Die Seite eines Quadrats, dessen Fläche eine längliche Zahl ist,
+Dialogue: 1,0:05:27.04,0:05:31.72,Karaoke,,0,0,0,,{\k80}{\kf12}Die {\kf34}Seite {\kf26}eines {\kf104}Quadrats, {\kf22}dessen\N{\kf30}Fläche {\kf26}eine {\kf38}längliche {\kf34}Zahl {\kf62}ist,
+Dialogue: 0,0:05:27.04,0:05:31.72,Naechste,,0,0,0,,nannten sie Dynamis, Potenz.
+Dialogue: 1,0:05:31.72,0:05:33.38,Karaoke,,0,0,0,,{\k0}{\kf24}nannten {\kf18}sie {\kf58}Dynamis, {\kf66}Potenz.
+Dialogue: 0,0:05:31.72,0:05:33.38,Naechste,,0,0,0,,Sie ist mit der Einheit nicht der Länge nach messbar, sondern nur über die Fläche,
+Dialogue: 1,0:05:33.38,0:05:37.70,Karaoke,,0,0,0,,{\k48}{\kf18}Sie {\kf22}ist {\kf12}mit {\kf10}der {\kf30}Einheit {\kf18}nicht {\kf20}der {\kf16}Länge\N{\kf20}nach {\kf80}messbar, {\kf26}sondern {\kf22}nur {\kf18}über {\kf12}die {\kf60}Fläche,
+Dialogue: 0,0:05:33.38,0:05:37.70,Naechste,,0,0,0,,die sie erzeugt.
+Dialogue: 1,0:05:37.70,0:05:38.52,Karaoke,,0,0,0,,{\k0}{\kf14}die {\kf8}sie {\kf56}erzeugt.
+Dialogue: 0,0:05:37.70,0:05:38.52,Naechste,,0,0,0,,Mit diesem einen Begriff waren unendlich viele Fälle auf einmal erfasst.
+Dialogue: 1,0:05:38.52,0:05:42.82,Karaoke,,0,0,0,,{\k80}{\kf10}Mit {\kf26}diesem {\kf26}einen {\kf42}Begriff {\kf46}waren {\kf56}unendlich\N{\kf20}viele {\kf26}Fälle {\kf18}auf {\kf30}einmal {\kf50}erfasst.
+Dialogue: 0,0:05:38.52,0:05:42.82,Naechste,,0,0,0,,Genau das, sagt Sokrates, soll Theaitetos nun auch mit der Erkenntnis tun:
+Dialogue: 1,0:05:42.82,0:05:48.32,Karaoke,,0,0,0,,{\k74}{\kf26}Genau {\kf66}das, {\kf12}sagt {\kf96}Sokrates, {\kf23}soll {\kf57}Theaitetos\N{\kf22}nun {\kf26}auch {\kf20}mit {\kf10}der {\kf50}Erkenntnis {\kf68}tun:
+Dialogue: 0,0:05:42.82,0:05:48.32,Naechste,,0,0,0,,die vielen Erkenntnisse unter einen einzigen Begriff bringen.
+Dialogue: 1,0:05:48.32,0:05:51.04,Karaoke,,0,0,0,,{\k0}{\kf6}die {\kf26}vielen {\kf72}Erkenntnisse {\kf38}unter\N{\kf20}einen {\kf42}einzigen {\kf32}Begriff {\kf34}bringen.
+Dialogue: 0,0:05:48.32,0:05:51.04,Naechste,,0,0,0,,Der historische Theaitetos wurde ein bedeutender Mathematiker.
+Dialogue: 1,0:05:51.04,0:05:55.28,Karaoke,,0,0,0,,{\k80}{\kf12}Der {\kf78}historische {\kf70}Theaitetos {\kf28}wurde\N{\kf20}ein {\kf52}bedeutender {\kf68}Mathematiker.
+Dialogue: 0,0:05:51.04,0:05:55.28,Naechste,,0,0,0,,Die antike Überlieferung schreibt ihm wesentliche Teile der Lehre von den irrationalen Größen zu,
+Dialogue: 1,0:05:55.28,0:06:01.56,Karaoke,,0,0,0,,{\k80}{\kf10}Die {\kf48}antike {\kf82}Überlieferung {\kf36}schreibt {\kf26}ihm {\kf72}wesentliche\N{\kf26}Teile {\kf16}der {\kf30}Lehre {\kf20}von {\kf6}den {\kf72}irrationalen {\kf28}Größen {\kf76}zu,
+Dialogue: 0,0:05:55.28,0:06:01.56,Naechste,,0,0,0,,die in das zehnte Buch von Euklids Elementen einging.
+Dialogue: 1,0:06:01.56,0:06:04.22,Karaoke,,0,0,0,,{\k0}{\kf10}die {\kf10}in {\kf14}das {\kf40}zehnte {\kf30}Buch {\kf26}von\N{\kf42}Euklids {\kf58}Elementen {\kf36}einging.
+Dialogue: 0,0:06:01.56,0:06:04.22,Naechste,,0,0,0,,Nach der Suda schrieb er als Erster über die fünf regelmäßigen Körper;
+Dialogue: 1,0:06:04.22,0:06:08.14,Karaoke,,0,0,0,,{\k66}{\kf12}Nach {\kf16}der {\kf20}Suda {\kf40}schrieb {\kf16}er {\kf16}als {\kf34}Erster\N{\kf20}über {\kf14}die {\kf20}fünf {\kf76}regelmäßigen {\kf42}Körper;
+Dialogue: 0,0:06:04.22,0:06:08.14,Naechste,,0,0,0,,ein Scholion zu Euklids dreizehntem Buch nennt ihn für Oktaeder und Ikosaeder.
+Dialogue: 1,0:06:08.14,0:06:13.09,Karaoke,,0,0,0,,{\k0}{\kf50}ein {\kf40}Scholion {\kf14}zu {\kf50}Euklids {\kf66}dreizehntem {\kf28}Buch\N{\kf36}nennt {\kf10}ihn {\kf18}für {\kf48}Oktaeder {\kf42}und {\kf58}Ikosaeder.
+Dialogue: 0,0:06:08.14,0:06:13.09,Naechste,,0,0,0,,Theaitetos ist ratlos.
+Dialogue: 1,0:06:16.60,0:06:18.98,Karaoke,,0,0,0,,{\k80}{\kf77}Theaitetos {\kf16}ist {\kf65}ratlos.
+Dialogue: 0,0:06:16.60,0:06:18.98,Naechste,,0,0,0,,Er findet keine Antwort und kommt doch von der Frage nicht los.
+Dialogue: 1,0:06:18.98,0:06:22.82,Karaoke,,0,0,0,,{\k72}{\kf9}Er {\kf24}findet {\kf32}keine {\kf44}Antwort {\kf44}und {\kf21}kommt\N{\kf17}doch {\kf16}von {\kf12}der {\kf30}Frage {\kf20}nicht {\kf43}los.
+Dialogue: 0,0:06:18.98,0:06:22.82,Naechste,,0,0,0,,Sokrates deutet das als Geburtswehen.
+Dialogue: 1,0:06:22.82,0:06:25.45,Karaoke,,0,0,0,,{\k48}{\kf67}Sokrates {\kf24}deutet {\kf20}das {\kf16}als {\kf53}Geburtswehen.
+Dialogue: 0,0:06:22.82,0:06:25.45,Naechste,,0,0,0,,Er sei der Sohn einer Hebamme namens Phainarete und übe selbst diese Kunst aus:
+Dialogue: 1,0:06:25.48,0:06:30.55,Karaoke,,0,0,0,,{\k80}{\kf11}Er {\kf18}sei {\kf16}der {\kf30}Sohn {\kf20}einer {\kf38}Hebamme {\kf39}namens\N{\kf65}Phainarete {\kf38}und {\kf22}übe {\kf32}selbst {\kf30}diese {\kf30}Kunst {\kf38}aus:
+Dialogue: 0,0:06:25.48,0:06:30.55,Naechste,,0,0,0,,an Männern statt an Frauen, an Seelen statt an Körpern.
+Dialogue: 1,0:06:30.55,0:06:33.82,Karaoke,,0,0,0,,{\k0}{\kf38}an {\kf34}Männern {\kf12}statt {\kf26}an {\kf86}Frauen,\N{\kf12}an {\kf26}Seelen {\kf30}statt {\kf26}an {\kf37}Körpern.
+Dialogue: 0,0:06:30.55,0:06:33.82,Naechste,,0,0,0,,Und wie die Hebammen, die selbst keine Kinder mehr bekommen,
+Dialogue: 1,0:06:33.82,0:06:37.63,Karaoke,,0,0,0,,{\k70}{\kf9}Und {\kf18}wie {\kf12}die {\kf62}Hebammen, {\kf10}die {\kf32}selbst\N{\kf36}keine {\kf32}Kinder {\kf22}mehr {\kf78}bekommen,
+Dialogue: 0,0:06:33.82,0:06:37.63,Naechste,,0,0,0,,sei er unfruchtbar an Weisheit.
+Dialogue: 1,0:06:37.63,0:06:39.24,Karaoke,,0,0,0,,{\k0}{\kf10}sei {\kf18}er {\kf62}unfruchtbar {\kf18}an {\kf53}Weisheit.
+Dialogue: 0,0:06:37.63,0:06:39.24,Naechste,,0,0,0,,Darum frage er nur und behaupte selbst nichts.
+Dialogue: 1,0:06:39.24,0:06:42.30,Karaoke,,0,0,0,,{\k62}{\kf25}Darum {\kf40}frage {\kf18}er {\kf10}nur {\kf26}und\N{\kf48}behaupte {\kf20}selbst {\kf57}nichts.
+Dialogue: 0,0:06:39.24,0:06:42.30,Naechste,,0,0,0,,Seine wichtigste Aufgabe sei es zu prüfen, ob das,
+Dialogue: 1,0:06:42.30,0:06:45.67,Karaoke,,0,0,0,,{\k64}{\kf23}Seine {\kf48}wichtigste {\kf36}Aufgabe\N{\kf28}sei {\kf10}es {\kf14}zu {\kf58}prüfen, {\kf12}ob {\kf44}das,
+Dialogue: 0,0:06:42.30,0:06:45.67,Naechste,,0,0,0,,was ein junger Geist hervorbringt, ein echtes Kind ist oder ein Trugbild,
+Dialogue: 1,0:06:45.67,0:06:49.75,Karaoke,,0,0,0,,{\k0}{\kf10}was {\kf22}ein {\kf32}junger {\kf24}Geist {\kf94}hervorbringt,\N{\kf12}ein {\kf42}echtes {\kf18}Kind {\kf30}ist {\kf30}oder {\kf16}ein {\kf78}Trugbild,
+Dialogue: 0,0:06:45.67,0:06:49.75,Naechste,,0,0,0,,ein Windei, aus dem nie etwas schlüpft.
+Dialogue: 1,0:06:49.75,0:06:51.32,Karaoke,,0,0,0,,{\k0}{\kf12}ein {\kf50}Windei, {\kf6}aus {\kf12}dem {\kf14}nie {\kf24}etwas {\kf39}schlüpft.
+Dialogue: 0,0:06:49.75,0:06:51.32,Naechste,,0,0,0,,Wer ihn zu früh verlässt, verliert, was er hervorgebracht hat.
+Dialogue: 1,0:06:51.32,0:06:55.24,Karaoke,,0,0,0,,{\k70}{\kf9}Wer {\kf22}ihn {\kf16}zu {\kf22}früh {\kf78}verlässt, {\kf62}verliert,\N{\kf10}was {\kf12}er {\kf58}hervorgebracht {\kf33}hat.
+Dialogue: 0,0:06:51.32,0:06:55.24,Naechste,,0,0,0,,Für die Forschung ist dieses Bild aufschlussreich.
+Dialogue: 1,0:06:55.24,0:06:58.40,Karaoke,,0,0,0,,{\k76}{\kf11}Für {\kf14}die {\kf56}Forschung {\kf16}ist\N{\kf28}dieses {\kf22}Bild {\kf93}aufschlussreich.
+Dialogue: 0,0:06:55.24,0:06:58.40,Naechste,,0,0,0,,In den frühen Dialogen Platons kommt die Hebammenkunst nicht vor.
+Dialogue: 1,0:06:58.40,0:07:02.60,Karaoke,,0,0,0,,{\k58}{\kf9}In {\kf10}den {\kf52}frühen {\kf40}Dialogen {\kf66}Platons\N{\kf36}kommt {\kf16}die {\kf80}Hebammenkunst {\kf20}nicht {\kf31}vor.
+Dialogue: 0,0:06:58.40,0:07:02.60,Naechste,,0,0,0,,Myles Burnyeat hat 1977 daraus geschlossen, dass sie eine Erfindung Platons ist.
+Dialogue: 1,0:07:02.60,0:07:09.58,Karaoke,,0,0,0,,{\k80}{\kf33}Myles {\kf48}Burnyeat {\kf20}hat {\kf142}1977 {\kf126}daraus {\kf88}geschlossen,\N{\kf10}dass {\kf10}sie {\kf20}eine {\kf44}Erfindung {\kf44}Platons {\kf33}ist.
+Dialogue: 0,0:07:02.60,0:07:09.58,Naechste,,0,0,0,,David Sedley nennt Sokrates darum die Hebamme des Platonismus:
+Dialogue: 1,0:07:09.58,0:07:13.71,Karaoke,,0,0,0,,{\k58}{\kf30}David {\kf37}Sedley {\kf31}nennt {\kf49}Sokrates {\kf28}darum\N{\kf17}die {\kf39}Hebamme {\kf10}des {\kf114}Platonismus:
+Dialogue: 0,0:07:09.58,0:07:13.71,Naechste,,0,0,0,,Er bringt Gedanken zur Welt, die erst Platon ausarbeiten wird.
+Dialogue: 1,0:07:13.71,0:07:16.80,Karaoke,,0,0,0,,{\k0}{\kf12}Er {\kf20}bringt {\kf38}Gedanken {\kf32}zur {\kf56}Welt, {\kf6}die\N{\kf16}erst {\kf44}Platon {\kf46}ausarbeiten {\kf39}wird.
+Dialogue: 0,0:07:13.71,0:07:16.80,Naechste,,0,0,0,,Damit ist auch klar, wie der Dialog funktioniert.
+Dialogue: 1,0:07:16.80,0:07:19.98,Karaoke,,0,0,0,,{\k76}{\kf19}Damit {\kf26}ist {\kf16}auch {\kf58}klar, {\kf10}wie\N{\kf10}der {\kf32}Dialog {\kf71}funktioniert.
+Dialogue: 0,0:07:16.80,0:07:19.98,Naechste,,0,0,0,,Jede Definition ist ein Neugeborenes, das geprüft wird.
+Dialogue: 1,0:07:19.98,0:07:23.96,Karaoke,,0,0,0,,{\k64}{\kf25}Jede {\kf56}Definition {\kf38}ist {\kf18}ein\N{\kf106}Neugeborenes, {\kf12}das {\kf46}geprüft {\kf33}wird.
+Dialogue: 0,0:07:19.98,0:07:23.96,Naechste,,0,0,0,,Drei werden zur Welt kommen.
+Dialogue: 1,0:07:23.96,0:07:26.03,Karaoke,,0,0,0,,{\k62}{\kf21}Drei {\kf32}werden {\kf16}zur {\kf20}Welt {\kf21}kommen.
+Dialogue: 0,0:07:23.96,0:07:26.03,Naechste,,0,0,0,,Die erste Antwort des Theaitetos lautet: Wer etwas weiß, nimmt wahr, was er weiß.
+Dialogue: 1,0:07:29.68,0:07:35.86,Karaoke,,0,0,0,,{\k80}{\kf8}Die {\kf26}erste {\kf52}Antwort {\kf24}des {\kf79}Theaitetos {\kf98}lautet:\N{\kf10}Wer {\kf34}etwas {\kf66}weiß, {\kf8}nimmt {\kf68}wahr, {\kf8}was {\kf16}er {\kf42}weiß.
+Dialogue: 0,0:07:29.68,0:07:35.86,Naechste,,0,0,0,,Also ist Erkenntnis nichts anderes als Wahrnehmung, auf Griechisch Aisthesis.
+Dialogue: 1,0:07:35.86,0:07:40.40,Karaoke,,0,0,0,,{\k52}{\kf18}Also {\kf18}ist {\kf64}Erkenntnis {\kf24}nichts {\kf48}anderes {\kf24}als\N{\kf62}Wahrnehmung, {\kf40}auf {\kf55}Griechisch {\kf49}Aisthesis.
+Dialogue: 0,0:07:35.86,0:07:40.40,Naechste,,0,0,0,,Sokrates verbindet diese Antwort sofort mit dem berühmtesten Satz des Sophisten Protagoras:
+Dialogue: 1,0:07:40.40,0:07:45.70,Karaoke,,0,0,0,,{\k74}{\kf46}Sokrates {\kf50}verbindet {\kf32}diese {\kf30}Antwort {\kf36}sofort {\kf18}mit\N{\kf14}dem {\kf56}berühmtesten {\kf28}Satz {\kf8}des {\kf40}Sophisten {\kf98}Protagoras:
+Dialogue: 0,0:07:40.40,0:07:45.70,Naechste,,0,0,0,,Der Mensch ist das Maß aller Dinge, der seienden, wie sie sind, der nichtseienden,
+Dialogue: 1,0:07:45.70,0:07:49.48,Karaoke,,0,0,0,,{\k0}{\kf10}Der {\kf22}Mensch {\kf22}ist {\kf18}das {\kf22}Maß {\kf24}aller {\kf48}Dinge, {\kf16}der\N{\kf42}seienden, {\kf8}wie {\kf14}sie {\kf44}sind, {\kf16}der {\kf72}nichtseienden,
+Dialogue: 0,0:07:45.70,0:07:49.48,Naechste,,0,0,0,,wie sie nicht sind.
+Dialogue: 1,0:07:49.48,0:07:50.50,Karaoke,,0,0,0,,{\k0}{\kf8}wie {\kf10}sie {\kf22}nicht {\kf38}sind.
+Dialogue: 0,0:07:49.48,0:07:50.50,Naechste,,0,0,0,,Gemeint ist: Wie mir jedes erscheint, so ist es für mich; und wie es dir erscheint,
+Dialogue: 1,0:07:50.50,0:07:55.86,Karaoke,,0,0,0,,{\k80}{\kf40}Gemeint {\kf58}ist: {\kf5}Wie {\kf11}mir {\kf22}jedes {\kf88}erscheint, {\kf12}so\N{\kf14}ist {\kf16}es {\kf16}für {\kf56}mich; {\kf5}und {\kf11}wie {\kf10}es {\kf12}dir {\kf80}erscheint,
+Dialogue: 0,0:07:50.50,0:07:55.86,Naechste,,0,0,0,,so ist es für dich.
+Dialogue: 1,0:07:55.86,0:07:56.68,Karaoke,,0,0,0,,{\k0}{\kf10}so {\kf16}ist {\kf16}es {\kf16}für {\kf24}dich.
+Dialogue: 0,0:07:55.86,0:07:56.68,Naechste,,0,0,0,,Sokrates nennt ein Beispiel.
+Dialogue: 1,0:07:56.68,0:07:58.84,Karaoke,,0,0,0,,{\k64}{\kf58}Sokrates {\kf34}nennt {\kf8}ein {\kf52}Beispiel.
+Dialogue: 0,0:07:56.68,0:07:58.84,Naechste,,0,0,0,,Derselbe Wind weht, und der eine friert, der andere nicht.
+Dialogue: 1,0:07:58.84,0:08:02.64,Karaoke,,0,0,0,,{\k64}{\kf52}Derselbe {\kf20}Wind {\kf42}weht, {\kf32}und {\kf12}der\N{\kf20}eine {\kf70}friert, {\kf5}der {\kf23}andere {\kf40}nicht.
+Dialogue: 0,0:07:58.84,0:08:02.64,Naechste,,0,0,0,,Ist der Wind nun kalt?
+Dialogue: 1,0:08:02.64,0:08:04.32,Karaoke,,0,0,0,,{\k58}{\kf10}Ist {\kf18}der {\kf18}Wind {\kf16}nun {\kf40}kalt?
+Dialogue: 0,0:08:02.64,0:08:04.32,Naechste,,0,0,0,,Nach Protagoras ist er kalt für den, der friert, und nicht kalt für den anderen.
+Dialogue: 1,0:08:04.32,0:08:09.12,Karaoke,,0,0,0,,{\k80}{\kf16}Nach {\kf60}Protagoras {\kf34}ist {\kf12}er {\kf28}kalt {\kf14}für {\kf42}den, {\kf10}der\N{\kf30}friert, {\kf44}und {\kf22}nicht {\kf26}kalt {\kf14}für {\kf10}den {\kf38}anderen.
+Dialogue: 0,0:08:04.32,0:08:09.12,Naechste,,0,0,0,,Wenn aber Erscheinen und Wahrnehmen dasselbe sind, folgt etwas Starkes:
+Dialogue: 1,0:08:09.12,0:08:13.36,Karaoke,,0,0,0,,{\k64}{\kf8}Wenn {\kf22}aber {\kf46}Erscheinen {\kf22}und {\kf30}Wahrnehmen\N{\kf48}dasselbe {\kf60}sind, {\kf30}folgt {\kf22}etwas {\kf72}Starkes:
+Dialogue: 0,0:08:09.12,0:08:13.36,Naechste,,0,0,0,,Wahrnehmung bezieht sich immer auf etwas, das ist, und sie kann sich nicht irren.
+Dialogue: 1,0:08:13.36,0:08:16.90,Karaoke,,0,0,0,,{\k0}{\kf36}Wahrnehmung {\kf40}bezieht {\kf14}sich {\kf24}immer {\kf22}auf {\kf58}etwas,\N{\kf10}das {\kf30}ist, {\kf36}und {\kf14}sie {\kf14}kann {\kf14}sich {\kf21}nicht {\kf21}irren.
+Dialogue: 0,0:08:13.36,0:08:16.90,Naechste,,0,0,0,,Genau das erwarten wir von Erkenntnis.
+Dialogue: 1,0:08:16.90,0:08:19.93,Karaoke,,0,0,0,,{\k78}{\kf20}Genau {\kf26}das {\kf40}erwarten {\kf18}wir {\kf20}von {\kf66}Erkenntnis.
+Dialogue: 0,0:08:16.90,0:08:19.93,Naechste,,0,0,0,,Sokrates geht noch weiter.
+Dialogue: 1,0:08:23.10,0:08:25.14,Karaoke,,0,0,0,,{\k80}{\kf59}Sokrates {\kf10}geht {\kf18}noch {\kf37}weiter.
+Dialogue: 0,0:08:23.10,0:08:25.14,Naechste,,0,0,0,,Hinter dem Satz des Protagoras vermutet er eine Geheimlehre.
+Dialogue: 1,0:08:25.14,0:08:28.88,Karaoke,,0,0,0,,{\k64}{\kf23}Hinter {\kf24}dem {\kf32}Satz {\kf10}des {\kf64}Protagoras\N{\kf48}vermutet {\kf24}er {\kf18}eine {\kf61}Geheimlehre.
+Dialogue: 0,0:08:25.14,0:08:28.88,Naechste,,0,0,0,,Nichts ist an und für sich eines.
+Dialogue: 1,0:08:28.88,0:08:31.30,Karaoke,,0,0,0,,{\k80}{\kf37}Nichts {\kf12}ist {\kf22}an {\kf14}und {\kf18}für {\kf12}sich {\kf47}eines.
+Dialogue: 0,0:08:28.88,0:08:31.30,Naechste,,0,0,0,,Nichts ist, alles wird, aus Bewegung und Vermischung.
+Dialogue: 1,0:08:31.30,0:08:34.88,Karaoke,,0,0,0,,{\k66}{\kf37}Nichts {\kf52}ist, {\kf18}alles {\kf52}wird, {\kf16}aus\N{\kf52}Bewegung {\kf16}und {\kf41}Vermischung.
+Dialogue: 0,0:08:31.30,0:08:34.88,Naechste,,0,0,0,,Wenn wir „ist“ sagen, reden wir ungenau, denn alles ist immer im Werden.
+Dialogue: 1,0:08:34.88,0:08:39.02,Karaoke,,0,0,0,,{\k80}{\kf9}Wenn {\kf14}wir {\kf14}„ist“ {\kf74}sagen, {\kf12}reden {\kf16}wir\N{\kf66}ungenau, {\kf8}denn {\kf28}alles {\kf26}ist {\kf24}immer {\kf16}im {\kf19}Werden.
+Dialogue: 0,0:08:34.88,0:08:39.02,Naechste,,0,0,0,,Er nennt eine lange Reihe von Weisen, die so denken: Protagoras,
+Dialogue: 1,0:08:39.02,0:08:43.19,Karaoke,,0,0,0,,{\k80}{\kf11}Er {\kf28}nennt {\kf18}eine {\kf22}lange {\kf38}Reihe {\kf16}von\N{\kf70}Weisen, {\kf6}die {\kf12}so {\kf48}denken: {\kf68}Protagoras,
+Dialogue: 0,0:08:39.02,0:08:43.19,Naechste,,0,0,0,,Herakleitos und Empedokles, die Dichter Epicharmos und Homer,
+Dialogue: 1,0:08:43.19,0:08:47.25,Karaoke,,0,0,0,,{\k0}{\kf74}Herakleitos {\kf40}und {\kf100}Empedokles, {\kf6}die\N{\kf30}Dichter {\kf48}Epicharmos {\kf44}und {\kf64}Homer,
+Dialogue: 0,0:08:43.19,0:08:47.25,Naechste,,0,0,0,,der den Okeanos und die Tethys als Ursprung von allem besungen hat.
+Dialogue: 1,0:08:47.25,0:08:50.62,Karaoke,,0,0,0,,{\k0}{\kf8}der {\kf19}den {\kf43}Okeanos {\kf38}und {\kf17}die {\kf35}Tethys {\kf28}als\N{\kf40}Ursprung {\kf18}von {\kf20}allem {\kf36}besungen {\kf35}hat.
+Dialogue: 0,0:08:47.25,0:08:50.62,Naechste,,0,0,0,,Nur einer stehe abseits: Parmenides.
+Dialogue: 1,0:08:50.62,0:08:53.64,Karaoke,,0,0,0,,{\k62}{\kf15}Nur {\kf12}einer {\kf12}stehe {\kf118}abseits: {\kf65}Parmenides.
+Dialogue: 0,0:08:50.62,0:08:53.64,Naechste,,0,0,0,,Ein Rätsel zeigt, was das bedeutet.
+Dialogue: 1,0:08:53.64,0:08:56.54,Karaoke,,0,0,0,,{\k80}{\kf17}Ein {\kf36}Rätsel {\kf84}zeigt, {\kf8}was {\kf8}das {\kf57}bedeutet.
+Dialogue: 0,0:08:53.64,0:08:56.54,Naechste,,0,0,0,,Nimm sechs Spielsteine.
+Dialogue: 1,0:08:56.54,0:08:58.52,Karaoke,,0,0,0,,{\k80}{\kf29}Nimm {\kf36}sechs {\kf41}Spielsteine.
+Dialogue: 0,0:08:56.54,0:08:58.52,Naechste,,0,0,0,,Neben vier gelegt, sind sie mehr, nämlich anderthalbmal so viele.
+Dialogue: 1,0:08:58.52,0:09:02.96,Karaoke,,0,0,0,,{\k80}{\kf15}Neben {\kf34}vier {\kf40}gelegt, {\kf42}sind {\kf20}sie {\kf62}mehr,\N{\kf18}nämlich {\kf80}anderthalbmal {\kf18}so {\kf35}viele.
+Dialogue: 0,0:08:58.52,0:09:02.96,Naechste,,0,0,0,,Neben zwölf gelegt, sind sie weniger, nämlich die Hälfte.
+Dialogue: 1,0:09:02.96,0:09:06.60,Karaoke,,0,0,0,,{\k60}{\kf15}Neben {\kf36}zwölf {\kf50}gelegt, {\kf36}sind {\kf16}sie\N{\kf68}weniger, {\kf16}nämlich {\kf22}die {\kf37}Hälfte.
+Dialogue: 0,0:09:02.96,0:09:06.60,Naechste,,0,0,0,,Die sechs sind mehr und weniger geworden,
+Dialogue: 1,0:09:06.60,0:09:09.83,Karaoke,,0,0,0,,{\k80}{\kf11}Die {\kf30}sechs {\kf22}sind {\kf34}mehr {\kf28}und {\kf30}weniger {\kf88}geworden,
+Dialogue: 0,0:09:06.60,0:09:09.83,Naechste,,0,0,0,,ohne dass etwas hinzugekommen oder weggenommen worden wäre.
+Dialogue: 1,0:09:09.83,0:09:12.90,Karaoke,,0,0,0,,{\k0}{\kf12}ohne {\kf16}dass {\kf30}etwas {\kf66}hinzugekommen\N{\kf48}oder {\kf46}weggenommen {\kf32}worden {\kf41}wäre.
+Dialogue: 0,0:09:09.83,0:09:12.90,Naechste,,0,0,0,,Theaitetos gesteht, ihm werde bei solchen Fragen schwindlig vor Staunen.
+Dialogue: 1,0:09:12.90,0:09:17.54,Karaoke,,0,0,0,,{\k80}{\kf79}Theaitetos {\kf74}gesteht, {\kf8}ihm {\kf12}werde {\kf20}bei\N{\kf24}solchen {\kf48}Fragen {\kf60}schwindlig {\kf18}vor {\kf42}Staunen.
+Dialogue: 0,0:09:12.90,0:09:17.54,Naechste,,0,0,0,,Sokrates antwortet mit einem der berühmtesten Sätze der Philosophie:
+Dialogue: 1,0:09:17.54,0:09:21.93,Karaoke,,0,0,0,,{\k60}{\kf53}Sokrates {\kf70}antwortet {\kf18}mit {\kf14}einem {\kf14}der\N{\kf60}berühmtesten {\kf26}Sätze {\kf18}der {\kf106}Philosophie:
+Dialogue: 0,0:09:17.54,0:09:21.93,Naechste,,0,0,0,,Gar sehr ist dies der Zustand eines Freundes der Weisheit, die Verwunderung.
+Dialogue: 1,0:09:21.93,0:09:25.26,Karaoke,,0,0,0,,{\k0}{\kf10}Gar {\kf14}sehr {\kf26}ist {\kf18}dies {\kf18}der {\kf46}Zustand {\kf22}eines\N{\kf50}Freundes {\kf14}der {\kf72}Weisheit, {\kf5}die {\kf38}Verwunderung.
+Dialogue: 0,0:09:21.93,0:09:25.26,Naechste,,0,0,0,,Es gibt keinen anderen Anfang der Philosophie als diesen.
+Dialogue: 1,0:09:25.26,0:09:28.96,Karaoke,,0,0,0,,{\k72}{\kf9}Es {\kf24}gibt {\kf26}keinen {\kf38}anderen {\kf44}Anfang\N{\kf22}der {\kf56}Philosophie {\kf20}als {\kf29}diesen.
+Dialogue: 0,0:09:25.26,0:09:28.96,Naechste,,0,0,0,,Aristoteles nimmt diesen Gedanken zu Beginn seiner Metaphysik auf:
+Dialogue: 1,0:09:28.96,0:09:33.37,Karaoke,,0,0,0,,{\k80}{\kf73}Aristoteles {\kf24}nimmt {\kf26}diesen {\kf38}Gedanken\N{\kf24}zu {\kf28}Beginn {\kf22}seiner {\kf68}Metaphysik {\kf58}auf:
+Dialogue: 0,0:09:28.96,0:09:33.37,Naechste,,0,0,0,,Durch das Staunen haben die Menschen angefangen zu philosophieren, damals wie heute.
+Dialogue: 1,0:09:33.37,0:09:37.59,Karaoke,,0,0,0,,{\k0}{\kf10}Durch {\kf16}das {\kf40}Staunen {\kf22}haben {\kf14}die {\kf26}Menschen\N{\kf52}angefangen {\kf16}zu {\kf114}philosophieren, {\kf18}damals {\kf26}wie {\kf33}heute.
+Dialogue: 0,0:09:33.37,0:09:37.59,Naechste,,0,0,0,,Nun entfaltet Sokrates eine Theorie, die diese Rätsel auflösen soll.
+Dialogue: 1,0:09:41.10,0:09:45.26,Karaoke,,0,0,0,,{\k80}{\kf10}Nun {\kf44}entfaltet {\kf50}Sokrates {\kf34}eine {\kf62}Theorie,\N{\kf10}die {\kf24}diese {\kf36}Rätsel {\kf46}auflösen {\kf20}soll.
+Dialogue: 0,0:09:41.10,0:09:45.26,Naechste,,0,0,0,,Alles ist Bewegung.
+Dialogue: 1,0:09:45.26,0:09:46.76,Karaoke,,0,0,0,,{\k68}{\kf16}Alles {\kf20}ist {\kf46}Bewegung.
+Dialogue: 0,0:09:45.26,0:09:46.76,Naechste,,0,0,0,,Es gibt zwei Arten davon: eine, die wirken kann, und eine, die leiden kann.
+Dialogue: 1,0:09:46.76,0:09:51.84,Karaoke,,0,0,0,,{\k70}{\kf12}Es {\kf20}gibt {\kf27}zwei {\kf33}Arten {\kf80}davon: {\kf48}eine, {\kf6}die\N{\kf28}wirken {\kf24}kann, {\kf36}und {\kf64}eine, {\kf8}die {\kf20}leiden {\kf24}kann.
+Dialogue: 0,0:09:46.76,0:09:51.84,Naechste,,0,0,0,,Wo beide zusammentreffen, entstehen Zwillinge: auf der einen Seite eine Wahrnehmung,
+Dialogue: 1,0:09:51.84,0:09:57.08,Karaoke,,0,0,0,,{\k80}{\kf6}Wo {\kf35}beide {\kf107}zusammentreffen, {\kf34}entstehen {\kf90}Zwillinge:\N{\kf10}auf {\kf14}der {\kf18}einen {\kf38}Seite {\kf24}eine {\kf68}Wahrnehmung,
+Dialogue: 0,0:09:51.84,0:09:57.08,Naechste,,0,0,0,,auf der anderen das Wahrgenommene.
+Dialogue: 1,0:09:57.08,0:09:58.42,Karaoke,,0,0,0,,{\k0}{\kf8}auf {\kf14}der {\kf34}anderen {\kf20}das {\kf58}Wahrgenommene.
+Dialogue: 0,0:09:57.08,0:09:58.42,Naechste,,0,0,0,,Ein Auge begegnet einem Stein.
+Dialogue: 1,0:09:58.42,0:10:00.78,Karaoke,,0,0,0,,{\k80}{\kf14}Ein {\kf28}Auge {\kf54}begegnet {\kf18}einem {\kf36}Stein.
+Dialogue: 0,0:09:58.42,0:10:00.78,Naechste,,0,0,0,,Beide sind langsame Bewegungen.
+Dialogue: 1,0:10:00.78,0:10:02.84,Karaoke,,0,0,0,,{\k80}{\kf24}Beide {\kf14}sind {\kf46}langsame {\kf38}Bewegungen.
+Dialogue: 0,0:10:00.78,0:10:02.84,Naechste,,0,0,0,,Zwischen ihnen entstehen zwei schnelle: Das Sehen strömt zum Auge,
+Dialogue: 1,0:10:02.84,0:10:07.06,Karaoke,,0,0,0,,{\k80}{\kf34}Zwischen {\kf16}ihnen {\kf42}entstehen {\kf18}zwei\N{\kf84}schnelle: {\kf10}Das {\kf20}Sehen {\kf36}strömt {\kf14}zum {\kf68}Auge,
+Dialogue: 0,0:10:02.84,0:10:07.06,Naechste,,0,0,0,,das Weiß zum Stein.
+Dialogue: 1,0:10:07.06,0:10:07.80,Karaoke,,0,0,0,,{\k0}{\kf6}das {\kf22}Weiß {\kf18}zum {\kf28}Stein.
+Dialogue: 0,0:10:07.06,0:10:07.80,Naechste,,0,0,0,,Erst jetzt ist das Auge ein sehendes Auge und der Stein ein weißer Stein.
+Dialogue: 1,0:10:07.80,0:10:12.28,Karaoke,,0,0,0,,{\k64}{\kf18}Erst {\kf32}jetzt {\kf16}ist {\kf18}das {\kf32}Auge {\kf16}ein {\kf32}sehendes\N{\kf48}Auge {\kf26}und {\kf10}der {\kf24}Stein {\kf20}ein {\kf36}weißer {\kf24}Stein.
+Dialogue: 0,0:10:07.80,0:10:12.28,Naechste,,0,0,0,,Weder das Weiß noch das Sehen gibt es unabhängig von dieser Begegnung.
+Dialogue: 1,0:10:12.28,0:10:16.42,Karaoke,,0,0,0,,{\k80}{\kf26}Weder {\kf20}das {\kf28}Weiß {\kf18}noch {\kf20}das {\kf34}Sehen {\kf20}gibt\N{\kf18}es {\kf66}unabhängig {\kf16}von {\kf24}dieser {\kf44}Begegnung.
+Dialogue: 0,0:10:12.28,0:10:16.42,Naechste,,0,0,0,,Darum, sagt Sokrates, sollte man eigentlich nicht „ist“ sagen, sondern nur „wird“:
+Dialogue: 1,0:10:16.42,0:10:21.74,Karaoke,,0,0,0,,{\k80}{\kf68}Darum, {\kf18}sagt {\kf92}Sokrates, {\kf16}sollte {\kf24}man {\kf38}eigentlich\N{\kf28}nicht {\kf20}„ist“ {\kf80}sagen, {\kf24}sondern {\kf22}nur {\kf22}„wird“:
+Dialogue: 0,0:10:16.42,0:10:21.74,Naechste,,0,0,0,,für jemanden, von etwas, im Verhältnis zu etwas.
+Dialogue: 1,0:10:21.74,0:10:24.72,Karaoke,,0,0,0,,{\k0}{\kf36}für {\kf60}jemanden, {\kf22}von {\kf38}etwas,\N{\kf34}im {\kf46}Verhältnis {\kf18}zu {\kf44}etwas.
+Dialogue: 0,0:10:21.74,0:10:24.72,Naechste,,0,0,0,,Das ist eine erstaunlich moderne Idee:
+Dialogue: 1,0:10:24.72,0:10:27.72,Karaoke,,0,0,0,,{\k78}{\kf12}Das {\kf20}ist {\kf20}eine {\kf56}erstaunlich {\kf42}moderne {\kf72}Idee:
+Dialogue: 0,0:10:24.72,0:10:27.72,Naechste,,0,0,0,,Farben und andere Sinnesqualitäten entstehen erst im Zusammenspiel von Wahrnehmendem und Wahrgenommenem.
+Dialogue: 1,0:10:27.72,0:10:33.00,Karaoke,,0,0,0,,{\k0}{\kf42}Farben {\kf18}und {\kf34}andere {\kf94}Sinnesqualitäten {\kf58}entstehen {\kf20}erst {\kf20}im\N{\kf64}Zusammenspiel {\kf26}von {\kf64}Wahrnehmendem {\kf32}und {\kf56}Wahrgenommenem.
+Dialogue: 0,0:10:27.72,0:10:33.00,Naechste,,0,0,0,,Ob Platon diese Theorie selbst vertritt oder sie nur als Folge der Definition durchspielt,
+Dialogue: 1,0:10:33.00,0:10:39.04,Karaoke,,0,0,0,,{\k70}{\kf14}Ob {\kf50}Platon {\kf28}diese {\kf56}Theorie {\kf42}selbst {\kf40}vertritt {\kf44}oder\N{\kf16}sie {\kf18}nur {\kf20}als {\kf34}Folge {\kf24}der {\kf68}Definition {\kf80}durchspielt,
+Dialogue: 0,0:10:33.00,0:10:39.04,Naechste,,0,0,0,,ist in der Forschung umstritten.
+Dialogue: 1,0:10:39.04,0:10:40.99,Karaoke,,0,0,0,,{\k0}{\kf42}ist {\kf16}in {\kf10}der {\kf54}Forschung {\kf38}umstritten.
+Dialogue: 0,0:10:39.04,0:10:40.99,Naechste,,0,0,0,,Ein naheliegender Einwand: Träumende und Kranke nehmen Falsches wahr.
+Dialogue: 1,0:10:44.48,0:10:48.80,Karaoke,,0,0,0,,{\k80}{\kf15}Ein {\kf56}naheliegender {\kf88}Einwand: {\kf36}Träumende\N{\kf24}und {\kf32}Kranke {\kf26}nehmen {\kf42}Falsches {\kf33}wahr.
+Dialogue: 0,0:10:44.48,0:10:48.80,Naechste,,0,0,0,,Sokrates dreht den Einwand um.
+Dialogue: 1,0:10:48.80,0:10:51.06,Karaoke,,0,0,0,,{\k54}{\kf67}Sokrates {\kf22}dreht {\kf10}den {\kf38}Einwand {\kf17}um.
+Dialogue: 0,0:10:48.80,0:10:51.06,Naechste,,0,0,0,,Wie willst du beweisen, ob wir in diesem Augenblick schlafen oder wach sind?
+Dialogue: 1,0:10:51.06,0:10:55.48,Karaoke,,0,0,0,,{\k80}{\kf7}Wie {\kf20}willst {\kf12}du {\kf78}beweisen, {\kf12}ob {\kf12}wir {\kf12}in {\kf20}diesem\N{\kf48}Augenblick {\kf46}schlafen {\kf34}oder {\kf22}wach {\kf35}sind?
+Dialogue: 0,0:10:51.06,0:10:55.48,Naechste,,0,0,0,,Beide Zustände dauern gleich lang,
+Dialogue: 1,0:10:55.48,0:10:57.93,Karaoke,,0,0,0,,{\k80}{\kf21}Beide {\kf50}Zustände {\kf38}dauern {\kf24}gleich {\kf32}lang,
+Dialogue: 0,0:10:55.48,0:10:57.93,Naechste,,0,0,0,,und in beiden halten wir unsere Eindrücke für wahr.
+Dialogue: 1,0:10:57.93,0:11:00.40,Karaoke,,0,0,0,,{\k0}{\kf44}und {\kf20}in {\kf22}beiden {\kf30}halten {\kf18}wir\N{\kf26}unsere {\kf44}Eindrücke {\kf20}für {\kf23}wahr.
+Dialogue: 0,0:10:57.93,0:11:00.40,Naechste,,0,0,0,,Die Theorie hat eine elegante Antwort.
+Dialogue: 1,0:11:00.40,0:11:03.12,Karaoke,,0,0,0,,{\k74}{\kf11}Die {\kf36}Theorie {\kf26}hat {\kf20}eine {\kf42}elegante {\kf63}Antwort.
+Dialogue: 0,0:11:00.40,0:11:03.12,Naechste,,0,0,0,,Der gesunde Sokrates und der kranke Sokrates sind, streng genommen,
+Dialogue: 1,0:11:03.12,0:11:07.71,Karaoke,,0,0,0,,{\k56}{\kf9}Der {\kf38}gesunde {\kf62}Sokrates {\kf36}und {\kf16}der {\kf34}kranke\N{\kf50}Sokrates {\kf72}sind, {\kf16}streng {\kf70}genommen,
+Dialogue: 0,0:11:03.12,0:11:07.71,Naechste,,0,0,0,,zwei verschiedene Wahrnehmende.
+Dialogue: 1,0:11:07.71,0:11:08.92,Karaoke,,0,0,0,,{\k0}{\kf12}zwei {\kf46}verschiedene {\kf63}Wahrnehmende.
+Dialogue: 0,0:11:07.71,0:11:08.92,Naechste,,0,0,0,,Derselbe Wein schmeckt dem einen süß und dem anderen bitter.
+Dialogue: 1,0:11:08.92,0:11:12.30,Karaoke,,0,0,0,,{\k52}{\kf47}Derselbe {\kf22}Wein {\kf36}schmeckt {\kf16}dem {\kf20}einen\N{\kf42}süß {\kf22}und {\kf16}dem {\kf28}anderen {\kf37}bitter.
+Dialogue: 0,0:11:08.92,0:11:12.30,Naechste,,0,0,0,,Beide Wahrnehmungen sind wahr, jede für ihren Wahrnehmenden in diesem Augenblick.
+Dialogue: 1,0:11:12.30,0:11:16.98,Karaoke,,0,0,0,,{\k78}{\kf25}Beide {\kf56}Wahrnehmungen {\kf32}sind {\kf64}wahr, {\kf14}jede {\kf26}für\N{\kf14}ihren {\kf60}Wahrnehmenden {\kf20}in {\kf16}diesem {\kf63}Augenblick.
+Dialogue: 0,0:11:12.30,0:11:16.98,Naechste,,0,0,0,,So fallen drei Thesen in eins: die Lehre von Homer und Herakleitos,
+Dialogue: 1,0:11:16.98,0:11:21.15,Karaoke,,0,0,0,,{\k76}{\kf15}So {\kf19}fallen {\kf13}drei {\kf56}Thesen {\kf14}in {\kf30}eins: {\kf32}die\N{\kf22}Lehre {\kf20}von {\kf40}Homer {\kf17}und {\kf63}Herakleitos,
+Dialogue: 0,0:11:16.98,0:11:21.15,Naechste,,0,0,0,,dass alles fließt, der Satz des Protagoras, dass der Mensch das Maß aller Dinge ist,
+Dialogue: 1,0:11:21.15,0:11:24.83,Karaoke,,0,0,0,,{\k0}{\kf28}dass {\kf24}alles {\kf64}fließt, {\kf5}der {\kf21}Satz {\kf14}des {\kf64}Protagoras,\N{\kf6}dass {\kf16}der {\kf14}Mensch {\kf20}das {\kf20}Maß {\kf24}aller {\kf22}Dinge {\kf26}ist,
+Dialogue: 0,0:11:21.15,0:11:24.83,Naechste,,0,0,0,,und die Definition des Theaitetos, dass Wahrnehmung Erkenntnis ist.
+Dialogue: 1,0:11:24.83,0:11:28.28,Karaoke,,0,0,0,,{\k0}{\kf26}und {\kf17}die {\kf55}Definition {\kf23}des {\kf77}Theaitetos,\N{\kf17}dass {\kf46}Wahrnehmung {\kf42}Erkenntnis {\kf35}ist.
+Dialogue: 0,0:11:24.83,0:11:28.28,Naechste,,0,0,0,,Sokrates feiert die Geburt.
+Dialogue: 1,0:11:28.28,0:11:30.56,Karaoke,,0,0,0,,{\k80}{\kf67}Sokrates {\kf28}feiert {\kf14}die {\kf39}Geburt.
+Dialogue: 0,0:11:28.28,0:11:30.56,Naechste,,0,0,0,,Wie beim athenischen Fest der Amphidromien,
+Dialogue: 1,0:11:30.56,0:11:33.39,Karaoke,,0,0,0,,{\k58}{\kf9}Wie {\kf22}beim {\kf60}athenischen\N{\kf22}Fest {\kf18}der {\kf94}Amphidromien,
+Dialogue: 0,0:11:30.56,0:11:33.39,Naechste,,0,0,0,,bei dem man das Neugeborene um den Herd trägt,
+Dialogue: 1,0:11:33.39,0:11:35.57,Karaoke,,0,0,0,,{\k0}{\kf8}bei {\kf10}dem {\kf12}man {\kf14}das {\kf66}Neugeborene\N{\kf12}um {\kf5}den {\kf7}Herd {\kf84}trägt,
+Dialogue: 0,0:11:33.39,0:11:35.57,Naechste,,0,0,0,,will er das Kind nun im Kreis herumtragen, um zu prüfen, ob es ein Windei ist.
+Dialogue: 1,0:11:35.57,0:11:39.57,Karaoke,,0,0,0,,{\k0}{\kf10}will {\kf8}er {\kf14}das {\kf20}Kind {\kf22}nun {\kf14}im {\kf30}Kreis {\kf76}herumtragen,\N{\kf8}um {\kf14}zu {\kf52}prüfen, {\kf10}ob {\kf14}es {\kf15}ein {\kf31}Windei {\kf27}ist.
+Dialogue: 0,0:11:35.57,0:11:39.57,Naechste,,0,0,0,,Die Prüfung beginnt mit Spott.
+Dialogue: 1,0:11:42.80,0:11:45.10,Karaoke,,0,0,0,,{\k80}{\kf13}Die {\kf48}Prüfung {\kf36}beginnt {\kf10}mit {\kf43}Spott.
+Dialogue: 0,0:11:42.80,0:11:45.10,Naechste,,0,0,0,,Warum hat Protagoras nicht gleich gesagt,
+Dialogue: 1,0:11:45.10,0:11:47.97,Karaoke,,0,0,0,,{\k64}{\kf19}Warum {\kf16}hat {\kf58}Protagoras {\kf24}nicht {\kf28}gleich {\kf78}gesagt,
+Dialogue: 0,0:11:45.10,0:11:47.97,Naechste,,0,0,0,,das Maß aller Dinge sei das Schwein oder der hundsköpfige Pavian?
+Dialogue: 1,0:11:47.97,0:11:51.26,Karaoke,,0,0,0,,{\k0}{\kf8}das {\kf18}Maß {\kf20}aller {\kf28}Dinge {\kf22}sei {\kf16}das {\kf52}Schwein\N{\kf26}oder {\kf16}der {\kf70}hundsköpfige {\kf53}Pavian?
+Dialogue: 0,0:11:47.97,0:11:51.26,Naechste,,0,0,0,,Und wenn jeder für sich selbst das Maß ist,
+Dialogue: 1,0:11:51.26,0:11:54.19,Karaoke,,0,0,0,,{\k72}{\kf9}Und {\kf40}wenn {\kf6}jeder {\kf14}für {\kf14}sich\N{\kf34}selbst {\kf20}das {\kf22}Maß {\kf62}ist,
+Dialogue: 0,0:11:51.26,0:11:54.19,Naechste,,0,0,0,,warum sollte man Protagoras dann bezahlen, um von ihm zu lernen?
+Dialogue: 1,0:11:54.19,0:11:57.24,Karaoke,,0,0,0,,{\k0}{\kf18}warum {\kf26}sollte {\kf18}man {\kf58}Protagoras {\kf22}dann\N{\kf76}bezahlen, {\kf8}um {\kf16}von {\kf16}ihm {\kf16}zu {\kf31}lernen?
+Dialogue: 0,0:11:54.19,0:11:57.24,Naechste,,0,0,0,,Dann wird es ernst.
+Dialogue: 1,0:11:57.24,0:11:58.88,Karaoke,,0,0,0,,{\k80}{\kf13}Dann {\kf14}wird {\kf14}es {\kf43}ernst.
+Dialogue: 0,0:11:57.24,0:11:58.88,Naechste,,0,0,0,,Wer eine fremde Sprache hört oder Schriftzeichen sieht, die er nicht lesen kann,
+Dialogue: 1,0:11:58.88,0:12:03.47,Karaoke,,0,0,0,,{\k52}{\kf5}Wer {\kf8}eine {\kf12}fremde {\kf70}Sprache {\kf34}hört {\kf36}oder\N{\kf58}Schriftzeichen {\kf64}sieht, {\kf6}die {\kf8}er {\kf14}nicht {\kf40}lesen {\kf52}kann,
+Dialogue: 0,0:11:58.88,0:12:03.47,Naechste,,0,0,0,,nimmt wahr, ohne zu verstehen.
+Dialogue: 1,0:12:03.47,0:12:04.88,Karaoke,,0,0,0,,{\k0}{\kf10}nimmt {\kf34}wahr, {\kf34}ohne {\kf14}zu {\kf39}verstehen.
+Dialogue: 0,0:12:03.47,0:12:04.88,Naechste,,0,0,0,,Und wer die Augen schließt und sich an etwas erinnert, das er gesehen hat, weiß es,
+Dialogue: 1,0:12:04.88,0:12:09.97,Karaoke,,0,0,0,,{\k80}{\kf9}Und {\kf9}wer {\kf12}die {\kf22}Augen {\kf68}schließt {\kf22}und {\kf16}sich {\kf16}an\N{\kf26}etwas {\kf70}erinnert, {\kf6}das {\kf10}er {\kf26}gesehen {\kf62}hat, {\kf12}weiß {\kf44}es,
+Dialogue: 0,0:12:04.88,0:12:09.97,Naechste,,0,0,0,,obwohl er es nicht wahrnimmt.
+Dialogue: 1,0:12:09.97,0:12:11.28,Karaoke,,0,0,0,,{\k0}{\kf16}obwohl {\kf22}er {\kf10}es {\kf18}nicht {\kf47}wahrnimmt.
+Dialogue: 0,0:12:09.97,0:12:11.28,Naechste,,0,0,0,,Ein Streitkünstler könnte sogar fragen: Wenn ich dir ein Auge zuhalte,
+Dialogue: 1,0:12:11.28,0:12:15.89,Karaoke,,0,0,0,,{\k80}{\kf45}Ein {\kf44}Streitkünstler {\kf26}könnte {\kf30}sogar\N{\kf72}fragen: {\kf8}Wenn {\kf14}ich {\kf10}dir {\kf16}ein {\kf26}Auge {\kf90}zuhalte,
+Dialogue: 0,0:12:11.28,0:12:15.89,Naechste,,0,0,0,,siehst du meinen Mantel dann mit dem anderen und siehst ihn zugleich nicht?
+Dialogue: 1,0:12:15.89,0:12:18.82,Karaoke,,0,0,0,,{\k0}{\kf18}siehst {\kf10}du {\kf16}meinen {\kf38}Mantel {\kf14}dann {\kf10}mit {\kf10}dem\N{\kf30}anderen {\kf26}und {\kf26}siehst {\kf12}ihn {\kf40}zugleich {\kf43}nicht?
+Dialogue: 0,0:12:15.89,0:12:18.82,Naechste,,0,0,0,,Dann wüsstest du dasselbe und wüsstest es zugleich nicht.
+Dialogue: 1,0:12:18.82,0:12:22.22,Karaoke,,0,0,0,,{\k56}{\kf15}Dann {\kf38}wüsstest {\kf14}du {\kf58}dasselbe {\kf30}und\N{\kf40}wüsstest {\kf14}es {\kf40}zugleich {\kf35}nicht.
+Dialogue: 0,0:12:18.82,0:12:22.22,Naechste,,0,0,0,,Aber Sokrates ist mit diesen Einwänden selbst nicht zufrieden.
+Dialogue: 1,0:12:22.22,0:12:25.98,Karaoke,,0,0,0,,{\k74}{\kf17}Aber {\kf52}Sokrates {\kf46}ist {\kf18}mit {\kf20}diesen\N{\kf52}Einwänden {\kf24}selbst {\kf24}nicht {\kf37}zufrieden.
+Dialogue: 0,0:12:22.22,0:12:25.98,Naechste,,0,0,0,,Er wirft sich vor, wie ein Wortverdreher zu argumentieren,
+Dialogue: 1,0:12:25.98,0:12:29.63,Karaoke,,0,0,0,,{\k80}{\kf13}Er {\kf30}wirft {\kf22}sich {\kf34}vor, {\kf28}wie {\kf16}ein\N{\kf58}Wortverdreher {\kf18}zu {\kf66}argumentieren,
+Dialogue: 0,0:12:25.98,0:12:29.63,Naechste,,0,0,0,,und lässt Protagoras sich verteidigen.
+Dialogue: 1,0:12:29.63,0:12:32.03,Karaoke,,0,0,0,,{\k0}{\kf42}und {\kf22}lässt {\kf66}Protagoras {\kf26}sich {\kf49}verteidigen.
+Dialogue: 0,0:12:29.63,0:12:32.03,Naechste,,0,0,0,,In einer langen Rede lässt Sokrates den verstorbenen Protagoras antworten.
+Dialogue: 1,0:12:35.52,0:12:40.22,Karaoke,,0,0,0,,{\k80}{\kf10}In {\kf24}einer {\kf38}langen {\kf20}Rede {\kf26}lässt {\kf60}Sokrates\N{\kf26}den {\kf62}verstorbenen {\kf70}Protagoras {\kf54}antworten.
+Dialogue: 0,0:12:35.52,0:12:40.22,Naechste,,0,0,0,,Niemand, sagt dieser, hat je falsch geurteilt.
+Dialogue: 1,0:12:40.22,0:12:43.56,Karaoke,,0,0,0,,{\k74}{\kf54}Niemand, {\kf22}sagt {\kf70}dieser,\N{\kf6}hat {\kf14}je {\kf26}falsch {\kf68}geurteilt.
+Dialogue: 0,0:12:40.22,0:12:43.56,Naechste,,0,0,0,,Aber manche Vorstellungen sind besser als andere.
+Dialogue: 1,0:12:43.56,0:12:46.78,Karaoke,,0,0,0,,{\k74}{\kf18}Aber {\kf42}manche {\kf64}Vorstellungen\N{\kf18}sind {\kf36}besser {\kf24}als {\kf46}andere.
+Dialogue: 0,0:12:43.56,0:12:46.78,Naechste,,0,0,0,,Dem Kranken erscheint die Speise bitter, und für ihn ist sie es.
+Dialogue: 1,0:12:46.78,0:12:50.74,Karaoke,,0,0,0,,{\k76}{\kf12}Dem {\kf42}Kranken {\kf52}erscheint {\kf14}die {\kf38}Speise\N{\kf20}bitter, {\kf44}und {\kf18}für {\kf12}ihn {\kf24}ist {\kf20}sie {\kf24}es.
+Dialogue: 0,0:12:46.78,0:12:50.74,Naechste,,0,0,0,,Der Arzt macht ihn nicht klüger.
+Dialogue: 1,0:12:50.74,0:12:52.68,Karaoke,,0,0,0,,{\k54}{\kf12}Der {\kf26}Arzt {\kf20}macht {\kf14}ihn {\kf20}nicht {\kf48}klüger.
+Dialogue: 0,0:12:50.74,0:12:52.68,Naechste,,0,0,0,,Er verändert seinen Zustand, sodass ihm Besseres erscheint.
+Dialogue: 1,0:12:52.68,0:12:56.50,Karaoke,,0,0,0,,{\k60}{\kf14}Er {\kf42}verändert {\kf30}seinen {\kf88}Zustand,\N{\kf26}sodass {\kf14}ihm {\kf42}Besseres {\kf66}erscheint.
+Dialogue: 0,0:12:52.68,0:12:56.50,Naechste,,0,0,0,,So wirkt auch der Weise mit Worten auf Menschen und Städte.
+Dialogue: 1,0:12:56.50,0:13:00.14,Karaoke,,0,0,0,,{\k50}{\kf20}So {\kf38}wirkt {\kf9}auch {\kf7}der {\kf56}Weise {\kf22}mit\N{\kf40}Worten {\kf12}auf {\kf32}Menschen {\kf42}und {\kf36}Städte.
+Dialogue: 0,0:12:56.50,0:13:00.14,Naechste,,0,0,0,,Was einer Stadt gerecht erscheint, ist für sie gerecht, solange sie es dafür hält.
+Dialogue: 1,0:13:00.14,0:13:04.50,Karaoke,,0,0,0,,{\k56}{\kf10}Was {\kf22}einer {\kf20}Stadt {\kf38}gerecht {\kf80}erscheint, {\kf14}ist {\kf18}für\N{\kf10}sie {\kf58}gerecht, {\kf24}solange {\kf14}sie {\kf14}es {\kf26}dafür {\kf32}hält.
+Dialogue: 0,0:13:00.14,0:13:04.50,Naechste,,0,0,0,,Der Weise sorgt dafür, dass ihr Nützliches statt Schädlichem gerecht erscheint.
+Dialogue: 1,0:13:04.50,0:13:08.76,Karaoke,,0,0,0,,{\k76}{\kf15}Der {\kf25}Weise {\kf30}sorgt {\kf76}dafür, {\kf15}dass {\kf12}ihr {\kf39}Nützliches\N{\kf16}statt {\kf46}Schädlichem {\kf26}gerecht {\kf50}erscheint.
+Dialogue: 0,0:13:04.50,0:13:08.76,Naechste,,0,0,0,,Das ist eine raffinierte Position: Relativismus in Fragen der Wahrheit,
+Dialogue: 1,0:13:08.76,0:13:13.72,Karaoke,,0,0,0,,{\k76}{\kf14}Das {\kf20}ist {\kf24}eine {\kf46}raffinierte {\kf112}Position:\N{\kf66}Relativismus {\kf20}in {\kf20}Fragen {\kf24}der {\kf74}Wahrheit,
+Dialogue: 0,0:13:08.76,0:13:13.72,Naechste,,0,0,0,,aber echtes Expertentum in Fragen des Nutzens.
+Dialogue: 1,0:13:13.72,0:13:15.98,Karaoke,,0,0,0,,{\k0}{\kf12}aber {\kf40}echtes {\kf68}Expertentum\N{\kf12}in {\kf28}Fragen {\kf18}des {\kf48}Nutzens.
+Dialogue: 0,0:13:13.72,0:13:15.98,Naechste,,0,0,0,,Genau hier wird Sokrates ansetzen.
+Dialogue: 1,0:13:15.98,0:13:18.73,Karaoke,,0,0,0,,{\k58}{\kf24}Genau {\kf28}hier {\kf22}wird {\kf46}Sokrates {\kf62}ansetzen.
+Dialogue: 0,0:13:15.98,0:13:18.73,Naechste,,0,0,0,,Nun folgt das berühmteste Argument des Dialogs.
+Dialogue: 1,0:13:22.14,0:13:25.42,Karaoke,,0,0,0,,{\k80}{\kf18}Nun {\kf32}folgt {\kf16}das {\kf46}berühmteste\N{\kf54}Argument {\kf26}des {\kf56}Dialogs.
+Dialogue: 0,0:13:22.14,0:13:25.42,Naechste,,0,0,0,,Protagoras sagt: Was jemandem wahr erscheint, ist für ihn wahr.
+Dialogue: 1,0:13:25.42,0:13:29.26,Karaoke,,0,0,0,,{\k46}{\kf50}Protagoras {\kf66}sagt: {\kf10}Was {\kf48}jemandem\N{\kf18}wahr {\kf76}erscheint, {\kf14}ist {\kf22}für {\kf12}ihn {\kf22}wahr.
+Dialogue: 0,0:13:25.42,0:13:29.26,Naechste,,0,0,0,,Aber die meisten Menschen glauben, dass Protagoras sich irrt.
+Dialogue: 1,0:13:29.26,0:13:32.60,Karaoke,,0,0,0,,{\k54}{\kf14}Aber {\kf14}die {\kf26}meisten {\kf38}Menschen {\kf76}glauben,\N{\kf6}dass {\kf56}Protagoras {\kf20}sich {\kf30}irrt.
+Dialogue: 0,0:13:29.26,0:13:32.60,Naechste,,0,0,0,,Wenn Protagoras jede Meinung als wahr gelten lässt,
+Dialogue: 1,0:13:32.60,0:13:36.22,Karaoke,,0,0,0,,{\k72}{\kf12}Wenn {\kf64}Protagoras {\kf30}jede {\kf48}Meinung\N{\kf22}als {\kf24}wahr {\kf36}gelten {\kf54}lässt,
+Dialogue: 0,0:13:32.60,0:13:36.22,Naechste,,0,0,0,,muss er auch die Meinung seiner Gegner als wahr anerkennen,
+Dialogue: 1,0:13:36.22,0:13:39.24,Karaoke,,0,0,0,,{\k0}{\kf6}muss {\kf20}er {\kf16}auch {\kf16}die {\kf28}Meinung {\kf24}seiner\N{\kf48}Gegner {\kf28}als {\kf22}wahr {\kf94}anerkennen,
+Dialogue: 0,0:13:36.22,0:13:39.24,Naechste,,0,0,0,,nämlich dass seine eigene Lehre falsch ist.
+Dialogue: 1,0:13:39.24,0:13:41.22,Karaoke,,0,0,0,,{\k0}{\kf22}nämlich {\kf26}dass {\kf18}seine\N{\kf34}eigene {\kf34}Lehre {\kf30}falsch {\kf34}ist.
+Dialogue: 0,0:13:39.24,0:13:41.22,Naechste,,0,0,0,,Seine Lehre widerlegt sich selbst.
+Dialogue: 1,0:13:41.22,0:13:43.48,Karaoke,,0,0,0,,{\k48}{\kf28}Seine {\kf36}Lehre {\kf42}widerlegt {\kf20}sich {\kf52}selbst.
+Dialogue: 0,0:13:41.22,0:13:43.48,Naechste,,0,0,0,,Spätere Autoren nennen dieses Argumentmuster Peritropé, die Umwendung.
+Dialogue: 1,0:13:43.48,0:13:48.06,Karaoke,,0,0,0,,{\k56}{\kf50}Spätere {\kf44}Autoren {\kf28}nennen {\kf28}dieses\N{\kf88}Argumentmuster {\kf96}Peritropé, {\kf18}die {\kf44}Umwendung.
+Dialogue: 0,0:13:43.48,0:13:48.06,Naechste,,0,0,0,,Sokrates malt dazu ein komisches Bild:
+Dialogue: 1,0:13:48.06,0:13:51.40,Karaoke,,0,0,0,,{\k80}{\kf66}Sokrates {\kf24}malt {\kf34}dazu {\kf18}ein {\kf36}komisches {\kf76}Bild:
+Dialogue: 0,0:13:48.06,0:13:51.40,Naechste,,0,0,0,,Könnte Protagoras jetzt bis zum Hals aus der Erde auftauchen,
+Dialogue: 1,0:13:51.40,0:13:54.44,Karaoke,,0,0,0,,{\k0}{\kf22}Könnte {\kf54}Protagoras {\kf22}jetzt {\kf24}bis {\kf20}zum\N{\kf24}Hals {\kf16}aus {\kf12}der {\kf12}Erde {\kf98}auftauchen,
+Dialogue: 0,0:13:51.40,0:13:54.44,Naechste,,0,0,0,,würde er uns beide hart tadeln, wieder untertauchen und davonlaufen.
+Dialogue: 1,0:13:54.44,0:13:58.30,Karaoke,,0,0,0,,{\k0}{\kf16}würde {\kf16}er {\kf14}uns {\kf20}beide {\kf34}hart {\kf86}tadeln,\N{\kf18}wieder {\kf70}untertauchen {\kf84}und {\kf26}davonlaufen.
+Dialogue: 0,0:13:54.44,0:13:58.30,Naechste,,0,0,0,,Trifft das Argument?
+Dialogue: 1,0:13:58.30,0:14:00.04,Karaoke,,0,0,0,,{\k80}{\kf24}Trifft {\kf18}das {\kf52}Argument?
+Dialogue: 0,0:13:58.30,0:14:00.04,Naechste,,0,0,0,,Protagoras könnte sagen: Meine Lehre ist nur für mich wahr.
+Dialogue: 1,0:14:00.04,0:14:03.72,Karaoke,,0,0,0,,{\k56}{\kf68}Protagoras {\kf24}könnte {\kf86}sagen: {\kf16}Meine\N{\kf30}Lehre {\kf16}ist {\kf20}nur {\kf16}für {\kf14}mich {\kf22}wahr.
+Dialogue: 0,0:14:00.04,0:14:03.72,Naechste,,0,0,0,,Myles Burnyeat hat 1976 dafür argumentiert, dass ihn das nicht rettet.
+Dialogue: 1,0:14:03.72,0:14:10.28,Karaoke,,0,0,0,,{\k70}{\kf20}Myles {\kf38}Burnyeat {\kf22}hat {\kf138}1976 {\kf134}dafür\N{\kf118}argumentiert, {\kf10}dass {\kf20}ihn {\kf14}das {\kf24}nicht {\kf48}rettet.
+Dialogue: 0,0:14:03.72,0:14:10.28,Naechste,,0,0,0,,Wer seine Lehre anderen als wahr vorträgt und in Büchern verbreitet,
+Dialogue: 1,0:14:10.28,0:14:14.68,Karaoke,,0,0,0,,{\k56}{\kf10}Wer {\kf22}seine {\kf30}Lehre {\kf32}anderen {\kf28}als {\kf24}wahr\N{\kf62}vorträgt {\kf36}und {\kf16}in {\kf36}Büchern {\kf88}verbreitet,
+Dialogue: 0,0:14:10.28,0:14:14.68,Naechste,,0,0,0,,beansprucht mehr als „wahr für mich“.
+Dialogue: 1,0:14:14.68,0:14:16.63,Karaoke,,0,0,0,,{\k0}{\kf46}beansprucht {\kf22}mehr {\kf22}als {\kf26}„wahr {\kf18}für {\kf26}mich“.
+Dialogue: 0,0:14:14.68,0:14:16.63,Naechste,,0,0,0,,Mitten in der Prüfung hält Sokrates inne und zeichnet zwei Lebensformen.
+Dialogue: 1,0:14:19.92,0:14:24.52,Karaoke,,0,0,0,,{\k80}{\kf20}Mitten {\kf16}in {\kf10}der {\kf48}Prüfung {\kf31}hält {\kf63}Sokrates\N{\kf30}inne {\kf22}und {\kf46}zeichnet {\kf32}zwei {\kf62}Lebensformen.
+Dialogue: 0,0:14:19.92,0:14:24.52,Naechste,,0,0,0,,Die Redner vor Gericht sprechen unter Zeitdruck.
+Dialogue: 1,0:14:24.52,0:14:27.48,Karaoke,,0,0,0,,{\k78}{\kf12}Die {\kf38}Redner {\kf22}vor {\kf26}Gericht\N{\kf42}sprechen {\kf24}unter {\kf54}Zeitdruck.
+Dialogue: 0,0:14:24.52,0:14:27.48,Naechste,,0,0,0,,Die Wasseruhr läuft, der Gegner steht daneben.
+Dialogue: 1,0:14:27.48,0:14:30.24,Karaoke,,0,0,0,,{\k52}{\kf10}Die {\kf48}Wasseruhr {\kf70}läuft, {\kf8}der\N{\kf34}Gegner {\kf22}steht {\kf32}daneben.
+Dialogue: 0,0:14:27.48,0:14:30.24,Naechste,,0,0,0,,Sie werden scharfsinnig, aber ihre Seelen werden klein und krumm.
+Dialogue: 1,0:14:30.24,0:14:33.90,Karaoke,,0,0,0,,{\k72}{\kf12}Sie {\kf42}werden {\kf84}scharfsinnig, {\kf14}aber {\kf20}ihre\N{\kf34}Seelen {\kf22}werden {\kf30}klein {\kf22}und {\kf14}krumm.
+Dialogue: 0,0:14:30.24,0:14:33.90,Naechste,,0,0,0,,Der Philosoph dagegen hat Muße.
+Dialogue: 1,0:14:33.90,0:14:36.30,Karaoke,,0,0,0,,{\k60}{\kf12}Der {\kf48}Philosoph {\kf30}dagegen {\kf27}hat {\kf35}Muße.
+Dialogue: 0,0:14:33.90,0:14:36.30,Naechste,,0,0,0,,Der Philosoph kennt nicht einmal den Weg zum Markt.
+Dialogue: 1,0:14:36.30,0:14:39.64,Karaoke,,0,0,0,,{\k80}{\kf14}Der {\kf60}Philosoph {\kf24}kennt {\kf28}nicht\N{\kf38}einmal {\kf18}den {\kf14}Weg {\kf20}zum {\kf38}Markt.
+Dialogue: 0,0:14:36.30,0:14:39.64,Naechste,,0,0,0,,Er gleicht Thales, der beim Betrachten der Sterne in einen Brunnen fiel.
+Dialogue: 1,0:14:39.64,0:14:43.68,Karaoke,,0,0,0,,{\k50}{\kf8}Er {\kf26}gleicht {\kf92}Thales, {\kf8}der {\kf12}beim {\kf50}Betrachten\N{\kf22}der {\kf40}Sterne {\kf14}in {\kf16}einen {\kf34}Brunnen {\kf26}fiel.
+Dialogue: 0,0:14:39.64,0:14:43.68,Naechste,,0,0,0,,Eine witzige thrakische Magd soll ihn verspottet haben: Er wolle wissen,
+Dialogue: 1,0:14:43.68,0:14:48.18,Karaoke,,0,0,0,,{\k80}{\kf16}Eine {\kf38}witzige {\kf52}thrakische {\kf34}Magd {\kf10}soll {\kf16}ihn\N{\kf52}verspottet {\kf24}haben: {\kf50}Er {\kf28}wolle {\kf50}wissen,
+Dialogue: 0,0:14:43.68,0:14:48.18,Naechste,,0,0,0,,was am Himmel ist, und übersehe, was vor seinen Füßen liegt.
+Dialogue: 1,0:14:48.18,0:14:51.42,Karaoke,,0,0,0,,{\k0}{\kf10}was {\kf22}am {\kf26}Himmel {\kf26}ist, {\kf36}und {\kf80}übersehe,\N{\kf16}was {\kf20}vor {\kf16}seinen {\kf28}Füßen {\kf44}liegt.
+Dialogue: 0,0:14:48.18,0:14:51.42,Naechste,,0,0,0,,Dann folgt ein Satz von enormer Nachwirkung.
+Dialogue: 1,0:14:51.42,0:14:54.00,Karaoke,,0,0,0,,{\k74}{\kf14}Dann {\kf36}folgt {\kf14}ein {\kf30}Satz {\kf12}von\N{\kf34}enormer {\kf44}Nachwirkung.
+Dialogue: 0,0:14:51.42,0:14:54.00,Naechste,,0,0,0,,Das Schlechte kann nie verschwinden.
+Dialogue: 1,0:14:54.00,0:14:56.06,Karaoke,,0,0,0,,{\k62}{\kf12}Das {\kf38}Schlechte {\kf22}kann {\kf14}nie {\kf58}verschwinden.
+Dialogue: 0,0:14:54.00,0:14:56.06,Naechste,,0,0,0,,Darum muss man von hier dorthin fliehen, so schnell wie möglich.
+Dialogue: 1,0:14:56.06,0:14:59.82,Karaoke,,0,0,0,,{\k60}{\kf36}Darum {\kf16}muss {\kf16}man {\kf16}von {\kf18}hier {\kf46}dorthin\N{\kf60}fliehen, {\kf14}so {\kf24}schnell {\kf16}wie {\kf54}möglich.
+Dialogue: 0,0:14:56.06,0:14:59.82,Naechste,,0,0,0,,Der Weg dazu ist Verähnlichung mit Gott, soweit als möglich.
+Dialogue: 1,0:14:59.82,0:15:03.86,Karaoke,,0,0,0,,{\k76}{\kf14}Der {\kf18}Weg {\kf38}dazu {\kf24}ist {\kf58}Verähnlichung\N{\kf16}mit {\kf26}Gott, {\kf66}soweit {\kf12}als {\kf56}möglich.
+Dialogue: 0,0:14:59.82,0:15:03.86,Naechste,,0,0,0,,Und diese Verähnlichung besteht darin, dass man gerecht und fromm sei mit Einsicht.
+Dialogue: 1,0:15:03.86,0:15:08.52,Karaoke,,0,0,0,,{\k62}{\kf8}Und {\kf32}diese {\kf64}Verähnlichung {\kf24}besteht {\kf76}darin, {\kf8}dass\N{\kf16}man {\kf38}gerecht {\kf20}und {\kf36}fromm {\kf12}sei {\kf14}mit {\kf56}Einsicht.
+Dialogue: 0,0:15:03.86,0:15:08.52,Naechste,,0,0,0,,Im Mittelplatonismus wurde diese Angleichung an Gott zur Formel für das Ziel des menschlichen Lebens.
+Dialogue: 1,0:15:08.52,0:15:14.74,Karaoke,,0,0,0,,{\k74}{\kf10}Im {\kf96}Mittelplatonismus {\kf40}wurde {\kf30}diese {\kf70}Angleichung {\kf18}an {\kf16}Gott\N{\kf38}zur {\kf46}Formel {\kf18}für {\kf16}das {\kf30}Ziel {\kf14}des {\kf50}menschlichen {\kf56}Lebens.
+Dialogue: 0,0:15:08.52,0:15:14.74,Naechste,,0,0,0,,Und das Bild von Thales und der Magd hat Hans Blumenberg 1987 zum Ausgangspunkt einer ganzen Geschichte der Theorie gemacht:
+Dialogue: 1,0:15:14.74,0:15:23.58,Karaoke,,0,0,0,,{\k62}{\kf10}Und {\kf18}das {\kf26}Bild {\kf26}von {\kf38}Thales {\kf26}und {\kf15}der {\kf19}Magd {\kf22}hat {\kf22}Hans {\kf192}Blumenberg {\kf56}1987\N{\kf56}zum {\kf72}Ausgangspunkt {\kf26}einer {\kf24}ganzen {\kf42}Geschichte {\kf26}der {\kf32}Theorie {\kf74}gemacht:
+Dialogue: 0,0:15:14.74,0:15:23.58,Naechste,,0,0,0,,„Das Lachen der Thrakerin“.
+Dialogue: 1,0:15:23.58,0:15:24.76,Karaoke,,0,0,0,,{\k0}{\kf8}„Das {\kf26}Lachen {\kf14}der {\kf46}Thrakerin“.
+Dialogue: 0,0:15:23.58,0:15:24.76,Naechste,,0,0,0,,Warum steht dieser Exkurs gerade hier?
+Dialogue: 1,0:15:24.76,0:15:27.34,Karaoke,,0,0,0,,{\k80}{\kf22}Warum {\kf24}steht {\kf30}dieser {\kf36}Exkurs {\kf32}gerade {\kf34}hier?
+Dialogue: 0,0:15:24.76,0:15:27.34,Naechste,,0,0,0,,Eine verbreitete Deutung: Er zeigt, was auf dem Spiel steht.
+Dialogue: 1,0:15:27.34,0:15:31.40,Karaoke,,0,0,0,,{\k68}{\kf12}Eine {\kf62}verbreitete {\kf52}Deutung: {\kf34}Er\N{\kf70}zeigt, {\kf12}was {\kf18}auf {\kf12}dem {\kf24}Spiel {\kf38}steht.
+Dialogue: 0,0:15:27.34,0:15:31.40,Naechste,,0,0,0,,Wenn der Mensch das Maß aller Dinge ist, gibt es kein Maß jenseits des Menschen,
+Dialogue: 1,0:15:31.40,0:15:36.06,Karaoke,,0,0,0,,{\k80}{\kf10}Wenn {\kf12}der {\kf22}Mensch {\kf20}das {\kf20}Maß {\kf20}aller {\kf20}Dinge {\kf72}ist,\N{\kf10}gibt {\kf16}es {\kf20}kein {\kf15}Maß {\kf40}jenseits {\kf22}des {\kf66}Menschen,
+Dialogue: 0,0:15:31.40,0:15:36.06,Naechste,,0,0,0,,an dem man sich ausrichten könnte.
+Dialogue: 1,0:15:36.06,0:15:37.75,Karaoke,,0,0,0,,{\k0}{\kf12}an {\kf8}dem {\kf12}man {\kf12}sich {\kf46}ausrichten {\kf44}könnte.
+Dialogue: 0,0:15:36.06,0:15:37.75,Naechste,,0,0,0,,Zurück zum Argument.
+Dialogue: 1,0:15:40.96,0:15:42.86,Karaoke,,0,0,0,,{\k80}{\kf32}Zurück {\kf22}zum {\kf56}Argument.
+Dialogue: 0,0:15:40.96,0:15:42.86,Naechste,,0,0,0,,Protagoras hatte zugestanden, dass der Weise das Nützliche besser beurteilt.
+Dialogue: 1,0:15:42.86,0:15:47.48,Karaoke,,0,0,0,,{\k54}{\kf72}Protagoras {\kf24}hatte {\kf68}zugestanden, {\kf50}dass {\kf16}der\N{\kf30}Weise {\kf18}das {\kf34}Nützliche {\kf26}besser {\kf68}beurteilt.
+Dialogue: 0,0:15:42.86,0:15:47.48,Naechste,,0,0,0,,Nützlich aber ist, was sich in Zukunft als gut erweisen wird.
+Dialogue: 1,0:15:47.48,0:15:51.26,Karaoke,,0,0,0,,{\k80}{\kf30}Nützlich {\kf18}aber {\kf58}ist, {\kf10}was {\kf18}sich {\kf14}in\N{\kf36}Zukunft {\kf28}als {\kf18}gut {\kf36}erweisen {\kf32}wird.
+Dialogue: 0,0:15:47.48,0:15:51.26,Naechste,,0,0,0,,Wird jemand Fieber bekommen?
+Dialogue: 1,0:15:51.26,0:15:53.12,Karaoke,,0,0,0,,{\k76}{\kf8}Wird {\kf24}jemand {\kf40}Fieber {\kf38}bekommen?
+Dialogue: 0,0:15:51.26,0:15:53.12,Naechste,,0,0,0,,Der Laie meint ja, der Arzt meint nein.
+Dialogue: 1,0:15:53.12,0:15:56.12,Karaoke,,0,0,0,,{\k74}{\kf10}Der {\kf24}Laie {\kf30}meint {\kf68}ja, {\kf6}der {\kf26}Arzt {\kf32}meint {\kf30}nein.
+Dialogue: 0,0:15:53.12,0:15:56.12,Naechste,,0,0,0,,Kommt es, wie der Arzt gesagt hat, dann war der Arzt das bessere Maß.
+Dialogue: 1,0:15:56.12,0:16:00.68,Karaoke,,0,0,0,,{\k80}{\kf34}Kommt {\kf52}es, {\kf6}wie {\kf10}der {\kf26}Arzt {\kf28}gesagt {\kf64}hat,\N{\kf8}dann {\kf12}war {\kf12}der {\kf28}Arzt {\kf16}das {\kf40}bessere {\kf40}Maß.
+Dialogue: 0,0:15:56.12,0:16:00.68,Naechste,,0,0,0,,Ebenso beurteilt der Winzer besser als der Kitharaspieler,
+Dialogue: 1,0:16:00.68,0:16:04.76,Karaoke,,0,0,0,,{\k80}{\kf36}Ebenso {\kf54}beurteilt {\kf14}der {\kf32}Winzer\N{\kf38}besser {\kf26}als {\kf23}der {\kf105}Kitharaspieler,
+Dialogue: 0,0:16:00.68,0:16:04.76,Naechste,,0,0,0,,ob ein Wein süß werden wird.
+Dialogue: 1,0:16:04.76,0:16:06.10,Karaoke,,0,0,0,,{\k0}{\kf14}ob {\kf16}ein {\kf14}Wein {\kf34}süß {\kf20}werden {\kf32}wird.
+Dialogue: 0,0:16:04.76,0:16:06.10,Naechste,,0,0,0,,Und Protagoras selbst konnte besser als jeder Laie vorhersagen,
+Dialogue: 1,0:16:06.10,0:16:10.66,Karaoke,,0,0,0,,{\k80}{\kf8}Und {\kf66}Protagoras {\kf42}selbst {\kf32}konnte\N{\kf40}besser {\kf30}als {\kf20}jeder {\kf36}Laie {\kf102}vorhersagen,
+Dialogue: 0,0:16:06.10,0:16:10.66,Naechste,,0,0,0,,welche Rede vor Gericht überzeugen wird.
+Dialogue: 1,0:16:10.66,0:16:12.46,Karaoke,,0,0,0,,{\k0}{\kf18}welche {\kf30}Rede {\kf22}vor {\kf28}Gericht {\kf58}überzeugen {\kf24}wird.
+Dialogue: 0,0:16:10.66,0:16:12.46,Naechste,,0,0,0,,Für die Zukunft ist also nicht jeder das Maß.
+Dialogue: 1,0:16:12.46,0:16:15.44,Karaoke,,0,0,0,,{\k62}{\kf12}Für {\kf12}die {\kf48}Zukunft {\kf38}ist {\kf24}also\N{\kf18}nicht {\kf22}jeder {\kf22}das {\kf40}Maß.
+Dialogue: 0,0:16:12.46,0:16:15.44,Naechste,,0,0,0,,Damit ist die Lehre des Protagoras in ihrer allgemeinen Form widerlegt.
+Dialogue: 1,0:16:15.44,0:16:19.64,Karaoke,,0,0,0,,{\k62}{\kf24}Damit {\kf26}ist {\kf16}die {\kf26}Lehre {\kf14}des {\kf66}Protagoras\N{\kf32}in {\kf20}ihrer {\kf48}allgemeinen {\kf28}Form {\kf58}widerlegt.
+Dialogue: 0,0:16:15.44,0:16:19.64,Naechste,,0,0,0,,Übrig bleibt nur die gegenwärtige Wahrnehmung.
+Dialogue: 1,0:16:19.64,0:16:22.39,Karaoke,,0,0,0,,{\k58}{\kf24}Übrig {\kf34}bleibt {\kf20}nur {\kf12}die\N{\kf62}gegenwärtige {\kf30}Wahrnehmung.
+Dialogue: 0,0:16:19.64,0:16:22.39,Naechste,,0,0,0,,Nun prüft Sokrates die Flusslehre selbst.
+Dialogue: 1,0:16:25.94,0:16:29.04,Karaoke,,0,0,0,,{\k80}{\kf12}Nun {\kf54}prüft {\kf52}Sokrates {\kf12}die {\kf62}Flusslehre {\kf38}selbst.
+Dialogue: 0,0:16:25.94,0:16:29.04,Naechste,,0,0,0,,Er unterscheidet zwei Arten von Bewegung: die Ortsbewegung,
+Dialogue: 1,0:16:29.04,0:16:33.10,Karaoke,,0,0,0,,{\k50}{\kf10}Er {\kf62}unterscheidet {\kf24}zwei {\kf36}Arten\N{\kf18}von {\kf82}Bewegung: {\kf5}die {\kf119}Ortsbewegung,
+Dialogue: 0,0:16:29.04,0:16:33.10,Naechste,,0,0,0,,wenn etwas den Platz wechselt oder sich dreht, und die Veränderung,
+Dialogue: 1,0:16:33.10,0:16:36.50,Karaoke,,0,0,0,,{\k0}{\kf10}wenn {\kf32}etwas {\kf18}den {\kf22}Platz {\kf54}wechselt {\kf12}oder\N{\kf18}sich {\kf34}dreht, {\kf32}und {\kf16}die {\kf92}Veränderung,
+Dialogue: 0,0:16:33.10,0:16:36.50,Naechste,,0,0,0,,wenn etwas an seinem Ort bleibt, aber zum Beispiel schwarz statt weiß wird.
+Dialogue: 1,0:16:36.50,0:16:40.16,Karaoke,,0,0,0,,{\k0}{\kf12}wenn {\kf38}etwas {\kf24}an {\kf16}seinem {\kf28}Ort {\kf66}bleibt, {\kf8}aber\N{\kf16}zum {\kf36}Beispiel {\kf36}schwarz {\kf32}statt {\kf26}weiß {\kf28}wird.
+Dialogue: 0,0:16:36.50,0:16:40.16,Naechste,,0,0,0,,Wenn sich alles in jeder Hinsicht bewegt, dann fließt nicht nur das weiße Ding,
+Dialogue: 1,0:16:40.16,0:16:45.12,Karaoke,,0,0,0,,{\k80}{\kf10}Wenn {\kf18}sich {\kf40}alles {\kf12}in {\kf16}jeder {\kf42}Hinsicht {\kf82}bewegt,\N{\kf6}dann {\kf44}fließt {\kf12}nicht {\kf20}nur {\kf18}das {\kf36}weiße {\kf60}Ding,
+Dialogue: 0,0:16:40.16,0:16:45.12,Naechste,,0,0,0,,sondern auch das Weiß selbst.
+Dialogue: 1,0:16:45.12,0:16:46.44,Karaoke,,0,0,0,,{\k0}{\kf20}sondern {\kf26}auch {\kf18}das {\kf18}Weiß {\kf50}selbst.
+Dialogue: 0,0:16:45.12,0:16:46.44,Naechste,,0,0,0,,Man kann es nicht einmal mehr richtig „weiß“ nennen, denn noch während man spricht,
+Dialogue: 1,0:16:46.44,0:16:50.22,Karaoke,,0,0,0,,{\k80}{\kf8}Man {\kf16}kann {\kf12}es {\kf10}nicht {\kf26}einmal {\kf20}mehr {\kf20}richtig {\kf22}„weiß“\N{\kf41}nennen, {\kf27}denn {\kf22}noch {\kf29}während {\kf13}man {\kf32}spricht,
+Dialogue: 0,0:16:46.44,0:16:50.22,Naechste,,0,0,0,,ist es schon anders geworden.
+Dialogue: 1,0:16:50.22,0:16:51.46,Karaoke,,0,0,0,,{\k0}{\kf28}ist {\kf12}es {\kf12}schon {\kf20}anders {\kf40}geworden.
+Dialogue: 0,0:16:50.22,0:16:51.46,Naechste,,0,0,0,,Dann ist Sehen nicht mehr Sehen als Nicht-Sehen.
+Dialogue: 1,0:16:51.46,0:16:54.28,Karaoke,,0,0,0,,{\k80}{\kf12}Dann {\kf20}ist {\kf34}Sehen {\kf18}nicht {\kf16}mehr\N{\kf30}Sehen {\kf22}als {\kf50}Nicht-Sehen.
+Dialogue: 0,0:16:51.46,0:16:54.28,Naechste,,0,0,0,,Jede Antwort ist gleich richtig, also keine.
+Dialogue: 1,0:16:54.28,0:16:57.12,Karaoke,,0,0,0,,{\k70}{\kf20}Jede {\kf30}Antwort {\kf9}ist {\kf17}gleich\N{\kf70}richtig, {\kf28}also {\kf40}keine.
+Dialogue: 0,0:16:54.28,0:16:57.12,Naechste,,0,0,0,,Die Anhänger dieser Lehre bräuchten eine neue Sprache.
+Dialogue: 1,0:16:57.12,0:17:00.60,Karaoke,,0,0,0,,{\k70}{\kf10}Die {\kf48}Anhänger {\kf34}dieser {\kf42}Lehre\N{\kf50}bräuchten {\kf20}eine {\kf20}neue {\kf54}Sprache.
+Dialogue: 0,0:16:57.12,0:17:00.60,Naechste,,0,0,0,,Nicht einmal „so“ dürften sie sagen, denn auch „so“ steht still.
+Dialogue: 1,0:17:00.60,0:17:04.26,Karaoke,,0,0,0,,{\k80}{\kf16}Nicht {\kf32}einmal {\kf20}„so“ {\kf28}dürften {\kf16}sie\N{\kf80}sagen, {\kf6}denn {\kf16}auch {\kf12}„so“ {\kf16}steht {\kf28}still.
+Dialogue: 0,0:17:00.60,0:17:04.26,Naechste,,0,0,0,,Am besten passte zu ihnen das Wort „überhaupt nicht“.
+Dialogue: 1,0:17:04.26,0:17:07.52,Karaoke,,0,0,0,,{\k80}{\kf10}Am {\kf30}besten {\kf46}passte {\kf14}zu {\kf18}ihnen\N{\kf22}das {\kf18}Wort {\kf46}„überhaupt {\kf42}nicht“.
+Dialogue: 0,0:17:04.26,0:17:07.52,Naechste,,0,0,0,,Die radikale Flusslehre macht also nicht nur Erkenntnis unmöglich,
+Dialogue: 1,0:17:07.52,0:17:11.84,Karaoke,,0,0,0,,{\k70}{\kf10}Die {\kf54}radikale {\kf60}Flusslehre {\kf20}macht {\kf34}also\N{\kf16}nicht {\kf24}nur {\kf56}Erkenntnis {\kf88}unmöglich,
+Dialogue: 0,0:17:07.52,0:17:11.84,Naechste,,0,0,0,,sondern schon das Sprechen.
+Dialogue: 1,0:17:11.84,0:17:12.94,Karaoke,,0,0,0,,{\k0}{\kf30}sondern {\kf24}schon {\kf20}das {\kf36}Sprechen.
+Dialogue: 0,0:17:11.84,0:17:12.94,Naechste,,0,0,0,,Die Gegenposition, die Lehre des Parmenides vom unbewegten Sein,
+Dialogue: 1,0:17:12.94,0:17:17.70,Karaoke,,0,0,0,,{\k78}{\kf12}Die {\kf140}Gegenposition, {\kf8}die {\kf24}Lehre {\kf16}des\N{\kf58}Parmenides {\kf26}vom {\kf64}unbewegten {\kf50}Sein,
+Dialogue: 0,0:17:12.94,0:17:17.70,Naechste,,0,0,0,,will Sokrates nicht prüfen: Parmenides sei ihm ehrwürdig und furchtbar zugleich.
+Dialogue: 1,0:17:17.70,0:17:22.22,Karaoke,,0,0,0,,{\k0}{\kf10}will {\kf38}Sokrates {\kf30}nicht {\kf82}prüfen: {\kf44}Parmenides\N{\kf32}sei {\kf22}ihm {\kf48}ehrwürdig {\kf22}und {\kf66}furchtbar {\kf58}zugleich.
+Dialogue: 0,0:17:17.70,0:17:22.22,Naechste,,0,0,0,,Er habe ihn getroffen, als er selbst noch sehr jung war.
+Dialogue: 1,0:17:22.22,0:17:25.57,Karaoke,,0,0,0,,{\k56}{\kf12}Er {\kf20}habe {\kf12}ihn {\kf80}getroffen, {\kf16}als\N{\kf8}er {\kf18}selbst {\kf24}noch {\kf20}sehr {\kf18}jung {\kf16}war.
+Dialogue: 0,0:17:22.22,0:17:25.57,Naechste,,0,0,0,,Jetzt kommt die entscheidende Widerlegung.
+Dialogue: 1,0:17:28.84,0:17:31.28,Karaoke,,0,0,0,,{\k80}{\kf20}Jetzt {\kf30}kommt {\kf18}die {\kf44}entscheidende {\kf52}Widerlegung.
+Dialogue: 0,0:17:28.84,0:17:31.28,Naechste,,0,0,0,,Sokrates fragt: Sehen wir mit den Augen oder durch die Augen?
+Dialogue: 1,0:17:31.28,0:17:34.92,Karaoke,,0,0,0,,{\k56}{\kf48}Sokrates {\kf88}fragt: {\kf16}Sehen {\kf16}wir {\kf14}mit\N{\kf10}den {\kf28}Augen {\kf24}oder {\kf30}durch {\kf12}die {\kf8}Augen?
+Dialogue: 0,0:17:31.28,0:17:34.92,Naechste,,0,0,0,,Arg wäre es,
+Dialogue: 1,0:17:34.92,0:17:36.60,Karaoke,,0,0,0,,{\k80}{\kf18}Arg {\kf22}wäre {\kf48}es,
+Dialogue: 0,0:17:34.92,0:17:36.60,Naechste,,0,0,0,,wenn viele Wahrnehmungen in uns nebeneinanderlägen wie Krieger im hölzernen Pferd und nicht alle in einer Seele zusammenliefen.
+Dialogue: 1,0:17:36.60,0:17:42.48,Karaoke,,0,0,0,,{\k0}{\kf8}wenn {\kf28}viele {\kf56}Wahrnehmungen {\kf22}in {\kf16}uns {\kf86}nebeneinanderlägen {\kf18}wie {\kf36}Krieger\N{\kf10}im {\kf49}hölzernen {\kf27}Pferd {\kf40}und {\kf24}nicht {\kf32}alle {\kf16}in {\kf18}einer {\kf32}Seele {\kf66}zusammenliefen.
+Dialogue: 0,0:17:36.60,0:17:42.48,Naechste,,0,0,0,,Die Sinnesorgane sind Werkzeuge, durch die die Seele wahrnimmt.
+Dialogue: 1,0:17:42.48,0:17:46.36,Karaoke,,0,0,0,,{\k80}{\kf12}Die {\kf76}Sinnesorgane {\kf12}sind {\kf90}Werkzeuge,\N{\kf14}durch {\kf14}die {\kf16}die {\kf26}Seele {\kf48}wahrnimmt.
+Dialogue: 0,0:17:42.48,0:17:46.36,Naechste,,0,0,0,,Jeder Sinn hat sein eigenes Gebiet.
+Dialogue: 1,0:17:46.36,0:17:48.68,Karaoke,,0,0,0,,{\k72}{\kf30}Jeder {\kf20}Sinn {\kf18}hat {\kf16}sein {\kf38}eigenes {\kf38}Gebiet.
+Dialogue: 0,0:17:46.36,0:17:48.68,Naechste,,0,0,0,,Was du hörst, kannst du nicht sehen, und was du siehst, nicht hören.
+Dialogue: 1,0:17:48.68,0:17:52.56,Karaoke,,0,0,0,,{\k64}{\kf8}Was {\kf16}du {\kf62}hörst, {\kf6}kannst {\kf18}du {\kf12}nicht {\kf30}sehen,\N{\kf40}und {\kf16}was {\kf16}du {\kf58}siehst, {\kf12}nicht {\kf30}hören.
+Dialogue: 0,0:17:48.68,0:17:52.56,Naechste,,0,0,0,,Wenn du aber von einem Ton und einer Farbe denkst, dass beide sind,
+Dialogue: 1,0:17:52.56,0:17:56.42,Karaoke,,0,0,0,,{\k72}{\kf8}Wenn {\kf12}du {\kf17}aber {\kf13}von {\kf16}einem {\kf24}Ton {\kf24}und\N{\kf16}einer {\kf28}Farbe {\kf72}denkst, {\kf10}dass {\kf28}beide {\kf46}sind,
+Dialogue: 0,0:17:52.56,0:17:56.42,Naechste,,0,0,0,,dass jedes vom anderen verschieden und mit sich selbst dasselbe ist,
+Dialogue: 1,0:17:56.42,0:17:59.38,Karaoke,,0,0,0,,{\k0}{\kf10}dass {\kf22}jedes {\kf30}vom {\kf30}anderen {\kf62}verschieden\N{\kf12}und {\kf20}mit {\kf12}sich {\kf30}selbst {\kf44}dasselbe {\kf24}ist,
+Dialogue: 0,0:17:56.42,0:17:59.38,Naechste,,0,0,0,,und dass beide zusammen zwei sind: Durch welches Organ erfasst du das?
+Dialogue: 1,0:17:59.38,0:18:02.94,Karaoke,,0,0,0,,{\k0}{\kf34}und {\kf18}dass {\kf22}beide {\kf38}zusammen {\kf26}zwei {\kf50}sind:\N{\kf18}Durch {\kf30}welches {\kf32}Organ {\kf36}erfasst {\kf18}du {\kf28}das?
+Dialogue: 0,0:17:59.38,0:18:02.94,Naechste,,0,0,0,,Theaitetos antwortet: Für dieses Gemeinsame, für Sein und Nichtsein,
+Dialogue: 1,0:18:02.94,0:18:07.32,Karaoke,,0,0,0,,{\k80}{\kf48}Theaitetos {\kf66}antwortet: {\kf28}Für {\kf20}dieses\N{\kf84}Gemeinsame, {\kf8}für {\kf16}Sein {\kf16}und {\kf72}Nichtsein,
+Dialogue: 0,0:18:02.94,0:18:07.32,Naechste,,0,0,0,,Ähnlichkeit und Unähnlichkeit, Dasselbe und Verschiedenes, Einheit und Zahl,
+Dialogue: 1,0:18:07.32,0:18:11.20,Karaoke,,0,0,0,,{\k0}{\kf53}Ähnlichkeit {\kf15}und {\kf112}Unähnlichkeit, {\kf32}Dasselbe\N{\kf20}und {\kf62}Verschiedenes, {\kf52}Einheit {\kf18}und {\kf24}Zahl,
+Dialogue: 0,0:18:07.32,0:18:11.20,Naechste,,0,0,0,,Gerade und Ungerade, gibt es kein eigenes Organ.
+Dialogue: 1,0:18:11.20,0:18:13.72,Karaoke,,0,0,0,,{\k0}{\kf34}Gerade {\kf24}und {\kf54}Ungerade, {\kf36}gibt\N{\kf18}es {\kf18}kein {\kf42}eigenes {\kf26}Organ.
+Dialogue: 0,0:18:11.20,0:18:13.72,Naechste,,0,0,0,,Die Seele selbst betrachtet es, durch sich selbst.
+Dialogue: 1,0:18:13.72,0:18:17.00,Karaoke,,0,0,0,,{\k62}{\kf12}Die {\kf28}Seele {\kf26}selbst {\kf54}betrachtet\N{\kf62}es, {\kf16}durch {\kf18}sich {\kf50}selbst.
+Dialogue: 0,0:18:13.72,0:18:17.00,Naechste,,0,0,0,,Das Sein aber, und damit die Wahrheit, liegt nicht in den Eindrücken,
+Dialogue: 1,0:18:17.00,0:18:21.56,Karaoke,,0,0,0,,{\k70}{\kf12}Das {\kf22}Sein {\kf32}aber, {\kf60}und {\kf18}damit {\kf20}die {\kf42}Wahrheit,\N{\kf42}liegt {\kf26}nicht {\kf20}in {\kf10}den {\kf82}Eindrücken,
+Dialogue: 0,0:18:17.00,0:18:21.56,Naechste,,0,0,0,,sondern im Schließen über sie.
+Dialogue: 1,0:18:21.56,0:18:22.90,Karaoke,,0,0,0,,{\k0}{\kf26}sondern {\kf20}im {\kf34}Schließen {\kf28}über {\kf18}sie.
+Dialogue: 0,0:18:21.56,0:18:22.90,Naechste,,0,0,0,,Wahrnehmung allein erreicht kein Sein und darum keine Wahrheit.
+Dialogue: 1,0:18:22.90,0:18:26.76,Karaoke,,0,0,0,,{\k80}{\kf38}Wahrnehmung {\kf22}allein {\kf44}erreicht {\kf22}kein\N{\kf36}Sein {\kf36}und {\kf28}darum {\kf28}keine {\kf52}Wahrheit.
+Dialogue: 0,0:18:22.90,0:18:26.76,Naechste,,0,0,0,,Und was die Wahrheit nicht erreicht, ist keine Erkenntnis.
+Dialogue: 1,0:18:26.76,0:18:30.22,Karaoke,,0,0,0,,{\k60}{\kf10}Und {\kf18}was {\kf18}die {\kf38}Wahrheit {\kf16}nicht\N{\kf74}erreicht, {\kf10}ist {\kf28}keine {\kf74}Erkenntnis.
+Dialogue: 0,0:18:26.76,0:18:30.22,Naechste,,0,0,0,,Wahrnehmung und Erkenntnis können also niemals dasselbe sein.
+Dialogue: 1,0:18:30.22,0:18:34.08,Karaoke,,0,0,0,,{\k60}{\kf60}Wahrnehmung {\kf26}und {\kf68}Erkenntnis {\kf32}können\N{\kf34}also {\kf42}niemals {\kf38}dasselbe {\kf26}sein.
+Dialogue: 0,0:18:30.22,0:18:34.08,Naechste,,0,0,0,,Viele Interpreten sehen hier das philosophische Herzstück des Dialogs.
+Dialogue: 1,0:18:34.08,0:18:38.62,Karaoke,,0,0,0,,{\k78}{\kf26}Viele {\kf74}Interpreten {\kf32}sehen {\kf26}hier {\kf18}das\N{\kf72}philosophische {\kf56}Herzstück {\kf18}des {\kf54}Dialogs.
+Dialogue: 0,0:18:34.08,0:18:38.62,Naechste,,0,0,0,,Erkennen heißt urteilen, und Urteilen braucht Begriffe,
+Dialogue: 1,0:18:38.62,0:18:42.40,Karaoke,,0,0,0,,{\k50}{\kf36}Erkennen {\kf26}heißt {\kf64}urteilen, {\kf30}und\N{\kf54}Urteilen {\kf26}braucht {\kf92}Begriffe,
+Dialogue: 0,0:18:38.62,0:18:42.40,Naechste,,0,0,0,,die nicht selbst aus einem Sinnesorgan stammen.
+Dialogue: 1,0:18:42.40,0:18:44.26,Karaoke,,0,0,0,,{\k0}{\kf16}die {\kf16}nicht {\kf30}selbst {\kf26}aus\N{\kf20}einem {\kf42}Sinnesorgan {\kf36}stammen.
+Dialogue: 0,0:18:42.40,0:18:44.26,Naechste,,0,0,0,,Kant wird mehr als zweitausend Jahre später einen verwandten Gedanken so fassen:
+Dialogue: 1,0:18:44.26,0:18:49.04,Karaoke,,0,0,0,,{\k74}{\kf16}Kant {\kf22}wird {\kf22}mehr {\kf17}als {\kf63}zweitausend {\kf22}Jahre\N{\kf42}später {\kf24}einen {\kf46}verwandten {\kf32}Gedanken {\kf24}so {\kf74}fassen:
+Dialogue: 0,0:18:44.26,0:18:49.04,Naechste,,0,0,0,,Gedanken ohne Inhalt sind leer, Anschauungen ohne Begriffe sind blind.
+Dialogue: 1,0:18:49.04,0:18:52.91,Karaoke,,0,0,0,,{\k0}{\kf26}Gedanken {\kf44}ohne {\kf38}Inhalt {\kf18}sind {\kf60}leer,\N{\kf42}Anschauungen {\kf22}ohne {\kf46}Begriffe {\kf14}sind {\kf42}blind.
+Dialogue: 0,0:18:49.04,0:18:52.91,Naechste,,0,0,0,,Theaitetos beginnt neu.
+Dialogue: 1,0:18:56.02,0:18:58.30,Karaoke,,0,0,0,,{\k80}{\kf82}Theaitetos {\kf32}beginnt {\kf34}neu.
+Dialogue: 0,0:18:56.02,0:18:58.30,Naechste,,0,0,0,,Wenn die Seele selbst sich mit dem Seienden beschäftigt,
+Dialogue: 1,0:18:58.30,0:19:01.78,Karaoke,,0,0,0,,{\k64}{\kf8}Wenn {\kf18}die {\kf38}Seele {\kf36}selbst {\kf26}sich\N{\kf16}mit {\kf13}dem {\kf35}Seienden {\kf94}beschäftigt,
+Dialogue: 0,0:18:58.30,0:19:01.78,Naechste,,0,0,0,,nennt man das Meinen oder Urteilen.
+Dialogue: 1,0:19:01.78,0:19:03.34,Karaoke,,0,0,0,,{\k0}{\kf18}nennt {\kf14}man {\kf16}das {\kf36}Meinen {\kf18}oder {\kf54}Urteilen.
+Dialogue: 0,0:19:01.78,0:19:03.34,Naechste,,0,0,0,,Da es auch falsche Meinungen gibt, schlägt er vor: Erkenntnis ist wahre Meinung.
+Dialogue: 1,0:19:03.34,0:19:08.32,Karaoke,,0,0,0,,{\k70}{\kf12}Da {\kf20}es {\kf18}auch {\kf38}falsche {\kf38}Meinungen {\kf68}gibt, {\kf24}schlägt\N{\kf14}er {\kf56}vor: {\kf52}Erkenntnis {\kf22}ist {\kf32}wahre {\kf26}Meinung.
+Dialogue: 0,0:19:03.34,0:19:08.32,Naechste,,0,0,0,,Sokrates lenkt das Gespräch sofort auf ein Rätsel, das ihn schon lange beunruhigt:
+Dialogue: 1,0:19:08.32,0:19:13.54,Karaoke,,0,0,0,,{\k80}{\kf68}Sokrates {\kf22}lenkt {\kf12}das {\kf48}Gespräch {\kf32}sofort {\kf24}auf {\kf12}ein\N{\kf56}Rätsel, {\kf8}das {\kf18}ihn {\kf14}schon {\kf26}lange {\kf102}beunruhigt:
+Dialogue: 0,0:19:08.32,0:19:13.54,Naechste,,0,0,0,,Wie ist eine falsche Meinung überhaupt möglich?
+Dialogue: 1,0:19:13.54,0:19:15.70,Karaoke,,0,0,0,,{\k0}{\kf8}Wie {\kf16}ist {\kf18}eine {\kf34}falsche\N{\kf32}Meinung {\kf36}überhaupt {\kf66}möglich?
+Dialogue: 0,0:19:13.54,0:19:15.70,Naechste,,0,0,0,,Erster Versuch.
+Dialogue: 1,0:19:15.70,0:19:17.26,Karaoke,,0,0,0,,{\k80}{\kf32}Erster {\kf44}Versuch.
+Dialogue: 0,0:19:15.70,0:19:17.26,Naechste,,0,0,0,,Alles, worüber wir urteilen, kennen wir entweder, oder wir kennen es nicht.
+Dialogue: 1,0:19:17.26,0:19:21.66,Karaoke,,0,0,0,,{\k58}{\kf58}Alles, {\kf24}worüber {\kf10}wir {\kf84}urteilen, {\kf14}kennen\N{\kf14}wir {\kf36}entweder, {\kf56}oder {\kf20}wir {\kf20}kennen {\kf18}es {\kf28}nicht.
+Dialogue: 0,0:19:17.26,0:19:21.66,Naechste,,0,0,0,,Wer zwei Dinge kennt, kann das eine nicht für das andere halten.
+Dialogue: 1,0:19:21.66,0:19:25.30,Karaoke,,0,0,0,,{\k64}{\kf8}Wer {\kf26}zwei {\kf26}Dinge {\kf72}kennt, {\kf10}kann {\kf14}das\N{\kf18}eine {\kf18}nicht {\kf16}für {\kf14}das {\kf30}andere {\kf30}halten.
+Dialogue: 0,0:19:21.66,0:19:25.30,Naechste,,0,0,0,,Wer beide nicht kennt, auch nicht, denn er hat sie gar nicht im Sinn.
+Dialogue: 1,0:19:25.30,0:19:28.98,Karaoke,,0,0,0,,{\k80}{\kf8}Wer {\kf26}beide {\kf18}nicht {\kf30}kennt, {\kf42}auch {\kf64}nicht,\N{\kf8}denn {\kf12}er {\kf12}hat {\kf8}sie {\kf16}gar {\kf12}nicht {\kf18}im {\kf14}Sinn.
+Dialogue: 0,0:19:25.30,0:19:28.98,Naechste,,0,0,0,,Und wer das eine kennt und das andere nicht, kann sie ebenfalls nicht verwechseln.
+Dialogue: 1,0:19:28.98,0:19:33.44,Karaoke,,0,0,0,,{\k70}{\kf8}Und {\kf16}wer {\kf16}das {\kf18}eine {\kf32}kennt {\kf22}und {\kf14}das {\kf26}andere\N{\kf60}nicht, {\kf26}kann {\kf16}sie {\kf40}ebenfalls {\kf28}nicht {\kf54}verwechseln.
+Dialogue: 0,0:19:28.98,0:19:33.44,Naechste,,0,0,0,,Jede Möglichkeit ist versperrt.
+Dialogue: 1,0:19:33.44,0:19:35.68,Karaoke,,0,0,0,,{\k64}{\kf18}Jede {\kf42}Möglichkeit {\kf30}ist {\kf58}versperrt.
+Dialogue: 0,0:19:33.44,0:19:35.68,Naechste,,0,0,0,,Zweiter Versuch.
+Dialogue: 1,0:19:35.68,0:19:37.26,Karaoke,,0,0,0,,{\k80}{\kf36}Zweiter {\kf42}Versuch.
+Dialogue: 0,0:19:35.68,0:19:37.26,Naechste,,0,0,0,,Falsch urteilen heißt, das Nichtseiende zu meinen.
+Dialogue: 1,0:19:37.26,0:19:40.32,Karaoke,,0,0,0,,{\k42}{\kf34}Falsch {\kf46}urteilen {\kf74}heißt, {\kf10}das\N{\kf50}Nichtseiende {\kf18}zu {\kf32}meinen.
+Dialogue: 0,0:19:37.26,0:19:40.32,Naechste,,0,0,0,,Aber wer etwas sieht, sieht etwas Seiendes.
+Dialogue: 1,0:19:40.32,0:19:43.26,Karaoke,,0,0,0,,{\k64}{\kf16}Aber {\kf20}wer {\kf30}etwas {\kf66}sieht,\N{\kf8}sieht {\kf32}etwas {\kf58}Seiendes.
+Dialogue: 0,0:19:40.32,0:19:43.26,Naechste,,0,0,0,,Wer das Nichtseiende meint, meint nichts, und wer nichts meint,
+Dialogue: 1,0:19:43.26,0:19:47.46,Karaoke,,0,0,0,,{\k62}{\kf8}Wer {\kf18}das {\kf48}Nichtseiende {\kf76}meint, {\kf14}meint\N{\kf70}nichts, {\kf14}und {\kf14}wer {\kf22}nichts {\kf74}meint,
+Dialogue: 0,0:19:43.26,0:19:47.46,Naechste,,0,0,0,,meint überhaupt nicht.
+Dialogue: 1,0:19:47.46,0:19:48.40,Karaoke,,0,0,0,,{\k0}{\kf16}meint {\kf34}überhaupt {\kf44}nicht.
+Dialogue: 0,0:19:47.46,0:19:48.40,Naechste,,0,0,0,,Auch das scheitert.
+Dialogue: 1,0:19:48.40,0:19:50.13,Karaoke,,0,0,0,,{\k48}{\kf16}Auch {\kf24}das {\kf50}scheitert.
+Dialogue: 0,0:19:48.40,0:19:50.13,Naechste,,0,0,0,,Dritter Versuch.
+Dialogue: 1,0:19:53.58,0:19:55.16,Karaoke,,0,0,0,,{\k80}{\kf32}Dritter {\kf46}Versuch.
+Dialogue: 0,0:19:53.58,0:19:55.16,Naechste,,0,0,0,,Vielleicht heißt falsch urteilen, etwas mit etwas anderem zu vertauschen.
+Dialogue: 1,0:19:55.16,0:19:59.38,Karaoke,,0,0,0,,{\k60}{\kf26}Vielleicht {\kf18}heißt {\kf22}falsch {\kf90}urteilen,\N{\kf52}etwas {\kf24}mit {\kf24}etwas {\kf46}anderem {\kf14}zu {\kf46}vertauschen.
+Dialogue: 0,0:19:55.16,0:19:59.38,Naechste,,0,0,0,,Dazu gibt Sokrates eine Bestimmung des Denkens, die berühmt geworden ist.
+Dialogue: 1,0:19:59.38,0:20:04.16,Karaoke,,0,0,0,,{\k72}{\kf26}Dazu {\kf32}gibt {\kf56}Sokrates {\kf30}eine {\kf40}Bestimmung\N{\kf22}des {\kf74}Denkens, {\kf8}die {\kf32}berühmt {\kf30}geworden {\kf40}ist.
+Dialogue: 0,0:19:59.38,0:20:04.16,Naechste,,0,0,0,,Denken ist eine Rede, welche die Seele bei sich selbst durchgeht über das,
+Dialogue: 1,0:20:04.16,0:20:08.74,Karaoke,,0,0,0,,{\k80}{\kf34}Denken {\kf14}ist {\kf22}eine {\kf62}Rede, {\kf18}welche {\kf28}die {\kf24}Seele\N{\kf16}bei {\kf12}sich {\kf28}selbst {\kf46}durchgeht {\kf22}über {\kf52}das,
+Dialogue: 0,0:20:04.16,0:20:08.74,Naechste,,0,0,0,,was sie erforschen will.
+Dialogue: 1,0:20:08.74,0:20:09.58,Karaoke,,0,0,0,,{\k0}{\kf14}was {\kf12}sie {\kf42}erforschen {\kf16}will.
+Dialogue: 0,0:20:08.74,0:20:09.58,Naechste,,0,0,0,,Solange sie denkt, tut sie nichts anderes, als sich zu unterreden:
+Dialogue: 1,0:20:09.58,0:20:13.94,Karaoke,,0,0,0,,{\k76}{\kf42}Solange {\kf20}sie {\kf64}denkt, {\kf12}tut {\kf18}sie {\kf18}nichts\N{\kf76}anderes, {\kf10}als {\kf16}sich {\kf16}zu {\kf68}unterreden:
+Dialogue: 0,0:20:09.58,0:20:13.94,Naechste,,0,0,0,,Sie fragt sich selbst und antwortet, bejaht und verneint.
+Dialogue: 1,0:20:13.94,0:20:17.26,Karaoke,,0,0,0,,{\k0}{\kf8}Sie {\kf36}fragt {\kf10}sich {\kf40}selbst {\kf38}und\N{\kf90}antwortet, {\kf28}bejaht {\kf30}und {\kf52}verneint.
+Dialogue: 0,0:20:13.94,0:20:17.26,Naechste,,0,0,0,,Eine Meinung ist eine ausgesprochene Rede, nicht zu einem anderen und nicht laut,
+Dialogue: 1,0:20:17.26,0:20:22.10,Karaoke,,0,0,0,,{\k50}{\kf14}Eine {\kf42}Meinung {\kf26}ist {\kf18}eine {\kf78}ausgesprochene {\kf24}Rede,\N{\kf32}nicht {\kf18}zu {\kf18}einem {\kf32}anderen {\kf44}und {\kf24}nicht {\kf64}laut,
+Dialogue: 0,0:20:17.26,0:20:22.10,Naechste,,0,0,0,,sondern schweigend zu sich selbst.
+Dialogue: 1,0:20:22.10,0:20:23.56,Karaoke,,0,0,0,,{\k0}{\kf22}sondern {\kf46}schweigend {\kf14}zu {\kf16}sich {\kf48}selbst.
+Dialogue: 0,0:20:22.10,0:20:23.56,Naechste,,0,0,0,,Aber dann wird es eng.
+Dialogue: 1,0:20:23.56,0:20:25.20,Karaoke,,0,0,0,,{\k70}{\kf18}Aber {\kf22}dann {\kf20}wird {\kf16}es {\kf18}eng.
+Dialogue: 0,0:20:23.56,0:20:25.20,Naechste,,0,0,0,,Niemand sagt im Gespräch mit sich selbst, auch nicht im Wahnsinn:
+Dialogue: 1,0:20:25.20,0:20:29.00,Karaoke,,0,0,0,,{\k78}{\kf22}Niemand {\kf26}sagt {\kf22}im {\kf36}Gespräch {\kf14}mit {\kf14}sich\N{\kf62}selbst, {\kf12}auch {\kf18}nicht {\kf22}im {\kf54}Wahnsinn:
+Dialogue: 0,0:20:25.20,0:20:29.00,Naechste,,0,0,0,,„Der Ochse ist ganz gewiss ein Pferd“ oder „Zwei ist eins“.
+Dialogue: 1,0:20:29.00,0:20:31.46,Karaoke,,0,0,0,,{\k0}{\kf8}„Der {\kf26}Ochse {\kf18}ist {\kf16}ganz {\kf32}gewiss {\kf20}ein\N{\kf32}Pferd“ {\kf12}oder {\kf28}„Zwei {\kf20}ist {\kf34}eins“.
+Dialogue: 0,0:20:29.00,0:20:31.46,Naechste,,0,0,0,,Wer beides vor Augen hat, verwechselt es nicht.
+Dialogue: 1,0:20:31.46,0:20:34.04,Karaoke,,0,0,0,,{\k54}{\kf10}Wer {\kf32}beides {\kf16}vor {\kf20}Augen {\kf46}hat,\N{\kf46}verwechselt {\kf8}es {\kf26}nicht.
+Dialogue: 0,0:20:31.46,0:20:34.04,Naechste,,0,0,0,,Auch die Vertauschung scheint unmöglich.
+Dialogue: 1,0:20:34.04,0:20:36.71,Karaoke,,0,0,0,,{\k52}{\kf14}Auch {\kf16}die {\kf60}Vertauschung {\kf24}scheint {\kf66}unmöglich.
+Dialogue: 0,0:20:34.04,0:20:36.71,Naechste,,0,0,0,,Sokrates versucht es mit einem Bild.
+Dialogue: 1,0:20:39.96,0:20:42.66,Karaoke,,0,0,0,,{\k80}{\kf68}Sokrates {\kf32}versucht {\kf24}es {\kf14}mit {\kf16}einem {\kf36}Bild.
+Dialogue: 0,0:20:39.96,0:20:42.66,Naechste,,0,0,0,,Stell dir vor, in unseren Seelen gibt es einen Block aus Wachs,
+Dialogue: 1,0:20:42.66,0:20:46.66,Karaoke,,0,0,0,,{\k56}{\kf18}Stell {\kf14}dir {\kf70}vor, {\kf8}in {\kf28}unseren {\kf40}Seelen\N{\kf18}gibt {\kf20}es {\kf18}einen {\kf26}Block {\kf24}aus {\kf60}Wachs,
+Dialogue: 0,0:20:42.66,0:20:46.66,Naechste,,0,0,0,,bei dem einen größer, bei dem anderen kleiner, reiner oder schmutziger,
+Dialogue: 1,0:20:46.66,0:20:50.48,Karaoke,,0,0,0,,{\k0}{\kf10}bei {\kf12}dem {\kf22}einen {\kf72}größer, {\kf8}bei {\kf10}dem {\kf32}anderen\N{\kf82}kleiner, {\kf30}reiner {\kf24}oder {\kf80}schmutziger,
+Dialogue: 0,0:20:46.66,0:20:50.48,Naechste,,0,0,0,,härter oder weicher.
+Dialogue: 1,0:20:50.48,0:20:51.46,Karaoke,,0,0,0,,{\k0}{\kf22}härter {\kf20}oder {\kf36}weicher.
+Dialogue: 0,0:20:50.48,0:20:51.46,Naechste,,0,0,0,,Er ist ein Geschenk der Mnemosyne, der Mutter der Musen.
+Dialogue: 1,0:20:51.46,0:20:54.88,Karaoke,,0,0,0,,{\k80}{\kf8}Er {\kf18}ist {\kf18}ein {\kf34}Geschenk {\kf18}der\N{\kf56}Mnemosyne, {\kf42}der {\kf18}Mutter {\kf16}der {\kf24}Musen.
+Dialogue: 0,0:20:51.46,0:20:54.88,Naechste,,0,0,0,,Was wir sehen, hören oder denken und behalten wollen, drücken wir in dieses Wachs,
+Dialogue: 1,0:20:54.88,0:21:00.40,Karaoke,,0,0,0,,{\k80}{\kf14}Was {\kf18}wir {\kf60}sehen, {\kf22}hören {\kf24}oder {\kf32}denken {\kf38}und\N{\kf38}behalten {\kf43}wollen, {\kf51}drücken {\kf14}wir {\kf16}in {\kf26}dieses {\kf76}Wachs,
+Dialogue: 0,0:20:54.88,0:21:00.40,Naechste,,0,0,0,,wie man mit einem Siegelring siegelt.
+Dialogue: 1,0:21:00.40,0:21:02.10,Karaoke,,0,0,0,,{\k0}{\kf10}wie {\kf18}man {\kf14}mit {\kf24}einem {\kf61}Siegelring {\kf43}siegelt.
+Dialogue: 0,0:21:00.40,0:21:02.10,Naechste,,0,0,0,,Was sich einprägt, erinnern und wissen wir, solange sein Bild bleibt.
+Dialogue: 1,0:21:02.10,0:21:06.56,Karaoke,,0,0,0,,{\k62}{\kf10}Was {\kf20}sich {\kf92}einprägt, {\kf50}erinnern {\kf14}und\N{\kf24}wissen {\kf54}wir, {\kf28}solange {\kf22}sein {\kf18}Bild {\kf52}bleibt.
+Dialogue: 0,0:21:02.10,0:21:06.56,Naechste,,0,0,0,,Was verwischt oder sich nicht einprägen lässt, haben wir vergessen.
+Dialogue: 1,0:21:06.56,0:21:10.14,Karaoke,,0,0,0,,{\k54}{\kf10}Was {\kf38}verwischt {\kf16}oder {\kf18}sich {\kf16}nicht\N{\kf50}einprägen {\kf60}lässt, {\kf12}haben {\kf14}wir {\kf36}vergessen.
+Dialogue: 0,0:21:06.56,0:21:10.14,Naechste,,0,0,0,,Jetzt lässt sich der Irrtum genau verorten:
+Dialogue: 1,0:21:10.14,0:21:13.28,Karaoke,,0,0,0,,{\k80}{\kf20}Jetzt {\kf26}lässt {\kf28}sich {\kf14}der\N{\kf28}Irrtum {\kf26}genau {\kf92}verorten:
+Dialogue: 0,0:21:10.14,0:21:13.28,Naechste,,0,0,0,,nicht zwischen zwei Wahrnehmungen und nicht zwischen zwei Erinnerungen,
+Dialogue: 1,0:21:13.28,0:21:16.56,Karaoke,,0,0,0,,{\k0}{\kf12}nicht {\kf30}zwischen {\kf34}zwei {\kf54}Wahrnehmungen\N{\kf28}und {\kf24}nicht {\kf30}zwischen {\kf24}zwei {\kf92}Erinnerungen,
+Dialogue: 0,0:21:13.28,0:21:16.56,Naechste,,0,0,0,,sondern dort, wo eine Wahrnehmung einem Abdruck zugeordnet wird.
+Dialogue: 1,0:21:16.56,0:21:19.80,Karaoke,,0,0,0,,{\k0}{\kf26}sondern {\kf68}dort, {\kf14}wo {\kf20}eine {\kf40}Wahrnehmung\N{\kf18}einem {\kf44}Abdruck {\kf58}zugeordnet {\kf36}wird.
+Dialogue: 0,0:21:16.56,0:21:19.80,Naechste,,0,0,0,,Ich kenne Theodoros und Theaitetos und habe von beiden einen Abdruck.
+Dialogue: 1,0:21:19.80,0:21:24.70,Karaoke,,0,0,0,,{\k66}{\kf8}Ich {\kf22}kenne {\kf84}Theodoros {\kf28}und {\kf92}Theaitetos\N{\kf34}und {\kf22}habe {\kf22}von {\kf30}beiden {\kf28}einen {\kf54}Abdruck.
+Dialogue: 0,0:21:19.80,0:21:24.70,Naechste,,0,0,0,,Sehe ich beide von weitem und undeutlich,
+Dialogue: 1,0:21:24.70,0:21:27.24,Karaoke,,0,0,0,,{\k48}{\kf18}Sehe {\kf10}ich {\kf22}beide {\kf22}von {\kf36}weitem {\kf12}und {\kf86}undeutlich,
+Dialogue: 0,0:21:24.70,0:21:27.24,Naechste,,0,0,0,,kann ich den Anblick des einen in den Abdruck des anderen legen,
+Dialogue: 1,0:21:27.24,0:21:30.04,Karaoke,,0,0,0,,{\k0}{\kf12}kann {\kf10}ich {\kf12}den {\kf39}Anblick {\kf17}des {\kf20}einen\N{\kf14}in {\kf6}den {\kf36}Abdruck {\kf32}des {\kf26}anderen {\kf56}legen,
+Dialogue: 0,0:21:27.24,0:21:30.04,Naechste,,0,0,0,,wie wenn man Schuhe an den falschen Fuß zieht, oder wie im Spiegel,
+Dialogue: 1,0:21:30.04,0:21:33.00,Karaoke,,0,0,0,,{\k0}{\kf6}wie {\kf16}wenn {\kf10}man {\kf24}Schuhe {\kf12}an {\kf10}den {\kf38}falschen\N{\kf14}Fuß {\kf46}zieht, {\kf30}oder {\kf14}wie {\kf8}im {\kf68}Spiegel,
+Dialogue: 0,0:21:30.04,0:21:33.00,Naechste,,0,0,0,,der rechts und links vertauscht.
+Dialogue: 1,0:21:33.00,0:21:34.40,Karaoke,,0,0,0,,{\k0}{\kf10}der {\kf18}rechts {\kf32}und {\kf22}links {\kf58}vertauscht.
+Dialogue: 0,0:21:33.00,0:21:34.40,Naechste,,0,0,0,,Das Bild erklärt sogar Begabung.
+Dialogue: 1,0:21:34.40,0:21:36.64,Karaoke,,0,0,0,,{\k80}{\kf14}Das {\kf30}Bild {\kf44}erklärt {\kf20}sogar {\kf36}Begabung.
+Dialogue: 0,0:21:34.40,0:21:36.64,Naechste,,0,0,0,,Wer tiefes, glattes, gut durchknetetes Wachs hat, lernt gut und behält gut.
+Dialogue: 1,0:21:36.64,0:21:42.30,Karaoke,,0,0,0,,{\k76}{\kf8}Wer {\kf86}tiefes, {\kf42}glattes, {\kf18}gut {\kf80}durchknetetes\N{\kf46}Wachs {\kf48}hat, {\kf22}lernt {\kf22}gut {\kf44}und {\kf38}behält {\kf36}gut.
+Dialogue: 0,0:21:36.64,0:21:42.30,Naechste,,0,0,0,,Ist das Herz zottig, wie Homer sagt, oder ist das Wachs schmutzig,
+Dialogue: 1,0:21:42.30,0:21:46.14,Karaoke,,0,0,0,,{\k58}{\kf10}Ist {\kf16}das {\kf36}Herz {\kf54}zottig, {\kf10}wie {\kf30}Homer\N{\kf56}sagt, {\kf12}oder {\kf12}ist {\kf6}das {\kf10}Wachs {\kf74}schmutzig,
+Dialogue: 0,0:21:42.30,0:21:46.14,Naechste,,0,0,0,,zu weich oder zu hart, dann werden die Abdrücke undeutlich,
+Dialogue: 1,0:21:46.14,0:21:49.00,Karaoke,,0,0,0,,{\k0}{\kf16}zu {\kf32}weich {\kf18}oder {\kf14}zu {\kf64}hart, {\kf14}dann\N{\kf20}werden {\kf16}die {\kf42}Abdrücke {\kf50}undeutlich,
+Dialogue: 0,0:21:46.14,0:21:49.00,Naechste,,0,0,0,,und es kommt leicht zu Irrtümern.
+Dialogue: 1,0:21:49.00,0:21:50.76,Karaoke,,0,0,0,,{\k0}{\kf32}und {\kf12}es {\kf18}kommt {\kf26}leicht {\kf32}zu {\kf22}Irrtümern.
+Dialogue: 0,0:21:49.00,0:21:50.76,Naechste,,0,0,0,,Das Bild hat eine lange Geschichte.
+Dialogue: 1,0:21:50.76,0:21:53.12,Karaoke,,0,0,0,,{\k80}{\kf14}Das {\kf24}Bild {\kf20}hat {\kf24}eine {\kf18}lange {\kf56}Geschichte.
+Dialogue: 0,0:21:50.76,0:21:53.12,Naechste,,0,0,0,,Aristoteles vergleicht die Wahrnehmung mit Wachs,
+Dialogue: 1,0:21:53.12,0:21:56.24,Karaoke,,0,0,0,,{\k54}{\kf80}Aristoteles {\kf44}vergleicht\N{\kf14}die {\kf44}Wahrnehmung {\kf22}mit {\kf54}Wachs,
+Dialogue: 0,0:21:53.12,0:21:56.24,Naechste,,0,0,0,,das die Form eines Siegelrings aufnimmt, ohne dessen Eisen oder Gold.
+Dialogue: 1,0:21:56.24,0:22:00.22,Karaoke,,0,0,0,,{\k0}{\kf8}das {\kf14}die {\kf34}Form {\kf27}eines {\kf59}Siegelrings\N{\kf86}aufnimmt, {\kf16}ohne {\kf42}dessen {\kf30}Eisen {\kf36}oder {\kf46}Gold.
+Dialogue: 0,0:21:56.24,0:22:00.22,Naechste,,0,0,0,,Und Sigmund Freud entwirft 1925, ohne Platon zu nennen,
+Dialogue: 1,0:22:00.22,0:22:06.02,Karaoke,,0,0,0,,{\k56}{\kf12}Und {\kf38}Sigmund {\kf28}Freud {\kf130}entwirft\N{\kf144}1925, {\kf40}ohne {\kf50}Platon {\kf18}zu {\kf64}nennen,
+Dialogue: 0,0:22:00.22,0:22:06.02,Naechste,,0,0,0,,ein Modell des Gedächtnisses am Wunderblock, einer Schreibtafel aus Harz oder Wachs.
+Dialogue: 1,0:22:06.02,0:22:10.61,Karaoke,,0,0,0,,{\k0}{\kf8}ein {\kf28}Modell {\kf14}des {\kf52}Gedächtnisses {\kf22}am {\kf92}Wunderblock,\N{\kf12}einer {\kf70}Schreibtafel {\kf16}aus {\kf40}Harz {\kf28}oder {\kf42}Wachs.
+Dialogue: 0,0:22:06.02,0:22:10.61,Naechste,,0,0,0,,Doch die Wachstafel hat eine Lücke.
+Dialogue: 1,0:22:13.74,0:22:16.02,Karaoke,,0,0,0,,{\k80}{\kf11}Doch {\kf18}die {\kf60}Wachstafel {\kf12}hat {\kf20}eine {\kf27}Lücke.
+Dialogue: 0,0:22:13.74,0:22:16.02,Naechste,,0,0,0,,Wenn Irrtum nur dort entsteht, wo Wahrnehmung und Gedanke aufeinandertreffen,
+Dialogue: 1,0:22:16.02,0:22:20.87,Karaoke,,0,0,0,,{\k78}{\kf7}Wenn {\kf38}Irrtum {\kf18}nur {\kf16}dort {\kf76}entsteht, {\kf12}wo\N{\kf42}Wahrnehmung {\kf34}und {\kf44}Gedanke {\kf120}aufeinandertreffen,
+Dialogue: 0,0:22:16.02,0:22:20.87,Naechste,,0,0,0,,dann könnte man sich über reine Gedanken nie irren.
+Dialogue: 1,0:22:20.87,0:22:23.18,Karaoke,,0,0,0,,{\k0}{\kf8}dann {\kf22}könnte {\kf20}man {\kf14}sich {\kf22}über\N{\kf28}reine {\kf42}Gedanken {\kf22}nie {\kf37}irren.
+Dialogue: 0,0:22:20.87,0:22:23.18,Naechste,,0,0,0,,Man könnte also nie die gedachte Elf für die gedachte Zwölf halten.
+Dialogue: 1,0:22:23.18,0:22:27.04,Karaoke,,0,0,0,,{\k80}{\kf11}Man {\kf34}könnte {\kf28}also {\kf18}nie {\kf16}die {\kf30}gedachte\N{\kf27}Elf {\kf27}für {\kf6}die {\kf26}gedachte {\kf36}Zwölf {\kf39}halten.
+Dialogue: 0,0:22:23.18,0:22:27.04,Naechste,,0,0,0,,Aber genau das passiert.
+Dialogue: 1,0:22:27.04,0:22:29.12,Karaoke,,0,0,0,,{\k80}{\kf17}Aber {\kf28}genau {\kf22}das {\kf61}passiert.
+Dialogue: 0,0:22:27.04,0:22:29.12,Naechste,,0,0,0,,Wer fünf und sieben zusammenzählt, nicht fünf Menschen und sieben Menschen,
+Dialogue: 1,0:22:29.12,0:22:34.03,Karaoke,,0,0,0,,{\k60}{\kf11}Wer {\kf44}fünf {\kf26}und {\kf28}sieben {\kf104}zusammenzählt,\N{\kf10}nicht {\kf26}fünf {\kf38}Menschen {\kf36}und {\kf30}sieben {\kf78}Menschen,
+Dialogue: 0,0:22:29.12,0:22:34.03,Naechste,,0,0,0,,sondern die Zahlen selbst, kann meinen, die Summe sei elf.
+Dialogue: 1,0:22:34.03,0:22:37.02,Karaoke,,0,0,0,,{\k0}{\kf20}sondern {\kf20}die {\kf26}Zahlen {\kf66}selbst,\N{\kf20}kann {\kf66}meinen, {\kf8}die {\kf20}Summe {\kf12}sei {\kf41}elf.
+Dialogue: 0,0:22:34.03,0:22:37.02,Naechste,,0,0,0,,Viele, sagt Theaitetos, sagen elf.
+Dialogue: 1,0:22:37.02,0:22:40.08,Karaoke,,0,0,0,,{\k66}{\kf69}Viele, {\kf18}sagt {\kf106}Theaitetos, {\kf6}sagen {\kf41}elf.
+Dialogue: 0,0:22:37.02,0:22:40.08,Naechste,,0,0,0,,Hier wird etwas, das man weiß, mit etwas anderem verwechselt,
+Dialogue: 1,0:22:40.08,0:22:44.19,Karaoke,,0,0,0,,{\k60}{\kf15}Hier {\kf14}wird {\kf66}etwas, {\kf10}das {\kf20}man {\kf60}weiß,\N{\kf6}mit {\kf20}etwas {\kf38}anderem {\kf102}verwechselt,
+Dialogue: 0,0:22:40.08,0:22:44.19,Naechste,,0,0,0,,das man ebenfalls weiß.
+Dialogue: 1,0:22:44.19,0:22:45.34,Karaoke,,0,0,0,,{\k0}{\kf12}das {\kf18}man {\kf32}ebenfalls {\kf53}weiß.
+Dialogue: 0,0:22:44.19,0:22:45.34,Naechste,,0,0,0,,Das Rätsel ist zurück.
+Dialogue: 1,0:22:45.34,0:22:47.51,Karaoke,,0,0,0,,{\k76}{\kf11}Das {\kf46}Rätsel {\kf8}ist {\kf41}zurück.
+Dialogue: 0,0:22:45.34,0:22:47.51,Naechste,,0,0,0,,Sokrates bemerkt selbst, wie dreist das Gespräch ist.
+Dialogue: 1,0:22:50.68,0:22:54.56,Karaoke,,0,0,0,,{\k80}{\kf69}Sokrates {\kf36}bemerkt {\kf66}selbst,\N{\kf10}wie {\kf28}dreist {\kf14}das {\kf50}Gespräch {\kf35}ist.
+Dialogue: 0,0:22:50.68,0:22:54.56,Naechste,,0,0,0,,Die ganze Zeit sagen sie „wir wissen“ und „wir wissen nicht“,
+Dialogue: 1,0:22:54.56,0:22:57.73,Karaoke,,0,0,0,,{\k56}{\kf11}Die {\kf22}ganze {\kf28}Zeit {\kf34}sagen {\kf14}sie {\kf12}„wir\N{\kf24}wissen“ {\kf30}und {\kf12}„wir {\kf20}wissen {\kf54}nicht“,
+Dialogue: 0,0:22:54.56,0:22:57.73,Naechste,,0,0,0,,als verstünden sie sich, während sie doch gerade nicht wissen, was Wissen ist.
+Dialogue: 1,0:22:57.73,0:23:01.14,Karaoke,,0,0,0,,{\k0}{\kf10}als {\kf38}verstünden {\kf27}sie {\kf37}sich, {\kf10}während {\kf18}sie\N{\kf14}doch {\kf28}gerade {\kf18}nicht {\kf74}wissen, {\kf12}was {\kf24}Wissen {\kf31}ist.
+Dialogue: 0,0:22:57.73,0:23:01.14,Naechste,,0,0,0,,Er unterscheidet nun zwischen Wissen besitzen und Wissen haben.
+Dialogue: 1,0:23:01.14,0:23:04.58,Karaoke,,0,0,0,,{\k76}{\kf11}Er {\kf62}unterscheidet {\kf20}nun {\kf22}zwischen\N{\kf36}Wissen {\kf50}besitzen {\kf22}und {\kf24}Wissen {\kf20}haben.
+Dialogue: 0,0:23:01.14,0:23:04.58,Naechste,,0,0,0,,Wer einen Mantel gekauft hat, ihn aber nicht trägt, besitzt ihn,
+Dialogue: 1,0:23:04.58,0:23:08.71,Karaoke,,0,0,0,,{\k72}{\kf11}Wer {\kf22}einen {\kf26}Mantel {\kf38}gekauft {\kf56}hat, {\kf5}ihn\N{\kf15}aber {\kf16}nicht {\kf70}trägt, {\kf32}besitzt {\kf50}ihn,
+Dialogue: 0,0:23:04.58,0:23:08.71,Naechste,,0,0,0,,hat ihn aber nicht an.
+Dialogue: 1,0:23:08.71,0:23:09.48,Karaoke,,0,0,0,,{\k0}{\kf10}hat {\kf12}ihn {\kf20}aber {\kf16}nicht {\kf19}an.
+Dialogue: 0,0:23:08.71,0:23:09.48,Naechste,,0,0,0,,Ebenso ein Vogelfänger, der wilde Tauben in einem Taubenschlag hält:
+Dialogue: 1,0:23:09.48,0:23:13.89,Karaoke,,0,0,0,,{\k68}{\kf27}Ebenso {\kf18}ein {\kf106}Vogelfänger, {\kf8}der {\kf36}wilde\N{\kf36}Tauben {\kf14}in {\kf16}einem {\kf46}Taubenschlag {\kf66}hält:
+Dialogue: 0,0:23:09.48,0:23:13.89,Naechste,,0,0,0,,Er besitzt sie alle, in der Hand hat er nur die, die er gerade greift.
+Dialogue: 1,0:23:13.89,0:23:16.88,Karaoke,,0,0,0,,{\k0}{\kf8}Er {\kf38}besitzt {\kf10}sie {\kf28}alle, {\kf24}in {\kf10}der {\kf20}Hand {\kf18}hat\N{\kf6}er {\kf18}nur {\kf34}die, {\kf5}die {\kf5}er {\kf20}gerade {\kf51}greift.
+Dialogue: 0,0:23:13.89,0:23:16.88,Naechste,,0,0,0,,In jeder Seele, so das Bild, gibt es einen solchen Taubenschlag.
+Dialogue: 1,0:23:16.88,0:23:21.10,Karaoke,,0,0,0,,{\k80}{\kf11}In {\kf22}jeder {\kf64}Seele, {\kf12}so {\kf18}das {\kf68}Bild, {\kf5}gibt\N{\kf17}es {\kf20}einen {\kf24}solchen {\kf81}Taubenschlag.
+Dialogue: 0,0:23:16.88,0:23:21.10,Naechste,,0,0,0,,In der Kindheit ist er leer.
+Dialogue: 1,0:23:21.10,0:23:22.90,Karaoke,,0,0,0,,{\k54}{\kf9}In {\kf12}der {\kf48}Kindheit {\kf22}ist {\kf16}er {\kf19}leer.
+Dialogue: 0,0:23:21.10,0:23:22.90,Naechste,,0,0,0,,Wer etwas lernt, fängt einen Vogel und sperrt ihn ein.
+Dialogue: 1,0:23:22.90,0:23:26.38,Karaoke,,0,0,0,,{\k56}{\kf9}Wer {\kf32}etwas {\kf72}lernt, {\kf10}fängt {\kf28}einen\N{\kf42}Vogel {\kf26}und {\kf36}sperrt {\kf14}ihn {\kf23}ein.
+Dialogue: 0,0:23:22.90,0:23:26.38,Naechste,,0,0,0,,Wer etwas weiß, besitzt ihn.
+Dialogue: 1,0:23:26.38,0:23:28.60,Karaoke,,0,0,0,,{\k66}{\kf9}Wer {\kf36}etwas {\kf68}weiß, {\kf28}besitzt {\kf15}ihn.
+Dialogue: 0,0:23:26.38,0:23:28.60,Naechste,,0,0,0,,Wer rechnet, greift hinein, um einen bestimmten Vogel herauszuholen, etwa die Zwölf.
+Dialogue: 1,0:23:28.60,0:23:34.32,Karaoke,,0,0,0,,{\k64}{\kf9}Wer {\kf78}rechnet, {\kf18}greift {\kf74}hinein, {\kf12}um {\kf20}einen\N{\kf44}bestimmten {\kf32}Vogel {\kf106}herauszuholen, {\kf24}etwa {\kf16}die {\kf55}Zwölf.
+Dialogue: 0,0:23:28.60,0:23:34.32,Naechste,,0,0,0,,Ein Irrtum wäre dann ein Fehlgriff: Man will die eine Zahl und erwischt die andere,
+Dialogue: 1,0:23:34.32,0:23:39.35,Karaoke,,0,0,0,,{\k80}{\kf15}Ein {\kf30}Irrtum {\kf22}wäre {\kf18}dann {\kf20}ein {\kf86}Fehlgriff: {\kf16}Man\N{\kf16}will {\kf16}die {\kf18}eine {\kf34}Zahl {\kf38}und {\kf24}erwischt {\kf14}die {\kf56}andere,
+Dialogue: 0,0:23:34.32,0:23:39.35,Naechste,,0,0,0,,wie wenn man statt einer Taube eine Ringeltaube fängt.
+Dialogue: 1,0:23:39.35,0:23:41.78,Karaoke,,0,0,0,,{\k0}{\kf12}wie {\kf18}wenn {\kf12}man {\kf16}statt {\kf24}einer\N{\kf42}Taube {\kf16}eine {\kf60}Ringeltaube {\kf43}fängt.
+Dialogue: 0,0:23:39.35,0:23:41.78,Naechste,,0,0,0,,Man verwechselt zwei Dinge, die man beide besitzt,
+Dialogue: 1,0:23:41.78,0:23:45.15,Karaoke,,0,0,0,,{\k58}{\kf9}Man {\kf62}verwechselt {\kf20}zwei {\kf62}Dinge,\N{\kf10}die {\kf14}man {\kf24}beide {\kf78}besitzt,
+Dialogue: 0,0:23:41.78,0:23:45.15,Naechste,,0,0,0,,ohne sie gerade in der Hand zu haben.
+Dialogue: 1,0:23:45.15,0:23:46.80,Karaoke,,0,0,0,,{\k0}{\kf22}ohne {\kf18}sie {\kf24}gerade {\kf14}in {\kf8}der {\kf20}Hand {\kf14}zu {\kf13}haben.
+Dialogue: 0,0:23:45.15,0:23:46.80,Naechste,,0,0,0,,Doch Sokrates sieht den Haken.
+Dialogue: 1,0:23:46.80,0:23:48.90,Karaoke,,0,0,0,,{\k80}{\kf13}Doch {\kf46}Sokrates {\kf32}sieht {\kf20}den {\kf19}Haken.
+Dialogue: 0,0:23:46.80,0:23:48.90,Naechste,,0,0,0,,Wie kann man gerade durch ein Wissen in Unwissen geraten?
+Dialogue: 1,0:23:48.90,0:23:52.04,Karaoke,,0,0,0,,{\k80}{\kf9}Wie {\kf22}kann {\kf14}man {\kf28}gerade {\kf26}durch {\kf28}ein\N{\kf22}Wissen {\kf18}in {\kf36}Unwissen {\kf31}geraten?
+Dialogue: 0,0:23:48.90,0:23:52.04,Naechste,,0,0,0,,Theaitetos schlägt vor, im Taubenschlag auch Vögel des Unwissens unterzubringen.
+Dialogue: 1,0:23:52.04,0:23:56.86,Karaoke,,0,0,0,,{\k70}{\kf62}Theaitetos {\kf43}schlägt {\kf54}vor, {\kf10}im {\kf56}Taubenschlag\N{\kf22}auch {\kf38}Vögel {\kf18}des {\kf48}Unwissens {\kf61}unterzubringen.
+Dialogue: 0,0:23:52.04,0:23:56.86,Naechste,,0,0,0,,Aber wer ein Unwissen für ein Wissen hält,
+Dialogue: 1,0:23:56.86,0:23:59.73,Karaoke,,0,0,0,,{\k68}{\kf15}Aber {\kf14}wer {\kf22}ein {\kf42}Unwissen {\kf20}für {\kf14}ein {\kf22}Wissen {\kf70}hält,
+Dialogue: 0,0:23:56.86,0:23:59.73,Naechste,,0,0,0,,bräuchte ein weiteres Wissen über seine Wissen und Unwissen,
+Dialogue: 1,0:23:59.73,0:24:02.51,Karaoke,,0,0,0,,{\k0}{\kf30}bräuchte {\kf14}ein {\kf44}weiteres {\kf18}Wissen\N{\kf20}über {\kf16}seine {\kf28}Wissen {\kf28}und {\kf80}Unwissen,
+Dialogue: 0,0:23:59.73,0:24:02.51,Naechste,,0,0,0,,also einen zweiten Taubenschlag, und für diesen einen dritten, ohne Ende.
+Dialogue: 1,0:24:02.51,0:24:06.16,Karaoke,,0,0,0,,{\k0}{\kf22}also {\kf20}einen {\kf24}zweiten {\kf68}Taubenschlag, {\kf40}und\N{\kf20}für {\kf28}diesen {\kf36}einen {\kf34}dritten, {\kf36}ohne {\kf37}Ende.
+Dialogue: 0,0:24:02.51,0:24:06.16,Naechste,,0,0,0,,Sokrates zieht daraus eine methodische Lehre:
+Dialogue: 1,0:24:06.16,0:24:09.53,Karaoke,,0,0,0,,{\k74}{\kf57}Sokrates {\kf44}zieht {\kf28}daraus\N{\kf22}eine {\kf52}methodische {\kf60}Lehre:
+Dialogue: 0,0:24:06.16,0:24:09.53,Naechste,,0,0,0,,Wir haben nach der falschen Meinung gefragt, bevor wir wissen, was Erkenntnis ist.
+Dialogue: 1,0:24:09.53,0:24:13.52,Karaoke,,0,0,0,,{\k0}{\kf10}Wir {\kf18}haben {\kf20}nach {\kf12}der {\kf40}falschen {\kf30}Meinung {\kf70}gefragt,\N{\kf20}bevor {\kf20}wir {\kf56}wissen, {\kf10}was {\kf50}Erkenntnis {\kf43}ist.
+Dialogue: 0,0:24:09.53,0:24:13.52,Naechste,,0,0,0,,Das war die falsche Reihenfolge.
+Dialogue: 1,0:24:13.52,0:24:15.87,Karaoke,,0,0,0,,{\k56}{\kf13}Das {\kf18}war {\kf14}die {\kf30}falsche {\kf69}Reihenfolge.
+Dialogue: 0,0:24:13.52,0:24:15.87,Naechste,,0,0,0,,Bleibt die Frage, ob wahre Meinung Erkenntnis ist.
+Dialogue: 1,0:24:19.20,0:24:22.76,Karaoke,,0,0,0,,{\k80}{\kf28}Bleibt {\kf16}die {\kf66}Frage, {\kf12}ob {\kf32}wahre\N{\kf22}Meinung {\kf60}Erkenntnis {\kf40}ist.
+Dialogue: 0,0:24:19.20,0:24:22.76,Naechste,,0,0,0,,Sokrates antwortet mit einem kurzen, schlagenden Beispiel.
+Dialogue: 1,0:24:22.76,0:24:26.36,Karaoke,,0,0,0,,{\k48}{\kf62}Sokrates {\kf46}antwortet {\kf14}mit {\kf20}einem\N{\kf80}kurzen, {\kf38}schlagenden {\kf50}Beispiel.
+Dialogue: 0,0:24:22.76,0:24:26.36,Naechste,,0,0,0,,Vor Gericht überzeugen Redner die Richter in kurzer Zeit,
+Dialogue: 1,0:24:26.36,0:24:30.02,Karaoke,,0,0,0,,{\k80}{\kf14}Vor {\kf30}Gericht {\kf60}überzeugen {\kf30}Redner\N{\kf14}die {\kf36}Richter {\kf12}in {\kf30}kurzer {\kf60}Zeit,
+Dialogue: 0,0:24:26.36,0:24:30.02,Naechste,,0,0,0,,während die Wasseruhr läuft, von etwas, das nur ein Augenzeuge wissen kann,
+Dialogue: 1,0:24:30.02,0:24:34.08,Karaoke,,0,0,0,,{\k0}{\kf14}während {\kf18}die {\kf42}Wasseruhr {\kf72}läuft, {\kf6}von {\kf68}etwas,\N{\kf6}das {\kf22}nur {\kf14}ein {\kf58}Augenzeuge {\kf22}wissen {\kf64}kann,
+Dialogue: 0,0:24:30.02,0:24:34.08,Naechste,,0,0,0,,etwa von einem Raub.
+Dialogue: 1,0:24:34.08,0:24:35.04,Karaoke,,0,0,0,,{\k0}{\kf21}etwa {\kf15}von {\kf14}einem {\kf28}Raub.
+Dialogue: 0,0:24:34.08,0:24:35.04,Naechste,,0,0,0,,Wenn die Richter sich so richtig überzeugen lassen, urteilen sie richtig,
+Dialogue: 1,0:24:35.04,0:24:39.06,Karaoke,,0,0,0,,{\k80}{\kf10}Wenn {\kf14}die {\kf32}Richter {\kf14}sich {\kf18}so {\kf24}richtig\N{\kf64}überzeugen {\kf64}lassen, {\kf34}urteilen {\kf12}sie {\kf36}richtig,
+Dialogue: 0,0:24:35.04,0:24:39.06,Naechste,,0,0,0,,und sie haben eine wahre Meinung.
+Dialogue: 1,0:24:39.06,0:24:40.78,Karaoke,,0,0,0,,{\k0}{\kf50}und {\kf14}sie {\kf20}haben {\kf24}eine {\kf32}wahre {\kf24}Meinung.
+Dialogue: 0,0:24:39.06,0:24:40.78,Naechste,,0,0,0,,Aber sie wissen es nicht, denn sie waren nicht dabei.
+Dialogue: 1,0:24:40.78,0:24:43.76,Karaoke,,0,0,0,,{\k80}{\kf16}Aber {\kf14}sie {\kf20}wissen {\kf16}es {\kf50}nicht,\N{\kf12}denn {\kf12}sie {\kf14}waren {\kf22}nicht {\kf42}dabei.
+Dialogue: 0,0:24:40.78,0:24:43.76,Naechste,,0,0,0,,Wären wahre Meinung und Erkenntnis dasselbe,
+Dialogue: 1,0:24:43.76,0:24:47.38,Karaoke,,0,0,0,,{\k72}{\kf28}Wären {\kf34}wahre {\kf42}Meinung {\kf36}und\N{\kf54}Erkenntnis {\kf96}dasselbe,
+Dialogue: 0,0:24:43.76,0:24:47.38,Naechste,,0,0,0,,könnte nicht einmal der beste Richter richtig urteilen, ohne zu wissen.
+Dialogue: 1,0:24:47.38,0:24:50.78,Karaoke,,0,0,0,,{\k0}{\kf18}könnte {\kf28}nicht {\kf32}einmal {\kf20}der {\kf24}beste {\kf42}Richter\N{\kf20}richtig {\kf98}urteilen, {\kf18}ohne {\kf18}zu {\kf22}wissen.
+Dialogue: 0,0:24:47.38,0:24:50.78,Naechste,,0,0,0,,Also sind sie verschieden.
+Dialogue: 1,0:24:50.78,0:24:52.81,Karaoke,,0,0,0,,{\k74}{\kf20}Also {\kf24}sind {\kf16}sie {\kf34}verschieden.
+Dialogue: 0,0:24:50.78,0:24:52.81,Naechste,,0,0,0,,Da erinnert sich Theaitetos, von jemandem gehört zu haben:
+Dialogue: 1,0:24:56.40,0:25:00.86,Karaoke,,0,0,0,,{\k80}{\kf12}Da {\kf42}erinnert {\kf30}sich {\kf74}Theaitetos,\N{\kf58}von {\kf44}jemandem {\kf20}gehört {\kf24}zu {\kf62}haben:
+Dialogue: 0,0:24:56.40,0:25:00.86,Naechste,,0,0,0,,Erkenntnis ist wahre Meinung mit Erklärung, griechisch: mit Logos.
+Dialogue: 1,0:25:00.86,0:25:04.36,Karaoke,,0,0,0,,{\k0}{\kf52}Erkenntnis {\kf14}ist {\kf30}wahre {\kf30}Meinung {\kf16}mit\N{\kf82}Erklärung, {\kf42}griechisch: {\kf30}mit {\kf54}Logos.
+Dialogue: 0,0:25:00.86,0:25:04.36,Naechste,,0,0,0,,Was keine Erklärung hat, sei nicht erkennbar.
+Dialogue: 1,0:25:04.36,0:25:07.02,Karaoke,,0,0,0,,{\k50}{\kf12}Was {\kf30}keine {\kf54}Erklärung {\kf46}hat,\N{\kf5}sei {\kf17}nicht {\kf52}erkennbar.
+Dialogue: 0,0:25:04.36,0:25:07.02,Naechste,,0,0,0,,Sokrates antwortet: Höre also einen Traum für den anderen.
+Dialogue: 1,0:25:07.02,0:25:10.72,Karaoke,,0,0,0,,{\k72}{\kf60}Sokrates {\kf88}antwortet: {\kf18}Höre {\kf22}also\N{\kf18}einen {\kf34}Traum {\kf14}für {\kf10}den {\kf34}anderen.
+Dialogue: 0,0:25:07.02,0:25:10.72,Naechste,,0,0,0,,Die ersten Urbestandteile, aus denen wir und alles andere zusammengesetzt sind,
+Dialogue: 1,0:25:10.72,0:25:15.72,Karaoke,,0,0,0,,{\k62}{\kf10}Die {\kf32}ersten {\kf108}Urbestandteile, {\kf18}aus {\kf16}denen {\kf26}wir\N{\kf38}und {\kf26}alles {\kf32}andere {\kf70}zusammengesetzt {\kf62}sind,
+Dialogue: 0,0:25:10.72,0:25:15.72,Naechste,,0,0,0,,ließen keine Erklärung zu.
+Dialogue: 1,0:25:15.72,0:25:17.10,Karaoke,,0,0,0,,{\k0}{\kf26}ließen {\kf24}keine {\kf50}Erklärung {\kf18}zu.
+Dialogue: 0,0:25:15.72,0:25:17.10,Naechste,,0,0,0,,Man könne sie nur benennen.
+Dialogue: 1,0:25:17.10,0:25:19.00,Karaoke,,0,0,0,,{\k80}{\kf10}Man {\kf32}könne {\kf12}sie {\kf18}nur {\kf38}benennen.
+Dialogue: 0,0:25:17.10,0:25:19.00,Naechste,,0,0,0,,Man dürfe nicht einmal sagen, dass sie sind,
+Dialogue: 1,0:25:19.00,0:25:21.96,Karaoke,,0,0,0,,{\k66}{\kf11}Man {\kf17}dürfe {\kf20}nicht {\kf30}einmal\N{\kf72}sagen, {\kf12}dass {\kf16}sie {\kf52}sind,
+Dialogue: 0,0:25:19.00,0:25:21.96,Naechste,,0,0,0,,denn damit fügte man ihnen schon etwas hinzu.
+Dialogue: 1,0:25:21.96,0:25:23.90,Karaoke,,0,0,0,,{\k0}{\kf8}denn {\kf26}damit {\kf26}fügte {\kf18}man\N{\kf22}ihnen {\kf22}schon {\kf24}etwas {\kf32}hinzu.
+Dialogue: 0,0:25:21.96,0:25:23.90,Naechste,,0,0,0,,Erst was aus ihnen zusammengesetzt ist, lässt sich erklären.
+Dialogue: 1,0:25:23.90,0:25:27.88,Karaoke,,0,0,0,,{\k80}{\kf20}Erst {\kf24}was {\kf28}aus {\kf20}ihnen {\kf78}zusammengesetzt\N{\kf64}ist, {\kf18}lässt {\kf18}sich {\kf48}erklären.
+Dialogue: 0,0:25:23.90,0:25:27.88,Naechste,,0,0,0,,Denn so, wie es selbst aus mehreren zusammengeflochten ist,
+Dialogue: 1,0:25:27.88,0:25:31.92,Karaoke,,0,0,0,,{\k64}{\kf12}Denn {\kf52}so, {\kf12}wie {\kf16}es {\kf36}selbst {\kf22}aus\N{\kf50}mehreren {\kf82}zusammengeflochten {\kf58}ist,
+Dialogue: 0,0:25:27.88,0:25:31.92,Naechste,,0,0,0,,sind auch seine Namen zu einer Erklärung zusammengeflochten.
+Dialogue: 1,0:25:31.92,0:25:34.58,Karaoke,,0,0,0,,{\k0}{\kf12}sind {\kf20}auch {\kf24}seine {\kf30}Namen {\kf16}zu {\kf18}einer\N{\kf54}Erklärung {\kf80}zusammengeflochten.
+Dialogue: 0,0:25:31.92,0:25:34.58,Naechste,,0,0,0,,Verflechtung von Namen sei das Wesen der Erklärung.
+Dialogue: 1,0:25:34.58,0:25:37.80,Karaoke,,0,0,0,,{\k80}{\kf62}Verflechtung {\kf18}von {\kf56}Namen {\kf5}sei\N{\kf13}das {\kf34}Wesen {\kf14}der {\kf40}Erklärung.
+Dialogue: 0,0:25:34.58,0:25:37.80,Naechste,,0,0,0,,Die Urbestandteile wären also wahrnehmbar, aber nicht erkennbar,
+Dialogue: 1,0:25:37.80,0:25:42.00,Karaoke,,0,0,0,,{\k58}{\kf10}Die {\kf86}Urbestandteile {\kf22}wären {\kf38}also\N{\kf94}wahrnehmbar, {\kf14}aber {\kf18}nicht {\kf80}erkennbar,
+Dialogue: 0,0:25:37.80,0:25:42.00,Naechste,,0,0,0,,die Verknüpfungen dagegen erkennbar.
+Dialogue: 1,0:25:42.00,0:25:43.64,Karaoke,,0,0,0,,{\k0}{\kf10}die {\kf52}Verknüpfungen {\kf26}dagegen {\kf68}erkennbar.
+Dialogue: 0,0:25:42.00,0:25:43.64,Naechste,,0,0,0,,Ludwig Wittgenstein zitiert diese Passage in den Philosophischen Untersuchungen,
+Dialogue: 1,0:25:43.64,0:25:48.37,Karaoke,,0,0,0,,{\k80}{\kf34}Ludwig {\kf60}Wittgenstein {\kf40}zitiert {\kf26}diese {\kf62}Passage\N{\kf18}in {\kf10}den {\kf74}Philosophischen {\kf69}Untersuchungen,
+Dialogue: 0,0:25:43.64,0:25:48.37,Naechste,,0,0,0,,Paragraph 46.
+Dialogue: 1,0:25:48.37,0:25:50.24,Karaoke,,0,0,0,,{\k0}{\kf45}Paragraph {\kf142}46.
+Dialogue: 0,0:25:48.37,0:25:50.24,Naechste,,0,0,0,,Er sieht in ihr dieselbe Idee wie in Russells Individuen und in seinen eigenen Gegenständen aus dem Tractatus:
+Dialogue: 1,0:25:50.24,0:25:56.64,Karaoke,,0,0,0,,{\k74}{\kf10}Er {\kf26}sieht {\kf22}in {\kf10}ihr {\kf40}dieselbe {\kf28}Idee {\kf26}wie {\kf14}in {\kf42}Russells {\kf62}Individuen\N{\kf46}und {\kf20}in {\kf14}seinen {\kf36}eigenen {\kf78}Gegenständen {\kf16}aus {\kf14}dem {\kf62}Tractatus:
+Dialogue: 0,0:25:50.24,0:25:56.64,Naechste,,0,0,0,,einfache Urbestandteile der Welt, die sich nur benennen lassen.
+Dialogue: 1,0:25:56.64,0:26:00.27,Karaoke,,0,0,0,,{\k0}{\kf82}einfache {\kf80}Urbestandteile {\kf18}der {\kf40}Welt,\N{\kf18}die {\kf14}sich {\kf18}nur {\kf26}benennen {\kf32}lassen.
+Dialogue: 0,0:25:56.64,0:26:00.27,Naechste,,0,0,0,,Sokrates prüft den Traum am Modell der Schrift.
+Dialogue: 1,0:26:03.60,0:26:06.74,Karaoke,,0,0,0,,{\k80}{\kf61}Sokrates {\kf46}prüft {\kf18}den {\kf32}Traum\N{\kf10}am {\kf22}Modell {\kf12}der {\kf33}Schrift.
+Dialogue: 0,0:26:03.60,0:26:06.74,Naechste,,0,0,0,,Die Elemente sind Buchstaben, die Zusammensetzungen Silben.
+Dialogue: 1,0:26:06.74,0:26:10.10,Karaoke,,0,0,0,,{\k46}{\kf9}Die {\kf62}Elemente {\kf12}sind {\kf88}Buchstaben,\N{\kf5}die {\kf75}Zusammensetzungen {\kf39}Silben.
+Dialogue: 0,0:26:06.74,0:26:10.10,Naechste,,0,0,0,,Die erste Silbe von Sokrates ist „So“.
+Dialogue: 1,0:26:10.10,0:26:12.92,Karaoke,,0,0,0,,{\k80}{\kf11}Die {\kf28}erste {\kf42}Silbe {\kf20}von {\kf48}Sokrates {\kf32}ist {\kf21}„So“.
+Dialogue: 0,0:26:10.10,0:26:12.92,Naechste,,0,0,0,,Was ist „So“?
+Dialogue: 1,0:26:12.92,0:26:14.32,Karaoke,,0,0,0,,{\k68}{\kf11}Was {\kf20}ist {\kf23}„So“?
+Dialogue: 0,0:26:12.92,0:26:14.32,Naechste,,0,0,0,,Ein Sigma und ein Omega.
+Dialogue: 1,0:26:14.32,0:26:16.66,Karaoke,,0,0,0,,{\k80}{\kf19}Ein {\kf32}Sigma {\kf44}und {\kf16}ein {\kf43}Omega.
+Dialogue: 0,0:26:14.32,0:26:16.66,Naechste,,0,0,0,,Das Sigma selbst lässt sich nicht weiter erklären.
+Dialogue: 1,0:26:16.66,0:26:19.74,Karaoke,,0,0,0,,{\k78}{\kf13}Das {\kf32}Sigma {\kf36}selbst {\kf26}lässt\N{\kf22}sich {\kf14}nicht {\kf24}weiter {\kf63}erklären.
+Dialogue: 0,0:26:16.66,0:26:19.74,Naechste,,0,0,0,,Es ist ein stimmloser Laut, ein bloßes Zischen der Zunge.
+Dialogue: 1,0:26:19.74,0:26:23.36,Karaoke,,0,0,0,,{\k62}{\kf13}Es {\kf20}ist {\kf16}ein {\kf50}stimmloser {\kf66}Laut,\N{\kf12}ein {\kf44}bloßes {\kf32}Zischen {\kf16}der {\kf31}Zunge.
+Dialogue: 0,0:26:19.74,0:26:23.36,Naechste,,0,0,0,,Und das Beta hat weder Stimme noch Geräusch.
+Dialogue: 1,0:26:23.36,0:26:25.98,Karaoke,,0,0,0,,{\k62}{\kf9}Und {\kf20}das {\kf24}Beta {\kf28}hat {\kf24}weder\N{\kf22}Stimme {\kf20}noch {\kf53}Geräusch.
+Dialogue: 0,0:26:23.36,0:26:25.98,Naechste,,0,0,0,,Die Buchstaben sind tatsächlich, wie der Traum sagt, ohne Erklärung.
+Dialogue: 1,0:26:25.98,0:26:30.30,Karaoke,,0,0,0,,{\k66}{\kf11}Die {\kf54}Buchstaben {\kf24}sind {\kf98}tatsächlich,\N{\kf6}wie {\kf8}der {\kf34}Traum {\kf58}sagt, {\kf10}ohne {\kf45}Erklärung.
+Dialogue: 0,0:26:25.98,0:26:30.30,Naechste,,0,0,0,,Jetzt das Dilemma.
+Dialogue: 1,0:26:30.30,0:26:31.96,Karaoke,,0,0,0,,{\k80}{\kf13}Jetzt {\kf20}das {\kf45}Dilemma.
+Dialogue: 0,0:26:30.30,0:26:31.96,Naechste,,0,0,0,,Entweder ist die Silbe dasselbe wie ihre Buchstaben.
+Dialogue: 1,0:26:31.96,0:26:35.68,Karaoke,,0,0,0,,{\k80}{\kf47}Entweder {\kf24}ist {\kf18}die {\kf30}Silbe\N{\kf58}dasselbe {\kf36}wie {\kf24}ihre {\kf55}Buchstaben.
+Dialogue: 0,0:26:31.96,0:26:35.68,Naechste,,0,0,0,,Dann kennt, wer die Silbe kennt, auch die Buchstaben,
+Dialogue: 1,0:26:35.68,0:26:39.13,Karaoke,,0,0,0,,{\k66}{\kf11}Dann {\kf66}kennt, {\kf12}wer {\kf14}die {\kf28}Silbe\N{\kf60}kennt, {\kf16}auch {\kf18}die {\kf54}Buchstaben,
+Dialogue: 0,0:26:35.68,0:26:39.13,Naechste,,0,0,0,,und die Elemente wären doch erkennbar.
+Dialogue: 1,0:26:39.13,0:26:40.98,Karaoke,,0,0,0,,{\k0}{\kf36}und {\kf16}die {\kf42}Elemente {\kf24}wären {\kf22}doch {\kf45}erkennbar.
+Dialogue: 0,0:26:39.13,0:26:40.98,Naechste,,0,0,0,,Oder die Silbe ist eine neue, einheitliche Gestalt, die aus den Buchstaben entsteht,
+Dialogue: 1,0:26:40.98,0:26:46.01,Karaoke,,0,0,0,,{\k68}{\kf13}Oder {\kf18}die {\kf34}Silbe {\kf20}ist {\kf22}eine {\kf72}neue, {\kf44}einheitliche\N{\kf62}Gestalt, {\kf8}die {\kf16}aus {\kf14}den {\kf52}Buchstaben {\kf60}entsteht,
+Dialogue: 0,0:26:40.98,0:26:46.01,Naechste,,0,0,0,,aber selbst keine Teile hat.
+Dialogue: 1,0:26:46.01,0:26:47.46,Karaoke,,0,0,0,,{\k0}{\kf20}aber {\kf28}selbst {\kf30}keine {\kf34}Teile {\kf33}hat.
+Dialogue: 0,0:26:46.01,0:26:47.46,Naechste,,0,0,0,,Dann ist sie selbst einfach und ebenso unerklärbar wie ein Element.
+Dialogue: 1,0:26:47.46,0:26:51.90,Karaoke,,0,0,0,,{\k76}{\kf15}Dann {\kf20}ist {\kf20}sie {\kf32}selbst {\kf46}einfach {\kf36}und\N{\kf44}ebenso {\kf70}unerklärbar {\kf18}wie {\kf24}ein {\kf43}Element.
+Dialogue: 0,0:26:47.46,0:26:51.90,Naechste,,0,0,0,,Auch die Erfahrung spricht gegen den Traum.
+Dialogue: 1,0:26:51.90,0:26:54.46,Karaoke,,0,0,0,,{\k76}{\kf19}Auch {\kf18}die {\kf38}Erfahrung\N{\kf30}spricht {\kf36}gegen {\kf12}den {\kf27}Traum.
+Dialogue: 0,0:26:51.90,0:26:54.46,Naechste,,0,0,0,,Beim Lesenlernen und beim Musizieren lernen wir zuerst die Elemente,
+Dialogue: 1,0:26:54.46,0:26:58.61,Karaoke,,0,0,0,,{\k70}{\kf51}Beim {\kf16}Lesenlernen {\kf38}und {\kf20}beim {\kf58}Musizieren\N{\kf24}lernen {\kf22}wir {\kf28}zuerst {\kf16}die {\kf72}Elemente,
+Dialogue: 0,0:26:54.46,0:26:58.61,Naechste,,0,0,0,,die Buchstaben und die Töne, und kennen sie am deutlichsten.
+Dialogue: 1,0:26:58.61,0:27:01.46,Karaoke,,0,0,0,,{\k0}{\kf6}die {\kf54}Buchstaben {\kf28}und {\kf14}die {\kf28}Töne,\N{\kf34}und {\kf30}kennen {\kf19}sie {\kf13}am {\kf47}deutlichsten.
+Dialogue: 0,0:26:58.61,0:27:01.46,Naechste,,0,0,0,,Gail Fine hat 1979 aus dieser Stelle eine eigene Antwort entwickelt,
+Dialogue: 1,0:27:01.46,0:27:07.71,Karaoke,,0,0,0,,{\k80}{\kf29}Gail {\kf28}Fine {\kf12}hat {\kf118}1979 {\kf104}aus {\kf26}dieser {\kf40}Stelle\N{\kf24}eine {\kf30}eigene {\kf38}Antwort {\kf96}entwickelt,
+Dialogue: 0,0:27:01.46,0:27:07.71,Naechste,,0,0,0,,ein Modell des Wissens durch Zusammenhänge:
+Dialogue: 1,0:27:07.71,0:27:09.87,Karaoke,,0,0,0,,{\k0}{\kf10}ein {\kf32}Modell {\kf16}des {\kf26}Wissens\N{\kf22}durch {\kf110}Zusammenhänge:
+Dialogue: 0,0:27:07.71,0:27:09.87,Naechste,,0,0,0,,Wissen ist nicht das Erfassen isolierter Elemente.
+Dialogue: 1,0:27:09.87,0:27:12.16,Karaoke,,0,0,0,,{\k0}{\kf22}Wissen {\kf16}ist {\kf20}nicht {\kf18}das\N{\kf42}Erfassen {\kf62}isolierter {\kf49}Elemente.
+Dialogue: 0,0:27:09.87,0:27:12.16,Naechste,,0,0,0,,Einen Buchstaben kennt, wer ihn im Verhältnis zu den anderen erklären kann,
+Dialogue: 1,0:27:12.16,0:27:16.51,Karaoke,,0,0,0,,{\k64}{\kf21}Einen {\kf54}Buchstaben {\kf64}kennt, {\kf10}wer {\kf14}ihn {\kf14}im\N{\kf52}Verhältnis {\kf14}zu {\kf12}den {\kf28}anderen {\kf28}erklären {\kf60}kann,
+Dialogue: 0,0:27:12.16,0:27:16.51,Naechste,,0,0,0,,wer also weiß, wie er sich mit ihnen verbindet.
+Dialogue: 1,0:27:16.51,0:27:19.19,Karaoke,,0,0,0,,{\k0}{\kf10}wer {\kf24}also {\kf62}weiß, {\kf16}wie {\kf14}er\N{\kf16}sich {\kf18}mit {\kf12}ihnen {\kf61}verbindet.
+Dialogue: 0,0:27:16.51,0:27:19.19,Naechste,,0,0,0,,Was also bedeutet Logos in der Definition?
+Dialogue: 1,0:27:22.74,0:27:25.90,Karaoke,,0,0,0,,{\k80}{\kf11}Was {\kf40}also {\kf36}bedeutet {\kf54}Logos {\kf18}in {\kf8}der {\kf69}Definition?
+Dialogue: 0,0:27:22.74,0:27:25.90,Naechste,,0,0,0,,Sokrates prüft drei Möglichkeiten.
+Dialogue: 1,0:27:25.90,0:27:28.54,Karaoke,,0,0,0,,{\k74}{\kf75}Sokrates {\kf32}prüft {\kf24}drei {\kf59}Möglichkeiten.
+Dialogue: 0,0:27:25.90,0:27:28.54,Naechste,,0,0,0,,Erstens: seine Meinung mit der Stimme ausdrücken,
+Dialogue: 1,0:27:28.54,0:27:31.81,Karaoke,,0,0,0,,{\k74}{\kf65}Erstens: {\kf12}seine {\kf30}Meinung\N{\kf16}mit {\kf10}der {\kf45}Stimme {\kf75}ausdrücken,
+Dialogue: 0,0:27:28.54,0:27:31.81,Naechste,,0,0,0,,sodass sie im Strom der Rede sichtbar wird wie ein Bild im Spiegel oder im Wasser.
+Dialogue: 1,0:27:31.81,0:27:35.26,Karaoke,,0,0,0,,{\k0}{\kf16}sodass {\kf16}sie {\kf12}im {\kf30}Strom {\kf16}der {\kf16}Rede {\kf40}sichtbar {\kf26}wird\N{\kf16}wie {\kf16}ein {\kf20}Bild {\kf20}im {\kf40}Spiegel {\kf20}oder {\kf16}im {\kf23}Wasser.
+Dialogue: 0,0:27:31.81,0:27:35.26,Naechste,,0,0,0,,Aber das kann jeder, der nicht taub oder stumm ist.
+Dialogue: 1,0:27:35.26,0:27:38.62,Karaoke,,0,0,0,,{\k80}{\kf17}Aber {\kf18}das {\kf20}kann {\kf62}jeder, {\kf8}der\N{\kf16}nicht {\kf40}taub {\kf24}oder {\kf20}stumm {\kf31}ist.
+Dialogue: 0,0:27:35.26,0:27:38.62,Naechste,,0,0,0,,Dann wäre jede wahre Meinung schon Erkenntnis.
+Dialogue: 1,0:27:38.62,0:27:41.40,Karaoke,,0,0,0,,{\k54}{\kf15}Dann {\kf18}wäre {\kf28}jede {\kf38}wahre\N{\kf34}Meinung {\kf22}schon {\kf69}Erkenntnis.
+Dialogue: 0,0:27:38.62,0:27:41.40,Naechste,,0,0,0,,Zweitens: ein Ding durch seine Elemente hindurch beschreiben.
+Dialogue: 1,0:27:41.40,0:27:44.94,Karaoke,,0,0,0,,{\k60}{\kf89}Zweitens: {\kf12}ein {\kf8}Ding {\kf20}durch {\kf24}seine\N{\kf54}Elemente {\kf38}hindurch {\kf49}beschreiben.
+Dialogue: 0,0:27:41.40,0:27:44.94,Naechste,,0,0,0,,Hesiod spricht von den hundert Hölzern eines Wagens.
+Dialogue: 1,0:27:44.94,0:27:48.42,Karaoke,,0,0,0,,{\k72}{\kf43}Hesiod {\kf36}spricht {\kf32}von {\kf8}den\N{\kf30}hundert {\kf54}Hölzern {\kf20}eines {\kf53}Wagens.
+Dialogue: 0,0:27:44.94,0:27:48.42,Naechste,,0,0,0,,Wir können vielleicht Räder, Achse, Wagenkasten und Joch nennen.
+Dialogue: 1,0:27:48.42,0:27:52.40,Karaoke,,0,0,0,,{\k62}{\kf7}Wir {\kf24}können {\kf38}vielleicht {\kf72}Räder,\N{\kf62}Achse, {\kf56}Wagenkasten {\kf34}und {\kf30}Joch {\kf13}nennen.
+Dialogue: 0,0:27:48.42,0:27:52.40,Naechste,,0,0,0,,Wer aber alle hundert Teile durchgehen kann,
+Dialogue: 1,0:27:52.40,0:27:55.43,Karaoke,,0,0,0,,{\k66}{\kf11}Wer {\kf28}aber {\kf22}alle {\kf30}hundert\N{\kf32}Teile {\kf50}durchgehen {\kf64}kann,
+Dialogue: 0,0:27:52.40,0:27:55.43,Naechste,,0,0,0,,hätte nach dieser Deutung Erkenntnis vom Wagen.
+Dialogue: 1,0:27:55.43,0:27:57.34,Karaoke,,0,0,0,,{\k0}{\kf6}hätte {\kf20}nach {\kf20}dieser {\kf42}Deutung\N{\kf52}Erkenntnis {\kf18}vom {\kf23}Wagen.
+Dialogue: 0,0:27:55.43,0:27:57.34,Naechste,,0,0,0,,Doch auch das reicht nicht.
+Dialogue: 1,0:27:57.34,0:27:59.30,Karaoke,,0,0,0,,{\k80}{\kf7}Doch {\kf26}auch {\kf18}das {\kf30}reicht {\kf35}nicht.
+Dialogue: 0,0:27:57.34,0:27:59.30,Naechste,,0,0,0,,Denk an einen Schüler, der den Namen Theaitetos richtig schreibt,
+Dialogue: 1,0:27:59.30,0:28:03.71,Karaoke,,0,0,0,,{\k70}{\kf27}Denk {\kf16}an {\kf18}einen {\kf70}Schüler, {\kf8}der {\kf16}den\N{\kf24}Namen {\kf82}Theaitetos {\kf22}richtig {\kf88}schreibt,
+Dialogue: 0,0:27:59.30,0:28:03.71,Naechste,,0,0,0,,mit Theta und Epsilon am Anfang.
+Dialogue: 1,0:28:03.71,0:28:05.44,Karaoke,,0,0,0,,{\k0}{\kf19}mit {\kf33}Theta {\kf16}und {\kf42}Epsilon {\kf26}am {\kf37}Anfang.
+Dialogue: 0,0:28:03.71,0:28:05.44,Naechste,,0,0,0,,Soll er aber Theodoros schreiben, meint er, es beginne mit Tau und Epsilon,
+Dialogue: 1,0:28:05.44,0:28:10.35,Karaoke,,0,0,0,,{\k66}{\kf23}Soll {\kf11}er {\kf22}aber {\kf49}Theodoros {\kf88}schreiben, {\kf20}meint\N{\kf50}er, {\kf10}es {\kf36}beginne {\kf14}mit {\kf32}Tau {\kf28}und {\kf42}Epsilon,
+Dialogue: 0,0:28:05.44,0:28:10.35,Naechste,,0,0,0,,und schreibt es so.
+Dialogue: 1,0:28:10.35,0:28:11.40,Karaoke,,0,0,0,,{\k0}{\kf50}und {\kf28}schreibt {\kf20}es {\kf7}so.
+Dialogue: 0,0:28:10.35,0:28:11.40,Naechste,,0,0,0,,Beim ersten Namen hat er eine wahre Meinung und kann alle Buchstaben der Reihe nach angeben.
+Dialogue: 1,0:28:11.40,0:28:16.78,Karaoke,,0,0,0,,{\k68}{\kf19}Beim {\kf26}ersten {\kf44}Namen {\kf34}hat {\kf20}er {\kf28}eine {\kf36}wahre {\kf34}Meinung {\kf36}und\N{\kf20}kann {\kf24}alle {\kf56}Buchstaben {\kf18}der {\kf28}Reihe {\kf14}nach {\kf33}angeben.
+Dialogue: 0,0:28:11.40,0:28:16.78,Naechste,,0,0,0,,Weiß er deshalb, wie man diese Silbe schreibt?
+Dialogue: 1,0:28:16.78,0:28:20.12,Karaoke,,0,0,0,,{\k76}{\kf27}Weiß {\kf12}er {\kf80}deshalb, {\kf12}wie {\kf16}man\N{\kf26}diese {\kf36}Silbe {\kf49}schreibt?
+Dialogue: 0,0:28:16.78,0:28:20.12,Naechste,,0,0,0,,Offensichtlich nicht.
+Dialogue: 1,0:28:20.12,0:28:21.83,Karaoke,,0,0,0,,{\k52}{\kf45}Offensichtlich {\kf39}nicht.
+Dialogue: 0,0:28:20.12,0:28:21.83,Naechste,,0,0,0,,Drittens: ein Merkmal angeben,
+Dialogue: 1,0:28:25.04,0:28:27.72,Karaoke,,0,0,0,,{\k80}{\kf38}Drittens: {\kf34}ein {\kf40}Merkmal {\kf76}angeben,
+Dialogue: 0,0:28:25.04,0:28:27.72,Naechste,,0,0,0,,durch das sich ein Ding von allen anderen unterscheidet.
+Dialogue: 1,0:28:27.72,0:28:30.20,Karaoke,,0,0,0,,{\k0}{\kf12}durch {\kf12}das {\kf20}sich {\kf20}ein {\kf20}Ding {\kf24}von\N{\kf24}allen {\kf38}anderen {\kf78}unterscheidet.
+Dialogue: 0,0:28:27.72,0:28:30.20,Naechste,,0,0,0,,Die Sonne zum Beispiel ist das Hellste von allem, was am Himmel um die Erde läuft.
+Dialogue: 1,0:28:30.20,0:28:35.02,Karaoke,,0,0,0,,{\k56}{\kf12}Die {\kf34}Sonne {\kf14}zum {\kf48}Beispiel {\kf24}ist {\kf18}das {\kf38}Hellste {\kf24}von\N{\kf62}allem, {\kf10}was {\kf16}am {\kf35}Himmel {\kf12}um {\kf14}die {\kf18}Erde {\kf48}läuft.
+Dialogue: 0,0:28:30.20,0:28:35.02,Naechste,,0,0,0,,Jetzt kommt die stumpfe Nase ins Spiel.
+Dialogue: 1,0:28:35.02,0:28:37.74,Karaoke,,0,0,0,,{\k80}{\kf18}Jetzt {\kf26}kommt {\kf18}die {\kf36}stumpfe {\kf30}Nase {\kf18}ins {\kf38}Spiel.
+Dialogue: 0,0:28:35.02,0:28:37.74,Naechste,,0,0,0,,Wenn ich von Theaitetos nur weiß, dass er Nase, Mund und Augen hat,
+Dialogue: 1,0:28:37.74,0:28:42.76,Karaoke,,0,0,0,,{\k80}{\kf10}Wenn {\kf14}ich {\kf18}von {\kf60}Theaitetos {\kf24}nur {\kf58}weiß,\N{\kf8}dass {\kf12}er {\kf96}Nase, {\kf5}Mund {\kf27}und {\kf26}Augen {\kf64}hat,
+Dialogue: 0,0:28:37.74,0:28:42.76,Naechste,,0,0,0,,unterscheide ich ihn von niemandem.
+Dialogue: 1,0:28:42.76,0:28:44.24,Karaoke,,0,0,0,,{\k0}{\kf50}unterscheide {\kf16}ich {\kf16}ihn {\kf18}von {\kf36}niemandem.
+Dialogue: 0,0:28:42.76,0:28:44.24,Naechste,,0,0,0,,Weiß ich, dass er eine stumpfe Nase und hervortretende Augen hat,
+Dialogue: 1,0:28:44.24,0:28:48.56,Karaoke,,0,0,0,,{\k80}{\kf22}Weiß {\kf44}ich, {\kf5}dass {\kf9}er {\kf18}eine {\kf36}stumpfe\N{\kf44}Nase {\kf24}und {\kf70}hervortretende {\kf22}Augen {\kf58}hat,
+Dialogue: 0,0:28:44.24,0:28:48.56,Naechste,,0,0,0,,reicht es auch nicht, denn das hat Sokrates ebenfalls.
+Dialogue: 1,0:28:48.56,0:28:51.24,Karaoke,,0,0,0,,{\k0}{\kf14}reicht {\kf22}es {\kf16}auch {\kf58}nicht, {\kf8}denn\N{\kf14}das {\kf20}hat {\kf52}Sokrates {\kf64}ebenfalls.
+Dialogue: 0,0:28:48.56,0:28:51.24,Naechste,,0,0,0,,Erst wenn sich seine besondere Stumpfnasigkeit in mir eingeprägt hat,
+Dialogue: 1,0:28:51.24,0:28:55.26,Karaoke,,0,0,0,,{\k52}{\kf12}Erst {\kf24}wenn {\kf16}sich {\kf18}seine {\kf52}besondere\N{\kf72}Stumpfnasigkeit {\kf10}in {\kf28}mir {\kf68}eingeprägt {\kf50}hat,
+Dialogue: 0,0:28:51.24,0:28:55.26,Naechste,,0,0,0,,sodass ich ihn morgen wiedererkenne, habe ich eine wahre Meinung über Theaitetos.
+Dialogue: 1,0:28:55.26,0:28:59.40,Karaoke,,0,0,0,,{\k0}{\kf24}sodass {\kf16}ich {\kf18}ihn {\kf44}morgen {\kf54}wiedererkenne, {\kf38}habe\N{\kf22}ich {\kf20}eine {\kf36}wahre {\kf32}Meinung {\kf31}über {\kf77}Theaitetos.
+Dialogue: 0,0:28:55.26,0:28:59.40,Naechste,,0,0,0,,Dann aber enthält schon die wahre Meinung das Unterscheidungsmerkmal.
+Dialogue: 1,0:28:59.40,0:29:03.50,Karaoke,,0,0,0,,{\k80}{\kf14}Dann {\kf24}aber {\kf40}enthält {\kf36}schon {\kf18}die {\kf28}wahre\N{\kf32}Meinung {\kf20}das {\kf110}Unterscheidungsmerkmal.
+Dialogue: 0,0:28:59.40,0:29:03.50,Naechste,,0,0,0,,Es noch einmal hinzuzufügen, wäre, als würde man jemandem raten, zu nehmen,
+Dialogue: 1,0:29:03.50,0:29:08.56,Karaoke,,0,0,0,,{\k80}{\kf8}Es {\kf20}noch {\kf32}einmal {\kf106}hinzuzufügen, {\kf16}wäre, {\kf32}als\N{\kf22}würde {\kf20}man {\kf36}jemandem {\kf64}raten, {\kf12}zu {\kf58}nehmen,
+Dialogue: 0,0:29:03.50,0:29:08.56,Naechste,,0,0,0,,was er schon hat.
+Dialogue: 1,0:29:08.56,0:29:09.28,Karaoke,,0,0,0,,{\k0}{\kf12}was {\kf14}er {\kf16}schon {\kf30}hat.
+Dialogue: 0,0:29:08.56,0:29:09.28,Naechste,,0,0,0,,Sokrates nennt das den Rat eines Blinden.
+Dialogue: 1,0:29:09.28,0:29:11.68,Karaoke,,0,0,0,,{\k46}{\kf66}Sokrates {\kf20}nennt {\kf10}das {\kf10}den {\kf16}Rat {\kf22}eines {\kf24}Blinden.
+Dialogue: 0,0:29:09.28,0:29:11.68,Naechste,,0,0,0,,Und soll „Erklärung hinzufügen“ heißen,
+Dialogue: 1,0:29:11.68,0:29:14.50,Karaoke,,0,0,0,,{\k80}{\kf6}Und {\kf14}soll {\kf50}„Erklärung {\kf64}hinzufügen“ {\kf68}heißen,
+Dialogue: 0,0:29:11.68,0:29:14.50,Naechste,,0,0,0,,den Unterschied zu erkennen statt ihn nur zu meinen, dann lautet die Definition:
+Dialogue: 1,0:29:14.50,0:29:18.08,Karaoke,,0,0,0,,{\k0}{\kf8}den {\kf44}Unterschied {\kf20}zu {\kf26}erkennen {\kf24}statt {\kf26}ihn {\kf14}nur\N{\kf16}zu {\kf52}meinen, {\kf12}dann {\kf34}lautet {\kf18}die {\kf64}Definition:
+Dialogue: 0,0:29:14.50,0:29:18.08,Naechste,,0,0,0,,Erkenntnis ist richtige Meinung mit Erkenntnis des Unterschieds.
+Dialogue: 1,0:29:18.08,0:29:21.44,Karaoke,,0,0,0,,{\k0}{\kf100}Erkenntnis {\kf20}ist {\kf30}richtige {\kf34}Meinung\N{\kf18}mit {\kf54}Erkenntnis {\kf18}des {\kf62}Unterschieds.
+Dialogue: 0,0:29:18.08,0:29:21.44,Naechste,,0,0,0,,Die Definition enthält das Wort, das sie erklären soll.
+Dialogue: 1,0:29:21.44,0:29:25.18,Karaoke,,0,0,0,,{\k70}{\kf12}Die {\kf72}Definition {\kf40}enthält {\kf20}das\N{\kf68}Wort, {\kf12}das {\kf14}sie {\kf36}erklären {\kf30}soll.
+Dialogue: 0,0:29:21.44,0:29:25.18,Naechste,,0,0,0,,Sie dreht sich im Kreis.
+Dialogue: 1,0:29:25.18,0:29:27.25,Karaoke,,0,0,0,,{\k62}{\kf10}Sie {\kf26}dreht {\kf19}sich {\kf9}im {\kf46}Kreis.
+Dialogue: 0,0:29:25.18,0:29:27.25,Naechste,,0,0,0,,Damit ist auch die dritte Definition gescheitert.
+Dialogue: 1,0:29:30.40,0:29:33.70,Karaoke,,0,0,0,,{\k80}{\kf24}Damit {\kf24}ist {\kf26}auch {\kf22}die {\kf26}dritte\N{\kf60}Definition {\kf68}gescheitert.
+Dialogue: 0,0:29:30.40,0:29:33.70,Naechste,,0,0,0,,Weder Wahrnehmung noch wahre Meinung noch wahre Meinung mit Erklärung ist Erkenntnis.
+Dialogue: 1,0:29:33.70,0:29:38.54,Karaoke,,0,0,0,,{\k62}{\kf24}Weder {\kf54}Wahrnehmung {\kf18}noch {\kf40}wahre {\kf22}Meinung {\kf26}noch\N{\kf36}wahre {\kf32}Meinung {\kf16}mit {\kf60}Erklärung {\kf22}ist {\kf72}Erkenntnis.
+Dialogue: 0,0:29:33.70,0:29:38.54,Naechste,,0,0,0,,Alle drei Kinder waren Windeier.
+Dialogue: 1,0:29:38.54,0:29:40.74,Karaoke,,0,0,0,,{\k44}{\kf20}Alle {\kf26}drei {\kf42}Kinder {\kf32}waren {\kf51}Windeier.
+Dialogue: 0,0:29:38.54,0:29:40.74,Naechste,,0,0,0,,Und doch war das Gespräch nicht umsonst.
+Dialogue: 1,0:29:40.74,0:29:43.42,Karaoke,,0,0,0,,{\k80}{\kf8}Und {\kf22}doch {\kf16}war {\kf14}das {\kf44}Gespräch {\kf18}nicht {\kf66}umsonst.
+Dialogue: 0,0:29:40.74,0:29:43.42,Naechste,,0,0,0,,Wenn Theaitetos künftig wieder schwanger wird, dann mit besseren Gedanken.
+Dialogue: 1,0:29:43.42,0:29:47.66,Karaoke,,0,0,0,,{\k50}{\kf27}Wenn {\kf67}Theaitetos {\kf42}künftig {\kf22}wieder {\kf36}schwanger\N{\kf74}wird, {\kf5}dann {\kf13}mit {\kf40}besseren {\kf48}Gedanken.
+Dialogue: 0,0:29:43.42,0:29:47.66,Naechste,,0,0,0,,Und wenn er leer bleibt, wird er anderen weniger beschwerlich sein und sanftmütiger,
+Dialogue: 1,0:29:47.66,0:29:52.16,Karaoke,,0,0,0,,{\k74}{\kf8}Und {\kf18}wenn {\kf12}er {\kf18}leer {\kf62}bleibt, {\kf10}wird {\kf12}er {\kf32}anderen\N{\kf36}weniger {\kf58}beschwerlich {\kf18}sein {\kf18}und {\kf74}sanftmütiger,
+Dialogue: 0,0:29:47.66,0:29:52.16,Naechste,,0,0,0,,weil er besonnen genug ist, nicht zu glauben, dass er weiß, was er nicht weiß.
+Dialogue: 1,0:29:52.16,0:29:55.78,Karaoke,,0,0,0,,{\k0}{\kf12}weil {\kf12}er {\kf30}besonnen {\kf26}genug {\kf30}ist, {\kf40}nicht {\kf20}zu\N{\kf48}glauben, {\kf10}dass {\kf14}er {\kf52}weiß, {\kf8}was {\kf14}er {\kf8}nicht {\kf38}weiß.
+Dialogue: 0,0:29:52.16,0:29:55.78,Naechste,,0,0,0,,Dann bricht Sokrates auf:
+Dialogue: 1,0:29:55.78,0:29:58.30,Karaoke,,0,0,0,,{\k72}{\kf12}Dann {\kf22}bricht {\kf52}Sokrates {\kf94}auf:
+Dialogue: 0,0:29:55.78,0:29:58.30,Naechste,,0,0,0,,Jetzt nun muss ich mich in der Königshalle einstellen wegen der Klage,
+Dialogue: 1,0:29:58.30,0:30:01.50,Karaoke,,0,0,0,,{\k0}{\kf10}Jetzt {\kf6}nun {\kf34}muss {\kf22}ich {\kf14}mich {\kf18}in {\kf12}der\N{\kf50}Königshalle {\kf46}einstellen {\kf22}wegen {\kf20}der {\kf66}Klage,
+Dialogue: 0,0:29:58.30,0:30:01.50,Naechste,,0,0,0,,welche Meletos gegen mich angestellt hat.
+Dialogue: 1,0:30:01.50,0:30:03.48,Karaoke,,0,0,0,,{\k0}{\kf26}welche {\kf54}Meletos {\kf24}gegen {\kf16}mich {\kf48}angestellt {\kf30}hat.
+Dialogue: 0,0:30:01.50,0:30:03.48,Naechste,,0,0,0,,Morgen aber wollen wir uns wieder hier treffen.
+Dialogue: 1,0:30:03.48,0:30:06.25,Karaoke,,0,0,0,,{\k62}{\kf24}Morgen {\kf22}aber {\kf30}wollen {\kf16}wir\N{\kf12}uns {\kf24}wieder {\kf18}hier {\kf34}treffen.
+Dialogue: 0,0:30:03.48,0:30:06.25,Naechste,,0,0,0,,Warum lässt Platon den Dialog scheitern?
+Dialogue: 1,0:30:09.68,0:30:12.46,Karaoke,,0,0,0,,{\k80}{\kf16}Warum {\kf26}lässt {\kf56}Platon {\kf20}den {\kf32}Dialog {\kf48}scheitern?
+Dialogue: 0,0:30:09.68,0:30:12.46,Naechste,,0,0,0,,Auffällig ist: Die Ideen,
+Dialogue: 1,0:30:12.46,0:30:14.84,Karaoke,,0,0,0,,{\k62}{\kf58}Auffällig {\kf18}ist: {\kf36}Die {\kf64}Ideen,
+Dialogue: 0,0:30:12.46,0:30:14.84,Naechste,,0,0,0,,die in Phaidon und Politeia das Fundament allen Wissens bilden,
+Dialogue: 1,0:30:14.84,0:30:18.36,Karaoke,,0,0,0,,{\k0}{\kf8}die {\kf8}in {\kf48}Phaidon {\kf34}und {\kf56}Politeia {\kf16}das\N{\kf42}Fundament {\kf34}allen {\kf32}Wissens {\kf74}bilden,
+Dialogue: 0,0:30:14.84,0:30:18.36,Naechste,,0,0,0,,kommen hier nicht ausdrücklich vor.
+Dialogue: 1,0:30:18.36,0:30:19.94,Karaoke,,0,0,0,,{\k0}{\kf18}kommen {\kf22}hier {\kf16}nicht {\kf56}ausdrücklich {\kf28}vor.
+Dialogue: 0,0:30:18.36,0:30:19.94,Naechste,,0,0,0,,Francis Cornford gab 1935 eine einflussreiche Antwort: Der Dialog zeigt,
+Dialogue: 1,0:30:19.94,0:30:27.12,Karaoke,,0,0,0,,{\k80}{\kf50}Francis {\kf58}Cornford {\kf14}gab {\kf252}1935 {\kf6}eine\N{\kf64}einflussreiche {\kf40}Antwort: {\kf46}Der {\kf32}Dialog {\kf76}zeigt,
+Dialogue: 0,0:30:19.94,0:30:27.12,Naechste,,0,0,0,,dass Erkenntnis ohne die Ideen nicht zu bestimmen ist.
+Dialogue: 1,0:30:27.12,0:30:29.60,Karaoke,,0,0,0,,{\k0}{\kf8}dass {\kf54}Erkenntnis {\kf30}ohne {\kf18}die\N{\kf38}Ideen {\kf18}nicht {\kf18}zu {\kf30}bestimmen {\kf34}ist.
+Dialogue: 0,0:30:27.12,0:30:29.60,Naechste,,0,0,0,,Er scheitert absichtlich, weil er die Ideen weglässt.
+Dialogue: 1,0:30:29.60,0:30:32.86,Karaoke,,0,0,0,,{\k54}{\kf10}Er {\kf36}scheitert {\kf92}absichtlich,\N{\kf8}weil {\kf14}er {\kf14}die {\kf38}Ideen {\kf52}weglässt.
+Dialogue: 0,0:30:29.60,0:30:32.86,Naechste,,0,0,0,,Andere, etwa Gilbert Ryle und G. E. L. Owen, sahen im späten Platon einen Denker,
+Dialogue: 1,0:30:32.86,0:30:38.40,Karaoke,,0,0,0,,{\k80}{\kf70}Andere, {\kf25}etwa {\kf44}Gilbert {\kf25}Ryle {\kf11}und {\kf5}G. {\kf5}E. {\kf5}L.\N{\kf60}Owen, {\kf26}sahen {\kf8}im {\kf34}späten {\kf52}Platon {\kf24}einen {\kf80}Denker,
+Dialogue: 0,0:30:32.86,0:30:38.40,Naechste,,0,0,0,,der seine Ideenlehre kritisch überprüft oder hinter sich lässt.
+Dialogue: 1,0:30:38.40,0:30:41.50,Karaoke,,0,0,0,,{\k0}{\kf10}der {\kf22}seine {\kf60}Ideenlehre {\kf34}kritisch\N{\kf66}überprüft {\kf32}oder {\kf26}hinter {\kf22}sich {\kf38}lässt.
+Dialogue: 0,0:30:38.40,0:30:41.50,Naechste,,0,0,0,,Myles Burnyeat hat für den ersten Teil des Dialogs zwei Lesarten unterschieden.
+Dialogue: 1,0:30:41.50,0:30:46.24,Karaoke,,0,0,0,,{\k56}{\kf32}Myles {\kf51}Burnyeat {\kf32}hat {\kf20}für {\kf10}den {\kf26}ersten {\kf32}Teil\N{\kf18}des {\kf48}Dialogs {\kf24}zwei {\kf60}Lesarten {\kf48}unterschieden.
+Dialogue: 0,0:30:41.50,0:30:46.24,Naechste,,0,0,0,,Nach der einen scheitert die Wahrnehmung,
+Dialogue: 1,0:30:46.24,0:30:48.86,Karaoke,,0,0,0,,{\k80}{\kf14}Nach {\kf14}der {\kf24}einen {\kf43}scheitert {\kf12}die {\kf74}Wahrnehmung,
+Dialogue: 0,0:30:46.24,0:30:48.86,Naechste,,0,0,0,,weil Erkenntnis die Ideen zum Gegenstand hat, wie Cornford meinte.
+Dialogue: 1,0:30:48.86,0:30:52.40,Karaoke,,0,0,0,,{\k0}{\kf8}weil {\kf62}Erkenntnis {\kf24}die {\kf38}Ideen {\kf16}zum\N{\kf48}Gegenstand {\kf50}hat, {\kf17}wie {\kf45}Cornford {\kf46}meinte.
+Dialogue: 0,0:30:48.86,0:30:52.40,Naechste,,0,0,0,,Nach der anderen scheitert sie,
+Dialogue: 1,0:30:52.40,0:30:54.70,Karaoke,,0,0,0,,{\k68}{\kf8}Nach {\kf22}der {\kf32}anderen {\kf40}scheitert {\kf60}sie,
+Dialogue: 0,0:30:52.40,0:30:54.70,Naechste,,0,0,0,,weil Wahrnehmung allein nicht einmal ein einfaches Urteil fassen kann.
+Dialogue: 1,0:30:54.70,0:30:57.60,Karaoke,,0,0,0,,{\k0}{\kf16}weil {\kf44}Wahrnehmung {\kf26}allein {\kf24}nicht {\kf30}einmal\N{\kf20}ein {\kf48}einfaches {\kf24}Urteil {\kf28}fassen {\kf24}kann.
+Dialogue: 0,0:30:54.70,0:30:57.60,Naechste,,0,0,0,,David Sedley schlägt einen dritten Weg vor.
+Dialogue: 1,0:30:57.60,0:31:00.36,Karaoke,,0,0,0,,{\k80}{\kf28}David {\kf34}Sedley {\kf32}schlägt\N{\kf22}einen {\kf32}dritten {\kf22}Weg {\kf26}vor.
+Dialogue: 0,0:30:57.60,0:31:00.36,Naechste,,0,0,0,,Der historische Sokrates bringt in diesem Gespräch, ohne es selbst zu wissen,
+Dialogue: 1,0:31:00.36,0:31:05.20,Karaoke,,0,0,0,,{\k58}{\kf10}Der {\kf56}historische {\kf50}Sokrates {\kf34}bringt {\kf26}in {\kf18}diesem\N{\kf90}Gespräch, {\kf14}ohne {\kf22}es {\kf24}selbst {\kf24}zu {\kf58}wissen,
+Dialogue: 0,0:31:00.36,0:31:05.20,Naechste,,0,0,0,,Gedanken zur Welt, die erst Platon zu Ende denken wird.
+Dialogue: 1,0:31:05.20,0:31:08.06,Karaoke,,0,0,0,,{\k0}{\kf30}Gedanken {\kf32}zur {\kf58}Welt, {\kf15}die {\kf20}erst\N{\kf30}Platon {\kf12}zu {\kf18}Ende {\kf30}denken {\kf42}wird.
+Dialogue: 0,0:31:05.20,0:31:08.06,Naechste,,0,0,0,,Der Theaitetos wäre dann Platons Blick auf die eigenen Wurzeln.
+Dialogue: 1,0:31:08.06,0:31:12.32,Karaoke,,0,0,0,,{\k70}{\kf23}Der {\kf75}Theaitetos {\kf30}wäre {\kf20}dann {\kf48}Platons\N{\kf30}Blick {\kf24}auf {\kf16}die {\kf26}eigenen {\kf56}Wurzeln.
+Dialogue: 0,0:31:08.06,0:31:12.32,Naechste,,0,0,0,,Und der Dialog geht weiter.
+Dialogue: 1,0:31:12.32,0:31:14.40,Karaoke,,0,0,0,,{\k80}{\kf12}Und {\kf18}der {\kf36}Dialog {\kf22}geht {\kf40}weiter.
+Dialogue: 0,0:31:12.32,0:31:14.40,Naechste,,0,0,0,,Am nächsten Morgen treffen sich die drei wieder, mit einem Fremden aus Elea.
+Dialogue: 1,0:31:14.40,0:31:18.66,Karaoke,,0,0,0,,{\k80}{\kf14}Am {\kf32}nächsten {\kf36}Morgen {\kf30}treffen {\kf24}sich {\kf14}die\N{\kf20}drei {\kf56}wieder, {\kf10}mit {\kf16}einem {\kf42}Fremden {\kf22}aus {\kf30}Elea.
+Dialogue: 0,0:31:14.40,0:31:18.66,Naechste,,0,0,0,,Im Sophistes wird das Rätsel der falschen Meinung tatsächlich gelöst.
+Dialogue: 1,0:31:18.66,0:31:22.78,Karaoke,,0,0,0,,{\k54}{\kf10}Im {\kf58}Sophistes {\kf34}wird {\kf16}das {\kf40}Rätsel {\kf14}der\N{\kf40}falschen {\kf24}Meinung {\kf50}tatsächlich {\kf72}gelöst.
+Dialogue: 0,0:31:18.66,0:31:22.78,Naechste,,0,0,0,,Ein falscher Satz wie „Theaitetos fliegt“ sagt nicht Nichts.
+Dialogue: 1,0:31:22.78,0:31:26.22,Karaoke,,0,0,0,,{\k48}{\kf16}Ein {\kf44}falscher {\kf32}Satz {\kf23}wie {\kf79}„Theaitetos\N{\kf14}fliegt“ {\kf20}sagt {\kf26}nicht {\kf42}Nichts.
+Dialogue: 0,0:31:22.78,0:31:26.22,Naechste,,0,0,0,,Er sagt über etwas, das ist, etwas aus, das von dem, was über ihn wahr ist,
+Dialogue: 1,0:31:26.22,0:31:31.80,Karaoke,,0,0,0,,{\k50}{\kf10}Er {\kf30}sagt {\kf26}über {\kf74}etwas, {\kf10}das {\kf32}ist, {\kf42}etwas {\kf84}aus,\N{\kf10}das {\kf20}von {\kf42}dem, {\kf5}was {\kf27}über {\kf12}ihn {\kf28}wahr {\kf56}ist,
+Dialogue: 0,0:31:26.22,0:31:31.80,Naechste,,0,0,0,,verschieden ist.
+Dialogue: 1,0:31:31.80,0:31:32.85,Karaoke,,0,0,0,,{\k0}{\kf44}verschieden {\kf26}ist.
+Dialogue: 0,0:31:31.80,0:31:32.85,Naechste,,0,0,0,,Die dritte Definition hat eine erstaunliche Karriere gemacht.
+Dialogue: 1,0:31:36.12,0:31:39.92,Karaoke,,0,0,0,,{\k80}{\kf9}Die {\kf34}dritte {\kf58}Definition {\kf34}hat {\kf20}eine\N{\kf52}erstaunliche {\kf48}Karriere {\kf45}gemacht.
+Dialogue: 0,0:31:36.12,0:31:39.92,Naechste,,0,0,0,,Lange galt in der Erkenntnistheorie als Standardanalyse: Wissen ist gerechtfertigte,
+Dialogue: 1,0:31:39.92,0:31:45.11,Karaoke,,0,0,0,,{\k58}{\kf19}Lange {\kf28}galt {\kf16}in {\kf8}der {\kf98}Erkenntnistheorie {\kf22}als\N{\kf110}Standardanalyse: {\kf26}Wissen {\kf18}ist {\kf116}gerechtfertigte,
+Dialogue: 0,0:31:39.92,0:31:45.11,Naechste,,0,0,0,,wahre Überzeugung.
+Dialogue: 1,0:31:45.11,0:31:45.82,Karaoke,,0,0,0,,{\k0}{\kf24}wahre {\kf47}Überzeugung.
+Dialogue: 0,0:31:45.11,0:31:45.82,Naechste,,0,0,0,,Viele Darstellungen führen diese Formel auf den Theaitetos zurück.
+Dialogue: 1,0:31:45.82,0:31:50.04,Karaoke,,0,0,0,,{\k66}{\kf21}Viele {\kf74}Darstellungen {\kf44}führen {\kf30}diese\N{\kf44}Formel {\kf14}auf {\kf20}den {\kf68}Theaitetos {\kf41}zurück.
+Dialogue: 0,0:31:45.82,0:31:50.04,Naechste,,0,0,0,,Im Jahr 1963 veröffentlichte Edmund Gettier einen Aufsatz von drei Seiten:
+Dialogue: 1,0:31:50.04,0:31:56.85,Karaoke,,0,0,0,,{\k72}{\kf11}Im {\kf20}Jahr {\kf126}1963 {\kf180}veröffentlichte {\kf30}Edmund\N{\kf48}Gettier {\kf26}einen {\kf58}Aufsatz {\kf20}von {\kf24}drei {\kf66}Seiten:
+Dialogue: 0,0:31:50.04,0:31:56.85,Naechste,,0,0,0,,„Ist gerechtfertigte wahre Überzeugung Wissen?“ In der ersten Fußnote verweist er auf Platons Theaitetos und den Menon.
+Dialogue: 1,0:31:56.85,0:32:04.14,Karaoke,,0,0,0,,{\k0}{\kf16}„Ist {\kf82}gerechtfertigte {\kf46}wahre {\kf50}Überzeugung {\kf96}Wissen?“ {\kf14}In {\kf10}der {\kf32}ersten\N{\kf56}Fußnote {\kf54}verweist {\kf24}er {\kf18}auf {\kf44}Platons {\kf86}Theaitetos {\kf26}und {\kf26}den {\kf21}Menon.
+Dialogue: 0,0:31:56.85,0:32:04.14,Naechste,,0,0,0,,Sein erstes Beispiel: Smith und Jones bewerben sich um dieselbe Stelle.
+Dialogue: 1,0:32:04.14,0:32:08.82,Karaoke,,0,0,0,,{\k80}{\kf27}Sein {\kf50}erstes {\kf84}Beispiel: {\kf12}Smith {\kf32}und {\kf22}Jones\N{\kf46}bewerben {\kf27}sich {\kf13}um {\kf38}dieselbe {\kf35}Stelle.
+Dialogue: 0,0:32:04.14,0:32:08.82,Naechste,,0,0,0,,Smith hat gute Gründe zu glauben,
+Dialogue: 1,0:32:08.82,0:32:11.45,Karaoke,,0,0,0,,{\k80}{\kf17}Smith {\kf22}hat {\kf26}gute {\kf28}Gründe {\kf18}zu {\kf72}glauben,
+Dialogue: 0,0:32:08.82,0:32:11.45,Naechste,,0,0,0,,dass Jones die Stelle bekommt und dass Jones zehn Münzen in der Tasche hat.
+Dialogue: 1,0:32:11.45,0:32:14.92,Karaoke,,0,0,0,,{\k0}{\kf6}dass {\kf30}Jones {\kf18}die {\kf20}Stelle {\kf38}bekommt {\kf44}und {\kf14}dass\N{\kf30}Jones {\kf36}zehn {\kf30}Münzen {\kf16}in {\kf8}der {\kf26}Tasche {\kf31}hat.
+Dialogue: 0,0:32:11.45,0:32:14.92,Naechste,,0,0,0,,Daraus schließt er: Der Mann, der die Stelle bekommt, hat zehn Münzen in der Tasche.
+Dialogue: 1,0:32:14.92,0:32:19.60,Karaoke,,0,0,0,,{\k50}{\kf31}Daraus {\kf48}schließt {\kf44}er: {\kf8}Der {\kf42}Mann, {\kf6}der {\kf12}die {\kf20}Stelle\N{\kf44}bekommt, {\kf34}hat {\kf26}zehn {\kf30}Münzen {\kf18}in {\kf10}der {\kf35}Tasche.
+Dialogue: 0,0:32:14.92,0:32:19.60,Naechste,,0,0,0,,Tatsächlich bekommt aber Smith die Stelle.
+Dialogue: 1,0:32:19.60,0:32:22.28,Karaoke,,0,0,0,,{\k80}{\kf51}Tatsächlich {\kf36}bekommt {\kf28}aber {\kf12}Smith {\kf24}die {\kf29}Stelle.
+Dialogue: 0,0:32:19.60,0:32:22.28,Naechste,,0,0,0,,Und ohne es zu wissen, hat auch er zehn Münzen in der Tasche.
+Dialogue: 1,0:32:22.28,0:32:26.02,Karaoke,,0,0,0,,{\k80}{\kf9}Und {\kf24}ohne {\kf16}es {\kf12}zu {\kf62}wissen, {\kf12}hat {\kf18}auch\N{\kf14}er {\kf24}zehn {\kf40}Münzen {\kf18}in {\kf10}der {\kf35}Tasche.
+Dialogue: 0,0:32:22.28,0:32:26.02,Naechste,,0,0,0,,Seine Überzeugung ist wahr und gerechtfertigt.
+Dialogue: 1,0:32:26.02,0:32:29.26,Karaoke,,0,0,0,,{\k68}{\kf27}Seine {\kf64}Überzeugung {\kf20}ist\N{\kf30}wahr {\kf30}und {\kf85}gerechtfertigt.
+Dialogue: 0,0:32:26.02,0:32:29.26,Naechste,,0,0,0,,Wissen ist sie offensichtlich nicht.
+Dialogue: 1,0:32:29.26,0:32:31.54,Karaoke,,0,0,0,,{\k78}{\kf23}Wissen {\kf20}ist {\kf18}sie {\kf52}offensichtlich {\kf37}nicht.
+Dialogue: 0,0:32:29.26,0:32:31.54,Naechste,,0,0,0,,Platons Logos ist allerdings nicht einfach dasselbe wie Rechtfertigung im modernen Sinn.
+Dialogue: 1,0:32:31.54,0:32:36.82,Karaoke,,0,0,0,,{\k76}{\kf43}Platons {\kf60}Logos {\kf28}ist {\kf36}allerdings {\kf24}nicht {\kf44}einfach\N{\kf58}dasselbe {\kf20}wie {\kf66}Rechtfertigung {\kf16}im {\kf44}modernen {\kf13}Sinn.
+Dialogue: 0,0:32:31.54,0:32:36.82,Naechste,,0,0,0,,Bei Platon geht es eher um Erklärung und Verständnis, darum, warum etwas so ist.
+Dialogue: 1,0:32:36.82,0:32:42.28,Karaoke,,0,0,0,,{\k66}{\kf11}Bei {\kf54}Platon {\kf18}geht {\kf13}es {\kf27}eher {\kf18}um {\kf56}Erklärung {\kf30}und\N{\kf104}Verständnis, {\kf30}darum, {\kf40}warum {\kf30}etwas {\kf22}so {\kf27}ist.
+Dialogue: 0,0:32:36.82,0:32:42.28,Naechste,,0,0,0,,Schon im Menon heißt es,
+Dialogue: 1,0:32:42.28,0:32:44.33,Karaoke,,0,0,0,,{\k52}{\kf19}Schon {\kf22}im {\kf30}Menon {\kf26}heißt {\kf56}es,
+Dialogue: 0,0:32:42.28,0:32:44.33,Naechste,,0,0,0,,wahre Meinungen würden erst durch Begründung der Ursache festgebunden und so zu Wissen.
+Dialogue: 1,0:32:44.33,0:32:48.91,Karaoke,,0,0,0,,{\k0}{\kf26}wahre {\kf36}Meinungen {\kf34}würden {\kf26}erst {\kf20}durch {\kf58}Begründung\N{\kf12}der {\kf40}Ursache {\kf70}festgebunden {\kf48}und {\kf14}so {\kf18}zu {\kf21}Wissen.
+Dialogue: 0,0:32:44.33,0:32:48.91,Naechste,,0,0,0,,Der Theaitetos gibt keine Definition der Erkenntnis.
+Dialogue: 1,0:32:52.24,0:32:56.26,Karaoke,,0,0,0,,{\k80}{\kf26}Der {\kf88}Theaitetos {\kf8}gibt {\kf32}keine\N{\kf68}Definition {\kf24}der {\kf76}Erkenntnis.
+Dialogue: 0,0:32:52.24,0:32:56.26,Naechste,,0,0,0,,Aber er hinterlässt eine Landkarte.
+Dialogue: 1,0:32:56.26,0:32:58.52,Karaoke,,0,0,0,,{\k56}{\kf18}Aber {\kf18}er {\kf56}hinterlässt {\kf16}eine {\kf62}Landkarte.
+Dialogue: 0,0:32:56.26,0:32:58.52,Naechste,,0,0,0,,Erkenntnis ist mehr als Wahrnehmung, denn sie verlangt Urteilen.
+Dialogue: 1,0:32:58.52,0:33:02.36,Karaoke,,0,0,0,,{\k80}{\kf58}Erkenntnis {\kf24}ist {\kf24}mehr {\kf20}als {\kf70}Wahrnehmung,\N{\kf8}denn {\kf14}sie {\kf43}verlangt {\kf43}Urteilen.
+Dialogue: 0,0:32:58.52,0:33:02.36,Naechste,,0,0,0,,Sie ist mehr als wahre Meinung, denn man kann zufällig richtig liegen.
+Dialogue: 1,0:33:02.36,0:33:05.96,Karaoke,,0,0,0,,{\k60}{\kf14}Sie {\kf18}ist {\kf22}mehr {\kf16}als {\kf32}wahre {\kf58}Meinung, {\kf10}denn\N{\kf12}man {\kf18}kann {\kf48}zufällig {\kf22}richtig {\kf30}liegen.
+Dialogue: 0,0:33:02.36,0:33:05.96,Naechste,,0,0,0,,Und sie verlangt eine Erklärung, von der wir bis heute nicht genau sagen können,
+Dialogue: 1,0:33:05.96,0:33:10.76,Karaoke,,0,0,0,,{\k68}{\kf6}Und {\kf20}sie {\kf46}verlangt {\kf14}eine {\kf88}Erklärung, {\kf18}von {\kf10}der\N{\kf8}wir {\kf16}bis {\kf26}heute {\kf20}nicht {\kf30}genau {\kf30}sagen {\kf80}können,
+Dialogue: 0,0:33:05.96,0:33:10.76,Naechste,,0,0,0,,worin sie besteht.
+Dialogue: 1,0:33:10.76,0:33:11.74,Karaoke,,0,0,0,,{\k0}{\kf24}worin {\kf12}sie {\kf48}besteht.
+Dialogue: 0,0:33:10.76,0:33:11.74,Naechste,,0,0,0,,Vielleicht ist das die eigentliche Pointe der Hebammenkunst.
+Dialogue: 1,0:33:11.74,0:33:15.36,Karaoke,,0,0,0,,{\k80}{\kf34}Vielleicht {\kf24}ist {\kf16}das {\kf16}die {\kf52}eigentliche\N{\kf44}Pointe {\kf12}der {\kf84}Hebammenkunst.
+Dialogue: 0,0:33:11.74,0:33:15.36,Naechste,,0,0,0,,Ein Gespräch kann gelingen, auch wenn es kein Ergebnis hat.
+Dialogue: 1,0:33:15.36,0:33:18.68,Karaoke,,0,0,0,,{\k54}{\kf14}Ein {\kf42}Gespräch {\kf20}kann {\kf70}gelingen,\N{\kf12}auch {\kf18}wenn {\kf10}es {\kf18}kein {\kf38}Ergebnis {\kf36}hat.
+Dialogue: 0,0:33:15.36,0:33:18.68,Naechste,,0,0,0,,Es räumt falsches Wissen aus dem Weg.
+Dialogue: 1,0:33:18.68,0:33:21.20,Karaoke,,0,0,0,,{\k62}{\kf12}Es {\kf44}räumt {\kf40}falsches {\kf32}Wissen {\kf16}aus {\kf16}dem {\kf30}Weg.
+Dialogue: 0,0:33:18.68,0:33:21.20,Naechste,,0,0,0,,Und es macht uns, wie Sokrates sagt, sanftmütiger: besonnen genug, nicht zu glauben,
+Dialogue: 1,0:33:21.20,0:33:26.82,Karaoke,,0,0,0,,{\k60}{\kf6}Und {\kf14}es {\kf24}macht {\kf60}uns, {\kf12}wie {\kf44}Sokrates {\kf70}sagt,\N{\kf92}sanftmütiger: {\kf28}besonnen {\kf62}genug, {\kf10}nicht {\kf16}zu {\kf64}glauben,
+Dialogue: 0,0:33:21.20,0:33:26.82,Naechste,,0,0,0,,dass wir wissen, was wir nicht wissen.
+Dialogue: 1,0:33:26.82,0:33:28.63,Karaoke,,0,0,0,,{\k0}{\kf8}dass {\kf18}wir {\kf48}wissen, {\kf12}was {\kf16}wir {\kf16}nicht {\kf28}wissen.
+Dialogue: 0,0:00:01.20,0:00:09.38,Info,,0,0,0,,Abschnitt 1.1 · Was ist Erkenntnis?
+Dialogue: 0,0:00:10.26,0:00:18.28,Info,,0,0,0,,Abschnitt 1.2 · Was ist Erkenntnis?
+Dialogue: 0,0:00:19.10,0:00:32.08,Info,,0,0,0,,Abschnitt 1.3 · Was ist Erkenntnis?
+Dialogue: 0,0:00:32.90,0:00:44.44,Info,,0,0,0,,Abschnitt 1.4 · Was ist Erkenntnis?
+Dialogue: 0,0:00:45.28,0:00:55.58,Info,,0,0,0,,Abschnitt 1.5 · Was ist Erkenntnis?
+Dialogue: 0,0:00:57.98,0:00:59.98,Info,,0,0,0,,gleich: Abschnitt 2.1 · Ein Buch in Megara
+Dialogue: 0,0:00:59.98,0:01:13.24,Info,,0,0,0,,Abschnitt 2.1 · Ein Buch in Megara
+Dialogue: 0,0:01:14.04,0:01:29.90,Info,,0,0,0,,Abschnitt 2.2 · Ein Buch in Megara
+Dialogue: 0,0:01:30.68,0:01:42.88,Info,,0,0,0,,Abschnitt 2.3 · Ein Buch in Megara
+Dialogue: 0,0:01:43.76,0:02:11.00,Info,,0,0,0,,Abschnitt 2.4 · Ein Buch in Megara
+Dialogue: 0,0:02:11.78,0:02:21.66,Info,,0,0,0,,Abschnitt 2.5 · Ein Buch in Megara
+Dialogue: 0,0:02:24.12,0:02:26.12,Info,,0,0,0,,gleich: Abschnitt 3.1 · Drei Personen
+Dialogue: 0,0:02:26.12,0:02:36.34,Info,,0,0,0,,Abschnitt 3.1 · Drei Personen
+Dialogue: 0,0:02:37.34,0:02:51.52,Info,,0,0,0,,Abschnitt 3.2 · Drei Personen
+Dialogue: 0,0:02:52.52,0:03:01.66,Info,,0,0,0,,Abschnitt 3.3 · Drei Personen
+Dialogue: 0,0:03:03.96,0:03:05.96,Info,,0,0,0,,gleich: Abschnitt 4.1 · Die Frage
+Dialogue: 0,0:03:05.96,0:03:12.90,Info,,0,0,0,,Abschnitt 4.1 · Die Frage
+Dialogue: 0,0:03:13.80,0:03:30.56,Info,,0,0,0,,Abschnitt 4.2 · Die Frage
+Dialogue: 0,0:03:31.28,0:03:45.20,Info,,0,0,0,,Abschnitt 4.3 · Die Frage
+Dialogue: 0,0:03:46.18,0:04:04.26,Info,,0,0,0,,Abschnitt 4.4 · Die Frage
+Dialogue: 0,0:04:06.62,0:04:08.62,Info,,0,0,0,,gleich: Abschnitt 5.1 · Die Wurzeln des Theodoros
+Dialogue: 0,0:04:08.62,0:04:24.08,Info,,0,0,0,,Abschnitt 5.1 · Die Wurzeln des Theodoros
+Dialogue: 0,0:04:24.86,0:04:33.44,Info,,0,0,0,,Abschnitt 5.2 · Die Wurzeln des Theodoros
+Dialogue: 0,0:04:34.16,0:04:56.72,Info,,0,0,0,,Abschnitt 5.3 · Die Wurzeln des Theodoros
+Dialogue: 0,0:04:57.80,0:05:22.10,Info,,0,0,0,,Abschnitt 5.4 · Die Wurzeln des Theodoros
+Dialogue: 0,0:05:22.94,0:05:42.82,Info,,0,0,0,,Abschnitt 5.5 · Die Wurzeln des Theodoros
+Dialogue: 0,0:05:43.56,0:05:51.02,Info,,0,0,0,,Abschnitt 5.6 · Die Wurzeln des Theodoros
+Dialogue: 0,0:05:51.84,0:06:12.74,Info,,0,0,0,,Abschnitt 5.7 · Die Wurzeln des Theodoros
+Dialogue: 0,0:06:15.40,0:06:17.40,Info,,0,0,0,,gleich: Abschnitt 6.1 · Die Hebammenkunst
+Dialogue: 0,0:06:17.40,0:06:25.10,Info,,0,0,0,,Abschnitt 6.1 · Die Hebammenkunst
+Dialogue: 0,0:06:26.28,0:06:42.30,Info,,0,0,0,,Abschnitt 6.2 · Die Hebammenkunst
+Dialogue: 0,0:06:42.94,0:06:55.24,Info,,0,0,0,,Abschnitt 6.3 · Die Hebammenkunst
+Dialogue: 0,0:06:56.00,0:07:16.80,Info,,0,0,0,,Abschnitt 6.4 · Die Hebammenkunst
+Dialogue: 0,0:07:17.56,0:07:25.68,Info,,0,0,0,,Abschnitt 6.5 · Die Hebammenkunst
+Dialogue: 0,0:07:28.48,0:07:30.48,Info,,0,0,0,,gleich: Abschnitt 7.1 · Erkenntnis ist Wahrnehmung
+Dialogue: 0,0:07:30.48,0:07:40.40,Info,,0,0,0,,Abschnitt 7.1 · Erkenntnis ist Wahrnehmung
+Dialogue: 0,0:07:41.14,0:07:50.26,Info,,0,0,0,,Abschnitt 7.2 · Erkenntnis ist Wahrnehmung
+Dialogue: 0,0:07:51.30,0:08:04.24,Info,,0,0,0,,Abschnitt 7.3 · Erkenntnis ist Wahrnehmung
+Dialogue: 0,0:08:05.12,0:08:19.58,Info,,0,0,0,,Abschnitt 7.4 · Erkenntnis ist Wahrnehmung
+Dialogue: 0,0:08:21.90,0:08:23.90,Info,,0,0,0,,gleich: Abschnitt 8.1 · Nichts ist, alles wird
+Dialogue: 0,0:08:23.90,0:08:38.94,Info,,0,0,0,,Abschnitt 8.1 · Nichts ist, alles wird
+Dialogue: 0,0:08:39.82,0:08:53.46,Info,,0,0,0,,Abschnitt 8.2 · Nichts ist, alles wird
+Dialogue: 0,0:08:54.44,0:09:12.74,Info,,0,0,0,,Abschnitt 8.3 · Nichts ist, alles wird
+Dialogue: 0,0:09:13.70,0:09:28.66,Info,,0,0,0,,Abschnitt 8.4 · Nichts ist, alles wird
+Dialogue: 0,0:09:29.76,0:09:37.24,Info,,0,0,0,,Abschnitt 8.5 · Nichts ist, alles wird
+Dialogue: 0,0:09:39.90,0:09:41.90,Info,,0,0,0,,gleich: Abschnitt 9.1 · Die Zwillingsgeburt der Wahrnehmung
+Dialogue: 0,0:09:41.90,0:09:58.42,Info,,0,0,0,,Abschnitt 9.1 · Die Zwillingsgeburt der Wahrnehmung
+Dialogue: 0,0:09:59.22,0:10:11.96,Info,,0,0,0,,Abschnitt 9.2 · Die Zwillingsgeburt der Wahrnehmung
+Dialogue: 0,0:10:13.08,0:10:24.72,Info,,0,0,0,,Abschnitt 9.3 · Die Zwillingsgeburt der Wahrnehmung
+Dialogue: 0,0:10:25.50,0:10:40.64,Info,,0,0,0,,Abschnitt 9.4 · Die Zwillingsgeburt der Wahrnehmung
+Dialogue: 0,0:10:43.28,0:10:45.28,Info,,0,0,0,,gleich: Abschnitt 10.1 · Wachen, Träumen, Kranksein
+Dialogue: 0,0:10:45.28,0:11:00.40,Info,,0,0,0,,Abschnitt 10.1 · Wachen, Träumen, Kranksein
+Dialogue: 0,0:11:01.14,0:11:16.98,Info,,0,0,0,,Abschnitt 10.2 · Wachen, Träumen, Kranksein
+Dialogue: 0,0:11:17.74,0:11:28.20,Info,,0,0,0,,Abschnitt 10.3 · Wachen, Träumen, Kranksein
+Dialogue: 0,0:11:29.08,0:11:39.22,Info,,0,0,0,,Abschnitt 10.4 · Wachen, Träumen, Kranksein
+Dialogue: 0,0:11:41.60,0:11:43.60,Info,,0,0,0,,gleich: Abschnitt 11.1 · Erste Prüfungen
+Dialogue: 0,0:11:43.60,0:11:57.24,Info,,0,0,0,,Abschnitt 11.1 · Erste Prüfungen
+Dialogue: 0,0:11:58.04,0:12:11.10,Info,,0,0,0,,Abschnitt 11.2 · Erste Prüfungen
+Dialogue: 0,0:12:12.08,0:12:22.22,Info,,0,0,0,,Abschnitt 11.3 · Erste Prüfungen
+Dialogue: 0,0:12:22.96,0:12:31.68,Info,,0,0,0,,Abschnitt 11.4 · Erste Prüfungen
+Dialogue: 0,0:12:34.32,0:12:36.32,Info,,0,0,0,,gleich: Abschnitt 12.1 · Die Verteidigung des Protagoras
+Dialogue: 0,0:12:36.32,0:12:46.78,Info,,0,0,0,,Abschnitt 12.1 · Die Verteidigung des Protagoras
+Dialogue: 0,0:12:47.54,0:13:08.76,Info,,0,0,0,,Abschnitt 12.2 · Die Verteidigung des Protagoras
+Dialogue: 0,0:13:09.52,0:13:18.38,Info,,0,0,0,,Abschnitt 12.3 · Die Verteidigung des Protagoras
+Dialogue: 0,0:13:20.94,0:13:22.94,Info,,0,0,0,,gleich: Abschnitt 13.1 · Die Selbstwiderlegung
+Dialogue: 0,0:13:22.94,0:13:32.60,Info,,0,0,0,,Abschnitt 13.1 · Die Selbstwiderlegung
+Dialogue: 0,0:13:33.32,0:13:48.00,Info,,0,0,0,,Abschnitt 13.2 · Die Selbstwiderlegung
+Dialogue: 0,0:13:48.86,0:13:58.28,Info,,0,0,0,,Abschnitt 13.3 · Die Selbstwiderlegung
+Dialogue: 0,0:13:59.10,0:14:16.28,Info,,0,0,0,,Abschnitt 13.4 · Die Selbstwiderlegung
+Dialogue: 0,0:14:18.72,0:14:20.72,Info,,0,0,0,,gleich: Abschnitt 14.1 · Der Philosoph und die Magd
+Dialogue: 0,0:14:20.72,0:14:36.02,Info,,0,0,0,,Abschnitt 14.1 · Der Philosoph und die Magd
+Dialogue: 0,0:14:37.10,0:14:51.42,Info,,0,0,0,,Abschnitt 14.2 · Der Philosoph und die Magd
+Dialogue: 0,0:14:52.16,0:15:08.52,Info,,0,0,0,,Abschnitt 14.3 · Der Philosoph und die Magd
+Dialogue: 0,0:15:09.26,0:15:24.52,Info,,0,0,0,,Abschnitt 14.4 · Der Philosoph und die Magd
+Dialogue: 0,0:15:25.56,0:15:37.40,Info,,0,0,0,,Abschnitt 14.5 · Der Philosoph und die Magd
+Dialogue: 0,0:15:39.76,0:15:41.76,Info,,0,0,0,,gleich: Abschnitt 15.1 · Das Argument von der Zukunft
+Dialogue: 0,0:15:41.76,0:15:51.26,Info,,0,0,0,,Abschnitt 15.1 · Das Argument von der Zukunft
+Dialogue: 0,0:15:52.02,0:16:06.06,Info,,0,0,0,,Abschnitt 15.2 · Das Argument von der Zukunft
+Dialogue: 0,0:16:06.90,0:16:22.04,Info,,0,0,0,,Abschnitt 15.3 · Das Argument von der Zukunft
+Dialogue: 0,0:16:24.74,0:16:26.74,Info,,0,0,0,,gleich: Abschnitt 16.1 · Wenn wirklich alles fließt
+Dialogue: 0,0:16:26.74,0:16:40.16,Info,,0,0,0,,Abschnitt 16.1 · Wenn wirklich alles fließt
+Dialogue: 0,0:16:40.96,0:16:51.34,Info,,0,0,0,,Abschnitt 16.2 · Wenn wirklich alles fließt
+Dialogue: 0,0:16:52.26,0:17:07.52,Info,,0,0,0,,Abschnitt 16.3 · Wenn wirklich alles fließt
+Dialogue: 0,0:17:08.22,0:17:25.22,Info,,0,0,0,,Abschnitt 16.4 · Wenn wirklich alles fließt
+Dialogue: 0,0:17:27.64,0:17:29.64,Info,,0,0,0,,gleich: Abschnitt 17.1 · Das hölzerne Pferd
+Dialogue: 0,0:17:29.64,0:17:46.36,Info,,0,0,0,,Abschnitt 17.1 · Das hölzerne Pferd
+Dialogue: 0,0:17:47.08,0:18:02.88,Info,,0,0,0,,Abschnitt 17.2 · Das hölzerne Pferd
+Dialogue: 0,0:18:03.74,0:18:17.00,Info,,0,0,0,,Abschnitt 17.3 · Das hölzerne Pferd
+Dialogue: 0,0:18:17.70,0:18:34.08,Info,,0,0,0,,Abschnitt 17.4 · Das hölzerne Pferd
+Dialogue: 0,0:18:34.86,0:18:52.56,Info,,0,0,0,,Abschnitt 17.5 · Das hölzerne Pferd
+Dialogue: 0,0:18:54.82,0:18:56.82,Info,,0,0,0,,gleich: Abschnitt 18.1 · Erkenntnis ist wahre Meinung
+Dialogue: 0,0:18:56.82,0:19:08.24,Info,,0,0,0,,Abschnitt 18.1 · Erkenntnis ist wahre Meinung
+Dialogue: 0,0:19:09.12,0:19:15.64,Info,,0,0,0,,Abschnitt 18.2 · Erkenntnis ist wahre Meinung
+Dialogue: 0,0:19:16.50,0:19:35.56,Info,,0,0,0,,Abschnitt 18.3 · Erkenntnis ist wahre Meinung
+Dialogue: 0,0:19:36.48,0:19:49.78,Info,,0,0,0,,Abschnitt 18.4 · Erkenntnis ist wahre Meinung
+Dialogue: 0,0:19:52.38,0:19:54.38,Info,,0,0,0,,gleich: Abschnitt 19.1 · Denken als Gespräch der Seele
+Dialogue: 0,0:19:54.38,0:20:04.00,Info,,0,0,0,,Abschnitt 19.1 · Denken als Gespräch der Seele
+Dialogue: 0,0:20:04.96,0:20:23.56,Info,,0,0,0,,Abschnitt 19.2 · Denken als Gespräch der Seele
+Dialogue: 0,0:20:24.26,0:20:36.36,Info,,0,0,0,,Abschnitt 19.3 · Denken als Gespräch der Seele
+Dialogue: 0,0:20:38.76,0:20:40.76,Info,,0,0,0,,gleich: Abschnitt 20.1 · Die Wachstafel
+Dialogue: 0,0:20:40.76,0:20:54.78,Info,,0,0,0,,Abschnitt 20.1 · Die Wachstafel
+Dialogue: 0,0:20:55.68,0:21:09.80,Info,,0,0,0,,Abschnitt 20.2 · Die Wachstafel
+Dialogue: 0,0:21:10.94,0:21:34.40,Info,,0,0,0,,Abschnitt 20.3 · Die Wachstafel
+Dialogue: 0,0:21:35.20,0:21:50.42,Info,,0,0,0,,Abschnitt 20.4 · Die Wachstafel
+Dialogue: 0,0:21:51.56,0:22:10.26,Info,,0,0,0,,Abschnitt 20.5 · Die Wachstafel
+Dialogue: 0,0:22:12.54,0:22:14.54,Info,,0,0,0,,gleich: Abschnitt 21.1 · Fünf und sieben
+Dialogue: 0,0:22:14.54,0:22:26.96,Info,,0,0,0,,Abschnitt 21.1 · Fünf und sieben
+Dialogue: 0,0:22:27.84,0:22:47.16,Info,,0,0,0,,Abschnitt 21.2 · Fünf und sieben
+Dialogue: 0,0:22:49.48,0:22:51.48,Info,,0,0,0,,gleich: Abschnitt 22.1 · Der Taubenschlag
+Dialogue: 0,0:22:51.48,0:23:01.14,Info,,0,0,0,,Abschnitt 22.1 · Der Taubenschlag
+Dialogue: 0,0:23:01.90,0:23:16.84,Info,,0,0,0,,Abschnitt 22.2 · Der Taubenschlag
+Dialogue: 0,0:23:17.68,0:23:34.12,Info,,0,0,0,,Abschnitt 22.3 · Der Taubenschlag
+Dialogue: 0,0:23:35.12,0:23:46.48,Info,,0,0,0,,Abschnitt 22.4 · Der Taubenschlag
+Dialogue: 0,0:23:47.60,0:24:06.16,Info,,0,0,0,,Abschnitt 22.5 · Der Taubenschlag
+Dialogue: 0,0:24:06.90,0:24:15.52,Info,,0,0,0,,Abschnitt 22.6 · Der Taubenschlag
+Dialogue: 0,0:24:18.00,0:24:20.00,Info,,0,0,0,,gleich: Abschnitt 23.1 · Die Richter
+Dialogue: 0,0:24:20.00,0:24:34.86,Info,,0,0,0,,Abschnitt 23.1 · Die Richter
+Dialogue: 0,0:24:35.84,0:24:52.46,Info,,0,0,0,,Abschnitt 23.2 · Die Richter
+Dialogue: 0,0:24:55.20,0:24:57.20,Info,,0,0,0,,gleich: Abschnitt 24.1 · Wahre Meinung mit Logos
+Dialogue: 0,0:24:57.20,0:25:07.02,Info,,0,0,0,,Abschnitt 24.1 · Wahre Meinung mit Logos
+Dialogue: 0,0:25:07.74,0:25:23.74,Info,,0,0,0,,Abschnitt 24.2 · Wahre Meinung mit Logos
+Dialogue: 0,0:25:24.70,0:25:43.56,Info,,0,0,0,,Abschnitt 24.3 · Wahre Meinung mit Logos
+Dialogue: 0,0:25:44.44,0:25:59.92,Info,,0,0,0,,Abschnitt 24.4 · Wahre Meinung mit Logos
+Dialogue: 0,0:26:02.40,0:26:04.40,Info,,0,0,0,,gleich: Abschnitt 25.1 · Buchstabe und Silbe
+Dialogue: 0,0:26:04.40,0:26:16.66,Info,,0,0,0,,Abschnitt 25.1 · Buchstabe und Silbe
+Dialogue: 0,0:26:17.44,0:26:30.12,Info,,0,0,0,,Abschnitt 25.2 · Buchstabe und Silbe
+Dialogue: 0,0:26:31.10,0:26:51.90,Info,,0,0,0,,Abschnitt 25.3 · Buchstabe und Silbe
+Dialogue: 0,0:26:52.66,0:27:01.34,Info,,0,0,0,,Abschnitt 25.4 · Buchstabe und Silbe
+Dialogue: 0,0:27:02.26,0:27:18.84,Info,,0,0,0,,Abschnitt 25.5 · Buchstabe und Silbe
+Dialogue: 0,0:27:21.54,0:27:23.54,Info,,0,0,0,,gleich: Abschnitt 26.1 · Drei Bedeutungen von Logos
+Dialogue: 0,0:27:23.54,0:27:41.40,Info,,0,0,0,,Abschnitt 26.1 · Drei Bedeutungen von Logos
+Dialogue: 0,0:27:42.00,0:27:57.24,Info,,0,0,0,,Abschnitt 26.2 · Drei Bedeutungen von Logos
+Dialogue: 0,0:27:58.14,0:28:21.48,Info,,0,0,0,,Abschnitt 26.3 · Drei Bedeutungen von Logos
+Dialogue: 0,0:28:23.84,0:28:25.84,Info,,0,0,0,,gleich: Abschnitt 27.1 · Das Unterscheidungsmerkmal
+Dialogue: 0,0:28:25.84,0:28:35.02,Info,,0,0,0,,Abschnitt 27.1 · Das Unterscheidungsmerkmal
+Dialogue: 0,0:28:35.82,0:28:59.38,Info,,0,0,0,,Abschnitt 27.2 · Das Unterscheidungsmerkmal
+Dialogue: 0,0:29:00.20,0:29:11.42,Info,,0,0,0,,Abschnitt 27.3 · Das Unterscheidungsmerkmal
+Dialogue: 0,0:29:12.48,0:29:26.90,Info,,0,0,0,,Abschnitt 27.4 · Das Unterscheidungsmerkmal
+Dialogue: 0,0:29:29.20,0:29:31.20,Info,,0,0,0,,gleich: Abschnitt 28.1 · Windeier
+Dialogue: 0,0:29:31.20,0:29:40.68,Info,,0,0,0,,Abschnitt 28.1 · Windeier
+Dialogue: 0,0:29:41.54,0:29:55.78,Info,,0,0,0,,Abschnitt 28.2 · Windeier
+Dialogue: 0,0:29:56.50,0:30:05.90,Info,,0,0,0,,Abschnitt 28.3 · Windeier
+Dialogue: 0,0:30:08.48,0:30:10.48,Info,,0,0,0,,gleich: Abschnitt 29.1 · Warum scheitert der Dialog?
+Dialogue: 0,0:30:10.48,0:30:19.76,Info,,0,0,0,,Abschnitt 29.1 · Warum scheitert der Dialog?
+Dialogue: 0,0:30:20.74,0:30:32.78,Info,,0,0,0,,Abschnitt 29.2 · Warum scheitert der Dialog?
+Dialogue: 0,0:30:33.66,0:30:57.54,Info,,0,0,0,,Abschnitt 29.3 · Warum scheitert der Dialog?
+Dialogue: 0,0:30:58.40,0:31:12.24,Info,,0,0,0,,Abschnitt 29.4 · Warum scheitert der Dialog?
+Dialogue: 0,0:31:13.12,0:31:32.50,Info,,0,0,0,,Abschnitt 29.5 · Warum scheitert der Dialog?
+Dialogue: 0,0:31:34.92,0:31:36.92,Info,,0,0,0,,gleich: Abschnitt 30.1 · Von Platon zu Gettier
+Dialogue: 0,0:31:36.92,0:31:50.04,Info,,0,0,0,,Abschnitt 30.1 · Von Platon zu Gettier
+Dialogue: 0,0:31:50.76,0:32:03.86,Info,,0,0,0,,Abschnitt 30.2 · Von Platon zu Gettier
+Dialogue: 0,0:32:04.94,0:32:19.50,Info,,0,0,0,,Abschnitt 30.3 · Von Platon zu Gettier
+Dialogue: 0,0:32:20.40,0:32:31.54,Info,,0,0,0,,Abschnitt 30.4 · Von Platon zu Gettier
+Dialogue: 0,0:32:32.30,0:32:48.56,Info,,0,0,0,,Abschnitt 30.5 · Von Platon zu Gettier
+Dialogue: 0,0:32:51.04,0:32:53.04,Info,,0,0,0,,gleich: Abschnitt 31.1 · Was bleibt
+Dialogue: 0,0:32:53.04,0:33:11.60,Info,,0,0,0,,Abschnitt 31.1 · Was bleibt
+Dialogue: 0,0:33:12.54,0:33:28.28,Info,,0,0,0,,Abschnitt 31.2 · Was bleibt
+Dialogue: 0,0:33:29.28,0:33:55.64,Pause,,0,0,0,,Abspann – Ende der Aufnahme

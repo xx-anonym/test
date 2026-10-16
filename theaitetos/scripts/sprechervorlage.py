@@ -35,34 +35,58 @@ NEXT_WINDOW = 6.0     # show the following line if it starts within this many se
 
 
 # ------------------------------------------------------------ the plan
+def voice_envelope(audio):
+    """Envelope above 1.5 kHz: the ambient pad is low-passed at 1.5 kHz (scripts/music.py),
+    so only the voice is left there (pad alone: about −100 dB, voice: about −35 dB)."""
+    from scipy.signal import butter, sosfiltfilt
+    sos = butter(4, 1500, 'highpass', fs=es.RATE, output='sos')
+    return es.envelope(sosfiltfilt(sos, audio).astype(np.float32))
+
+
 def build_plan(model):
     segs = es.segments()
     words = es.take_words(es.VIDEO, None, model)
     found = es.locate([(s['id'], s['sentences']) for s in segs], words)
-    env = es.envelope(es.load(es.VIDEO))
+    env = voice_envelope(es.load(es.VIDEO))
     total = len(env) * es.HOP
-    out, missing = [], []
+
+    # every sentence starts with the first voice after the pause that follows the one before;
+    # Whisper often lets a word begin inside the pause in front of it
+    seq, missing = [], []
     for seg in segs:
         f = found.get(seg['id'])
-        sents = []
-        for k, text in enumerate(seg['sentences']):
-            span = f['spans'][k] if f else None
-            if span is None:
-                sents.append(None)
-                continue
-            t0, t1, head = span
-            on = es.first_loud(env, t0 - 0.3, max(head, t0 + 0.3))
-            off = es.last_loud(env, t1 - 0.3, t1 + 0.4)
-            sents.append({'text': text, 'start': on if on is not None else t0,
-                          'end': off if off is not None else t1, 'heard': f['tokens'][k]})
-        if any(s is None for s in sents):        # fall back to the even layout of scripts/srt.py
+        if f is None or any(sp is None for sp in f['spans']):
             missing.append(seg['id'])
+            continue
+        for k, (t0, t1, head) in enumerate(f['spans']):
+            seq.append((seg['id'], k, t0, t1, head, f['tokens'][k]))
+    timed, prev = {}, None
+    for i, (sid, k, t0, t1, head, heard) in enumerate(seq):
+        lo = t0 - 0.3 if prev is None else max(prev['start'] + 0.3, min(prev['t1'], t0) - 0.6)
+        p = es.pause_near(env, lo, min(t1, head + 0.6), head, min_len=0.15)
+        on = es.first_loud(env, p if p is not None else max(lo, t0 - 0.3), head + 0.3)
+        if on is None:                          # the first word was dated far too early
+            on = es.first_loud(env, p if p is not None else lo, t1)
+        timed[(sid, k)] = prev = {'start': on if on is not None else t0, 'pause': p, 't1': t1, 'heard': heard}
+    keys = list(timed)
+    for a, b in zip(keys, keys[1:] + [None]):
+        stop = timed[b]['pause'] if b and timed[b]['pause'] else (timed[b]['start'] - 0.1 if b else timed[a]['t1'] + 0.5)
+        off = es.last_loud(env, timed[a]['start'], stop)
+        timed[a]['end'] = off if off is not None else timed[a]['t1']
+
+    out = []
+    for seg in segs:
+        if seg['id'] in missing:                # fall back to the even layout of scripts/srt.py
             sents = even_layout(seg)
+        else:
+            sents = [{'text': text, **timed[(seg['id'], k)]} for k, text in enumerate(seg['sentences'])]
         for s in sents:
             weights = [max(1, len(''.join(es.norm_words(t)))) for t in s['text'].split()]
-            heard = s.pop('heard', None) or [None] * len(weights)
-            heard = [t if t is None or s['start'] - 0.1 <= t <= s['end'] else None for t in heard]
+            heard = s.get('heard') or [None] * len(weights)
+            heard = [t if t is None or s['start'] < t < s['end'] else None for t in heard]
             heard[0] = s['start']
+            for key in ('heard', 'pause', 't1'):
+                s.pop(key, None)
             s['words'] = [round(t, 3) for t in es.fill_times(heard, s['start'], s['end'], weights)]
             s['start'], s['end'] = round(s['start'], 3), round(s['end'], 3)
         out.append({'id': seg['id'], 'scene': seg['scene'], 'scene_id': seg['scene_id'],

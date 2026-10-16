@@ -29,6 +29,9 @@ mit Autor und Jahr. Das vollständige Literaturverzeichnis läuft im Abspann
 | `scripts/mix.py` | legt Stimme und Musik an die richtigen Stellen, normalisiert auf −16 LUFS und mischt mit dem Video |
 | `scripts/srt.py` | Untertitel `out/theaitetos.srt` |
 | `scripts/stills.mjs` | Standbilder zur Kontrolle, z. B. `node scripts/stills.mjs wachs:2:0.5` |
+| `scripts/sprechervorlage.py` | Sprechplan `src/data/sprechplan.json`, Karaoke-Untertitel `video/karaoke.ass`, Vorlage `out/sprechervorlage.mp4` |
+| `scripts/stimme_ersetzen.py` | setzt eigene Sprachaufnahmen ein: `out/theaitetos_eigene_stimme.mp4` und `.srt` |
+| `scripts/eigene_stimme.py` | gemeinsame Bausteine der beiden (Whisper, Zuordnung zum Skript, Audio) |
 
 ## Erzeugen
 
@@ -46,6 +49,33 @@ python3 scripts/srt.py
 Piper spricht nicht deterministisch: Jeder neue Durchlauf erzeugt leicht andere Längen.
 `tts.py` synthetisiert deshalb nur Abschnitte neu, deren gesprochener Text sich geändert
 hat. Die Sprachaufnahmen selbst sind nicht im Repository (rund 90 MB).
+
+## Selbst einsprechen
+
+Benötigt eine virtuelle Umgebung mit `faster-whisper num2words scipy` und ffmpeg mit libass.
+
+1. **Vorlage:** `out/sprechervorlage.mp4` (Bild mit Karaoke-Text, ohne Ton) – oder
+   `video/Theaitetos.mp4` mit `video/karaoke.ass` in VLC/mpv. Das Wort, das gerade dran ist,
+   füllt sich gold; darunter steht gedimmt die nächste Zeile, oben rechts Abschnitt und Szene
+   („Abschnitt 5.3 · Die Wurzeln des Theodoros“: Szene 5, dritter Abschnitt; Szene 1 ist die
+   Einleitung, Szene 2 Kapitel I). Erzeugen mit `python scripts/sprechervorlage.py`: Whisper
+   misst im Ton des fertigen Videos, wann die bisherige Stimme jeden Satz und jedes Wort spricht
+   (oberhalb von 1,5 kHz, wo der Musikteppich nichts mehr beiträgt).
+2. **Aufnehmen**, in einem Stück oder szenenweise. Dateinamen (wav, mp3, m4a, flac …):
+
+   | Datei | wird angelegt als |
+   | --- | --- |
+   | `szene_05.wav` (auch `05.wav`, `mathematik.m4a`) | Szene 5 |
+   | `5.3.wav` (auch `abschnitt_5.3.wav`) | Nachaufnahme von Abschnitt 5.3, ersetzt ihn |
+   | eine einzige Datei mit anderem Namen | das ganze Video |
+
+3. **Einsetzen:** `python scripts/stimme_ersetzen.py aufnahmen/` (oder eine Datei). Whisper
+   findet jeden Satz in der Aufnahme; geschnitten wird in den Sprechpausen, jeder Satz kommt an
+   die Stelle, an der die Animation ihn erwartet, gestreckt wird nichts. Der Musikteppich wird
+   wie in `scripts/mix.py` daruntergelegt (unter der Stimme abgesenkt, −16 LUFS). Ergebnis:
+   `out/theaitetos_eigene_stimme.mp4` und `.srt`; `video/Theaitetos.mp4` bleibt unverändert.
+   Die Ausgabe nennt, wie weit die Aufnahme vom Takt der Vorlage abwich, und Stellen zum
+   Nachhören (nicht gefunden, mehr Wörter als im Skript, deutlich verschoben).
 
 ## Quellenarbeit
 

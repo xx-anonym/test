@@ -86,6 +86,27 @@ def scope(plan, kind, key, path):
     return hit
 
 
+def summarize(ids, plan):
+    """'Szene 1, 3–4, 6–31; Abschnitt 5.2' instead of every segment id."""
+    per_scene = {}
+    for seg in plan['segments']:
+        per_scene.setdefault(seg['scene'], []).append(seg['id'])
+    whole = [n for n, sids in per_scene.items() if all(x in ids for x in sids)]
+    single = [x for x in ids if int(x.split('.')[0]) not in whole]
+    runs = []
+    for n in whole:
+        if runs and n == runs[-1][1] + 1:
+            runs[-1][1] = n
+        else:
+            runs.append([n, n])
+    parts = []
+    if runs:
+        parts.append('Szene ' + ', '.join(f'{a}' if a == b else f'{a}–{b}' for a, b in runs))
+    if single:
+        parts.append('Abschnitt ' + ', '.join(single))
+    return '; '.join(parts)
+
+
 # ------------------------------------------------------------ cutting and laying out
 def cut(segs, audio, found):
     """Pieces of a take, cut in the speaker's pauses between sentences (always between
@@ -272,7 +293,7 @@ def main():
               + ('' if args.ohne_feinabgleich else ' – wird angeglichen'))
         lost = [s['id'] for s in segs if s['id'] not in found]
         if lost:
-            notes.append(f'{name}: nicht gefunden, bitte anhören: Abschnitt ' + ', '.join(lost))
+            notes.append(f'{name}: nicht gefunden, bitte anhören: ' + summarize(lost, plan))
         gaps = [f'{sid}/{k + 1}' for sid, f in found.items() for k, s in enumerate(f['spans']) if s is None]
         if gaps:
             notes.append(f'{name}: Sätze kaum erkannt (bleiben am Satz davor): ' + ', '.join(gaps))
@@ -300,7 +321,7 @@ def main():
                      + ', '.join(f'{s} ({v:+.1f} s)' for s, v in sorted(moved.items(), key=lambda x: order.index(x[0]))))
     silent = [sid for sid in order if sid not in by_seg]
     if silent:
-        notes.append('ohne Aufnahme (dort ist jetzt nur Musik): Abschnitt ' + ', '.join(silent))
+        notes.append('ohne Aufnahme (dort ist jetzt nur Musik): ' + summarize(silent, plan))
     for line in notes:
         print('Hinweis: ' + line)
 
