@@ -32,6 +32,7 @@ mit Autor und Jahr. Das vollständige Literaturverzeichnis läuft im Abspann
 | `scripts/sprechervorlage.py` | Sprechplan `src/data/sprechplan.json`, Karaoke-Untertitel `video/karaoke.ass`, Vorlage `out/sprechervorlage.mp4` |
 | `scripts/stimme_ersetzen.py` | setzt eigene Sprachaufnahmen ein: `out/theaitetos_eigene_stimme.mp4` und `.srt` |
 | `scripts/thumbnail.html`, `scripts/thumbnail.py` | YouTube-Thumbnail `video/thumbnail.jpg` (1280 × 720) im Look des Videos |
+| `scripts/abspann_ersetzen.py` | Bild mit neu gerendertem Abspann `out/theaitetos_bild.mp4` |
 | `scripts/eigene_stimme.py` | gemeinsame Bausteine der beiden (Whisper, Zuordnung zum Skript, Audio) |
 
 ## Erzeugen
@@ -75,6 +76,9 @@ Benötigt eine virtuelle Umgebung mit `faster-whisper num2words scipy` und ffmpe
    die Stelle, an der die Animation ihn erwartet, gestreckt wird nichts. Der Musikteppich wird
    wie in `scripts/mix.py` daruntergelegt (unter der Stimme abgesenkt, −16 LUFS). Ergebnis:
    `out/theaitetos_eigene_stimme.mp4` und `.srt`; `video/Theaitetos.mp4` bleibt unverändert.
+   Das Bild kommt aus `out/theaitetos_bild.mp4`, falls vorhanden: `python3 scripts/abspann_ersetzen.py`
+   rendert dafür den Abspann aus dem aktuellen Quelltext neu (ohne die Zeile zur Piper-Stimme, die im
+   Abspann von `video/Theaitetos.mp4` noch steht) und übernimmt alles davor unverändert.
    Die Ausgabe nennt, wie weit die Aufnahme vom Takt der Vorlage abwich, und Stellen zum
    Nachhören (nicht gefunden, mehr Wörter als im Skript, deutlich verschoben).
 

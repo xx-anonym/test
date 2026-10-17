@@ -19,7 +19,7 @@ enough (least squares) to keep a natural pause. A segment take replaces that seg
 scene or whole-video take. The ambient pad is mixed in as in scripts/mix.py (ducked under
 the voice, −16 LUFS). Transcripts are cached in out/eigene_stimme/.
 
-Result (picture from video/Theaitetos.mp4, unchanged):
+Result (picture from out/theaitetos_bild.mp4 – see scripts/abspann_ersetzen.py – or video/Theaitetos.mp4):
     out/theaitetos_eigene_stimme.mp4   video with your voice
     out/theaitetos_eigene_stimme.srt   subtitles timed to your voice
 """
@@ -39,6 +39,7 @@ from sprechervorlage import load_plan  # noqa: E402
 from srt import chunks, ts, wrap  # noqa: E402
 
 OUT = os.path.join(es.ROOT, 'out', 'theaitetos_eigene_stimme.mp4')
+BILD = os.path.join(es.ROOT, 'out', 'theaitetos_bild.mp4')   # picture with current credits (abspann_ersetzen.py)
 PAD = os.path.join(es.ROOT, 'public', 'music', 'pad.wav')
 AUDIO_EXT = ('.wav', '.mp3', '.m4a', '.aac', '.flac', '.ogg', '.opus', '.aiff', '.aif', '.wma', '.mp4', '.mov')
 
@@ -363,7 +364,12 @@ def main():
 
 
 def mix(voice, total, music_db, out):
-    """Voice + ambient pad as in scripts/mix.py, with the picture of video/Theaitetos.mp4."""
+    """Voice + ambient pad as in scripts/mix.py, with the picture of out/theaitetos_bild.mp4
+    (credits from the current source) or else video/Theaitetos.mp4."""
+    picture = BILD if os.path.exists(BILD) else es.VIDEO
+    if picture == es.VIDEO:
+        print('Hinweis: Bild aus video/Theaitetos.mp4 – dessen Abspann nennt noch die Piper-Stimme; '
+              'vorher python3 scripts/abspann_ersetzen.py')
     gain = 10 ** (music_db / 20)
     graph = (
         '[1:a]aresample=48000,pan=stereo|c0=c0|c1=c0,asplit=2[v][sc];'
@@ -374,7 +380,7 @@ def mix(voice, total, music_db, out):
         'loudnorm=I=-16:TP=-1.5:LRA=11,aresample=48000[a]'
     )
     tmp = os.path.join(es.WORK, 'neu.mp4')
-    subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', es.VIDEO, '-i', voice, '-stream_loop', '-1', '-i', PAD,
+    subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', picture, '-i', voice, '-stream_loop', '-1', '-i', PAD,
                     '-filter_complex', graph, '-map', '0:v', '-map', '[a]',
                     '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart',
                     '-t', f'{total:.3f}', tmp], check=True)
