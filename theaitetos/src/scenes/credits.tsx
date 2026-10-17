@@ -28,7 +28,7 @@ export const Credits: React.FC = () => {
             ))}
           </div>
         ))}
-        <div style={{ marginTop: 140, ...T.italic(36, C.muted) }}>Sprecherstimme: Piper TTS (Thorsten) · Animation: Remotion</div>
+        <div style={{ marginTop: 140, ...T.italic(36, C.muted) }}>Animation: Remotion</div>
       </div>
     </AbsoluteFill>
   );

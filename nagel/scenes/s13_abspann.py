@@ -12,8 +12,6 @@ HOLD = 5.0          # final card at the end
 MEDIA = [
     ('Hörbeispiel', '„Bat feeding buzz.wav“, Kaldari, Wikimedia Commons, aufgenommen 11.11.2020 in Pennsylvania; '
                     'CC0 1.0; im Video 10-fach verlangsamt wie in der Originaldatei'),
-    ('Sprecherstimme', 'synthetisch: Piper (piper-tts 1.8.0), Stimme de_DE-thorsten-high (Datensatz Thorsten-Voice, '
-                       'CC0; Modell feinabgestimmt aus dem englischen Basismodell „lessac“)'),
     ('Schriften', 'Inter (The Inter Project Authors) und Source Serif 4 (Adobe), beide SIL Open Font License 1.1'),
     ('Grafiken und Animation', 'alle selbst erstellt mit Manim Community 0.22, NumPy, SciPy, Matplotlib; '
                                'Ton und Schnitt mit FFmpeg'),
@@ -52,7 +50,7 @@ class Kapitel13(Scene):
         media = VGroup(*[VGroup(txt(k, size=16, color=MUTED, weight=MEDIUM), txt(v, size=15, width=100))
                          .arrange(DOWN, aligned_edge=LEFT, buff=0.06) for k, v in MEDIA]).arrange(DOWN, aligned_edge=LEFT,
                                                                                                   buff=0.2)
-        med = VGroup(txt('Medien, Stimme, Werkzeuge', size=30, color=OCHRE, weight=SEMIBOLD), media).arrange(DOWN, buff=0.35)
+        med = VGroup(txt('Medien und Werkzeuge', size=30, color=OCHRE, weight=SEMIBOLD), media).arrange(DOWN, buff=0.35)
         notes = VGroup(*[txt(n, size=15, width=110) for n in NOTES]).arrange(DOWN, aligned_edge=LEFT, buff=0.16)
         nts = VGroup(txt('Hinweise', size=30, color=OCHRE, weight=SEMIBOLD), notes).arrange(DOWN, buff=0.35)
         roll = VGroup(lit, med, nts).arrange(DOWN, buff=0.9)
